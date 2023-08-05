@@ -1,0 +1,10 @@
+vtb_http_interaction/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vtb_http_interaction/errors.py,sha256=_mJpwMJK4RNXUMQS03LIRA1DUXN5CjNUQz861ypt1ow,324
+vtb_http_interaction/http_utils.py,sha256=HAp10HSfj0lEru5XAybXBJ3jBjyZoLtGU5t9yXftUs8,1978
+vtb_http_interaction/keycloak_gateway.py,sha256=iqIs3RyGyudfYtLjm_65H_9Z0bC4QOCTYkdRhIiitHw,4540
+vtb_http_interaction/process_authorization_header.py,sha256=xgTPrrIyCmQIfLP-AblkB_Jnp365ELirG3Bo2i_sVMA,10309
+vtb_http_interaction/services.py,sha256=vA5xZbSA0aVPFxyOqKouDRBWlZvQBCdgTqZ8nmWkuz0,11698
+vtb_http_interaction-0.1.3.dist-info/METADATA,sha256=auEFTb0u-ZQBPu9C3kbvwNU2-zDzPfiUYSg9xC_NOzw,1313
+vtb_http_interaction-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vtb_http_interaction-0.1.3.dist-info/top_level.txt,sha256=ptqISVSoCZ_n0thf1sIAc-V1m4u9t3W2RWdWnZENEx4,21
+vtb_http_interaction-0.1.3.dist-info/RECORD,,
