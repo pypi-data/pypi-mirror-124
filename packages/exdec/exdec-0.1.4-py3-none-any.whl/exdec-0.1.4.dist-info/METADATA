@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: exdec
+Version: 0.1.4
+Summary: Decorator for catching exceptions in functions and methods.
+Home-page: https://github.com/EvgeniyBurdin/exdec
+Author: Evgeniy Burdin
+Author-email: e.s.burdin@gmail.com
+License: MIT
+Keywords: decorator function method exception try except
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# exdec
+
+[![PyPI](https://img.shields.io/pypi/v/exdec)](https://pypi.org/project/exdec)
+
+Decorator for catching exceptions in functions and methods.
+
+## Installation
+
+```bash
+pip install exdec
+```
+
+
