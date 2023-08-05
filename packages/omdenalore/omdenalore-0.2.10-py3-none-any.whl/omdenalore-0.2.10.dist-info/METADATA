@@ -1,0 +1,293 @@
+Metadata-Version: 2.1
+Name: omdenalore
+Version: 0.2.10
+Summary: AI for Good library
+Home-page: https://omdena.com/omdenalore/
+Author: Omdena Collaborators
+Author-email: kaushal@omdena.com
+License: UNKNOWN
+Project-URL: Documentation, https://omdenaai.github.io/
+Project-URL: OmdenaLore Article, https://omdena.com/blog/worlds-largest-ai4good-python-library-omdenalore/
+Project-URL: Apply to be a contributor, https://airtable.com/shrue8xCVpjPvDD1g
+Project-URL: Become a partner, https://bit.ly/omdenalore_company
+Project-URL: Join discord, https://discord.gg/s9h7JvJzUx
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: absl-py (==0.14.1)
+Requires-Dist: affine (==2.3.0)
+Requires-Dist: albumentations (==1.1.0)
+Requires-Dist: altair (==4.1.0)
+Requires-Dist: appdirs (==1.4.4)
+Requires-Dist: appnope (==0.1.2)
+Requires-Dist: argcomplete (==1.12.3)
+Requires-Dist: argon2-cffi (==20.1.0)
+Requires-Dist: astor (==0.8.1)
+Requires-Dist: astunparse (==1.6.3)
+Requires-Dist: attrs (==21.2.0)
+Requires-Dist: backcall (==0.2.0)
+Requires-Dist: backports.entry-points-selectable (==1.1.0)
+Requires-Dist: backports.zoneinfo (==0.2.1)
+Requires-Dist: base58 (==2.1.0)
+Requires-Dist: black (==20.8b1)
+Requires-Dist: bleach (==4.0.0)
+Requires-Dist: blinker (==1.4)
+Requires-Dist: blis (==0.7.4)
+Requires-Dist: cached-property (==1.5.2)
+Requires-Dist: cachetools (==4.2.2)
+Requires-Dist: catalogue (==2.0.6)
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: cffi (==1.14.6)
+Requires-Dist: cfgv (==3.3.0)
+Requires-Dist: charset-normalizer (==2.0.4)
+Requires-Dist: clang (==5.0)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: click-plugins (==1.1.1)
+Requires-Dist: cligj (==0.7.2)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: configparser (==5.0.2)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: cymem (==2.0.5)
+Requires-Dist: datasets (==1.11.0)
+Requires-Dist: debugpy (==1.4.1)
+Requires-Dist: decorator (==5.0.9)
+Requires-Dist: defusedxml (==0.7.1)
+Requires-Dist: dill (==0.3.4)
+Requires-Dist: distlib (==0.3.2)
+Requires-Dist: docker-pycreds (==0.4.0)
+Requires-Dist: earthengine-api (==0.1.285)
+Requires-Dist: entrypoints (==0.3)
+Requires-Dist: filelock (==3.0.12)
+Requires-Dist: Fiona (==1.8.20)
+Requires-Dist: flake8 (==3.9.2)
+Requires-Dist: flatbuffers (==1.12)
+Requires-Dist: fsspec (==2021.7.0)
+Requires-Dist: future (==0.18.2)
+Requires-Dist: gast (==0.3.3)
+Requires-Dist: geopandas (==0.10.1)
+Requires-Dist: gensim (==4.0.1)
+Requires-Dist: gitdb (==4.0.7)
+Requires-Dist: GitPython (==3.1.18)
+Requires-Dist: google-api-core (==1.31.3)
+Requires-Dist: google-api-python-client (==1.12.8)
+Requires-Dist: google-auth (==1.35.0)
+Requires-Dist: google-auth-httplib2 (==0.1.0)
+Requires-Dist: google-auth-oauthlib (==0.4.6)
+Requires-Dist: google-cloud-core (==2.1.0)
+Requires-Dist: google-cloud-storage (==1.42.3)
+Requires-Dist: google-crc32c (==1.3.0)
+Requires-Dist: google-pasta (==0.2.0)
+Requires-Dist: google-resumable-media (==2.0.3)
+Requires-Dist: googleapis-common-protos (==1.53.0)
+Requires-Dist: greenlet (==1.1.2)
+Requires-Dist: grpcio (==1.32.0)
+Requires-Dist: h5py (==2.10.0)
+Requires-Dist: httplib2 (==0.20.1)
+Requires-Dist: httplib2shim (==0.0.3)
+Requires-Dist: huggingface-hub (==0.0.12)
+Requires-Dist: identify (==2.2.13)
+Requires-Dist: idna (==3.2)
+Requires-Dist: image-similarity-measures (==0.3.5)
+Requires-Dist: imageio (==2.9.0)
+Requires-Dist: importlib-metadata (==4.8.1)
+Requires-Dist: interrogate (==1.4.0)
+Requires-Dist: ipykernel (==6.2.0)
+Requires-Dist: ipython (==7.26.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: ipywidgets (==7.6.3)
+Requires-Dist: jedi (==0.18.0)
+Requires-Dist: Jinja2 (==3.0.1)
+Requires-Dist: joblib (==1.0.1)
+Requires-Dist: jsonschema (==3.2.0)
+Requires-Dist: jupyter-client (==7.0.1)
+Requires-Dist: jupyter-core (==4.7.1)
+Requires-Dist: jupyterlab-pygments (==0.1.2)
+Requires-Dist: jupyterlab-widgets (==1.0.0)
+Requires-Dist: keras (==2.6.0)
+Requires-Dist: Keras-Preprocessing (==1.1.2)
+Requires-Dist: kiwisolver (==1.3.1)
+Requires-Dist: langdetect (==1.0.9)
+Requires-Dist: mahotas (==1.4.11)
+Requires-Dist: Markdown (==3.3.4)
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: matplotlib (==3.4.2)
+Requires-Dist: matplotlib-inline (==0.1.2)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: mistune (==0.8.4)
+Requires-Dist: msgpack (==1.0.2)
+Requires-Dist: multiprocess (==0.70.12.2)
+Requires-Dist: munch (==2.5.0)
+Requires-Dist: murmurhash (==1.0.5)
+Requires-Dist: mypy-extensions (==0.4.3)
+Requires-Dist: nbclient (==0.5.4)
+Requires-Dist: nbconvert (==6.1.0)
+Requires-Dist: nbformat (==5.1.3)
+Requires-Dist: nest-asyncio (==1.5.1)
+Requires-Dist: networkx (==2.6.2)
+Requires-Dist: nodeenv (==1.6.0)
+Requires-Dist: notebook (==6.4.3)
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: oauthlib (==3.1.1)
+Requires-Dist: opencv-contrib-python (==4.5.3.56)
+Requires-Dist: opencv-python (==4.5.2.54)
+Requires-Dist: opencv-python-headless (==4.5.3.56)
+Requires-Dist: opt-einsum (==3.3.0)
+Requires-Dist: packaging (==21.0)
+Requires-Dist: pandas (==1.3.1)
+Requires-Dist: pandocfilters (==1.4.3)
+Requires-Dist: parso (==0.8.2)
+Requires-Dist: pathspec (==0.9.0)
+Requires-Dist: pathtools (==0.1.2)
+Requires-Dist: pathy (==0.6.0)
+Requires-Dist: patsy (==0.5.2)
+Requires-Dist: pexpect (==4.8.0)
+Requires-Dist: phasepack (==1.5)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: Pillow (==8.2.0)
+Requires-Dist: platformdirs (==2.2.0)
+Requires-Dist: pre-commit (==2.14.0)
+Requires-Dist: preshed (==3.0.5)
+Requires-Dist: prometheus-client (==0.11.0)
+Requires-Dist: promise (==2.3)
+Requires-Dist: prompt-toolkit (==3.0.20)
+Requires-Dist: protobuf (==3.17.3)
+Requires-Dist: psutil (==5.8.0)
+Requires-Dist: ptyprocess (==0.7.0)
+Requires-Dist: py (==1.10.0)
+Requires-Dist: pyarrow (==5.0.0)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: pyasn1-modules (==0.2.8)
+Requires-Dist: pycodestyle (==2.7.0)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: pydantic (==1.8.2)
+Requires-Dist: pydeck (==0.6.2)
+Requires-Dist: pyFFTW (==0.12.0)
+Requires-Dist: pyflakes (==2.3.1)
+Requires-Dist: Pygments (==2.10.0)
+Requires-Dist: pynvim (==0.4.3)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: pyproj (==3.2.1)
+Requires-Dist: pyrsistent (==0.18.0)
+Requires-Dist: pytesseract (==0.3.8)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: PyWavelets (==1.1.1)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: pyzmq (==22.2.1)
+Requires-Dist: qudida (==0.0.4)
+Requires-Dist: rasterio (==1.2.9)
+Requires-Dist: regex (==2021.8.21)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: requests-oauthlib (==1.3.0)
+Requires-Dist: rioxarray (==0.7.1)
+Requires-Dist: rsa (==4.7.2)
+Requires-Dist: sacremoses (==0.0.45)
+Requires-Dist: scikit-image (==0.18.3)
+Requires-Dist: scikit-learn (==0.24.2)
+Requires-Dist: scipy (==1.7.1)
+Requires-Dist: seaborn (==0.11.2)
+Requires-Dist: Send2Trash (==1.8.0)
+Requires-Dist: sentencepiece (==0.1.96)
+Requires-Dist: sentry-sdk (==1.3.1)
+Requires-Dist: seqeval (==1.2.2)
+Requires-Dist: Shapely (==1.7.1)
+Requires-Dist: shortuuid (==1.0.1)
+Requires-Dist: simpletransformers (==0.61.13)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: smart-open (==5.2.0)
+Requires-Dist: smmap (==4.0.0)
+Requires-Dist: snuggs (==1.4.7)
+Requires-Dist: spacy (==3.1.1)
+Requires-Dist: spacy-legacy (==3.0.8)
+Requires-Dist: srsly (==2.4.1)
+Requires-Dist: statsmodels (==0.13.0)
+Requires-Dist: streamlit (==0.87.0)
+Requires-Dist: subprocess32 (==3.5.4)
+Requires-Dist: tabulate (==0.8.9)
+Requires-Dist: tensorboard (==2.6.0)
+Requires-Dist: tensorboard-data-server (==0.6.1)
+Requires-Dist: tensorboard-plugin-wit (==1.8.0)
+Requires-Dist: tensorboardX (==2.4)
+Requires-Dist: tensorflow (==2.4.0)
+Requires-Dist: tensorflow-estimator (==2.4.0)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: terminado (==0.11.1)
+Requires-Dist: testpath (==0.5.0)
+Requires-Dist: thinc (==8.0.8)
+Requires-Dist: threadpoolctl (==2.2.0)
+Requires-Dist: tifffile (==2021.8.30)
+Requires-Dist: tokenizers (==0.10.3)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: tomli (==1.2.1)
+Requires-Dist: toolz (==0.11.1)
+Requires-Dist: torch (==1.9.1)
+Requires-Dist: tornado (==6.1)
+Requires-Dist: tqdm (==4.62.2)
+Requires-Dist: traitlets (==5.0.5)
+Requires-Dist: transformers (==4.9.2)
+Requires-Dist: typed-ast (==1.4.3)
+Requires-Dist: typer (==0.3.2)
+Requires-Dist: typing-extensions (==3.7.4.3)
+Requires-Dist: tzlocal (==3.0)
+Requires-Dist: uritemplate (==3.0.1)
+Requires-Dist: urllib3 (==1.26.6)
+Requires-Dist: validators (==0.18.2)
+Requires-Dist: virtualenv (==20.7.2)
+Requires-Dist: wandb (==0.12.0)
+Requires-Dist: wasabi (==0.8.2)
+Requires-Dist: wcwidth (==0.2.5)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: Werkzeug (==2.0.2)
+Requires-Dist: widgetsnbextension (==3.5.1)
+Requires-Dist: wrapt (==1.12.1)
+Requires-Dist: wordcloud (==1.5.0)
+Requires-Dist: xarray (==0.19.0)
+Requires-Dist: xxhash (==2.0.2)
+Requires-Dist: zipp (==3.6.0)
+
+# OmdenaLore
+
+OmdenaLore is a community-driven library build by certified Omdena collaborators. The codebase is a mixture of tutorials and codes structured by specific domain names. With a growing number of collaborators, the library is ever-growing and versatile to handle simple and complex data science tasks.
+
+**We encourage coders around the world to collaborate in the repository and make a real-world impact. Get access to the repository and the community here.**
+
+### [Documentation and Guidelines](https://omdenaai.github.io/)
+
+## FAQ and Support
+If you have a question that is not listed below, please feel free to reach out to us at kaushal@omdena.com
+
+Q. Will there be a redundancy check to make sure the code pushed in the Pull Requests is verified?
+
+Yes: The main branch is protected in the repository which means that for a Pull Request to be merged into the main branch, at least one reviewer will need to review it.
+
+Q. Will we have access to the repository?
+
+Yes: Since this repository is private, you will be given push access ON REQUEST to the repository. To submit a request, please fill this request form.
+
+Q. Can I push my changes to the main branch?
+
+No: In order to make sure the main branch consists of functional and usable code for all collaborators, we have protected the branch so that a proper Pull Request + review process can be used to merge new changes into the main branch.
+
+Q. Is it okay if I add code from the internet to the repository?
+
+Yes: The code taken from the internet is acceptable but please make sure that a similar or same code doesn’t exist in the repository.
+
+Q. How do I check if a code already exists in the repository or not?
+
+The repository is divided into several domains and all domains contain name specific modules. According to the functionality of the code you are pushing, please check the corresponding domain folder and module to see if a similar code exists or not.
+
+Q. Do I need to take care of any specification before I create a pull request?
+
+Yes: Please refer to the Guideline section of this document.
+
+Q. Should I add author name or credits to the code?
+
+Optional: If you wish to add credits or author name to the code, please do so in the doc string of your functions or end of the module.
+
+Q. What should I do if I don’t find any modules or domain folder for my code?
+
+If you don’t find an appropriate location for your code, you can create your own folder or module. If you are unsure if a similar module or domain exists, please get in touch with the repository manager or get support from the Omdena team.
+
