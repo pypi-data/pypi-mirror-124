@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: akantu
+Version: 4.0.0
+Summary: Akantu: Swiss-Made Open-Source Finite-Element Library
+Home-page: https://akantu.ch
+Author: Nicolas Richart
+Author-email: nicolas.richart@epfl.ch
+License: L-GPLv3
+Project-URL: Bug Tracker, https://github.com/akantu/akantu/issues
+Platform: 
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+License-File: COPYING
+License-File: COPYING.lesser
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
