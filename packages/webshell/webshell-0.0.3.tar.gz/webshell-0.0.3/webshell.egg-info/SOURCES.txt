@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+webshell/__init__.py
+webshell.egg-info/PKG-INFO
+webshell.egg-info/SOURCES.txt
+webshell.egg-info/dependency_links.txt
+webshell.egg-info/requires.txt
+webshell.egg-info/top_level.txt
+webshell/static/index.css
+webshell/templates/form.html

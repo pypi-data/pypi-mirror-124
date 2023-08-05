@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <title>Web - Shell</title>
+    <meta name="description" content="An easy to use web form to run shell commands.">
+</head>
+
+<body>
+    <a href="/">
+        <h1>Web Shell</h1>
+    </a>
+    <div class="blurb">
+        <div>An easy to use web form to run shell commands.</div>
+    </div>
+    <div id="content">
+        <div>
+            <form action="" method="post" class="text-editor">
+                <input id="command_id" name="command" type="text" class="" value="python main.py --help">
+            </form>
+            <div class="part-explanation">
+                <p class="cron-parts">
+                    {{error}}
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

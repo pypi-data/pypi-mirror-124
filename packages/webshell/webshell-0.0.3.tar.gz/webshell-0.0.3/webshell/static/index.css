@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+::-moz-selection {
+    background-color: rgba(255, 255, 128, 0.2);
+}
+
+::selection {
+    background-color: rgba(255, 255, 128, 0.2);
+}
+
+html {
+    color: #cccccc;
+    background-color: #1a1a1a;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.3em;
+}
+
+body {
+    max-width: 900px;
+    margin: 5em auto;
+    padding: 0 1em;
+}
+
+a,
+a:visited,
+a.active {
+    color: #cccccc;
+}
+
+h1,
+.logo-guru {
+    color: #ffff80;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+    font-size: 1.9em;
+    display: inline-block;
+}
+
+.text-highlight {
+    color: #ffff80;
+    font-size: 75%;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.text-highlight a {
+    color: #ffff80;
+}
+
+.blurb {
+    font-size: 75%;
+    padding: 2em;
+    margin-top: 10px;
+    color: #fff !important;
+}
+
+.blurb a {
+    color: #fff;
+}
+
+#content {
+    min-height: 500px;
+}
+
+div.warning {
+    color: saddlebrown;
+    font-size: 75%;
+    height: 0;
+}
+
+.text-editor input {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    font-size: 150%;
+    width: 100%;
+    background-color: #333333;
+    border: 1px solid #cccccc;
+    border-radius: 0.6em;
+    color: #ffffff;
+    padding-top: 0.075rem;
+    height: 2.5em;
+}
+
+.text-editor input.invalid {
+    border: 1px solid darkred;
+}
+
+.text-editor input.warning {
+    border: 1px solid saddlebrown;
+}
+
+.text-editor input:focus {
+    outline: none;
+}
+
+.text-editor input::-ms-clear {
+    width: 0;
+    height: 0;
+}
+
+.text-editor input::-moz-selection {
+    color: #ffff80;
+    background-color: rgba(255, 255, 128, 0.2);
+}
+
+.text-editor input::selection {
+    color: #ffff80;
+    background-color: rgba(255, 255, 128, 0.2);
+}
+
+.part-explanation {
+    font-size: 75%;
+    color: #a8a8a8;
+    height: 24em;
+}
+
+@media screen and (max-width: 400px) {
+    .text-editor input {
+        font-size: 200%;
+    }
+}
