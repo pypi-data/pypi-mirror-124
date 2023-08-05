@@ -1,0 +1,21 @@
+Changelog
+=========
+
+1.0.3
+-----
+ - use all request effective principals instead of only main principal ID to filter
+   notifications
+ - remove interval before restarting websocket connection check
+
+1.0.2
+-----
+ - added exception handler in Javascript chat package
+
+1.0.1
+-----
+ - added missing translations
+ - updated doctests
+
+1.0.0
+-----
+ - initial release
