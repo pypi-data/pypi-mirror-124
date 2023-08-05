@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+book118/__init__.py
+book118/book118.py
+book118/pdf.py
+book118/request.py
+book118/thread.py
+documentDownloader.egg-info/PKG-INFO
+documentDownloader.egg-info/SOURCES.txt
+documentDownloader.egg-info/dependency_links.txt
+documentDownloader.egg-info/entry_points.txt
+documentDownloader.egg-info/requires.txt
+documentDownloader.egg-info/top_level.txt
