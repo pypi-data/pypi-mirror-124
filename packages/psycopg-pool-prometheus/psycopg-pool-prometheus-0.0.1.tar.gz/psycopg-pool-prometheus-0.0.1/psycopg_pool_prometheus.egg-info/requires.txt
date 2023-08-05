@@ -1,0 +1,2 @@
+psycopg[pool]
+prometheus_client

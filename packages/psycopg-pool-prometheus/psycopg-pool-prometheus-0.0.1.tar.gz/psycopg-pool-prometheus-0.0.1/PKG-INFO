@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: psycopg-pool-prometheus
+Version: 0.0.1
+Summary: Expose psycopg pool metrics to prometheus.
+Home-page: UNKNOWN
+Author: Barnaby Shearer
+Author-email: b@zi.is
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: LICENSE
+
+=======================
+Psycopg Pool Prometheus
+=======================
+
+Exposes the pool stats maintained by psycopg3's connection pool to prometheus.
+
+
+
+
