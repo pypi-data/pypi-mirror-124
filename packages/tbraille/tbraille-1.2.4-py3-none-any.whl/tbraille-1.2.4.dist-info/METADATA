@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tbraille
+Version: 1.2.4
+Summary: Figlet/Toilet using braille characters.
+Author: Jeong Arm
+Author-email: kjwonmail@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=5.4.0,<6.0.0)
