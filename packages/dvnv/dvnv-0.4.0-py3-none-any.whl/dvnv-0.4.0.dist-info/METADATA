@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dvnv
+Version: 0.4.0
+Summary: Automate the creation of development environments
+License: Apache-2.0
+Author: sudo-julia
+Author-email: jlearning@tuta.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: rich (>=10.12.0,<11.0.0)
