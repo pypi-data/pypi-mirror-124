@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+igeScene.egg-info/PKG-INFO
+igeScene.egg-info/SOURCES.txt
+igeScene.egg-info/dependency_links.txt
+igeScene.egg-info/top_level.txt
