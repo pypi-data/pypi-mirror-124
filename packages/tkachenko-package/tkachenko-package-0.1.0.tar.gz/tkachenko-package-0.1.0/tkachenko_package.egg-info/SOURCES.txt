@@ -1,0 +1,9 @@
+README.md
+setup.py
+tkachenko_package/__init__.py
+tkachenko_package/functions.py
+tkachenko_package.egg-info/PKG-INFO
+tkachenko_package.egg-info/SOURCES.txt
+tkachenko_package.egg-info/dependency_links.txt
+tkachenko_package.egg-info/requires.txt
+tkachenko_package.egg-info/top_level.txt
