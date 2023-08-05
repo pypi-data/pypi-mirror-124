@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: mrchead
+Version: 0.0.2
+Summary: CLI tool for viewing mrc file headers
+Home-page: https://github.com/alisterburt/mrchead
+Author: Alister Burt
+Author-email: alisterburt@gmail.com
+License: BSD license
+Project-URL: Source Code, https://github.com/alisterburt/mrchead
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: dev
+License-File: LICENSE
+
+# mrchead
+
+[![License](https://img.shields.io/pypi/l/mrchead.svg?color=green)](https://github.com/alisterburt/mrchead/raw/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/mrchead.svg?color=green)](https://pypi.org/project/mrchead)
+[![Python Version](https://img.shields.io/pypi/pyversions/mrchead.svg?color=green)](https://python.org)
+[![CI](https://github.com/alisterburt/mrchead/workflows/ci/badge.svg)](https://github.com/alisterburt/mrchead/actions)
+[![codecov](https://codecov.io/gh/alisterburt/mrchead/branch/master/graph/badge.svg)](https://codecov.io/gh/alisterburt/mrchead)
+
+CLI tool for viewing mrc file headers
+
+
