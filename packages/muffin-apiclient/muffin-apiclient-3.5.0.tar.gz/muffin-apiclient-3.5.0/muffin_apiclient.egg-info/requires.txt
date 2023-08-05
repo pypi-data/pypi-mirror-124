@@ -1,0 +1,18 @@
+muffin>=0.86
+aio-apiclient>=1.6
+
+[aiohttp]
+aiohttp
+
+[httpx]
+httpx
+
+[tests]
+aiohttp
+httpx
+pytest
+pytest-aio[curio,trio]
+pytest-mypy
+
+[tests:python_version < "3.8"]
+mock
