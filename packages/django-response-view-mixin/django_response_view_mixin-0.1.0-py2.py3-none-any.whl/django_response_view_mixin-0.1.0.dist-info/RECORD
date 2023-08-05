@@ -1,0 +1,11 @@
+response_view_mixin/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+response_view_mixin/apps.py,sha256=zevP7lyDdoPXKVBUyeErIChKw-nl_hd2WCP1pTaaK-0,131
+response_view_mixin/view_mixins.py,sha256=82OK8i4lDYJSG_1CGtcKPP7L93AHx69wXCEkDlxlnuc,5312
+response_view_mixin/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+response_view_mixin/utils/image_serve.py,sha256=7PO8P3blGwHkKLb67GCDQSOQWUlxb2cQdOR0WlUhh2s,2632
+django_response_view_mixin-0.1.0.dist-info/AUTHORS.rst,sha256=BrZjEJQq1IGpIop4B55rjPsTUOgVBtYxQ55ytP8uEGw,175
+django_response_view_mixin-0.1.0.dist-info/LICENSE,sha256=xMpanCMdZ3OIJeh67SPuAB3gh_tGKjZ-mtmppb7aijM,1095
+django_response_view_mixin-0.1.0.dist-info/METADATA,sha256=uv7DyUrthcYOCH2Is3qi0f2UK8MVfurb8MKYqguGmO4,2891
+django_response_view_mixin-0.1.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+django_response_view_mixin-0.1.0.dist-info/top_level.txt,sha256=E6n4RD3PkaKbxN-6N28XyrCDOYevQWXXztPDO_LIEGE,20
+django_response_view_mixin-0.1.0.dist-info/RECORD,,
