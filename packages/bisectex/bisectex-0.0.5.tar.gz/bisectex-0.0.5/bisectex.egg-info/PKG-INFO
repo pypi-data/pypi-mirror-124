@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: bisectex
+Version: 0.0.5
+Summary: Bisect module also supporting functions
+Home-page: UNKNOWN
+Author: david weil
+Author-email: <david.weil@coinfabrik.com>
+License: UNKNOWN
+Description: Bisect module supporting functions like: bisect_f(lambda x: (x**2)-2 < 0, 0, 10, 0.000000001)
+Keywords: python,bisect,bisect-function,bisectex
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
