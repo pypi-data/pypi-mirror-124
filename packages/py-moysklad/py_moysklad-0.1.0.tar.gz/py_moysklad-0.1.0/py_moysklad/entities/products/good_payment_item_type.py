@@ -1,0 +1,8 @@
+from enum import Enum
+
+
+class GoodPaymentItemType(Enum):
+    GOOD = "GOOD"
+    EXCISABLE_GOOD = "EXCISABLE_GOOD"
+    COMPOUND_PAYMENT_ITEM = "COMPOUND_PAYMENT_ITEM"
+    ANOTHER_PAYMENT_ITEM = "ANOTHER_PAYMENT_ITEM"
