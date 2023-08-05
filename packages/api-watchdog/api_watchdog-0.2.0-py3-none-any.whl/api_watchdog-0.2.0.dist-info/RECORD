@@ -1,0 +1,12 @@
+api_watchdog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+api_watchdog/collect.py,sha256=T5YdnkdxqlU6L0PW77n1zu1qggGorTTzMiRdhCq8CpE,3077
+api_watchdog/core.py,sha256=bF_Fr0up_GuzECjwTvqiu0-87hjQgRuhxbvuTE0kjNI,1546
+api_watchdog/runner.py,sha256=ypC0d1lulwcvys3RruvJn9rWZKqJul0axh387P7krVo,1942
+api_watchdog/integrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+api_watchdog/integrations/trapi.py,sha256=cx1L-0D5N7SxZ0UpH8j1_LEyoihHH9gBYWrbb0icNVI,354
+api_watchdog-0.2.0.dist-info/LICENSE,sha256=eH4TRl5qDA36ayIr3OU7WC-pXrpKQc3r-XSkTDHe0ck,1071
+api_watchdog-0.2.0.dist-info/METADATA,sha256=tTCImV6SKKu3zNue8B8SDnkelySDXvVdbE2R8Xyn0vk,1446
+api_watchdog-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+api_watchdog-0.2.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+api_watchdog-0.2.0.dist-info/top_level.txt,sha256=KQSqH2_OJRmafuiKs4gP5sWP99YhUeOLiSWv77c7U4s,13
+api_watchdog-0.2.0.dist-info/RECORD,,
