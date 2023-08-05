@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: weirwood_pyfinance
+Version: 0.0.2
+Summary: Python API for downloading stock prices and fundamental accounting concepts
+Home-page: https://github.com/weirwoodai/weirwood_pyfinance
+Author: Alex Encalado Masia
+Author-email: encalado.masia@gmail.com
+License: MIT license
+Keywords: weirwood_pyfinance
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Provides-Extra: setup
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: all
+License-File: LICENSE
+
+# Weirwood PyFinance
+
+[![Build Status](https://github.com/weirwoodai/weirwood_pyfinance/workflows/Build%20Main/badge.svg)](https://github.com/weirwoodai/weirwood_pyfinance/actions)
+[![Documentation](https://github.com/weirwoodai/weirwood_pyfinance/workflows/Documentation/badge.svg)](https://weirwoodai.github.io/weirwood_pyfinance/)
+[![Code Coverage](https://codecov.io/gh/weirwoodai/weirwood_pyfinance/branch/main/graph/badge.svg)](https://codecov.io/gh/weirwoodai/weirwood_pyfinance)
+
+Python API for downloading stock prices and fundamental accounting concepts
+
+---
+
+## Quick Start
+
+Register your account at https://weirwood.ai for free
+
+```python
+from weirwood_pyfinance import FinTen
+
+finten = FinTen()
+finten.set_login(username="<YOUR USERNAME>",password="<YOUR PASSWORD>")
+filings = finten.get_filings(ticker="AAPL")
+prices = FinTen().get_prices(ticker="AAPL")
+
+```
+
+## Installation
+
+**Stable Release:** `pip install weirwood-pyfinance`<br>
+**Development Head:** `pip install git+https://github.com/weirwoodai/weirwood_pyfinance.git`
+
+**MIT license**
+
+
