@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: igqloo
+Version: 0.1
+Summary: A simple command-line tool for writing GQL queries
+Home-page: https://github.com/gerhalt/igqloo
+Author: Josh Mottaz
+Author-email: gerhalt@gmail.com
+License: UNKNOWN
+Keywords: graphql,gql,cli,queries,development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+
+# igqloo
+
+A small tool for interacting with GQL APIs
+
+Arguments, mutations, aliases are all supported. Other features, such as
+fragments, are left unsupported with the opinion that, when a query becomes
+large enough to warrant them, you might be best feeding in a file containing
+your query.
+
+```bash
+igqloo <graphql_uri> customer(name:"gerhalt@gmail.com").id,firstName,lastName
+```
+
+Under the surface, generates a GraphQL query that looks like:
+
+```gql
+query {
+    customer(name:"gerhalt@gmail.com") {
+        id, firstName, lastName
+    }
+}
+```
+
+Queries are made simple using three key concepts:
+
+1. Dot-notation, with `.` indicating the beginning of a nested query level
+2. A comma `,` indicates a field on the same level as the prior field
+3. Parenthesis `()` for filters and "quoting" aliases
+
+

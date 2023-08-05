@@ -1,0 +1,9 @@
+README.md
+igqloo.py
+setup.py
+igqloo.egg-info/PKG-INFO
+igqloo.egg-info/SOURCES.txt
+igqloo.egg-info/dependency_links.txt
+igqloo.egg-info/entry_points.txt
+igqloo.egg-info/requires.txt
+igqloo.egg-info/top_level.txt

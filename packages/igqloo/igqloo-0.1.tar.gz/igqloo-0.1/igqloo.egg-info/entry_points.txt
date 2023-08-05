@@ -1,0 +1,3 @@
+[console_scripts]
+igqloo = igqloo:main
+
