@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: datahints
+Version: 0.1.0
+Summary: Type hinting for pandas DataFrame
+License: MIT
+Author: Ketil Albertsen
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
