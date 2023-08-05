@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: showml
+Version: 0.1.2
+Summary: A Python package of Machine Learning Algorithms implemented from scratch
+Home-page: https://github.com/hasnainroopawalla/ShowML
+Author-email: hasnain.roopawalla@gmail.com
+License: MIT
+Description: # ShowML
+        
+        [![Python packaging](https://github.com/hasnainroopawalla/ShowML/actions/workflows/python_packaging.yml/badge.svg?branch=master)](https://github.com/hasnainroopawalla/ShowML/actions/workflows/python_packaging.yml)
+        
+        A Python package of Machine Learning Algorithms implemented from scratch
+        
+Keywords: python,machinelearning,ai
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
