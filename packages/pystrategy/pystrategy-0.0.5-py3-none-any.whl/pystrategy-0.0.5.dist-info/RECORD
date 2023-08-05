@@ -1,0 +1,14 @@
+pystrategy/EW.py,sha256=2MyAntNNfERhZNV3GYgkwCDQqFg4GfeLUS-XWz4wPFc,1479
+pystrategy/EWStrategy.py,sha256=JjDat8KhaX1GJaipwjHNvoGFZ3hJVilhLrgOQ9XTqvE,1089
+pystrategy/GMR.py,sha256=vEunlYtWSGH93WKmpnt33DSCk0XezBTMi2g9kH_BgVw,1748
+pystrategy/GMRStrategy.py,sha256=k6WFHakjDX50zdL6GqLZyx3jGPinUZ_5oiKrdtyjxn0,1077
+pystrategy/MaxDrawdown.py,sha256=YX0XYADxgaM1pRP3wDGE_8UleI8XtR_ayBervD_8Ebs,1502
+pystrategy/Strategy.py,sha256=-Z3SxL48QOATziXb4OKEFsfeW-8UVNZ88ox-zseqW3U,4810
+pystrategy/__init__.py,sha256=0B4jfBGC_YoTs3ni5YYPNnXVfVWILi1DWSjaUBcR2Jk,60
+pystrategy/config_libaries.py,sha256=l2s4r0F3epUuhPbxVg48w_UUFttrSDc22CQCVx0ILPQ,811
+pystrategy/main.py,sha256=HtuA1apL2gWbRWpgOw795MOI23h_lxyuEX1j_A5yvuw,1741
+pystrategy/pystrategy.py,sha256=GbVP-gyyo6mf4EVNfaw391EFIRQRjHdhQOd3Mb7jVpA,1912
+pystrategy-0.0.5.dist-info/METADATA,sha256=p6S1Aedpem7RLfbKEr2cwx1z837TGHJ3fOecu4Px8tY,1386
+pystrategy-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pystrategy-0.0.5.dist-info/top_level.txt,sha256=Bi7RwCaEP2q0Js263nIqPe2gwIVuP626s-8-H74OS0s,11
+pystrategy-0.0.5.dist-info/RECORD,,
