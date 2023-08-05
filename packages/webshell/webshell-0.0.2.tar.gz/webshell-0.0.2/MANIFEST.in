@@ -1,0 +1,2 @@
+include web_shell/static/*
+include web_shell/templates/*

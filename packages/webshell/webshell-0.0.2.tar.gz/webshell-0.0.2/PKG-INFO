@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: webshell
+Version: 0.0.2
+Summary: A Python package to add web ui on command line application
+Home-page: https://gitlab.midwestholding.dev/programmers.io/web_shell
+Author: Manoj Datt
+Author-email: manoj.datt@programmers.io
+License: BSD 2-clause
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+
+**Web Shel**\ l
+---------------
+
+A Python package that helps to add web UI on command line application.
+
+**Uses**
+
+To use this package.
+
+-  pip install webshell
+-  In your script say ``main.py``
+
++----------------------------+
+| \```markdown               |
++----------------------------+
+| from webshell import app   |
++----------------------------+
+| if **name** == ‘**main**’: |
++----------------------------+
+| app.run(port=4000)         |
++----------------------------+
+| \``\`                      |
++----------------------------+
+
+-  Now open http://localhost:4000 in your browser, that’s it.
+
+
