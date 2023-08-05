@@ -1,0 +1,12 @@
+qmt/__init__.py,sha256=3TdYXhmJFLSLr9595om9oSYyLV4mJR_3to-eeImJvaI,252
+qmt/cpp/__init__.py,sha256=61XKFzBMQ3E-MKZ_xtfo-VFRtarcDZvr5_LsSsK8ULc,108
+qmt/cpp/dummy.cpp,sha256=PWNonIyi0E6o6t56i-59u9opmfxzvQKh8gqAeTI4wjM,192369
+qmt/cpp/dummy.cpython-37m-darwin.so,sha256=fohXOJND4FEQ_Rc4zFGz5KoAaek3KpX6KW_YYYRWLiI,44272
+qmt/cpp/dummy_src/dummy.cpp,sha256=XJU9AScVKMP2HMTfaxojzdpPqiAMe9HC8eyCe_-f4hc,168
+qmt/functions/__init__.py,sha256=61XKFzBMQ3E-MKZ_xtfo-VFRtarcDZvr5_LsSsK8ULc,108
+qmt/functions/dummy.py,sha256=IVqJq79u6Sfc3AqVHStAVo46iO2kXphtlZdjRZGczAg,246
+qmt/matlab/+qmt/matlabDummy.m,sha256=MpWH0xN59nRFSxNTFW7fxRyEv0IKPYezsD0nhdAOfYw,202
+qmt-0.0.1.dist-info/METADATA,sha256=PjH_saSssB48L6dILgWr8Cy4wzlkPSMmmQrA5up3wbM,2392
+qmt-0.0.1.dist-info/WHEEL,sha256=MTGYRPpheMM24WbmS90Rp7e0ky6cZJ8CkS_x1qgwoGk,110
+qmt-0.0.1.dist-info/top_level.txt,sha256=xO_9mxGLE_zH6JPrgJpWPqlgZHICZmTDa1Bb8cwVbZM,4
+qmt-0.0.1.dist-info/RECORD,,
