@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyelectric.egg-info/PKG-INFO
+pyelectric.egg-info/SOURCES.txt
+pyelectric.egg-info/dependency_links.txt
+pyelectric.egg-info/requires.txt
+pyelectric.egg-info/top_level.txt
