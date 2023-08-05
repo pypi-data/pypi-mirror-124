@@ -1,0 +1,12 @@
+tracardi_fullcontact_webhook/plugin.py,sha256=RtjB5X1fay9F_PFSKijjN-ONq_9RuVgjIEm40SKjPfE,5310
+tracardi_fullcontact_webhook/model/configuration.py,sha256=yGA5FSUSsrYpJbnzNSt-bd1wv5bJUyR7KVYLYJmMATw,424
+tracardi_fullcontact_webhook/model/full_contact_source_configuration.py,sha256=-a63rWen1t0aKK1HlKsk0SxmON-sBR4Bd1KjFLRzbFQ,97
+tracardi_fullcontact_webhook/model/__pycache__/configuration.cpython-38.pyc,sha256=0yY8KoVwFj27rN4SfgZ3KfindnOidCdMbSdQE54EjWE,950
+tracardi_fullcontact_webhook/model/__pycache__/full_contact_source_configuration.cpython-38.pyc,sha256=_M1XAujwZWdlq2vwdmIr0n8cagxGdX3ibBq2F-RL4m4,478
+tracardi_fullcontact_webhook/test/manual_direct_test.py,sha256=DOFomGYWCSf1u17DJH2hNVPIVu0ho6J-7wN53sQqB4A,634
+tracardi_fullcontact_webhook/test/manual_test.py,sha256=SymokbmfqXsSfi_8OtUQwZZ5xLL-X0KvuHbjDCcQpQQ,885
+tracardi_fullcontact_webhook-0.6.0.dist-info/LICENSE.md,sha256=zb4oZFMSjcWGxtkkv44KCWq6Rzbe877lv_UdTwG2ZAw,1071
+tracardi_fullcontact_webhook-0.6.0.dist-info/METADATA,sha256=8khzlHQsT74tzMin92dunRS0gBTGJ9orD_xC9dgcRLs,4006
+tracardi_fullcontact_webhook-0.6.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_fullcontact_webhook-0.6.0.dist-info/top_level.txt,sha256=GBczCI14yJ5YXiio2pJOWbolQfXn7kWnCvlK6f-fG4k,29
+tracardi_fullcontact_webhook-0.6.0.dist-info/RECORD,,
