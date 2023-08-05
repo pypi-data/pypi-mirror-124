@@ -1,0 +1,36 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+pylint-django = "*"
+pytest = "*"
+pytest-django = "*"
+pytest-cov = "*"
+pipenv-setup = "*"
+readthedocs-sphinx-ext = "<1.1"
+sphinx = "<2"
+sphinx-rtd-theme = "<0.5"
+codecov = "*"
+pipenv-to-requirements = "*"
+libsass = "*"
+django-compressor = "*"
+django-sass-processor = "*"
+
+[packages]
+django = "<3.0"
+django-environ = "*"
+django-model-utils = "*"
+djangorestframework = "*"
+whitenoise = "*"
+psycopg2-binary = "<2.9"
+stellar-sdk = "~=2.13"
+django-cors-headers = "*"
+toml = "*"
+pyjwt = "==1.7.1"
+cryptography = "*"
+
+[requires]
+python_version = "3.7"
