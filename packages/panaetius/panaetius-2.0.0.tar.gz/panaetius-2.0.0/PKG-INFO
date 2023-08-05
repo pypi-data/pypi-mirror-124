@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: panaetius
+Version: 2.0.0
+Summary: Python module to gracefully handle a .config file/environment variables for scripts, with built in masking for sensitive options. Provides a Splunk friendly formatted logger instance.
+Home-page: https://github.com/dtomlinson91/panaetius
+License: MIT
+Author: dtomlinson
+Author-email: dtomlinson@panaetius.co.uk
+Requires-Python: >=3.7,<4.0
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: toml (>=0.10.0,<0.11.0)
+Project-URL: Documentation, https://panaetius.readthedocs.io/en/latest/introduction.html
+Project-URL: Repository, https://github.com/dtomlinson91/panaetius
+Description-Content-Type: text/x-rst
+
+Author
+=======
+
+Daniel Tomlinson (dtomlinson@panaetius.co.uk)
+
+Requires
+=========
+
+`>= python3.7`
+
+Python requirements
+====================
+
+- toml = "^0.10.0"
+- pylite = "^0.1.0"
+
+Documentation
+==============
+
+Read the documentation on `read the docs`_.
+
+.. _read the docs: https://panaetius.readthedocs.io/en/latest/introduction.html
+
+Installation
+==============
+
+You can install ``panaetius`` the following ways:
+
+Python
+-------
+
+.. Attention:: You should install in a python virtual environment
+
+From pypi using pip
+~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+    pip install panaetius
+
+From local wheel
+~~~~~~~~~~~~~~~~~
+
+Download the latest verion from the `releases`_ page.
+
+.. _releases: https://github.com/dtomlinson91/panaetius/releases
+
+Install with pip:
+
+.. code-block:: bash
+
+    pip install -U panaetius-1.0.2-py3-none-any.whl
+
+
+From source
+~~~~~~~~~~~~
+
+Clone the repo and install using ``setup.py``:
+
+.. code-block:: bash
+
+    python setup.py
+
