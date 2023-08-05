@@ -1,0 +1,11 @@
+GitPython
+tensorboardX
+matplotlib
+wandb
+fabric
+cloudpickle
+PyYaml
+paramiko
+tqdm
+aiohttp
+funcy

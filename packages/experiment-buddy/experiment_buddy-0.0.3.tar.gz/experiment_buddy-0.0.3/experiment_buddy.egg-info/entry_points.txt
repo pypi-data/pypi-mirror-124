@@ -1,0 +1,3 @@
+[console_scripts]
+buddy-init = buddy_init.init_project:sys_main
+
