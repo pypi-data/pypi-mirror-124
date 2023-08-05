@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: SturmLiouville
+Version: 0.0.1
+Summary: Sturm-Liouville Eigenvalue Problem Solver
+Home-page: https://github.com/RafaelLuz/SturmLiouville
+Author: Rafael R. L. Benevides
+Author-email: rafaeluz821@gmail.com
+License: MIT
+Description: Given a Sturm-Liouville Problem, this package calculates its eigenvalues, eigenfunctions and provides a series of related tools
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
