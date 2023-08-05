@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: istra-hw2package
+Version: 0.1.1
+Summary: Package for hw2
+Home-page: UNKNOWN
+Author: Istratov_N
+Author-email: UNKNOWN
+License: MIT
+Description: Package for hw2
+Keywords: hello_world datetime
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Linguistic
