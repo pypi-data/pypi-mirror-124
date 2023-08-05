@@ -1,0 +1,11 @@
+AUTHORS
+LICENSE
+README.md
+setup.py
+bin/jlwb
+jupyterlab_workbench/__init__.py
+jupyterlab_workbench.egg-info/PKG-INFO
+jupyterlab_workbench.egg-info/SOURCES.txt
+jupyterlab_workbench.egg-info/dependency_links.txt
+jupyterlab_workbench.egg-info/requires.txt
+jupyterlab_workbench.egg-info/top_level.txt
