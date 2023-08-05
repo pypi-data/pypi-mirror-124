@@ -1,0 +1,11 @@
+qmt/__init__.py,sha256=fYG6vNhKuKliQoUgcvRVINeO4JDLy6L5b4nBzO1U6RQ,262
+qmt/cpp/__init__.py,sha256=Qz9duXHbjz5VHCkGq8Duw0H0m8D4jQuAFJHpehSCuXw,111
+qmt/cpp/dummy.cp38-win_amd64.pyd,sha256=yOgcVilirggrd8axKLuUWY-v5r8DsJJVUHRqs7JfQGE,28160
+qmt/cpp/dummy.cpp,sha256=-o_p8KCa1faGXDNGcZl9do5sicbJlXx3g_ssLx-Jd4o,191386
+qmt/cpp/dummy_src/dummy.cpp,sha256=qAqQdEXjvcr2C4BjwL45F4aCUrNCaie3fSeRCEsu6lk,177
+qmt/functions/__init__.py,sha256=Qz9duXHbjz5VHCkGq8Duw0H0m8D4jQuAFJHpehSCuXw,111
+qmt/functions/dummy.py,sha256=w4U9syosANP3qVXFMKqjSto78Irnfh0jlNfWJmeY6n8,259
+qmt-0.0.1.dist-info/METADATA,sha256=PjH_saSssB48L6dILgWr8Cy4wzlkPSMmmQrA5up3wbM,2392
+qmt-0.0.1.dist-info/WHEEL,sha256=P24hRDQapckAvHvgBBzlH5uw6rQ_oZQtKbG6drGrqOM,100
+qmt-0.0.1.dist-info/top_level.txt,sha256=xO_9mxGLE_zH6JPrgJpWPqlgZHICZmTDa1Bb8cwVbZM,4
+qmt-0.0.1.dist-info/RECORD,,
