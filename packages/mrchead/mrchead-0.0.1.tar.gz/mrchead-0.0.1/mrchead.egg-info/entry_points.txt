@@ -1,0 +1,3 @@
+[console_scripts]
+mrchead = mrchead.mrchead:cli
+
