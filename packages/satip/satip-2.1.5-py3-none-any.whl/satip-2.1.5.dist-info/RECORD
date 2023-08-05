@@ -1,0 +1,9 @@
+satip/__init__.py,sha256=_7OlQdbVkK4jad0CLdpI0grT-zEAb-qgFmH5mFzDXiA,22
+satip/download.py,sha256=RBQab3NgkwsAtU6GcWPZ_IArrFpcdgWJgHZ9X9MD8VY,12139
+satip/eumetsat.py,sha256=geq2fTsrGWIvxylgbqTiRAvSevppcdAfiG1cDg52w9I,11242
+satip/utils.py,sha256=NP-pYVR7iPnzXar-jWxj02gsV21IPGgXdvCzKYxM2jE,4093
+satip-2.1.5.dist-info/LICENSE,sha256=apuQBDvX5oNtuaWBJcgRQaTuS4pTiqvjP23FGA7P8J8,1073
+satip-2.1.5.dist-info/METADATA,sha256=8FfsXCznXU-8-PJdgWvaHWA1pJiG-I77wE9X-VsHAFI,966
+satip-2.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+satip-2.1.5.dist-info/top_level.txt,sha256=GZytXBjOPEvPE3pdCSzrNk8K4SmByTTl-kr7xn07W3Q,6
+satip-2.1.5.dist-info/RECORD,,
