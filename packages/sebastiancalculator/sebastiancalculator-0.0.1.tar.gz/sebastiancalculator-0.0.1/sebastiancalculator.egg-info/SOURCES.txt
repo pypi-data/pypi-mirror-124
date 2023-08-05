@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+sebastiancalculator/__init__.py
+sebastiancalculator.egg-info/PKG-INFO
+sebastiancalculator.egg-info/SOURCES.txt
+sebastiancalculator.egg-info/dependency_links.txt
+sebastiancalculator.egg-info/top_level.txt
