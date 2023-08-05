@@ -1,0 +1,10 @@
+textelixir/__init__.py,sha256=MYCPSgpwd5ABKvkg6YUha-JnqfHa5uD4J7LYVW769Xg,7912
+textelixir/kwic.py,sha256=M0nBFOo_TTA8N0Qcq1ZPrJObjoktuq0JV2is3_fsRrU,3054
+textelixir/n_grams.py,sha256=loIzTJ-W30H3eEt6QXkVh-yx2x2z08lmgndF409PG7E,4496
+textelixir/search_results.py,sha256=GTZPpVEyjJm00q41vJMaiQRotjwOEJ5_ez1iH1a-V44,5527
+textelixir/word.py,sha256=oC0Ohp6-kemO5RijioiuCfw2cJX07odXN4W6OLaHnW4,167
+textelixir-0.0.1.dist-info/LICENSE,sha256=7Jgnu3YRFG-pKyEk-19RgNqjUyGxdhuKyzGR8Nu8fZg,1076
+textelixir-0.0.1.dist-info/METADATA,sha256=GP3R3iGgvJxlle1769gQYOCnaChDzQaFID4EgLjLYAw,605
+textelixir-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+textelixir-0.0.1.dist-info/top_level.txt,sha256=gT3P-fH6KlhTDdlJ_QFBsvNEPTI742AWO_KsPlX8_Hs,11
+textelixir-0.0.1.dist-info/RECORD,,
