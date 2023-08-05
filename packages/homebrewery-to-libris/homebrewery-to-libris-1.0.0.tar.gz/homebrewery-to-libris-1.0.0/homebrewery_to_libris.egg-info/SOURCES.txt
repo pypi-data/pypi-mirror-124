@@ -1,0 +1,11 @@
+LICENSE.txt
+setup.cfg
+setup.py
+homebrewery-to-libris/__init__.py
+homebrewery-to-libris/__main__.py
+homebrewery_to_libris.egg-info/PKG-INFO
+homebrewery_to_libris.egg-info/SOURCES.txt
+homebrewery_to_libris.egg-info/dependency_links.txt
+homebrewery_to_libris.egg-info/requires.txt
+homebrewery_to_libris.egg-info/top_level.txt
+scripts/homebrewery-to-libris
