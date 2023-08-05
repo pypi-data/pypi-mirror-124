@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: oi_trend
+Version: 0.0.2
+Summary: Python library for OI trend
+Home-page: UNKNOWN
+Author: VedantSonje
+Author-email: vedant.sonje12@gmail.com
+License: UNKNOWN
+Description: 
+        
+        This is a simple example package. You can use
+Keywords: python,trading,oi_trend
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
