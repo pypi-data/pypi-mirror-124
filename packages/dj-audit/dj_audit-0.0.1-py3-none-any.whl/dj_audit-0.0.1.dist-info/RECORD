@@ -1,0 +1,13 @@
+django_audit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_audit/admin.py,sha256=-lDef9UQoPb0hqFWMjYgvhPUAAlQRpFdqrLRoiCncvs,480
+django_audit/middleware.py,sha256=WtfxNkYAA3WmSp49cIB7YgPlAkrN0YD0qzrSX2i6mYQ,1481
+django_audit/models.py,sha256=1cDno67bORRHi5HbLovjqs4qCKHyPd3ouaa-dDohEgk,1180
+django_audit/settings.py,sha256=KUaYAIaBSniyU5xQjIWh-Jchw2EEmbyG8w4bUJJ9sBM,126
+django_audit/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_audit/migrations/0001_initial.py,sha256=4PjDHVREiStEbPO-g4CeWcQ2lghw0foWV4wmvfSOZqs,1674
+django_audit/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dj_audit-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dj_audit-0.0.1.dist-info/METADATA,sha256=vYOC3lCspAPee_2FFijd2RL7pWCHNljxL5PduDiLHaU,1520
+dj_audit-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dj_audit-0.0.1.dist-info/top_level.txt,sha256=ZuduRtKInOjT_LlfqD60VDRt4ICr0tlL8V6ITkBnIX8,13
+dj_audit-0.0.1.dist-info/RECORD,,
