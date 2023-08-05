@@ -1,0 +1,8 @@
+django3_saml2_nbplugin/__init__.py,sha256=LJlreWEDv0tXOLL7fFw6zOn858QJLMRZ5DB__Z6e2iA,1205
+django3_saml2_nbplugin/backends.py,sha256=MffPvU9_R939rxPEoAXP9cHcgAtwfH9Hb_IM2adnm6k,7463
+django3_saml2_nbplugin/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django3_saml2_nbplugin/api/urls.py,sha256=9vRPCMWSAF7F-1d3KBgIYk2HAQUhSWatku9Gir_M6l8,140
+netbox_plugin_auth_saml2-2.4.dist-info/METADATA,sha256=-qOk1Lv64JAPR6RgzsTf_LbmhkOym3W026SUJKiIdbM,5962
+netbox_plugin_auth_saml2-2.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+netbox_plugin_auth_saml2-2.4.dist-info/top_level.txt,sha256=qyLGo3WeKvliPd7H4huEYpK421voAElpv_u1A77GJKo,23
+netbox_plugin_auth_saml2-2.4.dist-info/RECORD,,
