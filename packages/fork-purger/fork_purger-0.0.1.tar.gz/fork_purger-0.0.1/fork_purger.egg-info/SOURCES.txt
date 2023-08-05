@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+fork_purger.egg-info/PKG-INFO
+fork_purger.egg-info/SOURCES.txt
+fork_purger.egg-info/dependency_links.txt
+fork_purger.egg-info/entry_points.txt
+fork_purger.egg-info/requires.txt
+fork_purger.egg-info/top_level.txt
+purger/__init__.py
+purger/__main__.py

@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: fork-purger
+Version: 0.0.1
+Summary: Delete all of your forked repositories on Github.
+Home-page: https://github.com/rednafi/fork-purger
+Author: Redowan Delowar
+Author-email: redowan.nafi@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev_deps
+License-File: LICENSE
+
+<h1>Fork Purger<img src='https://user-images.githubusercontent.com/30027932/137647315-66a6bcf2-7645-46cd-964d-4fe7375be30b.png' align='right' width='128' height='128'></h1>
+
+
+<strong>>> <i>Delete all of your forked repositories on Github</i> <<</strong>
+
+
+</div>
+
+![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![github_actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+
+## Installation
+
+* Install using pip:
+
+    ```
+    pip install fork-purger
+    ```
+
+## Exploration
+
+Under construction...
+
+
+<div align="center">
+<i> ✨ 🍰 ✨ </i>
+</div>
+
+
