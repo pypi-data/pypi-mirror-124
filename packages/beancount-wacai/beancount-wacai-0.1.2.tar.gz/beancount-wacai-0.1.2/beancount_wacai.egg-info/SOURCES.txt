@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+beancount_wacai/__init__.py
+beancount_wacai.egg-info/PKG-INFO
+beancount_wacai.egg-info/SOURCES.txt
+beancount_wacai.egg-info/dependency_links.txt
+beancount_wacai.egg-info/requires.txt
+beancount_wacai.egg-info/top_level.txt
