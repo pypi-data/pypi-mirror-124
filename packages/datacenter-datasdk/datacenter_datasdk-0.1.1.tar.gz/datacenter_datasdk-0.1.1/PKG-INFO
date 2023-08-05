@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: datacenter_datasdk
+Version: 0.1.1
+Summary: datacenter_datasdk
+Home-page: UNKNOWN
+Author: Wang Sheng
+Author-email: jayed008@163.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# datacenter_datasdk
+
+### INSTALL
+
+step.1 
+```
+pip install datacenter-datasdk
+```
+
+step.2 set environment variable: TD_TOKEN, TD_URL(ask for admin)
+
+
+### USAGE
+
+```
+from datacenter_datasdk import get_price
+
+data = get_price('600033.XSHG', 'cn', 'm1', start_date='2010-01-01', end_date='2021-01-01')
+```
+
+### API
+
+#### *get_price()*
+get kline data, include daily, minute and tick
+
+**params**
+
+code: str or list, single code or multi code as list
+
+region: str, 'cn' or 'us'
+
+frequency: str, represent frequency of kline, 'd1', 'm1', 'm5', 'm15', 'm30', 'm60' and 'tick'(only in cn)
+
+start_date, datetime.datetime or datetime.date or str, start time of data, default '2005-01-01'
+
+end_date, datetime.datetime or datetime.date or str, end time of data, default 0 o'clock of today
+
+**return**
+
+dataframe
+
