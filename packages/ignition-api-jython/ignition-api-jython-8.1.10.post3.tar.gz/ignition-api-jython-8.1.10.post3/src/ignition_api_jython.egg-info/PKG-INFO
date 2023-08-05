@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ignition-api-jython
+Version: 8.1.10.post3
+Summary: Ignition Scripting API.
+Home-page: https://github.com/thecesrom/Ignition/tree/jython
+Author: César Román
+Author-email: cesar@thecesrom.dev
+License: MIT
+Description: # ARCHIVED REPOSITORY NOTICE
+        
+        This repo is a mirror of what used to be the `jython` branch under [`Ignition`](https://github.com/thecesrom/Ignition), and it is now read-only because of the following reasons:
+        
+        1. Issues in PyCharm when Jython is set as the project interpreter
+            1. "ImportError: No module named _shaded_thriftpy" running console with Jython ([PY-44759](https://youtrack.jetbrains.com/issue/PY-44759))
+            1. _shaded_thriftpy.parser.exc.ThriftParserError with Jython 2.7.1 as intepreter ([PY-50491](https://youtrack.jetbrains.com/issue/PY-50491))
+        1. Issue in Jython when trying to import modules under `com.inductiveautomation`
+            1. Jython 2.7.2 ImportError: No module named <my_package_name> when running `import com.<my_package_name>` ([jython#131](https://github.com/jython/jython/issues/131))
+        
+Keywords: hmi,ignition,inductive automation,scada
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Manufacturing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: Jython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing :: Mocking
+Description-Content-Type: text/markdown
