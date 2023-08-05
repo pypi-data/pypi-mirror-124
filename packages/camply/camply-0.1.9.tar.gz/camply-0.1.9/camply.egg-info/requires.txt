@@ -1,0 +1,13 @@
+PyYAML
+pandas
+python-dotenv
+pytz
+requests
+tenacity
+
+[dev]
+tox
+pytest
+coverage
+pytest-vcr
+flake8
