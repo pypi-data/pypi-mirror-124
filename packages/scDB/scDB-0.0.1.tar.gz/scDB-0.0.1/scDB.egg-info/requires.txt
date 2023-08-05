@@ -1,0 +1,4 @@
+firecloud
+tenacity
+pandas
+colorlog

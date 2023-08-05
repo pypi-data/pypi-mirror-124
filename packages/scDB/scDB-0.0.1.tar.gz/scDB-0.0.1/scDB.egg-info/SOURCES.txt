@@ -1,0 +1,12 @@
+setup.py
+bin/scDB
+scDB/CCG.py
+scDB/EGA.py
+scDB/__init__.py
+scDB/argParser.py
+scDB/db.py
+scDB.egg-info/PKG-INFO
+scDB.egg-info/SOURCES.txt
+scDB.egg-info/dependency_links.txt
+scDB.egg-info/requires.txt
+scDB.egg-info/top_level.txt
