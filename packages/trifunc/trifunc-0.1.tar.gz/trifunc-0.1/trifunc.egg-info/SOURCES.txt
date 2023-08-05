@@ -1,0 +1,6 @@
+license.txt
+setup.py
+trifunc.egg-info/PKG-INFO
+trifunc.egg-info/SOURCES.txt
+trifunc.egg-info/dependency_links.txt
+trifunc.egg-info/top_level.txt
