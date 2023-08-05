@@ -1,0 +1,3 @@
+recursive-include MLDashboard/DashboardModules *
+recursive-include MLDashboard/DashboardExamples *
+recursive-include MLDashboard/DashboardGuides *
