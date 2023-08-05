@@ -1,0 +1,10 @@
+QuantLib/QuantLib.py,sha256=YzVRF1s0brUd-nhDbR0oNQkvv4pZ11C-0gP4goGVmd4,983639
+QuantLib/_QuantLib.cp37-win_amd64.pyd,sha256=sLxiwI4H4oPt0VznP0w_b01tgN5lB91qdsL5cc-7dlU,35819520
+QuantLib/__init__.py,sha256=gGQUA6Ya7jwaLXKxfyMAkCz4xTRVkgMNML-1bI-GN2Y,1545
+QuantLib/__pycache__/QuantLib.cpython-37.pyc,sha256=DA8Mwrgg6t8sYUCOPJNdNHZm5y0hqTulVEFuqid7twk,1498441
+QuantLib/__pycache__/__init__.cpython-37.pyc,sha256=Y5JEOiKr6RYM5HXVnmgQG40IYdxSGZoqxVQujh-uRNc,1376
+QuantLib-1.24.data/data/share/doc/quantlib/LICENSE.TXT,sha256=44SVy99a2EwhavwejNocnyLed5K1Dh_-AiiNVtkE8GE,3213
+QuantLib-1.24.dist-info/METADATA,sha256=GqwAxszzvJrP8dpQM2Qsj8z4PhYo0XMlYytuW7WYTHA,1050
+QuantLib-1.24.dist-info/WHEEL,sha256=OmDKD3JmZjhMu_YdpkiJDfFL1rf8n9nexhWCGhSBGVE,101
+QuantLib-1.24.dist-info/top_level.txt,sha256=AChG73GtK4F4999dXr9JBvI3GeBntnOIlMvDe2KbXdk,9
+QuantLib-1.24.dist-info/RECORD,,
