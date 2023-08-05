@@ -1,0 +1,9 @@
+README.md
+setup.py
+elves/__init__.py
+elves/errors.py
+elves/execute.py
+pyelves.egg-info/PKG-INFO
+pyelves.egg-info/SOURCES.txt
+pyelves.egg-info/dependency_links.txt
+pyelves.egg-info/top_level.txt

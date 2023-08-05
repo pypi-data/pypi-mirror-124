@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyelves
+Version: 0.0.2
+Summary: A package designed to make Python programming easier.
+Home-page: UNKNOWN
+Author: Alex Pylypenko
+Author-email: macaquedev@gmail.com
+License: MIT
+Description: elves
+        =====
+        
+        A Python package designed to parse English and make programming easier.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
