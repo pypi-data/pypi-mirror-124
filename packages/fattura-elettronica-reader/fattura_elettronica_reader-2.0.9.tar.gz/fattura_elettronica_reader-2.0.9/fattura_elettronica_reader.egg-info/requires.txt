@@ -1,0 +1,6 @@
+appdirs<1.5,>=1.4
+atomicwrites<1.5,>=1.4
+filetype<1.1,>=1.0
+fpyutils<3lxml>=4.6.3,<4.7,>=2
+PyYAML<5.5,>=5.4
+requests<3,>=2.25
