@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+regular_mesh_plotter/__init__.py
+regular_mesh_plotter/core.py
+regular_mesh_plotter.egg-info/PKG-INFO
+regular_mesh_plotter.egg-info/SOURCES.txt
+regular_mesh_plotter.egg-info/dependency_links.txt
+regular_mesh_plotter.egg-info/requires.txt
+regular_mesh_plotter.egg-info/top_level.txt
