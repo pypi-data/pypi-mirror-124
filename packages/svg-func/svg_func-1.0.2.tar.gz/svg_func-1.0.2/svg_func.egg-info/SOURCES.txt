@@ -1,0 +1,9 @@
+setup.py
+interpolation/__init__.py
+interpolation/envelope_warp.py
+interpolation/interpolate_v4.py
+svg_func.egg-info/PKG-INFO
+svg_func.egg-info/SOURCES.txt
+svg_func.egg-info/dependency_links.txt
+svg_func.egg-info/requires.txt
+svg_func.egg-info/top_level.txt
