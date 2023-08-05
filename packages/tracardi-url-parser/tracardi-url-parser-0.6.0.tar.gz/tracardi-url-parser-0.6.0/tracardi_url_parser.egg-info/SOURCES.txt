@@ -1,0 +1,17 @@
+.gitignore
+LICENSE.md
+MANIFEST.in
+README.md
+build.sh
+build_setup.sh
+requirements.txt
+setup.py
+tracardi_url_parser/plugin.py
+tracardi_url_parser.egg-info/PKG-INFO
+tracardi_url_parser.egg-info/SOURCES.txt
+tracardi_url_parser.egg-info/dependency_links.txt
+tracardi_url_parser.egg-info/requires.txt
+tracardi_url_parser.egg-info/top_level.txt
+tracardi_url_parser/model/configuration.py
+tracardi_url_parser/model/__pycache__/configuration.cpython-38.pyc
+tracardi_url_parser/test/unit/test_url_plugin.py
