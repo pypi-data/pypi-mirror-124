@@ -1,0 +1,11 @@
+spacy
+plotly
+emojis
+pandas
+colorama
+wordcloud
+matplotlib
+tldextract
+questionary
+rich
+qualichat-qualitube

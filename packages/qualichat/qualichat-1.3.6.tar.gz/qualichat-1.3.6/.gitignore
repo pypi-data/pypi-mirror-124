@@ -1,0 +1,16 @@
+# Working files
+.venv
+.vscode
+.project
+.mypy_cache
+
+# Documentation files/folders
+docs/_build
+
+# Setuptools building folders
+build
+dist
+*.egg-info
+
+# Python folders
+__pycache__
