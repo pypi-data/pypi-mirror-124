@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pysciebo
+Version: 1.0.0
+Summary: A Python client for sciebo aka hochschulcloud.nrw
+Author: Nils Müller
+Author-email: nils.mueller@uni-bielefeld.de
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyocclient (>=0.6,<0.7)
