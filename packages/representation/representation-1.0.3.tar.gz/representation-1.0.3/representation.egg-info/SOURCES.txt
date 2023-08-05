@@ -1,0 +1,13 @@
+pyproject.toml
+setup.cfg
+setup.py
+representation/__init__.py
+representation/api.py
+representation/representation.py
+representation.egg-info/PKG-INFO
+representation.egg-info/SOURCES.txt
+representation.egg-info/dependency_links.txt
+representation.egg-info/requires.txt
+representation.egg-info/top_level.txt
+representation/interfaces/__init__.py
+representation/interfaces/http.py
