@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: not-so-basic-calculator
+Version: 0.1.1
+Summary: A module for basic calculator class.
+Author-email: Adomas Vysniauskas <adomasofm@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: mypy ; extra == "test"
+Requires-Dist: flake8 ; extra == "test"
+Project-URL: Documentation, https://github.com/punkuotukas/TC_1.1.5_calculator#readme
+Project-URL: Source, https://github.com/punkuotukas/TC_1.1.5_calculator
+Provides-Extra: test
+
+A package with basic calculator functions: addition, subtraction, multiplication, division, root.
+
+#### INSTALLATION
+    pip install not-so-basic-calculator
+
+#### VIRTUAL ENVIRONMENT SETUP
+1. navigate to project's root directory
+2. create the new virtual environment with:
+
+    `python3 -m venv venv`
+3. activate venv with:
+
+    `source venv/bin/activate`
+
+You should see '(venv)' at the end of your terminal prompt line which indicates that virtual environment is active.
+
+To run tests:
+
+    pytest
+
+To generate 'requirements.txt' file with dependencies of the project:
+
+    pip freeze > requirements.txt
