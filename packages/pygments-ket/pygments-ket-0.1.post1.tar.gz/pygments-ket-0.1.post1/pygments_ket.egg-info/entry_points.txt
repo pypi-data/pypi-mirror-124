@@ -1,0 +1,2 @@
+[pygments.lexers]
+                    ket=pygments_ket:KetLexer

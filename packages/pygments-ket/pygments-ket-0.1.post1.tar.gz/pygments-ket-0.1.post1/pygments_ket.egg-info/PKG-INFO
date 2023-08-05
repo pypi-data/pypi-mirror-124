@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pygments-ket
+Version: 0.1.post1
+Summary: Pygments lexer for Ket.
+Home-page: https://gitlab.com/quantum-ket/pygments-ket
+Author: Evandro Chagas Ribeiro da Rosa
+Author-email: evandro.crr@posgrad.ufsc.br
+License: Apache-2.0
+Keywords: pygments ket lexer
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![PyPI](https://img.shields.io/pypi/v/pygments-ket.svg)](https://pypi.org/project/pygments-ket/)
+
+# Pygments Ket
+
+Pygments support for the Ket quantum programming language.
+
+-----------
+
+This project is part of the Ket Quantum Programming, see the documentation for
+more information https://quantum-ket.gitlab.io.
+
+
