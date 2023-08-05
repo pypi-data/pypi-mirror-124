@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: menustat-pkg
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Claire Peters
+Author-email: clairepeters@g.harvard.edu
+License: BSD License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+

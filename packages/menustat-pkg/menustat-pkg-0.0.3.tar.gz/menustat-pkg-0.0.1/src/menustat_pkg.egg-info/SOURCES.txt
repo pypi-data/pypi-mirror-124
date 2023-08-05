@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/menustat/__init__.py
+src/menustat/accessories.py
+src/menustat/core.py
+src/menustat/exceptions.py
+src/menustat/orm.py
+src/menustat/utils.py
+src/menustat_pkg.egg-info/PKG-INFO
+src/menustat_pkg.egg-info/SOURCES.txt
+src/menustat_pkg.egg-info/dependency_links.txt
+src/menustat_pkg.egg-info/requires.txt
+src/menustat_pkg.egg-info/top_level.txt
