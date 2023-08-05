@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pkg-sysoev/__init__.py
+pkg-sysoev/hello.py
+pkg_sysoev.egg-info/PKG-INFO
+pkg_sysoev.egg-info/SOURCES.txt
+pkg_sysoev.egg-info/dependency_links.txt
+pkg_sysoev.egg-info/requires.txt
+pkg_sysoev.egg-info/top_level.txt
