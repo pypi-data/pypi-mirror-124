@@ -1,0 +1,13 @@
+stocks_toolkit/API_wrapper.py,sha256=KBXf672NbSL-pX_TulCI_zALoyjjg-wCfqwrmO7WAOc,2392
+stocks_toolkit/__init__.py,sha256=boUXGt3oESzBlWoDqUcbt2eY6ML5NaQXlAXRZAZPhxg,68
+stocks_toolkit/candle_analysis.py,sha256=yYr8EWlwggAUVEiGEcEb8AllbCKT3zitF6CIA-sanyw,1223
+stocks_toolkit/exceptions.py,sha256=BZjTX7I9ziCfBL1eY7YB7YY92FKCfioVMeXMZPus5hg,154
+stocks_toolkit/helper.py,sha256=lDZfgA8BvwzdcYkQEqveLNXq-r6bUgLjG9D6sOodOUY,1001
+stocks_toolkit/retrieval_layer.py,sha256=h4vohIs3FUilz7BSPjk6mEzbe72Et6hgtyEJ5pTOO4o,2834
+stocks_toolkit/stocks_toolkit.py,sha256=7XeNiAS58mtnSp0StU7E_ws-pxXRKMzYo3y89CAjWf0,799
+stocks_toolkit/stocksymbols.csv,sha256=r9iX04OtPN5IES_YtrnUr3oNb817V-aTflpKLPwYkZI,41163
+stocks_toolkit_india-0.1.38.dist-info/LICENSE,sha256=Lm7ZAvxXt4QrMtqj82MUKfdsin606jZFiMSY3L05xxs,1096
+stocks_toolkit_india-0.1.38.dist-info/METADATA,sha256=cwTDlYV4wTtTufXGfYl7yttBapx0McjQXCbTnJN-8nk,773
+stocks_toolkit_india-0.1.38.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+stocks_toolkit_india-0.1.38.dist-info/top_level.txt,sha256=ZUvziFp75uqtsL6SCHSpqLkz_PJqBCOwZFQOfleIeW4,15
+stocks_toolkit_india-0.1.38.dist-info/RECORD,,
