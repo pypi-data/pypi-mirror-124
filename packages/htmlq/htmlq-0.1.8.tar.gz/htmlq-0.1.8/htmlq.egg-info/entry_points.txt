@@ -1,0 +1,4 @@
+[console_scripts]
+htmlq = htmlq:htmlq
+urlf = htmlq:urlf
+

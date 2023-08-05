@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+htmlq/__init__.py
+htmlq/version.py
+htmlq.egg-info/PKG-INFO
+htmlq.egg-info/SOURCES.txt
+htmlq.egg-info/dependency_links.txt
+htmlq.egg-info/entry_points.txt
+htmlq.egg-info/requires.txt
+htmlq.egg-info/top_level.txt
