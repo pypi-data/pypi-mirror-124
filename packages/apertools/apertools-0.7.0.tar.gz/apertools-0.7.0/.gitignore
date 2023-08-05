@@ -1,0 +1,31 @@
+*.pyc
+*.swp
+
+data/
+
+# Don't add huge DEM data files
+*.hgt
+*.dem
+*.dem.rsc
+
+# SAR files
+*.rsc
+*.geo
+*.int
+*.unw
+*.unwflat
+*.npy
+
+# Directories for setup.py
+build
+dist
+*.egg-info
+.eggs
+
+*.log
+*.sql
+
+docs/_build
+
+# cython build product
+*cpython*.so
