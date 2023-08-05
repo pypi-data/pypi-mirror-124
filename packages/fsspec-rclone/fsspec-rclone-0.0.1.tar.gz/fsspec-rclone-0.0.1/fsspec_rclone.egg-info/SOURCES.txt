@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+fsspec_rclone/__init__.py
+fsspec_rclone/_version.py
+fsspec_rclone/spec.py
+fsspec_rclone.egg-info/PKG-INFO
+fsspec_rclone.egg-info/SOURCES.txt
+fsspec_rclone.egg-info/dependency_links.txt
+fsspec_rclone.egg-info/entry_points.txt
+fsspec_rclone.egg-info/requires.txt
+fsspec_rclone.egg-info/top_level.txt
