@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pylabel
+Version: 0.1.1
+Summary: Transform, analyze, and visualize computer vision annotations.
+Home-page: UNKNOWN
+Author: PyLabel Project
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: bbox-visualizer
+
+UNKNOWN
+
+
