@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gym-my-yumi
+Version: 0.0.1
+Summary: An OpenAI Gym Env for Yumi 
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: gym
+
+UNKNOWN
+
+
