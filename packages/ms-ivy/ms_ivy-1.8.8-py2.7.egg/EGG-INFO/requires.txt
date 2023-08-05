@@ -1,0 +1,4 @@
+pyparsing==2.1.4
+ply
+tarjan
+pydot

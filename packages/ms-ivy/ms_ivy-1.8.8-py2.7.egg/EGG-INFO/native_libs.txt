@@ -1,0 +1,2 @@
+ivy/lib/libz3.so
+ivy/z3/libz3.so
