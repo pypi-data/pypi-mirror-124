@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+msrx.spec
+setup.py
+msrx/__init__.py
+msrx.egg-info/PKG-INFO
+msrx.egg-info/SOURCES.txt
+msrx.egg-info/dependency_links.txt
+msrx.egg-info/requires.txt
+msrx.egg-info/top_level.txt
+scripts/msrx
