@@ -1,0 +1,7 @@
+README.md
+setup.py
+github_workflows.egg-info/PKG-INFO
+github_workflows.egg-info/SOURCES.txt
+github_workflows.egg-info/dependency_links.txt
+github_workflows.egg-info/requires.txt
+github_workflows.egg-info/top_level.txt
