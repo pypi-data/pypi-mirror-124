@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mixon/__init__.py
+src/mixon.egg-info/PKG-INFO
+src/mixon.egg-info/SOURCES.txt
+src/mixon.egg-info/dependency_links.txt
+src/mixon.egg-info/top_level.txt
