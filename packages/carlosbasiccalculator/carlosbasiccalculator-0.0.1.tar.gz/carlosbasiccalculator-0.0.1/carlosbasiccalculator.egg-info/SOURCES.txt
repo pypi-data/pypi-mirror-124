@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+carlosbasiccalculator/__init__.py
+carlosbasiccalculator.egg-info/PKG-INFO
+carlosbasiccalculator.egg-info/SOURCES.txt
+carlosbasiccalculator.egg-info/dependency_links.txt
+carlosbasiccalculator.egg-info/top_level.txt
