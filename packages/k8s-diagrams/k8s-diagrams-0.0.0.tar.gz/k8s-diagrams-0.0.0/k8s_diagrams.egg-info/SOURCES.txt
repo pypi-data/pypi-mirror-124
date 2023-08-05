@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+k8s_diagrams/__init__.py
+k8s_diagrams.egg-info/PKG-INFO
+k8s_diagrams.egg-info/SOURCES.txt
+k8s_diagrams.egg-info/dependency_links.txt
+k8s_diagrams.egg-info/requires.txt
+k8s_diagrams.egg-info/top_level.txt
