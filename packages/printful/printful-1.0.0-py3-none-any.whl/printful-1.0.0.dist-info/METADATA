@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: printful
+Version: 1.0.0
+Summary: print() but for nerds.
+Home-page: UNKNOWN
+Author: yuma061
+Author-email: 
+License: UNKNOWN
+Keywords: python,print
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: colorama
+
+If you use print() alot and feel like you want to spice it up a litle then this package is the best choice.
+
