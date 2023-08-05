@@ -1,0 +1,25 @@
+<!-- {% verbatim %} Add DJANGO:APP support -->
+<div class="toolbar container-fluid se-top-bar">
+  <div class="row">
+    <div class="col">
+      <button
+        class="btn btn-primary"
+        @click="saveHistory()"
+      >
+        Save to database
+      </button>
+      <!-- <button class="btn btn-primary" @click="toggleDict()">
+           {{ dict.lang == 'es_CR' ? 'en_US' : 'es_CR' }}
+           </button> --> <!-- TODO -->
+    </div>
+    <div class="col d-flex justify-content-end">
+      <div class="d-inline-flex p-2">
+        <div class="pointer-coor">Longitude: {{ pointer[0] }}</div>
+      </div>
+      <div class="d-inline-flex p-2">
+        <div class="pointer-coor">Latitude: {{ pointer[1] }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- {% endverbatim %} -->
