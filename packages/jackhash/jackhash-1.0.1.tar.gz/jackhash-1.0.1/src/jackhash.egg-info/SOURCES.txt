@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/jackhash/__init__.py
+src/jackhash/jackhash.py
+src/jackhash.egg-info/PKG-INFO
+src/jackhash.egg-info/SOURCES.txt
+src/jackhash.egg-info/dependency_links.txt
+src/jackhash.egg-info/not-zip-safe
+src/jackhash.egg-info/top_level.txt
