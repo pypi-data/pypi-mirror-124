@@ -1,0 +1,10 @@
+stepspy/__init__.py,sha256=L3r1jxVmc-MErIIvTBiKmMMEcqjFzSaaXfdNqve2F6s,351
+stepspy/pouch.py,sha256=1_XQmP1x87Cv-EIfQ8Yfya6awgfjJOws5ODVxX-XplY,8052
+stepspy/stepspy.py,sha256=-FdJetGL3Vh-NiTePwRHvVCMVVAweJh1alywBBTeZmQ,254933
+stepspy/libsteps/__init__.py,sha256=0waJK6l8OJnuc-_gdzcy-xL2ATHNVxUQ_qSK6albeR0,26
+stepspy/libsteps/pylibsteps.py,sha256=e9OS4uUKYqJyZsWSlTWCEm3CBIPBIxxjVvL4Hdd8y28,49674
+stepspy-1.5.3.dist-info/LICENSE,sha256=OFOiyeexSw5DCeyqdIwvsA0OzsYN8GANDvxk2IeQLDs,1090
+stepspy-1.5.3.dist-info/METADATA,sha256=xnUZf6lgwHM-EyN16QDkj00nW-McTjcpp-ximJTNo3E,7278
+stepspy-1.5.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+stepspy-1.5.3.dist-info/top_level.txt,sha256=nOqhKGDWNw7iSVfJyJfuO08loYU2-VCozQdJu5pe5FI,8
+stepspy-1.5.3.dist-info/RECORD,,
