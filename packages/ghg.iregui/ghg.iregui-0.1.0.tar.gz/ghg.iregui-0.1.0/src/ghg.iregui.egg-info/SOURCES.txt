@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ghg/__init__.py
+src/ghg.iregui.egg-info/PKG-INFO
+src/ghg.iregui.egg-info/SOURCES.txt
+src/ghg.iregui.egg-info/dependency_links.txt
+src/ghg.iregui.egg-info/top_level.txt
+src/ghg/iregui/__init__.py
+src/ghg/iregui/main.py
