@@ -1,0 +1,7 @@
+setup.py
+AnDanFirstTaskTest.egg-info/PKG-INFO
+AnDanFirstTaskTest.egg-info/SOURCES.txt
+AnDanFirstTaskTest.egg-info/dependency_links.txt
+AnDanFirstTaskTest.egg-info/requires.txt
+AnDanFirstTaskTest.egg-info/top_level.txt
+main/main.py
