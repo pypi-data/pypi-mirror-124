@@ -1,0 +1,9 @@
+LICENSE.txt
+README.txt
+setup.py
+CINIRW.egg-info/PKG-INFO
+CINIRW.egg-info/SOURCES.txt
+CINIRW.egg-info/dependency_links.txt
+CINIRW.egg-info/top_level.txt
+cinirw/__init__.py
+cinirw/cinirw_.py
