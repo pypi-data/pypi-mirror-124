@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: solas-widget
+Version: 0.1.5
+Summary: A Custom Jupyter Widget Library
+Home-page: https://github.com/willeppy/solas-widget
+Author: Will Epperson
+Author-email: willepp@cmu.edu
+License: Apache-2.0
+Description: # Solas-widget
+        
+        Jupyter widget extension for solas vis rec library.
+Keywords: Jupyter,Widgets,Visualization,Analytics,Data Science,Data Analysis,IPython
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Jupyter
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Other Audience
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
