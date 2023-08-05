@@ -1,0 +1,3 @@
+[fsspec.specs]
+rclone = fsspec_rclone.RcloneSpecFS
+

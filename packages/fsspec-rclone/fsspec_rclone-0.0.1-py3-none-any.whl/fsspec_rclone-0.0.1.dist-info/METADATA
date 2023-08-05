@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: fsspec-rclone
+Version: 0.0.1
+Summary: Filesystem-spec interface over rclone
+Home-page: https://github.com/ivandeex/fsspec-rclone/
+Author: Ivan Andreev
+Author-email: ivandeex@gmail.com
+License: MIT
+Keywords: fsspec,rclone
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fsspec (==2021.10.1)
+
+# fsspec-rclone
+
+Implementation of fsspec for rclone.
+
+A simple example:
+
+```python
+import fsspec
+
+with fsspec.open("rclone://sftp:host=localhost,user=myuser,pass=mypass,config=/etc/rclone/rclone.conf:path/to/file", "r") as f:
+    print(f.read())
+```
+
+TBC
+
+

@@ -1,0 +1,9 @@
+fsspec_rclone/__init__.py,sha256=wQdtormbVTqyprybgGR4I_L8KCG5OyIkFUBl2MBUe4w,307
+fsspec_rclone/_version.py,sha256=p1vzOosIAHkAKOi7xoSQA2LnaijuKtbD4WOUw8oUopo,498
+fsspec_rclone/spec.py,sha256=WGarq8-1AWbxCIFqnUDpZ3FJVHPNR2dJZBegxY_ExYY,17165
+fsspec_rclone-0.0.1.dist-info/LICENSE,sha256=zl3z2cN9bElM_8LZYz0w6RvtzA7nIj8yImHkpo5h878,1072
+fsspec_rclone-0.0.1.dist-info/METADATA,sha256=yYQ9OtFiDGIBVm4m7CtG0ZM_QEMdaa2WdD4eD8f8gBw,961
+fsspec_rclone-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fsspec_rclone-0.0.1.dist-info/entry_points.txt,sha256=DUCRlGEvmPz28eyNi7Iyv7Zr4PsMMPNCmbW3darPhxY,52
+fsspec_rclone-0.0.1.dist-info/top_level.txt,sha256=1nehQq4_DwK4Fa2aQlDLBCmwEN5DkCO7MsjMFZf_544,14
+fsspec_rclone-0.0.1.dist-info/RECORD,,
