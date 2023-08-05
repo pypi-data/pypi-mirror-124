@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+colorizon/backgrounds.py
+colorizon/colors.py
+colorizon/formattings.py
+colorizon.egg-info/PKG-INFO
+colorizon.egg-info/SOURCES.txt
+colorizon.egg-info/dependency_links.txt
+colorizon.egg-info/top_level.txt
