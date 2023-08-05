@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: quangdv-pybloqs
+Version: 1.2.12
+Summary: Data Visualization and Report Building fork from PyBlogs
+Home-page: https://github.com/quangduong109/Quangdv3_PyBloqs
+Author: Man AHL Technology
+Author-email: ManAHLTech@ahl.com
+License: UNKNOWN
+Keywords: ahl,pdf,html,visualization,report
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: beautifulsoup4
+Requires-Dist: matplotlib
+Requires-Dist: markdown
+Requires-Dist: html5lib
+Requires-Dist: pandas
+Requires-Dist: docutils
+Requires-Dist: lxml
+Requires-Dist: pyyaml
+Requires-Dist: jinja2
+Provides-Extra: bokeh
+Requires-Dist: bokeh ; extra == 'bokeh'
+Provides-Extra: docs_and_notebook
+Requires-Dist: sphinx ; extra == 'docs_and_notebook'
+Requires-Dist: nbsphinx ; extra == 'docs_and_notebook'
+Requires-Dist: ipython[notebook] ; extra == 'docs_and_notebook'
+Provides-Extra: plotly
+Requires-Dist: plotly ; extra == 'plotly'
+
+Data Visualization and Report Building fork from PyBlogs
+
+
