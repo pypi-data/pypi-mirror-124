@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: psychopumpum
+Version: 1.1.0
+Summary: Read the latest Real Python tutorials
+Home-page: https://github.com/psychopumpum/psychopumpum-api
+Author: psychopumpum
+Author-email: fadhil@rhyn.tech
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+![Star the project](https://img.shields.io/github/stars/psychopumpum/rest-api?style=social)
+
+### Pricelist
+
+    Apikey Valid / Month
+        • 1. 2000 Request / Day Rp. 15.000
+        • 2. 3000 Request / Day Rp. 20.000
+        • 3. 5000 Request / Day Rp. 25.000
+    Hit limit will be reseted at 00:00 GMT +7
+
+### Contact:
+• [LINE](https://line.me/ti/p/~psychopumpum_)
+• [Whatsapp](https://wa.me/6281360486776)
+    
+
+### Installation
+
+    pip install --upgrade psychopumpum
+
+### Example
+
+    import json
+    from psychopumpum import Psychopumpum
+    client = Psychopumpum('YourApikey')
+    json.dumps(client.ninegag_random(), indent = 4)
+
