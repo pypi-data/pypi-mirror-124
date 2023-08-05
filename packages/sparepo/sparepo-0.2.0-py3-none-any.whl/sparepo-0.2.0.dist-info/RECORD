@@ -1,0 +1,11 @@
+sparepo/__init__.py,sha256=y-BGcs2uy25oVFqFv95d1ETCNFG5I5gYXQntXHZ7vjE,250
+sparepo/accelerated.py,sha256=m2kkguY1vv-AIWG9g5pVLy1CJR3XKezo1stWohHNq7w,3946
+sparepo/build.py,sha256=f7cxrNPHHMlcVIPelfL32_21WhBrtFwRqqNDbcFnYuo,9356
+sparepo/particle_types.py,sha256=asu3PZCnCLKpgdunuPrJIGtB9jXEjKSLMjelrYtEBVc,206
+sparepo/read.py,sha256=EXnbVVOaJAi4VEkS3zV2qY54hjp7xM41LEAIGCx-AUA,17307
+sparepo/regions.py,sha256=Y9xdR4lL0iLSF2EwphsxGK7d2zcOaNq4YRbhcb7LTnc,11970
+sparepo-0.2.0.dist-info/LICENSE,sha256=kqU1W4MJ3ALv9fB3y-rvVxW5FvSlTIKC-nVOVuZac_A,1088
+sparepo-0.2.0.dist-info/METADATA,sha256=nLKPXGEoykLZBHTW9okLF3WZ8DmYbjTE9FVZcQQ5gkY,7252
+sparepo-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sparepo-0.2.0.dist-info/top_level.txt,sha256=1viQK8SOGIanEy2tdEVTL7JfhYvq2z_Fm7kBbYENP7I,8
+sparepo-0.2.0.dist-info/RECORD,,
