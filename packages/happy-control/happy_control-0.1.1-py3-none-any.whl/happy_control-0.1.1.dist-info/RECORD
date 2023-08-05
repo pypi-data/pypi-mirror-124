@@ -1,0 +1,13 @@
+happy_control/Lie_tools.py,sha256=c7hWVwxFgoaF5iuZPzwLQulqMazNaHFlESatYYkxsZU,6252
+happy_control/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+happy_control/approximation_tools.py,sha256=nLwCmNirac6QQ8CxidGKhesH44LWg1f1AZzHd-2fE_A,59181
+happy_control/shuffle_tools.py,sha256=4nhcQqkZ6ov5bqfdGClHn7-H7qmUp_2bodobLsyZWkU,5463
+happy_control/fliess/lie_basis.pickle,sha256=1EtO2MSc1VNThtLcoESbYpp3lgn2eeuT5ws7l9b6keo,2126784
+happy_control/fliess/moments_grading.pickle,sha256=5ivYqHYlh21zGsi3R8FO-_NOvWJzmvGu8yO7TvydAWE,10747821
+happy_control/nonlinear_moments/lie_basis.pickle,sha256=XltrS-UyKnITP4cxaE8-8kqRjZWUCnKI-AtfratWYB4,14445685
+happy_control/nonlinear_moments/moments_grading.pickle,sha256=RPbzzzA05t-Kz090C3wLJxNBprKGpmfS7msvwgKa794,785957
+happy_control-0.1.1.dist-info/LICENSE,sha256=K0fqAQY5hcdDFg15sjCWr6bZedodRrVnW_lwiQl6h3g,1090
+happy_control-0.1.1.dist-info/METADATA,sha256=SZxyHn1jt3ISDCwgNxKaPleHLNeV6ubT8cLABptgzJA,3240
+happy_control-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+happy_control-0.1.1.dist-info/top_level.txt,sha256=HGgILA1Qy48ec1N9cpTHdkf5Y80cV1MkbIEGJnbJG1k,14
+happy_control-0.1.1.dist-info/RECORD,,
