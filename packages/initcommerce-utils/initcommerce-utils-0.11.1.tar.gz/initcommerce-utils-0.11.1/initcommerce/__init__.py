@@ -1,0 +1,6 @@
+from packaging.version import Version
+
+__author__ = "Meysam Azad"
+__author_email__ = "MeysamAzad81@gmail.com"
+__description__ = "General and common utilities used inside the initCommerce platform"
+__version__ = Version("0.11.1")
