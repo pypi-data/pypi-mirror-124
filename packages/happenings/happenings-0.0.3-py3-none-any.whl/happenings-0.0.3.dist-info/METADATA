@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: happenings
+Version: 0.0.3
+Summary: A utility package for creating complex event based time-series data
+Home-page: https://github.com/TNonet/happenings
+Author: Tim Nonet
+Author-email: tim.nonet@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/TNonet/happenings/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.19.0)
+Requires-Dist: scipy (>=1.1.0)
+Requires-Dist: pandas (>=1.0.0)
+Requires-Dist: python-dateutil
+Provides-Extra: test
+Requires-Dist: attrs (>=19.2.0) ; extra == 'test'
+Requires-Dist: hypothesis ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+
+# happenings - convenient timeseries creation 
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Coverage Status](https://coveralls.io/repos/github/TNonet/happenings/badge.svg?branch=main)](https://coveralls.io/github/TNonet/happenings?branch=main)
+[![Build Status](https://app.travis-ci.com/TNonet/happenings.svg?branch=main)](https://app.travis-ci.com/TNonet/happenings)
+
+
+The _happenings_ modudule is lightweight utility package built on Numpy/Pandas for creating complex event based time-series data
+
+# Installation
+_happenings_ can be installed from PyPi using pip:
+```bash
+pip install happenings
+```
+
+## Testing
+As _happenings_ is intended be lightweight, testing packages are not installed unless specified as extras which can also be installed from PyPi using pip:
+```bash
+pip install -e happenings.[test]
+pytest
+```
+
+# Code, Issues, and Contribution
+The code and issue tracker are hosted on GitHub: https://github.com/TNonet/happenings/
+
+
+
+# Basic Example
+
+
+
+# License
+The _happenings_ package and all related documentation, examples, and code is released under the [MIT License](https://opensource.org/licenses/MIT)
+
+
+# Author
+
+
+# Contact
+
+
