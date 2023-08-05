@@ -1,0 +1,3 @@
+[console_scripts]
+pyfranc_cli = pyfranc.pyfranc_cli:main
+
