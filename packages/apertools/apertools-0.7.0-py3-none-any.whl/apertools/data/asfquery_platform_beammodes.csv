@@ -1,0 +1,13 @@
+﻿platform,values
+AIRSAR,"3FP, ATI, XTI"
+ALOS,"FBD, FBS, PLR, WB1, WB2, DSN"
+ERS-1,"Standard, STD"
+ERS-2,"Standard, STD"
+JERS-1,"Standard, STD"
+RADARSAT-1,"Standard, STD, Fine, High, Low, Wide, Narrow, ScanSAR+Wide, ScanSAR+Narrow"
+SEASAT,"Standard, STD"
+SMAP,"Standard, STD"
+Sentinel,"EW, IW, S1, S2, S3, S4, S5, S6, WV"
+Sentinel-1A,"EW, IW, S1, S2, S3, S4, S5, S6, WV"
+Sentinel-1B,"EW, IW, S1, S2, S3, S4, S5, S6, WV"
+UAVSAR,"POL, RPI"
