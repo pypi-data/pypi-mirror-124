@@ -1,0 +1,11 @@
+corpus_toolkit/__init__.py,sha256=vBK1laTCzMunhTnuGuy8XuAQuMQv_Jizy9tR3nXeWHM,22
+corpus_toolkit/antbnc_lemmas_ver_003.txt,sha256=qmdSNymlWm_MOJOJSyIyhWsM8O3oIinTP2FumqSG91Q,5805592
+corpus_toolkit/corpus_toolkit.py,sha256=Qs-VvCWNVBUZPzFtYorJdUWVR1c353OjU4QijNU2D8E,25556
+corpus_toolkit/corpus_tools.py,sha256=MFvQpKJObf1KIQ3T5D3MnpBYw7Ew7lC89QDifhMnyjo,25708
+corpus_toolkit_dev/__init__.py,sha256=n8gitJ0Yswf-mL4BwQ9HDH6427QClUaeBJ7g5IdmNJ0,21
+corpus_toolkit_dev/corpus_toolkit.py,sha256=Qs-VvCWNVBUZPzFtYorJdUWVR1c353OjU4QijNU2D8E,25556
+corpus_toolkit_dev/corpus_tools.py,sha256=Ni0TcUCMiiLeg4wkJLE9bAK47NeSZVzoIj5cgmX8uDc,25721
+corpus_toolkit-0.30.dist-info/METADATA,sha256=Rlr_Ms5zB5Apq1N8-W-l7881rFcUCf2hh2amidmbq2E,15778
+corpus_toolkit-0.30.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+corpus_toolkit-0.30.dist-info/top_level.txt,sha256=V0CD3v7aRP2pPlC7nvLbyQ-DIkjTPFE6-DP1dIAnKG0,34
+corpus_toolkit-0.30.dist-info/RECORD,,
