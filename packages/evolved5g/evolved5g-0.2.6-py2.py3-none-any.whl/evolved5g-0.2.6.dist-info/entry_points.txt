@@ -1,0 +1,3 @@
+[console_scripts]
+evolved5g = evolved5g.cli:cli
+
