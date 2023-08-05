@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ghg-analytics-scrapers-tropomi
+Version: 0.1.1
+Summary: Dummy package for GHGSat
+Home-page: UNKNOWN
+Author: GHGSat Inc.
+Author-email: sysadmin@ghgsat.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+
