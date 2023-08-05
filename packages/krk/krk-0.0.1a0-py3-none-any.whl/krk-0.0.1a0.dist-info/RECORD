@@ -1,0 +1,10 @@
+krk/__init__.py,sha256=s-nhjb1JjoK6d_gTdjImXY_eLkF8RS8mmGl1sIv2Jb8,69
+krk/__main__.py,sha256=g7RUCQcFwb7s1ip8xoL2ua-7WWS0ei3SP0mSnkZKpCk,100
+krk/cli.py,sha256=ePRxwsNMUJC0Z6QhokfGR_ysuBohWFPP5S-xGNIAt38,121
+krk/krk.py,sha256=w9zEVWTZTC7_ZGp3vG7XCaccheYhnuuS0NIKXbztMv4,128
+krk-0.0.1a0.dist-info/LICENSE,sha256=XUPWGrcwdEPRyqBQYyuERMi-XzkGzyxUvPuFHgvF3H0,26027
+krk-0.0.1a0.dist-info/METADATA,sha256=3EWO4IaNKA24Nypj5ZbZjHRsI8k-QG4vbPFOuy91Ho8,895
+krk-0.0.1a0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+krk-0.0.1a0.dist-info/entry_points.txt,sha256=izb-AMPRqmVvO2MyI054NWEnOJjg8bH9YXn7jp0D73Q,38
+krk-0.0.1a0.dist-info/top_level.txt,sha256=8XEoPSAhq3cYN_gEKE2_018_6pVjCHygeC64LixLJV4,4
+krk-0.0.1a0.dist-info/RECORD,,
