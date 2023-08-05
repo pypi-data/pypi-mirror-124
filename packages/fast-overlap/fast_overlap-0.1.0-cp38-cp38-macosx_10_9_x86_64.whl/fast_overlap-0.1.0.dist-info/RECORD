@@ -1,0 +1,10 @@
+fast_overlap-0.1.0.dist-info/RECORD,,
+fast_overlap-0.1.0.dist-info/WHEEL,sha256=m4Wk6eOy92yJY87gVAkQnn-qnRb0vl_v2zsmx0hgXfo,109
+fast_overlap-0.1.0.dist-info/top_level.txt,sha256=R7isvKgcOYDkpAiO_ILJE_OIAUdnxy1uw15LJ8pyi8c,13
+fast_overlap-0.1.0.dist-info/METADATA,sha256=z9DDLVobGXmgJF9bdBpp3vgheG_kIBNQjr05LDPKYP4,953
+fast_overlap/_version.py,sha256=xwUxqNB1me5mfO6PXPXd-gWwNTAl_-Idf0ktsITBEpU,142
+fast_overlap/_engine.cpython-38-darwin.so,sha256=l-hRVbuPJcdlmdNhcQf6W2k3E8nrwHEMTL3hbHUXXQk,269664
+fast_overlap/__init__.py,sha256=F_Kb42FoYTjCE9NmNpvkB1GT4nPCuocgmS0DpZD_a38,207
+fast_overlap/.dylibs/libstdc++.6.dylib,sha256=QXdCQB4ow7lh1xA_J2kyeYsNNxmeavKAJTzYk3NpNa4,3409408
+fast_overlap/.dylibs/libgcc_s.1.dylib,sha256=0nzKceE7naGsMcQhPAlJXSdJia3zS-7NLf3Ggt-TPzs,189248
+fast_overlap/.dylibs/libgomp.1.dylib,sha256=uEmdVRMQGdh_U5qPxIYR8d52ryA1GUyrK4Ncm6bmbkU,352432
