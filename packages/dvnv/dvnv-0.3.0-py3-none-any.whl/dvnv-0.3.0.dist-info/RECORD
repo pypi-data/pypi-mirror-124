@@ -1,0 +1,15 @@
+dvnv/__init__.py,sha256=ZFiXx_7nbEzqmT3FxZgWT9SLpejnjwnaZ_TdKunRwvY,233
+dvnv/__main__.py,sha256=lh8HX8jt-Qfd5VVZPG4rPi4N-vJ2n_F8LkjRRu26e-w,148
+dvnv/dvnv.py,sha256=OT7R4A_gRA4xbVP7R545_LBDCAY7DwxPosjWXPeRbe8,6345
+dvnv/scripts/all/create_dir.py,sha256=LpzltDEGJTq3UsbXkkiUMX_8Qd5xjKyRom7POGv7FrY,143
+dvnv/scripts/all/create_readme.py,sha256=7rO4-AoUbAwbksENqg7rVHo0vOMLprD-8YAk-NWqUp0,431
+dvnv/scripts/all/gitignore.py,sha256=E9CD6IIClJR9pRyh6ADudT6CzpddhiiF_PvHjLZmzPk,3221
+dvnv/scripts/python/new_dir.py,sha256=_9fiLptjZUaCfgllR2JnsRywBSUY_b-1q49xrQWkvMY,580
+dvnv/scripts/python/poetry_init.sh,sha256=oZ8jPSlYAy3yJhTVz2Vld4nRqnVjePUNyoK_u79wfo8,137
+dvnv/scripts/vim/create_plugin_template.py,sha256=CqNcFvNgr3uMeAfeiedKgSZdDRoar3_NF4TeP4GmuoI,470
+dvnv/utils.py,sha256=wFSarEroOvyhDDiLe3peVSEWUTU5IWcjzfkBNdIim8Q,1869
+dvnv-0.3.0.dist-info/entry_points.txt,sha256=o2VMfoiGAHv7JwaPDe3vc130JnfHjbgG888s7LBHJUE,47
+dvnv-0.3.0.dist-info/LICENSE,sha256=9q0XDUBxzihTXwDNRoDdyh20OLIlfn6h4PalrNs-idw,11341
+dvnv-0.3.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+dvnv-0.3.0.dist-info/METADATA,sha256=qpbqv2JvE12HI8CZzV_JdEIZuEj4eAJj9EJEr8aVzVo,497
+dvnv-0.3.0.dist-info/RECORD,,
