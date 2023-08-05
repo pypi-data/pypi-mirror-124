@@ -1,0 +1,13 @@
+tifffile
+imagecodecs
+opencv-python
+ome_types
+nd2
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[dev]
+flake8
+pytest
+pyinstaller
