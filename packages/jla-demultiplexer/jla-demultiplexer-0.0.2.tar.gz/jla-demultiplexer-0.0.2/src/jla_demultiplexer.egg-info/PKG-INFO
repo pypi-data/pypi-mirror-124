@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: jla-demultiplexer
+Version: 0.0.2
+Summary: Internal lab use tool for 3 end analysis
+Home-page: https://github.com/TimNicholsonShaw/jla-demultiplexer
+Author: Tim Nicholson-Shaw
+Author-email: timnicholsonshaw@gmail.com
+License: UNKNOWN
+Project-URL: Lab Website, https://labs.biology.ucsd.edu/lykkeandersen/index.html
+Keywords: Sequencing,ncRNAs,Bioinformatics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# jla-demultiplexer: Internal JLA lab tool for processing gene-specific sequencing experiments
+
+## Installation
+
+```bash
+pip install jla-demultiplexer
+```
+
+## Usage
+
+fastqbreakdown: Removes duplicate reads and trims barcodes and randommer addition
+```bash
+fastqbreakdown -r1 [read 1 location] -r2 [read 2 location] -r [length of random-mer] -b [barcode]
+```
+
+## Notes
+- Random-mer length supplied should be 10 or 11
+- barcode supplied should be barcode column + gene specific column from manifest
+
+## Coming soon
+- Handling manifests
+- Aligning
+- Creating tailer-analysis compatible files
+
+
+
