@@ -1,0 +1,9 @@
+fileioutilities/__init__.py,sha256=WU2EomzNTq0ao4BbrhtNBsSglCziue2AwJ-Nug_f-IY,75
+fileioutilities/file_io.py,sha256=leRfTqtLBqdXMFGPDg80ZPxxCvOYbzohRdkFx5xinGM,1043
+fileioutilities/get_arguments.py,sha256=wlJ0iAmGtjLCzlKyk4TaKWlOvjRsKka_JF2f00JG3LM,309
+fileioutilities/hdfs.py,sha256=A0IrUlisM4bY1dkycXlW4jFrBKEZGuSugSmEf8mqRk4,803
+fileioutilities/local.py,sha256=35SYX06jAlCCVMpn_6Q2BAFgT-IVEt7mWY1kVkf9RMQ,453
+file_io_utilities-0.0.1.4.dist-info/METADATA,sha256=be3rKcVOhr5Wi-Bsa7MpRt2gQBa6ocFktYxgY3FRB5Q,442
+file_io_utilities-0.0.1.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+file_io_utilities-0.0.1.4.dist-info/top_level.txt,sha256=gAKw2UmoIICuIlFULICugLmV0wDeM50vGVND6XmigG8,16
+file_io_utilities-0.0.1.4.dist-info/RECORD,,
