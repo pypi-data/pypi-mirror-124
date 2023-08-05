@@ -1,0 +1,9 @@
+evalcache>=1.14.0
+numpy
+pillow
+psutil
+zenframe
+
+[gui]
+PyQt5
+pyopengl
