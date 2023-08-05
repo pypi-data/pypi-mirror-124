@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+qsr/__init__.py
+qsr/qsr.py
+qsr.egg-info/PKG-INFO
+qsr.egg-info/SOURCES.txt
+qsr.egg-info/dependency_links.txt
+qsr.egg-info/requires.txt
+qsr.egg-info/top_level.txt
