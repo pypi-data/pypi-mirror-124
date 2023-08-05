@@ -1,0 +1,24 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "not-so-basic-calculator"
+authors = [{name = "Adomas Vysniauskas", email = "adomasofm@gmail.com"}]
+readme = "README.md"
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+
+[tool.flit.module]
+name = "calculator"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "mypy",
+    "flake8"
+]
+
+[project.urls]
+Documentation = "https://github.com/punkuotukas/TC_1.1.5_calculator#readme"
+Source = "https://github.com/punkuotukas/TC_1.1.5_calculator"
