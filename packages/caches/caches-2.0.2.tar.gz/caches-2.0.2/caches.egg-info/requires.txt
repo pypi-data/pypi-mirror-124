@@ -1,0 +1,4 @@
+redis
+dsnparse
+decorators
+datatypes
