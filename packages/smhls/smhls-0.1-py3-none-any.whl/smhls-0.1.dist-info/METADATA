@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: smhls
+Version: 0.1
+Summary: Custom implementation ls utility
+Home-page: https://github.com/SmeshMike/SMHLS
+Author: Mikhail Kochenyuk
+Author-email: smeshmike@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Requires-Dist: columnize (>=0.3.10)
+
+UNKNOWN
+
