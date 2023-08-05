@@ -1,0 +1,8 @@
+README.txt
+setup.py
+ZPyPI/__init__.py
+ZPyPI/main.py
+ZPyPI.egg-info/PKG-INFO
+ZPyPI.egg-info/SOURCES.txt
+ZPyPI.egg-info/dependency_links.txt
+ZPyPI.egg-info/top_level.txt
