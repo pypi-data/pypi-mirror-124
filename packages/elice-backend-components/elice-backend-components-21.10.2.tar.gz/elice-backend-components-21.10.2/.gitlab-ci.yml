@@ -1,0 +1,25 @@
+image: python:3.8-buster
+
+stages:
+  - build
+  - test
+
+variables:
+  XDG_CACHE_HOME: "$CI_PROJECT_DIR/.cache"
+
+cache:
+  key:
+    files:
+      - requirements-dev.txt
+      - setup.py
+  paths:
+    - .cache/pip/
+
+build-job:
+  stage: build
+  script:
+    - pip install -r requirements-dev.txt
+    - safety check
+    - flake8 ebc
+    - mypy ebc
+    - bandit -ll -r ebc
