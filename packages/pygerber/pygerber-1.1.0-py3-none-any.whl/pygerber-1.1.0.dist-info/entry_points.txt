@@ -1,0 +1,3 @@
+[console_scripts]
+pygerber = pygerber.cli:main
+
