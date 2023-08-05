@@ -1,0 +1,16 @@
+[
+  "alarm-classes",
+  "alarm-registrations",
+  "alarm-activations",
+  "alarm-overrides",
+  "intermediate-registration",
+  "intermediate-activation",
+  "intermediate-latch",
+  "intermediate-oneshot",
+  "intermediate-mask",
+  "intermediate-ondelay",
+  "intermediate-offdelay",
+  "effective-registrations",
+  "effective-activations",
+  "effective-alarms"
+]
