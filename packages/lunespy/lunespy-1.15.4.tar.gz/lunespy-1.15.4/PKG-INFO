@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: lunespy
+Version: 1.15.4
+Summary: Library for communication with nodes in mainnet or testnet of the lunes-blockchain network
+License: Apache License, Version 2.0, january 2004
+Keywords: cryptocurrency,lunes,blockchain
+Author: Lunes Platform
+Author-email: lucas.oliveira@lunes.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: base58 (>=2.1.0,<3.0.0)
+Requires-Dist: python-axolotl-curve25519 (>=0.4.1.post2,<0.5.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Documentation, https://github.com/lunes-platform/LunesPy/blob/main/docs/TUTORIAL.md
+Description-Content-Type: text/markdown
+
+# LunesPy
+
+**The [old version](https://github.com/Lunes-platform/LunesPy/tree/old) is being discontinued, but it can still be used at your own and risk.**
+
+Library for communication with nodes in mainnet or testnet of the lunes-blockchain network
+Allows the automation of **sending assets**, **issue end reissue tokens**, **lease** and **create new wallet**.
+
+
+## [What's new?](./CHANGELOG.md)
+
+
+## [How to use LunesPy?](./docs/TUTORIAL.md)
+
+## [Want to contribute to LunesPy?](./CONTRIBUTING.md)
+
+## Contributors
+
+Thanks to the following people who have contributed to this project:
+
+* [olivmath](https://github.com/olivmath)
+* [marcoslkz](https://github.com/marcoslkz)
+* [VanJustin](https://github.com/VanJustin)
+
+## Contact
+
+If you want to contact me you can reach me at <lucas.oliveira@lunes.io>.
+
+## License
+
+[Apache License Version 2.0](./LICENSE).
+
