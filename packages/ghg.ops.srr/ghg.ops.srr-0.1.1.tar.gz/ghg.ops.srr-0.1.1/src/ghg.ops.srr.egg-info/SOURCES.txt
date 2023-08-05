@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ghg/__init__.py
+src/ghg.ops.srr.egg-info/PKG-INFO
+src/ghg.ops.srr.egg-info/SOURCES.txt
+src/ghg.ops.srr.egg-info/dependency_links.txt
+src/ghg.ops.srr.egg-info/top_level.txt
+src/ghg/ops/__init__.py
+src/ghg/ops/srr/__init__.py
+src/ghg/ops/srr/main.py
