@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fast-hist-package
+Version: 0.1.0
+Summary: An python library for fast histogram creating
+Home-page: UNKNOWN
+Author: Fedor Vihnin
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: matplotlib (>=3.4.3)
+Requires-Dist: typing
+
+UNKNOWN
+
