@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: github-workflows
+Version: 0.2
+Summary: Contains CI CD workflows examples in github
+Home-page: https://github.com/pankajr141/workflows
+Author: Pankaj Rawat
+Author-email: pankajr141@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: docutils (==0.15.2)
+Requires-Dist: tqdm (==4.48.2)
+Requires-Dist: matplotlib (==3.2.1)
+
+# workflows
+CI CD workflow examples for github
+
+
