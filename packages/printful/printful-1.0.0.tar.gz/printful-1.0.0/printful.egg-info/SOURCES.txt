@@ -1,0 +1,9 @@
+README.md
+setup.py
+printful/__init__.py
+printful/printful.py
+printful.egg-info/PKG-INFO
+printful.egg-info/SOURCES.txt
+printful.egg-info/dependency_links.txt
+printful.egg-info/requires.txt
+printful.egg-info/top_level.txt
