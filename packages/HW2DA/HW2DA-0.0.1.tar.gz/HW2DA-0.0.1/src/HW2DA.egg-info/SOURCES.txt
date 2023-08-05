@@ -1,0 +1,6 @@
+setup.py
+src/HW2DA.egg-info/PKG-INFO
+src/HW2DA.egg-info/SOURCES.txt
+src/HW2DA.egg-info/dependency_links.txt
+src/HW2DA.egg-info/requires.txt
+src/HW2DA.egg-info/top_level.txt
