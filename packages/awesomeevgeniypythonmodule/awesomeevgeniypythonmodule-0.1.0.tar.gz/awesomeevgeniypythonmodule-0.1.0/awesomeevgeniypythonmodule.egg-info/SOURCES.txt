@@ -1,0 +1,7 @@
+setup.py
+awesomeevgeniypythonmodule/__init__.py
+awesomeevgeniypythonmodule/meaning.py
+awesomeevgeniypythonmodule.egg-info/PKG-INFO
+awesomeevgeniypythonmodule.egg-info/SOURCES.txt
+awesomeevgeniypythonmodule.egg-info/dependency_links.txt
+awesomeevgeniypythonmodule.egg-info/top_level.txt
