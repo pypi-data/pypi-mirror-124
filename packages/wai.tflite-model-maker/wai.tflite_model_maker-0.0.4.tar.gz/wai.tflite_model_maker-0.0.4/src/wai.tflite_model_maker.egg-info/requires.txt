@@ -1,0 +1,11 @@
+argparse
+numpy<1.20.0
+opex
+python-image-complete
+pyyaml
+redis
+redis-docker-harness==0.0.1
+simple-file-poller>=0.0.9
+tensorflow<2.5.0,>2.4.0
+tflite-model-maker<0.3.2,>=0.3.0
+wai.pycocotools

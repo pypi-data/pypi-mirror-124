@@ -1,0 +1,54 @@
+Metadata-Version: 1.1
+Name: wai.tflite_model_maker
+Version: 0.0.4
+Summary: tflite model maker command-line utilities.
+Home-page: https://github.com/waikato-datamining/tensorflow/tree/master/tflite_model_maker
+Author: Peter Reutemann and TensorFlow Team
+Author-email: fracpete@waikato.ac.nz
+License: Apache 2.0 License
+Description: The *wai.tflite_model_maker* library offers command-line tools for training tflite
+        models and applying them.
+        
+        The following domains are supported:
+        
+        * image classification
+        * object detection
+        
+        For making predictions, the following approaches are available:
+        
+        * single image
+        * batch/continuous processing using file-polling
+        * continuous processing via a Redis backend (for receiving images and sending predictions back to)
+        
+        Changelog
+        =========
+        
+        0.0.4 (2021-10-20)
+        ------------------
+        
+        - added ability to store results of evaluation (imgcls and objdet) in JSON file
+        
+        
+        0.0.3 (2021-10-06)
+        ------------------
+        
+        - handling custom hyper parameters now correctly
+        
+        
+        0.0.2 (2021-10-06)
+        ------------------
+        
+        - added tools for image classification (train/predict)
+        - added support for model optimization (float16, dynamic)
+        
+        
+        0.0.1 (2021-10-05)
+        ------------------
+        
+        - initial release
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3

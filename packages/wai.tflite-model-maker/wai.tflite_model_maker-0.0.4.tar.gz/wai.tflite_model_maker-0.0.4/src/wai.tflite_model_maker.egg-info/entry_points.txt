@@ -1,0 +1,10 @@
+[console_scripts]
+tmm-ic-predict = wai.tmm.imgcls.predict:sys_main
+tmm-ic-predict-poll = wai.tmm.imgcls.predict_poll:sys_main
+tmm-ic-predict-redis = wai.tmm.imgcls.predict_redis:sys_main
+tmm-ic-train = wai.tmm.imgcls.train:sys_main
+tmm-od-predict = wai.tmm.objdet.predict:sys_main
+tmm-od-predict-poll = wai.tmm.objdet.predict_poll:sys_main
+tmm-od-predict-redis = wai.tmm.objdet.predict_redis:sys_main
+tmm-od-train = wai.tmm.objdet.train:sys_main
+
