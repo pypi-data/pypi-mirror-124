@@ -1,0 +1,4 @@
+[console_scripts]
+convbump-changelog=convbump.app:changelog
+convbump-version=convbump.app:version
+
