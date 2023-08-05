@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+tradingview/__init__.py
+tradingview/client.py
+tradingview.egg-info/PKG-INFO
+tradingview.egg-info/SOURCES.txt
+tradingview.egg-info/dependency_links.txt
+tradingview.egg-info/not-zip-safe
+tradingview.egg-info/requires.txt
+tradingview.egg-info/top_level.txt
