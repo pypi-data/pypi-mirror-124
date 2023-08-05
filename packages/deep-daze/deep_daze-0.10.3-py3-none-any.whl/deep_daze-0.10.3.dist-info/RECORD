@@ -1,0 +1,12 @@
+deep_daze/__init__.py,sha256=uhGc31fLjg_ZO_eOiOQxZnsELx-CNbEjnj52Rs4Kf8Q,50
+deep_daze/cli.py,sha256=Tel1NYAaKZjydTn2jk8U_R2AF443PZwe6ZogbJZWywU,7703
+deep_daze/clip.py,sha256=GwoiOHAJ0keYoGPYZXv3377e_if18RKii7wH0ozV6ck,28794
+deep_daze/deep_daze.py,sha256=n_CbPHOoONc62TMGWetJZl7Z1VOhitP_HhFh-h2u6G8,23053
+deep_daze/version.py,sha256=p7Y7Pj__NSPug3-N_G5_DOVAulnLz9FnuEpcTlIh7W0,23
+deep_daze/data/bpe_simple_vocab_16e6.txt,sha256=Z2A8_aLgMq13tfiAivN3idWQ22ZLJt-HBdK_izxVP8g,3194984
+deep_daze-0.10.3.dist-info/LICENSE,sha256=30mv4lkUWgYBbPZ3oylecRJK1UJGaVqAsYKz9EaIW_0,1080
+deep_daze-0.10.3.dist-info/METADATA,sha256=Sj6FhT-9KAawsCuEeOFd05Yq93p6WmEzKpk4E_34v6I,902
+deep_daze-0.10.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+deep_daze-0.10.3.dist-info/entry_points.txt,sha256=5JXAstwWhcI_UCncJc6xI68ky2qMvaNiOgOTyEqyJr4,48
+deep_daze-0.10.3.dist-info/top_level.txt,sha256=OhiWQVkJ8yR6DpucIj-uWe43poWv9nBvhwfHHibV0YA,10
+deep_daze-0.10.3.dist-info/RECORD,,
