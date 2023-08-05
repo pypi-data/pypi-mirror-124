@@ -1,0 +1,77 @@
+.jsp-app {
+  position: relative;
+  padding: 20px var(--pf-global--spacer--2xl) !important;
+  margin-top: -20px !important;
+
+  &__header {
+    color: var(--pf-global--Color--100);
+    max-width: 768px;
+
+    &__title-line {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__title {
+      font-size: var(--pf-global--FontSize--2xl);
+    }
+
+    &__sub-title {
+      font-size: var(--pf-global--FontSize--md);
+      margin-top: var(--pf-global--spacer--sm);
+    }
+  }
+
+  &__option-section {
+    margin-top: var(--pf-global--spacer--lg);
+    border-top: 1px solid var(--pf-global--BorderColor--100);
+    padding-top: var(--pf-global--spacer--lg);
+    text-align: left;
+    max-width: 768px;
+
+    &.m-is-top {
+      margin-top: 0;
+      border-top: 0;
+    }
+
+    &__title {
+      align-items: center;
+      display: flex;
+      font-size: var(--pf-global--FontSize--lg);
+
+      > svg {
+        margin-left: var(--pf-global--spacer--xs);
+      }
+    }
+  }
+
+  &__inline-link {
+    margin-left: var(--pf-global--spacer--sm);
+    svg {
+      margin-left: var(--pf-global--spacer--xs);
+    }
+  }
+
+  .jsp-spawner__buttons-bar {
+    margin: var(--pf-global--spacer--lg) 0;
+  }
+
+  //
+  // add specificity to prevent bootstrap overrides
+  //
+
+  .pf-c-check__input {
+    margin-top: var(--pf-c-check__input--MarginTop);
+  }
+  .pf-c-radio__input {
+    margin-top: var(--pf-c-radio__input--MarginTop);
+  }
+
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    line-height: var(--pf-global--LineHeight--md);
+  }
+  .pf-c-backdrop {
+    position: absolute;
+  }
+}
