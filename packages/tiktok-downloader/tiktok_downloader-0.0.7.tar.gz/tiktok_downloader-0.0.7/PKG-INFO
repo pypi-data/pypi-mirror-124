@@ -1,0 +1,70 @@
+Metadata-Version: 1.1
+Name: tiktok_downloader
+Version: 0.0.7
+Summary: Tiktok Downloader&Scraper using bs4&requests
+Home-page: https://github.com/krypton-byte/tiktok_downloader
+Author: Krypton Byte
+Author-email: galaxyvplus6434@gmail.com
+License: MIT
+Download-URL: https://github.com/krypton-byte/tiktok_downloader/archive/0.0.7.tar.gz
+Description: <p align="center">
+        <img src="https://avatars.githubusercontent.com/u/52121207" width="25%"><br>
+        <img src="https://img.shields.io/badge/AUTHOR-KRYPTON--BYTE-brightgreen">
+        </p>
+        
+        [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+        
+        # install
+        
+        ```bash
+        > python3 -m pip install tiktok_downloader
+        > python3 -m pip install git+https://github.com/krypton-byte/tiktok-downloader
+        ```
+        
+        <ul>
+        <li><h2> ssstik</h2></li>
+        
+        ```python
+        >>> from tiktok_downloader import ssstik
+        >>> ssstik().get_media("url")
+        [<[type:video]>, <[type:music]>]
+        >>> ssstik().get_media("url")[0].download("result.mp4")
+        ```
+        
+        <li><h2> snaptik</h2></li>
+        
+        ```python
+        >>> from tiktok_downloader import snaptik
+        >>>snaptik("url").get_media()
+        [<[type:video]>, <[type:video]>]
+        >>> Tiktok.snaptik("url").get_media()[0].download("result.mp4")
+        ```
+        <li><h2> get info </h2></li>
+        
+        ```python
+        >>> from tiktok_downloader import info_video
+        >>> info=info_video("url")
+        >>> info.caption
+        >>> info.created
+        >>> info.id
+        >>> info.music
+        >>> info.username
+        >>> info.created
+        >>> info.signature
+        >>> info.verified
+        ```
+        </ul>
+        # Donasi
+        <p align="center"><img src="https://svgur.com/i/Vtt.svg">
+        
+        </p>
+        <ul><li><a href="https://saweria.co/kryptonbyte">Saweria</a><li><a href="https://wa.me/6283172366463">Whatsapp</a></li><li><a href="https://trakteer.id/krypton-byte-z8vbo">Trakteer</a></li></ul>
+        
+Keywords: tiktok,downloader,scrapper,tikdok-scraper,tiktok-downloader
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
