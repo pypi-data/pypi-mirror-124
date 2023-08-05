@@ -1,0 +1,7 @@
+munity
+munity/authorization/
+munity/generic_groups/
+munity/records/
+munity/settings/
+munity/users/
+munity/workspaces/
