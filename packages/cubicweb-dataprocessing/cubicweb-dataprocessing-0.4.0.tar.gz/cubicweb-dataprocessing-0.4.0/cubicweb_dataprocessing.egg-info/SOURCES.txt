@@ -1,0 +1,255 @@
+MANIFEST.in
+README.rst
+setup.py
+tox.ini
+cubicweb_dataprocessing/__init__.py
+cubicweb_dataprocessing/__pkginfo__.py
+cubicweb_dataprocessing/__pkginfo__.py.orig
+cubicweb_dataprocessing/entities.py
+cubicweb_dataprocessing/hooks.py
+cubicweb_dataprocessing/schema.py
+cubicweb_dataprocessing/views.py
+cubicweb_dataprocessing/workflows.py
+cubicweb_dataprocessing.egg-info/PKG-INFO
+cubicweb_dataprocessing.egg-info/SOURCES.txt
+cubicweb_dataprocessing.egg-info/dependency_links.txt
+cubicweb_dataprocessing.egg-info/not-zip-safe
+cubicweb_dataprocessing.egg-info/requires.txt
+cubicweb_dataprocessing.egg-info/top_level.txt
+cubicweb_dataprocessing/__pycache__/__init__.cpython-37.pyc
+cubicweb_dataprocessing/__pycache__/__pkginfo__.cpython-37.pyc
+cubicweb_dataprocessing/__pycache__/entities.cpython-37.pyc
+cubicweb_dataprocessing/__pycache__/hooks.cpython-37.pyc
+cubicweb_dataprocessing/__pycache__/views.cpython-37.pyc
+cubicweb_dataprocessing/__pycache__/workflows.cpython-37.pyc
+cubicweb_dataprocessing/i18n/en.po
+cubicweb_dataprocessing/i18n/fr.po
+cubicweb_dataprocessing/migration/0.2.0_Any.py
+cubicweb_dataprocessing/migration/0.3.0_Any.py
+cubicweb_dataprocessing/migration/postcreate.py
+test/__init__.py
+test/pytestconf.py
+test/unittest_entities.py
+test/unittest_hooks.py
+test/unittest_schema.py
+test/data/bootstrap_cubes
+test/data/cat.py
+test/data/iconv.py
+test/data/reverse.py
+test/data/truncate.py
+test/data/bfss/1000_data_stderr9xlq8iun
+test/data/bfss/1000_data_stderr9ytii2nc
+test/data/bfss/1000_data_stderrdd549psn
+test/data/bfss/1000_data_stderrertkezjx
+test/data/bfss/1000_data_stderrf9cn3hmt
+test/data/bfss/971_data_-home-fferry-src-projets-dataprocessing-test-data-iconv87swwv1o.py
+test/data/bfss/971_data_-home-fferry-src-projets-dataprocessing-test-data-iconvvms2j8us.py
+test/data/bfss/971_data_-home-fferry-src-projets-dataprocessing-test-data-reverse0c4om8qt.py
+test/data/bfss/971_data_-home-fferry-src-projets-dataprocessing-test-data-reverseta_1sdgx.py
+test/data/bfss/971_data_data3apx16rb
+test/data/bfss/971_data_data3rjgaxlh
+test/data/bfss/971_data_data7ogirsfw
+test/data/bfss/971_data_data846il9pu
+test/data/bfss/971_data_datab57d95g4
+test/data/bfss/971_data_dataei6am5p3
+test/data/bfss/971_data_dataeuwgvo_0
+test/data/bfss/971_data_dataf4gm7hqx
+test/data/bfss/971_data_datamm_se2pq
+test/data/bfss/971_data_datauks2_sdl
+test/data/bfss/971_data_dataz5rw8l5j
+test/data/bfss/971_data_from __future__ import print_function
+import sys
+with open(sys.argv[1]) as f:
+  print("<p>{0}<-p>".format(f58a_huzr.read()), end="")
+test/data/bfss/971_data_from __future__ import print_function
+import sys
+with open(sys.argv[1]) as f:
+  print("<p>{0}<-p>".format(f_8z08c2_.read()), end="")
+test/data/bfss/971_data_from __future__ import print_function
+import sys
+with open(sys.argv[1]) as f:
+  print("<p>{0}<-p>".format(fo9efli43.read()), end="")
+test/data/bfss/971_data_from __future__ import print_function
+import sys
+with open(sys.argv[1]) as f:
+  print("<p>{0}<-p>".format(frs3xjwgg.read()), end="")
+test/data/bfss/971_data_from __future__ import print_function
+import sys
+with open(sys.argv[1]) as f:
+  print("<p>{0}<-p>".format(fy_mk328u.read()), end="")
+test/data/bfss/971_data_pass4vvl_aeq
+test/data/bfss/971_data_passc2zq_u75
+test/data/bfss/971_data_passe6eadsn9
+test/data/bfss/971_data_passjevcswhc
+test/data/bfss/971_data_passji2m8d3k
+test/data/bfss/971_data_passl4uenocj
+test/data/bfss/971_data_passl8k65uhv
+test/data/bfss/971_data_passnd4ngw_0
+test/data/bfss/971_data_passo0t1pu4j
+test/data/bfss/971_data_passsewxa41b
+test/data/bfss/971_data_passvewu1ue9
+test/data/bfss/971_data_passvoncbvlw
+test/data/bfss/971_data_passy88kq33m
+test/data/bfss/971_data_passyo219slb
+test/data/bfss/971_data_passzdr5787u
+test/data/bfss/971_data_v0roxf433
+test/data/bfss/971_data_v7w995viq
+test/data/bfss/971_data_v8by6izt5
+test/data/bfss/971_data_vafbb5ysd
+test/data/bfss/971_data_veu8j_3zr
+test/data/bfss/971_data_vi2fnkzgq
+test/data/bfss/971_data_vkbkp9huu
+test/data/bfss/971_data_vv28t09wh
+test/data/bfss/971_data_vya0u2b9f
+test/data/bfss/971_data_vyugruhqv
+test/data/bfss/972_data_1-03jx6rt6x
+test/data/bfss/972_data_1-08ezjjlo5
+test/data/bfss/972_data_1-0azh_nd7g
+test/data/bfss/972_data_1-0do8rszy4
+test/data/bfss/972_data_1-0h9ltmvd_
+test/data/bfss/972_data_1-0hoz_kkux
+test/data/bfss/972_data_1-0iu9r66qo
+test/data/bfss/972_data_1-0km2hnjxa
+test/data/bfss/972_data_1-0n2if4zsr
+test/data/bfss/972_data_1-0npu19nwg
+test/data/bfss/972_data_1-0nwb1k4v1
+test/data/bfss/972_data_1-0qn_hzlg6
+test/data/bfss/972_data_1-0rpkclist
+test/data/bfss/972_data_1-0v26yhlv1
+test/data/bfss/972_data_1-0wymjjpgr
+test/data/bfss/972_data_DataTransformationProcess script37qi5jta
+test/data/bfss/972_data_DataTransformationProcess scripthyurqm0v
+test/data/bfss/972_data_DataTransformationProcess scripto8ayfcwr
+test/data/bfss/972_data_DataTransformationProcess scriptohnl9mn_
+test/data/bfss/972_data_DataTransformationProcess scriptrxdnuk10
+test/data/bfss/972_data_DataTransformationProcess scriptzjh06tue
+test/data/bfss/972_data_DataValidationProcess script42n4gf50
+test/data/bfss/972_data_DataValidationProcess scriptclboju3s
+test/data/bfss/972_data_DataValidationProcess scriptf_1s03gw
+test/data/bfss/972_data_DataValidationProcess scriptns8ppzwf
+test/data/bfss/972_data_DataValidationProcess scriptyo2kokz4
+test/data/bfss/972_data_pass3ifqmy2a
+test/data/bfss/972_data_passd5umfdct
+test/data/bfss/972_data_passg2j847q4
+test/data/bfss/972_data_passh4sl36h7
+test/data/bfss/972_data_passjiueyeqt
+test/data/bfss/973_data_-home-fferry-src-projets-dataprocessing-test-data-truncate03pbcm2p.py
+test/data/bfss/973_data_-home-fferry-src-projets-dataprocessing-test-data-truncateagomg524.py
+test/data/bfss/973_data_pass27jpf0nr
+test/data/bfss/973_data_passkwzkt31_
+test/data/bfss/973_data_passmnv5t3ir
+test/data/bfss/973_data_passr9bs7wz4
+test/data/bfss/973_data_passrxmtze6y
+test/data/bfss/974_data_data0_yuqxov
+test/data/bfss/974_data_data1pnk__5g
+test/data/bfss/974_data_data2pijey74
+test/data/bfss/974_data_data4izudhm_
+test/data/bfss/974_data_data8n8yibhs
+test/data/bfss/974_data_datailixzbgh
+test/data/bfss/974_data_datamuufz9di
+test/data/bfss/974_data_datapm7d_af4
+test/data/bfss/974_data_datay3jo0tj6
+test/data/bfss/974_data_datay86jplp7
+test/data/bfss/974_data_t1q2ahft7
+test/data/bfss/974_data_t1qoplmmi
+test/data/bfss/974_data_t2m9m0amg
+test/data/bfss/974_data_t3qv23um6
+test/data/bfss/974_data_tajq_ukip
+test/data/bfss/974_data_tb2cq6x7b
+test/data/bfss/974_data_tlxcl7_el
+test/data/bfss/974_data_tmbs_xglw
+test/data/bfss/974_data_tow15un2y
+test/data/bfss/974_data_tvse6uil3
+test/data/bfss/976_data_blah2jp7185u
+test/data/bfss/976_data_blah_0cqkg2w
+test/data/bfss/976_data_blahcatx156s
+test/data/bfss/976_data_blahi2cx6aug
+test/data/bfss/976_data_blahojv4w8fq
+test/data/bfss/976_data_data8vt8kpxl
+test/data/bfss/976_data_databqet_dds
+test/data/bfss/976_data_stderr1mjh8u6l
+test/data/bfss/976_data_stderr6kueogrw
+test/data/bfss/976_data_stderra8wj4697
+test/data/bfss/976_data_stderrb7gqu5we
+test/data/bfss/976_data_stderreu3qu9tf
+test/data/bfss/976_data_stderriqzqqp08
+test/data/bfss/976_data_stderrrapbb064
+test/data/bfss/976_data_stderrre2_74t6
+test/data/bfss/976_data_stderrrmxehc5c
+test/data/bfss/976_data_stderrt5r59sfn
+test/data/bfss/978_data_blahiuxp304c
+test/data/bfss/978_data_blahj82ia4n1
+test/data/bfss/978_data_blahnl30onem
+test/data/bfss/978_data_blahno9a78jt
+test/data/bfss/978_data_blahumeo_zir
+test/data/bfss/978_data_data87rwev4i
+test/data/bfss/978_data_datah69jg7gw
+test/data/bfss/978_data_dataluhd124l
+test/data/bfss/978_data_datamu7grluo
+test/data/bfss/978_data_datayxvjkin4
+test/data/bfss/978_data_dataziv3_pwa
+test/data/bfss/978_data_stderrjthosrmm
+test/data/bfss/978_data_stderrkqqignxt
+test/data/bfss/979_data_data0etjywx3
+test/data/bfss/979_data_data5rh0_9cs
+test/data/bfss/979_data_data9452n0_q
+test/data/bfss/979_data_data_fo4qg85
+test/data/bfss/979_data_dataj9jvrm73
+test/data/bfss/979_data_dataks19fnrn
+test/data/bfss/979_data_datan4ojreo1
+test/data/bfss/979_data_dataqo52ofme
+test/data/bfss/979_data_datasgxsbtae
+test/data/bfss/979_data_datat3mm6tgr
+test/data/bfss/979_data_datatzhj56_g
+test/data/bfss/979_data_datavb0bkckr
+test/data/bfss/980_data_data1ac3qaeb
+test/data/bfss/980_data_data6phj5bbu
+test/data/bfss/980_data_datal9syu2q_
+test/data/bfss/980_data_datan037j9pf
+test/data/bfss/980_data_dataoar9p_dv
+test/data/bfss/981_data_DataTransformationProcess script2_w06n4_
+test/data/bfss/981_data_DataTransformationProcess script2l61gg5u
+test/data/bfss/981_data_DataTransformationProcess script2ttu_0by
+test/data/bfss/981_data_DataTransformationProcess scripthfkn53qk
+test/data/bfss/981_data_DataTransformationProcess scriptpppuywew
+test/data/bfss/981_data_data13n1osb3
+test/data/bfss/981_data_datahvy2wwee
+test/data/bfss/981_data_stderr64lfrf3t
+test/data/bfss/981_data_stderr79ok8sgy
+test/data/bfss/981_data_stderrcwmbl4aw
+test/data/bfss/981_data_stderrjjdb7_gy
+test/data/bfss/981_data_stderrp6ohr772
+test/data/bfss/983_data_data0vgfe3wr
+test/data/bfss/983_data_datafnh88zwn
+test/data/bfss/983_data_dataj43p0sr5
+test/data/bfss/983_data_dataoxuqyrh1
+test/data/bfss/983_data_datarue82aic
+test/data/bfss/987_data_stderr3ok2rcws
+test/data/bfss/987_data_stderr4lolhmif
+test/data/bfss/987_data_stderr8z1vvpss
+test/data/bfss/987_data_stderr9c573zoi
+test/data/bfss/987_data_stderrvffb23ll
+test/data/bfss/989_data_data29etmspl
+test/data/bfss/989_data_datadvzt6tqk
+test/data/bfss/989_data_datafsh6ppj8
+test/data/bfss/989_data_datak7mkzzel
+test/data/bfss/989_data_datapsskvxuw
+test/data/bfss/990_data_DataValidationProcess script7cbdqeg_
+test/data/bfss/990_data_DataValidationProcess scripte_6_dk20
+test/data/bfss/990_data_DataValidationProcess scriptmuat8wu8
+test/data/bfss/990_data_DataValidationProcess scripto8kf875b
+test/data/bfss/990_data_DataValidationProcess scripttu6coxs0
+test/data/bfss/995_data_data36a7o6fy
+test/data/bfss/995_data_data5y74e5tj
+test/data/bfss/995_data_data833c1shq
+test/data/bfss/995_data_datakm4ymdxn
+test/data/bfss/995_data_datas44_j1f1
+test/data/bfss/996_data_DataValidationProcess script1vzz_g40
+test/data/bfss/996_data_DataValidationProcess script_ay2ra3f
+test/data/bfss/996_data_DataValidationProcess scriptg_6mc_3s
+test/data/bfss/996_data_DataValidationProcess scriptlg491u2l
+test/data/bfss/996_data_DataValidationProcess scriptxew5k2nw
+test/data/database/.nobackup
+test/data/database/__default_empty_db__.lock
+test/data/database/tmpdb-__default_empty_db__.config
+test/data/database/tmpdb-__default_empty_db__.sqlite
