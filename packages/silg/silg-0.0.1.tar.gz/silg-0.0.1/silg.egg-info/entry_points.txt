@@ -1,0 +1,3 @@
+[console_scripts]
+silg_play = silg.play:main
+

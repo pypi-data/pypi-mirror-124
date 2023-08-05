@@ -1,0 +1,10 @@
+README.md
+setup.py
+silg/__init__.py
+silg/play.py
+silg.egg-info/PKG-INFO
+silg.egg-info/SOURCES.txt
+silg.egg-info/dependency_links.txt
+silg.egg-info/entry_points.txt
+silg.egg-info/requires.txt
+silg.egg-info/top_level.txt
