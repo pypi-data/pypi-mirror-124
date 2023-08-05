@@ -1,0 +1,12 @@
+pyccoma/__init__.py,sha256=lfLYza0jV8LsT1xfT03AGrs1rbCsrohW2HY2BSg6ic4,105
+pyccoma/__main__.py,sha256=tgUtBt90R4dEpJytVkBZRAbahN-xfttLghXnzUcMIQA,8746
+pyccoma/helpers.py,sha256=wpgTI_II0LcAzUIkyNjH5teTFQyylZidk_MuQihWqXo,1581
+pyccoma/pyccoma.py,sha256=yFdo3hZr3ajrDWiePigsgFtS8HHHQYf49Hx-gMHy1GY,14724
+pyccoma/urls.py,sha256=4318BNSb22MRX0oH5K5zmGXJ6jL-dCNw6t_02aMV-Uk,239
+pyccoma/utils.py,sha256=fiwWQniI_SOjeHuBE1eXsc0Zw3t7NNEgKB5wlvjO-kQ,508
+pyccoma-0.2.1.dist-info/LICENSE,sha256=2oF1Q7JEIO95aDs6Jv9AI64N7d4ddNKTaNEm0dHzMKg,11543
+pyccoma-0.2.1.dist-info/METADATA,sha256=GNKXaSDr0IE-Me_emo1f2ewd8tSTGMUYKG3uIF57uv0,12903
+pyccoma-0.2.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pyccoma-0.2.1.dist-info/entry_points.txt,sha256=-m65NBO-1OvSdPsXRHz1QSFChzZEAGjDGJjDUM4M-74,51
+pyccoma-0.2.1.dist-info/top_level.txt,sha256=mngRaDQ2lp-GDDSISAOOqqgucyyBwcWBzycIT1ks_lk,8
+pyccoma-0.2.1.dist-info/RECORD,,
