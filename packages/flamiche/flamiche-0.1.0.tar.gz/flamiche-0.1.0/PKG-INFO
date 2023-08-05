@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: flamiche
+Version: 0.1.0
+Summary: Fast, unopinionated, minimalist ASGI web framework for Python.
+Home-page: https://github.com/aryaniyaps/flamiche
+Author: Aryan Iyappan
+Author-email: aryaniyappan2006@gmail.com
+License: BSD
+Project-URL: Homepage, https://github.com/aryaniyaps/flamiche
+Project-URL: Issue Tracker, https://github.com/aryaniyaps/flamiche/issues
+Project-URL: Source Code, https://github.com/aryaniyaps/flamiche
+Description: # Flamiche
+        Fast, unopinionated, minimalist ASGI web framework for [Python](https://www.python.org/).
+        
+        [![Build Status](https://github.com/aryaniyaps/flamiche/workflows/tests/badge.svg)](https://github.com/aryaniyaps/flamiche/actions)
+        [![PyPI version](https://img.shields.io/pypi/v/flamiche?color=%2334D058)](https://pypi.org/project/flamiche)
+        [![codecov](https://codecov.io/gh/aryaniyaps/flamiche/branch/main/graph/badge.svg?token=BDORVBQP7S)](https://codecov.io/gh/aryaniyaps/flamiche)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
