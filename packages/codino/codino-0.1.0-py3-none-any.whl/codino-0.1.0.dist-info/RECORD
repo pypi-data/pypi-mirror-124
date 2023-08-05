@@ -1,0 +1,12 @@
+codino/__init__.py,sha256=TU3DpB-lSTJtq7OuYv1wT8h-Ymoc2MgSqlx-7-I8we0,109
+codino/data/AminoAcidTable.py,sha256=AoTvof_Zkglel-Fs_6VJu64UN-1kjYWhvz3kF9k-_B4,2040
+codino/data/CodonDesign.py,sha256=OLsFghWHjP6pCIr-mjok2RQWoZOoNhokiD6y2laoJrk,1339
+codino/data/CodonTable.py,sha256=z0yQ0Y2iT8If7mY161Gvxz8IYEQ4aGlHK2UpkvvpgJE,1904
+codino/data/FreqTable.py,sha256=AVTGFVwnhH8LSPoLVVwtFdXJmbROd3Dwkb4-p6hIqwM,2759
+codino/data/__init__.py,sha256=zr0mwaPKZ7F_e9IkgF4wnUQp0z8LKcXNJb6a-NO9Gx0,148
+codino/process/Converter.py,sha256=XLtZNHPYwopJKVgQ3eNGb2maQeAjeaj5M-thgXqmUvQ,4579
+codino/process/__init__.py,sha256=Dt83EdTjwM_4VPfH1wET5LQVrgqTtk21J8biOkYtiz8,33
+codino-0.1.0.dist-info/LICENSE,sha256=M7l9DJhE_G9OJvpQiLqimjdQmxfusy1FIY2tP2BD4zk,1070
+codino-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+codino-0.1.0.dist-info/METADATA,sha256=fmDvqw3qtXxPSV0_eDwCSn5X9b39HeLgn0_oqfgO7Ho,1349
+codino-0.1.0.dist-info/RECORD,,
