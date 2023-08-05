@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+happy_control/Lie_tools.py
+happy_control/__init__.py
+happy_control/approximation_tools.py
+happy_control/shuffle_tools.py
+happy_control.egg-info/PKG-INFO
+happy_control.egg-info/SOURCES.txt
+happy_control.egg-info/dependency_links.txt
+happy_control.egg-info/requires.txt
+happy_control.egg-info/top_level.txt
+happy_control/fliess/lie_basis.pickle
+happy_control/fliess/moments_grading.pickle
+happy_control/nonlinear_moments/lie_basis.pickle
+happy_control/nonlinear_moments/moments_grading.pickle

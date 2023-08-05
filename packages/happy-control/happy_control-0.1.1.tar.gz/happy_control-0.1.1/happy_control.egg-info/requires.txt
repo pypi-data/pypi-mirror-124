@@ -1,0 +1,4 @@
+antlr4-python3-runtime>=4.8
+Cython>=0.29.14
+numpy>=1.18.1
+sympy>=1.5.1
