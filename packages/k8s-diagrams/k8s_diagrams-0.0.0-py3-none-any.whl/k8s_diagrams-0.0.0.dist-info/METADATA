@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: k8s-diagrams
+Version: 0.0.0
+Summary: Create graphviz diagrams from the Kubernetes API
+Home-page: https://imjoseangel.github.io/k8s-diagrams
+Author: Jose Angel Munoz
+Author-email: josea.munoz@gmail.com
+License: MIT
+Keywords: graphviz k8s kubernetes diagrams api
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: kubernetes
+Requires-Dist: graphviz
+
+# k8s-diagrams
+Creates graphviz diagrams from the Kubernetes API
+
+
