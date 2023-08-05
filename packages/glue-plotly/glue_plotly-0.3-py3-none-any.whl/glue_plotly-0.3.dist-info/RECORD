@@ -1,0 +1,17 @@
+glue_plotly/__init__.py,sha256=a2npuX7AwHSE2F8lNEPl5hR4RFZZRRZQ6f3jE5QCxFE,697
+glue_plotly/conftest.py,sha256=k4j1jQVF36kGUJClMD51tqZA9AkUXuhhy40JlEBH_dI,76
+glue_plotly/logo.png,sha256=HyTyjcuXIW4FrbY92vy_fdqxYHrZcOshsx5EsKNkOaU,7075
+glue_plotly/save_hover.py,sha256=wrQdLUwyDSLvL2Uzkyh335spqUmgiZWGfphzjz08RsU,5514
+glue_plotly/save_hover.ui,sha256=a9IurYcJI2zVBmz7LFJBd1vOSzrUinLvxC6OErIZcAI,4304
+glue_plotly/html_exporters/__init__.py,sha256=sJVyw6et7-239Svb0bWI2C3O4Kdzz9Oty_ON1eVKWRM,64
+glue_plotly/html_exporters/scatter2d.py,sha256=T7Q0mDYoCxmNEjDCDfkzggU0FLrzrQtxvrpgz4GQM6M,7249
+glue_plotly/html_exporters/scatter3d.py,sha256=r_DxhKusm9PDOZcd8_oSDyhCMrWhJr9BzPJlKMSncSM,8582
+glue_plotly/html_exporters/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+glue_plotly/html_exporters/tests/test_scatter2d.py,sha256=wWOsGbCLMPoZjsRpqFICjdo1Ju5Psr_bvRw6hwJ9ZZ8,1502
+glue_plotly/html_exporters/tests/test_scatter3d.py,sha256=bS6KwJKIbBKM2EeZo7q0zRYJdRdp6e8vFDXcn_AEpR8,1596
+glue_plotly-0.3.dist-info/LICENSE,sha256=rtC_5mVTc3FJkI6_4P9Nb3qY1R0oEraMv8bCypyWW7Y,1499
+glue_plotly-0.3.dist-info/METADATA,sha256=tkrmSr0-FgJdzKClBRQ-ZsnEP0GB4CD3JBeY2_vNoWc,1031
+glue_plotly-0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+glue_plotly-0.3.dist-info/entry_points.txt,sha256=svfODLnaNshxVO2TeR-9cZVE8uVM00zjAehiZncCpTU,48
+glue_plotly-0.3.dist-info/top_level.txt,sha256=38itLE7fvdbAosz9AjRgIp6vJ4FASisba-Pgwk-iBZY,12
+glue_plotly-0.3.dist-info/RECORD,,
