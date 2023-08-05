@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: rospy2
+Version: 1.0.3
+Summary: A ROS1-like interface for ROS2.
+Home-page: https://github.com/dheera/rospy2
+Author: Dheera Venkatraman
+Author-email: dheera.removethis@dheera.net
+License: BSD
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
