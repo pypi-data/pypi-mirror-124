@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: prescaling
+Version: 0.0.1
+Summary: prescaling is a package for scaling of preprocessing for machine learning.
+Home-page: https://github.com/ryokamoi/ml-preprocessing-scalers
+Author: Ryo Kamoi
+Author-email: ryokamoi.jp@google.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ryokamoi/ml-preprocessing-scalers/issues
+Description: **prescaling** is a Python module for scaling of preprocessing in machine learning.
+        
+        ## User installation
+        
+        ```
+        pip install prescaling
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
