@@ -1,0 +1,11 @@
+giffer/__init__.py,sha256=I6nSwL5oaMSHLrUvXBYyOpFzMmoc4uicXZtTfRnJ-aQ,25
+giffer/src/__init__.py,sha256=d75sV-vogEpGCJ--GXEUAlB-wrk4afHtUiGt1HvBfzE,27
+giffer/src/_temp.py,sha256=iub-sTaB8dEb_mXbbJko2e9NA8IjXd6vnleKoh32lco,1059
+giffer/src/_util.py,sha256=qhI37AZQmsqb3ZJ4Mv6LCgyiBclP4u06TrGc2HevH2A,829
+giffer/src/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+giffer/src/tests/test_making_gif.py,sha256=sC0_Sv1TJHmVEc__ERJJoXXO4V7ElmdKjCpLp9o7Obg,210
+giffer-0.0.1.dist-info/LICENSE,sha256=GnZMgdaLQ2i_44MKboqkvkGTEXnVYxpMJ3XEFh_Q8Vo,1098
+giffer-0.0.1.dist-info/METADATA,sha256=bswIYXRz_-KquZpCxzRLmuZPdVqI-W1uDdgZqneI66c,489
+giffer-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+giffer-0.0.1.dist-info/top_level.txt,sha256=w07BKYRJgaHOC0RpYHBA4n3xOYQerrcRmTA0pRxF4Xc,7
+giffer-0.0.1.dist-info/RECORD,,
