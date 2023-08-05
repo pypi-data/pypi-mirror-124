@@ -1,0 +1,3 @@
+[console_scripts]
+psychopumpum = __init__:main
+
