@@ -1,0 +1,11 @@
+tracardi_smtp_connector/plugin.py,sha256=QwYPVJPVcEWr2HkoFEHXKbY2fUvyDjeZXDfuLMLUabs,4968
+tracardi_smtp_connector/model/smtp.py,sha256=S_0kq3A8-vAKxGy-pk3-uJA2g8DqdxBXzXxE6qY_x8w,782
+tracardi_smtp_connector/model/__pycache__/smtp.cpython-38.pyc,sha256=WX_EhT_Xmk0b8Dz47h5mpKHFeBQormbiDcvh4i5-4og,1521
+tracardi_smtp_connector/service/sendman.py,sha256=ykvV_oQFUz7B3e3hREpEnGrHljyihUXBZnelWxcDE2M,1685
+tracardi_smtp_connector/service/__pycache__/sendman.cpython-38.pyc,sha256=C8dj6XfVyWbCgXErvQGb6iwkfurUbWa9MmlB4R02CRU,1856
+tracardi_smtp_connector/test/test_plugin.py,sha256=kzObri9cU9W0eVF4xpuLnmgKswLfRYFXaM8ArWKJOF4,604
+tracardi_smtp_connector-0.6.0.dist-info/LICENSE.md,sha256=ni5OEoEYBNUIhh--XN1Wh30jtxT0xB40i6YOticlnbQ,1067
+tracardi_smtp_connector-0.6.0.dist-info/METADATA,sha256=IKq4QiB9jit88AtB5lqm4_WrhiLo5hfbm6H95nYTD7Y,2663
+tracardi_smtp_connector-0.6.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_smtp_connector-0.6.0.dist-info/top_level.txt,sha256=tE9NlJ4FFZjUyCfmxEztJnelTq9NCcogCU4VHh7HHAM,24
+tracardi_smtp_connector-0.6.0.dist-info/RECORD,,
