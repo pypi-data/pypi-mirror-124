@@ -1,0 +1,1 @@
+celery_amqp_backend
