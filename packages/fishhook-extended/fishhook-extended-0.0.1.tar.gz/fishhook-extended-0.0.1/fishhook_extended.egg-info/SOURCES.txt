@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+fishhook_extended/__init__.py
+fishhook_extended.egg-info/PKG-INFO
+fishhook_extended.egg-info/SOURCES.txt
+fishhook_extended.egg-info/dependency_links.txt
+fishhook_extended.egg-info/top_level.txt
