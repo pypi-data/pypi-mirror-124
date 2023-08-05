@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+popcat_wrapper.egg-info/PKG-INFO
+popcat_wrapper.egg-info/SOURCES.txt
+popcat_wrapper.egg-info/dependency_links.txt
+popcat_wrapper.egg-info/requires.txt
+popcat_wrapper.egg-info/top_level.txt
