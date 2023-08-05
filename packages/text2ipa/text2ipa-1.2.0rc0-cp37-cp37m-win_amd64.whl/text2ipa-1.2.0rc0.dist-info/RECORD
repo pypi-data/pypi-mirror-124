@@ -1,0 +1,8 @@
+text2ipa/__init__.py,sha256=YONp7eIpM5hCIQjjo2DBbUyyXbH5jAAeaf7Ajnx-im8,745
+text2ipa/text2ipa.c,sha256=L4LttDskC-J1M3XWyrm2WK01VmLwzDUphXonBxEVcmI,225510
+text2ipa/text2ipa.pyd,sha256=a6JqnaJ0XUTdsCjh_xUHUfWiuXreGRWB_x8zf2j8U3U,52224
+text2ipa-1.2.0rc0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+text2ipa-1.2.0rc0.dist-info/METADATA,sha256=tdhNCjAcIwXeMrrXB0jiLe7ccm5op8nC1B1Oj53Enaw,2755
+text2ipa-1.2.0rc0.dist-info/WHEEL,sha256=OmDKD3JmZjhMu_YdpkiJDfFL1rf8n9nexhWCGhSBGVE,101
+text2ipa-1.2.0rc0.dist-info/top_level.txt,sha256=M5TnH4xlgqXZCSed-INUDpUmYToPc02OKJXrvMEcds4,9
+text2ipa-1.2.0rc0.dist-info/RECORD,,

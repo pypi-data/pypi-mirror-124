@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: text2ipa
+Version: 1.2.0rc0
+Summary: Converter from text to International Phonetic Alphabets
+Home-page: https://github.com/tquangsdh20/text2ipa
+Author: Joseph Quang
+Author-email: tquang.sdh20@hcmut.edu.vn
+License: Apache 2.0
+Keywords: text2ipa
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cppy
+
+<h1 align="center">Text to International Phonetic Alphabet (IPA)</h1> 
+<p align="center">
+<img src="https://drive.google.com/uc?id=1VyjnBb3wFjE1ikg_KAz_MSLl4kYbNPln" width="600">
+</p>
+
+## Installation:
+
+**Windows**
+```
+python -m pip install text2ipa
+```
+**macOS**
+```
+sudo pip3 install text2ipa
+```
+**Linux**
+```
+pip install text2ipa
+```
+
+## Features
+
+- Convert Engkish text to IPA
+- Two options Language English UK and English US
+  
+## Examples
+
+### Example 1: Convert a text
+
+#### Function: 
+- `get_IPA()` : Converting a text to IPA with the following parameters 
+
+#### Parameters:
+
+- `text` : The text you want to convert to IPA
+- `language` : Choose between English US and English UK ('am'/'br')
+- `proxy` : Optional parameter  
+
+#### For instance:
+
+```python
+from text2ipa import get_IPA
+text = 'hello world'
+language = 'am'
+#Convert 'hello world' to English US International Alphabet
+ipa = get_IPA(text,language)
+print(ipa)
+```
+```
+>> həˈloʊ wɜrld
+```
+### Example 2: Convert a bulk
+
+#### Function: 
+- `get_IPAs()` : Convert the list of texts to IPA return the list of IPAs 
+
+#### Parameters:
+
+- `bulk` : The list of text want to convert to IPA
+- `language` : Choose between English US and English UK ('am'/'br')
+- `proxy` : Optional parameter  
+
+#### For instance:
+
+```python
+from text2ipa import get_IPAs
+bulk = ['how are you?','how it\'s going?','that\'s good']
+language = 'br'
+# Convert a list of text to English UK IPA
+IPAs = get_IPAs(bulk,language)
+for ipa in IPAs:
+    print(ipa)
+```
+
+```
+>> haʊ ɑː juː?
+>> haʊ ɪts ˈgəʊɪŋ?
+>> ðæts gʊd
+```
+
+#### Log Changes
+
+V1.0.0 : Create new with 2 functions `get_IPA()` and `get_IPAs()`
+
