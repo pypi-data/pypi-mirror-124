@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.cfg
+setup.py
+image_quotes/__init__.py
+image_quotes.egg-info/PKG-INFO
+image_quotes.egg-info/SOURCES.txt
+image_quotes.egg-info/dependency_links.txt
+image_quotes.egg-info/top_level.txt
