@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/upygrade/__init__.py
+src/upygrade/gurobi.py
+src/upygrade/printer.py
+src/upygrade.egg-info/PKG-INFO
+src/upygrade.egg-info/SOURCES.txt
+src/upygrade.egg-info/dependency_links.txt
+src/upygrade.egg-info/top_level.txt
