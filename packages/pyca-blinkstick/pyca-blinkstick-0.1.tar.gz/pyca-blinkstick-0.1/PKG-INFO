@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyca-blinkstick
+Version: 0.1
+Summary: Blinkstick recording light integration with opencast pyca capture agent
+Home-page: https://github.com/mm-dict/pyca-blinkstick
+Author: Kristof Keppens
+Author-email: kristof.keppens@ugent.be
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+
+UNKNOWN
+
