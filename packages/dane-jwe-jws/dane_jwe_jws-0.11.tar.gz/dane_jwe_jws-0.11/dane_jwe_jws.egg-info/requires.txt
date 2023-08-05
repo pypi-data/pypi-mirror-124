@@ -1,0 +1,2 @@
+dane_discovery==0.19
+jwcrypto<2.0,>=0.7
