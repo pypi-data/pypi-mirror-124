@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: zeroone-ai
+Version: 0.0.7
+Summary: With this package you can make an simple AI that can predict a zero or a one.
+Home-page: https://github.com/MathijsTak/ZeroOneAi
+Author: MathijsTak
+Author-email: mathijs.tak@outlook.com
+License: MIT
+Keywords: zeroone zero one ai zerooneai zeroai oneai zeroone-ai
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+School research project
+------------------------
+I created this package for my school research project.
+I want to create an AI that can predict if a human where to get a heart failure.
+For this I created a very long python file but I wanted to make this easier to understand.
+So, I created this package to get a shorter file and make it easier to understand.
+
+How to use
+--------------
+This package uses the scikit-learn package and therefore some classes like the MLPRegressor are the same.
+
+1. Import the package: "import zeroone_ai"
+2. Choose wich class you are going to use: "from zeroone_ai import MLPRegressor
+3. (More comming in the future)
+
+License
+--------------
+- scikit-learn (new BSD) https://pypi.org/project/scikit-learn/
+- pandas (BSD 3-Clause License) https://github.com/pandas-dev/pandas/blob/master/LICENSE
+- matplotlib (Python Software Foundation License (PSF)) https://pypi.org/project/matplotlib/3.4.3/
+- numpy (BSD License (BSD)) https://github.com/numpy/numpy/blob/main/LICENSE.txt
+
+Change Log
+===========
+
+0.0.7 (20-10-2021)
+-------------------
+- Fixed a bug where the library couldn't be imported
+
+0.0.4 (19-10-2021)
+-------------------
+- Fixed some bugs and provided a better README file
+
+0.0.3 (19-10-2021)
+-------------------
+- Fixed some bugs and provided a better README file
+
+0.0.2 (19-10-2021)
+-------------------
+- Test if updating works... It does
+
+0.0.1 (19-10-2021)
+-------------------
+- First Release
+
