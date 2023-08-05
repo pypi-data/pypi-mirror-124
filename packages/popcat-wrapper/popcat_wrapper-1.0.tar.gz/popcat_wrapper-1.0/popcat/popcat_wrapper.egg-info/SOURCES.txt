@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+popcat/popcat_wrapper.egg-info/PKG-INFO
+popcat/popcat_wrapper.egg-info/SOURCES.txt
+popcat/popcat_wrapper.egg-info/dependency_links.txt
+popcat/popcat_wrapper.egg-info/requires.txt
+popcat/popcat_wrapper.egg-info/top_level.txt
