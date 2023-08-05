@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: SimplePsycho
+Version: 1.0
+Summary: A easy-to-use library for interfacing with the PsychoPy package and produce a stimulus.
+Home-page: https://github.com/bman7842/SimplePsycho
+Author: Brandon Egger
+Author-email: brandonegger64@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/bman7842/SimplePsycho/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SimplePsycho
+Simple package for creating easily deployable stimulus through the PsychoPy library.
+
+

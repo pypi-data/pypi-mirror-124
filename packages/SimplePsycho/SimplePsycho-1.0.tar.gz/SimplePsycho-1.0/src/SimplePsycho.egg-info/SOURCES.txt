@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/SimplePsycho/PsychopyManager.py
+src/SimplePsycho/__init__.py
+src/SimplePsycho/configManager.py
+src/SimplePsycho.egg-info/PKG-INFO
+src/SimplePsycho.egg-info/SOURCES.txt
+src/SimplePsycho.egg-info/dependency_links.txt
+src/SimplePsycho.egg-info/top_level.txt
+src/SimpleTasks/PsychopyTasks.py
+src/SimpleTasks/__init__.py
