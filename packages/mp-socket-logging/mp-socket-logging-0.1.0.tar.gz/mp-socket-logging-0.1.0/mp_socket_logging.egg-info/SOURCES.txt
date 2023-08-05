@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mp_socket_logging.egg-info/PKG-INFO
+mp_socket_logging.egg-info/SOURCES.txt
+mp_socket_logging.egg-info/dependency_links.txt
+mp_socket_logging.egg-info/requires.txt
+mp_socket_logging.egg-info/top_level.txt
+socket_logging/__init__.py
+socket_logging/client.py
+socket_logging/server.py
+socket_logging/utils.py
