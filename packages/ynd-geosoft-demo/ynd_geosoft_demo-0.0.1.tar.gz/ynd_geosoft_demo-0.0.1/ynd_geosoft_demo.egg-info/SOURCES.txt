@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+ynd_geosoft_demo/__init__.py
+ynd_geosoft_demo/ynd_geosoft_demo.py
+ynd_geosoft_demo.egg-info/PKG-INFO
+ynd_geosoft_demo.egg-info/SOURCES.txt
+ynd_geosoft_demo.egg-info/dependency_links.txt
+ynd_geosoft_demo.egg-info/not-zip-safe
+ynd_geosoft_demo.egg-info/top_level.txt
