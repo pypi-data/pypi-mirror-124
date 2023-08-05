@@ -1,0 +1,6 @@
+setup.py
+sumandpultiplyer.egg-info/PKG-INFO
+sumandpultiplyer.egg-info/SOURCES.txt
+sumandpultiplyer.egg-info/dependency_links.txt
+sumandpultiplyer.egg-info/requires.txt
+sumandpultiplyer.egg-info/top_level.txt
