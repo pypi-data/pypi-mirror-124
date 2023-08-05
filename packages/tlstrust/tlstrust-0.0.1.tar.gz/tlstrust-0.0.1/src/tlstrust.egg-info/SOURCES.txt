@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/tlstrust/__init__.py
+src/tlstrust.egg-info/PKG-INFO
+src/tlstrust.egg-info/SOURCES.txt
+src/tlstrust.egg-info/dependency_links.txt
+src/tlstrust.egg-info/requires.txt
+src/tlstrust.egg-info/top_level.txt
