@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+HLXJSON/src/HLXJSON.egg-info/PKG-INFO
+HLXJSON/src/HLXJSON.egg-info/SOURCES.txt
+HLXJSON/src/HLXJSON.egg-info/dependency_links.txt
+HLXJSON/src/HLXJSON.egg-info/top_level.txt
+HLXJSON/src/hlxjson.py
+HLXJSON/src/HLXJSON.egg-info/PKG-INFO
+HLXJSON/src/HLXJSON.egg-info/SOURCES.txt
+HLXJSON/src/HLXJSON.egg-info/dependency_links.txt
+HLXJSON/src/HLXJSON.egg-info/top_level.txt
