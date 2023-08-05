@@ -1,0 +1,10 @@
+README.txt
+setup.py
+TuesdayZTP.egg-info/PKG-INFO
+TuesdayZTP.egg-info/SOURCES.txt
+TuesdayZTP.egg-info/dependency_links.txt
+TuesdayZTP.egg-info/top_level.txt
+appezztp/__init__.py
+appezztp/vtg_ezztp_inertia_register_tbm_.py
+appezztp/z_core.py
+appezztp/z_main.py
