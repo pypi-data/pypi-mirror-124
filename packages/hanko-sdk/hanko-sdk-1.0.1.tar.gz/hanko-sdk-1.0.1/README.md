@@ -1,0 +1,341 @@
+# Hanko Authentication SDK for Python
+
+This package is maintained by [Hanko](https://hanko.io).
+
+## Contents
+
+1. [Introduction](#introduction)
+1. [Documentation](#documentation)
+1. [Installation](#installation)
+1. [Usage](#usage)
+   1. [Prerequisites](#prerequisites)
+   1. [Create a new Hanko API Client](#create-a-new-hanko-api-client)
+   1. [Register a WebAuthn credential](#register-a-webauthn-credential)
+   1. [Authenticate with a registered WebAuthn credential](#authenticate-with-a-registered-webauthn-credential)
+   1. [Making Transactions](#making-transactions)
+   1. [Credential Management](#credential-management)
+1. [Serializing and deserializing Hanko payloads and response](#serializing-and-deserializing-hanko-payloads-and-response)
+1. [Exception handling](#exception-handling)
+1. [Enable debug logging](#enable-debug-logging)
+1. [Support](#support)
+
+## Introduction
+
+This SDK provides an API client that lets you communicate with the
+[Hanko Authentication API](https://docs.hanko.io/overview)
+to easily integrate [FIDO®](https://fidoalliance.org)-based authentication into your web application written in
+Python.
+
+## Documentation
+
+- [Hanko Documentation](https://docs.hanko.io) website
+- Hanko Authentication [API reference](https://docs.hanko.io/api/webauthn)
+
+## Installation
+
+### Pip
+
+```bash
+pip install hanko_sdk
+```
+
+### Building a wheel
+
+```bash
+py -m build
+pip install dist/hanko_sdk-X.X.X-py3-none-any.whl
+```
+
+## Usage
+
+### Prerequisites
+
+In order to utilize the client provided by the SDK you need an API URL as well as API credentials in the form of an
+API key ID and an API secret. View our [getting started](https://docs.hanko.io/gettingstarted) guide in the official
+documentation on how to obtain these.
+
+The minimum supported Python version is 3.7.
+
+### Create a new Hanko API Client
+
+Once you have set up your account, create a `HankoHttpClientConfig` with the API URL, the API Key Id and the API secret and
+use it to construct a `HankoHttpClient`.
+
+```python
+hanko_config = HankoHttpClientConfig("<YOUR_BASEURL>", "<YOUR_API_SECRET>", "<YOUR_API_KEY>")
+hanko_client = HankoHttpClient(hanko_config)
+```
+
+### Register a WebAuthn credential
+
+Registration of a WebAuthn credential involves retrieving credential creation options from the Hanko API
+(initialization), passing these options to the browser's Web Authentication API and lastly sending the WebAuthn response
+back to the Hanko API for validation (finalization).
+
+For a more complete example of the authentication process, see the
+[implementation guide](https://docs.hanko.io/implementation/registration) in the Hanko documentation.
+
+#### Registration initialization:
+
+##### Using defaults
+
+```python
+# To create the user object you'll need a userId, a username, and optionally, a
+# displayName. The username usually comes either from a form a user provides when
+# registering for the first time, or from your existing session
+# store or database, as well as a related userId, which may needs to be generated
+# if it is a new user.
+
+user_id = "<YOUR_USER_ID>"
+username = "<YOUR_USERNAME>"
+display_name = "<YOUR_DISPLAY_NAME>"
+
+request = RegistrationInitializationRequest(
+     User(
+         user_id,
+         username,
+         display_name
+     )
+ )
+
+response = hanko_client.initialize_registration(request)
+```
+
+##### Modifying registration options
+
+You can modify the default credential creation options for registration as follows:
+
+```python
+user_id = "<YOUR_USER_ID>"
+username = "<YOUR_USERNAME>"
+display_name = "<YOUR_DISPLAY_NAME>"
+
+request = RegistrationInitializationRequest(
+    User(
+        user_id,
+        username,
+        display_name
+    ),
+    RegistrationInitializationRequestOptions(
+        AuthenticatorSelection(
+            AuthenticatorAttachment.from_json_serializable(authenticator),
+            True,
+            UserVerificationRequirement.REQUIRED
+        ),
+        ConveyancePreference.NONE
+    )
+)
+
+response = hanko_client.initialize_registration(request)
+```
+
+#### Pass Hanko API response to the browser's Web Authentication API
+
+Initialization with the Hanko API returns a response that represent
+[`PublicKeyCredentialCreationOptions`](https://developer.mozilla.org/en-US/docs/Web/API/PublicKeyCredentialCreationOptions)
+that must be provided to the browser's WebAuthn Authentication API to create a credential. The WebAuthn Authentication API
+requires data that looks like JSON but contains binary data, represented as ArrayBuffers, that needs to be encoded.
+So we can't pass the Hanko API `registrationInitializationResponse` directly as `PublicKeyCredentialCreationOptions`, but you can
+use the [Hanko JavaScript WebAuthn Library](https://github.com/teamhanko/hanko-webauthn) that wraps the WebAuthn Authentication API
+and encodes / decodes the data and allows you to easily pass Hanko API responses to the WebAuthn Authentication API
+and vice versa.
+
+You can provide the `registrationInitializationResponse` obtained from the `hanko_client.initialize_registration(request)` directly to the `create` function of the
+[Hanko JavaScript WebAuthn Library](https://github.com/teamhanko/hanko-webauthn) for creating a credential.
+
+For a more complete
+example of the registration process, see the [implementation guide](https://docs.hanko.io/implementation/registration)
+in the Hanko documentation.
+
+#### Registration finalization
+
+After you have executed the `create()` function mentioned before and the user has completed the process, you will receive back a response  from the browser's WebAuthn API.
+
+Deserialize and pass the Web Authentication API response as returned from the Hanko WebAuthn Library's `create` function to
+the `finalize_registration` client method.
+
+```python
+webauthn_response = "{\"id\": \"ATIihVy...\", ...}";
+from hanko_sdk import json_serializer
+
+request = json_serializer.deserialize_string(webauthn_response, RegistrationFinalizationRequest)
+response = hanko_client.finalize_registration(request)
+```
+
+### Authenticate with a registered WebAuthn credential
+
+For a more complete example of the authentication process, see the
+[implementation guide](https://docs.hanko.io/implementation/authentication) in the Hanko documentation.
+
+#### Authentication initialization
+
+##### Using defaults
+
+```python
+user_id = "e3be22a7-13cf-4235-a09c-380dfd44ac04"
+
+request = AuthenticationInitializationRequest(
+    User(
+        user_id
+    )
+)
+
+response = hanko_client.initialize_authentication(request)
+```
+
+##### Modifying authentication options
+
+You can modify the default credential request options for authentication as follows:
+
+```python
+user_id = "e3be22a7-13cf-4235-a09c-380dfd44ac04"
+
+request = AuthenticationInitializationRequest(
+    User(
+        user_id
+    ),
+    AuthenticationInitializationRequestOptions(
+        UserVerificationRequirement.REQUIRED,
+        AuthenticatorAttachment.PLATFORM
+    )
+ )
+
+response = hanko_client.initialize_authentication(request)
+```
+
+#### Pass Hanko API response to Web Authentication API
+
+You can provide the `response` to the `get()` function of the
+[Hanko WebAuthn Library](https://github.com/teamhanko/hanko-webauthn) for authenticating with a credential. For a more
+complete example of the authentication process, see the [implementation guide](https://docs.hanko.io/implementation/authentication)
+in the Hanko documentation.
+
+#### Authentication finalization
+
+Deserialize and pass the Web Authentication API response as returned from the Hanko WebAutn Library's `get()` function to the
+`finalize_authentication` client method.
+
+```python
+webauthn_response = "{\"id\": \"DaNOpBx...\", ...}";
+
+from hanko_sdk import json_serializer
+
+request = json_serializer.deserialize_string(webauthn_response, AuthenticationFinalizationRequest)
+response = hankoClient.finalize_authentication(request)
+```
+
+### Making transactions
+
+A transaction is technically the equivalent of an authentication, with the difference being that when initializing
+a transaction, a `transaction_text` can be included, which becomes part of the authentication challenge.
+
+#### Transaction initialization
+
+##### Using defaults
+
+```python
+user_id = "e3be22a7-13cf-4235-a09c-380dfd44ac04"
+
+request = TransactionInitializationRequest(
+    User(
+        user_id
+    ),
+    "Pay $5 to Bob?"
+)
+
+response = hanko_client.initialize_transaction(request)
+```
+
+#### Pass Hanko API response to Web Authentication API
+
+You can provide the `response` to the `get()` function of the
+[Hanko WebAuthn Library](https://github.com/teamhanko/hanko-webauthn) for authenticating with a credential. For a more
+complete example of the authentication process, see the [implementation guide](https://docs.hanko.io/implementation/authentication)
+in the Hanko documentation.
+
+#### Transaction finalization
+
+Deserialize and pass the Web Authentication API response as returned from the Hanko WebAutn Library's `get()` function to the
+`finalize_transaction` client method.
+
+```python
+webauthn_response = "{\"id\": \"fSmpQnC...\", ...}";
+
+from hanko_sdk import json_serializer
+
+request = json_serializer.deserialize_string(webauthn_response, TransactionFinalizationRequest)
+response = hanko_client.finalize_transaction(request)
+```
+
+### Credential management
+
+```python
+credential_id = "AQohBypyLBrx8R_UO0cWQuu7hhRGv7bPRRGtbQLrjl..."
+
+# Get all details of the specified credential.
+credential = hanko_client.get_credential(credential_id)
+
+# Update the name of a credential.
+update_request = CredentialUpdateRequest("MySecurityKey")
+updated_credential = hanko_client.update_credential(credential_id, update_request)
+
+# Delete the specified credential.
+hanko_client.delete_credential(credential_id)
+
+# Search for credentials filtering by userId and paginating results.
+query = CredentialQuery(
+    "65a3eba6-22cb-4c35-9881-b21fac6acfd0", # userId
+    15, # page size
+    1 # page
+)
+
+credentials = hanko_client.list_credentials(query)
+```
+
+### Serializing and deserializing Hanko payloads and response
+
+As the `HankoHttpClient` works with objects, you may need to serialize or deserialize Hanko payloads and responses. For that you can use the `json_serializer` module as follows:
+
+```python
+# Import the serializer module
+from hanko_sdk import json_serializer
+
+# Serialize a TransactionInitializationResponse
+transaction_initialization_response = TransactionInitializationResponse()
+# ... code for generating the transaction initialization response
+
+transaction_initialization_response_json = hanko_serializer.serialize(transaction_initialization_response)
+# ... process the transaction initialization response
+
+# Deserialize a TransactionFinalizationRequest
+webauthn_response = "{\"id\": \"fSmpQnC...\", ...}";
+
+transaction_finalization_request = json_serializer.deserialize_string(webauthn_response, TransactionFinalizationRequest)
+finalization_response = hanko_client.finalize_transaction(transaction_finalization_request)
+```
+
+### Exception handling
+
+```python
+try:
+    user_id = "<YOUR_USER_ID>"
+    username = "<YOUR_USERNAME>"
+    display_name = "<YOUR_DISPLAY_NAME>"
+
+    request = RegistrationInitializationRequest(
+        User(
+            user_id,
+            username,
+            display_name
+        )
+    )
+
+    response hanko_client.initialize_registration(request)
+except HankoApiException as hanko_api_exception:
+    print(hanko_api_exception)
+
+```
+
+### Enable debug logging
+
+The `HankoHttpClient` accepts a [logging.Logger](https://docs.python.org/3/library/logging.html) instance as an optional constructor parameter, which if not none, will be used for debug logging.
