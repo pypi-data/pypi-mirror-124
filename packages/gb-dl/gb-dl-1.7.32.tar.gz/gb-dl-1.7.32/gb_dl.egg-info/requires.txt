@@ -1,0 +1,8 @@
+requests
+unidecode
+beautifulsoup4
+youtube-dl
+lxml
+lz4
+wget
+cloudscraper
