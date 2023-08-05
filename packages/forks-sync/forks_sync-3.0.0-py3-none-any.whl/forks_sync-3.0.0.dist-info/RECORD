@@ -1,0 +1,16 @@
+forks_sync/__init__.py,sha256=A7mscSCKwatbT8qhnNCyCL9Qaup0atLfAFEhzyWs8f8,53
+forks_sync/cli.py,sha256=j3XSdiC_4y98gqAjweMGlnrEqUnFGWlLPL5z2cgkTSQ,1952
+forks_sync/constants.py,sha256=9tGZSXhLVARkYmqW9e6Q91UVMSsax2CxzUdBHEwj3RM,112
+forks_sync/logger.py,sha256=FyeDQLo2mJH8NFPXY2Qo8pdqLtIgVLaRajCHyH8w2mg,872
+forks_sync/sync.py,sha256=Rp0ZkH9rxQmZg9fVHqtFn94N-DKkNV0K9OArKsf1_ro,5654
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/unit/conftest.py,sha256=zCw046poum-4xut-cpYJBj6ZL3XQXYEzzJYHsH-vFKc,292
+test/unit/test_logger.py,sha256=O-oQIcoRBp4KpFfD1UxlcN4EVTkZ__gC9TCbtQX4wOk,965
+test/unit/test_sync.py,sha256=8dve7rUQwn8glEi6PTuueqxiR2kesUr5BbfCpKAjeAA,4215
+forks_sync-3.0.0.dist-info/LICENSE,sha256=WoDunZvVM8yKs2dwmA-Eae0e64uqKwfEuOOokFS1w5g,1071
+forks_sync-3.0.0.dist-info/METADATA,sha256=sQ5z3Xjum8opwuL9oVC3KLPQ7D_HQpRLin8FYsHMvf0,3467
+forks_sync-3.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+forks_sync-3.0.0.dist-info/entry_points.txt,sha256=6s60cwCpOqUB8jLURzzrIi_Sm7ZvNlEp3q6L5KOPxZs,52
+forks_sync-3.0.0.dist-info/top_level.txt,sha256=zyeWQSljEcyeOKeDfGBLKypDFdJRuIhOCu8WiWC_BDM,16
+forks_sync-3.0.0.dist-info/RECORD,,
