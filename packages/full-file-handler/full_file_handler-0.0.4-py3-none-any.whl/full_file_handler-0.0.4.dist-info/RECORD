@@ -1,0 +1,11 @@
+FullFileHandler/Exceptions.py,sha256=cjCEEmQvqDjx2po6ec4wRBG1G5YTnNjczeIfFbf87Nc,433
+FullFileHandler/Modes.py,sha256=CVMxuRipePf4Bunz93R_UYQY_CWuMAXrrbhzLWsm2cA,175
+FullFileHandler/PDFFileHandler.py,sha256=IDvVsAkReJ-a8xvu-fEswbnpeSbONFUooXS1DqqL6YI,2523
+FullFileHandler/TextFileHandler.py,sha256=cBuI41rom0pAHIzxG94-qQtUYB-P4B5hiJroOIFxv8w,1040
+FullFileHandler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FullFileHandler/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+full_file_handler-0.0.4.dist-info/LICENSE,sha256=sZyIaw6VrRyq79IKat2b6eL9I2Aia_oXor9J2hXdYJA,1077
+full_file_handler-0.0.4.dist-info/METADATA,sha256=K9fvjzTysk-iRc24JEaK2aY0TTDp176vHiXhk_8YAx8,687
+full_file_handler-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+full_file_handler-0.0.4.dist-info/top_level.txt,sha256=cSgAl8L0sdRozoytnuaMHJ_bs4jn4xJnWfu-XFGzYtc,16
+full_file_handler-0.0.4.dist-info/RECORD,,
