@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        oc-mirror=oc_mirror.scripts.oc_mirror:cli
+    
