@@ -1,0 +1,9 @@
+mnemonic>=0.18
+bitcash>=0.6.1
+cashaddress_regtest>=1.1.0
+cashaddress>=1.0.6
+http3>=0.6.7
+xchainpy_client>=0.1.6
+xchainpy_crypto>=0.1.11
+xchainpy_util>=0.1.8
+bip_utils==1.11.1
