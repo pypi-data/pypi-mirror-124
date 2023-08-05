@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rsna/__init__.py
+rsna/aug.py
+rsna/dataloader.py
+rsna/engine.py
+rsna/nn.py
+rsna/utils.py
+rsna.egg-info/PKG-INFO
+rsna.egg-info/SOURCES.txt
+rsna.egg-info/dependency_links.txt
+rsna.egg-info/top_level.txt
+rsna.egg-info/zip-safe
