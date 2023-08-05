@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+celery_amqp_backend/__init__.py
+celery_amqp_backend/backend.py
+celery_amqp_backend/exceptions.py
+celery_amqp_backend.egg-info/PKG-INFO
+celery_amqp_backend.egg-info/SOURCES.txt
+celery_amqp_backend.egg-info/dependency_links.txt
+celery_amqp_backend.egg-info/requires.txt
+celery_amqp_backend.egg-info/top_level.txt
