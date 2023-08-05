@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+one_sec_mail/__init__.py
+one_sec_mail/mail.py
+one_sec_mail.egg-info/PKG-INFO
+one_sec_mail.egg-info/SOURCES.txt
+one_sec_mail.egg-info/dependency_links.txt
+one_sec_mail.egg-info/not-zip-safe
+one_sec_mail.egg-info/requires.txt
+one_sec_mail.egg-info/top_level.txt
