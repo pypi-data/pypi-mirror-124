@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+face_alignment_mod.egg-info/PKG-INFO
+face_alignment_mod.egg-info/SOURCES.txt
+face_alignment_mod.egg-info/dependency_links.txt
+face_alignment_mod.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: face-alignment-mod
+Version: 0.1
+Summary: custom face_alginment package
+Home-page: UNKNOWN
+Author: sean/anitha
+Author-email: anithaurkude6@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Example Package
+
+This is a modified version of face_alignment 1.3.3
+This is created to return detected_faces
+[Github-flavored Markdown]
+to write your content.
+
