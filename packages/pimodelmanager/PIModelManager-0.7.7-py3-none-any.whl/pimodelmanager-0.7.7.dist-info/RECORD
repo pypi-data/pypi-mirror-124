@@ -1,0 +1,8 @@
+PIModelManager/__init__.py,sha256=FH0OoJNcJ7Tq0QcnVfGAqIfnqhLhVQc00XJtvuVuQHk,1044
+PIModelManager/logging/logging.conf,sha256=1K6IIu3nz4mxXVSX6erXTyr3OfMFzLtWBdI9W6llzDc,452
+PIModelManager/model_manager.py,sha256=zVP-2fQHiG5x0ode2byWXoFmxLkZJk1BR90iVfhQsGU,34469
+PIModelManager/model_manager_test.py,sha256=KFAYtWSubjn2L5EllWDkO9ip_wwhpYqXJQ5N-Hy59o4,706
+PIModelManager/pandora_model.py,sha256=xYwp97YjzGptEkcuv8zjsQdhOTo_LuTYOtxgiHaRemU,1653
+pimodelmanager-0.7.7.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pimodelmanager-0.7.7.dist-info/METADATA,sha256=fycjxw_7W2QTPhFgbewMbisaQ_evanUqW5RFOpj5E94,791
+pimodelmanager-0.7.7.dist-info/RECORD,,
