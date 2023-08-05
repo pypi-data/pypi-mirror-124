@@ -1,0 +1,11 @@
+pandas
+sqlalchemy
+
+[mysql]
+pymsql
+
+[postgresql]
+psycopg2
+
+[sqlite]
+pysqlite
