@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+cellvgae/__init__.py
+cellvgae/__main__.py
+cellvgae.egg-info/PKG-INFO
+cellvgae.egg-info/SOURCES.txt
+cellvgae.egg-info/dependency_links.txt
+cellvgae.egg-info/requires.txt
+cellvgae.egg-info/top_level.txt
