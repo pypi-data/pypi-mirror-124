@@ -1,0 +1,11 @@
+flask
+flask_restful
+pyperclip
+notify-py
+validators
+wxpython
+appdirs
+Flask-BasicAuth
+netifaces
+pillow
+werkzeug
