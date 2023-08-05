@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: atomic-loop-pkg-test
+Version: 0.2
+Summary: this package provides the math functions
+Home-page: https://github.com/LEO2822/python-package
+Author: Mangesh
+Author-email: mtkashid7@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+# Atomic loop pkg test
+
+This is a beta phase project package demonstrating how to create and publish a python module to pypi.
+
+# How to Download the package ?
+
+download the package using
+
+```python
+pip install atomic-loop-pkg-test
+```
+
+# How to import the package ?
+
+## To import the package :
+
+## For ex.
+
+```py
+from atomic_loop_pkg_test import functions
+
+# create instance for the class and then specify the value of the n1 and n2 to perform the values
+
+# i is the instance
+
+i = functions.MathFunctions(3,2)
+
+result = i.sum()
+
+print(result)
+```
+
+## Thank You !!
+
+
+
+
+
