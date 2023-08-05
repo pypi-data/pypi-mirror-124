@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: poisk
+Version: 1.0.0
+Summary: Small utilities for searching data structures
+Home-page: UNKNOWN
+Author: Hervé Saint-Amand
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: cssselect (<2,>=1.1)
+Requires-Dist: typing-extensions (<4,>=3.7)
+
+UNKNOWN
+
