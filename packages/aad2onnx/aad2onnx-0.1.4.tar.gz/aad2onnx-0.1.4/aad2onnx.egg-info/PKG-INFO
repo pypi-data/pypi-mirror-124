@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aad2onnx
+Version: 0.1.4
+Summary: Python module to convert AAD model to ONNX format
+Home-page: http://github.com/matwey/aad2onnx
+Author: Matwey V. Kornilov
+Author-email: matwey.kornilov@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,4 @@
+onnx
+onnxconverter-common>=1.8.0
+onnxruntime
+skl2onnx
