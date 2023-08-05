@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+frogpy/__init__.py
+frogpy.egg-info/PKG-INFO
+frogpy.egg-info/SOURCES.txt
+frogpy.egg-info/dependency_links.txt
+frogpy.egg-info/top_level.txt
+frogpy/algebra/__init__.py
+frogpy/algebra/matrix.py
+frogpy/algebra/tools.py
