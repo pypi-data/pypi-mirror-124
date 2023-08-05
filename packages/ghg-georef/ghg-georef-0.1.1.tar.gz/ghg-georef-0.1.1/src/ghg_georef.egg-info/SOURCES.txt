@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ghg-georef/__init__.py
+src/ghg-georef/main.py
+src/ghg_georef.egg-info/PKG-INFO
+src/ghg_georef.egg-info/SOURCES.txt
+src/ghg_georef.egg-info/dependency_links.txt
+src/ghg_georef.egg-info/top_level.txt
