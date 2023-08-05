@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: pysciebo
+Version: 1.1.0
+Summary: A Python client for sciebo aka hochschulcloud.nrw
+Home-page: https://gitlab.ub.uni-bielefeld.de/nils.mueller/pysciebo
+License: MIT
+Author: Nils Müller
+Author-email: nils.mueller@uni-bielefeld.de
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: pyocclient (>=0.6,<0.7)
+Project-URL: Repository, https://gitlab.ub.uni-bielefeld.de/nils.mueller/pysciebo
+Description-Content-Type: text/markdown
+
+# PySciebo<!-- omit in toc -->
+
+[PySciebo](https://gitlab.ub.uni-bielefeld.de/nils.mueller/pysciebo) is a Python
+client library for interfacing with [sciebo](https://www.hochschulcloud.nrw/),
+the official "Hochschulcloud NRW".
+
+The library is not endorsed officially and should be used accordingly.
+
+## Table of Contents<!-- omit in toc -->
+
+- [1. Installation](#1-installation)
+- [2. Usage](#2-usage)
+  - [2.1. As a Command-Line Interface](#21-as-a-command-line-interface)
+  - [2.2. As a Library](#22-as-a-library)
+- [3. Development](#3-development)
+- [4. Todo](#4-todo)
+
+## 1. Installation
+
+PySciebo is available on [PyPI](https://pypi.org/project/pysciebo/) and can be installed using `pip`:
+
+```bash
+pip install pysciebo
+```
+
+## 2. Usage
+
+### 2.1. As a Command-Line Interface
+
+The PySciebo command-line interface is automatically installed when installing
+the package via `pip`. Authentication works either via command-line arguments
+or by setting the following environment variables:
+
+- `SCIEBO_URL`
+- `SCIEBO_USERNAME`
+- `SCIEBO_PASSWORD`
+
+```shell
+# example using CLI arguments
+pysciebo upload --url $URL --username $USERNAME --password $PASSWORD /remote/file/path /local/file/path
+
+# example using environment variables
+pysciebo upload /remote/file/path /local/file/path
+```
+
+### 2.2. As a Library
+
+Using your university's sciebo URL, your username, and your password, the client
+works like this:
+
+```python
+import os
+from pysciebo import ScieboClient
+
+url = os.environ["SCIEBO_URL"]
+username = os.environ["SCIEBO_USERNAME"]
+password = os.environ["SCIEBO_PASSWORD"]
+
+# Login
+client = ScieboClient(url, username, password)
+
+# Upload a file to sciebo
+client.upload("/sciebo/file/path", "/local/file/path")
+
+# Download a file from sciebo (local path is optional)
+client.download("/sciebo/file/path", "/local/file/path")
+
+# Delete a file from sciebo
+client.delete("/sciebo/file/path")
+```
+
+## 3. Development
+
+The project uses pre-commit hooks using [pre-commit](https://pre-commit.com/).
+Follow the [installation instructions](https://pre-commit.com/#install) to set
+them up properly.
+
+New functionality should at least be covered by integration tests. The rest is
+optional but recommended.
+
+## 4. Todo
+
+- [x] Implement command-line interface
+- [ ] Extend feature list
+
