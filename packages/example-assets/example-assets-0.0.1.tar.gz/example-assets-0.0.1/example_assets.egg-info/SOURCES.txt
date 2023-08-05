@@ -1,0 +1,11 @@
+setup.py
+example/__init__.py
+example/assets/__init__.py
+example/assets/components/__init__.py
+example/assets/components/_assets.py
+example/assets/components/_workspace.py
+example_assets.egg-info/PKG-INFO
+example_assets.egg-info/SOURCES.txt
+example_assets.egg-info/dependency_links.txt
+example_assets.egg-info/requires.txt
+example_assets.egg-info/top_level.txt
