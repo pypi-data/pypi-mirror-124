@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: jupyterlab-workbench
+Version: 0.1.1
+Summary: JupyterLab Workbench
+Home-page: https://github.com/enlznep/pyexample
+Author: Ray Marc Marcellones (XTREME-D Inc)
+Author-email: devops@xtreme-d.net
+License: GPLv3+
+Platform: UNKNOWN
+Classifier: Framework :: Jupyter :: JupyterLab :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS
+
+UNKNOWN
+
