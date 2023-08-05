@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: medflux
+Version: 0.1.4
+Summary: Temporal modeling of patients and diseases
+Home-page: https://github.com/w-is-h/medflux
+Author: w-is-h
+Author-email: w.kraljevic@gmail.com
+License: UNKNOWN
+Description: # medflux
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
