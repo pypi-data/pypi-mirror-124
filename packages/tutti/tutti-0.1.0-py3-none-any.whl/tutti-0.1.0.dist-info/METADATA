@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tutti
+Version: 0.1.0
+Summary: Distributed Synchronization Primitives
+License: MIT
+Author: Hamilton Kibbe
+Author-email: ham@hamiltonkib.be
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Provides-Extra: async
+Requires-Dist: hiredis (>=2.0.0,<3.0.0)
+Requires-Dist: redis (>=3.5.3,<4.0.0)

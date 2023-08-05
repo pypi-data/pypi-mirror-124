@@ -1,0 +1,7 @@
+tutti/__init__.py,sha256=_vZ9OH74RISpQchj5YBtgq-kUkmdDhFGgfYJf8OCk0Y,396
+tutti/backends/__init__.py,sha256=WJa_gMOzr6A2hjRGuWrYN6qrfZ7f4ySwwSg8BOSgaf0,137
+tutti/backends/redis_backend.py,sha256=uu2gtLQfkqbzSetQ1WgR3CUQ0yerEVGgC1u_8y_cqSs,5763
+tutti/lock.py,sha256=8uSr67Hw5dhVOLZZT9XzVmJ5nxHxe-Xo8PYSHx4CRlo,929
+tutti-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tutti-0.1.0.dist-info/METADATA,sha256=HoDldmq-lkY95U8-k6WgbntDPsMzdOt4hxxmckt9HQA,592
+tutti-0.1.0.dist-info/RECORD,,
