@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+src/Pypi_for_example.egg-info/PKG-INFO
+src/Pypi_for_example.egg-info/SOURCES.txt
+src/Pypi_for_example.egg-info/dependency_links.txt
+src/Pypi_for_example.egg-info/requires.txt
+src/Pypi_for_example.egg-info/top_level.txt
+src/Pypi_for_example_medium/__init__.py
+src/Pypi_for_example_medium/example/__init__.py
+src/Pypi_for_example_medium/example/ssl.py
