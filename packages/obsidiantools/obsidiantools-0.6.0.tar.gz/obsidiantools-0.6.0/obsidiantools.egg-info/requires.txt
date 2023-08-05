@@ -1,0 +1,8 @@
+markdown
+html2text
+pandas
+numpy
+networkx
+python-frontmatter
+beautifulsoup4
+lxml
