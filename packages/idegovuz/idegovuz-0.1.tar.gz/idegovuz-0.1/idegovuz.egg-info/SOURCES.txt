@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+idegovuz/__init__.py
+idegovuz/client.py
+idegovuz/constants.py
+idegovuz/provider.py
+idegovuz/urls.py
+idegovuz/views.py
+idegovuz.egg-info/PKG-INFO
+idegovuz.egg-info/SOURCES.txt
+idegovuz.egg-info/dependency_links.txt
+idegovuz.egg-info/requires.txt
+idegovuz.egg-info/top_level.txt

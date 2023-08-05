@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: idegovuz
+Version: 0.1
+Summary: id.egov.uz provider for django-allauth
+Home-page: https://github.com/vodiylik/allauth-idegovuz.git
+Author: Shukrullo Turgunov
+Author-email: sh@turgunov.uz
+License: MIT
+Description: UNKNOWN
+Keywords: id.egov.uz,id,allauth,provider
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
