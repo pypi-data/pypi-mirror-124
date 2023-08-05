@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+xellusmodule/__init__.py
+xellusmodule/mymodule.py
+xellusmodule.egg-info/PKG-INFO
+xellusmodule.egg-info/SOURCES.txt
+xellusmodule.egg-info/dependency_links.txt
+xellusmodule.egg-info/requires.txt
+xellusmodule.egg-info/top_level.txt
