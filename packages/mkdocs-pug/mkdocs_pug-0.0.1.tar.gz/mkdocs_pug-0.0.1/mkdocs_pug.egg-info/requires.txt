@@ -1,0 +1,11 @@
+mkdocs
+pypugjs
+
+[dev]
+check-manifest
+pdoc
+twine
+
+[test]
+coverage
+nose

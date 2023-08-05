@@ -1,0 +1,10 @@
+README.md
+setup.py
+mkdocs_pug/__init__.py
+mkdocs_pug/plugin.py
+mkdocs_pug.egg-info/PKG-INFO
+mkdocs_pug.egg-info/SOURCES.txt
+mkdocs_pug.egg-info/dependency_links.txt
+mkdocs_pug.egg-info/entry_points.txt
+mkdocs_pug.egg-info/requires.txt
+mkdocs_pug.egg-info/top_level.txt

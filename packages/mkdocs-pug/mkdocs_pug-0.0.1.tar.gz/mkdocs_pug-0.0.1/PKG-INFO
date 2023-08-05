@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: mkdocs_pug
+Version: 0.0.1
+Summary: Pug plugin for mkdocs.
+Home-page: https://github.com/vzhong/mkdocs_pug
+Author: Victor Zhong
+Author-email: victor@victorzhong.com
+License: Apache 2
+Description: # mkdocs-pug
+        
+        This MkDocs plugin is based on [pypugjs](https://github.com/kakulukia/pypugjs).
+        
+        To install:
+        
+        ```
+        pip install mkdocs_pug
+        ```
+        
+        To use, add this to your `mkdocs.yml`:
+        
+        
+        ```
+        plugins:
+          - mkdocs_pug
+        ```
+        
+        Then, this plugin will watch for `*.pug` files in your template directories and build the corresponding `*.html` files in the same location.
+        
+        To do this automatically with the server during development, you should run with
+        
+        ```
+        mkdocs serve --watch-theme
+        ```
+        
+        This repo contains an example of how to use this plugin inside an MkDocs project.
+        
+Keywords: text nlp machine-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
