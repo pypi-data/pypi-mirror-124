@@ -1,0 +1,18 @@
+Change Log
+===========
+
+0.0.1 (19-10-2021)
+-------------------
+- First Release
+
+0.0.2 (19-10-2021)
+-------------------
+- Test if updating works... It does
+
+0.0.3 (19-10-2021)
+-------------------
+- Fixed some bugs and provided a better README file
+
+0.0.4 (19-10-2021)
+-------------------
+- Fixed some bugs and provided a better README file
