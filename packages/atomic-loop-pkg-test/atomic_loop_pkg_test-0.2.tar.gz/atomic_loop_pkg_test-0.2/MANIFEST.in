@@ -1,0 +1,1 @@
+recursive-include atomic_loop_pkg_test *.py
