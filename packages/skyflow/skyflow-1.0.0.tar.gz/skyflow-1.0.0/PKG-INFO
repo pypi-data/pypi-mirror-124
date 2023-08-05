@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: skyflow
+Version: 1.0.0
+Summary: Skyflow SDK for the Python programming language
+Home-page: https://github.com/skyflowapi/skyflow-python/
+Author: Skyflow
+Author-email: service-ops@skyflow.com
+License: LICENSE
+Platform: UNKNOWN
+License-File: LICENSE
+
+# skyflow-python
+skyflow-python is the Skyflow SDK for the Python programming language.
+
+
