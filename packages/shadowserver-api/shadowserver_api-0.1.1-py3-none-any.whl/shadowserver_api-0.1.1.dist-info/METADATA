@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: shadowserver-api
+Version: 0.1.1
+Summary: Shadowserver API implementation library
+Home-page: https://github.com/GOVCERT-LU/shadowserver_api
+Author: Georges Toth
+Author-email: georges.toth@govcert.etat.lu
+License: AGPLv3+
+Keywords: shadowserver
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-bandit ; extra == 'dev'
+Requires-Dist: flake8-comprehensions ; extra == 'dev'
+Requires-Dist: flake8-docstrings ; extra == 'dev'
+Requires-Dist: pep8-naming ; extra == 'dev'
+Requires-Dist: types-requests ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs-material ; extra == 'docs'
+Requires-Dist: mkdocstrings ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+
+This project is about implementing the [Shadowserver API](https://www.shadowserver.org/what-we-do/network-reporting/api-documentation/), foremost the reports API, in Python.
+
+Supported and tested Python version: 3.9
+
+Should work on Python version >= 3.7
+
+**Note:** To use this library you must have a valid API key in order to access the API services of Te Shadowserver Foundation.
+
+### Installation
+```shell script
+pip install shadowserver_api
+```
+
+
