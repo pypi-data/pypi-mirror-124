@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: elice-backend-components
+Version: 21.10.0
+Summary: Components for building elice-backend projects.
+Home-page: https://git.elicer.io/elice/elice-backend-components
+Author: elice.io
+Author-email: contact@elice.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Python: >=3.8, <3.11
+Provides-Extra: dev
+
+UNKNOWN
+
