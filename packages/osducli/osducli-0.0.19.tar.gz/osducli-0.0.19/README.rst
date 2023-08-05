@@ -1,0 +1,126 @@
+OSDU Command Line Interface
+===========================
+
+Command-line interface for interacting with OSDU.
+
+Usage
+=====
+
+The first time you use the CLI you should run the configure command to provide connection information and other important configuration.
+
+.. code-block:: bash
+
+  osdu config update
+
+Once configured use the CLI as shown below. Omitting a command will display a list of available options.
+
+.. code-block:: bash
+
+  osdu <command>
+
+For more information, specify the `-h` flag:
+
+.. code-block:: bash
+
+  osdu -h
+  osdu <command> -h
+
+Change Log
+==========
+
+0.0.19
+------
+
+- schema add --overwrite-existing option
+- merge dataload checkrefs code (wip)
+- user friendly output mode
+- updated dataload helper text
+
+0.0.18
+------
+
+- split global options in help text for clarity
+- search table output fields changed
+
+0.0.17
+------
+
+- change osducli references to osdu
+
+0.0.16
+------
+
+- fix ingestion batch sizes
+  
+0.0.15
+------
+
+- *entitlements members add* - added role option
+- *entitlements members remove* command added
+
+0.0.14
+------
+- callable as osdu instead of osducli
+- search query & search id commands
+- dataload ingest --skip-existing option
+- Add legal service and list tags
+  
+0.0.13
+------
+
+- workflow register / unregister commands
+- dataload ingest - wait and simulate options
+
+0.0.12
+------
+
+- Fix config permissions
+
+0.0.11
+------
+
+- schema commands
+- dataload batching imporvements
+
+0.0.10
+------
+
+- refeactor code to use click instead of knack
+
+0.0.9
+-----
+
+- entitlements commands
+
+0.0.8
+-----
+
+- use osdu-sdk 0.0.2
+  
+0.0.7
+-----
+
+- Uses osdu-sdk for backend code
+  
+0.0.6
+-----
+
+- Refactor of connection code
+
+0.0.3
+-----
+
+- Bulk upload commands (file upload still missing)
+- Interactive login
+- Config improvements
+- Additional testing
+
+0.0.2
+-----
+
+- Cleanup and diverse fixes
+  
+0.0.1
+-----
+
+- Initial release.
