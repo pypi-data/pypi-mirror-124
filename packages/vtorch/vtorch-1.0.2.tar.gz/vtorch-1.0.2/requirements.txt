@@ -1,0 +1,17 @@
+clearml==0.17.4
+fastprogress==0.1.18
+jsonpickle==1.5.1
+numpy==1.18.5
+optuna==2.10.0
+overrides==3.0.0
+pandas~=1.1.5
+pickle5~=0.0.11
+Pillow~=8.2.0
+plotly==5.3.1
+pytest~=6.2.2
+scikit-learn==0.23.1
+setuptools~=53.0.0
+tokenizers==0.7.0
+torch~=1.9.0
+tqdm==4.46.1
+transformers~=2.10.0
