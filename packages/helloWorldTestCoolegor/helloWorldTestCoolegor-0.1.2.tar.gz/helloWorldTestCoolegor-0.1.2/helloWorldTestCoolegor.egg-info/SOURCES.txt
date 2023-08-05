@@ -1,0 +1,10 @@
+README.md
+setup.py
+helloWorldTestCoolegor/_init_.py
+helloWorldTestCoolegor/module_hello_world.py
+helloWorldTestCoolegor/module_numpy.py
+helloWorldTestCoolegor.egg-info/PKG-INFO
+helloWorldTestCoolegor.egg-info/SOURCES.txt
+helloWorldTestCoolegor.egg-info/dependency_links.txt
+helloWorldTestCoolegor.egg-info/requires.txt
+helloWorldTestCoolegor.egg-info/top_level.txt
