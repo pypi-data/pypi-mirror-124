@@ -1,0 +1,16 @@
+GOFevaluation/__init__.py,sha256=KH4lZAJSJMdDxUMXq4lyDLOhNVVh7CVvljyO4Om5t4s,156
+GOFevaluation/evaluator_base.py,sha256=YRppuOEFrajvwCrJOYdlr03-GkucA5r1FqpVQ1JCPwc,12403
+GOFevaluation/evaluators_1d.py,sha256=I-VIfwUvk66lvrgmrpW_0nD5NB9PG5BoYhSaoXky0do,4891
+GOFevaluation/evaluators_nd.py,sha256=LUtfv-eIVAM8PdonJ7uCv9clU5iiwDsZrdQwtdzF25w,13166
+GOFevaluation/gof_test.py,sha256=oQXH0LRDQOQVcP4ShpXp0xPIvouiYcrWp8iqObE1sqg,5607
+GOFevaluation/utils.py,sha256=rijzW-AbS6klMHe7dMShGNl6e7qemJBp89TRvziKDAM,14352
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_evaluators_1d.py,sha256=M1o2XSOGn83KXvk_bESP5SNQsueMh3VD8vtgImI4Wqk,6376
+tests/test_evaluators_nd.py,sha256=v4NPGSZIjNKezn6lLvblu_CwDSegfBDhbhBJERqJ4_s,14352
+tests/test_gof_test.py,sha256=mOG5Wl_w3yCMvp3SdHcjn3QpbOWmAT2Zjcaxw4XPjO0,4611
+tests/test_utils.py,sha256=nsPZnd-RHJMnp8Mrae8O2zQA4wn-bzZMUNC_1Usi2aA,2404
+GOFevaluation-0.1.0.dist-info/LICENSE,sha256=UHQ8VqI_V6lNUu2AzR2ouxZZQm0mhsQRPuNsZ_3USpg,1557
+GOFevaluation-0.1.0.dist-info/METADATA,sha256=DVcU80_3TBFCIAqEhZH3wg7OEFhT2gFx6rAU4p5I1Uc,5091
+GOFevaluation-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+GOFevaluation-0.1.0.dist-info/top_level.txt,sha256=KpNmf_zsd1q2a-CTHkNrlh0zVxMozYi4ZYuOzsTh7GE,20
+GOFevaluation-0.1.0.dist-info/RECORD,,
