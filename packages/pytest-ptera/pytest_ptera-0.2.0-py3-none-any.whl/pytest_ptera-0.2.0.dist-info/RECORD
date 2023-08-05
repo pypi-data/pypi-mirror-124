@@ -1,0 +1,7 @@
+pytest_ptera/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_ptera/main.py,sha256=yYSyLYVYV1e1B-AzJq6O4LB5Fg3r2rYkh-a7uinPqBI,6244
+pytest_ptera/version.py,sha256=XQVhijSHeIVMVzY2S4fY9BKxV2XHSTr9VVHsYltGPvQ,18
+pytest_ptera-0.2.0.dist-info/entry_points.txt,sha256=kAV1fFprL4umH7p3iQzPwR28uoLQSahhb-jRg5UX-G4,36
+pytest_ptera-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pytest_ptera-0.2.0.dist-info/METADATA,sha256=OcEAcgydDA3uxUjfHU03bUKZ88xhGVDRkZ35pqMymV8,498
+pytest_ptera-0.2.0.dist-info/RECORD,,
