@@ -1,0 +1,15 @@
+retry
+pysnooper
+user_agent
+requests
+uuid
+exchangelib
+urllib3
+schedule
+numpy
+pandas
+pymongo
+redis
+pymysql
+sqlalchemy
+pycryptodome
