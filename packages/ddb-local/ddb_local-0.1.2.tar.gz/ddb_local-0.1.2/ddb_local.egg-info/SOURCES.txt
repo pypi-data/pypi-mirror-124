@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ddb_local/__init__.py
+ddb_local.egg-info/PKG-INFO
+ddb_local.egg-info/SOURCES.txt
+ddb_local.egg-info/dependency_links.txt
+ddb_local.egg-info/requires.txt
+ddb_local.egg-info/top_level.txt
+test/test_module.py
