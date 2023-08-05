@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: gimmick
+Version: 1.0
+Summary: Libraray contains algo to generate images by learning representation from data
+Home-page: https://github.com/pankajr141/gimmick
+Author: Pankaj Rawat
+Author-email: pankajr141@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: docutils (==0.15.2)
+Requires-Dist: h5py (==2.10.0)
+Requires-Dist: pandas (==1.2.2)
+Requires-Dist: scikit-learn (==0.24.2)
+Requires-Dist: Sphinx (==3.5.4)
+Requires-Dist: sphinx-rtd-theme (==0.5.2)
+Requires-Dist: sphinxcontrib-applehelp (==1.0.2)
+Requires-Dist: sphinxcontrib-devhelp (==1.0.2)
+Requires-Dist: sphinxcontrib-htmlhelp (==2.0.0)
+Requires-Dist: sphinxcontrib-jsmath (==1.0.1)
+Requires-Dist: sphinxcontrib-qthelp (==1.0.3)
+Requires-Dist: sphinxcontrib-serializinghtml (==1.1.5)
+Requires-Dist: streamlit (==1.0.0)
+Requires-Dist: tensorflow (==2.3.0)
+Requires-Dist: zipp (==3.1.0)
+Requires-Dist: opencv-python (==4.2.0.34)
+Requires-Dist: tqdm (==4.48.2)
+Requires-Dist: matplotlib (==3.2.1)
+
+# gimmick
+
+## Introduction
+Whats Gimmick ? Its a library which allows us to generate images out of nothing, basically you tell gimmick what kind of images you would like to generate and what model to use and it does the rest.
+Its easy to use as primary focus is on user friendlyness without exposing to much details, but you can be specific if you wanna be.
+
+What do we do internally ? we trained neuralnets, we add different type of networks making sure that interface always remain same, just plugin different algo and see how it perform.
+
+## Installtion
+<pre>pip install gimmick</pre>
+just like that, its python everything should be easy
+
+## Dependency
+Gimmick autmatically install all the dependency for you, but occationaly you run into one of those bugs, so in a nutshell we use tensorflow, sklearn.
+i know torch is much faster, we will get their
+
+## Examples
+we have already provided samples with the github repo, you can browse it, read it and run it.
+
+Lets demonstrate
+
+### usecase 1 - I just wanna run as simple as i can.
+<pre>
+import gimmick
+model = gimmick.learn(images, algo='autoencoder_dense')  # Just make sure that images is a numpy array which contains N number 3D or 2D images
+images_gen = model.generate(16)  # I need 16 images
+</pre>
+
+### usecase 2 - I wanna control how my model is trained
+<pre>
+import gimmick
+model = gimmick.learn(images, algo='autoencoder_dense', epochs=500, batch_size=8,
+                      optimizer='adam', learning_rate=0.01, loss_function='mae')
+images_gen = model.generate(16, batch_size=8)
+</pre>
+
+### usecase 3 - I wanna know everything
+
+Go through the detailed documentation.
+
+
+
+
