@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+barycentric_interpolation_np/__init__.py
+barycentric_interpolation_np.egg-info/PKG-INFO
+barycentric_interpolation_np.egg-info/SOURCES.txt
+barycentric_interpolation_np.egg-info/dependency_links.txt
+barycentric_interpolation_np.egg-info/requires.txt
+barycentric_interpolation_np.egg-info/top_level.txt

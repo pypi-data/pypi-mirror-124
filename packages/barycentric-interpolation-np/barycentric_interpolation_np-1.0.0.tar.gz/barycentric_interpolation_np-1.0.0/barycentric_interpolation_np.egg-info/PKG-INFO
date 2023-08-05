@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: barycentric-interpolation-np
+Version: 1.0.0
+Summary: A example Python package
+Home-page: https://3vilwind.com
+Author: Nikolai Rakov
+Author-email: thrash@3vilwind.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENSE
+
+UNKNOWN
+
