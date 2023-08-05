@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/homebase_package/__init__.py
+src/homebase_package/homebase.py
+src/homebase_whatware.egg-info/PKG-INFO
+src/homebase_whatware.egg-info/SOURCES.txt
+src/homebase_whatware.egg-info/dependency_links.txt
+src/homebase_whatware.egg-info/top_level.txt
