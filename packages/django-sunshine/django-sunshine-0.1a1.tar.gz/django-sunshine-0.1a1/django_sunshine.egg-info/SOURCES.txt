@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+django_sunshine.egg-info/PKG-INFO
+django_sunshine.egg-info/SOURCES.txt
+django_sunshine.egg-info/dependency_links.txt
+django_sunshine.egg-info/requires.txt
+django_sunshine.egg-info/top_level.txt
+sunshine/__init__.py
+sunshine/__version__.py
+sunshine/sunshine.py
