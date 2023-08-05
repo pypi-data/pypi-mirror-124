@@ -1,0 +1,8 @@
+Django>=3.2
+asyncpg
+gitpython
+lxml
+progress
+requests
+twine
+uvloop
