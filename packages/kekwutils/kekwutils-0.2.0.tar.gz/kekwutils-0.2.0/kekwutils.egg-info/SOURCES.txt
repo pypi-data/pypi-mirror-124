@@ -1,0 +1,7 @@
+setup.py
+kekwutils/__init__.py
+kekwutils.egg-info/PKG-INFO
+kekwutils.egg-info/SOURCES.txt
+kekwutils.egg-info/dependency_links.txt
+kekwutils.egg-info/requires.txt
+kekwutils.egg-info/top_level.txt
