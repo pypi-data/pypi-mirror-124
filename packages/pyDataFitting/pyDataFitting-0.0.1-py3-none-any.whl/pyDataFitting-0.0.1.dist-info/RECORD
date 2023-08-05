@@ -1,0 +1,10 @@
+pyDataFitting/__init__.py,sha256=Q3HIp4fH52LcFy4EfD58gYqcZmfjiCG6BeKO6irKquc,165
+pyDataFitting/linear_regression.py,sha256=JhwscbWQW1rVSk-mkeqSYknbLTlXOBwogM8oZkPIQQg,4067
+pyDataFitting/multivariate_regression.py,sha256=ey1A7ExA8cs4MeEpjF7_Uuvk1jY81r-j675kjtMfL0w,57094
+pyDataFitting/nonlinear_regression.py,sha256=OwVB-Pj6HoEAYiNx5MGeJaW61_xjvQ_DBR3Uy8SG85w,8013
+pyDataFitting/polynomial_regression.py,sha256=wtYhgPJtPS10FWPeMjXndeBcaArrb1f62Dh4TraLwyc,20454
+pyDataFitting-0.0.1.dist-info/LICENSE,sha256=teBFwcTAbB467bEwab3N6Q1JZaYQV07Ljh2O5j81cmY,1074
+pyDataFitting-0.0.1.dist-info/METADATA,sha256=pGwO67zJTm3x8VKZzdCBPmIU5QpaGHEy-4QEA-1TY6I,4924
+pyDataFitting-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyDataFitting-0.0.1.dist-info/top_level.txt,sha256=_IwoloEw4js4JeqRJs2NoLvM8sbCOq5cNKVPzpI4pNA,14
+pyDataFitting-0.0.1.dist-info/RECORD,,
