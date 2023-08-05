@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/dynamic_versioning/__init__.py
+src/dynamic_versioning/commands.py
+src/dynamic_versioning/configuration.py
+src/dynamic_versioning/utils.py
+src/dynamic_versioning.egg-info/PKG-INFO
+src/dynamic_versioning.egg-info/SOURCES.txt
+src/dynamic_versioning.egg-info/dependency_links.txt
+src/dynamic_versioning.egg-info/requires.txt
+src/dynamic_versioning.egg-info/top_level.txt
