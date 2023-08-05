@@ -1,0 +1,13 @@
+LICENSE
+setup.py
+FullFileHandler/Exceptions.py
+FullFileHandler/Modes.py
+FullFileHandler/PDFFileHandler.py
+FullFileHandler/TextFileHandler.py
+FullFileHandler/__init__.py
+FullFileHandler/test.py
+full_file_handler.egg-info/PKG-INFO
+full_file_handler.egg-info/SOURCES.txt
+full_file_handler.egg-info/dependency_links.txt
+full_file_handler.egg-info/requires.txt
+full_file_handler.egg-info/top_level.txt
