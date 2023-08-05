@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: vasyok
+Version: 0.1.0
+Summary: 
+Author: konstantgr
+Author-email: 60608301+konstantgr@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.3.4,<2.0.0)
