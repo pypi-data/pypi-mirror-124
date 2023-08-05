@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+curly_potato/__init__.py
+curly_potato.egg-info/PKG-INFO
+curly_potato.egg-info/SOURCES.txt
+curly_potato.egg-info/dependency_links.txt
+curly_potato.egg-info/requires.txt
+curly_potato.egg-info/top_level.txt
