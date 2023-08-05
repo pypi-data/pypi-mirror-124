@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: fast_overlap
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/Hekstra-Lab/fast_overlap
+Author: Ian Hunt-Isaak, John Russell
+Author-email: ianhuntisaak@g.harvard.edu, johnrussell@g.harvard.edu
+License: BSD 3-Clause License
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Requires-Python: <3.10,>=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+
+# Fast Overlap
+
+A tiny cython library to calculate the pairwise overlap of all cell
+masks between two time points. Created for use in https://github.com/Hekstra-Lab/microutil/
+
+## Install
+
+```
+pip install fast-overlap
+```
+
+
+## Development
+
+### Installation
+```
+python setup.py build_ext -i
+```
+
+To really remove stuff and build + test:
+```
+rm *.so build/ fast_overlap.cpp -rf && python setup.py build_ext -i && python test_speedup.py
+```
+
+

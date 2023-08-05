@@ -1,0 +1,5 @@
+numpy
+
+[test]
+numba
+scikit-image

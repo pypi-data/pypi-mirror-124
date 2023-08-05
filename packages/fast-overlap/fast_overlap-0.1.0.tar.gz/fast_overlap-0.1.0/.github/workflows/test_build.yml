@@ -1,0 +1,35 @@
+name: Test
+
+# this is heavily based off the jupyterlab-git workflow file created by @fcollonval
+# https://github.com/jupyterlab/jupyterlab-git/blob/a046b66415c6afabcbdf6e624e2a367523ee2e80/.github/workflows/build.yml
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-3x:
+    name: Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9.x"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+          architecture: "x64"
+
+      - name: Install
+        run: |
+          pip install cython numpy numba scikit-image
+          python setup.py build_ext -i
+
+      - name: Tests
+        run: python test.py
