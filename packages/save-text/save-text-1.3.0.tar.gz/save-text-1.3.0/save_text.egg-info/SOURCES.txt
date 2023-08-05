@@ -1,0 +1,9 @@
+README.md
+setup.py
+save/__init__.py
+save/main.py
+save_text.egg-info/PKG-INFO
+save_text.egg-info/SOURCES.txt
+save_text.egg-info/dependency_links.txt
+save_text.egg-info/entry_points.txt
+save_text.egg-info/top_level.txt

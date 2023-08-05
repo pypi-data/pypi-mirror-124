@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: save-text
+Version: 1.3.0
+Summary: You can save and retrieve text.
+Home-page: https://github.com/YahiroRyo
+Author: YahiroRyo
+Author-email: YahiroRyo@users.noreply.github.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
