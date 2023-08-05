@@ -1,0 +1,9 @@
+tracardi_url_parser/plugin.py,sha256=bEqT1X3qr8lrVHXvskRDiKTG0WyNj6UOww3J_QS88bA,2476
+tracardi_url_parser/model/configuration.py,sha256=qxpp_N1f6bRyirC9g5Vd8SBCul218TLvon-CebfQjrU,78
+tracardi_url_parser/model/__pycache__/configuration.cpython-38.pyc,sha256=tFR38fVkXYsHWxouyN4niXAsQ9OPk6sXOvd8jPzUIcg,422
+tracardi_url_parser/test/unit/test_url_plugin.py,sha256=GtrritpMqnCSi_3qGCIHnqUomy8uceCc_oriqaxcLFI,1221
+tracardi_url_parser-0.6.0.dist-info/LICENSE.md,sha256=klDZvjI0FEXv4Jgb4dfc7YPKmpEO8vKcKlyDPD29pfA,1060
+tracardi_url_parser-0.6.0.dist-info/METADATA,sha256=AHnUnrjTE9yFkJbERXnG3MiQNAoGf4hfFQK4POvW8T8,1182
+tracardi_url_parser-0.6.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_url_parser-0.6.0.dist-info/top_level.txt,sha256=tQ0RO_oEm-9KtQEZY0MHboOk2LYXiM4cgZhCERt_lyg,20
+tracardi_url_parser-0.6.0.dist-info/RECORD,,
