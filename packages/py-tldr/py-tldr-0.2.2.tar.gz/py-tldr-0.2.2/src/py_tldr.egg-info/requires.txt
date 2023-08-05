@@ -1,0 +1,10 @@
+toml
+rich
+click
+requests
+
+[dev]
+pytest
+pytest-mock
+pytest-cov
+flake8
