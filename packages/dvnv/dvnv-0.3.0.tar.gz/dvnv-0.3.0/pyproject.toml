@@ -1,0 +1,30 @@
+[tool.mypy]
+exclude = "dvnv/scripts"
+
+[tool.poetry]
+name = "dvnv"
+version = "v0.3.0"
+description = "Automate the creation of development environments"
+authors = ["sudo-julia <jlearning@tuta.io>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+appdirs = "^1.4.4"
+rich = "^10.12.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+pylint = "^2.11.1"
+mypy = "^0.910"
+Sphinx = "^4.2.0"
+pytest = "^6.2.5"
+pre-commit = "^2.15.0"
+scrutinizer-ocular = "^1.0.3"
+
+[tool.poetry.scripts]
+dvnv = "dvnv.__main__:run_dvnv"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
