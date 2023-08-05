@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/literary/build_meta.py
+src/literary_build.egg-info/PKG-INFO
+src/literary_build.egg-info/SOURCES.txt
+src/literary_build.egg-info/dependency_links.txt
+src/literary_build.egg-info/not-zip-safe
+src/literary_build.egg-info/requires.txt
+src/literary_build.egg-info/top_level.txt
