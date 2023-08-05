@@ -1,0 +1,10 @@
+odin_bot_entities/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+odin_bot_entities/balances.py,sha256=xkmypQRuvn2egdTnpYYePqA2phqYmr27cr1FKCidps8,3331
+odin_bot_entities/currencies.py,sha256=SklU-VCzM63UDHJ4Xm_zk9HD8pDdAUVtTJ7ba_4qL98,3306
+odin_bot_entities/exchanges.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odin_bot_entities/lote.py,sha256=iN1Cu-miy-iuoW_njvWNLMXxkVjeb7UCfP34XNPnSD8,1981
+odin_bot_entities/report.py,sha256=Q4QV3n0-b2eJ7ubGtVhsr6866woxVuc8f8iJj2r09GY,1909
+odin_bot_entities/trades.py,sha256=wPR6H1qc3Bp9AFnUxDhuNBwL3ouiQxkirx-9nsLQpIg,1475
+odin_bot_entities-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+odin_bot_entities-0.1.0.dist-info/METADATA,sha256=KvvjGeFj4-_zWSXiV-KQdFkysx6vUwNLE9Z5W5Rrufk,351
+odin_bot_entities-0.1.0.dist-info/RECORD,,
