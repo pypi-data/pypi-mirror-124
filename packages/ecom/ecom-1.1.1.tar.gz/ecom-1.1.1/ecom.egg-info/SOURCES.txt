@@ -1,0 +1,13 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+setup.py
+ecom/__init__.py
+ecom/db.py
+ecom/model.py
+ecom/schema.py
+ecom.egg-info/PKG-INFO
+ecom.egg-info/SOURCES.txt
+ecom.egg-info/dependency_links.txt
+ecom.egg-info/requires.txt
+ecom.egg-info/top_level.txt

@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: ecom
+Version: 1.1.1
+Summary: ecommerce
+Home-page: UNKNOWN
+Author: Ronak Patel
+Author-email: ronakp765@gmail.com
+License: MIT
+Description: 
+        
+        Change Log
+        ==========
+        
+        0.0.1 (18/10/2021)
+        -------------------
+        - First Release
+Keywords: ecommerce
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
