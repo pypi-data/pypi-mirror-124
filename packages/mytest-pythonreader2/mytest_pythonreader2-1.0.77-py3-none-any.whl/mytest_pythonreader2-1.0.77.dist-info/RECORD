@@ -1,0 +1,11 @@
+reader/__init__.py,sha256=Bs9BmpuschcwqB0Qj2wrI-ZcBwcX4mn6V0KID9T_6rE,571
+reader/__main__.py,sha256=ldhEAmHNumNVt3PWpgXgtf93Y5mrVg6fUBaf5MCZ42A,1604
+reader/config.cfg,sha256=m7yDayr3BufhROgMAcwwsgVASRBia1Ds8awL1ZDLuAo,45
+reader/feed.py,sha256=dOQj_yszqCJ60S1ulUYM-h8KTRFqLRdT0VkkoaQwA24,1520
+reader/viewer.py,sha256=EgaSFHXmQBbfy4hZ_GHx_Idq-dZitdhCgBvakxlczDo,411
+mytest_pythonreader2-1.0.77.dist-info/LICENSE,sha256=lVXG7TZJTjE8Q3ZSrxuk5jfzukuDbQe6wRce2Iq3h94,1068
+mytest_pythonreader2-1.0.77.dist-info/METADATA,sha256=pwHbrCbBkpVnDUMqETQ83WKVOPuLlZAg7uwovLeaxAU,3584
+mytest_pythonreader2-1.0.77.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mytest_pythonreader2-1.0.77.dist-info/entry_points.txt,sha256=mDtq5fbYTdTDXA-CdbL8J4uUGDm5_js9Ys2qp_8k3q4,53
+mytest_pythonreader2-1.0.77.dist-info/top_level.txt,sha256=zVRv6FulXZWKf9Gycz9vjxul5OCZ3fCq2Attdwsu7Z4,7
+mytest_pythonreader2-1.0.77.dist-info/RECORD,,
