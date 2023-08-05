@@ -1,0 +1,26 @@
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [
+    "tests",
+]
+norecursedirs="tests/helpers"
+log_cli = true
+log_cli_level = "DEBUG"
+
+[tool.black]
+line-length = 120
+exclude = '''
+/(
+    \.git
+  | \.hypothesis
+  | \.tox
+  | \.vscode
+  | \__pycache__
+  | build
+  | dist
+  | docs
+)/
+'''
+
+[tool.flake8]
+max-line-length = 120
