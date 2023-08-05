@@ -1,0 +1,3 @@
+[console_scripts]
+occli = occli.__main__:occli
+
