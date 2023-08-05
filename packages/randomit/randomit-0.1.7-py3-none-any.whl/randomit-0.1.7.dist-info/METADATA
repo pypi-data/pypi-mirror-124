@@ -1,0 +1,146 @@
+Metadata-Version: 2.1
+Name: randomit
+Version: 0.1.7
+Summary: Python library to generate random things.
+Home-page: https://github.com/dimitryzub/randomit
+License: MIT
+Author: Dimitry Zub
+Author-email: dimitryzub@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Randomit 🎲
+
+A Python library to generate random things.
+
+[![codecov coverage](https://codecov.io/gh/dimitryzub/randomit/branch/main/graph/badge.svg?token=B2XA8Y3R5M)](https://codecov.io/gh/dimitryzub/randomit)
+![example workflow](https://github.com/dimitryzub/randomit/actions/workflows/ci.yml/badge.svg)
+
+![pypi package versions brought by shields.io](https://img.shields.io/pypi/pyversions/randomit)
+![pypi package badge brought by Gemfury](https://badge.fury.io/py/randomit.svg)
+[![Downloads](https://static.pepy.tech/personalized-badge/randomit?period=month&units=international_system&left_color=grey&right_color=brightgreen&left_text=Downloads)](https://pepy.tech/project/randomit)
+![licence brought by shields.io](https://img.shields.io/github/license/dimitryzub/randomit?color=blue)
+
+![twitter account brought by shield.io](https://img.shields.io/twitter/follow/DimitryZub?style=social)
+![reddit account brought by shield.io](https://img.shields.io/reddit/user-karma/combined/zdmit?style=social)
+![youtube account brought by shields.io](https://img.shields.io/youtube/channel/views/UClEr5pKL0gfo4uGVH4nWRYg?style=social)
+___
+Currently, `randomit` can generate a [random word(s)](https://github.com/dimitryzub/randomit#randomize-words) based on a given [theme](https://github.com/dimitryzub/randomit#look-for-available-built-in-themes), 
+as well as [load your words files](https://github.com/dimitryzub/randomit#load-and-pass-your-files) to randomize them. 
+
+To see what's coming next, see [open projects](https://github.com/dimitryzub/randomit/projects).
+
+## 🕹️Usage
+
+> *Words will always be different on each execution no matter what arguments being passed.*
+
+### Randomize words
+
+```python
+from randomit.words_randomizer import Words
+
+# return one word
+Words().randomizer(return_one_word=True)
+# cabinet
+# bristlecone pine
+# dim - bright
+
+Words().randomizer()  # returns a list of 17k words
+Words().randomizer(words_to_return=3)  # ['axis', 'overabundant', 'superuser']
+
+Words().randomizer(letter_starts_with='A')  # returns all words that starts with letter "A" 
+Words().randomizer(letter_starts_with='A', words_to_return=3)  # ['abandoned', 'able', 'absolute']
+Words().randomizer(letter_starts_with='A', words_to_return=3, capitalize=True) # ['Apron', 'Ashes', 'Anvil']
+```
+
+### Get Addresses
+_If you want to add your list of addresses, have a look at `addresses_list.txt` and format it as it's formatted there to work properly._
+
+Format:`address, city, state, zip`
+
+```python
+import json
+
+address_list = Words(theme='address').randomizer(return_dict=True, words_to_return=1)
+
+print(json.dumps(address_list, indent=2))
+
+'''
+[
+  {
+    "address": "777 brockton avenue",
+    "city": "abington",
+    "state": "ma",
+    "zip": "2351"
+  }
+]
+'''
+
+# if "return_dict" argument isn't specified it will return a list():
+'''
+["2465 hempstead turnpike, east meadow ny 11554"]
+'''
+```
+
+### Look for available built-in themes
+
+_If "**theme**" argument is not specified ➡ defaults to "**random words**"_.
+
+```python
+Words().available_themes()
+# ['random words', 'names', 'surnames', 'cities', 'countries', 'address']
+```
+
+### Specify theme you want to get words from
+
+```python
+Words(theme='cities').randomizer() # pass available arguments
+```
+
+### Load and pass your file(s)
+_Make sure all words are **lowercase**, and start on a **new line** (`\n`), otherwise it won't work._
+
+```python
+# call your words
+Words(file=YOUR_FILE).randomizer(return_one_word=True, capitalize=True)
+
+# Bazinga!
+```
+
+___
+
+## 📡 Installation
+
+```
+$ pip install randomit
+```
+
+```
+$ git clone https://github.com/dimitryzub/randomit.git
+```
+
+## 👾 Suggestions
+
+If you have any suggestions or ideas what will be good to add, get involved in [discussions](https://github.com/dimitryzub/randomit/discussions) section.
+
+## 🔬 Issues
+
+For issues, visit [issues page](https://github.com/dimitryzub/randomit/issues) 🙃
+
+Note for [replit.com](https://replit.com/) users. If you’re using `randomit` on replit, it will throw an error for no obvious for me reason. If you know how to fix it, please, let me know. 
+
+Installing package locally via `pip` doesn’t produce such error as it should (_tested in Pycharm_).
+
+## 📜 Docs
+
+To read more in-depth about something, visit [documentation](https://dimitryzub.github.io/randomit/docs/docs.html) page.
