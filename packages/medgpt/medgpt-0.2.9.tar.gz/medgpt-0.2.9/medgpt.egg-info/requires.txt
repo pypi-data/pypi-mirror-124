@@ -1,0 +1,6 @@
+datasets~=1.12.1
+ray==1.3.0
+wandb~=0.10
+x-transformers~=0.12
+ecco==0.0.14
+transformers==4.10.0
