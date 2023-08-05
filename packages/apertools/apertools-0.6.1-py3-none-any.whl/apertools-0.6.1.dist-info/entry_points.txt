@@ -1,0 +1,5 @@
+[console_scripts]
+aper = apertools.scripts.cli:cli
+asfdownload = apertools.asfdownload:cli
+geocode = apertools.scripts.run_geocode:main
+
