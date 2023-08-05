@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+amitgptpdf.egg-info/PKG-INFO
+amitgptpdf.egg-info/SOURCES.txt
+amitgptpdf.egg-info/dependency_links.txt
+amitgptpdf.egg-info/top_level.txt
+amitpdf/__init__.py
+amitpdf/pdf2image.py
+amitpdf/pdf2text.py
