@@ -1,0 +1,7 @@
+tracardi-plugin-sdk>=0.6.18
+tracardi
+tracardi_dot_notation
+pydantic
+aiohttp
+wheel
+twine
