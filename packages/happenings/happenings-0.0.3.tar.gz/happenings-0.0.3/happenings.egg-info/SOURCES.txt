@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+happenings.egg-info/PKG-INFO
+happenings.egg-info/SOURCES.txt
+happenings.egg-info/dependency_links.txt
+happenings.egg-info/requires.txt
+happenings.egg-info/top_level.txt
