@@ -1,0 +1,8 @@
+setup.py
+lihanov_module/__init__.py
+lihanov_module/module_lab1.py
+lihanov_module.egg-info/PKG-INFO
+lihanov_module.egg-info/SOURCES.txt
+lihanov_module.egg-info/dependency_links.txt
+lihanov_module.egg-info/requires.txt
+lihanov_module.egg-info/top_level.txt
