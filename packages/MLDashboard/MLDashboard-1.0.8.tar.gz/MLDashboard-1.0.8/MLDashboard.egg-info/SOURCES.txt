@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+MLDashboard/MLCallbacksBackend.py
+MLDashboard/MLCommunicationBackend.py
+MLDashboard/MLDashboardBackend.py
+MLDashboard.egg-info/PKG-INFO
+MLDashboard.egg-info/SOURCES.txt
+MLDashboard.egg-info/dependency_links.txt
+MLDashboard.egg-info/requires.txt
+MLDashboard.egg-info/top_level.txt
