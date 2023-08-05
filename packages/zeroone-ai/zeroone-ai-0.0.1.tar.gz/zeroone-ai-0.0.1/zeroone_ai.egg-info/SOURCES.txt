@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+zeroone_ai.egg-info/PKG-INFO
+zeroone_ai.egg-info/SOURCES.txt
+zeroone_ai.egg-info/dependency_links.txt
+zeroone_ai.egg-info/requires.txt
+zeroone_ai.egg-info/top_level.txt
+zerooneai/__init__.py
+zerooneai/zerooneai.py
+zerooneai.egg-info/SOURCES.txt
+zerooneai.egg-info/dependency_links.txt
+zerooneai.egg-info/requires.txt
+zerooneai.egg-info/top_level.txt
