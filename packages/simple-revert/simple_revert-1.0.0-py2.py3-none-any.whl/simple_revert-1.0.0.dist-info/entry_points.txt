@@ -1,0 +1,4 @@
+[console_scripts]
+restore_version = simple_revert.restore_version:main
+simple_revert = simple_revert.simple_revert:main
+

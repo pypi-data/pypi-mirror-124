@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: simple-revert
+Version: 1.0.0
+Summary: CLI tool and library to revert changes in OpenStreetMap
+Home-page: https://github.com/Zverik/simple-revert
+Author: Ilya Zverev
+Author-email: ilya@zverev.info
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Customer Service
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Python: !=3.0.*,!=3.1.*,!=3.2.*,>=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: requests
+
+# Reverting Scripts
+
+Here are two Python scripts that:
+
+* Revert simple OpenStreetMap changesets.
+Way and relation structural changes cannot be reverted, all other changes can.
+For example, if you deleted a lot of objects, or changed many tags at once.
+* Restore an old version of a given object. All of its deleted references
+are restored as well.
+
+If there are no errors, scripts would ask you for OSM login and password (which
+are immediately forgotten) and upload the changes. Alternatively you can redirect
+output to a file and open it in e.g. JOSM for reviewing and uploading.
+
+## Installation
+
+    pip install --user simple_revert
+
+## Simple Revert
+
+Specify changeset ids as the `simple-revert` script arguments. E.g.
+
+    simple_revert 12345 12346 12348
+
+To list recent changesets by a user (e.g. you), specify their name as
+the only argument:
+
+    simple_revert Zverik
+
+## Restore Version
+
+To restore an old object version, pass its type, id and version to
+`restore_version`. For the first argument you can use following formats:
+
+* `n12345` for a node, `w2342` or `r234234` for ways and relations.
+* `node/12345`, `node.12345` or even `"way 2343"` (note the quotes).
+* `https://www.openstreetmap.org/node/12345` or any other similar link.
+* `https://api.openstreetmap.org/api/0.6/node/12345/6` includes a version to restore.
+
+Version number should be either a positive integer, or a negative, relative
+to the last version. E.g. this command will revert the last change to a node:
+
+    restore_version n12345 -1
+
+To get a list of recent versions, run the script without a version argument.
+
+## Author and License
+
+Written by Ilya Zverev, licensed under ISC license.
+
+
