@@ -1,0 +1,9 @@
+setup.py
+istra_hw2package.egg-info/PKG-INFO
+istra_hw2package.egg-info/SOURCES.txt
+istra_hw2package.egg-info/dependency_links.txt
+istra_hw2package.egg-info/not-zip-safe
+istra_hw2package.egg-info/requires.txt
+istra_hw2package.egg-info/top_level.txt
+src/__init__.py
+src/helloWorld.py
