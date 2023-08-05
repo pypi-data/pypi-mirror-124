@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: nnabla-rl
+Version: 0.10.0
+Summary: Deep reinforcement learning library built on top of Neural Network Libraries
+Home-page: https://github.com/sony/nnabla-rl
+Author: Yu Ishihara, Sony Group Corporation
+Author-email: UNKNOWN
+License: Apache License 2.0
+Keywords: deep learning artificial intelligence machine learning neural network
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX :: Linux
+Requires-Dist: nnabla (!=1.18.0,>=1.17)
+Requires-Dist: numpy (>=1.17)
+Requires-Dist: gym
+Requires-Dist: opencv-python
+Requires-Dist: dataclasses ; python_version == "3.6"
+
+UNKNOWN
+
+
