@@ -1,0 +1,43 @@
+# pyCopsJSON Library 
+
+
+### วิธีติดตั้ง
+
+เราจะติดตั้ง Library ผ่าน pip ของ python ได้เลย
+* SUPPORT PYTHON V3
+
+```sh
+python3 -m pip install pyCopeJSON
+```
+
+วิธีการใช้
+- เปิด Python แล้วพิพม์ตามนี้เลย
+
+```sh
+from pyCopeJSON import pyCopeJSON
+
+# สร้างไฟล์ JSON
+data = pyCopeJSON.CopeJSON("filename")
+ตัวอย่าง
+data = pyCopeJSON.CopeJSON("data")
+หรือ
+data = pyCopeJSON.CopeJSON("data/data")
+
+# สร้าาง column 
+data.setColumn("id,name,tel")
+
+# เพิ่ม column 
+data.addColumn("age")
+
+# เพิ่มข้อมูล
+data.addData("1,techin,064,20")
+
+#แก้ไขข้อมูล
+data.editData("name","tea","id","1")
+เปลี่ยนข้อมูลใน column name ให้เป็น tea จาก column id ที่มีข้อมูลเป็น  1
+
+#ลบข้อมูล
+data.removeData("id", "1")
+ลบข้อมูลทั้งหมดจาก column id ที่มีข็อมูลเป็น 1
+```
+
