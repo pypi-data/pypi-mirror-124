@@ -1,0 +1,2 @@
+prune trained_models*
+recursive-exclude trainer/data.py
