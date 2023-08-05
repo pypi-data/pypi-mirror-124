@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: asyncwinrm
+Version: 0.1
+Summary: some common components for personal use
+Home-page: UNKNOWN
+Author: narukami_yume
+Author-email: 100961220@qq.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Keywords: pip
+Platform: any
+Requires-Python: >=3.6
+Requires-Dist: httpx
+Requires-Dist: cryptography
+Requires-Dist: urllib3
+Requires-Dist: mock
+Requires-Dist: xmltodict
+Requires-Dist: requests-ntlm
+Requires-Dist: six
+Requires-Dist: requests
+
+some common components for personal use
+
+
