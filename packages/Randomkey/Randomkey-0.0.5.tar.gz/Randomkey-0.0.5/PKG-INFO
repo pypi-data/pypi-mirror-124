@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: Randomkey
+Version: 0.0.5
+Summary: 一个基于random模块，快速生成密码的模块|A module based on random module to quickly generate passwords
+Home-page: https://codechina.csdn.net/qq_53280175/randomkey
+Author: PYmili
+Author-email: mc2005wj@163.com
+Maintainer: PYmili
+Maintainer-email: mc2005wj@163.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# FolderProcessing 文件夹处理包 | Folderprocessing folder processing package
+
+
+使用方法在作者的第三方仓库中，可以自行查看
+
+
+The usage method is in the author's third-party warehouse and can be used by yourself
+
+[codechina.csdn 教程链接|Tutorial links](https://codechina.csdn.net/qq_53280175/randomkey)
+
+
+# 作者：PYmili
+
+# 联系：qq:2097632843 邮件:mc2005wj@163.com
+
+
