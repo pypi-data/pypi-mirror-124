@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: qmt
+Version: 0.0.1
+Summary: This is a dummy repo for testing. Real code coming soon.
+Home-page: https://github.com/dlaidig/qmt/
+Author: Daniel Laidig
+Author-email: laidig@control.tu-berlin.de
+License: MIT
+Project-URL: Documentation, https://qmt.readthedocs.io/
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: PyYAML
+Requires-Dist: transplant (>=0.8.11)
+Requires-Dist: aiohttp
+Requires-Dist: ipython
+Requires-Dist: notebook
+Requires-Dist: aiofiles
+Requires-Dist: orjson
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+Requires-Dist: reuse ; extra == 'dev'
+Requires-Dist: Cython ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: recommonmark ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: sphinxcontrib-matlabdomain ; extra == 'dev'
+
+.. SPDX-FileCopyrightText: 2021 Daniel Laidig <laidig@control.tu-berlin.de>
+..
+.. SPDX-License-Identifier: MIT
+
+qmt dummy repo
+==============
+
+|tests| |build| |docs| |version| |python| |format| |license| |downloads|
+
+This is a dummy repo for testing. Real code coming soon.
+
+
+.. |tests| image:: https://img.shields.io/github/workflow/status/dlaidig/qmt/Tests?label=tests
+    :target: https://github.com/dlaidig/qmt/actions?query=workflow%3ATests
+.. |build| image:: https://img.shields.io/github/workflow/status/dlaidig/qmt/Build
+    :target: https://github.com/dlaidig/qmt/actions?query=workflow%3ABuild
+.. |docs| image:: https://img.shields.io/readthedocs/qmt
+    :target: https://qmt.readthedocs.io/
+.. |version| image:: https://img.shields.io/pypi/v/qmt
+    :target: https://pypi.org/project/qmt/
+.. |python| image:: https://img.shields.io/pypi/pyversions/qmt
+    :target: https://pypi.org/project/qmt/
+.. |format| image:: https://img.shields.io/pypi/format/qmt
+    :target: https://pypi.org/project/qmt/
+.. |license| image:: https://img.shields.io/pypi/l/qmt
+    :target: https://github.com/dlaidig/qmt/blob/main/LICENSES/MIT.txt
+.. |downloads| image:: https://img.shields.io/pypi/dm/qmt
+    :target: https://pypi.org/project/qmt/
+
+
