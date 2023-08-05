@@ -1,0 +1,8 @@
+upygrade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upygrade/gurobi.py,sha256=_nj1eei7sMCMRcpBNCG7dA10gCB59VMoj77tA0RE62A,2361
+upygrade/printer.py,sha256=h37InwKfx3_aeVrzyRf43WV9JLtp94Dpgwa4J7Gcx1g,127
+upygrade-0.0.4.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+upygrade-0.0.4.dist-info/METADATA,sha256=zZd2llYiu-bqzrZWi3wD-O5ZI7YvB9IyFDpVv6Cpy-U,576
+upygrade-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+upygrade-0.0.4.dist-info/top_level.txt,sha256=3kUKk5tA77TX8kw5TuKKntqcCwH7TbmarC9hDz7x760,9
+upygrade-0.0.4.dist-info/RECORD,,
