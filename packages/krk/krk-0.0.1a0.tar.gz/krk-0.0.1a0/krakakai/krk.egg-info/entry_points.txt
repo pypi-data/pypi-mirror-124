@@ -1,0 +1,3 @@
+[console_scripts]
+krk = krk.cli:main
+

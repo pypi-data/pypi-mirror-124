@@ -1,0 +1,13 @@
+# Changes here will be overwritten by Copier
+_commit: v0.0.6
+_src_path: git@github.com:krk/scaffolding.git
+copyright_date: '2021'
+copyright_holder: Stan Verschuuren
+copyright_holder_email: N/A
+copyright_license: GNU Lesser General Public License v2.1
+global_namespace: krk
+owner_email: N/A
+owner_fullname: Stan Verschuuren
+owner_username: s-t-a-n
+project_description: A command-line utiltiy for all krk projects.
+project_name: krk
