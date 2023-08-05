@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: django-oidc-provider2-acino
+Version: 0.8.5
+Summary: OpenID Connect Provider implementation for Django.
+Home-page: https://github.com/acino/django-oidc-provider
+Author: developer@acino.se
+Author-email: developer@acino.se
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+License-File: LICENSE
+
+https://github.com/acino/django-oidc-provider
+
