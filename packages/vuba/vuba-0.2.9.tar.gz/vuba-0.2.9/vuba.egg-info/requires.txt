@@ -1,0 +1,6 @@
+dataclasses
+more_itertools
+natsort
+numpy
+opencv-python
+tqdm
