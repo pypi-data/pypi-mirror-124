@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/projen_test/__init__.py
+src/projen_test/py.typed
+src/projen_test/_jsii/__init__.py
+src/projen_test/_jsii/compliantDynamodb@0.0.0.jsii.tgz
+src/projentest.egg-info/PKG-INFO
+src/projentest.egg-info/SOURCES.txt
+src/projentest.egg-info/dependency_links.txt
+src/projentest.egg-info/requires.txt
+src/projentest.egg-info/top_level.txt
