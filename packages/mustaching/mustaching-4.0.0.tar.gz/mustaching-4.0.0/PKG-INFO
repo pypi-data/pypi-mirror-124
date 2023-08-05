@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mustaching
+Version: 4.0.0
+Summary: A Python 3.9+ library inspired by Mr. Money Mustache to summarize and plot personal finance data given in a CSV file of transactions.
+License: MIT
+Author: Alex Raichev
+Author-email: alex@raichev.net
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1,<2)
+Requires-Dist: pandera (<1)
+Requires-Dist: plotly (<6)
