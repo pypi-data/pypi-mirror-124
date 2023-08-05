@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./scripts/libspwn
+libspwn.egg-info/PKG-INFO
+libspwn.egg-info/SOURCES.txt
+libspwn.egg-info/dependency_links.txt
+libspwn.egg-info/requires.txt
+libspwn.egg-info/top_level.txt
+src/libspwn/__init__.py
+src/libspwn/__main__.py

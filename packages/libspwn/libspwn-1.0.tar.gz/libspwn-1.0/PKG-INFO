@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: libspwn
+Version: 1.0
+Summary: CLI for creating a SPWN library
+Home-page: https://github.com/feverdreme/libspwn
+Author: Jeffrey Huang
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+License-File: LICENSE
+
+UNKNOWN
+
