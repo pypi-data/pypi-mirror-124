@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: kampvie_example
+Version: 0.1
+Summary: This is an example of how to publish your first package to the internet community
+Author-email: Le Tanh Sang <sang.tanhle@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
