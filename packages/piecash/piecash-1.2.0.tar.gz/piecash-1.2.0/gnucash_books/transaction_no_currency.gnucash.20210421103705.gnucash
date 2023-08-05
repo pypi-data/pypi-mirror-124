@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gnc-v2
+     xmlns:gnc="http://www.gnucash.org/XML/gnc"
+     xmlns:act="http://www.gnucash.org/XML/act"
+     xmlns:book="http://www.gnucash.org/XML/book"
+     xmlns:cd="http://www.gnucash.org/XML/cd"
+     xmlns:cmdty="http://www.gnucash.org/XML/cmdty"
+     xmlns:price="http://www.gnucash.org/XML/price"
+     xmlns:slot="http://www.gnucash.org/XML/slot"
+     xmlns:split="http://www.gnucash.org/XML/split"
+     xmlns:sx="http://www.gnucash.org/XML/sx"
+     xmlns:trn="http://www.gnucash.org/XML/trn"
+     xmlns:ts="http://www.gnucash.org/XML/ts"
+     xmlns:fs="http://www.gnucash.org/XML/fs"
+     xmlns:bgt="http://www.gnucash.org/XML/bgt"
+     xmlns:recurrence="http://www.gnucash.org/XML/recurrence"
+     xmlns:lot="http://www.gnucash.org/XML/lot"
+     xmlns:addr="http://www.gnucash.org/XML/addr"
+     xmlns:billterm="http://www.gnucash.org/XML/billterm"
+     xmlns:bt-days="http://www.gnucash.org/XML/bt-days"
+     xmlns:bt-prox="http://www.gnucash.org/XML/bt-prox"
+     xmlns:cust="http://www.gnucash.org/XML/cust"
+     xmlns:employee="http://www.gnucash.org/XML/employee"
+     xmlns:entry="http://www.gnucash.org/XML/entry"
+     xmlns:invoice="http://www.gnucash.org/XML/invoice"
+     xmlns:job="http://www.gnucash.org/XML/job"
+     xmlns:order="http://www.gnucash.org/XML/order"
+     xmlns:owner="http://www.gnucash.org/XML/owner"
+     xmlns:taxtable="http://www.gnucash.org/XML/taxtable"
+     xmlns:tte="http://www.gnucash.org/XML/tte"
+     xmlns:vendor="http://www.gnucash.org/XML/vendor">
+<gnc:count-data cd:type="book">1</gnc:count-data>
+<gnc:book version="2.0.0">
+<book:id type="guid">e9eda43324e9490d9c904ddceed360de</book:id>
+<book:slots>
+  <slot>
+    <slot:key>features</slot:key>
+    <slot:value type="frame">
+      <slot>
+        <slot:key>ISO-8601 formatted date strings in SQLite3 databases.</slot:key>
+        <slot:value type="string">Use ISO formatted date-time strings in SQLite3 databases (requires at least GnuCash 2.6.20)</slot:value>
+      </slot>
+      <slot>
+        <slot:key>Register sort and filter settings stored in .gcm file</slot:key>
+        <slot:value type="string">Store the register sort and filter settings in .gcm metadata file (requires at least GnuCash 3.3)</slot:value>
+      </slot>
+    </slot:value>
+  </slot>
+  <slot>
+    <slot:key>remove-color-not-set-slots</slot:key>
+    <slot:value type="string">true</slot:value>
+  </slot>
+</book:slots>
+<gnc:count-data cd:type="commodity">2</gnc:count-data>
+<gnc:count-data cd:type="account">3</gnc:count-data>
+<gnc:count-data cd:type="transaction">1</gnc:count-data>
+<gnc:commodity version="2.0.0">
+  <cmdty:space>some_type</cmdty:space>
+  <cmdty:id>some_commodity</cmdty:id>
+  <cmdty:name>some commodity</cmdty:name>
+  <cmdty:fraction>1</cmdty:fraction>
+</gnc:commodity>
+<gnc:commodity version="2.0.0">
+  <cmdty:space>template</cmdty:space>
+  <cmdty:id>template</cmdty:id>
+  <cmdty:name>template</cmdty:name>
+  <cmdty:xcode>template</cmdty:xcode>
+  <cmdty:fraction>1</cmdty:fraction>
+</gnc:commodity>
+<gnc:account version="2.0.0">
+  <act:name>Root Account</act:name>
+  <act:id type="guid">5483f3330bc945e59c476b923a6843c2</act:id>
+  <act:type>ROOT</act:type>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>depart_A</act:name>
+  <act:id type="guid">acd5ba8789d24d9fa056ea4c1bfa906e</act:id>
+  <act:type>TRADING</act:type>
+  <act:commodity>
+    <cmdty:space>some_type</cmdty:space>
+    <cmdty:id>some_commodity</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>1</act:commodity-scu>
+  <act:parent type="guid">5483f3330bc945e59c476b923a6843c2</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>depart_B</act:name>
+  <act:id type="guid">ac229baa665f47e483efa052122ecd90</act:id>
+  <act:type>TRADING</act:type>
+  <act:commodity>
+    <cmdty:space>some_type</cmdty:space>
+    <cmdty:id>some_commodity</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>1</act:commodity-scu>
+  <act:parent type="guid">5483f3330bc945e59c476b923a6843c2</act:parent>
+</gnc:account>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">e10a7257390b44e9ac3c388d5c11312e</trn:id>
+  <trn:currency>
+    <cmdty:space>some_type</cmdty:space>
+    <cmdty:id>some_commodity</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2021-04-19 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2021-04-19 11:17:01 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description></trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2021-04-19</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">0b99333623e841ed85686bf769d54e8c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1000/1</split:value>
+      <split:quantity>1000/1</split:quantity>
+      <split:account type="guid">acd5ba8789d24d9fa056ea4c1bfa906e</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">aa3c7a9fc1f04df7ae4977cc2762a3f4</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1000/1</split:value>
+      <split:quantity>-1000/1</split:quantity>
+      <split:account type="guid">ac229baa665f47e483efa052122ecd90</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+</gnc:book>
+</gnc-v2>

@@ -1,0 +1,35 @@
+mod	trans_guid	split_guid	time_now	date_entered	date_posted	acc_guid	acc_name	num	description	notes	memo	action	reconciled	amount	value	date_reconciled
+-----------------
+===== START
+===== END
+===== START
+===== END
+===== START
+C	9e3e0c52e4ce4bdd833ab28a4b0fd7bd	a787995949254003befaefe19a354f5a	2021-04-21 08:31:59	2021-04-21 08:31:59	2021-04-21 10:59:00	ac229baa665f47e483efa052122ecd90	depart_B						n	0/1	0/100	1970-01-01 00:00:00
+C	9e3e0c52e4ce4bdd833ab28a4b0fd7bd	f66d55d85bfd45199d95ed04f57b434c	2021-04-21 08:31:59	2021-04-21 08:31:59	2021-04-21 10:59:00	acd5ba8789d24d9fa056ea4c1bfa906e	depart_A						n	0/1	0/100	1970-01-01 00:00:00
+===== END
+===== START
+===== END
+===== START
+===== END
+===== START
+D	433cb599c39b4ea9bfc8ff7e8cb25c97	c14682b50e2d401f8c2531a53158cf47	2021-04-21 08:35:38	2021-04-21 08:35:38	2021-04-21 10:59:00								n	0/1	0/100	1970-01-01 00:00:00
+===== END
+===== START
+D	4ad6140f955e49fa80efc813b16385de	e311080546b04cbdbb6040347f3cb33b	2021-04-21 08:35:41	2021-04-21 08:35:41	2021-04-21 10:59:00								n	0/1	0/100	1970-01-01 00:00:00
+===== END
+===== START
+D	7eaa4a4032c947428fc0b662ef0180f2	2cb21e5911dc45089c03f6650b3ac526	2021-04-21 08:35:42	2021-04-21 08:35:42	2021-04-21 10:59:00								n	0/1	0/100	1970-01-01 00:00:00
+===== END
+===== START
+===== END
+===== START
+D	038d0484afcd4ca38f00ba4ad6aca0b4	a1d73cf911d946ad8631e84f066d6d42	2021-04-21 08:35:56	2021-04-21 08:35:56	2021-04-21 10:59:00								n	0/1	0/100	1970-01-01 00:00:00
+===== END
+===== START
+===== END
+===== START
+D	6ab577dcff5c42cfb6137b405af958ac	fa6c24dcc4e04f87830ba93b9a14a482	2021-04-21 08:36:05	2021-04-21 08:36:05	2021-04-21 10:59:00								n	0/1	0/100	1970-01-01 00:00:00
+===== END
+===== START
+===== END

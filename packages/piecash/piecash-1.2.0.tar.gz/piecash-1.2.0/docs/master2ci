@@ -1,0 +1,380 @@
+diff --git a/.github/workflows/ci.yml b/.github/workflows/ci.yml
+new file mode 100644
+index 0000000..4c2534f
+--- /dev/null
++++ b/.github/workflows/ci.yml
+@@ -0,0 +1,60 @@
++# .github/workflows/ci.yml
++
++name: CI
++
++on: [push, pull_request]
++
++jobs:
++  build:
++
++    runs-on: ubuntu-latest
++
++    services:
++      postgres:
++        image: postgres
++        env:
++          POSTGRES_PASSWORD: postgres_password_CI
++        ports:
++          - 5432:5432
++        options: >-
++          --health-cmd pg_isready
++          --health-interval 10s
++          --health-timeout 5s
++          --health-retries 5
++      mysql:
++        image: mysql:latest
++        ports:
++          - 3306:3306
++        env:
++          MYSQL_ALLOW_EMPTY_PASSWORD: yes
++#          MYSQL_USER: gha_user
++          MYSQL_ROOT_PASSWORD: root
++        options: --health-cmd="mysqladmin ping" --health-interval=5s --health-timeout=2s --health-retries=3
++
++    strategy:
++      matrix:
++        python-version: [3.6] # test onmy 3.6 when debugging, 3.7, 3.8, 3.9]
++
++    steps:
++    - uses: actions/checkout@v2
++    - name: Set up Python ${{ matrix.python-version }}
++      uses: actions/setup-python@v2
++      with:
++        python-version: ${{ matrix.python-version }}
++    - name: Set fr locale
++      run: |
++        sudo locale-gen fr_FR.UTF-8
++        sudo update-locale LANG=fr_FR.UTF-8
++    - name: Install dependencies
++      run: |
++        python -m pip install --upgrade pip wheel
++        pip install -e .[test]
++#    - name: Lint with flake8
++#      run: |
++#        flake8
++    - name: Test with pytest
++      run: |
++        python setup.py test
++    - name: Coverage
++      run: |
++        coverage run --source=piecash setup.py test
+\ No newline at end of file
+diff --git a/DEVELOPER.rst b/DEVELOPER.rst
+index 30da299..8221e2b 100644
+--- a/DEVELOPER.rst
++++ b/DEVELOPER.rst
+@@ -38,7 +38,7 @@ Some note for developers:
+     1. update metadata.py
+     2. update changelog
+     3. `tag MM.mm.pp`
+-    4. python setup.py sdist upload
++    4. twine upload dist/* --repository piecash
+ 
+ - to release a new version with gitflow:
+     0. git flow release start 0.18.0
+diff --git a/README.rst b/README.rst
+index 3a8f1aa..aa8b671 100644
+--- a/README.rst
++++ b/README.rst
+@@ -5,8 +5,8 @@ piecash
+    :alt: Join the chat at https://gitter.im/sdementen/piecash
+    :target: https://gitter.im/sdementen/piecash?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+ 
+-.. image:: https://travis-ci.org/sdementen/piecash.svg?branch=master
+-    :target: https://travis-ci.org/sdementen/piecash
++.. image:: https://github.com/sdementen/piecash/workflows/CI/badge.svg
++    :target: https://github.com/sdementen/piecash/actions
+ 
+ .. image:: https://ci.appveyor.com/api/projects/status/af7mb3pwv31i6ltv/branch/master?svg=true
+     :target: https://ci.appveyor.com/project/sdementen/piecash
+diff --git a/examples/sandbox.py b/examples/sandbox.py
+index 3ec8e48..dbc2c51 100644
+--- a/examples/sandbox.py
++++ b/examples/sandbox.py
+@@ -334,11 +334,8 @@ EUR = b.commodities(namespace="CURRENCY")
+ racc = b.root_account
+ a = b.accounts(name="asset")
+ s = b.accounts(name="broker")
+-b.book.use_trading_accounts = True
+-tr = Transaction(
+-    currency=EUR,
+-    description="buy stock",
+-    notes="on St-Eugène day",
++b.use_trading_accounts = True
++tr = Transaction(currency=EUR, description="buy stock", notes="on St-Eugène day",
+     post_date=datetime(2014, 1, 2),
+     enter_date=datetime(2014, 1, 3),
+     splits=[
+diff --git a/piecash/_declbase.py b/piecash/_declbase.py
+index 98de4fa..e27d3ce 100644
+--- a/piecash/_declbase.py
++++ b/piecash/_declbase.py
+@@ -31,20 +31,3 @@ class DeclarativeBaseGuid(DictWrapper, DeclarativeBase):
+         )
+ 
+         return rel
+-
+-    # set the relation to the slots table (KVP)
+-    @classmethod
+-    def __declare_last__(cls):
+-        # do not do it on the DeclarativeBaseGuid as it is an abstract class
+-        if cls == DeclarativeBaseGuid:
+-            return
+-
+-        # assign id of slot when associating to object
+-        @event.listens_for(cls.slots, "remove")
+-        def my_append_listener_slots(target, value, initiator):
+-            s = object_session(value)
+-            if s:
+-                if value in s.new:
+-                    s.expunge(value)
+-                else:
+-                    s.delete(value)
+diff --git a/piecash/business/person.py b/piecash/business/person.py
+index f6ef87e..612889b 100644
+--- a/piecash/business/person.py
++++ b/piecash/business/person.py
+@@ -8,7 +8,11 @@ from .._common import hybrid_property_gncnumeric, CallableList
+ from .._declbase import DeclarativeBaseGuid
+ from ..sa_extra import ChoiceType
+ 
+-TaxIncludedType = [(1, "YES"), (2, "NO"), (3, "USEGLOBAL")]
++TaxIncludedType = [
++    (1, "YES"),
++    (2, "NO"),
++    (3, "USEGLOBAL")
++]
+ 
+ 
+ class Address(object):
+@@ -144,9 +148,8 @@ class Person:
+         from .invoice import Job
+ 
+         owner_type = PersonType.get(cls, None)
+-        if owner_type:
+-            cls.jobs = relation(
+-                "Job",
++        if owner_type and not hasattr(cls, "jobs"):
++            cls.jobs = relation('Job',
+                 primaryjoin=and_(
+                     cls.guid == foreign(Job.owner_guid),
+                     owner_type == Job.owner_type,
+diff --git a/piecash/ledger.py b/piecash/ledger.py
+index 63df9ca..d468560 100644
+--- a/piecash/ledger.py
++++ b/piecash/ledger.py
+@@ -27,7 +27,7 @@ def ledger(obj, **kwargs):
+ 
+ 
+ CURRENCY_RE = re.compile("^[A-Z]{3}$")
+-NUMBER_RE = re.compile("[0-9\., ]")
++NUMBER_RE = re.compile("[0-9., ]")
+ 
+ 
+ def format_commodity(mnemonic, locale):
+diff --git a/piecash/yahoo_client.py b/piecash/yahoo_client.py
+index 9062c76..7d6dd88 100644
+--- a/piecash/yahoo_client.py
++++ b/piecash/yahoo_client.py
+@@ -94,7 +94,7 @@ def download_quote(symbol, date_from, date_to, tz=None):
+         else:
+             break
+     else:
+-        raise e
++        raise e  # noqa: F821
+ 
+     csv_data = list(csv.reader(resp.text.strip().split("\n")))
+ 
+diff --git a/setup.py b/setup.py
+index 96040f6..326c84d 100644
+--- a/setup.py
++++ b/setup.py
+@@ -213,12 +213,12 @@ install_requires = [
+ ]
+ extras_require = {
+     "postgres": ["psycopg2"],
+-    "mysql": ["PyMySQL"],
+-    "ledger": ["babel"],
++    "mysql": ["PyMySQL[rsa]"],
++    "ledger": ["money", "babel"],
+     "pandas": ["pandas"],
+     "qif": ["qifparse"],
+     "yahoo": ["requests"],
+-    "test": ["pytest", "pytest-cov", "tox"],
++    "test": ["pytest", "pytest-cov", "tox", "flake8"],
+     "doc": [
+         "sphinx",
+         "sphinxcontrib-programoutput",
+diff --git a/tests/test_helper.py b/tests/test_helper.py
+index 8aa9609..3228314 100644
+--- a/tests/test_helper.py
++++ b/tests/test_helper.py
+@@ -46,6 +46,7 @@ def run_file(fname):
+ db_sqlite = test_folder / "foozbar.sqlite"
+ 
+ TRAVIS = os.environ.get("TRAVIS", False)
++GITHUB_ACTIONS = os.environ.get("CI", False)
+ APPVEYOR = os.environ.get("APPVEYOR", False)
+ LOCALSERVER = os.environ.get("PIECASH_DBSERVER_TEST", False)
+ LOCALSERVER_USERNAME = os.environ.get("PIECASH_DBSERVER_TEST_USERNAME", "")
+@@ -84,6 +85,32 @@ if TRAVIS:
+             ),
+         }
+     )
++elif GITHUB_ACTIONS:
++    pg_password = "postgres_password_CI"
++    databases_to_check.append(
++        "postgresql://postgres:{pwd}@localhost:5432/foo".format(pwd=pg_password)
++    )
++    databases_to_check.append("mysql+pymysql://root:root@localhost/foo?charset=utf8")
++    db_config.update(
++        {
++            "postgres": dict(
++                db_type="postgres",
++                db_name="foo",
++                db_user="postgres",
++                db_password=pg_password,
++                db_host="localhost",
++                db_port=5432,
++            ),
++            "mysql": dict(
++                db_type="mysql",
++                db_name="foo",
++                db_user="root",
++                db_password="root",
++                db_host="localhost",
++                db_port=3306,
++            ),
++        }
++    )
+ elif LOCALSERVER:
+     pg_password = os.environ.get("PG_PASSWORD", "")
+     pg_port = os.environ.get("PIECASH_DBSERVER_TEST_PORT", "5432")
+@@ -134,12 +161,12 @@ else:
+     pass
+ 
+ 
+-@pytest.yield_fixture(params=[Customer, Vendor, Employee])
++@pytest.fixture(params=[Customer, Vendor, Employee])
+ def Person(request):
+     yield request.param
+ 
+ 
+-@pytest.yield_fixture(params=db_config.items())
++@pytest.fixture(params=db_config.items())
+ def book_db_config(request):
+     from piecash.core.session import build_uri
+ 
+@@ -155,7 +182,7 @@ def book_db_config(request):
+         drop_database(name)
+ 
+ 
+-@pytest.yield_fixture(params=databases_to_check[1:])
++@pytest.fixture(params=databases_to_check[1:])
+ def book_uri(request):
+     name = request.param
+ 
+@@ -167,7 +194,7 @@ def book_uri(request):
+         drop_database(name)
+ 
+ 
+-@pytest.yield_fixture(params=databases_to_check)
++@pytest.fixture(params=databases_to_check)
+ def new_book(request):
+     name = request.param
+ 
+@@ -181,7 +208,7 @@ def new_book(request):
+         drop_database(name)
+ 
+ 
+-@pytest.yield_fixture(params=databases_to_check)
++@pytest.fixture(params=databases_to_check)
+ def new_book_USD(request):
+     name = request.param
+ 
+@@ -195,7 +222,7 @@ def new_book_USD(request):
+         drop_database(name)
+ 
+ 
+-@pytest.yield_fixture(params=databases_to_check)
++@pytest.fixture(params=databases_to_check)
+ def book_basic(request):
+     name = request.param
+ 
+@@ -220,7 +247,7 @@ def book_basic(request):
+         drop_database(name)
+ 
+ 
+-@pytest.yield_fixture(params=databases_to_check)
++@pytest.fixture(params=databases_to_check)
+ def book_transactions(request):
+     name = request.param
+ 
+@@ -324,7 +351,7 @@ def book_transactions(request):
+         drop_database(name)
+ 
+ 
+-@pytest.yield_fixture()
++@pytest.fixture()
+ def book_invoices(request):
+     """
+     Returns the book that contains invoices.
+@@ -337,7 +364,7 @@ def book_invoices(request):
+         yield book
+ 
+ 
+-@pytest.yield_fixture(params=["", ".272"])
++@pytest.fixture(params=["", ".272"])
+ def book_sample(request):
+     """
+     Returns a simple sample book for 2.6.N
+@@ -361,7 +388,7 @@ needweb = pytest.mark.skipif(
+ 
+ 
+ def generate_book_fixture(filename):
+-    @pytest.yield_fixture(scope="module")
++    @pytest.fixture(scope="module")
+     def my_fixture():
+         file_template = book_folder / filename
+ 
+diff --git a/tests/test_model_common.py b/tests/test_model_common.py
+index 7119da8..697e2c5 100644
+--- a/tests/test_model_common.py
++++ b/tests/test_model_common.py
+@@ -85,7 +85,7 @@ class TestModelCommon(object):
+         assert str(list(s.bind.execute("select day from c_table"))[0][0]) == "20100412"
+ 
+     def test_datetime(self):
+-        class C(DeclarativeBaseGuid):
++        class D(DeclarativeBaseGuid):
+             __tablename__ = "d_table"
+             time = Column(_DateTime)
+ 
+@@ -93,7 +93,7 @@ class TestModelCommon(object):
+                 self.time = time
+ 
+         s = session()
+-        a = C(time=datetime.datetime(2010, 4, 12, 3, 4, 5, tzinfo=pytz.utc))
++        a = D(time=datetime.datetime(2010, 4, 12, 3, 4, 5, tzinfo=pytz.utc))
+         s.add(a)
+         s.flush()
+         assert a.time
+diff --git a/tests/test_session.py b/tests/test_session.py
+index 1d8cc25..2434edb 100644
+--- a/tests/test_session.py
++++ b/tests/test_session.py
+@@ -117,7 +117,7 @@ else:
+     }
+ 
+ 
+-@pytest.yield_fixture(params=locales)
++@pytest.fixture(params=locales)
+ def locale_set(request):
+     yield request.param
+ 
