@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+sysvar/__init__.py
+sysvar.egg-info/PKG-INFO
+sysvar.egg-info/SOURCES.txt
+sysvar.egg-info/dependency_links.txt
+sysvar.egg-info/top_level.txt
