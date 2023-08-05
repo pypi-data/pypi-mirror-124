@@ -1,0 +1,14 @@
+gammy/__init__.py,sha256=1DkxhSXh2g7jSP5oi7RkYW2KtXrGFlCpcuafCJACM8w,269
+gammy/arraymapper.py,sha256=bnEL7bq6UkTVXGIeEHSuf6613N2gtlips3vTbijd9_c,3691
+gammy/conftest.py,sha256=9E2FhtINMWl-R47tfDUsNbODyjUMf10lCMWXxdfiPyk,561
+gammy/formulae.py,sha256=tBWHBkXsR0u7uVIwvsou49l28Dnyv1D4iWa_iYpG4Ts,13577
+gammy/plot.py,sha256=lYiFyw9T-LBBjmu9F8KEVn1JudvoQ26wp7uVnuPOA0w,6983
+gammy/utils.py,sha256=TAxMAubzj8AT3iBs1wSfiVaJ3C1b4RqsUD0ddBahm-w,10160
+gammy/models/__init__.py,sha256=IjnHQnfWwhnDcHWGhq2ZMlwvQ1u80BQCUXBmIF26Ca8,125
+gammy/models/bayespy.py,sha256=aJ4v2qpiMhwR9Gk_NtEu8_bG4tAwoXf_-LxvvYUTL6c,10975
+gammy/models/numpy.py,sha256=-JrCGkMQAvjknxqG8HPuN0HaIu9NBhuGeKA2xtNcs8M,10626
+gammy-0.4.1.dist-info/LICENSE.txt,sha256=TTrIilcE12Hb-JubzFzDwfK_ujn5xyUd0ajAjuQ1D_o,1083
+gammy-0.4.1.dist-info/METADATA,sha256=974PmSN2qAV7KstX11M-JhA6lxD5dTjoT2He1zVktjU,4608
+gammy-0.4.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+gammy-0.4.1.dist-info/top_level.txt,sha256=tWb0XVVXxp3-Ch2AJOGMVPrIedzBQYRPko-lsSKyJZk,6
+gammy-0.4.1.dist-info/RECORD,,
