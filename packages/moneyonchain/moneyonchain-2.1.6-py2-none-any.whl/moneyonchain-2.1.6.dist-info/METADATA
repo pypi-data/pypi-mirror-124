@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: moneyonchain
+Version: 2.1.6
+Summary: Python interfaces to Money On Chain projects
+Home-page: https://github.com/moneyonchain/py_Moneyonchain/
+Author: Martin Mulone
+Author-email: martin.mulone@moneyonchain.com
+License: AGPL3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Requires-Dist: web3 (==5.24.0)
+Requires-Dist: eth-brownie (==1.17.0)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: tabulate
+
+Python API to Money On Chain projects. We want to provide easy to use access to our contracts.
+
+
