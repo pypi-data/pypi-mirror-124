@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+kalinichev_module/__init__.py
+kalinichev_module/module_fast_hist.py
+kalinichev_module.egg-info/PKG-INFO
+kalinichev_module.egg-info/SOURCES.txt
+kalinichev_module.egg-info/dependency_links.txt
+kalinichev_module.egg-info/requires.txt
+kalinichev_module.egg-info/top_level.txt
