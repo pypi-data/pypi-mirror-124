@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mkdocs-github-contributors-plugin
+Version: 0.1.5
+Summary: MkDocs plugin to show GitHub contributors
+Home-page: https://github.com/pryme-svg/mkdocs-github-contributors-plugin
+Author: pryme-svg
+License: GPL3
+Keywords: mkdocs
+Platform: UNKNOWN
+License-File: LICENSE
+
+MkDocs plugin to show GitHub contributors
+
