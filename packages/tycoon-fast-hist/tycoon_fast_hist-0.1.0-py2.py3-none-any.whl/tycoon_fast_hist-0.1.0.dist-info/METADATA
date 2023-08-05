@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tycoon-fast-hist
+Version: 0.1.0
+Summary: fast hist realization
+Home-page: https://github.com/shuds13/pyexample
+Author: Nikita Siniachenko
+Author-email: mosson2001@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: matplotlib (==3.4.3)
+Requires-Dist: numpy (==1.17.3)
+
+UNKNOWN
+
+
