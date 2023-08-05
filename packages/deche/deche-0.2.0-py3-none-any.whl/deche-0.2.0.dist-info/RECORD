@@ -1,0 +1,12 @@
+deche/__init__.py,sha256=jyv2_EhFtYNdf8HYAfae7WxSvhRUQQsouMldd-H32ww,121
+deche/core.py,sha256=c-yA4icEpx16trqpPiHx2Dtr7DuL0xXkcnQssotQfxs,12068
+deche/enums.py,sha256=7p1akN5mYq85lsh2cXGLyejv7rGYbeGJ-Vt9h9Vkyao,98
+deche/inspection.py,sha256=mid05ZbyzeaXAxwasoVFdDMtuIccClJDGWWJhbxYRbA,704
+deche/serialization.py,sha256=pQ5bdXtLHxVnC-2FMp7iU-0PsJqMmaOZZPq852hg10w,38
+deche/test_utils/__init__.py,sha256=x_ucXTHEziR39BDnNT0uIaYfrma0gRsYTW46PR0pTHM,938
+deche/types.py,sha256=ILRAFS3MYcZM_ElwSM3-O-AK9tR9OGbhL8gZxbDTx7M,572
+deche/util.py,sha256=_kIhjmcVIqbejySrQnjE0TTgNB16xMsr3vVTDScgRts,1751
+deche/validators.py,sha256=4qLrSLTx34apDPo4QEr8NCH_XyfGanOzgZGVfF_NdlU,619
+deche-0.2.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+deche-0.2.0.dist-info/METADATA,sha256=MgWJGik-ln8I7wTd-m-CtlzHpIfhNo6r0ibURZ0A40o,596
+deche-0.2.0.dist-info/RECORD,,
