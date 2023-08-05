@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/EasyBlackjack.egg-info/PKG-INFO
+src/EasyBlackjack.egg-info/SOURCES.txt
+src/EasyBlackjack.egg-info/dependency_links.txt
+src/EasyBlackjack.egg-info/top_level.txt
+src/easyblackjack/__init__.py
+src/easyblackjack/easyblackjack.py
