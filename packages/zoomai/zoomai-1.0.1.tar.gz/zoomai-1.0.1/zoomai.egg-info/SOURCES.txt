@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+hello_pypi/cli.py
+zoomai.egg-info/PKG-INFO
+zoomai.egg-info/SOURCES.txt
+zoomai.egg-info/dependency_links.txt
+zoomai.egg-info/entry_points.txt
+zoomai.egg-info/requires.txt
+zoomai.egg-info/top_level.txt
