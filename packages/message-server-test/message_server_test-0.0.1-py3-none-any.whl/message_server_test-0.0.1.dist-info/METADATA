@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: message-server-test
+Version: 0.0.1
+Summary: message_server
+Home-page: UNKNOWN
+Author: gb_and_i
+Author-email: test@test.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+
+UNKNOWN
+
