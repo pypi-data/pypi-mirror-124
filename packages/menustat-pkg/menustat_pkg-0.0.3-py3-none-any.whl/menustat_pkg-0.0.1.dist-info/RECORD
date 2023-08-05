@@ -1,0 +1,11 @@
+menustat/__init__.py,sha256=cBZi0XTi_RJZbUJWt1SSzYedfYqoKQqfYRQdawTZVVc,38
+menustat/accessories.py,sha256=yhl8643dnfGpAKZUgFN3Py5R0AoCwE75eflTcrVXQ8A,1385
+menustat/core.py,sha256=zg7cPjiDwYLTZ4E4i3rpHZwBIWDD7RIR65GRmLd7X-g,103645
+menustat/exceptions.py,sha256=MfcDsZEZ5yc5uSJCLCTR8j_h2_AZIfTNZl_jEIZUVpM,418
+menustat/orm.py,sha256=ECulyrEBX4NxwvzxCHiQT-RO2OSOWg5NhKk2mpABbiw,6444
+menustat/utils.py,sha256=GgzVkaqH_BXjL_2-vxKneZoj56RmdahNsZocUHh46Yk,11236
+menustat_pkg-0.0.1.dist-info/LICENSE,sha256=u8BJdNyxFotwBUT611dnk3UnhS2X5MOj-J2PxHLmxBw,1589
+menustat_pkg-0.0.1.dist-info/METADATA,sha256=i9vljdaqmcV3I8Fv6gKtAFlxWstJl8OUT6SXxWITVSQ,1067
+menustat_pkg-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+menustat_pkg-0.0.1.dist-info/top_level.txt,sha256=NbaRLl_rEnGbUZe0aN8N_jLsEBV0tLLOgaHvRJXT3A8,9
+menustat_pkg-0.0.1.dist-info/RECORD,,
