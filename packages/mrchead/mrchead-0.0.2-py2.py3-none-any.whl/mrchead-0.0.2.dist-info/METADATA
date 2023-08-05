@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: mrchead
+Version: 0.0.2
+Summary: CLI tool for viewing mrc file headers
+Home-page: https://github.com/alisterburt/mrchead
+Author: Alister Burt
+Author-email: alisterburt@gmail.com
+License: BSD license
+Project-URL: Source Code, https://github.com/alisterburt/mrchead
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer
+Requires-Dist: rich
+Requires-Dist: mrcfile
+Provides-Extra: dev
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: jedi (<0.18.0) ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-docstrings ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pydocstyle ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: jupyter-book ; extra == 'dev'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+
+# mrchead
+
+[![License](https://img.shields.io/pypi/l/mrchead.svg?color=green)](https://github.com/alisterburt/mrchead/raw/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/mrchead.svg?color=green)](https://pypi.org/project/mrchead)
+[![Python Version](https://img.shields.io/pypi/pyversions/mrchead.svg?color=green)](https://python.org)
+[![CI](https://github.com/alisterburt/mrchead/workflows/ci/badge.svg)](https://github.com/alisterburt/mrchead/actions)
+[![codecov](https://codecov.io/gh/alisterburt/mrchead/branch/master/graph/badge.svg)](https://codecov.io/gh/alisterburt/mrchead)
+
+CLI tool for viewing mrc file headers
+
+
