@@ -1,0 +1,4 @@
+cython>=0.25
+docopt
+pypytools>=0.3.3
+six
