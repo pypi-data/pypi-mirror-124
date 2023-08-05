@@ -1,0 +1,3 @@
+[console_scripts]
+pyca_blinkstick = pyca_blinkstick.__main__:main
+

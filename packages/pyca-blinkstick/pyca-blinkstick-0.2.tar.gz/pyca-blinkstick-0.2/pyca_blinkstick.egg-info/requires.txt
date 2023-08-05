@@ -1,0 +1,6 @@
+BlinkStick>=1.2.0
+python-dateutil>=2.4.0
+configobj>=5.0.0
+pyusb>=1.2.1
+requests>=2.26.0
+sdnotify>=0.3.2
