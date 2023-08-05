@@ -1,0 +1,8 @@
+httpx_socks/__init__.py,sha256=PnuhEMYpomULGc-ZbnceDOOyKBztcp3ZeHyu545WgAk,448
+httpx_socks/_async_transport.py,sha256=up1Dt5zT44Ma2uWYKMX2ActTEI9-YHL7AjnDM1JQyQo,8815
+httpx_socks/_sync_transport.py,sha256=1Vb3KFXsekZTS2CxsVVrKqKcFnDpP8Gaf8c2-gb3pK0,5221
+httpx_socks-0.5.1.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+httpx_socks-0.5.1.dist-info/METADATA,sha256=pTZhRZ9kqjiDQldFWi0v8sqtNpzyr1gNvnU6dhvINU4,2506
+httpx_socks-0.5.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+httpx_socks-0.5.1.dist-info/top_level.txt,sha256=w-NjPGd_PneJsrpI5kELbCCdbD3YlL8mgwP3WkawJ0s,12
+httpx_socks-0.5.1.dist-info/RECORD,,
