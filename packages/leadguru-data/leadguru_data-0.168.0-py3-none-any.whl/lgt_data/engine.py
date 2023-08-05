@@ -1,0 +1,31 @@
+import os
+
+from mongoengine import connect, Document, DateTimeField, StringField, IntField, ObjectIdField
+
+connect(host=os.environ.get('MONGO_CONNECTION_STRING', 'mongodb://127.0.0.1:27017/'), db="lgt_admin", alias="lgt_admin")
+connect(host=os.environ.get('MONGO_CONNECTION_STRING', 'mongodb://127.0.0.1:27017/'), db="lgt_leads", alias="lgt_leads")
+
+class DelayedJob(Document):
+    created_at = DateTimeField(required=True)
+    scheduled_at = DateTimeField(required=True)
+    job_type = StringField(required=True)
+    data = StringField(required=True)
+    jib = StringField(required=True)
+    executed_at: DateTimeField(required=False)
+
+    meta = { "ndexes": ["-scheduled_at", "jib"] }
+
+class UserCreditStatementDocument(Document):
+    meta = {"indexes": ["user_id", "-created_at"], "db_alias": "lgt_leads"}
+
+    user_id = ObjectIdField(required=True)
+    created_at = DateTimeField(required=True)
+    balance = IntField(required=True)
+    action = StringField(required=True)
+    lead_id = StringField(required=False)
+
+class UserFeedLead(Document):
+    meta = {"indexes": ["user_id"], "db_alias": "lgt_leads"}
+    user_id = ObjectIdField(required=True)
+    lead_id = StringField(required=True)
+
