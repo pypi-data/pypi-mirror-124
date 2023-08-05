@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: kukiapipy
+Version: 0.6
+Summary: Unofficial API Library for Chatbot For Free
+Home-page: https://github.com/itelai/kukiapipy
+Author: Moezilla
+Author-email: Pranavajay594@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+
+# kukiapipy
+An Unofficial Python API Library to Chatbot for FREE...
+
+## Chatbot Setup 
+
+```py
+
+import kukiapipy
+
+from kukiapipy import kuki
+
+aibot = kuki.chatbot(key='@kukiaichat contact get key', name='pranav', owner='moezilla', msg='hi')
+
+print(aibot)
+
+```
+
+
+
+
