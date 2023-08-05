@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: gcm_common
+Version: 0.1.5
+Summary: GCM common package
+Home-page: https://github.com/batkhishign55/gcm_common
+Author: Batkhishig Dulamsurankhor
+Author-email: batkhishign55@gmail.com
+License: MIT
+Download-URL: https://github.com/batkhishign55/gcm_common/archive/refs/tags/v_0.1.5.tar.gz
+Description: UNKNOWN
+Keywords: gcm,common
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
