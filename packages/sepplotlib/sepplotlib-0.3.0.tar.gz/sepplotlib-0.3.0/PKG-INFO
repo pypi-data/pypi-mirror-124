@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: sepplotlib
+Version: 0.3.0
+Summary: Separation plots for classification problems
+License: MIT
+Keywords: separation,classification,visualization,prediction
+Author: Remco Bastiaan Jansen
+Author-email: r.b.jansen.uu@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.4.3,<4.0.0)
+Requires-Dist: pandas (>=1.3.4,<2.0.0)
+Requires-Dist: seaborn (>=0.11.2,<0.12.0)
+Description-Content-Type: text/markdown
+
+# sepplotlib
+
+Separation plots for classification problems.
+
+## Installation
+
+`pip install sepplotlib` to install.
+
+
