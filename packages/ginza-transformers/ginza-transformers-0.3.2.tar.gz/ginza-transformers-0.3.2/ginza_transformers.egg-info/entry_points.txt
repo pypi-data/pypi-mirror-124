@@ -1,0 +1,6 @@
+[spacy_architectures]
+ginza-transformers.TransformerModel.v1 = ginza_transformers:architectures.TransformerModelCustom
+
+[spacy_factories]
+transformer_custom = ginza_transformers.pipeline_component:make_transformer_custom
+
