@@ -1,0 +1,10 @@
+inspera/__init__.py,sha256=k5l9P0zwfHpSa440HSZTSNqc147gElzGhlrM0B2PiMI,40
+inspera/candidate.py,sha256=Aiug3OL_BFWZFjMcVRhtDC93UfNQPQK3fKKmJUVod30,564
+inspera/cleaner.py,sha256=pQZ3BqZkVyWrD7QoHlTfr8szcwlc4-HoiQLup875Utc,900
+inspera/question.py,sha256=rjKjsc-3ZuOtazzU4gsti7I7xjbnuPKmcnjONsMbYRM,1930
+inspera/reader.py,sha256=dbXm3BcAOivZJyuQU_vwxWcTiNwJD4bTL774SUFbKsk,530
+InsperaReader-0.1.1.dist-info/LICENSE,sha256=nZibPUV8Rbu8hT2omepz6zzKE7rbdifqBke58H_Bhs0,1074
+InsperaReader-0.1.1.dist-info/METADATA,sha256=twIxfvj6oJo-kOOvx4QI-tk1Py-w2ybZW83kbCvqrYY,2590
+InsperaReader-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+InsperaReader-0.1.1.dist-info/top_level.txt,sha256=ds77JE7QKmuEeBP4TzP_ksVn2X_6hzrA7mJk-UQ-XNw,8
+InsperaReader-0.1.1.dist-info/RECORD,,
