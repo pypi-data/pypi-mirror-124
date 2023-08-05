@@ -1,0 +1,9 @@
+README.md
+setup.py
+pystrategy/__init__.py
+pystrategy/config_libaries.py
+pystrategy/main.py
+pystrategy.egg-info/PKG-INFO
+pystrategy.egg-info/SOURCES.txt
+pystrategy.egg-info/dependency_links.txt
+pystrategy.egg-info/top_level.txt
