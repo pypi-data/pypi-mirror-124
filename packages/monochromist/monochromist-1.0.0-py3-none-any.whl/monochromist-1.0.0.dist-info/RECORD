@@ -1,0 +1,16 @@
+monochromist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monochromist/math_version/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monochromist/math_version/classes.py,sha256=B-Gv1HkBsRMitG-FBfLpF09YdoL3ol13SEbAz_PkoMQ,855
+monochromist/math_version/clean.py,sha256=R0AFPMNOJx29JNPsFGQ30bhiPxAdqWnwhwCCUbzvav4,1496
+monochromist/math_version/postprocess.py,sha256=LIAx1QCJFwypx6lw4upH9u2xSX0c2nkgl9L0m58GPw4,1391
+monochromist/math_version/process.py,sha256=_XMPdjsXUSq1U7An1_9mMP3mOIy_QOimjLwk42mqjso,2461
+monochromist/opencv_version/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monochromist/opencv_version/classes.py,sha256=yP-ViQNMn8F4rNIaVzYRVmS1VkBML4-YFYz04QKWOXw,472
+monochromist/opencv_version/find_mask.py,sha256=rfCjiyuXG31GvmlAJWxBaRpakPoeVcQ-MP4qsU1fLXg,329
+monochromist/opencv_version/post_editing.py,sha256=45mPOtzhh__LMB8PtlOXEs11nWNAn8A-7dGrFFTbplk,1265
+monochromist/opencv_version/process.py,sha256=k5sffb_eODFA9Nu0p6UdMz3gxjuGUTcM_fRxtdEQwuQ,1783
+monochromist-1.0.0.dist-info/entry_points.txt,sha256=G2Z32E6pC0p7qkaocIEE2XAxYVtfGzxElTo-M05cuik,138
+monochromist-1.0.0.dist-info/LICENSE,sha256=YBDCFswenyyOluQu2s0aomrOAslzRoIIYXhaz-rFv9w,1075
+monochromist-1.0.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+monochromist-1.0.0.dist-info/METADATA,sha256=AgFyJwP3jTrt48Dh50yr94sCwM18u_0CEkoFtpjPMVA,1217
+monochromist-1.0.0.dist-info/RECORD,,

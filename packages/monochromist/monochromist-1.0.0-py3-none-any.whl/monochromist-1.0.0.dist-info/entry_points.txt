@@ -1,0 +1,4 @@
+[console_scripts]
+monochromist=monochromist.math_version.process:process
+monochromist_opencv=monochromist.opencv_version.process:process
+
