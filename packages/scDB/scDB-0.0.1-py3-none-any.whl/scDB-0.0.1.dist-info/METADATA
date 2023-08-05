@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: scDB
+Version: 0.0.1
+Summary: single cell database utilities
+Home-page: https://jingxinfu.github.io/scDB
+Author: Jingxin Fu
+Author-email: jingxinfu.tj@gmail.com
+License: UNKNOWN
+Keywords: single cell,terra
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4, <4
+Description-Content-Type: text/markdown
+Requires-Dist: firecloud
+Requires-Dist: tenacity
+Requires-Dist: pandas
+Requires-Dist: colorlog
+
+# Update Data Model
+## EGA
+
+1. Write a function (named by the `EGAID`) to preprocess meta table under the `EGA` class in `scDB/EGA.py` file
+2. Enter the following CMD to update data mode
+```
+./bin/scDB [project] [workspace] EGA [path/to/delimited_maps] [EGAID]
+```
+
+## CCG
+
+### Process previous project
+
+1. Write a function (named by the `cohortID`) to preprocess meta table under the `CCG` class in `scDB/CCF.py` file
+2. Enter the following CMD to update data mode
+```
+./bin/scDB [project] [workspace] CCG [path/to/meta_table] [cohortID]
+```
+
+### Update BCL file to the shared workspace [SingleCellStorage_VALab]
+
+1. Copy the BCL file to `gs://fc-48fd2ee8-f6eb-4d07-b271-e8304d29fb1b/Raw_BCL_Files`
+2. Copy Manifest file to `gs://fc-48fd2ee8-f6eb-4d07-b271-e8304d29fb1b/Manifest_Files/[cohort_id]_Manifest.txt`
+3. Manually generate a `[cohort_id].tsv` file
+4. Enter the following CMD to update data mode
+```
+./bin/scDB nci-breardon-bi-org SingleCellStorage_VALab CCG meta/CCG/BCL/[cohort_id].tsv bclStorage
+```
+
+
+

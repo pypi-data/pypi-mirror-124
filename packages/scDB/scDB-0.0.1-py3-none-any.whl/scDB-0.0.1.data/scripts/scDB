@@ -1,0 +1,83 @@
+#!python
+# -*- coding:utf-8 -*-
+################################################################################
+# Created Date : Thursday October 7th 2021                                     #
+# Author: Jingxin Fu (jingxin@broadinstitute.org)                              #
+# ----------                                                                   #
+# Last Modified: Thursday October 7th 2021 3:19:43 pm                          #
+# Modified By: Jingxin Fu (jingxin@broadinstitute.org)                         #
+# ----------                                                                   #
+# Copyright (c) Jingxin Fu 2021                                                #
+################################################################################
+import os
+import sys
+import argparse
+import logging
+import colorlog
+EXECUTE_PATH = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(os.path.join(EXECUTE_PATH, '..'))
+
+from scDB import argParser,__version__
+__doc__=""" 
+scDB: toolkit to collect single cell related dataset
+""" 
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("billing_project",help="Name of billing project")
+    parser.add_argument("workspace",help="Name of workspace")
+    parser.add_argument("--no_check",
+                        action="store_true", help="Do not check the table")
+
+    parser.add_argument("-v", "--version",
+                        action="store_true", help="Print version info")
+    
+    subparsers = parser.add_subparsers(dest='subcommand')
+    argParser.EGA(subparsers)
+    argParser.CCG(subparsers)
+
+    #Define logging level
+    log_format = (
+        '[%(asctime)s]'
+        '[%(funcName)s]'
+        '%(message)s'
+    )
+    bold_seq = '\033[1m'
+    colorlog_format = (
+        f'{bold_seq} '
+        '%(log_color)s '
+        f'{log_format}'
+    )
+    colorlog.basicConfig(format=colorlog_format, stream=sys.stderr,
+                         level=logging.DEBUG, datefmt='%Y-%m-%d %H:%M:%S')
+    #Parsing argument
+    args = parser.parse_args()
+    if args.version:
+        print(__version__)
+        exit(0)
+    
+    if args.subcommand=='EGA':
+        from scDB import EGA
+        ega = EGA(meta_folder=args.meta_folder,EGAD=args.EGAD)
+        ega.update(billing_project=args.billing_project,
+                   workspace=args.workspace, no_check=args.no_check)
+    elif args.subcommand == 'CCG':
+        from scDB import CCG
+        ccg = CCG(meta=args.meta, CCG_ID=args.CCG_ID)
+        ccg.update(billing_project=args.billing_project,
+                   workspace=args.workspace, no_check=args.no_check)
+    else:
+        parser.print_help()
+        exit(1)
+
+    exit(0)
+
+    
+
+
+
+
+if __name__=='__main__':
+    main()

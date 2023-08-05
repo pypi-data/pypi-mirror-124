@@ -1,0 +1,10 @@
+scDB/CCG.py,sha256=MZeJLRhFR1LNP_Xrqk9jjlrWN9hJhtoQZ8ufT62oSW0,2756
+scDB/EGA.py,sha256=FlsVlxfDltOn3mpjrjHgB_wex001FoBlajKKzBcG9Fw,6060
+scDB/__init__.py,sha256=E72xdH8NFEJIERjF6Ee3YLFMLYFi3af7Qh8b3mAFl-U,57
+scDB/argParser.py,sha256=G0FUvIrHMhfPnxXM06VIa-8sxCLpAeQ_MZ0HrkxFgvA,1817
+scDB/db.py,sha256=4WjoOeX9L5iB4lta30RYdYw698e52SUydFLafSA579Q,7835
+scDB-0.0.1.data/scripts/scDB,sha256=OLreYxO7Um76MJrRSLG0FPW70yNUkI1MB9D4Q8cphDw,2794
+scDB-0.0.1.dist-info/METADATA,sha256=oY1KO81RwhvVIMILMwf_dK34PoI3y9ysGyPi7o4yN5w,1611
+scDB-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+scDB-0.0.1.dist-info/top_level.txt,sha256=okS5887gdwwsSHh9Y6MQ91GPi91XlpOmPX_68mJUnpY,5
+scDB-0.0.1.dist-info/RECORD,,
