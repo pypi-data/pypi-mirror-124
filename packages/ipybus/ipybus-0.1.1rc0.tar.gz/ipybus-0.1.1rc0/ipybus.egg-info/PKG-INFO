@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: ipybus
+Version: 0.1.1rc0
+Summary: A widget to communicate with the backend
+Home-page: https://github.com/gbrault/ipybus
+Author: Gilbert Brault
+Author-email: gbrault@seadev.org
+License: UNKNOWN
+Description: A widget to communicate with the backend
+Keywords: ipython,jupyter,widgets
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
