@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ddb_local
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://github.com/wbkang/ddb_local
+Author: Woongbin Kang
+Author-email: pypi@wbk.one
+License: MIT
+Description: DynamoDBLocal Wrapper for Python
+Platform: UNKNOWN
