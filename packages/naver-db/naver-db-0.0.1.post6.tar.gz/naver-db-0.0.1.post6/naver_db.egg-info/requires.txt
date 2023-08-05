@@ -1,0 +1,6 @@
+Flask-MySQLdb
+Flask-SQLAlchemy
+python-decouple
+sanic
+wheel
+naver-config
