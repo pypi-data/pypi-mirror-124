@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "asyncdl"
+version = "0.1.0"
+description = "asyncdl is a simple wrapper around the aiohttp Python library. Its aim is to simplify the process of securely downloading files in Python applications."
+authors = ["Makoto <makoto+github@taiga.sh>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+aiohttp = "^3.7.4"
+aiodns = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
