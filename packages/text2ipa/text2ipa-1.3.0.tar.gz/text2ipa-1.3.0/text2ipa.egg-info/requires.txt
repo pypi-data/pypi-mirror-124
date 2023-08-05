@@ -1,0 +1,3 @@
+cppy
+requests>=2.23.0
+bs4
