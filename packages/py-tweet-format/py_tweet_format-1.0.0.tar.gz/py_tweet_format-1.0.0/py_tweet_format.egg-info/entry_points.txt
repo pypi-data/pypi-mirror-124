@@ -1,0 +1,3 @@
+[console_scripts]
+py_tweet_format = py_tweet_format.__main__:main
+
