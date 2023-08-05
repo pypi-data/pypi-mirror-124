@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+InsperaReader.egg-info/PKG-INFO
+InsperaReader.egg-info/SOURCES.txt
+InsperaReader.egg-info/dependency_links.txt
+InsperaReader.egg-info/top_level.txt
+inspera/__init__.py
+inspera/candidate.py
+inspera/cleaner.py
+inspera/question.py
+inspera/reader.py
