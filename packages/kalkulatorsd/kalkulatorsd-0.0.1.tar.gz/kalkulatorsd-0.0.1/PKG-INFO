@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: kalkulatorsd
+Version: 0.0.1
+Summary: ini adalah kalkulator sederhana untuk anak sd
+Home-page: UNKNOWN
+Author: Zaafir
+Author-email: zfrhmnn@gmail.com
+License: MIT
+Description: ini adalah kalkulator sederhana buat anak sd
+        
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
