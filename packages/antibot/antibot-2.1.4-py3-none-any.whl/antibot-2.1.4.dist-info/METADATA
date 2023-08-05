@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: antibot
+Version: 2.1.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Jean Giard
+License: LGPL
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pymongo
+Requires-Dist: requests
+Requires-Dist: injector
+Requires-Dist: pyckson
+Requires-Dist: schedule
+Requires-Dist: slackclient
+Requires-Dist: arrow
+Requires-Dist: bottle
+
+UNKNOWN
+
