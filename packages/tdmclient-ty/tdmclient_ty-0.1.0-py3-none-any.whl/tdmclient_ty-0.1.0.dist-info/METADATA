@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: tdmclient-ty
+Version: 0.1.0
+Summary: Communication with Thymio II robot from Thonny via the Thymio Device Manager
+Home-page: https://github.com/epfl-mobots/tdmclient-ty
+Author: Yves Piguet
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Education
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tdmclient
+
+# Thymio plugin for Thonny
+
+The Python module `tdmclient_ty` is a plug-in for [Thonny](https://thonny.org/), the _Python IDE for beginners_. Based on the module `tdmclient`, it lets you run Python programs on the [Thymio II](https://thymio.org) mobile robot.
+
+Like tdmclient, the plug-in relies on Thymio Suite and its Thymio Device Manager component to communicate with the robot.
+
+## Installation
+
+In Thonny, select the menu Tools>Manage Packages, type _tdmclient_ty_ in the search box, and click the button Search on PyPI. Click the link _tdmclient_ty_ in the result list (normally the only result), then the Install button below.
+
+Make sure you also have [Thymio Suite](https://www.thymio.org/program/) installed on your computer.
+
+## Use
+
+Connect a robot to your computer via a USB cable or the RF dongle and launch Thymio Suite. In Thymio Suite, you can click the Aseba Studio icon to check that the Thymio is recognized, and, also optionally, start Aseba Studio (select the robot and click the button "Program with Aseba Studio"). Only one client can control the robot at the same time to change a variable or run a program. Either don't start Aseba Studio or unlock the robot by clicking the little lock icon in the tab title near the top left corner of the Aseba Studio window.
+
+The plug-in adds four commands in the Tools menu:
+- _Run on Thymio_: run the program in the editor panel on the Thymio. First the program is converted (transpiled) to Aseba, the programming language of the Thymio. Then this Aseba program is loaded on the robot and started.
+- _Transpile Program_: transpile the program in the editor panel from Python to Aseba and display the result in the Shell panel.
+- _Stop Thymio_: stop the program which runs on the robot and the robot itself.
+- _Unlock Thymio_: release control of the robot. The first time you execute _Run on Thymio_ or _Stop Thymio_, an exclusive connection is established with the robot and no other program can control it. _Unlock Thymio_ ends this connection until the next time you execute _Run on Thymio_ or _Stop Thymio_. It can be useful to control the robot alternatively from Thonny and other applications, such as Aseba Studio or Scratch in Thymio Suite or tdmclient in Jupyter.
+
+
