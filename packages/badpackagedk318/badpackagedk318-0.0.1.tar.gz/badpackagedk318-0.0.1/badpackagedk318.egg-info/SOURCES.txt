@@ -1,0 +1,8 @@
+setup.py
+badpackagedk318/__init__.py
+badpackagedk318/example.py
+badpackagedk318.egg-info/PKG-INFO
+badpackagedk318.egg-info/SOURCES.txt
+badpackagedk318.egg-info/dependency_links.txt
+badpackagedk318.egg-info/requires.txt
+badpackagedk318.egg-info/top_level.txt
