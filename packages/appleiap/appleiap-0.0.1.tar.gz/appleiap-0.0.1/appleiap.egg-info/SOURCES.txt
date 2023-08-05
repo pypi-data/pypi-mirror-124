@@ -1,0 +1,6 @@
+setup.py
+appleiap.egg-info/PKG-INFO
+appleiap.egg-info/SOURCES.txt
+appleiap.egg-info/dependency_links.txt
+appleiap.egg-info/not-zip-safe
+appleiap.egg-info/top_level.txt
