@@ -1,0 +1,12 @@
+django_gss_spnego/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_gss_spnego/backends.py,sha256=ozrkwr5jq_jFg5R5XwdBBCl6M5E7mX8wfn0xgjIsKwI,1674
+django_gss_spnego/views.py,sha256=vOIAoo2-5Iiyywp0b4WfQmjiUc2LIkoB32X2BXHtBVE,3392
+django_gss_spnego/__pycache__/__init__.cpython-39.pyc,sha256=nEVREfPKTp-h5HiimWzwTI61R_bZOujc2IcV0ExYPxE,178
+django_gss_spnego/__pycache__/backends.cpython-39.pyc,sha256=EqPwsak9n8jQdnWcyCGeOcl5lCUC-KWVpYX1Q6bzG-Q,2008
+django_gss_spnego/__pycache__/views.cpython-39.pyc,sha256=urvbaILEEX7DA3_jG1dC09jpKwT5i54PIhhqp6qSosc,3799
+django_gss_spnego/templates/spnego.html,sha256=EzpJqn4OLHVJCoRFvVQPKhnKaPOfud-HnY-SLxy3aF4,870
+django_gss_spnego-21.10.0.dev0.dist-info/LICENSE,sha256=vTnIUxyGRprgcz97tqLOIXI_eiIScYQwS0_oY6meCkI,590
+django_gss_spnego-21.10.0.dev0.dist-info/METADATA,sha256=koCa2Ed_Xu57QRQ-3OsYPc8JQ0l_kVwKPmdSXa_Jj44,4542
+django_gss_spnego-21.10.0.dev0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_gss_spnego-21.10.0.dev0.dist-info/top_level.txt,sha256=ZR_TBC7KCSMUmDQEnvlOJBJA01Qm-cuMMd5_smLb2L4,18
+django_gss_spnego-21.10.0.dev0.dist-info/RECORD,,
