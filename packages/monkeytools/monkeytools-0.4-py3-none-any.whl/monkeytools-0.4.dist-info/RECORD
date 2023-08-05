@@ -1,0 +1,9 @@
+monkeytools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monkeytools/array_methods.py,sha256=qNwTdoH8KQFSROAR9FET3Jmm9k-QuZWv2WI8ZfdZ3rg,1836
+monkeytools/sorting.py,sha256=HOq22ncB9WsZGgyvIIkQfrneqmHheWd8jhd9Xf1pq6w,7248
+monkeytools/utils.py,sha256=5U01naIIItDX0cgz7IEP-6DPudX5q61_rAumPP1Lyec,511
+monkeytools-0.4.dist-info/LICENSE,sha256=zWFw0H2zNNkbrXD4Q4QqdT9801pUpdDGq4_4gQ2yBXM,1075
+monkeytools-0.4.dist-info/METADATA,sha256=iWPWeopXkxV4AcWiUS07N8fNWhN1u5OQ3d-R68fEMbI,710
+monkeytools-0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+monkeytools-0.4.dist-info/top_level.txt,sha256=cx0uHnr8y27XTusIm55GnzKhkDwep4XjeQKqspvmpqc,12
+monkeytools-0.4.dist-info/RECORD,,
