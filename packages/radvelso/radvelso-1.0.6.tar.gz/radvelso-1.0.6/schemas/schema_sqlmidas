@@ -1,0 +1,45 @@
+CREATE TABLE header (
+  ID_OBS integer,
+  LAT real, 
+  LON real,
+  CODTYP integer, 
+  DATE integer, 
+  TIME integer,
+  ID_STN varchar(50), 
+  LOCATION varchar(50), 
+  ANTENNA_ALTITUDE REAL, 
+  TIME_START INTEGER,
+  TIME_END INTEGER,
+  RANGE_START REAL ,
+  RANGE_END REAL ,
+  CENTER_AZIMUTH REAL,
+ CENTER_ELEVATION REAL ,
+  NOMINAL_PPI_ELEVATION REAL,
+  NYQUIST REAL
+  );
+CREATE TABLE data (
+  ID_DATA integer,
+  ID_OBS integer, 
+  RANGE REAL,
+  VCOORD REAL,
+  VARNO integer,
+  OBSVALUE real,
+  QUALITY_INDEX real,
+  VCOORD_TYPE integer,
+  FLAG integer,
+  OMA real,
+  OMP real, 
+  OBS_ERROR real,
+  FG_ERROR real,
+  HALF_DELTA_AZIMUTH real,
+  HALF_DELTA_RANGE real,
+  NUMBER_OBS integer);
+CREATE INDEX idx1 ON header(id_obs);
+CREATE INDEX idx2 ON data(id_obs, id_data);
+
+
+
+CREATE TABLE info( NAME, DESCRIPTION, UNIT );
+CREATE TABLE rdb4_schema( schema  varchar(9) );
+INSERT into rdb4_schema values('radvel');
+CREATE TABLE resume(date integer , time integer , run varchar(9));
