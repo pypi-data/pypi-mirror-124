@@ -1,0 +1,17 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+requirements.txt
+setup.py
+oi_trend.egg-info/SOURCES.txt
+oi_trend.egg-info/dependency_links.txt
+oi_trend.egg-info/requires.txt
+oi_trend.egg-info/top_level.txt
+oitrend/__init__.py
+oitrend/oi_change.py
+oitrend.egg-info/PKG-INFO
+oitrend.egg-info/SOURCES.txt
+oitrend.egg-info/dependency_links.txt
+oitrend.egg-info/requires.txt
+oitrend.egg-info/top_level.txt
