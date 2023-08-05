@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ghg_analytics_scrapers_tropomi/__init__.py
+src/ghg_analytics_scrapers_tropomi/main.py
+src/ghg_analytics_scrapers_tropomi.egg-info/PKG-INFO
+src/ghg_analytics_scrapers_tropomi.egg-info/SOURCES.txt
+src/ghg_analytics_scrapers_tropomi.egg-info/dependency_links.txt
+src/ghg_analytics_scrapers_tropomi.egg-info/top_level.txt
