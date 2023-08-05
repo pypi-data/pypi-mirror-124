@@ -1,0 +1,18 @@
+[project]
+name = "nlp-cleaner"
+version = "0.0.1"
+author = "Luis Guilherme de Almeida"
+author_email = "luisg200@hotmail.com"
+description = "NLP cleaner is a library to clean text to use in NLP projects."
+url = "https://github.com/luiguip/nlp-cleaner"
+classifiers =[
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
