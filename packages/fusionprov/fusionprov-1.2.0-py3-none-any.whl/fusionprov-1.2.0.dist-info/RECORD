@@ -1,0 +1,10 @@
+fusionprov/__init__.py,sha256=JS5kzjZFVCmxOFfDnG_qTsA5D7s_WJ9Nf0ZL0y5U1wE,794
+fusionprov/imasprov.py,sha256=zHWNdcn7aSgR5JibUiDaCb95yUN9HmcR8uRXniLI43c,9390
+fusionprov/mastprov.py,sha256=atOfC9mDVhGbokabIARdajXKB4Q_6FvNqra2toMuXRg,20546
+fusionprov/utilities.py,sha256=cq0xU4rErDMSVWc0uBNxboXsMyE84lsz1I20yCGxI5M,749
+fusionprov-1.2.0.dist-info/LICENSE,sha256=nWy-cQl2dVZGb5nuNnCIKy23ToY1xnb0oJ8tUmtrKUc,11345
+fusionprov-1.2.0.dist-info/METADATA,sha256=BRy15j3M6COdYWKcecTHsWKVXa5UVCEws9RC2e-vAuY,4903
+fusionprov-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fusionprov-1.2.0.dist-info/entry_points.txt,sha256=l116zSk3D6w87ZQ2JUvMzY32bp3nYWAqJJExuXlQeZ4,91
+fusionprov-1.2.0.dist-info/top_level.txt,sha256=zUlig65HQFDHJG-3DhxRFEpTQ9g2KthDgSQL89j0bAI,11
+fusionprov-1.2.0.dist-info/RECORD,,
