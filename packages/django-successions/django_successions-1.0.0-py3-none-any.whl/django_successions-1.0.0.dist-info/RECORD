@@ -1,0 +1,17 @@
+successions/__init__.py,sha256=vR8vUcoRT9oIhpg2mgk85VqnySUThHThm6Yfse3jD4I,58
+successions/apps.py,sha256=q4qRX72JPo6aU6dqIkv7y7Ickqw2Jpj2Zf7etU4BKaE,97
+successions/fields.py,sha256=qJrsim_D_JVWyuBJ_HB8Bl_ThckaT-3A4v1ua4q56Hk,2948
+successions/models.py,sha256=eVYy3HRyd9k6yLHSSOqGET2gXS0-IzZsNmIyuQ230oU,2054
+successions/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+successions/migrations/0001_initial.py,sha256=h8xmFR0n1zDDDHuxs-WJp8T9KBghJBxgHC5UCrYkCOA,2113
+successions/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/manage.py,sha256=0P9dMbOQX2n0Y-hDHDkDbrb295QuiLFn69IyqBbfYUE,411
+tests/settings.py,sha256=wtIMmMod6Q8XJYD8L6MaDlrXJy0cyFMX7dRezRDsmGY,490
+tests/testapp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/testapp/models.py,sha256=6p9pPABIxb6FJP2FZu9Ieq-WDsUFl1WUoa_8V5mORI4,232
+tests/testapp/tests.py,sha256=AFKjvJvnlqQ0XDMo7GMzk7YqiiW9jwkDkpK3JptOO_I,928
+django_successions-1.0.0.dist-info/METADATA,sha256=wP7h14eMytIwpU8M2dgbSWen9H0bDYnXUCOQe2iAsl0,1295
+django_successions-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_successions-1.0.0.dist-info/top_level.txt,sha256=HPFBC4k69PfEn5HnFs3m0P7yA7Qh6jHpcXg3IFl7xbw,18
+django_successions-1.0.0.dist-info/RECORD,,
