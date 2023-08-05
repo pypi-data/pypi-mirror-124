@@ -1,0 +1,8 @@
+/data/zhaoyong/Program/Apps/Svar/src/python/build/CMakeFiles/edit_cache.dir
+/data/zhaoyong/Program/Apps/Svar/src/python/build/CMakeFiles/rebuild_cache.dir
+/data/zhaoyong/Program/Apps/Svar/src/python/build/cpp/CMakeFiles/edit_cache.dir
+/data/zhaoyong/Program/Apps/Svar/src/python/build/cpp/CMakeFiles/rebuild_cache.dir
+/data/zhaoyong/Program/Apps/Svar/src/python/build/cpp/CMakeFiles/sample_call_python.dir
+/data/zhaoyong/Program/Apps/Svar/src/python/build/svarpy/CMakeFiles/rebuild_cache.dir
+/data/zhaoyong/Program/Apps/Svar/src/python/build/svarpy/CMakeFiles/edit_cache.dir
+/data/zhaoyong/Program/Apps/Svar/src/python/build/svarpy/CMakeFiles/svar.dir

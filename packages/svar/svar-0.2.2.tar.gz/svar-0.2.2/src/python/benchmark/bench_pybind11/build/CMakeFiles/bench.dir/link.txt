@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared  -o bench.cpython-36m-x86_64-linux-gnu.so CMakeFiles/bench.dir/bench_pybind.cpp.o  -flto 

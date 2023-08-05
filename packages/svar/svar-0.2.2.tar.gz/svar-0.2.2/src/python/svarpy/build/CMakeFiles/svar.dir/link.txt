@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,svar.so -o svar.so CMakeFiles/svar.dir/src/main.cpp.o -lpython2.7 -lpthread -ldl -flto 

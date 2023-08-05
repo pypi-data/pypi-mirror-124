@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/data/zhaoyong/Program/Apps/Svar/src/python/benchmark/bench_svar/bench_svar.cpp
+Svar/SvarPy.h
+-
+
