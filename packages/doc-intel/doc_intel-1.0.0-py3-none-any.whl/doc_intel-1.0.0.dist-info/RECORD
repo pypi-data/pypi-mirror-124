@@ -1,0 +1,11 @@
+doc_intel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doc_intel/despace.py,sha256=Db1ryxb1wkC0yCLeRr1skV_rMue_kwd6ZFBzY-jdhPo,4513
+doc_intel/manage_diction.py,sha256=gJhOklbIpq2bVMkkLiYVmybboaaa2S-ebiscG8SyC10,4023
+doc_intel/text_laundry.py,sha256=Mhcf-wauQDDC8shviMwALOnhj3CkNNKwVWjHq6L6xuQ,8525
+doc_intel/words.txt,sha256=qlxMEOdWPmBRu-aOsw1S02dDDpX23egu3-xeW9rU5MI,3342419
+doc_intel-1.0.0.dist-info/LICENSE,sha256=VKrhhY5gh9rtdC6koFf3Sng9mX4MWhZiVL-fTvqh9MY,1092
+doc_intel-1.0.0.dist-info/METADATA,sha256=VLnt289RAuwjinl9uOMVOfiRvYkK0y7H3PQrV63Ph3U,3698
+doc_intel-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+doc_intel-1.0.0.dist-info/entry_points.txt,sha256=gu1yZTRgXT1jTXSR5rgpSGFMwt0_gpTVw7xETzHcfnE,58
+doc_intel-1.0.0.dist-info/top_level.txt,sha256=HuHxSK4aHRpuc8_FtEdfWQX8UJqKu74sdc7yAT2VBuQ,10
+doc_intel-1.0.0.dist-info/RECORD,,
