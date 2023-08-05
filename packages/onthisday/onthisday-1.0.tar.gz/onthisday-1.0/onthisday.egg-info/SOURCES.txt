@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+onthisday/__init__.py
+onthisday/event.py
+onthisday/source.py
+onthisday/today.py
+onthisday.egg-info/PKG-INFO
+onthisday.egg-info/SOURCES.txt
+onthisday.egg-info/dependency_links.txt
+onthisday.egg-info/requires.txt
+onthisday.egg-info/top_level.txt

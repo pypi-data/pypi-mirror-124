@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: onthisday
+Version: 1.0
+Summary: Retrieve events that happened on current day
+Home-page: https://github.com/bit97/onthisday
+Author: bit97
+Author-email: federico.bitondo@gmail.com
+License:             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENCE
+                            Version 3.1, July 2019
+        
+         by Sam Hocevar <sam@hocevar.net>
+            theiostream <matoe@matoe.co.cc>
+            dtf         <wtfpl@dtf.wtf>
+        
+                    DO WHAT THE FUCK YOU WANT TO PUBLIC LICENCE
+           TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+        
+          0. You just DO WHAT THE FUCK YOU WANT TO.
+        
+Download-URL: https://github.com/bit97/onthisday/archive/refs/tags/1.0.tar.gz
+Keywords: cli,command-line,wikipedia,scraping,today-widget,today,greetings
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# onthisday
+
+Simple library that retrieves the historical events that happened on current day.
+
+At the moment the events do not include birth/death of famous people.
+
+## Event sources
+- [Italian Wikipedia](https://it.wikipedia.org/wiki/Oggi) 🇮🇹
+- [Accadde Oggi](https://www.accaddeoggi.it/) 🇮🇹
+
+## Install
+...
+
+## Usage
+
+### As a standalone script
+In the root directory:
+
+```
+> python main.py --help
+
+Usage: main.py [OPTIONS] COMMAND [ARGS]...
+
+Commands:
+  all     Print all the events of today
+  last    Print last n events of today
+  list    List the available sources (valid shorter names in brackets)
+  random  Print random event of today
+```
+
+For the specific command options:
+
+```
+> python main.py all --help
+
+Usage: main.py all [OPTIONS]
+
+  Print all the events of today
+
+Options:
+  --source TEXT  [default: wiki]
+  --help         Show this message and exit.
+```
+
+### As a library
+_see the [example file](example.py) provided_ 
+
+## Issues
+Please open issue on this GitHub repository for any error, suggestion or feature request.
+
