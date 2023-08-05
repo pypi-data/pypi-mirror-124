@@ -1,0 +1,6 @@
+tigran_test/setup.py
+tigran_test.egg-info/PKG-INFO
+tigran_test.egg-info/SOURCES.txt
+tigran_test.egg-info/dependency_links.txt
+tigran_test.egg-info/requires.txt
+tigran_test.egg-info/top_level.txt
