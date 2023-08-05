@@ -1,0 +1,14 @@
+sbol2excel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sbol2excel/column_methods.py,sha256=BiSLupeIIMdTKPmGpU15cCCl0rIJvdjjTY29uBYEr3s,4467
+sbol2excel/converter.py,sha256=Le2oi-dNcvh1zGyoZ67yIZA_18t9AWXY0Zx-mxEJSEk,1636
+sbol2excel/helper_functions.py,sha256=Z00u0--Zy7JfnathgmhTHooasrNnqB5_1B8StTq6Iug,2937
+sbol2excel/ontology_methods.py,sha256=9ndY6MjJdHIbQdsIWElwKq1IimErF-mASI9ek-knMfo,4007
+sbol2excel/sheet_methods.py,sha256=84e7u_yyxh38rd1r2r5S4V4jH3CbzbQt633U2LsSSO8,5065
+sbol2excel/temp.py,sha256=uN-6vZucEcK7WcF7OAtZt-M0QWzhhOwQSG5_4KeYB0o,558
+sbol2excel/Ontology Sheets/ontologies_v000.xlsx,sha256=XcBL8ZdczpvVxR8CZ3BtIPuiw1fOWnFniBWbV7Q7EVY,222828
+sbol2excel/Ontology Sheets/ontologies_v001.xlsx,sha256=qLJqPeHhmp3AKvtJ8fw6PTmLK-bna2WAg0IDGJ7gIzU,341741
+sbol2excel/Output_Templates/Output_Template_v001.xlsx,sha256=6xKHycMh-Z2HuQTqS-_VTxaRRmr2QU9OQxdAWc9Vo3s,142983
+sbol2excel-1.0.0a22.dist-info/METADATA,sha256=Nfe6U8S9kNHtQuASlLUoT3Od_nFJWxVvXvGR1ToO6j8,1538
+sbol2excel-1.0.0a22.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sbol2excel-1.0.0a22.dist-info/top_level.txt,sha256=ySn6-03zl_ITnJaB35E9b4pEfT-gq-XRX0NANQG0uWE,11
+sbol2excel-1.0.0a22.dist-info/RECORD,,
