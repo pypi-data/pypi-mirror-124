@@ -1,0 +1,10 @@
+datacenter_datasdk/__init__.py,sha256=zn7s2CwaDlyeKl6maKAdnRaMusZnMI71MLDWBtkhPMg,51
+datacenter_datasdk/restful_api.py,sha256=oRT8FVk9Rnscy_HLx9QOCvSzd3gprGW8wxGLOPFaC14,3667
+datacenter_datasdk/settings.py,sha256=boB5KaPydLHqJXiF8GRWa5NqT32HPKV1kNyqIOcHT34,2703
+datacenter_datasdk/verify.py,sha256=XJC6qDGktre54t79miHByFFbJ_6e1-qDVubDyHUTFYo,1476
+datacenter_datasdk-0.1.0.dist-info/LICENSE.txt,sha256=s4TM9FRdlPDs1J29NV-d7WSp9BimB1XCafZsoX7MJTM,1065
+datacenter_datasdk-0.1.0.dist-info/METADATA,sha256=pc03MnrBZbN5mhEH2QHnqduLJQn6rKPjimB-zTCZacc,1637
+datacenter_datasdk-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+datacenter_datasdk-0.1.0.dist-info/top_level.txt,sha256=SOQL7GK5ukKf7NbzCupqOGj5QDFMFZqFlddxxNHe27Y,19
+datacenter_datasdk-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+datacenter_datasdk-0.1.0.dist-info/RECORD,,
