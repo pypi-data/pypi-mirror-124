@@ -1,0 +1,14 @@
+pydymenu/__init__.py,sha256=Bw_wL3r2Aj_zwZDCwqDuzKjjUE7EdilQRrlChzHuEHM,421
+pydymenu/__main__.py,sha256=E-9oYcR064etHYfVaGBbcpklpEu802gjDxl--ZPgaDg,1733
+pydymenu/console.py,sha256=6OpNrZAT7ao93vUNIxSYhmrC0GExOq1IKTrjmoFbkcI,243
+pydymenu/demo_data.py,sha256=JWOR2kTlj8D8gSQUknt67WMeU6Us-XQURuNzZ2B7cQk,1185
+pydymenu/exceptions.py,sha256=2M3kdLCBkY1fEmY38v2H3MI20YeMpJf8a73u4yy-rHE,217
+pydymenu/fzf.py,sha256=Hl2XtPEGi_m10JWsjcImvpxLYwqyOKB1wSdoAYto9d8,2277
+pydymenu/menu.py,sha256=a4SV8ShpW8PI4ZaW4nPmBr5-LZ_MLpvTn-hOutjwrDk,445
+pydymenu/rofi.py,sha256=Zst5nKxaEPHaEinMvPdvuv-k05ex386n9p36BmcuvRg,2145
+pydymenu/system.py,sha256=4iWCYocnyrQEiRLaxXKoU24QQL_AnZ6uOjMVnGkcIWk,3239
+pydymenu-0.5.1.dist-info/LICENSE.md,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+pydymenu-0.5.1.dist-info/METADATA,sha256=WUd21URx84Rk_KEeekBJBlm4q6mLu_DRYaSKM5L88TQ,2506
+pydymenu-0.5.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pydymenu-0.5.1.dist-info/top_level.txt,sha256=zcX9FFz8mTkZ_1GWKIJj1w4tKaEgAJ3UAeULT9eyIrs,9
+pydymenu-0.5.1.dist-info/RECORD,,
