@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: tlstrust
+Version: 0.0.1
+Summary: Utilities that assist with trust relationship checking of X.509 Certificates for various end-user devices with disparate root trust stores.
+Home-page: https://gitlab.com/chrislangton/py-tls-trust
+Author: Christopher Langton
+Author-email: chris@langton.cloud
+License: UNKNOWN
+Project-URL: Source, https://gitlab.com/chrislangton/py-tls-trust
+Project-URL: Documentation, https://gitlab.com/chrislangton/py-tls-trust/-/blob/main/docs/0.index.md
+Project-URL: Tracker, https://gitlab.com/chrislangton/py-tls-trust/-/issues
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: cryptography (==35.0.0)
+Requires-Dist: asn1crypto (==1.4.0)
+Requires-Dist: pyOpenSSL (==21.0.0)
+
+
+# tlstrust
+
+Utilities that assist with trust relationship checking of X.509 Certificates for various end-user devices with disparate root trust stores.
+
+## [Documentation](https://gitlab.com/chrislangton/py-tls-trust/-/blob/main/docs/0.index.md)
+
+In your app you can:
+
+```py
+import os
+from pathlib import Path
+from OpenSSL.crypto import FILETYPE_ASN1
+from tlstrust import TrustStore
+
+der = Path(os.path.join(os.path.dirname(__file__), "cert.der")).read_bytes()
+trust_store = TrustStore()
+print(trust_store.is_trusted(FILETYPE_ASN1, der))
+```
+
+## [Change Log](https://gitlab.com/chrislangton/py-tls-trust/-/blob/main/docs/z.change-log.md)
+    
+
