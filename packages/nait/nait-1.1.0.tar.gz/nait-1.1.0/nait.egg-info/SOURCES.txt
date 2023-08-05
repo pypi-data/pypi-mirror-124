@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+nait/__init__.py
+nait.egg-info/PKG-INFO
+nait.egg-info/SOURCES.txt
+nait.egg-info/dependency_links.txt
+nait.egg-info/requires.txt
+nait.egg-info/top_level.txt
