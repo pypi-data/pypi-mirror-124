@@ -1,0 +1,6 @@
+bisectex.py
+setup.py
+bisectex.egg-info/PKG-INFO
+bisectex.egg-info/SOURCES.txt
+bisectex.egg-info/dependency_links.txt
+bisectex.egg-info/top_level.txt
