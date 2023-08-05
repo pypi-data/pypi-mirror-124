@@ -1,0 +1,15 @@
+tracardi_day_night_split/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracardi_day_night_split/plugin.py,sha256=vfq4-dTUm1qaZViaH6wi-BJMD8JIjBfRo1O-mWdLxc0,2602
+tracardi_day_night_split/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracardi_day_night_split/model/configuration.py,sha256=N-PgxFYQ2mzdhPRm--Y6Ze9h8i7cBhdW2zHLCcYAJNQ,83
+tracardi_day_night_split/model/__pycache__/__init__.cpython-38.pyc,sha256=RS3n-PHWPzXq2N_rO6BG8lpLe1Q5ws2FxV2YZnuzSlQ,186
+tracardi_day_night_split/model/__pycache__/configuration.cpython-38.pyc,sha256=SNUa3Cq26WMyCdvrjjea-XyrR8_Q6M9lF3cltYO8h5M,436
+tracardi_day_night_split/service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracardi_day_night_split/service/day_night_checker.py,sha256=fQpMhxGXuKN8rsgAAF7LbyWUm1Yp1rveBbttTjUayx8,743
+tracardi_day_night_split/service/__pycache__/__init__.cpython-38.pyc,sha256=qYewoWbApvIUAi3UCnkcNMrYJPLQWcmyFuM7lIe6Ulk,187
+tracardi_day_night_split/service/__pycache__/day_night_checker.cpython-38.pyc,sha256=2aTfXJCs7u8ECFkqkMk33-o7Me138G5TaOlTuSQhxvE,1068
+tracardi_day_night_split-0.6.0.dist-info/LICENSE.md,sha256=l3ZUNaXLxnJvPaG7GYQk8VW6uUE0meUyDOrd7QXXu28,1072
+tracardi_day_night_split-0.6.0.dist-info/METADATA,sha256=K11PSkHAn6OpOLe0gK-XJK-u0GmZuFjwol4zNLEOyI0,1669
+tracardi_day_night_split-0.6.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_day_night_split-0.6.0.dist-info/top_level.txt,sha256=YbZ7ZB3UlWNFtJCly6JCqd8M186gUQjG58E27TFF3wM,25
+tracardi_day_night_split-0.6.0.dist-info/RECORD,,
