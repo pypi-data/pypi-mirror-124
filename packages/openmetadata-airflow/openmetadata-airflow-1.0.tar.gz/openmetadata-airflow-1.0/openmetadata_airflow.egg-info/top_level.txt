@@ -1,0 +1,6 @@
+airflow_provider_openmetadata
+build
+dist
+env
+metadata
+metadata_server
