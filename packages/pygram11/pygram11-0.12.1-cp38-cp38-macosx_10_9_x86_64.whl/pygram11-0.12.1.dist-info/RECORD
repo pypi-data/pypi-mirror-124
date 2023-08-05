@@ -1,0 +1,14 @@
+pygram11/_numpy.py,sha256=Kx9-dbCfOIFAWDkD5rW1jomLceOqZ0DpU4i9-vhOvhY,7622
+pygram11/config.py,sha256=3F2R1GbJ_19Q9YuuEsRIEA2xs5WI9gaVxxA7v8nsuVw,1078
+pygram11/_backend.cpython-38-darwin.so,sha256=5iDwREHJLy7FxrtLoFZ_IjLsnD-d0iguIpEEHZ3J52o,3826608
+pygram11/_version.py,sha256=skQxzMoj-DGCS7Sn4QcSyNohOHRH6mzL0Zhr80iFbD0,144
+pygram11/__init__.py,sha256=f7gspqnMO0OheXmkKEcaQJF1YKCPxXVXFEEijcc0zx8,1578
+pygram11/_hist.py,sha256=0KSJP9Je_Nawbm5YYaKvV_9GdcVJB-7r5G4bL-tchOA,20045
+pygram11/_helpers.py,sha256=LznI59Slxze6GtqfvaL_uY3KeoyazGDsnOmO_cjiX6c,1131
+pygram11/_misc.py,sha256=htGBG_UH-YUX8dRirKhS2WIAzauym45o4c2eZlwh1FQ,8795
+pygram11/.dylibs/libomp.dylib,sha256=tdd0Z_dTZErDiMsD6H5TwE4YNaGMMkq0u7JfdXWdJMs,679328
+pygram11-0.12.1.dist-info/RECORD,,
+pygram11-0.12.1.dist-info/LICENSE,sha256=DC_tHmQ3Qe5n3Jrl9jJimlpfau4IYjTL8PnD3Czum3c,1070
+pygram11-0.12.1.dist-info/WHEEL,sha256=m4Wk6eOy92yJY87gVAkQnn-qnRb0vl_v2zsmx0hgXfo,109
+pygram11-0.12.1.dist-info/top_level.txt,sha256=1nqyEb7cAhEuPssMWY9rd6ipJ9E1KnaXxIFDQsK4-ao,9
+pygram11-0.12.1.dist-info/METADATA,sha256=g3gCIVElhMZ2sOtf0gK0mCJvrLicNQ8rhCiXc0V-otc,6375
