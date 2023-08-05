@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+calc/__init__.py
+calc/__main__.py
+calc/calculator.py
+shsamariddin.egg-info/PKG-INFO
+shsamariddin.egg-info/SOURCES.txt
+shsamariddin.egg-info/dependency_links.txt
+shsamariddin.egg-info/entry_points.txt
+shsamariddin.egg-info/top_level.txt
