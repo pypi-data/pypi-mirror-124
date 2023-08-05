@@ -1,0 +1,9 @@
+README.md
+setup.py
+getmetric/__init__.py
+getmetric/getmetric.py
+getmetric.egg-info/PKG-INFO
+getmetric.egg-info/SOURCES.txt
+getmetric.egg-info/dependency_links.txt
+getmetric.egg-info/not-zip-safe
+getmetric.egg-info/top_level.txt
