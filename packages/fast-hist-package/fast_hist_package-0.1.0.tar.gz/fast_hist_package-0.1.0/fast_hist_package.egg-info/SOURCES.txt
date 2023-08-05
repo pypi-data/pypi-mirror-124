@@ -1,0 +1,8 @@
+setup.py
+fast_hist_package/__init__.py
+fast_hist_package/model_fast_hist.py
+fast_hist_package.egg-info/PKG-INFO
+fast_hist_package.egg-info/SOURCES.txt
+fast_hist_package.egg-info/dependency_links.txt
+fast_hist_package.egg-info/requires.txt
+fast_hist_package.egg-info/top_level.txt
