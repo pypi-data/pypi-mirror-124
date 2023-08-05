@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: anaynayak-tut
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Anay Nayak
+Author-email: nayakanay15@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: License.txt
+
+# anaynayak_tut
+
+
+This package is only created for demonstarion of 
+how to create and publish python package on pypi.org using twine lib
+you will find this on GeeksForGeeks as soon as it published
+
+# New Features!
+
+  - There are 2 function written in this package
+
+
+# Functions: 
+```
+import anaynayak tut as a
+get_sum(a,b) prints and returns addition of arguments 
+get_mul(a,b) prints and returns multiplication of arguments
+
+# Output will reflect on terminal
+```
+
+
+
+### Installation
+```
+pip install anaynayak_tut
+```
+You can reach out me at, 
+- nayakanay15@gmail.com
+-
+
