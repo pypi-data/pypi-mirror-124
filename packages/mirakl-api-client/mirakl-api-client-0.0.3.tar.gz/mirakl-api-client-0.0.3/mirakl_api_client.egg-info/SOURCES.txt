@@ -1,0 +1,10 @@
+README.md
+setup.py
+mirakl_api_client/__init__.py
+mirakl_api_client/client.py
+mirakl_api_client/resources.py
+mirakl_api_client/utils.py
+mirakl_api_client.egg-info/PKG-INFO
+mirakl_api_client.egg-info/SOURCES.txt
+mirakl_api_client.egg-info/dependency_links.txt
+mirakl_api_client.egg-info/top_level.txt
