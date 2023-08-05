@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+drf_display_integer_choice_field/__init__.py
+drf_display_integer_choice_field.egg-info/PKG-INFO
+drf_display_integer_choice_field.egg-info/SOURCES.txt
+drf_display_integer_choice_field.egg-info/dependency_links.txt
+drf_display_integer_choice_field.egg-info/top_level.txt

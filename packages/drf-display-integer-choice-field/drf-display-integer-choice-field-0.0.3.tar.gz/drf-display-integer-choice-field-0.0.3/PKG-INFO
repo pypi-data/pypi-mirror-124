@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: drf-display-integer-choice-field
+Version: 0.0.3
+Summary: django rest framework choice field, which display label, instead of value
+Home-page: https://github.com/panhaoyu/drf-display-integer-choice-field
+Author: Haoyu Pan
+Author-email: panhaoyu.china@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/panhaoyu/drf-display-integer-choice-field/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
