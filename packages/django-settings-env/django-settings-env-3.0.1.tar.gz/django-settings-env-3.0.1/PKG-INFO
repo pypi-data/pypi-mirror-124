@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: django-settings-env
+Version: 3.0.1
+Summary: 12-factor.net settings support for Django based on envex
+Author: David Nugent
+Author-email: davidn@uniquode.io
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: django-class-settings
+Requires-Dist: Django (>=3.0,<4.0)
+Requires-Dist: django-class-settings (>=0.2,<0.3); extra == "django-class-settings"
+Requires-Dist: envex (>=1.0,<2.0)
