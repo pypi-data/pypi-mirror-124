@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pynapple
+Version: 0.1.1
+Summary: PYthon Neural Analysis Package Pour Laboratoires d’Excellence
+Home-page: https://github.com/gviejo/pynapple
+Author: Guillaume Viejo
+Author-email: guillaume.viejo@gmail.com
+License: GNU General Public License v3
+Keywords: pynapple
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: pandas (>=1.0.3)
+Requires-Dist: numba (>=0.46.0)
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+pynapple is a Python library for analysing neurophysiological data. It allows to handle time series and epochs but also to use generic functions for neuroscience such as tuning curves and cross-correlogram of spikes. It is heavily based on neuroseries.
+
+=======
+History
+=======
+
+0.1.0 (2021-10-25)
+------------------
+
+* First release on PyPI.
+
+
