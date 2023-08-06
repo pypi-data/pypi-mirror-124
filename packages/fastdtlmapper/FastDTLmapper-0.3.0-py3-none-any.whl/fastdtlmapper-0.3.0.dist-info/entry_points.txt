@@ -1,0 +1,5 @@
+[console_scripts]
+FastDTLgoea=fastdtlmapper.scripts.FastDTLgoea:main
+FastDTLmapper=fastdtlmapper.scripts.FastDTLmapper:main
+plot_gain_loss_map=fastdtlmapper.scripts.plot_gain_loss_map:main
+
