@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}{{ path }}{% endblock %}
+{% block css %}
+    <link href = "/stat/css/explorer.css" type = "text/css" rel = "stylesheet">
+    {{ extra_spacer|safe }}
+{% endblock %}
+
+{% block header %}
+    Directory listing of <b>{{ path }}</b>
+{% endblock %}
+{% block content %}
+    <!-- File listing -->
+    <table>
+        <tr><td><b>Name</b></td><td class = "spacer"><b>Size</b></td></tr>
+        {% for item in items %}
+            <tr>
+                <td>{{ item["icon"]|safe }} <a href = "/pub/{{ item['path'] }}" title = "{{ item['name'] }}">{{ item["name"]|truncate(75) }}</a></td>
+                <td class = "spacer">{{ item["size"] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
