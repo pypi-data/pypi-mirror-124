@@ -1,0 +1,14 @@
+kmerhash/hasher.cpython-37m-x86_64-linux-gnu.so,sha256=p7lfbjxQ9sqJvnc5Wrhgxk3foC3SXwFvHMUPu5zip4M,1291584
+kmerhash/hasher.pyx,sha256=xTIix92HSYgjMDNjdHE7o_nn82VgFGCM_Yk1DCtUKEY,6383
+kmerhash/hasher.c,sha256=D-yBNMLVgEOpmGk8dqCOGe0lcmGXzYtiyH6mMN25KV4,1014469
+kmerhash/hasher.pxd,sha256=vzMkH6mo3M6i58kAx5TJAk-HzNJ_lZHUbisGroJ-z0Y,145
+kmerhash/.gitignore,sha256=W7NSrfYW6IuhEj-DmC8GeruPqJo2EHeDvttTFzOdTqE,38
+kmerhash/__init__.py,sha256=t0e2YmnnghsTK7_19uKoqy3Hw97xgb3fivDNLtGHb_M,26
+kmerhash/__init__.pxd,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kmerhash/tests/test1.py,sha256=z6Xsi56xcdtdFm174iGEU-mRtc78EiODxaBXh-dCsms,2651
+kmerhash/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kmerhash-0.4.dist-info/METADATA,sha256=dFZ4AJVlagVwOJvxlpwh9a58Gtz59rtS3vnlQlcKfOA,363
+kmerhash-0.4.dist-info/LICENSE.md,sha256=NeAS4fEDLL128Rw4oSWrQL3tW7_N4cFUA2pnavIg-Kw,1069
+kmerhash-0.4.dist-info/RECORD,,
+kmerhash-0.4.dist-info/WHEEL,sha256=T7Cp5xu87yB0VfKahSR3N0JT_FVycX4pq6-fNwtW39g,221
+kmerhash-0.4.dist-info/top_level.txt,sha256=XR21x49Wxt2tTM7QIR5RA--5zUR6Zdfx8tUvoJTnhc8,9

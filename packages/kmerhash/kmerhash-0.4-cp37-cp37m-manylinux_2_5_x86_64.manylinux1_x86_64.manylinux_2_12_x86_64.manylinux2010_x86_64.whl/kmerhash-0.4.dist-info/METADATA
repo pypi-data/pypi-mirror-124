@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kmerhash
+Version: 0.4
+Summary: Generate hash values from a sequence corresponding to kmers in the sequence
+Home-page: https://github.com/kcleal/dysgu
+Author: Kez Cleal
+Author-email: clealk@cardiff.ac.uk
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE.md
+Requires-Dist: cython
+Requires-Dist: numpy
+
+UNKNOWN
+
