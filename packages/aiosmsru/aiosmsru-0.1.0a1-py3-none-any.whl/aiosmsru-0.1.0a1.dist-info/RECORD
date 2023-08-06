@@ -1,0 +1,15 @@
+smsru/__init__.py,sha256=tc5opNtszfvLgbWvwEmuSB9nKh2o-OlpCULmw93xB1k,58
+smsru/aioclient.py,sha256=ba6qETscmpcCEqBk_Qb-xzRwl-ctFVtbXNGuZJcGXDo,6217
+smsru/client.py,sha256=nPHTDLwF8L7pC8sEY7PkWlNxWpTuc6soYUzKALvu4Jg,6124
+smsru/models/__init__.py,sha256=DOrrtTErbpAlw6VpxtYFuVbyns7zqkQaoEpKQUxRDJo,46
+smsru/models/base.py,sha256=OAriHDT8hBKL1dMNXm_4ulUilmNSlrqas1_ec6Yb1Hs,214
+smsru/models/sms.py,sha256=HbZUGWqN50h6kjKozN35t3YUUURV3-Ze0agN069n1Wc,557
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_check_sms.py,sha256=fxYds4_6nWcpPh4L-r8M91c1BX_zJjnu2ci2HrUK3gE,4732
+tests/test_send_sms.py,sha256=i6oCpTozViRLFelp724mQJYBBBCsquEiDmjJwkkmTiw,3929
+tests/test_sms_cost.py,sha256=XI14gglaEKjpUP1DX4C-hZvAwN_b8tI1CJLkiGVDjjY,4157
+aiosmsru-0.1.0a1.dist-info/LICENSE,sha256=S4nUUYvRNatO4VSnvOciJGtXqYw9fvwaCUCYmBYMK9E,16724
+aiosmsru-0.1.0a1.dist-info/METADATA,sha256=T6i83Osauq6ku3P31o0wDZPKASRx9nyaEKzfq9vd_i0,2046
+aiosmsru-0.1.0a1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aiosmsru-0.1.0a1.dist-info/top_level.txt,sha256=IA36Lex9ouJrK0ayJJkZHQRse7yY2DKFW9Mj5xfjHuE,12
+aiosmsru-0.1.0a1.dist-info/RECORD,,
