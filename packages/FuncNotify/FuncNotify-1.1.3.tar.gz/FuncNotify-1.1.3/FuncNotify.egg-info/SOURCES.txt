@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+FuncNotify/NotifyDecorators.py
+FuncNotify/NotifyMethods.py
+FuncNotify/PrintMethod.py
+FuncNotify/SlackMethod.py
+FuncNotify/TeamsMethod.py
+FuncNotify/TemplateMethod_.py
+FuncNotify/TextMethod.py
+FuncNotify/__init__.py
+FuncNotify.egg-info/PKG-INFO
+FuncNotify.egg-info/SOURCES.txt
+FuncNotify.egg-info/dependency_links.txt
+FuncNotify.egg-info/entry_points.txt
+FuncNotify.egg-info/requires.txt
+FuncNotify.egg-info/top_level.txt
