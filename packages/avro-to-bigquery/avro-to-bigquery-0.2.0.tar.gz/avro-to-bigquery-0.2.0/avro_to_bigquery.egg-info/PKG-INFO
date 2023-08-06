@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: avro-to-bigquery
+Version: 0.2.0
+Summary: Create bigquery schema from an avro schema.
+Home-page: UNKNOWN
+Author: Colm O'Connor
+Author-email: coconnor1@wayfair.com
+License: See LICENSE
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Avro to Bigquery
+
+[![CI pipeline status](https://github.com/wayfair-incubator/avro-to-bigquery/workflows/CI/badge.svg?branch=main)](ci)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
+## About The Project
+
+Avro to bigquery is a simple project to create a bigquery schema from an avro schema.
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Installation
+
+1. Clone the repo
+
+   ```sh
+   git clone https://github.com/wayfair-incubator/avro-to-bigquery.git
+   ```
+
+2. Install package
+
+   ```sh
+   pip install avro-to-bigquery
+   ```
+
+## Usage
+
+...
+
+## Roadmap
+
+See the [open issues](https://github.com/wayfair-incubator/avro-to-bigquery//issues) for a list of proposed features (and known issues).
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. For detailed contributing guidelines, please see [CONTRIBUTING.md](CONTRIBUTING.md)
+
+## License
+
+Distributed under the `MIT` License. See `LICENSE` for more information.
+
+## Contact
+
+Colm O'Connor
+
+Project Link: [https://github.com/wayfair-incubator/avro-to-bigquery/](https://github.com/wayfair-incubator/avro-to-bigquery/)
+
+## Acknowledgements
+
+This template adapted from
+[https://github.com/othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+
+

@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+avro_to_bigquery/__init__.py
+avro_to_bigquery/converter.py
+avro_to_bigquery.egg-info/PKG-INFO
+avro_to_bigquery.egg-info/SOURCES.txt
+avro_to_bigquery.egg-info/dependency_links.txt
+avro_to_bigquery.egg-info/requires.txt
+avro_to_bigquery.egg-info/top_level.txt
+tests/__init__.py
+tests/unit/__init__.py
+tests/unit/test_converter.py
