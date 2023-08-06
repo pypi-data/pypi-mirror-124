@@ -1,0 +1,16 @@
+abstar
+abutils>=0.2.5
+anndata
+harmonypy
+leidenalg
+matplotlib
+natsort
+numpy
+pandas
+pytest
+scanpy
+scanorama
+scrublet
+scvelo
+seaborn>=0.11
+umap-learn
