@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tuat-feed"
+version = "0.1.0"
+description = "Unofficial library for fetching the feed for TUAT"
+authors = ["Shogo Takata <s196643z@st.go.tuat.ac.jp>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21.9b0", allow-prereleases = true}
+pytest = "^6.2.5"
+ipython = "^7.28.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
