@@ -1,0 +1,7 @@
+numpy>=1.16.4
+scipy>=1.4.1
+pandas>=0.24.2
+scikit-learn>=0.22.1
+tensorly==0.6.0
+OpenML>=0.9.0
+mkl>=1.0.0
