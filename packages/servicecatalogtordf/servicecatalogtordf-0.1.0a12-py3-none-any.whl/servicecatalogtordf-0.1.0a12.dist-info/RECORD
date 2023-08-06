@@ -1,0 +1,11 @@
+servicecatalogtordf/__init__.py,sha256=UQFDtvL4eo_GO_kKZVgMXRDNhE-r5fbVmDPwuuBd1Mo,1513
+servicecatalogtordf/event.py,sha256=2kq4RqVTMUIVO54YH_JLaHKsSe0FrzcGm4-0zNzparw,6553
+servicecatalogtordf/evidence.py,sha256=hgd8LFRhMbvnsjyDjMuufRyetbsZsckFXvlVqjbT8fE,7604
+servicecatalogtordf/legal_resource.py,sha256=NDIuOEe_qUMjXsKgz7FKSglZZM8lU1HVCmESfksSfbk,7735
+servicecatalogtordf/public_organization.py,sha256=92yZb9CXchkdfPgDsAOyZdkFMThSHDpxBgmU4u4836o,6405
+servicecatalogtordf/rule.py,sha256=1RVmk6bWFD26ChS2vnu72qT4PE_iHrnI_4rhJLyBswA,7343
+servicecatalogtordf/service.py,sha256=u0cIZ7UhGG87OHlJNz7NNZl5AKWg8YDA51cLwwB2frc,10311
+servicecatalogtordf-0.1.0a12.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+servicecatalogtordf-0.1.0a12.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+servicecatalogtordf-0.1.0a12.dist-info/METADATA,sha256=DohG-3e90dgXtFX_XCXQPptMkI85CZtys1UckxGUcsI,4100
+servicecatalogtordf-0.1.0a12.dist-info/RECORD,,
