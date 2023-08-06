@@ -1,0 +1,10 @@
+fastspell/FastSpell.py,sha256=yuee3vj-tbB0t50P3dInBIHqHSGtnKr51N4pLEcwVY4,7574
+fastspell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastspell/config/hunspell.yaml,sha256=KOxv_qcr0BpzMijwQzXTq9TzdTfbFGkPgbZh5yyW1JA,370
+fastspell/config/similar.yaml,sha256=QbyP5RH8I_GwtHRJtgDN-XILeqMG1JvHVj9ahXmAQBw,381
+fastspell/config/tokenizers.yaml,sha256=WSNcJo9VqUWwRUeHO_MMTcS5qIdrbDqKMU0U4rOd9gA,204
+fastspell-0.1.3.data/scripts/fastspell,sha256=qRJFeG0z8QtgrYCMuoPlXlfGceEQUitn9JUulUTXDvY,365
+fastspell-0.1.3.dist-info/METADATA,sha256=0leJA35L1JQDDOYihIyTJqpDJYCNhxIZFwa0xwkrzxw,9187
+fastspell-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fastspell-0.1.3.dist-info/top_level.txt,sha256=Gvco90Y4Dlh1V7IiyCYWtgQy4ki5V7tF_v3-Q06pgxE,10
+fastspell-0.1.3.dist-info/RECORD,,
