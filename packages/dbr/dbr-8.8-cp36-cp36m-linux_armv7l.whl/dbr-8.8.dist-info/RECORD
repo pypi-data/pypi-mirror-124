@@ -1,0 +1,12 @@
+dbr-8.8.data/purelib/dbr/__init__.py,sha256=1cASWQO883QNqPHPHuE5NbxLTKE5tmVqUIt4O-JBgjI,50
+dbr-8.8.data/purelib/dbr/dbr.cpython-36m-arm-linux-gnueabihf.so,sha256=Rq7f_pWqWELoppNfHLp1cLdzvgdbQWXJsaz3nmu6ek4,289552
+dbr-8.8.data/purelib/dbr/dbr_python.py,sha256=LMBrHrvAhD1zulEcmFfJoQpakaUIMnOx-hA6RE_Y9fQ,121081
+dbr-8.8.data/purelib/dbr/libDynamLicenseClient.so,sha256=ZnsEfv6hCyhtfezGMuoAGOXvMAfzDvVRkfpTHqzl0rc,3208372
+dbr-8.8.data/purelib/dbr/libDynamicPdf.so,sha256=J8n0LX0GlhQGSiJZC2VrsHQX5fuckfavIvQ11rahTSA,4331344
+dbr-8.8.data/purelib/dbr/libDynamsoftBarcodeReader.so,sha256=NXyVZvn2sptpyWKDoaTJ8IBI72CzLWXWXNo0C_McHfU,9185540
+dbr-8.8.data/purelib/dbr/libDynamsoftLicenseClient.so,sha256=tzY7RknQLkg6Mo021yMDBs35jBH8IzNdjSxM1LNrq4o,3751044
+dbr-8.8.dist-info/LICENSE.txt,sha256=e1_qPW579kp1zNdplCWXK9e-zC7ylZebZXc3AiqNwTs,74
+dbr-8.8.dist-info/METADATA,sha256=m28E0kahmtkaOGhEoT924wJhV0uTxESgeE6VVJIFp9I,5077
+dbr-8.8.dist-info/WHEEL,sha256=sjLOTExXhPgCbEsluQ4274OodjijAVMjsUzfNAxlvgo,104
+dbr-8.8.dist-info/top_level.txt,sha256=RtnRuv17zC0FTWgII9msEV_uFpxjilu6Jag3kKXZZ-Q,4
+dbr-8.8.dist-info/RECORD,,
