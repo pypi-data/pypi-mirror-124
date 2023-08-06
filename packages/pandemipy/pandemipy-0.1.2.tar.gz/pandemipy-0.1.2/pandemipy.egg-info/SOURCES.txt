@@ -1,0 +1,9 @@
+README.md
+setup.py
+pandemipy/__init__.py
+pandemipy/conftest.py
+pandemipy.egg-info/PKG-INFO
+pandemipy.egg-info/SOURCES.txt
+pandemipy.egg-info/dependency_links.txt
+pandemipy.egg-info/requires.txt
+pandemipy.egg-info/top_level.txt
