@@ -1,0 +1,12 @@
+yuriko/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yuriko/main.py,sha256=m0gR-HuNyxT-Lx81dhuE5zlkwrK2LTXzJ8_7OiDtIgo,1497
+yuriko/manager.py,sha256=uyhl_gza7Zyz3HgA7HeFuKaX4loUWqwxugjVQnald1U,3943
+yuriko/password.py,sha256=-LD5zRcuuSiSKOfDoEsHiXmntW6Zfs_RE-9wzxx8rYw,562
+yuriko/settings.py,sha256=If45y8iOIV2j24FLZhbvTnOIEk48HZ8d2RncONtPrqU,126
+yuriko/tests.py,sha256=cJ9xDn-vmnORezKeyMrGCrsbhCuvCeWgePvfu8l5940,996
+yuriko-0.0.4.dist-info/LICENSE,sha256=vuj-xzVRJc9_Drxe8767TAJfJz0PxJSTpaY3cveBQL0,1083
+yuriko-0.0.4.dist-info/METADATA,sha256=S43SyWCfUWTdP2Jk9RVTO1l5-IT9pH8Y1rUqRR4D4tM,1223
+yuriko-0.0.4.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+yuriko-0.0.4.dist-info/entry_points.txt,sha256=9RUypcGsHXvvEHehCtIRSIrcWNlDXQAVei0QzrMpz7k,45
+yuriko-0.0.4.dist-info/top_level.txt,sha256=sQYkAkEg8JnveUkNZy9YhsfHcYwSslYXAXQHaDtuAa8,7
+yuriko-0.0.4.dist-info/RECORD,,
