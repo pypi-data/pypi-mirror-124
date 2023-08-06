@@ -1,0 +1,14 @@
+[console_scripts]
+biovis-report = biovis_report.__main__:main
+
+[mkdocs.plugins]
+header_injector = mkdocs.contrib.header_injector:HeaderInjectorPlugin
+search = mkdocs.contrib.search:SearchPlugin
+
+[mkdocs.themes]
+biovis_mkdocs = mkdocs.themes.biovis_mkdocs
+biovis_rtd = mkdocs.themes.biovis_readthedocs
+docskimmer = mkdocs.themes.mkdocs_docskimmer
+mkdocs = mkdocs.themes.mkdocs
+white_ppt = mkdocs.themes.white_ppt
+
