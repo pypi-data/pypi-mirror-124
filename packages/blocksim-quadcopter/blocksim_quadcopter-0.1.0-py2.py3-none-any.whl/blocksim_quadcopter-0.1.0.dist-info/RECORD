@@ -1,0 +1,17 @@
+blocksim_quadcopter/AttPilot.py,sha256=F4ygTI4kfEkBhSM8wSDFrSTF3pObuuydMusbIX0e3XY,3358
+blocksim_quadcopter/Motor.py,sha256=isP5X1NE9Xhf3rviq8SuKaqC4xwR-W-Rt_VrBGHJe08,1518
+blocksim_quadcopter/Quadri.py,sha256=ehXQuaPrEoIqgwyXAODe0apiVngQGJZZtfJ4BaA2Sbg,1916
+blocksim_quadcopter/VTOLPilot.py,sha256=Q7PafgFE-zicXe-6Vu5nrUrhXDnmgnvMZ3hgTB56WnM,2034
+blocksim_quadcopter/__init__.py,sha256=wNlydifuWt96VxqaGXCxrX9f351-Uwh04hqw5d-sQRk,981
+blocksim_quadcopter/constants.py,sha256=5XvWlB6jIZikGBRavDGP37uvWwUYfIv00hyRaZeN140,58
+blocksim_quadcopter/exceptions.py,sha256=CgmIQVa6oPwWW1JGkYXjquJ1XVoj6iGZ7k4o0fvS13U,85
+tests/TestBase.py,sha256=an9rv-LlkCF7sthJ-zgffihs0FyfSHggSRqPQjACXsE,655
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_VTOL.py,sha256=H1aNf7EuW2_teN7zu-8t3fBFLjeW8iXoK9744e74EVs,11354
+tests/test_quad.py,sha256=sWjLMMHl7Cf6oe4zNlGk_Lq6z6N1qD-U3Xyc-THRCNI,11242
+blocksim_quadcopter-0.1.0.dist-info/AUTHORS.rst,sha256=2gx3Qj4rbi13_SpuQCx8e7_iUOJG36qJcWfstmZCkYc,172
+blocksim_quadcopter-0.1.0.dist-info/LICENSE,sha256=crsUvzRuZR5VYJKywO0W6aApAGH_GvfT1NObdUGbZls,1090
+blocksim_quadcopter-0.1.0.dist-info/METADATA,sha256=KCXQQTVufxKELdjaTE2GSqa9-CFPALnQ513mBuJpoTs,1865
+blocksim_quadcopter-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+blocksim_quadcopter-0.1.0.dist-info/top_level.txt,sha256=ldHry0zRhpKX719huwqcMM-HSNb3odSTmm-miKMWPtM,26
+blocksim_quadcopter-0.1.0.dist-info/RECORD,,
