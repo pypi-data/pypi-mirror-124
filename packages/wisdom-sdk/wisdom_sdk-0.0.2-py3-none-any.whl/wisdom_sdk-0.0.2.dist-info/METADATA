@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: wisdom-sdk
+Version: 0.0.2
+Summary: Wisdom SDK
+Home-page: https://nexstem.ai
+Author: CortexBCI Inc.
+Author-email: support@cortexbci.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://support.nexstem.ai
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argon2-cffi (>=21.1.0)
+Requires-Dist: attrs (>=21.2.0)
+Requires-Dist: backcall (>=0.2.0)
+Requires-Dist: bleach (>=4.1.0)
+Requires-Dist: bokeh (>=2.4.1)
+Requires-Dist: certifi (>=2021.10.8)
+Requires-Dist: cffi (>=1.15.0)
+Requires-Dist: charset-normalizer (>=2.0.7)
+Requires-Dist: colorama (>=0.4.4)
+Requires-Dist: colorcet (>=2.0.6)
+Requires-Dist: cryptography (>=35.0.0)
+Requires-Dist: debugpy (>=1.5.1)
+Requires-Dist: decorator (>=5.1.0)
+Requires-Dist: defusedxml (>=0.7.1)
+Requires-Dist: entrypoints (>=0.3)
+Requires-Dist: future (>=0.18.2)
+Requires-Dist: HeapDict (>=1.0.1)
+Requires-Dist: holoviews (>=1.14.6)
+Requires-Dist: idna (>=3.3)
+Requires-Dist: ipykernel (>=6.4.2)
+Requires-Dist: ipython (>=7.28.0)
+Requires-Dist: ipython-genutils (>=0.2.0)
+Requires-Dist: ipywidgets (>=7.6.5)
+Requires-Dist: iso8601 (>=0.1.16)
+Requires-Dist: jedi (>=0.18.0)
+Requires-Dist: Jinja2 (>=3.0.2)
+Requires-Dist: jsonschema (>=4.1.2)
+Requires-Dist: jupyter (>=1.0.0)
+Requires-Dist: jupyter-client (>=7.0.6)
+Requires-Dist: jupyter-console (>=6.4.0)
+Requires-Dist: jupyter-core (>=4.8.1)
+Requires-Dist: jupyterlab-pygments (>=0.1.2)
+Requires-Dist: jupyterlab-widgets (>=1.0.2)
+Requires-Dist: Markdown (>=3.3.4)
+Requires-Dist: MarkupSafe (>=2.0.1)
+Requires-Dist: matplotlib (>=3.4.3)
+Requires-Dist: matplotlib-inline (>=0.1.3)
+Requires-Dist: mistune (>=0.8.4)
+Requires-Dist: nbclient (>=0.5.4)
+Requires-Dist: nbconvert (>=6.2.0)
+Requires-Dist: nbformat (>=5.1.3)
+Requires-Dist: nest-asyncio (>=1.5.1)
+Requires-Dist: notebook (>=6.4.5)
+Requires-Dist: numpy (>=1.21.3)
+Requires-Dist: packaging (>=21.0)
+Requires-Dist: pandas (>=1.3.4)
+Requires-Dist: pandocfilters (>=1.5.0)
+Requires-Dist: panel (>=0.12.4)
+Requires-Dist: param (>=1.11.1)
+Requires-Dist: parso (>=0.8.2)
+Requires-Dist: pickleshare (>=0.7.5)
+Requires-Dist: Pillow (>=8.4.0)
+Requires-Dist: prometheus-client (>=0.11.0)
+Requires-Dist: prompt-toolkit (>=3.0.20)
+Requires-Dist: protobuf (>=3.19.0)
+Requires-Dist: pycparser (>=2.20)
+Requires-Dist: pyct (>=0.4.8)
+Requires-Dist: Pygments (>=2.10.0)
+Requires-Dist: pyparsing (>=2.4.7)
+Requires-Dist: pyrsistent (>=0.18.0)
+Requires-Dist: python-dateutil (>=2.8.2)
+Requires-Dist: pytz (>=2021.3)
+Requires-Dist: pyviz-comms (>=2.1.0)
+Requires-Dist: pywin32 (>=302)
+Requires-Dist: pywinpty (>=1.1.4)
+Requires-Dist: PyYAML (>=6.0)
+Requires-Dist: pyzmq (>=22.3.0)
+Requires-Dist: qtconsole (>=5.1.1)
+Requires-Dist: QtPy (>=1.11.2)
+Requires-Dist: requests (>=2.26.0)
+Requires-Dist: scipy (>=1.7.1)
+Requires-Dist: Send2Trash (>=1.8.0)
+Requires-Dist: serial (>=0.0.97)
+Requires-Dist: six (>=1.16.0)
+Requires-Dist: streamz (>=0.6.3)
+Requires-Dist: terminado (>=0.12.1)
+Requires-Dist: testpath (>=0.5.0)
+Requires-Dist: toolz (>=0.11.1)
+Requires-Dist: tornado (>=6.1)
+Requires-Dist: tqdm (>=4.62.3)
+Requires-Dist: traitlets (>=5.1.0)
+Requires-Dist: typing-extensions (>=3.10.0.2)
+Requires-Dist: urllib3 (>=1.26.7)
+Requires-Dist: wcwidth (>=0.2.5)
+Requires-Dist: webencodings (>=0.5.1)
+Requires-Dist: widgetsnbextension (>=3.5.1)
+Requires-Dist: zict (>=2.0.0)
+
+# NEXSTEM WISDOM SDK - PYTHON BINDING
+
+## Modules
+
+- DEVICE
+- STREAM
+- PREPROCESSING
+- VISUALIZATION (VIZ)
+- TRAINING
+  - EXPERIMENT
+  - MODELS
+    - MI 
+    - MI2
+    - SSVEP
+    - P300
+    - FACE
+    - EMOTION
+    - FOCUS
+- DEPLOY
+
