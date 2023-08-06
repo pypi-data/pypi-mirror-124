@@ -1,0 +1,13 @@
+owid/catalog/__init__.py,sha256=0wq2J039bCnW0RsMVUWjDfAoSiUcApZc1qBOlNhHAmk,289
+owid/catalog/catalogs.py,sha256=Qi7PIX7tQ8Eq5tQ7K_MerlQE1IctnXzQh5koO3ifZFo,6546
+owid/catalog/datasets.py,sha256=uhhRACIsp5hwoJr-DeLpvWgYB525lVPh40ldva9WSnQ,6187
+owid/catalog/meta.py,sha256=62p2zxlRh4pUx2IlcXcpv3YiIeH7gRhR_sV18RyVOHg,3595
+owid/catalog/properties.py,sha256=0YSGoUGusmNRojRHO0W1ZMjgU4yM-toxOqH63h-vijk,449
+owid/catalog/schemas/table.json,sha256=9kngxMHP1bcjKRGK47Lyv1g7EJ5_vJASSwMW_A_vAdA,532
+owid/catalog/schemas/variable.json,sha256=XSw2JOrZ8-nKxtlI_5HrxsNu4J6CuLS4zWmUFmxAhaE,527
+owid/catalog/tables.py,sha256=Z3CZcY0pHCT7GsISMV3gxTgJhAOV76R8gGA_FViLiHU,6570
+owid/catalog/variables.py,sha256=2Ymirp1KrHg1KISjPHkqjT681omdMbrPTfqumC97W5g,2406
+owid_catalog-0.2.1.dist-info/LICENSE,sha256=h3W2OEglx2jaOj145JoWav12nVTK1kHQm_vIsHayHyc,1079
+owid_catalog-0.2.1.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+owid_catalog-0.2.1.dist-info/METADATA,sha256=v2_2mrZNzIax_QwxEzmNKl70X5cWF9NoWUNUm3h4UZg,5524
+owid_catalog-0.2.1.dist-info/RECORD,,
