@@ -1,0 +1,30 @@
+Change Log
+==========
+
+1.0.2 (06/17/2021)
+------------------
+-First Release
+
+1.0.3 (06/22/2021)
+-Added attribute table_data to Stand Class: a list of the tree-level data for trees within the stand
+-Added method table_to_csv: exports  stand.table_data to a csv file
+-Added method table_to_excel: exports stand.table_data to an xlsx file
+
+1.0.4 (06/23/2021)
+-Evened out the lengths of the sub lists within stand.table_data
+
+1.0.5 (10/20/2021)
+-Changed the way you import the main classes (Stand, Plot, TimberQuick, etc.),
+you can now just import them from treetopper instead of from the modules
+
+1.0.6 (10/20/2021)
+-Added package dependencies to setup.py
+
+1.0.7 (10/20/2021)
+-Testing package dependencies on pip install, apologies for the frequent version increasing
+
+1.0.8 (10/20/2021)
+-Testing package dependencies on pip install, apologies for the frequent version increasing
+
+1.0.9 (10/22/2021)
+-Added TargetDensityError to the treetopper imports
