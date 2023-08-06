@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distrib_rox/Binomialdistribution.py
+distrib_rox/Gaussiandistribution.py
+distrib_rox/Generaldistribution.py
+distrib_rox/__init__.py
+distrib_rox.egg-info/PKG-INFO
+distrib_rox.egg-info/SOURCES.txt
+distrib_rox.egg-info/dependency_links.txt
+distrib_rox.egg-info/not-zip-safe
+distrib_rox.egg-info/top_level.txt
