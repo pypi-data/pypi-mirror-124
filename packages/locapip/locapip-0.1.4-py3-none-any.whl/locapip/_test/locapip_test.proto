@@ -1,0 +1,20 @@
+//
+// Created by epw on 2021/10/14.
+//
+
+syntax = "proto3";
+
+option optimize_for = SPEED;
+
+package locapip_test;
+
+service Test {
+  rpc unary_unary(Text) returns (Text) {}
+  rpc unary_stream(Text) returns (stream Text);
+  rpc stream_unary(stream Text) returns (Text);
+  rpc stream_stream(stream Text) returns (stream Text);
+}
+
+message Text {
+  string text = 1;
+}
