@@ -1,0 +1,6 @@
+azure-kusto-data
+azure-kusto-ingest
+pandas
+databricks.koalas
+feedparser
+html2text
