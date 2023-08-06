@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__inti__.py
+setup.py
+khengol.egg-info/PKG-INFO
+khengol.egg-info/SOURCES.txt
+khengol.egg-info/dependency_links.txt
+khengol.egg-info/top_level.txt
