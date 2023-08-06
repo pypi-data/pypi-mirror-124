@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/PygameWrap.egg-info/PKG-INFO
+src/PygameWrap.egg-info/SOURCES.txt
+src/PygameWrap.egg-info/dependency_links.txt
+src/PygameWrap.egg-info/requires.txt
+src/PygameWrap.egg-info/top_level.txt
+src/pywrap/__init__.py
+src/pywrap/pywrap.py
