@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tfa-car
+Version: 0.1.0
+Summary: A python implementation of tfa_car.m from the matlab package found at car-net.org.
+License: MIT
+Author: Ken Liao
+Author-email: cloudrainstar@gmail.com
+Requires-Python: >=3.8,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.4.3,<4.0.0)
+Requires-Dist: numpy (>=1.21.3,<2.0.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: scipy (>=1.7.1,<2.0.0)
