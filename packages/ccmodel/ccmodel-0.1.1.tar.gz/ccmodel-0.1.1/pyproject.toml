@@ -1,0 +1,34 @@
+[project]
+name = "ccmodel"
+version = "0.1.1"
+description = "Clang-10 powered C/C++ code modeling"
+dependencies = [ "loguru~=0.5", "graphlib-backport~=1.0", "regex~=2021.10", "orjson~=3.6", "ccm-clang-tools~=0.1", "docker~=5.0",]
+requires-python = ">=3.8"
+dynamic = [ "classifiers",]
+readme = "README.md"
+keywords = [ "c", "cc", "c++", "cpp", "parse", "code", "model",]
+[[project.authors]]
+name = "Gabe Ingram"
+email = "gabriel.ingram@colorado.edu"
+
+[build-system]
+requires = [ "pdm-pep517",]
+build-backend = "pdm.pep517.api"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/gjingram/ccmodel"
+repository = "https://github.com/gjingram/ccmodel"
+
+[project.scripts]
+ccm = "ccmodel.ccm:run_ccm"
+
+[project.optional-dependencies]
+
+[tool.pdm]
+package-dir = "src"
+
+[tool.pdm.dev-dependencies]
+dev = [ "pytest~=6.2", "black<22,>=21.9b0", "vulture~=2.3", "twine~=3.4", "setuptools~=58.3",]

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ccmodel
+Version: 0.1.1
+Summary: Clang-10 powered C/C++ code modeling
+License: MIT
+Keywords: c,cc,c++,cpp,parse,code,model
+Author-email: Gabe Ingram <gabriel.ingram@colorado.edu>
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: homepage, https://github.com/gjingram/ccmodel
+Project-URL: repository, https://github.com/gjingram/ccmodel
+Description-Content-Type: text/markdown
+Description: # ccmodel
+        Python libclang-powered C/C++ code modeling
+        
+        Very immature development, not in a useful
+        state yet. No docs.
+
