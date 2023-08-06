@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+pymovingintelligence/__init__.py
+pymovingintelligence/__version__.py
+pymovingintelligence/errors.py
+pymovingintelligence.egg-info/PKG-INFO
+pymovingintelligence.egg-info/SOURCES.txt
+pymovingintelligence.egg-info/dependency_links.txt
+pymovingintelligence.egg-info/requires.txt
+pymovingintelligence.egg-info/top_level.txt
