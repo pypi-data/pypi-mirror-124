@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pyvcgencmd
+Version: 0.0.2
+Summary: Python Wrapper for BCM (Raspberry Pi) vcgencmd
+Home-page: https://github.com/AzatAI/vcgencmd
+Author: Yaakov Azat
+Author-email: yaakovazat@gmail.com
+License: MIT
+Project-URL: Documentation, https://azat.ai
+Project-URL: Source, https://github.com/AzatAI/pyvcgencmd
+Description: # Python Vcgencmd Wrapper
+        
+        Python Wrapper for BCM (Raspberry Pi) vcgencmd.
+        
+        This project initially created for AzatAI Xlink Clusters, where we use Raspbeery Pis as a node for our kubernets classters. They worked very well, to control and monitor the rpi nodes, we then created this package.
+        
+        This package is also used in many other projects where RPi is a means of central computational power.
+        
+        
+        
+        Still experimental.
+        
+        ## How to install 
+        `pip3 install pyvcgencmd`  
+        ## How to use   
+        Quick example:  
+        ``` python
+        from pyvcgencmd.models import Vcmd
+        ```
+        
+        ## How to contribute    
+        to be documented soon.  
+        
+        ## Release Notes    
+        ### Latest Changes  
+        
+        
+        ## License
+        
+        This project is licensed under the terms of the MIT license.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
