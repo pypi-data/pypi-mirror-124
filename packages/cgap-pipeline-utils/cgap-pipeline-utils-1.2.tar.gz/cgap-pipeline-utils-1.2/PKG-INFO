@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cgap-pipeline-utils
+Version: 1.2
+Summary: Collection of utilities for cgap-pipeline
+Home-page: https://github.com/dbmi-bgm/cgap-pipeline-utils
+Author: Michele Berselli, Phil Grayson
+Author-email: berselli.michele@gmail.com
+License: MIT
+Description: # cgap-pipeline-utils
+        
+        Collection of utilities for cgap-pipeline
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6, <3.8
+Description-Content-Type: text/markdown
