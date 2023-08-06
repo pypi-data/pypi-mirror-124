@@ -1,0 +1,20 @@
+#lang ivy
+
+module unsigned_bit_vector(bits) = {
+    type this
+    global {
+        interpret this -> bv[bits]
+    }
+}
+    
+autoinstance uint[bits] : unsigned_bit_vector(bits)
+
+object nat = {
+    type this
+    global {
+        interpret nat -> nat
+    }
+    function max2(X:this,Y:this) = Y if X <= Y else X
+    function mod(X:this,Y:this) = X - X / Y * Y
+    function next(X:this) = X + 1
+}
