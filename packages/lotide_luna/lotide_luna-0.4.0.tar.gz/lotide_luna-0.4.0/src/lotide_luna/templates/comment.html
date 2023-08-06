@@ -1,0 +1,22 @@
+{% load datetime_filter %}
+{% load humanize %}
+<article class="comment" id="comment-{{ comment.id }}">
+  <details open>
+    <summary>
+      <span class="upvote">{{ comment.score }}</span> point{{ comment.score|pluralize}}
+      <a href="{% url 'user' comment.author.id %}">{{ comment.author.username }}</a>
+      commented
+      <time datetime="{{ comment.created }}">
+        {{ comment.created | to_datetime | naturaltime }}
+      </time>
+    </summary>
+    <div class="comment">
+      {{ comment.content_html | safe }}
+      {% for reply in comment.replies.items %}
+      {% with comment=reply template_name="comment.html" %}
+      {% include template_name %}
+      {% endwith %}
+      {% endfor %}
+    </div>
+  </details>
+</article>

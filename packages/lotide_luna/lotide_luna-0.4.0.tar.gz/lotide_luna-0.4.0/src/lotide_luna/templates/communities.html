@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Communities on instance - Luna
+{% endblock %}
+
+<h1>Communities</h1>
+{% block body %}
+<h2>Local</h2>
+<ul>
+  {% for community in local %}
+  <li><a href='/communities/{{ community.id }}'>{{ community.name }}</a></li>
+  {% endfor %}
+</ul>
+<h2>Remote</h2>
+<ul>
+  {% for community in remote %}
+  <li>
+    <a href='/communities/{{ community.id }}'>
+      {{ community.name }}@{{ community.host }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
