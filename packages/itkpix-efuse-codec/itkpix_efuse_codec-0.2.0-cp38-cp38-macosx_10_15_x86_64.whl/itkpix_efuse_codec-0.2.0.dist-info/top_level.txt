@@ -1,0 +1,2 @@
+cli
+itkpix_efuse_codec
