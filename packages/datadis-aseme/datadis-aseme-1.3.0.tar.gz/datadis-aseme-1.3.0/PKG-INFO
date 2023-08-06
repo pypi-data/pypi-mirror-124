@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: datadis-aseme
+Version: 1.3.0
+Summary: Herramienta gestión API ASEME DATADIS
+Home-page: https://github.com/gisce/datadis-aseme
+Author: Francesc Puig
+Author-email: devel@gisce.net
+License: BSD 3-Clause License
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides: datadis
