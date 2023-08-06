@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: maison
+Version: 0.1.0
+Summary: Maison
+Home-page: https://github.com/dbatten5/maison
+License: MIT
+Author: Dom Batten
+Author-email: dominic.batten@googlemaill.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Project-URL: Changelog, https://github.com/dbatten5/maison/releases
+Project-URL: Documentation, https://dbatten5.github.io/maison
+Project-URL: Repository, https://github.com/dbatten5/maison
+Description-Content-Type: text/markdown
+
+# Maison
+
+Read configuration settings from `python` configuration files.
+
+## Motivation
+
+When developing a `python` application, e.g a command-line tool, it can be
+helpful to allow the user to set their own configuration options to allow them
+to tailor the tool to their needs. These options are typically set in files in
+the root of a project directory that uses the tool, for example in a
+`pyproject.toml` file.
+
+`maison` aims to provide a simple and flexible way to read and validate those
+configuration options so that they may be used in the application.
+
+## Help
+
+See the [documentation](https://dbatten5.github.io/maison) for more details.
+
+## Installation
+
+```bash
+pip install maison
+```
+
+## Licence
+
+MIT
+
