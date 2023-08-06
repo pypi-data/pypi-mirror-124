@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: JATOOLBOX
+Version: 0.0.2
+Summary: Classe que agrega alguns métodos comummente utilizados em análises de jornadas em Python na DP6.
+Home-page: https://github.com/DP6/customer-journey-analysis-toolbox
+Author: Gabriel Ribeiro,Jaime Silva
+Author-email: gabriel.ribeiro@dp6.com.br, jaime.silva@dp6.com.br
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/DP6/customer-journey-analysis-toolbox/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# customer-journey-analysis-toolbox
+Classe que agrega alguns métodos comumente utilizados em análises de jornadas
+em Python na DP6.
+
+
