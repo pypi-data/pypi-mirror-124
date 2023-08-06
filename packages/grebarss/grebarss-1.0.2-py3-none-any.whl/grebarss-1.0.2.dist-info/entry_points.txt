@@ -1,0 +1,3 @@
+[console_scripts]
+grebarss = rss_reader.rss_reader:main
+
