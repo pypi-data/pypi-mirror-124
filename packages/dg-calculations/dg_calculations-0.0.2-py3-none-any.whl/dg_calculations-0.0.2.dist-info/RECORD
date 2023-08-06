@@ -1,0 +1,13 @@
+dg_calculations/__init__.py,sha256=mIF64q-j_FPpAqEF4PKZ4DOKgRDbTOnd3aXxIJTgB9Y,62
+dg_calculations/duration.py,sha256=ja7DVelIhmxU__kH_XshGvTOxFqgz8m9YIjFnTcgYXs,1128
+dg_calculations/conversions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dg_calculations/conversions/area.py,sha256=oSNSkyjoowDGIcqmr73KdkfizctTj7uvXpSViAhbmXg,1131
+dg_calculations/conversions/length.py,sha256=azj7x3psFM2qA4zVXiNNc_b9r5BGT1UN9_V8R8fxP4o,893
+dg_calculations/conversions/mass.py,sha256=j6QxZ8vIUngHvpzQlILq-otCH5rjHPSCKfEuQPFnacw,1010
+dg_calculations/conversions/temperature.py,sha256=quxEu6wWgAidY2GmF1_COlyJ4sM3Zjsz27PpTl5YQ8I,329
+dg_calculations/conversions/volumes.py,sha256=k4rIorQQOwrYROfJYf_1V2uIoKhXapwV1nnbYqs7YS0,1624
+dg_calculations-0.0.2.dist-info/LICENSE,sha256=V9Xc6nsP7pA_R3AUrhbwAMuFgufxwhy-Idwg1ppsxS8,1460
+dg_calculations-0.0.2.dist-info/METADATA,sha256=8Xt5hGwo1tT9zt36_m0A_tdVEFuhYhLunWui7i4qU2I,1135
+dg_calculations-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dg_calculations-0.0.2.dist-info/top_level.txt,sha256=qKXPFz46Q0RQXQc5ngNRY9Z2GmcokOUSK_6AI4Fpqig,16
+dg_calculations-0.0.2.dist-info/RECORD,,
