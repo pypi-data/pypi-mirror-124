@@ -1,0 +1,4 @@
+
+       [console_scripts]
+       subzerod=subzerod.cli:cli_run
+    
