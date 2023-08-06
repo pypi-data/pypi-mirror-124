@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: test-apeksha
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Apeksha Hegde
+Author-email: apeksha05hegde@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+## This package is used to get the total price of the invoice that has been uploaded 
+
+### Give the ```Path file``` of the **pdf** you want to extract from as the parameter for the same. 
+
