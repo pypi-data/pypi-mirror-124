@@ -1,0 +1,9 @@
+README.md
+setup.py
+jsonspot/__init__.py
+jsonspot/comDef.py
+jsonspot/exceptions.py
+jsonspot.egg-info/PKG-INFO
+jsonspot.egg-info/SOURCES.txt
+jsonspot.egg-info/dependency_links.txt
+jsonspot.egg-info/top_level.txt

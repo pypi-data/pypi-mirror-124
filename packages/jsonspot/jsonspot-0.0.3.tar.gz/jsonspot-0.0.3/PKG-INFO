@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jsonspot
+Version: 0.0.3
+Summary: A project to solve the judgment of multiple returned results of api test
+Home-page: https://github.com/jayt1001/jsonspot
+Author: quniao
+Author-email: 276590980@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+A project to solve the judgment of multiple returned results of api test
+
