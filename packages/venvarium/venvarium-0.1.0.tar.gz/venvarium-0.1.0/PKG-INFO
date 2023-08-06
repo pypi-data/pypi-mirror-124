@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: venvarium
+Version: 0.1.0
+Summary: Object-based interaction with a Python virtual environment.
+Author: Maximillian Strand
+Author-email: maximillian.strand@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: entry-points-txt (>=0.2.0,<0.3.0)
