@@ -1,0 +1,7 @@
+views_runs/__init__.py,sha256=KnGPau50Yvt0tJpfQfKLeADO5pvVDQnLhVeUBHgaO-c,52
+views_runs/run.py,sha256=Q1mTdKkk5AFwyL29O0tkFYagywkQJdwm69_TShNug-k,1237
+views_runs/validation.py,sha256=y2HV3pAQ4qanSTCptbJau1HbHuqgWLWaf91FWAJWx6Y,666
+views_runs/vendoring.py,sha256=BovIX1s6JRDoqzllfRA_wxlzsSguxqzs1uS8iz4LMRw,111
+views_runs-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+views_runs-0.1.0.dist-info/METADATA,sha256=RmteGcc2Xo_OKpN1a9eDDOJMGLmJSKX0JNQKouzDZSQ,424
+views_runs-0.1.0.dist-info/RECORD,,
