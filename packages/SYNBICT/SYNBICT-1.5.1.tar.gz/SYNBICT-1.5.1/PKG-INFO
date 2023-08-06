@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: SYNBICT
+Version: 1.5.1
+Summary: Synthetic Biology Curation Tools (SYNBICT)
+Home-page: https://github.com/SD2E/SYNBICT
+Author: Nicholas Roehner
+Author-email: nicholasroehner@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/SD2E/SYNBICT/archive/refs/tags/v1.4.tar.gz
+Description: Synthetic Biology Curation Tools (SYNBICT) is a Python tool suite for automation-assisted annotation, curation, and functional inference for genetic designs.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
