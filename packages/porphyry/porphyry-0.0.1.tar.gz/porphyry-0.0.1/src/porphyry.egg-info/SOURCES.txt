@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/porphyry/__init__.py
+src/porphyry/porphyry.py
+src/porphyry.egg-info/PKG-INFO
+src/porphyry.egg-info/SOURCES.txt
+src/porphyry.egg-info/dependency_links.txt
+src/porphyry.egg-info/top_level.txt
