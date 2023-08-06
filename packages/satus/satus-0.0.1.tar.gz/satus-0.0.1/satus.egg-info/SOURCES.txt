@@ -1,0 +1,5 @@
+setup.py
+satus.egg-info/PKG-INFO
+satus.egg-info/SOURCES.txt
+satus.egg-info/dependency_links.txt
+satus.egg-info/top_level.txt
