@@ -1,0 +1,20 @@
+import numpy
+from setuptools import setup
+from Cython.Build import cythonize
+
+with open("README.md", 'r') as f:
+    long_description = f.read()
+
+setup(
+    name="crowdbot-flow-planning",
+    description='',
+    author='Daniel Dugas',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
+    url="",
+    version='0.0.1',
+    py_modules=['flowplanner'],
+    ext_modules=cythonize("flowplanningtools.pyx", annotate=True),
+    install_requires=['pyyaml', 'numpy'],
+    include_dirs=[numpy.get_include()],
+)
