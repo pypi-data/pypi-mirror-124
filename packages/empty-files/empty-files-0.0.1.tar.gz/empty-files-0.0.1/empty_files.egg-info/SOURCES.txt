@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+empty_files/__init__.py
+empty_files/empty_files.py
+empty_files/version.py
+empty_files.egg-info/PKG-INFO
+empty_files.egg-info/SOURCES.txt
+empty_files.egg-info/dependency_links.txt
+empty_files.egg-info/top_level.txt
