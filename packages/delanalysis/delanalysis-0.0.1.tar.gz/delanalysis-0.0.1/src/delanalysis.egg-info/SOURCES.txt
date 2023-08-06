@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/delanalysis.py
+src/delanalysis.egg-info/PKG-INFO
+src/delanalysis.egg-info/SOURCES.txt
+src/delanalysis.egg-info/dependency_links.txt
+src/delanalysis.egg-info/top_level.txt
