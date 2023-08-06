@@ -1,0 +1,12 @@
+wheel
+setuptools
+types-setuptools
+twine
+grip
+pylint
+flake8
+pytest
+pytest-cov
+mypy
+black
+pynvim
