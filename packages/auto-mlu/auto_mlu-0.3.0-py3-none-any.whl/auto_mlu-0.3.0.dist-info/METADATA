@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: auto-mlu
+Version: 0.3.0
+Summary: Utilities for Machine learning development
+Home-page: UNKNOWN
+Author: Miguel Arquez Abdala
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: scikit-learn
+
+UNKNOWN
+
+
