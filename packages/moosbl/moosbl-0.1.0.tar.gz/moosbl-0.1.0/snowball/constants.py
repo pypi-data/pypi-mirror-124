@@ -1,0 +1,2 @@
+NOT200_ERROR_MSG = "请求错误"
+NO_TOKEN_ERROR_MSG = "未设置TOKEN"
