@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hello_world/__init__.py
+hello_world/core.py
+hellow_World.egg-info/PKG-INFO
+hellow_World.egg-info/SOURCES.txt
+hellow_World.egg-info/dependency_links.txt
+hellow_World.egg-info/top_level.txt

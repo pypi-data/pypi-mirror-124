@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: hellow-World
+Version: 0.0.1
+Summary: A package to difficult task of printing 'Hello World'.
+Home-page: https://github.com/mshemuni/hellow_world
+Author: Mohammad S.Niaei
+Author-email: m.shemuni@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# hellow_world
+A package to difficult task of printing "Hello World".
+
+There are 3 data types.
+
+- `Character`
+- `Message`
+- `Hello`
+
+## `Character`
+`Character` is used to create a character.
+
+For example, one can create a character `h` as such:
+
+```python
+from hello_world import Character
+
+c = Character("h")
+```
+
+## `Message`
+`Message` is a data type to combine characters.
+
+For example, one can create a message `ab` as such:
+
+```python
+from hello_world import Character, Message
+
+a = Character("a")
+b = Character("b")
+
+m = Message([a, b])
+```
+
+or for an easy usage one can directly embed a `Character` to the list:
+
+```python
+from hello_world import Character, Message
+
+m = Message([Character("a"), Character("b")])
+```
+
+## `Hello`
+`Hello` is a data type to display a message.
+
+For example, one can print a message as such:
+
+```python
+from hello_world import Character, Message, Hello
+
+m = Message([Character("a"), Character("b")])
+
+h = Hello(m)
+h.print()
+```
+
+## Example for `Hello World`
+
+```python
+from hello_world import Character, Message, Hello
+
+if __name__ == '__main__':
+    m = Message(
+        [
+            Character("H"), Character("e"), Character("l"),
+            Character("l"), Character("o"), Character(" "),
+            Character("W"), Character("o"), Character("r"),
+            Character("l"), Character("d"), Character("!")
+        ]
+    )
+    h = Hello(m)
+    h.print()
+```
+VoilÃ . Here you have "Hello World!" printed.
+
+See jupyter example: https://github.com/mshemuni/hellow_world/blob/main/example.ipynb
+
+
