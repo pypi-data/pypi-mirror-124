@@ -1,0 +1,5 @@
+pyyaml>=5.4
+
+[dev]
+twine
+wheel
