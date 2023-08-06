@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+crowdbotsimcontrol/__init__.py
+crowdbotsimcontrol/core.py
+crowdbotsimcontrol/helpers.py
+crowdbotsimcontrol/manual_control.py
+crowdbotsimcontrol/metrics.py
+crowdbotsimcontrol/netSend.py
+crowdbotsimcontrol/recorder.py
+crowdbotsimcontrol/robotnavigation.py
+crowdbotsimcontrol/socket_handler.py
+crowdbotsimcontrol_ethrl.egg-info/PKG-INFO
+crowdbotsimcontrol_ethrl.egg-info/SOURCES.txt
+crowdbotsimcontrol_ethrl.egg-info/dependency_links.txt
+crowdbotsimcontrol_ethrl.egg-info/top_level.txt
