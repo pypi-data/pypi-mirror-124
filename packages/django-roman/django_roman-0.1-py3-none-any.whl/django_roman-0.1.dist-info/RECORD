@@ -1,0 +1,12 @@
+roman/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roman/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roman/templatetags/roman_tags.py,sha256=19jnAksPecO0gH2_3Hn_PSOodcgNHgoL5e9d2ZIi-U4,647
+roman/tests/__init__.py,sha256=6IilD2qNMBpmZ58lm-54XE09r-RSf_a2_MGHvvD91ro,3930
+roman/tests/settings.py,sha256=dL6OiJAdE17M6Zz1xW3YomF0iHjOoEtNvJr8rnVBSPw,439
+roman/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roman/utils/roman.py,sha256=EDtk050_WcPTMUPHYzHNeVgG5qpCPwcqV47ctbw8Y-E,1741
+django_roman-0.1.dist-info/LICENSE,sha256=MxZ-cs8TW_a8cdvPlWKXEfjNex7fKA3hEuF3y7yM-uI,1487
+django_roman-0.1.dist-info/METADATA,sha256=IAH6FbnJl5rNuYb_jsPkTzvsMtuTtJYDdTdllqorS6Q,1473
+django_roman-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_roman-0.1.dist-info/top_level.txt,sha256=AdBKNQrHeWHZe0QID37bH8tOIWcd9xTOSBYeqXA4BXI,6
+django_roman-0.1.dist-info/RECORD,,
