@@ -1,0 +1,9 @@
+pyproject.toml
+setup.cfg
+api_client_poc/__init__.py
+api_client_poc/client.py
+api_client_poc.egg-info/PKG-INFO
+api_client_poc.egg-info/SOURCES.txt
+api_client_poc.egg-info/dependency_links.txt
+api_client_poc.egg-info/requires.txt
+api_client_poc.egg-info/top_level.txt
