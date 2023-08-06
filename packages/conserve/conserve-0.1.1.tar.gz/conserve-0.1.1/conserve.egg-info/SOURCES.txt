@@ -1,0 +1,14 @@
+Dockerfile
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+conserve/__init__.py
+conserve/conserve_agent.py
+conserve/utils.py
+conserve.egg-info/PKG-INFO
+conserve.egg-info/SOURCES.txt
+conserve.egg-info/dependency_links.txt
+conserve.egg-info/top_level.txt
