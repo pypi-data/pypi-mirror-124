@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+spreadsheet-to-schema
+spreadsheet_to_schema.egg-info/PKG-INFO
+spreadsheet_to_schema.egg-info/SOURCES.txt
+spreadsheet_to_schema.egg-info/dependency_links.txt
+spreadsheet_to_schema.egg-info/requires.txt
+spreadsheet_to_schema.egg-info/top_level.txt
