@@ -1,0 +1,7 @@
+include setup.py
+include CMakeLists.txt
+recursive-include pybind11 CMakeLists.txt *.cmake
+graft metacity/geometry
+graft pybind11/include
+graft pybind11/tools
+prune *.so
