@@ -1,0 +1,22 @@
+set DEFAULT_COMMAND=git
+
+simple_log,l={
+    'command': 'git log --color --graph --pretty=format:"%C(yellow)%h%Creset - %Cgreen(%ci) %C(bold blue)<%an>%Creset%C(bold yellow)%d%n%C(bold)%s" --abbrev-commit -10',
+    'help': 'Show custom git log. Show 10 entries by default, -N to change.'
+}
+
+ps=push
+pl=pull
+commit_push,cp=commit -m "$args";push
+# fazer funcionar
+#merge_updated=git checkout $branch, git pull, git checkout -, git merge $branch
+#merge
+# --squash, --autostash
+# -v, --progress, --rerere-autoupdate
+# > fetch origin $1
+# > merge origin/$1
+#set PROJECTS=buser_django,cli
+#multi=cd s && git for s in $PROJECTS
+
+#set TAG_CMD=tag -a -m '',git push origin
+#tags=git c for c in $TAG_CMD
