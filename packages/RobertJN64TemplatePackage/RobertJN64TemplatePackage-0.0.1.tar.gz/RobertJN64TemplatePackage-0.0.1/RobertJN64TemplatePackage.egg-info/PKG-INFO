@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: RobertJN64TemplatePackage
+Version: 0.0.1
+Summary: A template for package structure, deployment, and testing
+Home-page: https://github.com/RobertJN64/RobertJN64TemplatePackage
+Author: Robert Nies
+Author-email: robertjnies@gamil.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RobertJN64TemplatePackage
+
+![Tests Badge](https://github.com/RobertJN64/RobertJN64TemplatePackage/actions/workflows/tests.yml/badge.svg)
+![Python Version Badge](https://img.shields.io/pypi/pyversions/MLVisualizationTools)
+![License Badge](https://img.shields.io/github/license/RobertJN64/RobertJN64TemplatePackage)
+
+This is a template for the structure of my future projects.
+
+This project was inspired by the [PyPA sample project](https://github.com/pypa/sampleproject)
+and [James Murphey's sample project](https://github.com/mCodingLLC/SlapThatLikeButton-TestingStarterProject).
+These projects were licensed under the MIT license and the relevant licenses
+can be found in the [attributions](/attributions) folder in the project.
+
