@@ -1,0 +1,8 @@
+gmqtt==0.6.11
+numpy==1.21.3
+Pillow==8.4.0
+aiohttp==3.7.4.post0
+cachetools==4.2.4
+
+[cli]
+click==8.0.3
