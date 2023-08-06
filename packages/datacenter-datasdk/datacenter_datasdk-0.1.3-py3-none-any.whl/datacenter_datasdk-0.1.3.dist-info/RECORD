@@ -1,0 +1,11 @@
+datacenter_datasdk/__init__.py,sha256=7re699nOvayUV7tdW2fwx0l0T0Tf1gdlYHK_RAAteEY,212
+datacenter_datasdk/pg_data.py,sha256=anYYJmi6TyUWr_3U6vl4kSd538b8dIWJ1pjiEbXYeEc,5250
+datacenter_datasdk/restful_api.py,sha256=CvTgZqsweKnUDaARHAEwLWJKp_c1YFX5YjJiPhwFyHs,4679
+datacenter_datasdk/settings.py,sha256=mOhxjB63M-d2QHNTE2SLqEjBsI6p7CKTA0roLW47FwA,3242
+datacenter_datasdk/verify.py,sha256=bnW_T_Nev0E-fmtuGNzjiVaVMEylTotiWGkhPKkz--w,1929
+datacenter_datasdk-0.1.3.dist-info/LICENSE.txt,sha256=s4TM9FRdlPDs1J29NV-d7WSp9BimB1XCafZsoX7MJTM,1065
+datacenter_datasdk-0.1.3.dist-info/METADATA,sha256=6crNs89lMs6nzTuzocS4AFVLY3oRou7FzMDBFW1VVl8,2312
+datacenter_datasdk-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+datacenter_datasdk-0.1.3.dist-info/top_level.txt,sha256=SOQL7GK5ukKf7NbzCupqOGj5QDFMFZqFlddxxNHe27Y,19
+datacenter_datasdk-0.1.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+datacenter_datasdk-0.1.3.dist-info/RECORD,,
