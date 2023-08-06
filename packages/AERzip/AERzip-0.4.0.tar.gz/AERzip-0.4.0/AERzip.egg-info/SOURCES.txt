@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+AERzip/CompressedFileHeader.py
+AERzip/__init__.py
+AERzip/compressFunctions.py
+AERzip/main.py
+AERzip.egg-info/PKG-INFO
+AERzip.egg-info/SOURCES.txt
+AERzip.egg-info/dependency_links.txt
+AERzip.egg-info/requires.txt
+AERzip.egg-info/top_level.txt
