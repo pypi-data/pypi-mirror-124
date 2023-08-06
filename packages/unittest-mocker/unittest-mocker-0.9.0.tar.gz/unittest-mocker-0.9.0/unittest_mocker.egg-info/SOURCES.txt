@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+unittest_mocker/__init__.py
+unittest_mocker/class_patcher.py
+unittest_mocker/mocker.py
+unittest_mocker/standart_patcher.py
+unittest_mocker.egg-info/PKG-INFO
+unittest_mocker.egg-info/SOURCES.txt
+unittest_mocker.egg-info/dependency_links.txt
+unittest_mocker.egg-info/top_level.txt
