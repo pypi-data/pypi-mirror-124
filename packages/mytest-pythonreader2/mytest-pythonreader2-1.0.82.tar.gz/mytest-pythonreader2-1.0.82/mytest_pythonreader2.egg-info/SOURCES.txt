@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+mytest_pythonreader2.egg-info/PKG-INFO
+mytest_pythonreader2.egg-info/SOURCES.txt
+mytest_pythonreader2.egg-info/dependency_links.txt
+mytest_pythonreader2.egg-info/entry_points.txt
+mytest_pythonreader2.egg-info/requires.txt
+mytest_pythonreader2.egg-info/top_level.txt
+reader/__init__.py
+reader/__main__.py
+reader/config.cfg
+reader/feed.py
+reader/viewer.py
