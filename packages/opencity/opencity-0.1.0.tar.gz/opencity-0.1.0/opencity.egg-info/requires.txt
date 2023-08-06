@@ -1,0 +1,13 @@
+requests
+pandas
+geopandas
+xlrd
+tqdm
+colorama
+fiona
+tabulate
+tk
+tksheet
+numpy
+lxml
+bs4
