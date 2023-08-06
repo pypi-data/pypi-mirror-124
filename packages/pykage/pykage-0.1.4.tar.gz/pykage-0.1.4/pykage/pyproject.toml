@@ -1,0 +1,12 @@
+
+[pykg.project]
+name = 'pizza'
+version = '1.0.0'
+email = ''
+description = ''
+git_repostery = ''
+pwd = '/Users/macbook/Documents/pykg/pykg'
+[pykg.package]
+[pykg.file]
+default_file = ''
+list_file = []
