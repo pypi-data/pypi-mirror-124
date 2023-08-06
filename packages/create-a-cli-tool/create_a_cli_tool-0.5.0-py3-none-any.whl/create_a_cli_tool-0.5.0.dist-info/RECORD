@@ -1,0 +1,11 @@
+cli/__init__.py,sha256=OUSrW2HaWytaAqnkF4tggz0LL-bcKJpUBAmFU0hoktA,156
+cli/cli.py,sha256=3S4Dhv_bT20JWXvoVzBeYoeDKb5QMNR7MT_D0vR7Q8g,7659
+cli/commands.py,sha256=1Hwo_Cvjrk5_3idEPcnmJzPDa_mKSb-sPshLOYBNE08,1986
+cli/errors.py,sha256=H31-CCs_Dp3TuN7TX-JM28nkGSyPumQ4ls1wIpw1LIQ,277
+cli/ext/__init__.py,sha256=WchaJLXOE4CLf94x26cGhdvOeBR78dx7OQ-Kx_my8Z0,21
+cli/ext/shard.py,sha256=lCamDJHxA0Y1lHvhHzkeQ9pKIEIXGMMMFEx5ZVoiNqE,695
+create_a_cli_tool-0.5.0.dist-info/LICENSE,sha256=Cq7bR4O7NGG1uJeCHoYwhuXoHu70ZcUNvAfq4sy1vU8,1076
+create_a_cli_tool-0.5.0.dist-info/METADATA,sha256=tw_l_oec2v93VikQFmgD5GRDPrcsf4ORvRmnhCbR0jo,2013
+create_a_cli_tool-0.5.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+create_a_cli_tool-0.5.0.dist-info/top_level.txt,sha256=2ImG917oaVHlm0nP9oJE-Qrgs-fq_fGWgba2H1f8fpE,4
+create_a_cli_tool-0.5.0.dist-info/RECORD,,
