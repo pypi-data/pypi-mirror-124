@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bin/axfrcheck
+bin/zonecheck
+bin/zonechecklite
+zonecheck/__init__.py
+zonecheck.egg-info/PKG-INFO
+zonecheck.egg-info/SOURCES.txt
+zonecheck.egg-info/dependency_links.txt
+zonecheck.egg-info/requires.txt
+zonecheck.egg-info/top_level.txt

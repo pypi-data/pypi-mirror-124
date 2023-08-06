@@ -1,0 +1,8 @@
+pyyaml>=5.2
+future
+
+[:python_version < "3.0"]
+dnspython>=1.15
+
+[:python_version >= "3.6"]
+dnspython>=2.0.0
