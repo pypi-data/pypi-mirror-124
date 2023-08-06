@@ -1,0 +1,6 @@
+pbr
+numpy
+decorator==4.4.2
+networkx~=2.0
+vermouth>=0.7.1
+MDAnalysis

@@ -1,0 +1,19 @@
+CHANGES
+=======
+
+* added version
+* fix topology file include path
+* corrections to analyze module
+* changes to titrate module
+* fixes to conv\_coords
+* analyze new implementation, initial commit
+* titrate command, initial commit
+* titrate command, initial commit
+* conv\_coords module rewrite initial commit
+* some clandestine debugging
+* migrate argparser of analysis to martini\_sour script
+* put argparser of conv\_coords to exec. package
+* copy files and add license
+* initial README
+* initial commit; setting up package
+* Initial commit
