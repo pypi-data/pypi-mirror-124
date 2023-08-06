@@ -1,0 +1,10 @@
+setup.py
+shiny_probability/Binomialdistribution.py
+shiny_probability/Gaussiandistribution.py
+shiny_probability/Generaldistribution.py
+shiny_probability/__init__.py
+shiny_probability.egg-info/PKG-INFO
+shiny_probability.egg-info/SOURCES.txt
+shiny_probability.egg-info/dependency_links.txt
+shiny_probability.egg-info/not-zip-safe
+shiny_probability.egg-info/top_level.txt
