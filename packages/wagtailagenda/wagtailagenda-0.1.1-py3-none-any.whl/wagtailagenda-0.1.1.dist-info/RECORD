@@ -1,0 +1,17 @@
+LICENSE,sha256=pWgb-bBdsU2Gd2kwAXxketnm5W_2u8_fIeWEgojfrxs,7651
+README.md,sha256=O8ExQaFLgOWPL-iowTcPVnxhVQ_j6jJRv91e9ZMOfdU,921
+wagtailagenda/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtailagenda/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+wagtailagenda/apps.py,sha256=w1_eTd3IuyPZSWiJz141EMks_ud_WfLFg5xk2UEDd4g,251
+wagtailagenda/migrations/0001_initial.py,sha256=PzsStc3L7Q9f4PYo8BfANfE81FGf3vVFZbDTFu7dQug,4787
+wagtailagenda/migrations/0002_auto_20211020_0049.py,sha256=smjFZXXR1_ilDtkPMWz2oSnxFUHjiATEmngzuIuDQRU,693
+wagtailagenda/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtailagenda/models.py,sha256=_AmdVqvrhdqr0TgkIV987tePgwMnjU7nN63sJNF3W-M,8959
+wagtailagenda/templates/wagtailagenda/activity.html,sha256=KTHc0xPWAzuF8vo0tTgrhZ2gXHBskw1KeMnUobJst4s,3962
+wagtailagenda/templates/wagtailagenda/agenda.html,sha256=DXp5JMpuWiiCaxYf7j3d-zd09caTTspdypH3H_2hI_E,1681
+wagtailagenda/tests.py,sha256=1M7WFzFVQITUW5axR0nhI2WQilIlhkFpuIgipvtljE0,7032
+wagtailagenda/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+wagtailagenda-0.1.1.dist-info/LICENSE,sha256=pWgb-bBdsU2Gd2kwAXxketnm5W_2u8_fIeWEgojfrxs,7651
+wagtailagenda-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+wagtailagenda-0.1.1.dist-info/METADATA,sha256=iHOAV6degI1mdLhniqu8S3GgL6g3_iXD0qcpMij9oC8,1583
+wagtailagenda-0.1.1.dist-info/RECORD,,
