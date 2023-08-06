@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+wspier/__init__.py
+wspier/core.py
+wspier/io.py
+wspier/net.py
+wspier/tester.py
+wspier.egg-info/PKG-INFO
+wspier.egg-info/SOURCES.txt
+wspier.egg-info/dependency_links.txt
+wspier.egg-info/top_level.txt
