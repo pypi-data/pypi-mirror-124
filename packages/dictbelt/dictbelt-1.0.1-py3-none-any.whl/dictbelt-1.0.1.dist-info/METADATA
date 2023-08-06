@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dictbelt
+Version: 1.0.1
+Summary: A batbelt utility for dictionaries
+License: MIT
+Keywords: dict,walk,traverse
+Author: Steeleye
+Author-email: python.devs@steel-eye.com
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+DICTBELT
+========
+
+The bat-belt for dictionaries!
+
+This library contains a set of functions and wrapper to better deal with complex
+hierarchies of dictionaries (and lists).
+
+Of note is the `dic_walk()` function that allows traversing an entire `dict` and
+`list` tree.
+
+
