@@ -1,0 +1,10 @@
+README.md
+setup.py
+logtrigger/__init__.py
+logtrigger/tailer.py
+logtrigger.egg-info/PKG-INFO
+logtrigger.egg-info/SOURCES.txt
+logtrigger.egg-info/dependency_links.txt
+logtrigger.egg-info/entry_points.txt
+logtrigger.egg-info/requires.txt
+logtrigger.egg-info/top_level.txt
