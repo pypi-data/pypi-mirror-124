@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: asre_compute
+Version: 0.0.12
+Summary: New class release of the ASRE package.
+Home-page: UNKNOWN
+Author: François Grolleau
+Author-email: francois.grolleau@aphp.fr
+License: MIT
+Description: ARE package from the Saint-Malo poster "Evaluating the Effect of Individualized Treatment Rules Using Observational Data."
+        
+                  
+        Implementation details will are available at https://github.com/fcgrolleau/Emulated-ITR
+        Theoretical argument including extensive simulations will be posted on Arxiv soon.
+        
+        Change Log
+        ==========
+        
+        0.0.12 (10/25/2021)
+        -------------------
+        - New class release of the ASRE package
+        
+        0.0.11 (07/28/2021)
+        -------------------
+        - Fix ASRE printing and returned parameters when est='ASRE_cb'
+        
+        0.0.10 (07/28/2021)
+        -------------------
+        - Fix Docstring, README and program structure for computational efficiency.
+        
+        0.0.7 (07/27/2021)
+        -------------------
+        - Fix module structure
+        
+        0.0.1 (07/27/2021)
+        -------------------
+        - First Release
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
