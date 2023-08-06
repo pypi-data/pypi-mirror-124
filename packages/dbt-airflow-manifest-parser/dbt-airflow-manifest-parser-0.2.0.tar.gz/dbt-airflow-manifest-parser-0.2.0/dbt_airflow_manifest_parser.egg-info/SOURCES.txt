@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+dbt_airflow_manifest_parser/__init__.py
+dbt_airflow_manifest_parser/builder.py
+dbt_airflow_manifest_parser/operator.py
+dbt_airflow_manifest_parser/parameters.py
+dbt_airflow_manifest_parser/tasks.py
+dbt_airflow_manifest_parser.egg-info/PKG-INFO
+dbt_airflow_manifest_parser.egg-info/SOURCES.txt
+dbt_airflow_manifest_parser.egg-info/dependency_links.txt
+dbt_airflow_manifest_parser.egg-info/not-zip-safe
+dbt_airflow_manifest_parser.egg-info/requires.txt
+dbt_airflow_manifest_parser.egg-info/top_level.txt
