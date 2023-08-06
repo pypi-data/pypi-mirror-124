@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fileops/__init__.py
+fileops/jsonops.py
+fileops/textfiles.py
+simple_file_ops.egg-info/PKG-INFO
+simple_file_ops.egg-info/SOURCES.txt
+simple_file_ops.egg-info/dependency_links.txt
+simple_file_ops.egg-info/top_level.txt
