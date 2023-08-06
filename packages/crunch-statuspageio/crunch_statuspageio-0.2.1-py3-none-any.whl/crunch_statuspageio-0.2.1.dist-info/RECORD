@@ -1,0 +1,9 @@
+statuspageio/__init__.py,sha256=_eLLI7_fy9MDbBmsitYWs6a2M282VDgfYrvXPwHIMlM,1149
+statuspageio/client.py,sha256=v_3v4UQsuKL0QzbVZVo8dq0-c86EYWpSUfqroBHS2u0,3154
+statuspageio/configuration.py,sha256=QqZEOrVEd3lrLBgPVyURXSXOWxxS3QXH9dOr3ykjROY,703
+statuspageio/errors.py,sha256=kbIvKMvRL_pl1V7PK1X0O_IpDxcyn86Jfow126jAzLM,2021
+statuspageio/http_client.py,sha256=ZtuEcHipbt6zPZ3SYH0FBpoJtfJ-PB6uVmT_9PKEHVM,8098
+statuspageio/services.py,sha256=u7zjpVK9Gm6eimT67Ea17UT6z0DVuh5FfAGwz7siLPE,24270
+crunch_statuspageio-0.2.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+crunch_statuspageio-0.2.1.dist-info/METADATA,sha256=TtNLtsp-hJLKno9MOL6n7uFOYFiVTFOoX6avaeeujcA,592
+crunch_statuspageio-0.2.1.dist-info/RECORD,,
