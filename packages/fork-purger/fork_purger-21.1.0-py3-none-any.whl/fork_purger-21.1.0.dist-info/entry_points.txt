@@ -1,0 +1,3 @@
+[console_scripts]
+fork-purger = purger.__main__:cli
+
