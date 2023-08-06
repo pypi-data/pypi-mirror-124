@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: chesslab
+Version: 1.0.8
+Summary: Library for developing a chess engine using Neural Networks and Monte Carlo Tree Search
+Home-page: https://github.com/yniad/chesslab
+Author: Hector Juarez
+Author-email: hjuarezl1400@alumno.ipn.mx
+License: MIT
+Download-URL: https://github.com/yniad/chesslab/archive/refs/tags/1.0.8.tar.gz
+Description: UNKNOWN
+Keywords: chess,chesslab,evaluation function,agent,engine,mcts
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
