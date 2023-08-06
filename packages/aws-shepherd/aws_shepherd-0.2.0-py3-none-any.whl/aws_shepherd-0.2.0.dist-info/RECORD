@@ -1,0 +1,11 @@
+aws_shepherd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_shepherd/__main__.py,sha256=OTb6DEIXKlK6tT50_Q4u-ifoA0sNu3bxEo1OlpdJgCo,41
+aws_shepherd/cli/__init__.py,sha256=dx0OVo4CVCX_BtuD21dbijLsJGNL6EY3CRH4Kb_AUC4,3153
+aws_shepherd/lambda/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_shepherd/lambda/index.py,sha256=3KNfBwyw5l9wdNzcLvNd0RftvxacexnkeWQqMHCz57A,1463
+aws_shepherd/local.py,sha256=x06JidCpzkZfbkdnQWRwO3f2SRhUgS8ROsuvGpCTbB8,1655
+aws_shepherd/tester/__init__.py,sha256=MwQWCaP05GVzJ1FVoE9jFot8-HzTUG0zEz-F9Necau4,179
+aws_shepherd-0.2.0.dist-info/entry_points.txt,sha256=o3DfySeQrrHtGmEDkr72lStFJoIow3Qbq6Ickn-nVpw,50
+aws_shepherd-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aws_shepherd-0.2.0.dist-info/METADATA,sha256=GGPJ9caiCgEm97FFqghYm0Ik0dv_ZbjHkt1uYArdbAw,553
+aws_shepherd-0.2.0.dist-info/RECORD,,
