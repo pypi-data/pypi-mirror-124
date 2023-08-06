@@ -1,0 +1,6 @@
+pandas
+gql
+pytz
+tzlocal
+pyperclip
+loguru
