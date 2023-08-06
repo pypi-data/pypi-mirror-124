@@ -1,0 +1,2 @@
+requests
+monacelli_pylog_prefs
