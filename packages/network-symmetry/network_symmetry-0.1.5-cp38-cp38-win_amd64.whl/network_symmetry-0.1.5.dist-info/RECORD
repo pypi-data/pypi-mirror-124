@@ -1,0 +1,8 @@
+network_symmetry_core.cp38-win_amd64.pyd,sha256=G4LmG5PGmGUluWAnTr26_e4uW-HocMc0BTR5cd_LX7g,278528
+network_symmetry/__init__.py,sha256=WnuvtvjDzGtVDz7DFimqACLwDB6o7psT9iAzK1jPMWM,23
+network_symmetry/symmetry.py,sha256=EbIDKx6MXg2CMzeDeF2xnT2AH2JQVA2aUbSuGLck7ic,8391
+network_symmetry-0.1.5.dist-info/LICENSE,sha256=IO1AFgVQ8KBIakwezuMuvDHfkzCEhWvJtUr8EE5lNnU,562
+network_symmetry-0.1.5.dist-info/METADATA,sha256=LoL6x_QyLMA4ZvJLDJ9at3ZGy2R07wZDGKr8py8WKIs,6689
+network_symmetry-0.1.5.dist-info/WHEEL,sha256=P24hRDQapckAvHvgBBzlH5uw6rQ_oZQtKbG6drGrqOM,100
+network_symmetry-0.1.5.dist-info/top_level.txt,sha256=dVPfvv4RtGfG7JPNBWKDobBvYo9hCLivczKw2Juk6kg,39
+network_symmetry-0.1.5.dist-info/RECORD,,
