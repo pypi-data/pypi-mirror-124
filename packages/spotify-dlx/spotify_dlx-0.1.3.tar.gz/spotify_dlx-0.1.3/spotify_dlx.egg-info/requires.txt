@@ -1,0 +1,10 @@
+music_tag
+pydub
+rich
+requests
+yaspin
+
+[test]
+black
+pytest
+pre-commit

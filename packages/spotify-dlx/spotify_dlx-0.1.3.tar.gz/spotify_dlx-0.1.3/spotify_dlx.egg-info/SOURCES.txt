@@ -1,0 +1,12 @@
+README.md
+setup.py
+spotify_dlx/__init__.py
+spotify_dlx/__main__.py
+spotify_dlx/spotify_dlx.py
+spotify_dlx/utils.py
+spotify_dlx.egg-info/PKG-INFO
+spotify_dlx.egg-info/SOURCES.txt
+spotify_dlx.egg-info/dependency_links.txt
+spotify_dlx.egg-info/entry_points.txt
+spotify_dlx.egg-info/requires.txt
+spotify_dlx.egg-info/top_level.txt
