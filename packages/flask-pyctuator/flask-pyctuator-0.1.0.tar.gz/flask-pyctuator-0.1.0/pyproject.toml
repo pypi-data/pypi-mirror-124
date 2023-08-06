@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "flask-pyctuator"
+version = "0.1.0"
+description = "Flask Extension for using Pyctuator to enable Spring Boot Admin (SBA) to monitor the application, see https://github.com/SolarEdgeTech/pyctuator"
+authors = ["michael.yak <michael.yakobi@solaredge.com>"]
+readme = "README.md"
+homepage = "https://github.com/SolarEdgeTech/flask-pyctuator"
+repository = "https://github.com/SolarEdgeTech/flasl-pyctuator"
+keywords = ["spring boot admin", "actuator", "pyctuator", "flask"]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Framework :: Flask",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.7",
+    "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
+    "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Monitoring",
+    "Typing :: Typed",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pyctuator = "^0.17.0"
+flask = "^1.1"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.910.0"
+pylint = "^2.11.1"
+autopep8 = "^1.4"
+
+[tool.poetry.extras]
+psutil = ["psutil"]
+db = ["sqlalchemy", "PyMySQL", "cryptography"]
+redis = ["redis"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
