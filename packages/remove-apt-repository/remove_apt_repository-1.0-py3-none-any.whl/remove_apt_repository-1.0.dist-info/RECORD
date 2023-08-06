@@ -1,0 +1,5 @@
+remove_apt_repository-1.0.data/scripts/remove-apt-repository,sha256=fMbf90wjdfREHv2SoXzgxTBokB0xbTuAzxbuyx8q4IY,623
+remove_apt_repository-1.0.dist-info/METADATA,sha256=WZFXt6IXE_PRaZbLWBj_wMB5apbmvoxDCKSmmeXoQfU,771
+remove_apt_repository-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+remove_apt_repository-1.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+remove_apt_repository-1.0.dist-info/RECORD,,
