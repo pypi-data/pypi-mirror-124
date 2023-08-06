@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_overlap.py,sha256=-yEi-yiMcq58FhosdgFAUSNp42WDpnlTW_OQGEzPjVw,579
+fast_overlap-0.2.1.dist-info/RECORD,,
+fast_overlap-0.2.1.dist-info/WHEEL,sha256=MTGYRPpheMM24WbmS90Rp7e0ky6cZJ8CkS_x1qgwoGk,110
+fast_overlap-0.2.1.dist-info/top_level.txt,sha256=IQuQQc3wzN2F5Dt_EIKFVmLk7ASvM1T27AQU58rt5cs,19
+fast_overlap-0.2.1.dist-info/METADATA,sha256=F0178uV-Symz03ZO1hiw0kqRF1siu97XeGw6OQ-NVx0,1254
+fast_overlap/_engine.cpython-37m-darwin.so,sha256=rXNRUF7TrgT0Nt_KsYw4ZrnetdOV2YMU65Y54QZVyPw,236864
+fast_overlap/_version.py,sha256=sBvZKLSprkiPLvvjL0DM8Teceq9S0EKEizm5SoZt43I,142
+fast_overlap/__init__.py,sha256=F_Kb42FoYTjCE9NmNpvkB1GT4nPCuocgmS0DpZD_a38,207
+fast_overlap/.dylibs/libomp.dylib,sha256=-hNiITjA5pkzoTat80H0rmdKiGQFsHG1CLemqKxD33A,776336
