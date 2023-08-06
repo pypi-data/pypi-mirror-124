@@ -1,0 +1,9 @@
+README.md
+setup.py
+animeujjwal/__init__.py
+animeujjwal/pdf2image.py
+animeujjwal/pdf2text.py
+animeujjwal.egg-info/PKG-INFO
+animeujjwal.egg-info/SOURCES.txt
+animeujjwal.egg-info/dependency_links.txt
+animeujjwal.egg-info/top_level.txt
