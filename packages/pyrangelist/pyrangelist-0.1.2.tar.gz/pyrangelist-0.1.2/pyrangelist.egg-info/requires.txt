@@ -1,0 +1,10 @@
+intervaltree
+
+[dev]
+pytest
+pytest-cov
+astroid
+isort
+pylint
+black
+twine
