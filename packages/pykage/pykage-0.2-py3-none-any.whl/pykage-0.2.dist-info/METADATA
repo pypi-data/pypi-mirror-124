@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pykage
+Version: 0.2
+Summary: 
+Author: antoineB24
+Author-email: 85784092+antoineB24@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyInquirer (>=1.0.3,<2.0.0)
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: clint (>=0.5.1,<0.6.0)
+Requires-Dist: codegen (>=1.0,<2.0)
+Requires-Dist: cx-Freeze (>=6.8.1,<7.0.0)
+Requires-Dist: jk-json (>=0.2021.3,<0.2022.0)
+Requires-Dist: jk-pypiorgapi (>=0.2021.4,<0.2022.0)
+Requires-Dist: packaging (>=21.0,<22.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: sh (>=1.14.2,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
