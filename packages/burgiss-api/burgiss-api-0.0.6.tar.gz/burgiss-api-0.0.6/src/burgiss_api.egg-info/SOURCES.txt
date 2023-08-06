@@ -1,0 +1,12 @@
+pyproject.toml
+setup.cfg
+setup.py
+src/burgissApiWrapper/__init__.py
+src/burgissApiWrapper/burgissApi.py
+src/burgissApiWrapper/py.typed
+src/burgiss_api.egg-info/PKG-INFO
+src/burgiss_api.egg-info/SOURCES.txt
+src/burgiss_api.egg-info/dependency_links.txt
+src/burgiss_api.egg-info/not-zip-safe
+src/burgiss_api.egg-info/requires.txt
+src/burgiss_api.egg-info/top_level.txt
