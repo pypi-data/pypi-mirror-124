@@ -1,0 +1,11 @@
+README.md
+setup.py
+colabshell/__init__.py
+colabshell/cli.py
+colabshell/shell.py
+colabshell.egg-info/PKG-INFO
+colabshell.egg-info/SOURCES.txt
+colabshell.egg-info/dependency_links.txt
+colabshell.egg-info/entry_points.txt
+colabshell.egg-info/requires.txt
+colabshell.egg-info/top_level.txt

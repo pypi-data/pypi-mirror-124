@@ -1,0 +1,4 @@
+pyngrok
+pgrok@ git+https://github.com/sandyz1000/pgrok-py.git#egg=pgrok-0.1.0
+kafka_logging_handler@ git+https://github.com/sandyz1000/kafka-logging-handler.git#egg=kafka_logging_handler
+gdrivefs@ git+https://github.com/sandyz1000/GDriveFS.git#egg=gdrivefs
