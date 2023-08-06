@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: quikenv
+Version: 1.0.0
+Summary: REALLY quick(and lazy way) to use the python dot-env project.
+Home-page: https://github.com/Noctsol/lib-py-quikenv
+Author: Noctsol
+Author-email: noctsol@pm.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dotenv
+
+# Quikenv
+
+This was wrapper around the python dot-env project at
+
+- https://github.com/theskumar/python-dotenv
+- https://pypi.org/project/python-dotenv/
+
+Here is the pypi release I made:
+- https://pypi.org/project/quikenv/
+
+I really liked the project but wanted something even more lazy. All credit goes to the original developers. I only added features I wanted on top of an already really great project.
+
+This wrapper has the following features:
+
+- A ezload() classmethod that automatically looks for for your .env file in the current working directory and 2 dirs up
+```{python}
+import quikenv
+
+env = quikenv.ezload()
+var = env.get("my_environment_var")
+print(env.environment_variables)
+
+```
+
+- A proper_load() classmethod that will load this class with a given file path
+```{python}
+import quikenv
+
+env_path = "C:/somedir/.env"
+env = quikenv.proper_load(env_path)
+var = env.get("my_environment_var")
+print(env.environment_variables)
+```
+
+- A normal procedural start for the class
+```{python}
+import quikenv
+
+env_path = "C:/somedir/.env"
+env = quickenv.Quikenv(env_path)
+env.load()
+var = env.get("my_environment_var")
+print(env.environment_variables)
+```
+- A lot of safety features (I don't think speed is relevant here):
+    - Errors out when you give it an invalid file path to the .env file
+    - Will NOT add values from your computer and will only use values from your .env file
+    - Errors out when you try to get a value that doesn't exist or has am empty value
+        - My years of programming has taught me that I'm still stupid enough to do this. You probably are too.
+        - At least you get told now when something is null/empty instead of spending 2 hours debugging your idiocy.
+
