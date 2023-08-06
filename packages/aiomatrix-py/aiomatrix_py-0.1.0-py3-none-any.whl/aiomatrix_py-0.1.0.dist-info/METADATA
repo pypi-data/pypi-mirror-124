@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: aiomatrix-py
+Version: 0.1.0
+Summary: Aiomatrix is a simple library for Matrix Client-Server API
+Home-page: https://github.com/Forden/aiomatrix
+Author: Forden
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Programming Language :: Python
+Classifier: Framework :: AsyncIO
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+License-File: LICENSE.md
+Requires-Dist: aiohttp (<4.0.0,>=3.7.2)
+Requires-Dist: pydantic (==1.8.2)
+
+AIOMatrix
+=========
+
+aiomatrix is a simple and fully asynchronous library for creating bots in `Matrix <https://matrix.org>`_ without hassle.
+
+
+Resources
+---------
+
+- Community: `#aiomatrix-en <https://matrix.to/#/#aiomatrix:matrix.org>`_
+- Russian community: `#aiomatrix-ru <https://matrix.to/#/#aiomatrix-ru:matrix.org>`_
+- Source code: `Github <https://github.com/forden/aiomatrix>`_
+- Issues: `Github bug tracker <https://github.com/forden/aiomatrix/issues>`_
+
+
