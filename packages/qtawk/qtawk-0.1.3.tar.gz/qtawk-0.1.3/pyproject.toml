@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "qtawk"
+version = "0.1.3"
+description = "Qtawk is a WYSIWYG tool to generate bash scripts very quickly"
+authors = ["Pierrick Lebourgeois <qtawk-dev@ntik.org>"]
+readme = "README.md"
+homepage = "https://qtawk.ntik.org/"
+repository = "https://git.ntik.org/qtawk.git/"
+documentation = "https://qtawk.ntik.org/docs/"
+classifiers = [
+	"Programming Language :: Python :: 3.8",
+	"Environment :: X11 Applications :: Qt",
+	"Operating System :: POSIX :: Linux"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyQt5 = "5.14.1"
+pyqtgraph = "0.11.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+qtawk = 'qtawk.__main__:run'
