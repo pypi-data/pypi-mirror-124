@@ -1,0 +1,10 @@
+TranscriptSampler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TranscriptSampler/cli.py,sha256=3I73j_tf838htrbVHWM5K7hj2EG1gc0SbSjd_f8T77g,3238
+TranscriptSampler/helper_functions.py,sha256=g6RlJGaay3khgVAWRDnLmTtWXWBt08h-1yzhwfGW1EU,3874
+TranscriptSampler/transcript_sampler.py,sha256=FqcMzsoSlDCrwmELz1ecX_0PjvxZIO2xY2T6uoo8t1g,1799
+TranscriptSampler-0.0.15.dist-info/LICENSE.md,sha256=DRo57XNW4YtoyyAMBWOrPS28Az0aGCuWpEWqz4HM6J0,1074
+TranscriptSampler-0.0.15.dist-info/METADATA,sha256=w5A1cPW8B8xRdimXjnQxWDE8uVK-D04Y5Zitao7R5Go,307
+TranscriptSampler-0.0.15.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+TranscriptSampler-0.0.15.dist-info/entry_points.txt,sha256=eYkaO0hxTaEREXcRAfpiPJOn36kqq4M_4OaAb-Hir0s,74
+TranscriptSampler-0.0.15.dist-info/top_level.txt,sha256=pH4Nh-_fxV0Qu_TXSUE2dvbLNF4tcfFRAQ2YiN0exbE,18
+TranscriptSampler-0.0.15.dist-info/RECORD,,
