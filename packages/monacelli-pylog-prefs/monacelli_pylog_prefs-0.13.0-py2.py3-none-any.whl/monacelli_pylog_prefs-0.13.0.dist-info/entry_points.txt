@@ -1,0 +1,3 @@
+[console_scripts]
+monacelli_pylog_prefs = monacelli_pylog_prefs.cli:main
+
