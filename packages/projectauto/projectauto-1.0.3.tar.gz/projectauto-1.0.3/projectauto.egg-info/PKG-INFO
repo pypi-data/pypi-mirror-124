@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: projectauto
+Version: 1.0.3
+Summary: Automate the new-GitHub-project-creation process!
+Home-page: https://github.com/shy-tan/project-automation
+Author: shy-tan
+Author-email: iabdullahbintahir@gmail.com
+License: MIT
+Description: An automation script to automate the process of creating a new GitHub repository, cloning it to the right directory and sub-directory and finally starting writing code
+Keywords: automation script  python package
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
