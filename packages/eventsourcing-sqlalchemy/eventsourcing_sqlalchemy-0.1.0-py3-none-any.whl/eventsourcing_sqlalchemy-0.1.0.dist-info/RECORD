@@ -1,0 +1,9 @@
+eventsourcing_sqlalchemy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eventsourcing_sqlalchemy/datastore.py,sha256=bjeJzUl2VnPHA3lOYheGbBQJ-xo0QsPgJEsqCeSB0Kg,6770
+eventsourcing_sqlalchemy/factory.py,sha256=9leIIqkjbSjTg9LZ1QImTsqcCWbpK8buvIQV5jSdYQY,2617
+eventsourcing_sqlalchemy/models.py,sha256=KBu31k2KUenEG1zf5cGGPJy-C7qyuMszyBfogSOZdLs,2354
+eventsourcing_sqlalchemy/recorders.py,sha256=8iCv32D61TV4jdmQ4ay7rEZSW4wKfNO_drcURu1JKsA,6817
+eventsourcing_sqlalchemy-0.1.0.dist-info/LICENSE,sha256=5o83aa3u73WFYAZoJOaiIdEv1F3KMxerlve51gfDC7s,1523
+eventsourcing_sqlalchemy-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+eventsourcing_sqlalchemy-0.1.0.dist-info/METADATA,sha256=nl1OxGnjG81QS5AfOS70D_l-wJ3HM7PVXVNuvJCbQ9c,5050
+eventsourcing_sqlalchemy-0.1.0.dist-info/RECORD,,
