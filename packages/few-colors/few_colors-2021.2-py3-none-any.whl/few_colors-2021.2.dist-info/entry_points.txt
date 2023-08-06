@@ -1,0 +1,4 @@
+[console_scripts]
+few-colors = few_colors.as_command:Main
+few-colors-gui = few_colors.as_application:Main
+
