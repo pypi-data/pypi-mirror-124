@@ -1,0 +1,7 @@
+setup.py
+lagrange_interpolation/__init__.py
+lagrange_interpolation.egg-info/PKG-INFO
+lagrange_interpolation.egg-info/SOURCES.txt
+lagrange_interpolation.egg-info/dependency_links.txt
+lagrange_interpolation.egg-info/requires.txt
+lagrange_interpolation.egg-info/top_level.txt
