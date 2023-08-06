@@ -1,0 +1,11 @@
+tap_rest_api_msdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tap_rest_api_msdk/client.py,sha256=2rG9Y2gdHkhE4gLYe2-B0i9yiun-gvRcqPG7hLt2rNA,412
+tap_rest_api_msdk/streams.py,sha256=Gw3lTZNpXbGCDgA62UQhSV9wIpr74ax1Bo5UuvyjeWw,3286
+tap_rest_api_msdk/tap.py,sha256=DFTJcihsNT50Get5lWe8Ykglq-WcgqcGZ8Ajt2_2ZQs,3535
+tap_rest_api_msdk/tests/__init__.py,sha256=jh2b7SdS3B0A1rd_RyhKrL8dUdaNT6B6kdyz1vJGZpI,35
+tap_rest_api_msdk/tests/test_core.py,sha256=sfq6khoD62szoYMs93-EVyiAhVNRJz91Zvgn2qIVYfk,1290
+tap_rest_api_msdk/utils.py,sha256=Lwz83xFzlCE2BG-3q6WvckzdpuZAcVm2O5reOrG1gcY,1749
+tap_rest_api_msdk-0.0.3.dist-info/entry_points.txt,sha256=Kr19bthYysJ2KqaWc5OXdG-XS3suMXiWgSRmfNySri8,64
+tap_rest_api_msdk-0.0.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+tap_rest_api_msdk-0.0.3.dist-info/METADATA,sha256=uiWQkHOCl88sP6pHxlgARN8Qz36o1R_MoNYsvU88R6I,797
+tap_rest_api_msdk-0.0.3.dist-info/RECORD,,
