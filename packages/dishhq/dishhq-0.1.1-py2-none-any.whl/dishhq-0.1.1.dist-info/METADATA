@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dishhq
+Version: 0.1.1
+Summary: Official Python SDK for Dish
+Home-page: UNKNOWN
+Author: Dish Team
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# python-sdk
+The Python SDK for Dish!
+
