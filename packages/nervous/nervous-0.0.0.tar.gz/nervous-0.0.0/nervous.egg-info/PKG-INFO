@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nervous
+Version: 0.0.0
+Summary: A small example package
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+#NERvous
+
+All books start with a first word...
+

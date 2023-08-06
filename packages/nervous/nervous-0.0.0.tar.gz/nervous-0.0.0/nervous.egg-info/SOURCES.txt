@@ -1,0 +1,6 @@
+README.md
+setup.py
+nervous.egg-info/PKG-INFO
+nervous.egg-info/SOURCES.txt
+nervous.egg-info/dependency_links.txt
+nervous.egg-info/top_level.txt
