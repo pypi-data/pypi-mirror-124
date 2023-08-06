@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: salla
+Version: 0.0.0.dev0
+Summary: Python Salla api.
+Home-page: https://github.com/TheAwiteb/salla
+Author: TheAwiteb
+Author-email: Awiteb@hotmail.com
+License: MIT
+Description: <div align="center">
+        <img src="https://i.suar.me/mKLad/l" width=400>
+        </div>
+        
+        # <p align="center">Salla 🛍️ 
+        
+        ## <p dir="rtl" align="center"> تحت التطوير 👨‍💻
+        
+        ### <p dir="rtl" align="center"> مكتبة بايثون خاصة بـ <a href="https://docs.salla.dev/">واجهة برمجة تطبيقات سلة</a> 🛍️.
+        
+        
+Keywords: salla,salla api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

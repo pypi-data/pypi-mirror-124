@@ -1,0 +1,6 @@
+README.md
+setup.py
+salla.egg-info/PKG-INFO
+salla.egg-info/SOURCES.txt
+salla.egg-info/dependency_links.txt
+salla.egg-info/top_level.txt
