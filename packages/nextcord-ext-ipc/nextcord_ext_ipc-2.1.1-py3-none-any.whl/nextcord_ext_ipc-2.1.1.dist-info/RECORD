@@ -1,0 +1,9 @@
+nextcord/ext/ipc/__init__.py,sha256=8NbHeMa71cUSJzStnsNbz64GgvwUBVIUsZrbxB3WsVc,256
+nextcord/ext/ipc/client.py,sha256=vQINfbRAeBIQbQ6yz11pX-fop0w4m728xsV2JbZzG0w,4052
+nextcord/ext/ipc/errors.py,sha256=6XHnYmvxV5F8Z-8fs6Yo26yiVTSDVRBIF7Msy2FwuzM,548
+nextcord/ext/ipc/server.py,sha256=U7ew4VgGP_4Mgs6C3ElDeIO3ISPQ1igG4ngfD1U9sGE,8245
+nextcord_ext_ipc-2.1.1.dist-info/LICENSE,sha256=H8DXViQRCqHzPHG0LxwPGTHkt9LY5T7xNtcF4Ax91QU,11388
+nextcord_ext_ipc-2.1.1.dist-info/METADATA,sha256=iygGLqyQh3zyMd7X4qz98QWA3YtEwcJE3nod7-cGP00,1785
+nextcord_ext_ipc-2.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nextcord_ext_ipc-2.1.1.dist-info/top_level.txt,sha256=WLKE4YjlmaQ5A1gxmxiAYHUFoYSc49lTpIaYSHFE2Qw,9
+nextcord_ext_ipc-2.1.1.dist-info/RECORD,,
