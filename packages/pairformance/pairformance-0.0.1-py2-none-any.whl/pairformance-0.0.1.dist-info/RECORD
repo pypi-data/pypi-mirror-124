@@ -1,0 +1,10 @@
+pairformance/__init__.py,sha256=jGWC5i-oe12j-EH5GI7EVuXJ_djF2Hg4sLM0hsIOth0,31
+pairformance/bt.py,sha256=H1IA6TexbY5p89cvGZL_TLG2ijVAxsg4oNGZkoWW3KM,2160
+pairformance/core.py,sha256=0iW8-l5UHIhiWkdOqF63mYavwkbKtZOI78VyiaprLKg,22415
+pairformance/plotting_utils.py,sha256=Y_QzQl42UTb0jU7nDwMVU0fzK3u0xzrIxD8Tnh54Z24,8722
+pairformance/utils.py,sha256=2Ifz9ExEF39R1IdvMbigyqWAGX5BYRxg3Ow_n0vVb3c,739
+pairformance-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pairformance-0.0.1.dist-info/METADATA,sha256=ZIjcWezww2KxRkIoVBOC_T6qmXkdPw0_UQTKWfOlWmM,6989
+pairformance-0.0.1.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+pairformance-0.0.1.dist-info/top_level.txt,sha256=iKYVoijvRBcZG4bEGFlSKHi9K5FmFd_1Ler0JcCwC84,13
+pairformance-0.0.1.dist-info/RECORD,,
