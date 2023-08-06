@@ -1,0 +1,13 @@
+flowio
+flowutils
+matplotlib
+scipy
+statsmodels
+seaborn
+pandas
+numpy
+lxml
+bokeh
+anytree
+networkx
+psutil
