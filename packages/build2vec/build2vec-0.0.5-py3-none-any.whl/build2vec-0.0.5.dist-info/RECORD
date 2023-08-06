@@ -1,0 +1,10 @@
+build2vec/__init__.py,sha256=JqLcUH5QU0rx_R3Pu-QEYTs7UG55-Hczs4LDFGcifj0,141
+build2vec/build2vec.py,sha256=YVB8cWDqs5IIWyqY1O1WPD3fXn2PbkwQfJM4WkIOf5c,8204
+build2vec/dynabuild2vec.py,sha256=iwp8pvB0TXj1J30UPySGrbP_M7SWCfGZpGKbamEp7aI,68
+build2vec/ifc2graph.py,sha256=hcW7GGY6L7eklv4QGPskeLH79Esi9b_0zVWIugFEszQ,131
+build2vec/parallel.py,sha256=8_xmW7inR2joMQKfk7o2Q5TIXcdCwhpORjKmVqTbJ-A,2430
+build2vec-0.0.5.dist-info/LICENCE.txt,sha256=ByhsGBxUnCjTNa9pjWH5UpigId4OVjHnxKtDQT9z_7k,1071
+build2vec-0.0.5.dist-info/METADATA,sha256=oGyX_5ZtkYTxyUijwAmL0RqUyxSXiIwElEfIz0TAezk,2068
+build2vec-0.0.5.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+build2vec-0.0.5.dist-info/top_level.txt,sha256=QXS_XZmpoqWLkPI5Z4C6SRywPIuHuHTRgH3JApqL3eg,10
+build2vec-0.0.5.dist-info/RECORD,,
