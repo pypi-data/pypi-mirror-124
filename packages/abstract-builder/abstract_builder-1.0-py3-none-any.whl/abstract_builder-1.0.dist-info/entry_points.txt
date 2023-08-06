@@ -1,0 +1,3 @@
+[console_scripts]
+abstract-builder = abstract_builder.cmd:build_command
+
