@@ -1,0 +1,16 @@
+packaging
+tomli>=1.2
+
+[docs]
+furo>=2021.8.17b43
+sphinx>=4.1
+sphinx-autodoc-typehints>=1.12
+
+[testing]
+covdefaults>=2
+pytest>=6.2
+pytest-cov>=3
+pytest-mock>=3.6
+
+[testing:python_version < "3.8"]
+importlib-metadata>=4.6.1
