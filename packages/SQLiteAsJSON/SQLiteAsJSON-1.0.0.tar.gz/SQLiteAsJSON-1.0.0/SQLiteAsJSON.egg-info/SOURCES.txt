@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+SQLiteAsJSON/SQLiteAsJSON.py
+SQLiteAsJSON/__init__.py
+SQLiteAsJSON.egg-info/PKG-INFO
+SQLiteAsJSON.egg-info/SOURCES.txt
+SQLiteAsJSON.egg-info/dependency_links.txt
+SQLiteAsJSON.egg-info/top_level.txt
