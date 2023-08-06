@@ -1,0 +1,3 @@
+[flake8.extension]
+ESC = flake8_escaping_style:Plugin
+
