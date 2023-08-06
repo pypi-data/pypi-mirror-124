@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: eossr
+Version: 0.3.2
+Summary: ESCAPE OSSR library
+Home-page: https://gitlab.in2p3.fr/escape2020/wp3/eossr
+Author: Thomas Vuillaume & Enrique Garcia
+Author-email: vuillaume@lapp.in2p3.fr
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: bs4
+
+![eOSSR](docs/images/eossr_logo.png)
+
+## The ESCAPE OSSR library
+
+* Code: [https://gitlab.in2p3.fr/escape2020/wp3/eossr](https://gitlab.in2p3.fr/escape2020/wp3/eossr)
+* Documentation: [https://escape2020.pages.in2p3.fr/wp3/eossr/](https://escape2020.pages.in2p3.fr/wp3/eossr/)
+
+
+
+[![pipeline status](https://gitlab.in2p3.fr/escape2020/wp3/eossr/badges/master/pipeline.svg)](
+https://gitlab.in2p3.fr/escape2020/wp3/eossr/-/commits/master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![coverage report](https://gitlab.in2p3.fr/escape2020/wp3/eossr/badges/master/coverage.svg)](
+https://gitlab.in2p3.fr/escape2020/wp3/eossr/-/commits/master)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5524912.svg)](https://doi.org/10.5281/zenodo.5524912)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.in2p3.fr%2Fescape2020%2Fwp3%2Feossr/HEAD)
+
+
+
+## Versions
+
+- v0.3.2: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5589725.svg)](https://doi.org/10.5281/zenodo.5589725)
+- v0.2 : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5524913.svg)](https://doi.org/10.5281/zenodo.5524913)
+
+
+## Install
+
+Commands to be run in your terminal.
+
+### For users
+```
+pip install eossr
+```
+
+You can also run it with docker:
+```
+docker run -it gitlab-registry.in2p3.fr/escape2020/wp3/eossr:latest
+```
+
+[Visit our registry](https://gitlab.in2p3.fr/escape2020/wp3/eossr/container_registry) to see the available docker containers.
+
+Note that `latest` tag always point to the latest stable released container.
+
+
+### For developers
+
+```
+git clone https://gitlab.in2p3.fr/escape2020/wp3/eossr.git
+pip install -e eossr
+```
+
+#### Running tests
+To run tests locally, run:
+```
+pip install pytest
+pytest eossr
+```
+
+Some tests will be skiped if `SANDBOX_ZENODO_TOKEN` is not defined in your environment variables.
+If you want to run these tests, you will need to create a [sandbox zenodo token](https://sandbox.zenodo.org/account/settings/applications/tokens/new/) and add it to your env:
+```
+export SANDBOX_ZENODO_TOKEN="your_sandbox_token"
+```
+
+
+## Cite
+
+To cite this library, use the cite module in [the Zenodo page](https://zenodo.org/record/5524913#.YWBq79kzZB0).
+
+
