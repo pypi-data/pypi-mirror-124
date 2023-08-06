@@ -1,0 +1,13 @@
+pymods/__init__.py,sha256=471oBkeOe2D2iTWacZWU-mgO--UAUxd054mEo5y2_b0,5298
+pymods/constants.py,sha256=aBZbkpby9MQRCSRPJhD8TaKIG8Dwa4xjrBZWAXW4a8k,826
+pymods/exceptions.py,sha256=lPZSLVPCyxg5rurnVOuApbfjsA8utq4brzurzFvi-i4,339
+pymods/reader.py,sha256=ZR8oQo0mpJeVOAi6D5SZ_GAlR1u9FNFMJIyiKIWrnRk,2284
+pymods/record.py,sha256=KxvWawTugYglHPaPjevM2IuIwfBjcwre_wGLLpGGumw,29458
+pymods/writer.py,sha256=49h76l8nJxstXMOfNgmedG7Udz21JLT6_FSZ5B1e5T0,86
+pymods/tests/__init__.py,sha256=yIbxEwtQLCsxJK2ZkvOTljbNizt52pMIFj9wNI_IfkY,21
+pymods/tests/tests.py,sha256=YRapSTVPLP2ymrnsUTHPfQEwu9_8G4Q8xm3ob8XrsaY,17887
+pymods-2.0.12.dist-info/LICENSE,sha256=IbpJu6TvaYwLQZgwXlwIuxL8YjXISXXVBw-r4IsMxpM,1081
+pymods-2.0.12.dist-info/METADATA,sha256=NVo2CBRCT54yBbMZPhdfewi3FpBZa86jA_V4bCsqjms,6293
+pymods-2.0.12.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pymods-2.0.12.dist-info/top_level.txt,sha256=BCGHjG0r1lGCSXJbU4HA4GZmi-sRV3qktVLZRcG6OVE,7
+pymods-2.0.12.dist-info/RECORD,,
