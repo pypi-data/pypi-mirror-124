@@ -1,0 +1,8 @@
+[console_scripts]
+didownload = diadmin.didownload:main
+dipmonitor = diadmin.dipmonitor:main
+dipolicy = diadmin.dipolicy:main
+diprettify = diadmin.prettifyJSON:main
+diupload = diadmin.diupload:main
+diuser = diadmin.diuser:main
+
