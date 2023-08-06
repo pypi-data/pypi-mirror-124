@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "tap-rest-api-msdk"
+version = "0.0.3"
+description = "`tap-rest-api` is a Singer tap for rest-api, built with the Meltano SDK for Singer Taps."
+authors = ["Josh Lloyd"]
+license = "Apache 2.0"
+homepage = "https://github.com/Widen/tap-rest-api"
+repository = "https://github.com/Widen/tap-rest-api"
+keywords = ["Meltano", "Singer", "REST", "API", "tap"]
+
+[tool.poetry.dependencies]
+python = "<=3.9.7,>=3.6.1"
+requests = "^2.25.1"
+singer-sdk = "^0.3.3"
+genson = "^1.2.2"
+atomicwrites = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+# CLI declaration
+tap-rest-api = 'tap_rest_api.tap:TapRestApi.cli'
