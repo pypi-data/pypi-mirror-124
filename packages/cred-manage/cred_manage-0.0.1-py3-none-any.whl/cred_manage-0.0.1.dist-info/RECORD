@@ -1,0 +1,9 @@
+cred_manage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cred_manage/base_cred_container.py,sha256=tLSvJnxWU5AsVpaAr146_jK0pdpcEqK4YaLLPEpV5CQ,1284
+cred_manage/bitwarden.py,sha256=kHLWDnQBjZIO08kY-wkXQY06i6oiIVgCqsGKf0uinVc,11214
+cred_manage/flat_file.py,sha256=MgQyqAA9FF_QN2ccuxQdzQMGsg1Ujkh9zvqx02IqFIU,5349
+cred_manage-0.0.1.dist-info/LICENSE,sha256=2cKFBZAV9Y2UGr3JYnKEqLBFFSmjSeoL0bsUPg1Lpcw,1067
+cred_manage-0.0.1.dist-info/METADATA,sha256=oY3L8j-pwuo_Lk4wow3CcrQB-2VUie34mNEec8m8jOo,682
+cred_manage-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cred_manage-0.0.1.dist-info/top_level.txt,sha256=0msOuQdTEcqusFhCAPbO80XRHnZXQSaCSQcxgeBYqsY,12
+cred_manage-0.0.1.dist-info/RECORD,,
