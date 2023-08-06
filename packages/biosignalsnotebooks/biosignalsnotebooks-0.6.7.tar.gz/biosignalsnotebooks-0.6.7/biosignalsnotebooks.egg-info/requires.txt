@@ -1,0 +1,15 @@
+numpy
+matplotlib
+scipy
+h5py
+python-magic
+wget
+datetime
+libmagic
+bokeh>=1.4.0
+scipy
+IPython
+pandas
+nbformat
+ipython
+requests
