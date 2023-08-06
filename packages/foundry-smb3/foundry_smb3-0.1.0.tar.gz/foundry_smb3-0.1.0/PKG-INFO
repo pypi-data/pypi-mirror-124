@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: foundry-smb3
+Version: 0.1.0
+Summary: 
+License: GPL3
+Author: TheJoeSmo
+Author-email: joesmo.joesmo12@gmail.com
+Requires-Python: >=3.9.0,<3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PySide2 (>=5.15.2,<6.0.0)
+Requires-Dist: QDarkStyle (>=3.0.2,<4.0.0)
