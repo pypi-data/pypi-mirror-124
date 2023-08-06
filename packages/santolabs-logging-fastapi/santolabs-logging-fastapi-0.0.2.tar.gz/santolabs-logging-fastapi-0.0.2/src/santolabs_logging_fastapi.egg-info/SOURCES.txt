@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/santolabs/logging/fastapi/__init__.py
+src/santolabs/logging/fastapi/logging.py
+src/santolabs/logging/fastapi/package.py
+src/santolabs/logging/fastapi/version.py
+src/santolabs_logging_fastapi.egg-info/PKG-INFO
+src/santolabs_logging_fastapi.egg-info/SOURCES.txt
+src/santolabs_logging_fastapi.egg-info/dependency_links.txt
+src/santolabs_logging_fastapi.egg-info/entry_points.txt
+src/santolabs_logging_fastapi.egg-info/requires.txt
+src/santolabs_logging_fastapi.egg-info/top_level.txt
