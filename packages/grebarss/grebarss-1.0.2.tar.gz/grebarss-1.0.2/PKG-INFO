@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: grebarss
+Version: 1.0.2
+Summary: CLI utility for reading news
+Home-page: https://github.com/Greba3000/Homework
+Author: Alexander Hreben
+Author-email: greba3000@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Requires-Python: >=3.9
+
+UNKNOWN
+
