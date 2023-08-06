@@ -1,0 +1,3 @@
+[console_scripts]
+eoplatform=eoplatform.cli:app
+

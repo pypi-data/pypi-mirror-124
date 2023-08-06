@@ -1,0 +1,14 @@
+eoplatform/__init__.py,sha256=areDGkPgwcI-0oiygXwdEk2LqDmBxNxdUmamJeCDHZQ,130
+eoplatform/__main__.py,sha256=ZBgvqi-0kKD9KPNbtj7SaG5AfO647NWIJatyTxOQeKI,63
+eoplatform/baseClasses.py,sha256=QKrIWWSTybuZPxIFJslbraxkra6Anlam9ZMD45Gf5dw,7033
+eoplatform/cli.py,sha256=fhwsce7Nd-9ztWxkzC64TtK_98mOjNnLKXs7HnjzAD4,623
+eoplatform/console.py,sha256=EttvSKi1YCwz26uz1ffMfp_uGVjZHLV_5juF5C-xid0,57
+eoplatform/factory.py,sha256=QDdPxPlTywnZOefjpqiGXtgrEW7H2Y0XXiBo2X6bt48,1431
+eoplatform/main.py,sha256=dzxPrlDSVdzv4Tp001CzmKanEuhoRyL3EUipS9U7ZgI,1081
+eoplatform/platforms/landsat8.json,sha256=WA3MOM0s9leuqicKYM8xCtCBPE5v2QLfR7sXGr3exi0,4832
+eoplatform/platforms/sentinel2.json,sha256=oAit1N4IlWSREuGVa7Kozejo-hg2kVNo3Sgz8Un7eQk,3638
+eoplatform-0.1.0.dist-info/entry_points.txt,sha256=r3hy4mIR_6f9_vlUbF0leeNHPnBaFUZadU5ZXBh0Zow,49
+eoplatform-0.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+eoplatform-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+eoplatform-0.1.0.dist-info/METADATA,sha256=_IHw9p9WUFHa-lF7XxvVaFkBiBWGOw0FSn6VVYhAqXw,5225
+eoplatform-0.1.0.dist-info/RECORD,,
