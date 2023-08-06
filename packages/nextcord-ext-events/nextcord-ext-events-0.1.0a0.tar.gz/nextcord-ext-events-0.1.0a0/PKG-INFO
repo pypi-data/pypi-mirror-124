@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: nextcord-ext-events
+Version: 0.1.0a0
+Summary: Custom events derived from events dispatched by Discord. 
+Home-page: https://github.com/vincentrps/nextcord-ext-events
+Author: VincentRPS
+License: Apache Software License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+nextcord-ext-events
+====================
+
+|dependencies| |license|
+
+Custom events derived from events dispatched by Discord. 
+
+    ⚠️ Work In Progress!
+
+Installation
+-------------
+
+This extension is currently not in PyPI.
+
+.. code-block:: sh
+
+    $ python3 -m pip install -U git+https://github.com/vincentrps/nextcord-ext-events
+
+
+Usage
+------
+
+An example for when subscribing to the on_member_kick event.
+
+.. code-block:: py
+
+    import nextcord
+    from nextcord.ext import commands, events
+    from nextcord.ext.events import member_kick
+
+
+    class MyBot(commands.Bot, events.EventsMixin):
+
+        async def on_ready(self):
+            print('Logged in!')
+
+        async def on_member_kick(self, member: nextcord.Member, entry: nextcord.AuditLogEntry):
+            print(f'{member} was kicked from {member.guild}!')
+
+
+    bot = MyBot(command_prefix='!', intents=nextcord.Intents.all())
+
+    bot.run("TOKEN")
+
+.. |dependencies| image:: https://img.shields.io/librariesio/github/vincentrps/nextcord-ext-events
+.. |license| image:: https://img.shields.io/pypi/l/nextcord-ext-events.svg
+
+

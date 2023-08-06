@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+nextcord/ext/events/__init__.py
+nextcord/ext/events/_events.py
+nextcord/ext/events/member_kick.py
+nextcord/ext/events/mixins.py
+nextcord/ext/events/utils.py
+nextcord_ext_events.egg-info/PKG-INFO
+nextcord_ext_events.egg-info/SOURCES.txt
+nextcord_ext_events.egg-info/dependency_links.txt
+nextcord_ext_events.egg-info/top_level.txt
