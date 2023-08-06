@@ -1,0 +1,108 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['qtawk', 'qtawk.ui']
+
+package_data = \
+{'': ['*'],
+ 'qtawk': ['.git/*',
+           '.git/hooks/*',
+           '.git/info/*',
+           '.git/logs/*',
+           '.git/logs/refs/heads/*',
+           '.git/logs/refs/remotes/origin/*',
+           '.git/objects/02/*',
+           '.git/objects/03/*',
+           '.git/objects/05/*',
+           '.git/objects/07/*',
+           '.git/objects/0b/*',
+           '.git/objects/0c/*',
+           '.git/objects/0d/*',
+           '.git/objects/0f/*',
+           '.git/objects/12/*',
+           '.git/objects/14/*',
+           '.git/objects/18/*',
+           '.git/objects/24/*',
+           '.git/objects/2c/*',
+           '.git/objects/39/*',
+           '.git/objects/3c/*',
+           '.git/objects/40/*',
+           '.git/objects/41/*',
+           '.git/objects/43/*',
+           '.git/objects/4a/*',
+           '.git/objects/4f/*',
+           '.git/objects/50/*',
+           '.git/objects/5d/*',
+           '.git/objects/5e/*',
+           '.git/objects/61/*',
+           '.git/objects/6c/*',
+           '.git/objects/6e/*',
+           '.git/objects/71/*',
+           '.git/objects/72/*',
+           '.git/objects/81/*',
+           '.git/objects/83/*',
+           '.git/objects/84/*',
+           '.git/objects/88/*',
+           '.git/objects/8a/*',
+           '.git/objects/8b/*',
+           '.git/objects/90/*',
+           '.git/objects/97/*',
+           '.git/objects/a2/*',
+           '.git/objects/a5/*',
+           '.git/objects/a7/*',
+           '.git/objects/aa/*',
+           '.git/objects/b3/*',
+           '.git/objects/c1/*',
+           '.git/objects/c4/*',
+           '.git/objects/c7/*',
+           '.git/objects/ce/*',
+           '.git/objects/cf/*',
+           '.git/objects/d5/*',
+           '.git/objects/d7/*',
+           '.git/objects/da/*',
+           '.git/objects/e0/*',
+           '.git/objects/e5/*',
+           '.git/objects/e7/*',
+           '.git/objects/e8/*',
+           '.git/objects/eb/*',
+           '.git/objects/ed/*',
+           '.git/objects/ef/*',
+           '.git/objects/f2/*',
+           '.git/objects/f7/*',
+           '.git/objects/fb/*',
+           '.git/objects/fc/*',
+           '.git/objects/fd/*',
+           '.git/objects/fe/*',
+           '.git/objects/pack/*',
+           '.git/refs/heads/*',
+           '.git/refs/remotes/origin/*',
+           'ico/*',
+           'man/*',
+           'scripts/*']}
+
+install_requires = \
+['PyQt5==5.14.1', 'pyqtgraph==0.11.0']
+
+entry_points = \
+{'console_scripts': ['qtawk = qtawk.__main__:run']}
+
+setup_kwargs = {
+    'name': 'qtawk',
+    'version': '0.1.1',
+    'description': 'Qtawk is a WYSIWYG tool to generate bash scripts very quickly',
+    'long_description': '\n# Description\n\nQtawk is a graphical tool to generate bash scripts very quickly and without pain.\n\n\n# official website\n\nhttps://qtawk.ntik.org/\n\n\n# documentation\n\nhttps://qtawk.ntik.org/docs/index.html\n\n\n# contact\n\nmail : qtawk-dev@ntik.org\nIRC  : ntick.org  #qtawk (port 6667 SSL)\n',
+    'author': 'Pierrick Lebourgeois',
+    'author_email': 'qtawk-dev@ntik.org',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://qtawk.ntik.org/',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'entry_points': entry_points,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)

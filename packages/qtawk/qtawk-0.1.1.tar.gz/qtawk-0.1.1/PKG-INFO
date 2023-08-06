@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: qtawk
+Version: 0.1.1
+Summary: Qtawk is a WYSIWYG tool to generate bash scripts very quickly
+Home-page: https://qtawk.ntik.org/
+Author: Pierrick Lebourgeois
+Author-email: qtawk-dev@ntik.org
+Requires-Python: >=3.8,<4.0
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyQt5 (==5.14.1)
+Requires-Dist: pyqtgraph (==0.11.0)
+Project-URL: Documentation, https://qtawk.ntik.org/docs/
+Project-URL: Repository, https://git.ntik.org/qtawk.git/
+Description-Content-Type: text/markdown
+
+
+# Description
+
+Qtawk is a graphical tool to generate bash scripts very quickly and without pain.
+
+
+# official website
+
+https://qtawk.ntik.org/
+
+
+# documentation
+
+https://qtawk.ntik.org/docs/index.html
+
+
+# contact
+
+mail : qtawk-dev@ntik.org
+IRC  : ntick.org  #qtawk (port 6667 SSL)
+
