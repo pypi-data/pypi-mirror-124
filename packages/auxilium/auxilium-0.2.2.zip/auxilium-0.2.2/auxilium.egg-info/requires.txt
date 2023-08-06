@@ -1,0 +1,14 @@
+pip
+dulwich
+regtest
+flake8
+bandit
+coverage
+twine
+sphinx
+sphinx-rtd-theme
+sphinx-math-dollar
+karma-sphinx-theme
+darglint
+black
+sphinx-pytype-substitution
