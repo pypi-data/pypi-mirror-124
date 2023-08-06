@@ -1,0 +1,11 @@
+accbib/__init__.py,sha256=EM_-0Yi3d2gr48URybjROLO8WBDN_LmT71cKO1GmLjI,57
+accbib/accbib.py,sha256=aXgiwTIfna4BnS71FWmm1pZRjpDji4R8AYwsh7gdsTw,7448
+accbib/iobib.py,sha256=vZz6-cnGG0XNlbKH8b-GzxrkRjzwy7q626MS_xU4nl8,284
+accbib/ioxml.py,sha256=yKA_rnxFug3iNdGT-t4l17YkycKRl2W-jc-pLLf6ANA,8230
+accbib/translator.py,sha256=U5WewkSXONDWod_5OdxWHEWlXSjn96xj-Nrtc2spDCw,5859
+accbib/version.py,sha256=07NzQXBgNlnw5kSN6ZYxE9By-_RuH3Jyy58Z74sIio0,21
+accbib-0.0.1.dist-info/LICENSE,sha256=eTAMrQxkyw6ApSsWH9vJdyVXchbASCr9kEPFfwQzv-c,1091
+accbib-0.0.1.dist-info/METADATA,sha256=ezUZXWWhVH5sloiLyrNjC-38Ssagzyrz8x8nX86RNQs,7746
+accbib-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+accbib-0.0.1.dist-info/top_level.txt,sha256=g8f4Q3wmgV3riXFeXkS9cthY-e07PIRnNxsQ5EXr8gA,7
+accbib-0.0.1.dist-info/RECORD,,
