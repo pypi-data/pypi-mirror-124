@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Pypet-is-easy
+Version: 0.0.1
+Summary: You can easy make a Desktop Pet
+Home-page: UNKNOWN
+Author: Paul Dönicke
+Author-email: paul.doenicke@online.de
+License: MIT
+Keywords: all
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+This ist a Libary for waht do you need
+
+Change Log
+==========
+
+0.0.1 (26/10/2021)
+------------------
+First release
+Use 'import pypet' to use the lib
+

@@ -1,0 +1,7 @@
+Change Log
+==========
+
+0.0.1 (26/10/2021)
+------------------
+First release
+Use 'import pypet' to use the lib

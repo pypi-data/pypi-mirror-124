@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENS.txt
+MANIFEST.in
+README.txt
+setup.py
+Pypet_is_easy.egg-info/PKG-INFO
+Pypet_is_easy.egg-info/SOURCES.txt
+Pypet_is_easy.egg-info/dependency_links.txt
+Pypet_is_easy.egg-info/requires.txt
+Pypet_is_easy.egg-info/top_level.txt
+ezpypet/__init__.py
