@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "aws-shepherd"
+version = "0.1.0"
+description = "Sepherds AWS Lamb(das) to your local machine"
+authors = ["Futurebank <opensource@futurebank.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.0.2"
+pyngrok = "^5.1.0"
+boto3 = "^1.18.61"
+rich = "^10.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+shepherd = "aws_shepherd.cli:main"
