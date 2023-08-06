@@ -1,0 +1,9 @@
+cfm_id/__init__.py,sha256=1EMDf0ynUUKGJrdPOa9v58Od4QP_mqiPfe8C9f0tocQ,159
+cfm_id/cfm_id.py,sha256=vCvDq9Etp2UkI8RwuAWnUr1JXKo795z7XyRYrP_d01I,5362
+cfm_id/config.py,sha256=9JU-y_Z_NmlXwGVZu2_oJ4l6QqlsXvKCvVAq_-cXy6k,336
+cfm_id/hash.py,sha256=F77McunzXtKscT0ff0idBgomv0bnp0KTCZnHvG2Yhis,422
+cfm_id/matchms.py,sha256=p24d2vhE-9X2iLVVzwUMSRH76NkN6wmhswgsm7_SfCw,1939
+cfm_id-0.1.2.dist-info/entry_points.txt,sha256=MK2optEaKoI--c_q3PvirmLufWQl4sgBri_S04nK7c0,38
+cfm_id-0.1.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+cfm_id-0.1.2.dist-info/METADATA,sha256=orVRYLXgqfxCM3Kx8CwtGFP1RWEE5H5tdI802NIZsO8,3131
+cfm_id-0.1.2.dist-info/RECORD,,
