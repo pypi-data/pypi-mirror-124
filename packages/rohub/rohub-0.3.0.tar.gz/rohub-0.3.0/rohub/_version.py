@@ -1,0 +1,1 @@
+__version__ = "v0.3.0"  # https://nsls-ii.github.io/scientific-python-cookiecutter/publishing-releases.html
