@@ -1,0 +1,6 @@
+skidl>=1.1.0
+numpy
+sympy
+pint
+eseries
+importlib-metadata
