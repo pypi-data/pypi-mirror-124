@@ -1,0 +1,9 @@
+README.md
+setup.py
+thesaurus_draft/__init__.py
+thesaurus_draft/thesaurus.py
+thesaurus_draft.egg-info/PKG-INFO
+thesaurus_draft.egg-info/SOURCES.txt
+thesaurus_draft.egg-info/dependency_links.txt
+thesaurus_draft.egg-info/requires.txt
+thesaurus_draft.egg-info/top_level.txt
