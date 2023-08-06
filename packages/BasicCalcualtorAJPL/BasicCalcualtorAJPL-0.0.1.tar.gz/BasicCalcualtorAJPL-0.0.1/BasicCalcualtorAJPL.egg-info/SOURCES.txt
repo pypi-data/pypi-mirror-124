@@ -1,0 +1,9 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+BasicCalcualtorAJPL.egg-info/PKG-INFO
+BasicCalcualtorAJPL.egg-info/SOURCES.txt
+BasicCalcualtorAJPL.egg-info/dependency_links.txt
+BasicCalcualtorAJPL.egg-info/top_level.txt
+BasicCalculatorAJPL/__init__.py
