@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: population-data
+Version: 0.0.8
+Summary: Get Population Data of the world
+Home-page: https://techitutorial.com
+Author: Anshu (Pydjango and techitutorials.com)
+Author-email: <anshupal258@gmail.com>
+License: UNKNOWN
+Keywords: python,population,data,api,worldometer,population_data
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# A package that allows you to get world and country pouplation data
+
+Population Data of the world
+
+Developed by Anshu from Techi Tutorials (c) 2021
+
+How To Use
+
+```python
+from population_data import Population_data
+
+# YOUR API KEY(Get it from here https://rapidapi.com/aldair.sr99/api/world-population/)
+
+my_api = YOUR API KEY
+
+# country population data
+country_population = Population_data.get_country_population(my_api, "Canada")
+print(country_population)
+
+# world population data
+world_population = Population.get_world_population(my_api)
+print(world_population)
+
+```
+
+get_country_population() method takes additional argument of the query string, that is country name
+and returns the json response
+
+Check out: https://techitutorials.com
+
+
