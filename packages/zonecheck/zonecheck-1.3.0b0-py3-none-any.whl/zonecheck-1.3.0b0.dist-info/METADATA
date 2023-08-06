@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: zonecheck
+Version: 1.3.0b0
+Summary: Helper libraries to check if DNS zonefiles configured on a server are the same as DNS master servers.
+Home-page: https://github.com/icann-dns/zonecheck
+Author: John Bond
+Author-email: pypi@johnbond.org
+License: License :: OSI Approved :: Apache Software License 2.0 (Apache-2.0)
+Project-URL: Bug Tracker, https://github.com/icann-dns/zonecheck/issues
+Keywords: dns,puppet
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: Name Service (DNS)
+Classifier: Topic :: System :: Networking :: Monitoring
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml (>=5.2)
+Requires-Dist: future
+Requires-Dist: dnspython (>=1.15) ; python_version < "3.0"
+Requires-Dist: dnspython (>=2.0.0) ; python_version >= "3.6"
+
+# Zonecheck
+Homepage: https://github.com/icann-dns/zonecheck
+
+![GitHub issues](https://img.shields.io/github/issues/icann-dns/zonecheck?style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/icann-dns/zonecheck)
+![GitHub](https://img.shields.io/github/license/icann-dns/zonecheck)
+![PyPI](https://img.shields.io/pypi/v/zonecheck)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/zonecheck)
+
+Validate DNS zones against DNS master servers and create custom facts.
+
+To be used in tandem with [puppet-dns module](https://github.com/icann-dns/puppet-dns)
+
+## Requirements
+- `dnspython`: https://pypi.org/project/dnspython/
+- `PyYAML`: https://pypi.org/project/PyYAML/
+
+## Usage
+```console
+usage: zonecheck [-h] [--serial-lag SERIAL_LAG] [--log LOG] [--puppet-facts]
+                 [--puppet-facts-dir PUPPET_FACTS_DIR] [--config CONFIG] [-v]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --serial-lag SERIAL_LAG
+                        alert if the serial is behind by this value or more
+  --log LOG             location of error file
+  --puppet-facts
+  --puppet-facts-dir PUPPET_FACTS_DIR
+  --config CONFIG       comma seperated list of zones
+  -v, --verbose
+```
+
+
