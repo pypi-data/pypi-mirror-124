@@ -1,0 +1,5 @@
+setup.py
+jupyter_wren_syntax.egg-info/PKG-INFO
+jupyter_wren_syntax.egg-info/SOURCES.txt
+jupyter_wren_syntax.egg-info/dependency_links.txt
+jupyter_wren_syntax.egg-info/top_level.txt
