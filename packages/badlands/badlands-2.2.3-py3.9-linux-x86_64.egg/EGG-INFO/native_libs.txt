@@ -1,0 +1,6 @@
+badlands/flowalgo.cpython-39-x86_64-linux-gnu.so
+badlands/fvframe.cpython-39-x86_64-linux-gnu.so
+badlands/ormodel.cpython-39-x86_64-linux-gnu.so
+badlands/pdalgo.cpython-39-x86_64-linux-gnu.so
+badlands/sfd.cpython-39-x86_64-linux-gnu.so
+badlands/waveseds.cpython-39-x86_64-linux-gnu.so
