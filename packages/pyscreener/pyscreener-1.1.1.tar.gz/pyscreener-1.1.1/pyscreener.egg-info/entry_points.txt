@@ -1,0 +1,4 @@
+[console_scripts]
+pyscreener = pyscreener.main:main
+pyscreener-check = pyscreener.main:check
+
