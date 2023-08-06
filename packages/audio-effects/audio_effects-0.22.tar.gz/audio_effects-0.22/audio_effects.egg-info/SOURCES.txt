@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+audio_effects/__init__.py
+audio_effects/audio_effects.py
+audio_effects.egg-info/PKG-INFO
+audio_effects.egg-info/SOURCES.txt
+audio_effects.egg-info/dependency_links.txt
+audio_effects.egg-info/requires.txt
+audio_effects.egg-info/top_level.txt
+test/Cmaj7_chord.mp3
+test/test.py
