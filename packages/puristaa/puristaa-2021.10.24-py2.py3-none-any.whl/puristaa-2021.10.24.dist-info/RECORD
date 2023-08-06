@@ -1,0 +1,14 @@
+puristaa/__init__.py,sha256=qGpzefYsTGUc2aOqkMH3yYH0_ix_ZZH_FZtFNgQVfoo,89
+puristaa/__main__.py,sha256=vIfLoqtYFvpoQ14TQfwUCsqujppcvD4Jjrvf08WHR6Y,183
+puristaa/cli.py,sha256=KgCyP8tr7wxfWDW-o1BLS09XctbBjuwF7a-mBLtvnik,963
+puristaa/puristaa.py,sha256=I9xKVUTWf0xRiqfj204HfkTImvMHLHdY1OhlcIKsGo0,1123
+tests/__init__.py,sha256=YyUhssxVD_qF9s4IJNtCqjXfqb8zDymxV5fhVG1rDNQ,134
+tests/context.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cli.py,sha256=ADsj6hJgKwTnUIEsff2fjwaT2SXsTHHqnB7qLxdBTZg,586
+tests/test_puristaa.py,sha256=dKiTtVZlloO4KS39xgTC3LUDD9PC6qFgwgsej3pXYwY,2578
+puristaa-2021.10.24.dist-info/LICENSE,sha256=pdUNBCZdNRp6SMlN3v5BnLKYwFcOY29EBemY-4rymvc,1069
+puristaa-2021.10.24.dist-info/METADATA,sha256=1rsx_cDcXjnAPieImqvsP9xwsRLx7bBf1DrsmKTnPD4,3375
+puristaa-2021.10.24.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+puristaa-2021.10.24.dist-info/entry_points.txt,sha256=Zj2SWnzdc85PpvkIHSMnbqy8yiGwixHSpLfd3OyBCMM,47
+puristaa-2021.10.24.dist-info/top_level.txt,sha256=cwB1HZRPVM2-2soUwnGaSWDovNwXGFQLC5u5XGnAFnw,15
+puristaa-2021.10.24.dist-info/RECORD,,
