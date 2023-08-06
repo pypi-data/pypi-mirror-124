@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/demo.py
+src/data/Banking.db
+src/data/logo.svg
+src/demo_dbsec.egg-info/PKG-INFO
+src/demo_dbsec.egg-info/SOURCES.txt
+src/demo_dbsec.egg-info/dependency_links.txt
+src/demo_dbsec.egg-info/requires.txt
+src/demo_dbsec.egg-info/top_level.txt

@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: demo-dbsec
+Version: 0.0.0rc0
+Summary: Demo SQL Injection sharing resource
+Home-page: https://github.com/tquangsdh20/demo_sql_injection
+Author: GROUP 4 from Class Database Security
+Author-email: tquang.sdh20@hcmut.edu.vn
+License: MIT
+Keywords: demo_dbsec
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<p align="center">
+  <img src=".github/tittle.svg?sanitize=true" />
+</p>
+
+## Members:
+- Tran Quang
+- Nguyen Hoang Dinh Quy
+- Than Hai Nhat Minh
+- Nguyen Ty Phu
+
+## Introductions
+
+
+##
+
+
+
