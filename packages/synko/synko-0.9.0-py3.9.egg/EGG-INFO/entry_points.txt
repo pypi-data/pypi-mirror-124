@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        synko=synko.main:main
+    
