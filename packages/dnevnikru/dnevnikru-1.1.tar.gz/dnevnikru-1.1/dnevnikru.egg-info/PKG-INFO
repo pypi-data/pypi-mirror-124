@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: dnevnikru
+Version: 1.1
+Summary: dnevnik.ru parser
+Home-page: https://github.com/paracosm17/dnevnikru
+Author: paracosm17
+Author-email: paracosm17@yandex.ru
+License: Apache License 2.0
+Description: [![PyPI](https://img.shields.io/pypi/v/dnevnikru)](https://pypi.org/project/dnevnikru/)
+        [![Python Versions](https://img.shields.io/pypi/pyversions/dnevnikru)](https://pypi.org/project/dnevnikru)
+        # dnevnikru
+        
+        > РњРѕРґСѓР»СЊ РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ СЃР°Р№С‚РѕРј dnevnik.ru РЅР° python
+        
+        РћР±СЉРµРєС‚ Dnevnik РїСЂРёРЅРёРјР°РµС‚ РІ СЃРµР±СЏ login Рё password РѕС‚ Р°РєРєР°СѓРЅС‚Р° РІ РґРЅРµРІРЅРёРєРµ <br/>
+        РњРµС‚РѕРґС‹: homework, marks, searchpeople, birthdays, week <br>
+        ##### РћР·РЅР°РєРѕРјРёС‚СЊСЃСЏ СЃ РїРѕР»РЅС‹Рј С„СѓРЅРєС†РёРѕРЅР°Р»РѕРј РјРѕРґСѓР»СЏ РјРѕР¶РЅРѕ С‚СѓС‚: [Wiki][wiki] <br>
+        (РќРµ СЂР°Р±РѕС‚Р°РµС‚ РІ СЂРµРіРёРѕРЅР°С…, РіРґРµ РІС…РѕРґ РІ Р”РЅРµРІРЅРёРє РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С‚РѕР»СЊРєРѕ С‡РµСЂРµР· Р“РѕСЃРЈСЃР»СѓРіРё!)
+        ## РЈСЃС‚Р°РЅРѕРІРєР°
+        
+        Windows:
+        
+        Р’С‹РїРѕР»РЅРёС‚Рµ РІ С‚РµСЂРјРёРЅР°Р»Рµ РєРѕРјР°РЅРґСѓ: <br>
+        ```cmd
+        pip install dnevnikru
+        ```
+        
+        ## РџСЂРёРјРµСЂС‹ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ
+        
+        ```python
+        from dnevnikru import Dnevnik
+        
+        dairy = Dnevnik(login='Your login', password='Your password')
+        
+        homework = dairy.homework(studyyear=2020, datefrom='01.12.2020', dateto='30.12.2020')
+        marks = dairy.marks(index=0, period=1)
+        class_11b = dairy.searchpeople(grade='11Р‘')
+        birthdays = dairy.birthdays(day=9, month=5)
+        schedule = dairy.week(info="schedule", weeks=-1)
+        ```
+        
+        #### _Р•С‰С‘ Р±РѕР»СЊС€Рµ РїСЂРёРјРµСЂРѕРІ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Рё РїР°СЂР°РјРµС‚СЂРѕРІ РІ РјРµС‚РѕРґР°С… СЃРјРѕС‚СЂРёС‚Рµ РЅР° СЃС‚СЂР°РЅРёС†Рµ [Wiki][wiki]._
+        
+        ## Р—Р°РІРёСЃРёРјРѕСЃС‚Рё
+        
+        Р”Р»СЏ СЂР°Р±РѕС‚С‹ РјРѕРґСѓР»СЏ РїРѕРЅР°РґРѕР±СЏС‚СЃСЏ Р±РёР±Р»РёРѕС‚РµРєРё `requests`, `lxml`, `bs4`
+        
+        ## Р РµР»РёР·С‹
+        
+        * 1.0
+          * РџРµСЂРІР°СЏ РІРµСЂСЃРёСЏ РїСЂРѕРµРєС‚Р°
+        
+        ## РЎРІСЏР·СЊ
+        
+        Aleksandr вЂ“ tg: [@paracosm17](https://t.me/paracosm17) вЂ“ email: paracosm17@yandex.ru <br>
+        
+        ## LICENSE
+        Distributed under the Apache License 2.0 license. See ``LICENSE`` for more information.
+        
+        <!-- Markdown link & img dfn's -->
+        [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
+        [npm-url]: https://npmjs.org/package/datadog-metrics
+        [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
+        [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+        [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+        [wiki]: https://github.com/paracosm17/dnevnikru/wiki
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
