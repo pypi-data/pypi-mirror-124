@@ -1,0 +1,9 @@
+pyopdll/__init__.py,sha256=dQA_lOlQ8D2SrF_Mnob9DVrIfceHRTDQ9a8Ahu8h7oI,199
+pyopdll/op.py,sha256=QgxKs5bvzsdGAMbGhjL77EQd6463fEgDzHj5YEQtRrg,65181
+pyopdll/op_x64.dll,sha256=uD-YihgoP8f8MpQeDTddaNDfFShaliq57hNGPbvhBaw,1073152
+pyopdll/op_x86.dll,sha256=67MlW371kC-GuWdlUxQfYu3fiV9ov55Zo-RdOlrIiQA,957952
+pyopdll-0.0.1.dist-info/LICENSE,sha256=DtkOfxPqzplLAkAU3KMXy6W06k_XMXXELFks5u_9LFA,1089
+pyopdll-0.0.1.dist-info/METADATA,sha256=9CZ2AoOXmRfEjE4QghGtyWGoRNRhxHy4kBESQp2z3ko,5351
+pyopdll-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyopdll-0.0.1.dist-info/top_level.txt,sha256=PdoH749XjtNMOD_BPFUfF_cNoPw2cH38znILjQIk1vo,8
+pyopdll-0.0.1.dist-info/RECORD,,
