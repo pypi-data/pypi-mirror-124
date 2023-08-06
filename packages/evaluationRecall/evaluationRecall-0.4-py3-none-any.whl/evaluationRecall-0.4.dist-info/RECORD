@@ -1,0 +1,12 @@
+evaluationRecall/__init__.py,sha256=N3NvrFIf9LOJqxKEqAV0hXbqyf9sjz2BKY_dXFRxXso,218
+evaluationRecall/neighbors.py,sha256=JW4JTyKl782LyJwtMIfo8hszaHmfqdNT4qGjyrPh7g8,15331
+evaluationRecall/neighbors_ivf.py,sha256=GvAgaSpo6yZjFN5UQysWhzHeXD3aBhERisgBLv6xC9c,4846
+evaluationRecall/neighbors_test.py,sha256=aXykWDT0ieTpR8qWvRaJl5fAikawfTXYE1ogG64FW5I,17024
+evaluationRecall/setup.py,sha256=wNZkb4Iu7AnArRleK2IJRCtV5A1SLy2UBXr5Y3gOncU,301
+evaluationRecall/t.py,sha256=ugNoZhoxDEn11W97s4c502kHsnJwsZpQDtCmzVmhicI,147
+evaluationRecall/utils.py,sha256=xGzkzqBFAi_Yyq35ggzTogp7dUDEWJnaKmRenl09GPs,628
+evaluationRecall-0.4.dist-info/LICENSE,sha256=d53OSgk0N1cCH4RMMu53ril8gE7IpLBNfqVr_usRySI,1051
+evaluationRecall-0.4.dist-info/METADATA,sha256=w79NxwQwfjBCKp92iCJHFYnCjCkf9MNXY59mPq1meFI,1002
+evaluationRecall-0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+evaluationRecall-0.4.dist-info/top_level.txt,sha256=rq-A7tYFbo-cm_HjobIkVnH2-sO2I2wfVN6bIOSiww8,17
+evaluationRecall-0.4.dist-info/RECORD,,
