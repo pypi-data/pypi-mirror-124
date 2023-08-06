@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: treebased-synthetic-controls
+Version: 0.0.4
+Summary: Tree-based Synthetic Control Group Methods (Mühlbach & Nielsen, 2020)
+Home-page: https://github.com/muhlbach/treebased_synthetic_controls
+Author: Nicolaj Søndergaard Mühlbach
+Author-email: n.muhlbach@gmail.com
+License: MIT License
+Description: 
+        # treebased_synthetic_controls
+        This repo provides code to run the Tree-based Synthetic Control Estimator by Mühlbach \& Nielsen (2020) (https://arxiv.org/abs/1909.03968)
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
