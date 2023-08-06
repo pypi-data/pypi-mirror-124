@@ -1,0 +1,17 @@
+acpoa-plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+acpoa-plugin/__main__.py,sha256=9hHkm1D4M69lY_qRO2NZcfFMJekX5m3FBa2OqUY7IEU,2092
+acpoa-plugin/build.py,sha256=y-INrdhrmw-SMnX-ckiDebAcnM1QubG5PTrgFC332Y0,815
+acpoa-plugin/new.py,sha256=lXN-9l_5OyCOb53xVkbyVmP9a8hoLhgxzQEelKxLrwk,3240
+acpoa-plugin/default/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+acpoa-plugin/default/README.md,sha256=KGEOF8nk3W8ZTDsnI1Rb5F4R77cKr44eqpKb9ChKYhY,19
+acpoa-plugin/default/plugin.cfg,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+acpoa-plugin/default/pyproject.toml,sha256=p3dFmX-sl99XvLYEjKkh7gZVR1jVOHXS1Ti4pcctgEI,103
+acpoa-plugin/default/requirements.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+acpoa-plugin/default/setup.py,sha256=nGTi1Wh-3Dt7ZAb291ZQVb2TxW6xTW_9jMmsVQPmohg,833
+acpoa-plugin/default/src/plugin_name/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+acpoa-plugin/default/src/plugin_name/script.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+acpoa_plugin-1.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+acpoa_plugin-1.0.1.dist-info/METADATA,sha256=8GCysweSZqsSB6xRHhabfXSDZBKYrirwfXsYgORyN0g,2153
+acpoa_plugin-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+acpoa_plugin-1.0.1.dist-info/top_level.txt,sha256=82u4HJw70AX5zOMG63z_yt8bQpZSIWCjV8BRuJIEyxM,13
+acpoa_plugin-1.0.1.dist-info/RECORD,,
