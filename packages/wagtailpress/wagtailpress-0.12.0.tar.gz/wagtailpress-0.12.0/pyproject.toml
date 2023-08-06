@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "wagtailpress"
+version = "0.12.0"
+description = "A Blog build with Wagtail."
+authors = ["Sébastien Gendre <seb@k-7.ch>"]
+license = "LGPL-3.0-only"
+readme = "README.md"
+repository = "https://framagit.org/SebGen/wagtailpress"
+keywords = [
+    "wagtailperson",
+    "wagtail",
+    "person",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Framework :: Django",
+    "Framework :: Wagtail",
+    "Framework :: Wagtail :: 2",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    ]
+packages = [
+    { include = "wagtailpress" },
+]
+include = [
+    "LICENSE",
+    "README.org",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+wagtail = "^2.14.2"
+wagtailperson = "^0.13.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
