@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyopdll/__init__.py
+pyopdll/op.py
+pyopdll.egg-info/PKG-INFO
+pyopdll.egg-info/SOURCES.txt
+pyopdll.egg-info/dependency_links.txt
+pyopdll.egg-info/requires.txt
+pyopdll.egg-info/top_level.txt
