@@ -1,0 +1,13 @@
+xrobot_launcher.py,sha256=WQCyHLENT14rOoc8vCpdXqEDsP7WyJuRhaCVgj88x2g,214
+xeus_robot-0.4.4.data/data/nlohmann_json.natvis,sha256=vLvyEeyqag7rFiLYsAmIEe83o6_m_k9adFTX4u_2y8Y,2036
+xeus_robot-0.4.4.data/data/share/jupyter/kernels/xrobot/kernel.js,sha256=p7dlZl2JteOWzOaWjcAm5WNwo7GWPwOlfCOP2pw8x4I,23282
+xeus_robot-0.4.4.data/data/share/jupyter/kernels/xrobot/kernel.json,sha256=im4ZCq9TJ7BD231fzLHDwR2a3q0LLRm_pqTXLr4Lllc,280
+xeus_robot-0.4.4.data/data/share/jupyter/kernels/xrobot/logo-32x32.png,sha256=JLjEWDaPoEV_JXmzSuRhbmeP6cWHrODqXUTwqZqPWDI,642
+xeus_robot-0.4.4.data/data/share/jupyter/kernels/xrobot/logo-64x64.png,sha256=aCeFdZFOfd-O39sFiM0SfQ5nKK2ep_CICpcSaclupGc,1137
+xrobot/__init__.py,sha256=3v22jom5i0Cu_VzlG5SBzMvXCL3sdpsZ5vXp8bxKt88,38
+xrobot/xrobot_extension.cp37-win_amd64.pyd,sha256=unILt8kXkuATws9p0m0SuHYri1lkqORoXvGTR0ieIgg,3095552
+xeus_robot-0.4.4.dist-info/LICENSE,sha256=nMgpKSRhHeN4htdOhrGoxa-oiHVm1fZwi430tK9Gt6k,1580
+xeus_robot-0.4.4.dist-info/METADATA,sha256=RdX8YiormZx_AxMPw2hOSSlO4JTq-APRE33P_EMX7Rg,421
+xeus_robot-0.4.4.dist-info/WHEEL,sha256=WhO318o7DGV1k2ihq4nQ2Ee_IYhXEU8yKTjfj2LrX1Q,95
+xeus_robot-0.4.4.dist-info/top_level.txt,sha256=eCayGuYoAWEttG3xSrfLGMUf19rYUfsBTEquzT-eWNk,23
+xeus_robot-0.4.4.dist-info/RECORD,,
