@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: tenor.py
+Version: 0.0.1
+Summary: Gif 검색 라이브러리
+Home-page: https://github.com/cord0318/tenor
+Author: Jung Ji-Hyo
+Author-email: cord0318@gmail.com
+License: GPLv3
+Keywords: korea,gif,tenor,움짤,tenor.py
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# **TENOR**
+
+파이썬용 Gif 라이브러리입니다.
+
+- https://pypi.org/projects/tenor
+- https://github.com/cord0318/python_tenor
+
+# **Download**
+
+```shell
+pip install tenor
+```
+
+# **How To Use**
+
+```python
+# 비동기
+import tenor
+import asyncio
+
+async def main():
+    print(await tenor.asyncSearchGif("gif 이름", "가져올 수", "다운로드 확인", "다운로드 경로"))
+
+asyncio.get_event_loop().run_until_complete(main())
+```
+
+```python
+# 동기
+import tenor
+
+print(tenor.searchGif("gif 이름", "가져올 수", "다운로드 확인", "다운로드 경로"))
+```
+
+# **Tip**
+
+*이 모듈을 사용하여 디스코드 봇을 만들수 있습니다!*
+
