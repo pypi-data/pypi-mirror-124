@@ -1,0 +1,5 @@
+olefile
+datetime
+chardet
+pytest
+python-magic
