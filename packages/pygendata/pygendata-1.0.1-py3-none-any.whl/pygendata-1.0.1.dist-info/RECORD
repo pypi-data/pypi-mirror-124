@@ -1,0 +1,16 @@
+pygendata/__init__.py,sha256=O7oEY_xIbsh3GSmvu4iuhcnCRQvyK9H7THicdunZT-E,2224
+pygendata/datatypes.py,sha256=FfywevfpI74Hc420N5LDj0ERKsBz1dKJo4choOiSelQ,1312
+pygendata/ddl.py,sha256=9Bi7NHtWtYiOPnv2NsymD3vENZBBAGNJMBnfFdup_YU,1893
+pygendata/exceptions.py,sha256=qi__sjWsqmliRtUecACjvLwOMsOALCvIi1unGejYItg,48
+pygendata/cli/__init__.py,sha256=aAows58GI1UEIDOb0X8zV62sRJFiUtiUyRD_mABSOGI,1945
+pygendata/managers/__init__.py,sha256=ovguP4wzQEDNguczwiZnhMm4dRRVcvnzmHrfQtlRCNQ,15
+pygendata/managers/csvmanager.py,sha256=3Gfo1_mOsUHVgSQUKyrTaAYoTtnY_BBb5s2VrWfL7vo,1197
+pygendata/managers/jsonmanager.py,sha256=rfaBhkDbPzsICIZp8AAzMHlWVW_S4N6YJJIqOU395cc,1154
+pygendata/managers/tsvmanager.py,sha256=fb5enKi4IvNw94j9w5vSHScXjyVCtQopxSbwCafh0Z0,26
+pygendata/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygendata/templates/geo.py,sha256=04xpHB_BdJf7lPb19pGz4tcn41fwfTVk8KRBx0zGXuI,831
+pygendata-1.0.1.dist-info/LICENSE.txt,sha256=zJAvNQA_4UOeGZlyYd0ou82wzIsrlgQfQgrqy2iQYEs,1064
+pygendata-1.0.1.dist-info/METADATA,sha256=IiTAsIlu6Cq-5zgLA_2h8-48_qIdiVlYx70ISfLP1qQ,745
+pygendata-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pygendata-1.0.1.dist-info/top_level.txt,sha256=GOP1qw8JlIn5BzdbNHPEX2RupbmBogoA5w_3igMnVsk,10
+pygendata-1.0.1.dist-info/RECORD,,
