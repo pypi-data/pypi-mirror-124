@@ -1,0 +1,12 @@
+fedorainfra_ansible_messages/__init__.py,sha256=v1wKNtRQe_uPmtaEPpgmCsZH35zNDJrI92iAm7cTiWg,850
+fedorainfra_ansible_messages/ansible_messages.py,sha256=0iSOmQ-wdEaf5NKGAv5C7sbGka_NMulq2pjnojzoD84,3256
+fedorainfra_ansible_messages/distgit_messages.py,sha256=yt-ZPsHJ7JutHr4H1WbR8DvweSj-9iq9rPkLLmfCutA,4872
+fedorainfra_ansible_messages/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fedorainfra_ansible_messages/tests/test_ansible_messages.py,sha256=ZyYVd6Ht8Nt-MVGfG-s_Ci4YD_ns6PPAj9EMTPPnahg,3655
+fedorainfra_ansible_messages/tests/test_distgit_messages.py,sha256=YHjoJQ_1z8jSfTkeCAODk9KFO9mG_gJpmqdF59GOJg0,2794
+fedorainfra_ansible_messages-0.0.2.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+fedorainfra_ansible_messages-0.0.2.dist-info/METADATA,sha256=4P7YU6vD5q9_wNW-KB-kH8_aKv5KTFMeB4JvaOV27I0,1161
+fedorainfra_ansible_messages-0.0.2.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+fedorainfra_ansible_messages-0.0.2.dist-info/entry_points.txt,sha256=ca6sMrs9rZUqogdFLRTs7NXf1J3LM4HuNZ6CK-H2_vU,286
+fedorainfra_ansible_messages-0.0.2.dist-info/top_level.txt,sha256=VYL3t69uHRp3EsFSzCU7Q9OhzLW-jSlkVwBkOrMplKk,29
+fedorainfra_ansible_messages-0.0.2.dist-info/RECORD,,
