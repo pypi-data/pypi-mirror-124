@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sources/classic/messaging/__init__.py
+sources/classic/messaging/message.py
+sources/classic/messaging/publisher.py
+sources/classic/messaging/utils.py
+sources/classic_messaging.egg-info/PKG-INFO
+sources/classic_messaging.egg-info/SOURCES.txt
+sources/classic_messaging.egg-info/dependency_links.txt
+sources/classic_messaging.egg-info/requires.txt
+sources/classic_messaging.egg-info/top_level.txt
