@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: pykefcontrol
+Version: 0.4
+Summary: Python library for controling the KEF LS50 Wireless II
+Home-page: https://github.com/rodupont/pykefcontrol
+Author: Robin Dupont
+Author-email: robin.dpnt@gmail.com
+License: MIT
+Description: Python library for controling the KEF LS50 Wireless II. It supports basic commands for setting the volume, the source, and getting the media playing informations
+Keywords: Kef,Speaker,Wireless II,Wireless 2
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Home Automation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
