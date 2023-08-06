@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyrangelist
+Version: 0.0.2
+Summary: Implementation of the RangeList datastructure in python. 
+Home-page: UNKNOWN
+Author: Sergiy Popovych
+Author-email: sergiy.popovich@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![Build Status](https://app.travis-ci.com/supersergiy/pyrangelist.svg?token=Vbe962LdVGQA2xznpx5U&branch=main)](https://app.travis-ci.com/supersergiy/pyrangelist)
+# pyrangelist 
+
+
