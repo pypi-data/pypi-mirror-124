@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: guava-preconditions
+Version: 0.1.4
+Summary: A python version of guava's preconditions
+Home-page: https://github.com/Mause/guava_preconditions
+License: MIT
+Author: Elliana
+Author-email: me@mause.me
+Requires-Python: >=3.6.1
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/Mause/guava_preconditions
+Description-Content-Type: text/markdown
+
+# guava_preconditions
+
+This library provides some simple functions from guava
+
+<!-- docs follow -->
+
+# Module guava_preconditions
+
+## Functions
+
+`checkArgument(expression: bool, errorMessageTemplate: Optional[str] = None, *errorMessageArgs: Any) ‑> None`
+: Ensures the truth of an expression involving one or more parameters to the calling method.
+
+`checkElementIndex(index: int, size: int, desc: str = None) ‑> int`
+: Ensures that index specifies a valid element in an array, list or string of size size.
+
+`checkNotNull(reference: Optional[~T], errorMessageTemplate: str, *errorMessageArgs: Any) ‑> ~T`
+: Ensures that an object reference passed as a parameter to the calling method is not null.
+
+`checkPositionIndex(index: int, size: int, desc: str = None) ‑> int`
+: Ensures that index specifies a valid position in an array, list or string of size size.
+
+`checkPositionIndexes(start: int, end: int, size: int) ‑> None`
+: Ensures that start and end specify a valid positions in an array, list or string of size size, and are in order.
+
+`checkState(expression: bool, errorMessageTemplate: str = None, *errorMessageArgs: Any) ‑> None`
+: Ensures the truth of an expression involving the state of the calling instance, but not involving any parameters to the calling method.
+
+## Classes
+
+`IllegalArgumentException(*args, **kwargs)`
+: Common base class for all non-exit exceptions.
+
+    ### Ancestors (in MRO)
+
+    * builtins.Exception
+    * builtins.BaseException
+
+`IllegalStateException(*args, **kwargs)`
+: Common base class for all non-exit exceptions.
+
+    ### Ancestors (in MRO)
+
+    * builtins.Exception
+    * builtins.BaseException
+
