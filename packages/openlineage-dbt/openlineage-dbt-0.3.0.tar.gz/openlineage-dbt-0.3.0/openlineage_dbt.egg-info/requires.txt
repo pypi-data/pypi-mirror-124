@@ -1,0 +1,17 @@
+sqlparse<0.4,>=0.2.3
+tqdm>=4.62.0
+openlineage-integration-common[dbt]==0.3.0
+
+[dev]
+pytest
+flake8
+python-dateutil
+pytest-cov
+mock
+
+[tests]
+pytest
+pytest-cov
+mock
+flake8
+python-dateutil
