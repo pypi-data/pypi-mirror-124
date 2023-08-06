@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/dg_calculations/__init__.py
+src/dg_calculations/duration.py
+src/dg_calculations.egg-info/PKG-INFO
+src/dg_calculations.egg-info/SOURCES.txt
+src/dg_calculations.egg-info/dependency_links.txt
+src/dg_calculations.egg-info/top_level.txt
+src/dg_calculations/conversions/__init__.py
+src/dg_calculations/conversions/area.py
+src/dg_calculations/conversions/length.py
+src/dg_calculations/conversions/mass.py
+src/dg_calculations/conversions/temperature.py
+src/dg_calculations/conversions/volumes.py
