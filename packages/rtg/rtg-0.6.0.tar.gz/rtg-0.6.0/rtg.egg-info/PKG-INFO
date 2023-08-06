@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: rtg
+Version: 0.6.0
+Summary: Reader Translator Generator(RTG), a Neural Machine Translator(NMT) toolkit based on Pytorch
+Home-page: https://isi-nlp.github.io/rtg/
+Author: Thamme Gowda
+Author-email: tg@isi.edu
+License: UNKNOWN
+Description: # Reader-Translator-Generator (RTG)  
+        [![image](http://img.shields.io/pypi/v/rtg.svg)](https://pypi.python.org/pypi/rtg/)
+        
+        
+        Reader-Translator-Generator (RTG) is a Neural Machine Translation toolkit based on pytorch. 
+        
+        Docs: available under [docs/](docs/index.adoc) directory, which are also rendered in a prettier HTML format at https://isi-nlp.github.io/rtg/    
+        
+        ---------
+        ### Authors:
+        [See Here](https://github.com/isi-nlp/rtg-xt/graphs/contributors)
+        
+        ### Questions or Issues 
+        
+        Please use github issues to ask a question or report an issue :
+        1. https://github.com/isi-nlp/rtg/issues   (public/ external repo)
+        2. https://github.com/isi-nlp/rtg-in/issues (a fork of rtg internal to ISI NLP)
+        
+        ### Credits / Thanks
+        + OpenNMT and the Harvard NLP team for [Annotated transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html), I learned a lot from their work
+        + [My team at USC ISI](https://www.isi.edu/research_groups/nlg/people) for everything else
+        
+Platform: any
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
