@@ -1,0 +1,16 @@
+yt_idefix/__init__.py,sha256=F6dMrYXtnIxoVQIhQnq6i1IIuwiHqeZxZMHThUjr2vM,22
+yt_idefix/api.py,sha256=BsXxr7GrQn6GDncYXv821YztfOqDqMEX6HzHaL2Dreo,299
+yt_idefix/data_structures.py,sha256=J02jV7lJPG1UH4l00KWGdYSsBsfjk5wHvYE8EvaMVCE,10774
+yt_idefix/definitions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yt_idefix/fields.py,sha256=aBUev3ph4L2TI1uRTIcmf04wWFaOCG1yi5eFtMg4Xdk,1743
+yt_idefix/io.py,sha256=dPFl9ekjXSHfSiR7OolWQ1Gu2QlO8zmohd-bnhelFWo,2514
+yt_idefix/misc.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yt_idefix/_io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yt_idefix/_io/commons.py,sha256=6LwnCF-HiiC2v7aoXFc81lArD32kNda3gNLBtct-U80,1259
+yt_idefix/_io/dmp_io.py,sha256=RmmdIafKNJnwbii2SSuhTpT9crE1NeFFFkAyAfRTofI,6487
+yt_idefix/_io/vtk_io.py,sha256=7pNeiip7uJM327_E2wuOmyWtEzoy4bR6uQ2baYj3wFA,8589
+yt_idefix-0.6.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+yt_idefix-0.6.7.dist-info/METADATA,sha256=ATFcv9T5pPP0r1WJE4I4-IRT1elkC45TdFayVYCwWuc,3963
+yt_idefix-0.6.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+yt_idefix-0.6.7.dist-info/top_level.txt,sha256=pGTn90arNahaN-VNtohSJIVPXRWrgYcXwEeRGzd7g8o,10
+yt_idefix-0.6.7.dist-info/RECORD,,
