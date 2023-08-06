@@ -1,0 +1,12 @@
+click>=7
+httpx[http2]>=0.16.0
+
+[dev_deps]
+black
+flake8
+isort
+mypy
+pytest
+pytest-asyncio
+pytest-coverage
+twine
