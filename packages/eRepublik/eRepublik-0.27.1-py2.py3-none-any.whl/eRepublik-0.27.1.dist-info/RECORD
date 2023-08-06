@@ -1,0 +1,14 @@
+erepublik/__init__.py,sha256=YQtuWexOlFX-4dRoeF9JzKGxeUzW1HgY_O61yQojxX0,229
+erepublik/_logging.py,sha256=i-X_v1YQm7ZwwVvld7uqMOab3EMy6mJZM2Q971agkHU,7906
+erepublik/_types.py,sha256=yNzdzpxS9D625gISIdepDDxsX1YaU8M-TPG7s3fdLwc,312
+erepublik/access_points.py,sha256=fpAQTOgHI82dJmVEFIGxEJPx1pDrez7rgVkEaTTJQp4,40514
+erepublik/citizen.py,sha256=uI6lZEUAN0wq-47m_V6jkkTbqXkJOPxmZAv2o2Plsns,147982
+erepublik/classes.py,sha256=Bp_EWRIRX-WoqiNK8lJ6OB0VWXPMX1Zd1BkRAryh3Mg,41853
+erepublik/constants.py,sha256=PlSs2J2ttj7LUS0eUPnGQyy_0Qgb6KkJ-vBySIMitx8,16974
+erepublik/utils.py,sha256=uO90mjg8yTBIs2flUbSrQj9ynIHJdkS2Lf7hsWk4lyM,11203
+eRepublik-0.27.1.dist-info/AUTHORS.rst,sha256=raiAMKiitbLZjHsBACL930UcY2kynDNSNoOI-h5EM7w,148
+eRepublik-0.27.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+eRepublik-0.27.1.dist-info/METADATA,sha256=vHDU0s8thPXXtq_5iDW6VxoxaSFngUe85yWCO3unEH0,6857
+eRepublik-0.27.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+eRepublik-0.27.1.dist-info/top_level.txt,sha256=h6pbNEa8Ur6v4nchTZfkbhrO5zqKKmxjfbHJfmfgFG4,10
+eRepublik-0.27.1.dist-info/RECORD,,
