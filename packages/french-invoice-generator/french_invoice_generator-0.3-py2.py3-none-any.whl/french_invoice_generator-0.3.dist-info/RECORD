@@ -1,0 +1,15 @@
+invoice_generator/__init__.py,sha256=G7oz693NVhL2dav8T9ybfiqvZjpHUsIE4xtVt8oLEwA,215
+invoice_generator/invoice_generator.py,sha256=PG6bRCo0RhTKkwszI6_8ybsJTguLCMbdLSG3ZIVls3E,7166
+invoice_generator/models.py,sha256=sbFhQes_1dcYmSZOyXlnsq_-yiHCAPIAWdnm-jOlysI,3087
+invoice_generator/templates/base.tex,sha256=VwQjXw-as7JvfEv-YrkO0i12lx6YI-pJqIk8M9sjCRE,4583
+invoice_generator/templates/invoice.cls,sha256=ne1mCPllTuVgzitHUfXdJ7N5L48ckWr1BU-rIalO9eQ,524
+invoice_generator/templates/main.tex,sha256=7KLpW9l9p90xy4srNm0FaJgLTklPhMyWAGbWXNQZq3A,1795
+invoice_generator/templates/payment.tex,sha256=PmiLg94bJ5oRPbIPDdnTvlLmQOitZsNtCK0LtU3vcJk,578
+invoice_generator/templates/prestations_block.tex,sha256=Ef40wCRrgFKSFW9Ek4ZRcUwQwUbYCjjq_6E9n0Xdr7E,583
+invoice_generator/templates/total_block.tex,sha256=pIax82W_a6Ou7pT5mu7o4FqBHHFcbwcCsf-YbeL2mPo,441
+french_invoice_generator-0.3.dist-info/AUTHORS.rst,sha256=waivCkj0Xg9zkFG2QcrUiN9J-gqNFH1YYerO-Sqdrns,173
+french_invoice_generator-0.3.dist-info/LICENSE,sha256=DwAftv_aJp1cXNIgeGmKqyiAjve1B02jrN4baSK8pcs,590
+french_invoice_generator-0.3.dist-info/METADATA,sha256=t4ycBORIMdjDxVKR4IUDBoXRrHVOwQ_AqO9PUzZZvpQ,2032
+french_invoice_generator-0.3.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+french_invoice_generator-0.3.dist-info/top_level.txt,sha256=OynPq8sEaRmaYF3yThuscyDmZEGlO012kZqjBG3ILqo,18
+french_invoice_generator-0.3.dist-info/RECORD,,
