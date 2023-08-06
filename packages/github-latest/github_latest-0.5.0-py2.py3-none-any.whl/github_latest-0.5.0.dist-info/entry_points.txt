@@ -1,0 +1,3 @@
+[console_scripts]
+github-latest = github_latest.cli:main
+
