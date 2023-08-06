@@ -1,0 +1,131 @@
+{
+  "modules": {
+    "": {
+      "cells": {
+        "#PWR1": {
+          "attributes": {
+            "value": "GND"
+          },
+          "connections": {
+            "1": [
+              3
+            ]
+          },
+          "port_directions": {
+            "1": "input"
+          },
+          "type": "GND_1_"
+        },
+        "#PWR2": {
+          "attributes": {
+            "value": "VCC"
+          },
+          "connections": {
+            "1": [
+              2
+            ]
+          },
+          "port_directions": {
+            "1": "input"
+          },
+          "type": "VCC_1_"
+        },
+        "R1": {
+          "attributes": {
+            "value": "4K7"
+          },
+          "connections": {
+            "1": [
+              4
+            ],
+            "2": [
+              1
+            ]
+          },
+          "port_directions": {
+            "1": "input",
+            "2": "input"
+          },
+          "type": "R_US_1_L"
+        },
+        "R2": {
+          "attributes": {
+            "value": "4K7"
+          },
+          "connections": {
+            "1": [
+              1
+            ],
+            "2": [
+              5
+            ]
+          },
+          "port_directions": {
+            "1": "input",
+            "2": "input"
+          },
+          "type": "R_US_1_L"
+        },
+        "R3": {
+          "attributes": {
+            "value": "10K"
+          },
+          "connections": {
+            "1": [
+              5
+            ],
+            "2": [
+              3
+            ]
+          },
+          "port_directions": {
+            "1": "input",
+            "2": "input"
+          },
+          "type": "R_US_1_"
+        },
+        "U1A": {
+          "attributes": {
+            "value": "NCS2325D"
+          },
+          "connections": {
+            "1": [
+              5
+            ],
+            "2": [
+              1
+            ],
+            "3": [
+              3
+            ]
+          },
+          "port_directions": {
+            "1": "output",
+            "2": "input",
+            "3": "input"
+          },
+          "type": "NCS2325D_1_V"
+        },
+        "U1C": {
+          "attributes": {
+            "value": "NCS2325D"
+          },
+          "connections": {
+            "4": [
+              3
+            ],
+            "8": [
+              2
+            ]
+          },
+          "port_directions": {
+            "4": "input",
+            "8": "input"
+          },
+          "type": "NCS2325D_3_V"
+        }
+      },
+      "ports": {}
+    }
+  }
+}

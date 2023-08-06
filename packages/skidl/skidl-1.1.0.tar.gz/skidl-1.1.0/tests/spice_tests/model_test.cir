@@ -1,0 +1,5 @@
+.title test
+R1 N2 0 470Ohm
+VIN N1 0 8V
+.inc /home/devb/xesscorp/KiCad/tools/skidl/tests/SpiceLib/lib/test.lib.spice
+X1 N1 N2 0 ncp111733x

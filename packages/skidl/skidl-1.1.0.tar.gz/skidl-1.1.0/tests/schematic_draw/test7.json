@@ -1,0 +1,43 @@
+{
+  "modules": {
+    "": {
+      "cells": {
+        "U1E": {
+          "attributes": {
+            "value": "ICE40HX8K-BG121"
+          },
+          "connections": {},
+          "port_directions": {
+            "B10": "input",
+            "C10": "input",
+            "C5": "input",
+            "C6": "input",
+            "D4": "input",
+            "D8": "input",
+            "E5": "input",
+            "E6": "input",
+            "E7": "input",
+            "F5": "input",
+            "F6": "input",
+            "F7": "input",
+            "G5": "input",
+            "G6": "input",
+            "G7": "input",
+            "H4": "input",
+            "H5": "input",
+            "H8": "input",
+            "J6": "input",
+            "J9": "output",
+            "K10": "output",
+            "K9": "output",
+            "L10": "output",
+            "L11": "input",
+            "L6": "input"
+          },
+          "type": "ICE40HX8K-BG121_U1_5_"
+        }
+      },
+      "ports": {}
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "modules": {
+    "": {
+      "cells": {
+        "J1": {
+          "attributes": {
+            "value": "USB_B_Micro"
+          },
+          "connections": {},
+          "port_directions": {
+            "1": "output",
+            "2": "output",
+            "3": "output",
+            "4": "input",
+            "5": "output",
+            "6": "input"
+          },
+          "type": "USB_B_Micro_J1_1_H"
+        },
+        "U1": {
+          "attributes": {
+            "value": "CH551G"
+          },
+          "connections": {},
+          "port_directions": {
+            "1": "output",
+            "10": "output",
+            "11": "output",
+            "12": "output",
+            "13": "output",
+            "14": "input",
+            "15": "input",
+            "16": "input",
+            "2": "output",
+            "3": "output",
+            "4": "output",
+            "5": "output",
+            "6": "output",
+            "7": "output",
+            "8": "output",
+            "9": "output"
+          },
+          "type": "CH551G_U1_1_"
+        },
+        "U2": {
+          "attributes": {
+            "value": "CH551G"
+          },
+          "connections": {
+            "12": [
+              1
+            ],
+            "13": [
+              1
+            ]
+          },
+          "port_directions": {
+            "1": "output",
+            "10": "output",
+            "11": "output",
+            "12": "output",
+            "13": "output",
+            "14": "input",
+            "15": "input",
+            "16": "input",
+            "2": "output",
+            "3": "output",
+            "4": "output",
+            "5": "output",
+            "6": "output",
+            "7": "output",
+            "8": "output",
+            "9": "output"
+          },
+          "type": "CH551G_1_"
+        }
+      },
+      "ports": {}
+    }
+  }
+}

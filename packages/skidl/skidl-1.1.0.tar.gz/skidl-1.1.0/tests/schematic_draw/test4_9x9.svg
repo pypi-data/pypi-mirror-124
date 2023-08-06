@@ -1,0 +1,3127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:s="https://github.com/nturley/netlistsvg"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="579.6"
+   height="404"
+   version="1.1"
+   id="svg320"
+   sodipodi:docname="test4_9x9.svg"
+   inkscape:version="1.0.1 (1.0.1+r73)">
+  <metadata
+     id="metadata326">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs324" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2067"
+     inkscape:window-height="1497"
+     id="namedview322"
+     showgrid="false"
+     inkscape:zoom="0.87509667"
+     inkscape:cx="691.23373"
+     inkscape:cy="762.27419"
+     inkscape:window-x="1423"
+     inkscape:window-y="398"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg320" />
+  <style
+     id="style2">svg {
+    stroke: #000;
+    fill: none;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  text {
+    fill: #000;
+    stroke: none;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace;
+  }
+  .skidl_text {
+    fill: #999;
+    stroke: none;
+    font-weight: bold;
+    font-family: consolas, &quot;Courier New&quot;, monospace;
+  }
+  .pin_num_text {
+      fill: #840000;
+  }
+  .pin_name_text {
+      fill: #008484;
+  }
+  .part_text {
+      fill: #840000;
+  }
+  .part_ref_text {
+      fill: #008484;
+  }
+  .part_name_text {
+      fill: #008484;
+  }
+  .pen_fill {
+      fill: #840000;
+  }
+  .background_fill {
+      fill: #FFFFC2
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .splitjoinBody {
+    fill: #000;
+  }
+  .symbol {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke: #840000;
+  }
+  .detail {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    fill: #000;
+  }</style>
+  <g
+     s:type="GND_1_"
+     s:width="30.0"
+     s:height="30.0"
+     transform="translate(62,187)"
+     id="cell_#PWR1">
+    <s:alias
+       val="GND_1_" />
+    <path
+       d="M 0.0 0.0 L 0.0 15.0 L 15.0 15.0 L 0.0 30.0 L -15.0 15.0 L 0.0 15.0"
+       style="stroke-width:1.0"
+       class="cell_#PWR1 symbol "
+       id="path4" />
+    <g
+       s:x="0.0"
+       s:y="0.0"
+       s:pid="1"
+       s:position="top"
+       id="g6" />
+    <text
+       class="part_name_text"
+       text-anchor="middle"
+       x="0.0"
+       y="45.0"
+       transform="rotate(0 0.0 45.0) translate(0.0 7.5)"
+       style="font-size:15.0px"
+       s:attribute="value"
+       id="text8">GND</text>
+  </g>
+  <g
+     s:type="VCC_1_"
+     s:width="18.0"
+     s:height="30.0"
+     transform="translate(301,152)"
+     id="cell_#PWR2">
+    <s:alias
+       val="VCC_1_" />
+    <path
+       d="M -9.0 -15.0 L 0.0 -30.0"
+       style="stroke-width:1.0"
+       class="cell_#PWR2 symbol "
+       id="path11" />
+    <path
+       d="M 0.0 0.0 L 0.0 -30.0"
+       style="stroke-width:1.0"
+       class="cell_#PWR2 symbol "
+       id="path13" />
+    <path
+       d="M 0.0 -30.0 L 9.0 -15.0"
+       style="stroke-width:1.0"
+       class="cell_#PWR2 symbol "
+       id="path15" />
+    <g
+       s:x="0.0"
+       s:y="0.0"
+       s:pid="1"
+       s:position="bottom"
+       id="g17" />
+    <text
+       class="part_name_text"
+       text-anchor="middle"
+       x="0.0"
+       y="-45.0"
+       transform="rotate(0 0.0 -45.0) translate(0.0 7.5)"
+       style="font-size:15.0px"
+       s:attribute="value"
+       id="text19">VCC</text>
+  </g>
+  <g
+     s:type="Q_PNP_CBE_1_V"
+     s:width="108.3"
+     s:height="120.0"
+     transform="translate(459.3,262)"
+     id="cell_Q1">
+    <s:alias
+       val="Q_PNP_CBE_1_V" />
+    <circle
+       cx="15.0"
+       cy="0.0"
+       r="33.3"
+       style="stroke-width:3.0"
+       class="cell_Q1 symbol "
+       id="circle22" />
+    <path
+       d="M 7.5 7.5 L 30.0 30.0"
+       style="stroke-width:1.0"
+       class="cell_Q1 symbol "
+       id="path24" />
+    <path
+       d="M 7.5 -7.5 L 30.0 -30.0 L 30.0 -30.0"
+       style="stroke-width:1.0"
+       class="cell_Q1 symbol "
+       id="path26" />
+    <path
+       d="M 7.5 22.5 L 7.5 -22.5 L 7.5 -22.5"
+       style="stroke-width:6.0"
+       class="cell_Q1 symbol "
+       id="path28" />
+    <path
+       d="M 27.0 -21.0 L 21.0 -27.0 L 15.0 -15.0 L 27.0 -21.0 L 27.0 -21.0"
+       style="stroke-width:1.0"
+       class="cell_Q1 symbol pen_fill"
+       id="path30" />
+    <g
+       s:x="30.0"
+       s:y="60.0"
+       s:pid="1"
+       s:position="bottom"
+       id="g36">
+      <path
+         d="M 30.0 60.0 L 30.0 30.0"
+         style="stroke-width:1.0"
+         class="cell_Q1 symbol"
+         id="path32" />
+      <text
+         class="pin_num_text"
+         text-anchor="end"
+         x="30.0"
+         y="30.0"
+         transform="rotate(-90 30.0 30.0) translate(-6.0 -1.5)"
+         style="font-size:15.0px"
+         id="text34"> 1 </text>
+    </g>
+    <g
+       s:x="-60.0"
+       s:y="0.0"
+       s:pid="2"
+       s:position="left"
+       id="g42">
+      <path
+         d="M -60.0 0.0 L 7.5 0.0"
+         style="stroke-width:1.0"
+         class="cell_Q1 symbol"
+         id="path38" />
+      <text
+         class="pin_num_text"
+         text-anchor="end"
+         x="7.5"
+         y="0.0"
+         transform="rotate(0 7.5 0.0) translate(-6.0 -1.5)"
+         style="font-size:15.0px"
+         id="text40"> 2 </text>
+    </g>
+    <g
+       s:x="30.0"
+       s:y="-60.0"
+       s:pid="3"
+       s:position="top"
+       id="g48">
+      <path
+         d="M 30.0 -60.0 L 30.0 -30.0"
+         style="stroke-width:1.0"
+         class="cell_Q1 symbol"
+         id="path44" />
+      <text
+         class="pin_num_text"
+         text-anchor="start"
+         x="30.0"
+         y="-30.0"
+         transform="rotate(-90 30.0 -30.0) translate(6.0 -1.5)"
+         style="font-size:15.0px"
+         id="text46"> 3 </text>
+    </g>
+    <text
+       class="part_ref_text"
+       text-anchor="start"
+       x="60.0"
+       y="15.0"
+       transform="rotate(0 60.0 15.0) translate(0.0 -7.5)"
+       style="font-size:15.0px"
+       s:attribute="ref"
+       id="text50">Q1</text>
+    <text
+       class="part_name_text"
+       text-anchor="start"
+       x="60.0"
+       y="-15.0"
+       transform="rotate(0 60.0 -15.0) translate(0.0 -7.5)"
+       style="font-size:15.0px"
+       s:attribute="value"
+       id="text52">Q_PNP_CBE</text>
+  </g>
+  <g
+     s:type="Q_PNP_CBE_1_V"
+     s:width="108.3"
+     s:height="120.0"
+     transform="translate(261,272)"
+     id="cell_Q2">
+    <s:alias
+       val="Q_PNP_CBE_1_V" />
+    <circle
+       cx="15.0"
+       cy="0.0"
+       r="33.3"
+       style="stroke-width:3.0"
+       class="cell_Q2 symbol "
+       id="circle55" />
+    <path
+       d="M 7.5 7.5 L 30.0 30.0"
+       style="stroke-width:1.0"
+       class="cell_Q2 symbol "
+       id="path57" />
+    <path
+       d="M 7.5 -7.5 L 30.0 -30.0 L 30.0 -30.0"
+       style="stroke-width:1.0"
+       class="cell_Q2 symbol "
+       id="path59" />
+    <path
+       d="M 7.5 22.5 L 7.5 -22.5 L 7.5 -22.5"
+       style="stroke-width:6.0"
+       class="cell_Q2 symbol "
+       id="path61" />
+    <path
+       d="M 27.0 -21.0 L 21.0 -27.0 L 15.0 -15.0 L 27.0 -21.0 L 27.0 -21.0"
+       style="stroke-width:1.0"
+       class="cell_Q2 symbol pen_fill"
+       id="path63" />
+    <g
+       s:x="30.0"
+       s:y="60.0"
+       s:pid="1"
+       s:position="bottom"
+       id="g69">
+      <path
+         d="M 30.0 60.0 L 30.0 30.0"
+         style="stroke-width:1.0"
+         class="cell_Q2 symbol"
+         id="path65" />
+      <text
+         class="pin_num_text"
+         text-anchor="end"
+         x="30.0"
+         y="30.0"
+         transform="rotate(-90 30.0 30.0) translate(-6.0 -1.5)"
+         style="font-size:15.0px"
+         id="text67"> 1 </text>
+    </g>
+    <g
+       s:x="-60.0"
+       s:y="0.0"
+       s:pid="2"
+       s:position="left"
+       id="g75">
+      <path
+         d="M -60.0 0.0 L 7.5 0.0"
+         style="stroke-width:1.0"
+         class="cell_Q2 symbol"
+         id="path71" />
+      <text
+         class="pin_num_text"
+         text-anchor="end"
+         x="7.5"
+         y="0.0"
+         transform="rotate(0 7.5 0.0) translate(-6.0 -1.5)"
+         style="font-size:15.0px"
+         id="text73"> 2 </text>
+    </g>
+    <g
+       s:x="30.0"
+       s:y="-60.0"
+       s:pid="3"
+       s:position="top"
+       id="g81">
+      <path
+         d="M 30.0 -60.0 L 30.0 -30.0"
+         style="stroke-width:1.0"
+         class="cell_Q2 symbol"
+         id="path77" />
+      <text
+         class="pin_num_text"
+         text-anchor="start"
+         x="30.0"
+         y="-30.0"
+         transform="rotate(-90 30.0 -30.0) translate(6.0 -1.5)"
+         style="font-size:15.0px"
+         id="text79"> 3 </text>
+    </g>
+    <text
+       class="part_ref_text"
+       text-anchor="start"
+       x="60.0"
+       y="15.0"
+       transform="rotate(0 60.0 15.0) translate(0.0 -7.5)"
+       style="font-size:15.0px"
+       s:attribute="ref"
+       id="text83">Q2</text>
+    <text
+       class="part_name_text"
+       text-anchor="start"
+       x="60.0"
+       y="-15.0"
+       transform="rotate(0 60.0 -15.0) translate(0.0 -7.5)"
+       style="font-size:15.0px"
+       s:attribute="value"
+       id="text85">Q_PNP_CBE</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="90.0"
+     transform="translate(409,82)"
+     id="cell_R1">
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3.0"
+       class="cell_R1 symbol "
+       id="rect88" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g92">
+      <path
+         d="M 0.0 -45.0 L 0.0 -30.0"
+         style="stroke-width:1.0"
+         class="cell_R1 symbol"
+         id="path90" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g96">
+      <path
+         d="M 0.0 45.0 L 0.0 30.0"
+         style="stroke-width:1.0"
+         class="cell_R1 symbol"
+         id="path94" />
+    </g>
+    <text
+       class="part_ref_text"
+       text-anchor="middle"
+       x="24.0"
+       y="0.0"
+       transform="rotate(-90 24.0 0.0) translate(0.0 7.5)"
+       style="font-size:15.0px"
+       s:attribute="ref"
+       id="text98">R1</text>
+    <text
+       class="part_name_text"
+       text-anchor="middle"
+       x="0.0"
+       y="0.0"
+       transform="rotate(-90 0.0 0.0) translate(0.0 7.5)"
+       style="font-size:15.0px"
+       s:attribute="value"
+       id="text100">10K</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="90.0"
+     transform="translate(459,92)"
+     id="cell_R2">
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3.0"
+       class="cell_R2 symbol "
+       id="rect103" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g107">
+      <path
+         d="M 0.0 -45.0 L 0.0 -30.0"
+         style="stroke-width:1.0"
+         class="cell_R2 symbol"
+         id="path105" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g111">
+      <path
+         d="M 0.0 45.0 L 0.0 30.0"
+         style="stroke-width:1.0"
+         class="cell_R2 symbol"
+         id="path109" />
+    </g>
+    <text
+       class="part_ref_text"
+       text-anchor="middle"
+       x="24.0"
+       y="0.0"
+       transform="rotate(-90 24.0 0.0) translate(0.0 7.5)"
+       style="font-size:15.0px"
+       s:attribute="ref"
+       id="text113">R2</text>
+    <text
+       class="part_name_text"
+       text-anchor="middle"
+       x="0.0"
+       y="0.0"
+       transform="rotate(-90 0.0 0.0) translate(0.0 7.5)"
+       style="font-size:15.0px"
+       s:attribute="value"
+       id="text115">10K</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="90.0"
+     transform="translate(157,132)"
+     id="cell_R3">
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3.0"
+       class="cell_R3 symbol "
+       id="rect118" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g122">
+      <path
+         d="M 0.0 -45.0 L 0.0 -30.0"
+         style="stroke-width:1.0"
+         class="cell_R3 symbol"
+         id="path120" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g126">
+      <path
+         d="M 0.0 45.0 L 0.0 30.0"
+         style="stroke-width:1.0"
+         class="cell_R3 symbol"
+         id="path124" />
+    </g>
+    <text
+       class="part_ref_text"
+       text-anchor="middle"
+       x="24.0"
+       y="0.0"
+       transform="rotate(-90 24.0 0.0) translate(0.0 7.5)"
+       style="font-size:15.0px"
+       s:attribute="ref"
+       id="text128">R3</text>
+    <text
+       class="part_name_text"
+       text-anchor="middle"
+       x="0.0"
+       y="0.0"
+       transform="rotate(-90 0.0 0.0) translate(0.0 7.5)"
+       style="font-size:15.0px"
+       s:attribute="value"
+       id="text130">10K</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="90.0"
+     transform="translate(201,117)"
+     id="cell_R4">
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3.0"
+       class="cell_R4 symbol "
+       id="rect133" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g137">
+      <path
+         d="M 0.0 -45.0 L 0.0 -30.0"
+         style="stroke-width:1.0"
+         class="cell_R4 symbol"
+         id="path135" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g141">
+      <path
+         d="M 0.0 45.0 L 0.0 30.0"
+         style="stroke-width:1.0"
+         class="cell_R4 symbol"
+         id="path139" />
+    </g>
+    <text
+       class="part_ref_text"
+       text-anchor="middle"
+       x="24.0"
+       y="0.0"
+       transform="rotate(-90 24.0 0.0) translate(0.0 7.5)"
+       style="font-size:15.0px"
+       s:attribute="ref"
+       id="text143">R4</text>
+    <text
+       class="part_name_text"
+       text-anchor="middle"
+       x="0.0"
+       y="0.0"
+       transform="rotate(-90 0.0 0.0) translate(0.0 7.5)"
+       style="font-size:15.0px"
+       s:attribute="value"
+       id="text145">10K</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="90.0"
+     transform="translate(102,77)"
+     id="cell_R5">
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3.0"
+       class="cell_R5 symbol "
+       id="rect148" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g152">
+      <path
+         d="M 0.0 -45.0 L 0.0 -30.0"
+         style="stroke-width:1.0"
+         class="cell_R5 symbol"
+         id="path150" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g156">
+      <path
+         d="M 0.0 45.0 L 0.0 30.0"
+         style="stroke-width:1.0"
+         class="cell_R5 symbol"
+         id="path154" />
+    </g>
+    <text
+       class="part_ref_text"
+       text-anchor="middle"
+       x="24.0"
+       y="0.0"
+       transform="rotate(-90 24.0 0.0) translate(0.0 7.5)"
+       style="font-size:15.0px"
+       s:attribute="ref"
+       id="text158">R5</text>
+    <text
+       class="part_name_text"
+       text-anchor="middle"
+       x="0.0"
+       y="0.0"
+       transform="rotate(-90 0.0 0.0) translate(0.0 7.5)"
+       style="font-size:15.0px"
+       s:attribute="value"
+       id="text160">10K</text>
+  </g>
+  <g
+     s:type="inputExt"
+     s:width="30"
+     s:height="20"
+     transform="translate(369,17)"
+     id="cell_A">
+    <text
+       x="-2"
+       y="12"
+       text-anchor="end"
+       class="cell_A pin_name_text"
+       s:attribute="ref"
+       id="text163">A</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       d="M0,0 V20 H15 L30,10 15,0 Z"
+       class="cell_A symbol"
+       id="path165" />
+    <g
+       s:x="30"
+       s:y="10"
+       s:pid="Y"
+       s:position="right"
+       id="g167" />
+  </g>
+  <g
+     s:type="inputExt"
+     s:width="30"
+     s:height="20"
+     transform="translate(50,12)"
+     id="cell_A_AND_B">
+    <text
+       x="-2"
+       y="12"
+       text-anchor="end"
+       class="cell_A_AND_B pin_name_text"
+       s:attribute="ref"
+       id="text170">A_AND_B</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       d="M0,0 V20 H15 L30,10 15,0 Z"
+       class="cell_A_AND_B symbol"
+       id="path172" />
+    <g
+       s:x="30"
+       s:y="10"
+       s:pid="Y"
+       s:position="right"
+       id="g174" />
+  </g>
+  <g
+     s:type="inputExt"
+     s:width="30"
+     s:height="20"
+     transform="translate(419,12)"
+     id="cell_B">
+    <text
+       x="-2"
+       y="12"
+       text-anchor="end"
+       class="cell_B pin_name_text"
+       s:attribute="ref"
+       id="text177">B</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       d="M0,0 V20 H15 L30,10 15,0 Z"
+       class="cell_B symbol"
+       id="path179" />
+    <g
+       s:x="30"
+       s:y="10"
+       s:pid="Y"
+       s:position="right"
+       id="g181" />
+  </g>
+  <g
+     s:type="inputExt"
+     s:width="30"
+     s:height="20"
+     transform="translate(12,167)"
+     id="cell_GND">
+    <text
+       x="-2"
+       y="12"
+       text-anchor="end"
+       class="cell_GND pin_name_text"
+       s:attribute="ref"
+       id="text184">GND</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       d="M0,0 V20 H15 L30,10 15,0 Z"
+       class="cell_GND symbol"
+       id="path186" />
+    <g
+       s:x="30"
+       s:y="10"
+       s:pid="Y"
+       s:position="right"
+       id="g188" />
+  </g>
+  <g
+     s:type="inputExt"
+     s:width="30"
+     s:height="20"
+     transform="translate(246,172)"
+     id="cell_VCC">
+    <text
+       x="-2"
+       y="12"
+       text-anchor="end"
+       class="cell_VCC pin_name_text"
+       s:attribute="ref"
+       id="text191">VCC</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       d="M0,0 V20 H15 L30,10 15,0 Z"
+       class="cell_VCC symbol"
+       id="path193" />
+    <g
+       s:x="30"
+       s:y="10"
+       s:pid="Y"
+       s:position="right"
+       id="g195" />
+  </g>
+  <line
+     x1="157"
+     x2="136"
+     y1="177"
+     y2="177"
+     class="net_2"
+     id="line198" />
+  <line
+     x1="136"
+     x2="136"
+     y1="177"
+     y2="177"
+     class="net_2"
+     id="line200" />
+  <line
+     x1="136"
+     x2="52"
+     y1="177"
+     y2="177"
+     class="net_2"
+     id="line202" />
+  <line
+     x1="52"
+     x2="52"
+     y1="177"
+     y2="177"
+     class="net_2"
+     id="line204" />
+  <circle
+     cx="52"
+     cy="177"
+     r="2"
+     style="fill:#000"
+     class="net_2"
+     id="circle206" />
+  <circle
+     cx="52"
+     cy="177"
+     r="2"
+     style="fill:#000"
+     class="net_2"
+     id="circle208" />
+  <line
+     x1="52"
+     x2="42"
+     y1="177"
+     y2="177"
+     class="net_2"
+     id="line210" />
+  <line
+     x1="102"
+     x2="52"
+     y1="122"
+     y2="122"
+     class="net_2"
+     id="line212" />
+  <line
+     x1="52"
+     x2="52"
+     y1="122"
+     y2="177"
+     class="net_2"
+     id="line214" />
+  <circle
+     cx="52"
+     cy="177"
+     r="2"
+     style="fill:#000"
+     class="net_2"
+     id="circle216" />
+  <line
+     x1="52"
+     x2="42"
+     y1="177"
+     y2="177"
+     class="net_2"
+     id="line218" />
+  <line
+     x1="42"
+     x2="52"
+     y1="177"
+     y2="177"
+     class="net_2"
+     id="line220" />
+  <line
+     x1="52"
+     x2="52"
+     y1="177"
+     y2="187"
+     class="net_2"
+     id="line222" />
+  <circle
+     cx="52"
+     cy="177"
+     r="2"
+     style="fill:#000"
+     class="net_2"
+     id="circle224" />
+  <line
+     x1="52"
+     x2="62"
+     y1="187"
+     y2="187"
+     class="net_2"
+     id="line226" />
+  <line
+     x1="157"
+     x2="235"
+     y1="62"
+     y2="62"
+     class="net_8"
+     id="line228" />
+  <line
+     x1="235"
+     x2="235"
+     y1="62"
+     y2="202"
+     class="net_8"
+     id="line230" />
+  <line
+     x1="235"
+     x2="379.3"
+     y1="202"
+     y2="202"
+     class="net_8"
+     id="line232" />
+  <line
+     x1="379.3"
+     x2="379.3"
+     y1="202"
+     y2="322"
+     class="net_8"
+     id="line234" />
+  <line
+     x1="379.3"
+     x2="489.3"
+     y1="322"
+     y2="322"
+     class="net_8"
+     id="line236" />
+  <line
+     x1="157"
+     x2="157"
+     y1="62"
+     y2="87"
+     class="net_8"
+     id="line238" />
+  <line
+     x1="157"
+     x2="201"
+     y1="62"
+     y2="62"
+     class="net_8"
+     id="line240" />
+  <circle
+     cx="201"
+     cy="62"
+     r="2"
+     style="fill:#000"
+     class="net_8"
+     id="circle242" />
+  <line
+     x1="201"
+     x2="201"
+     y1="62"
+     y2="72"
+     class="net_8"
+     id="line244" />
+  <line
+     x1="301"
+     x2="291"
+     y1="152"
+     y2="152"
+     class="net_3"
+     id="line246" />
+  <line
+     x1="291"
+     x2="291"
+     y1="152"
+     y2="182"
+     class="net_3"
+     id="line248" />
+  <circle
+     cx="291"
+     cy="182"
+     r="2"
+     style="fill:#000"
+     class="net_3"
+     id="circle250" />
+  <line
+     x1="291"
+     x2="276"
+     y1="182"
+     y2="182"
+     class="net_3"
+     id="line252" />
+  <line
+     x1="276"
+     x2="291"
+     y1="182"
+     y2="182"
+     class="net_3"
+     id="line254" />
+  <line
+     x1="291"
+     x2="291"
+     y1="182"
+     y2="192"
+     class="net_3"
+     id="line256" />
+  <line
+     x1="291"
+     x2="489.3"
+     y1="192"
+     y2="192"
+     class="net_3"
+     id="line258" />
+  <circle
+     cx="291"
+     cy="192"
+     r="2"
+     style="fill:#000"
+     class="net_3"
+     id="circle260" />
+  <circle
+     cx="291"
+     cy="182"
+     r="2"
+     style="fill:#000"
+     class="net_3"
+     id="circle262" />
+  <line
+     x1="489.3"
+     x2="489.3"
+     y1="192"
+     y2="202"
+     class="net_3"
+     id="line264" />
+  <line
+     x1="276"
+     x2="291"
+     y1="182"
+     y2="182"
+     class="net_3"
+     id="line266" />
+  <circle
+     cx="291"
+     cy="182"
+     r="2"
+     style="fill:#000"
+     class="net_3"
+     id="circle268" />
+  <line
+     x1="291"
+     x2="291"
+     y1="182"
+     y2="212"
+     class="net_3"
+     id="line270" />
+  <line
+     x1="80"
+     x2="102"
+     y1="22"
+     y2="22"
+     class="net_6"
+     id="line272" />
+  <line
+     x1="102"
+     x2="102"
+     y1="22"
+     y2="22"
+     class="net_6"
+     id="line274" />
+  <line
+     x1="102"
+     x2="146"
+     y1="22"
+     y2="22"
+     class="net_6"
+     id="line276" />
+  <line
+     x1="146"
+     x2="146"
+     y1="22"
+     y2="332"
+     class="net_6"
+     id="line278" />
+  <circle
+     cx="102"
+     cy="22"
+     r="2"
+     style="fill:#000"
+     class="net_6"
+     id="circle280" />
+  <line
+     x1="146"
+     x2="291"
+     y1="332"
+     y2="332"
+     class="net_6"
+     id="line282" />
+  <line
+     x1="80"
+     x2="102"
+     y1="22"
+     y2="22"
+     class="net_6"
+     id="line284" />
+  <line
+     x1="102"
+     x2="102"
+     y1="22"
+     y2="32"
+     class="net_6"
+     id="line286" />
+  <line
+     x1="399"
+     x2="409"
+     y1="27"
+     y2="27"
+     class="net_4"
+     id="line288" />
+  <line
+     x1="409"
+     x2="409"
+     y1="27"
+     y2="37"
+     class="net_4"
+     id="line290" />
+  <line
+     x1="449"
+     x2="459"
+     y1="22"
+     y2="22"
+     class="net_5"
+     id="line292" />
+  <line
+     x1="459"
+     x2="459"
+     y1="22"
+     y2="47"
+     class="net_5"
+     id="line294" />
+  <line
+     x1="409"
+     x2="389.3"
+     y1="127"
+     y2="127"
+     class="net_7"
+     id="line296" />
+  <line
+     x1="389.3"
+     x2="389.3"
+     y1="127"
+     y2="262"
+     class="net_7"
+     id="line298" />
+  <line
+     x1="389.3"
+     x2="399.3"
+     y1="262"
+     y2="262"
+     class="net_7"
+     id="line300" />
+  <line
+     x1="459"
+     x2="443"
+     y1="137"
+     y2="137"
+     class="net_7"
+     id="line302" />
+  <line
+     x1="443"
+     x2="443"
+     y1="137"
+     y2="182"
+     class="net_7"
+     id="line304" />
+  <line
+     x1="443"
+     x2="389.3"
+     y1="182"
+     y2="182"
+     class="net_7"
+     id="line306" />
+  <line
+     x1="389.3"
+     x2="389.3"
+     y1="182"
+     y2="262"
+     class="net_7"
+     id="line308" />
+  <circle
+     cx="389.3"
+     cy="182"
+     r="2"
+     style="fill:#000"
+     class="net_7"
+     id="circle310" />
+  <line
+     x1="389.3"
+     x2="399.3"
+     y1="262"
+     y2="262"
+     class="net_7"
+     id="line312" />
+  <line
+     x1="201"
+     x2="191"
+     y1="162"
+     y2="162"
+     class="net_9"
+     id="line314" />
+  <line
+     x1="191"
+     x2="191"
+     y1="162"
+     y2="272"
+     class="net_9"
+     id="line316" />
+  <line
+     x1="191"
+     x2="201"
+     y1="272"
+     y2="272"
+     class="net_9"
+     id="line318" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2235"
+     width="117.30354"
+     height="117.30354"
+     x="144.46478"
+     y="456.78635" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2237"
+     width="117.30354"
+     height="117.30354"
+     x="379.07184"
+     y="456.78635" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2239"
+     width="117.30354"
+     height="117.30354"
+     x="261.76831"
+     y="456.78635" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2241"
+     width="117.30354"
+     height="117.30354"
+     x="496.37537"
+     y="456.78635" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2243"
+     width="117.30354"
+     height="117.30354"
+     x="730.98242"
+     y="456.78635" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2245"
+     width="117.30354"
+     height="117.30354"
+     x="613.67889"
+     y="456.78635" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2247"
+     width="117.30354"
+     height="117.30354"
+     x="848.28595"
+     y="456.78635" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2249"
+     width="117.30354"
+     height="117.30354"
+     x="1082.8931"
+     y="456.78635" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2251"
+     width="117.30354"
+     height="117.30354"
+     x="965.58948"
+     y="456.78635" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2253"
+     width="117.30354"
+     height="117.30354"
+     x="144.46478"
+     y="574.0899" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2255"
+     width="117.30354"
+     height="117.30354"
+     x="379.07184"
+     y="574.0899" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2257"
+     width="117.30354"
+     height="117.30354"
+     x="261.76831"
+     y="574.0899" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2259"
+     width="117.30354"
+     height="117.30354"
+     x="496.37537"
+     y="574.0899" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2261"
+     width="117.30354"
+     height="117.30354"
+     x="730.98242"
+     y="574.0899" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2263"
+     width="117.30354"
+     height="117.30354"
+     x="613.67889"
+     y="574.0899" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2265"
+     width="117.30354"
+     height="117.30354"
+     x="848.28595"
+     y="574.0899" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2267"
+     width="117.30354"
+     height="117.30354"
+     x="1082.8931"
+     y="574.0899" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2269"
+     width="117.30354"
+     height="117.30354"
+     x="965.58948"
+     y="574.0899" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2271"
+     width="117.30354"
+     height="117.30354"
+     x="144.46478"
+     y="691.39343" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2273"
+     width="117.30354"
+     height="117.30354"
+     x="379.07184"
+     y="691.39343" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2275"
+     width="117.30354"
+     height="117.30354"
+     x="261.76831"
+     y="691.39343" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2277"
+     width="117.30354"
+     height="117.30354"
+     x="496.37537"
+     y="691.39343" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2279"
+     width="117.30354"
+     height="117.30354"
+     x="730.98242"
+     y="691.39343" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2281"
+     width="117.30354"
+     height="117.30354"
+     x="613.67889"
+     y="691.39343" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2283"
+     width="117.30354"
+     height="117.30354"
+     x="848.28595"
+     y="691.39343" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2285"
+     width="117.30354"
+     height="117.30354"
+     x="1082.8931"
+     y="691.39343" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2287"
+     width="117.30354"
+     height="117.30354"
+     x="965.58948"
+     y="691.39343" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2289"
+     width="117.30354"
+     height="117.30354"
+     x="144.46478"
+     y="808.69702" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2291"
+     width="117.30354"
+     height="117.30354"
+     x="379.07184"
+     y="808.69702" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2293"
+     width="117.30354"
+     height="117.30354"
+     x="261.76831"
+     y="808.69702" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2295"
+     width="117.30354"
+     height="117.30354"
+     x="496.37537"
+     y="808.69702" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2297"
+     width="117.30354"
+     height="117.30354"
+     x="730.98242"
+     y="808.69702" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2299"
+     width="117.30354"
+     height="117.30354"
+     x="613.67889"
+     y="808.69702" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2301"
+     width="117.30354"
+     height="117.30354"
+     x="848.28595"
+     y="808.69702" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2303"
+     width="117.30354"
+     height="117.30354"
+     x="1082.8931"
+     y="808.69702" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2305"
+     width="117.30354"
+     height="117.30354"
+     x="965.58948"
+     y="808.69702" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2307"
+     width="117.30354"
+     height="117.30354"
+     x="144.46478"
+     y="926.00055" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2309"
+     width="117.30354"
+     height="117.30354"
+     x="379.07184"
+     y="926.00055" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2311"
+     width="117.30354"
+     height="117.30354"
+     x="261.76831"
+     y="926.00055" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2313"
+     width="117.30354"
+     height="117.30354"
+     x="496.37537"
+     y="926.00055" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2315"
+     width="117.30354"
+     height="117.30354"
+     x="730.98242"
+     y="926.00055" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2317"
+     width="117.30354"
+     height="117.30354"
+     x="613.67889"
+     y="926.00055" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2319"
+     width="117.30354"
+     height="117.30354"
+     x="848.28595"
+     y="926.00055" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2321"
+     width="117.30354"
+     height="117.30354"
+     x="1082.8931"
+     y="926.00055" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2323"
+     width="117.30354"
+     height="117.30354"
+     x="965.58948"
+     y="926.00055" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2325"
+     width="117.30354"
+     height="117.30354"
+     x="144.46478"
+     y="1043.3041" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2327"
+     width="117.30354"
+     height="117.30354"
+     x="379.07184"
+     y="1043.3041" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2329"
+     width="117.30354"
+     height="117.30354"
+     x="261.76831"
+     y="1043.3041" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2331"
+     width="117.30354"
+     height="117.30354"
+     x="496.37537"
+     y="1043.3041" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2333"
+     width="117.30354"
+     height="117.30354"
+     x="730.98242"
+     y="1043.3041" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2335"
+     width="117.30354"
+     height="117.30354"
+     x="613.67889"
+     y="1043.3041" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2337"
+     width="117.30354"
+     height="117.30354"
+     x="848.28595"
+     y="1043.3041" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2339"
+     width="117.30354"
+     height="117.30354"
+     x="1082.8931"
+     y="1043.3041" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2341"
+     width="117.30354"
+     height="117.30354"
+     x="965.58948"
+     y="1043.3041" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2343"
+     width="117.30354"
+     height="117.30354"
+     x="144.46478"
+     y="1160.6077" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2345"
+     width="117.30354"
+     height="117.30354"
+     x="379.07184"
+     y="1160.6077" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2347"
+     width="117.30354"
+     height="117.30354"
+     x="261.76831"
+     y="1160.6077" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2349"
+     width="117.30354"
+     height="117.30354"
+     x="496.37537"
+     y="1160.6077" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2351"
+     width="117.30354"
+     height="117.30354"
+     x="730.98242"
+     y="1160.6077" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2353"
+     width="117.30354"
+     height="117.30354"
+     x="613.67889"
+     y="1160.6077" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2355"
+     width="117.30354"
+     height="117.30354"
+     x="848.28595"
+     y="1160.6077" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2357"
+     width="117.30354"
+     height="117.30354"
+     x="1082.8931"
+     y="1160.6077" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2359"
+     width="117.30354"
+     height="117.30354"
+     x="965.58948"
+     y="1160.6077" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2361"
+     width="117.30354"
+     height="117.30354"
+     x="144.46478"
+     y="1277.9113" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2363"
+     width="117.30354"
+     height="117.30354"
+     x="379.07184"
+     y="1277.9113" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2365"
+     width="117.30354"
+     height="117.30354"
+     x="261.76831"
+     y="1277.9113" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2367"
+     width="117.30354"
+     height="117.30354"
+     x="496.37537"
+     y="1277.9113" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2369"
+     width="117.30354"
+     height="117.30354"
+     x="730.98242"
+     y="1277.9113" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2371"
+     width="117.30354"
+     height="117.30354"
+     x="613.67889"
+     y="1277.9113" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2373"
+     width="117.30354"
+     height="117.30354"
+     x="848.28595"
+     y="1277.9113" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2375"
+     width="117.30354"
+     height="117.30354"
+     x="1082.8931"
+     y="1277.9113" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2377"
+     width="117.30354"
+     height="117.30354"
+     x="965.58948"
+     y="1277.9113" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2379"
+     width="117.30354"
+     height="117.30354"
+     x="144.46478"
+     y="1395.2148" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2381"
+     width="117.30354"
+     height="117.30354"
+     x="379.07184"
+     y="1395.2148" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2383"
+     width="117.30354"
+     height="117.30354"
+     x="261.76831"
+     y="1395.2148" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2385"
+     width="117.30354"
+     height="117.30354"
+     x="496.37537"
+     y="1395.2148" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2387"
+     width="117.30354"
+     height="117.30354"
+     x="730.98242"
+     y="1395.2148" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2389"
+     width="117.30354"
+     height="117.30354"
+     x="613.67889"
+     y="1395.2148" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2391"
+     width="117.30354"
+     height="117.30354"
+     x="848.28595"
+     y="1395.2148" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2393"
+     width="117.30354"
+     height="117.30354"
+     x="1082.8931"
+     y="1395.2148" />
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.06;stroke-linecap:round;stroke-linejoin:round"
+     id="rect2395"
+     width="117.30354"
+     height="117.30354"
+     x="965.58948"
+     y="1395.2148" />
+  <g
+     s:type="GND_1_"
+     s:width="30.0"
+     s:height="30.0"
+     transform="translate(633.07042,1004.1044)"
+     id="g2403">
+    <s:alias
+       val="GND_1_" />
+    <path
+       d="M 0,0 V 15 H 15 L 0,30 -15,15 H 0"
+       style="stroke-width:1"
+       class="cell_#PWR1 symbol "
+       id="path2397" />
+    <g
+       s:x="0.0"
+       s:y="0.0"
+       s:pid="1"
+       s:position="top"
+       id="g2399" />
+    <text
+       class="part_name_text"
+       text-anchor="middle"
+       x="0"
+       y="45"
+       transform="translate(0,7.5)"
+       style="font-size:15px"
+       s:attribute="value"
+       id="text2401">GND</text>
+  </g>
+  <g
+     s:type="VCC_1_"
+     s:width="18.0"
+     s:height="30.0"
+     transform="translate(517.40619,859.9277)"
+     id="g2415">
+    <s:alias
+       val="VCC_1_" />
+    <path
+       d="M -9,-15 0,-30"
+       style="stroke-width:1"
+       class="cell_#PWR2 symbol "
+       id="path2405" />
+    <path
+       d="M 0,0 V -30"
+       style="stroke-width:1"
+       class="cell_#PWR2 symbol "
+       id="path2407" />
+    <path
+       d="m 0,-30 9,15"
+       style="stroke-width:1"
+       class="cell_#PWR2 symbol "
+       id="path2409" />
+    <g
+       s:x="0.0"
+       s:y="0.0"
+       s:pid="1"
+       s:position="bottom"
+       id="g2411" />
+    <text
+       class="part_name_text"
+       text-anchor="middle"
+       x="0"
+       y="-45"
+       transform="translate(0,7.5)"
+       style="font-size:15px"
+       s:attribute="value"
+       id="text2413">VCC</text>
+  </g>
+  <g
+     s:type="Q_PNP_CBE_1_V"
+     s:width="108.3"
+     s:height="120.0"
+     transform="translate(560.37684,878.32713)"
+     id="g2449">
+    <s:alias
+       val="Q_PNP_CBE_1_V" />
+    <circle
+       cx="15"
+       cy="0"
+       r="33.299999"
+       style="stroke-width:3"
+       class="cell_Q1 symbol "
+       id="circle2417" />
+    <path
+       d="M 7.5,7.5 30,30"
+       style="stroke-width:1"
+       class="cell_Q1 symbol "
+       id="path2419" />
+    <path
+       d="M 7.5,-7.5 30,-30 v 0"
+       style="stroke-width:1"
+       class="cell_Q1 symbol "
+       id="path2421" />
+    <path
+       d="m 7.5,22.5 v -45 0"
+       style="stroke-width:6"
+       class="cell_Q1 symbol "
+       id="path2423" />
+    <path
+       d="m 27,-21 -6,-6 -6,12 12,-6 v 0"
+       style="stroke-width:1"
+       class="cell_Q1 symbol pen_fill"
+       id="path2425" />
+    <g
+       s:x="30.0"
+       s:y="60.0"
+       s:pid="1"
+       s:position="bottom"
+       id="g2431">
+      <path
+         d="M 30,60 V 30"
+         style="stroke-width:1"
+         class="cell_Q1 symbol"
+         id="path2427" />
+      <text
+         class="pin_num_text"
+         text-anchor="end"
+         x="30"
+         y="30"
+         transform="rotate(-90,32.25,33.75)"
+         style="font-size:15px"
+         id="text2429">1</text>
+    </g>
+    <g
+       s:x="-60.0"
+       s:y="0.0"
+       s:pid="2"
+       s:position="left"
+       id="g2437">
+      <path
+         d="M -60,0 H 7.5"
+         style="stroke-width:1"
+         class="cell_Q1 symbol"
+         id="path2433" />
+      <text
+         class="pin_num_text"
+         text-anchor="end"
+         x="7.5"
+         y="0"
+         transform="translate(-6,-1.5)"
+         style="font-size:15px"
+         id="text2435">2</text>
+    </g>
+    <g
+       s:x="30.0"
+       s:y="-60.0"
+       s:pid="3"
+       s:position="top"
+       id="g2443">
+      <path
+         d="m 30,-60 v 30"
+         style="stroke-width:1"
+         class="cell_Q1 symbol"
+         id="path2439" />
+      <text
+         class="pin_num_text"
+         text-anchor="start"
+         x="30"
+         y="-30"
+         transform="rotate(-90,26.25,-32.25)"
+         style="font-size:15px"
+         id="text2441">3</text>
+    </g>
+    <text
+       class="part_ref_text"
+       text-anchor="start"
+       x="60"
+       y="15"
+       transform="translate(0,-7.5)"
+       style="font-size:15px"
+       s:attribute="ref"
+       id="text2445">Q1</text>
+    <text
+       class="part_name_text"
+       text-anchor="start"
+       x="60"
+       y="-15"
+       transform="translate(0,-7.5)"
+       style="font-size:15px"
+       s:attribute="value"
+       id="text2447">Q_PNP_CBE</text>
+  </g>
+  <g
+     s:type="Q_PNP_CBE_1_V"
+     s:width="108.3"
+     s:height="120.0"
+     transform="translate(683.76998,870.583)"
+     id="g2483">
+    <s:alias
+       val="Q_PNP_CBE_1_V" />
+    <circle
+       cx="15"
+       cy="0"
+       r="33.299999"
+       style="stroke-width:3"
+       class="cell_Q2 symbol "
+       id="circle2451" />
+    <path
+       d="M 7.5,7.5 30,30"
+       style="stroke-width:1"
+       class="cell_Q2 symbol "
+       id="path2453" />
+    <path
+       d="M 7.5,-7.5 30,-30 v 0"
+       style="stroke-width:1"
+       class="cell_Q2 symbol "
+       id="path2455" />
+    <path
+       d="m 7.5,22.5 v -45 0"
+       style="stroke-width:6"
+       class="cell_Q2 symbol "
+       id="path2457" />
+    <path
+       d="m 27,-21 -6,-6 -6,12 12,-6 v 0"
+       style="stroke-width:1"
+       class="cell_Q2 symbol pen_fill"
+       id="path2459" />
+    <g
+       s:x="30.0"
+       s:y="60.0"
+       s:pid="1"
+       s:position="bottom"
+       id="g2465">
+      <path
+         d="M 30,60 V 30"
+         style="stroke-width:1"
+         class="cell_Q2 symbol"
+         id="path2461" />
+      <text
+         class="pin_num_text"
+         text-anchor="end"
+         x="30"
+         y="30"
+         transform="rotate(-90,32.25,33.75)"
+         style="font-size:15px"
+         id="text2463">1</text>
+    </g>
+    <g
+       s:x="-60.0"
+       s:y="0.0"
+       s:pid="2"
+       s:position="left"
+       id="g2471">
+      <path
+         d="M -60,0 H 7.5"
+         style="stroke-width:1"
+         class="cell_Q2 symbol"
+         id="path2467" />
+      <text
+         class="pin_num_text"
+         text-anchor="end"
+         x="7.5"
+         y="0"
+         transform="translate(-6,-1.5)"
+         style="font-size:15px"
+         id="text2469">2</text>
+    </g>
+    <g
+       s:x="30.0"
+       s:y="-60.0"
+       s:pid="3"
+       s:position="top"
+       id="g2477">
+      <path
+         d="m 30,-60 v 30"
+         style="stroke-width:1"
+         class="cell_Q2 symbol"
+         id="path2473" />
+      <text
+         class="pin_num_text"
+         text-anchor="start"
+         x="30"
+         y="-30"
+         transform="rotate(-90,26.25,-32.25)"
+         style="font-size:15px"
+         id="text2475">3</text>
+    </g>
+    <text
+       class="part_ref_text"
+       text-anchor="start"
+       x="60"
+       y="15"
+       transform="translate(0,-7.5)"
+       style="font-size:15px"
+       s:attribute="ref"
+       id="text2479">Q2</text>
+    <text
+       class="part_name_text"
+       text-anchor="start"
+       x="60"
+       y="-15"
+       transform="translate(0,-7.5)"
+       style="font-size:15px"
+       s:attribute="value"
+       id="text2481">Q_PNP_CBE</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="90.0"
+     transform="translate(525.46605,744.85787)"
+     id="g2499">
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12"
+       y="-30"
+       width="24"
+       height="60"
+       style="stroke-width:3"
+       class="cell_R1 symbol "
+       id="rect2485" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g2489">
+      <path
+         d="m 0,-45 v 15"
+         style="stroke-width:1"
+         class="cell_R1 symbol"
+         id="path2487" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g2493">
+      <path
+         d="M 0,45 V 30"
+         style="stroke-width:1"
+         class="cell_R1 symbol"
+         id="path2491" />
+    </g>
+    <text
+       class="part_ref_text"
+       text-anchor="middle"
+       x="24"
+       y="0"
+       transform="rotate(-90,27.75,-3.75)"
+       style="font-size:15px"
+       s:attribute="ref"
+       id="text2495">R1</text>
+    <text
+       class="part_name_text"
+       text-anchor="middle"
+       x="0"
+       y="0"
+       transform="rotate(-90,3.75,-3.75)"
+       style="font-size:15px"
+       s:attribute="value"
+       id="text2497">10K</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="90.0"
+     transform="translate(579.72125,749.59325)"
+     id="g2515">
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12"
+       y="-30"
+       width="24"
+       height="60"
+       style="stroke-width:3"
+       class="cell_R2 symbol "
+       id="rect2501" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g2505">
+      <path
+         d="m 0,-45 v 15"
+         style="stroke-width:1"
+         class="cell_R2 symbol"
+         id="path2503" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g2509">
+      <path
+         d="M 0,45 V 30"
+         style="stroke-width:1"
+         class="cell_R2 symbol"
+         id="path2507" />
+    </g>
+    <text
+       class="part_ref_text"
+       text-anchor="middle"
+       x="24"
+       y="0"
+       transform="rotate(-90,27.75,-3.75)"
+       style="font-size:15px"
+       s:attribute="ref"
+       id="text2511">R2</text>
+    <text
+       class="part_name_text"
+       text-anchor="middle"
+       x="0"
+       y="0"
+       transform="rotate(-90,3.75,-3.75)"
+       style="font-size:15px"
+       s:attribute="value"
+       id="text2513">10K</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="90.0"
+     transform="translate(676.54235,983.87906)"
+     id="g2531">
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12"
+       y="-30"
+       width="24"
+       height="60"
+       style="stroke-width:3"
+       class="cell_R3 symbol "
+       id="rect2517" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g2521">
+      <path
+         d="m 0,-45 v 15"
+         style="stroke-width:1"
+         class="cell_R3 symbol"
+         id="path2519" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g2525">
+      <path
+         d="M 0,45 V 30"
+         style="stroke-width:1"
+         class="cell_R3 symbol"
+         id="path2523" />
+    </g>
+    <text
+       class="part_ref_text"
+       text-anchor="middle"
+       x="24"
+       y="0"
+       transform="rotate(-90,27.75,-3.75)"
+       style="font-size:15px"
+       s:attribute="ref"
+       id="text2527">R3</text>
+    <text
+       class="part_name_text"
+       text-anchor="middle"
+       x="0"
+       y="0"
+       transform="rotate(-90,3.75,-3.75)"
+       style="font-size:15px"
+       s:attribute="value"
+       id="text2529">10K</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="90.0"
+     transform="translate(812.01914,889.32032)"
+     id="g2547">
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12"
+       y="-30"
+       width="24"
+       height="60"
+       style="stroke-width:3"
+       class="cell_R4 symbol "
+       id="rect2533" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g2537">
+      <path
+         d="m 0,-45 v 15"
+         style="stroke-width:1"
+         class="cell_R4 symbol"
+         id="path2535" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g2541">
+      <path
+         d="M 0,45 V 30"
+         style="stroke-width:1"
+         class="cell_R4 symbol"
+         id="path2539" />
+    </g>
+    <text
+       class="part_ref_text"
+       text-anchor="middle"
+       x="24"
+       y="0"
+       transform="rotate(-90,27.75,-3.75)"
+       style="font-size:15px"
+       s:attribute="ref"
+       id="text2543">R4</text>
+    <text
+       class="part_name_text"
+       text-anchor="middle"
+       x="0"
+       y="0"
+       transform="rotate(-90,3.75,-3.75)"
+       style="font-size:15px"
+       s:attribute="value"
+       id="text2545">10K</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="90.0"
+     transform="translate(722.90698,983.17451)"
+     id="g2563">
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12"
+       y="-30"
+       width="24"
+       height="60"
+       style="stroke-width:3"
+       class="cell_R5 symbol "
+       id="rect2549" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g2553">
+      <path
+         d="m 0,-45 v 15"
+         style="stroke-width:1"
+         class="cell_R5 symbol"
+         id="path2551" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g2557">
+      <path
+         d="M 0,45 V 30"
+         style="stroke-width:1"
+         class="cell_R5 symbol"
+         id="path2555" />
+    </g>
+    <text
+       class="part_ref_text"
+       text-anchor="middle"
+       x="24"
+       y="0"
+       transform="rotate(-90,27.75,-3.75)"
+       style="font-size:15px"
+       s:attribute="ref"
+       id="text2559">R5</text>
+    <text
+       class="part_name_text"
+       text-anchor="middle"
+       x="0"
+       y="0"
+       transform="rotate(-90,3.75,-3.75)"
+       style="font-size:15px"
+       s:attribute="value"
+       id="text2561">10K</text>
+  </g>
+  <g
+     s:type="inputExt"
+     s:width="30"
+     s:height="20"
+     transform="translate(1014.8996,84.446722)"
+     id="g2571">
+    <text
+       x="-2"
+       y="12"
+       text-anchor="end"
+       class="cell_A pin_name_text"
+       s:attribute="ref"
+       id="text2565">A</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       d="M 0,0 V 20 H 15 L 30,10 15,0 Z"
+       class="cell_A symbol"
+       id="path2567" />
+    <g
+       s:x="30"
+       s:y="10"
+       s:pid="Y"
+       s:position="right"
+       id="g2569" />
+  </g>
+  <g
+     s:type="inputExt"
+     s:width="30"
+     s:height="20"
+     transform="translate(695.89962,79.446722)"
+     id="g2579">
+    <text
+       x="-2"
+       y="12"
+       text-anchor="end"
+       class="cell_A_AND_B pin_name_text"
+       s:attribute="ref"
+       id="text2573">A_AND_B</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       d="M 0,0 V 20 H 15 L 30,10 15,0 Z"
+       class="cell_A_AND_B symbol"
+       id="path2575" />
+    <g
+       s:x="30"
+       s:y="10"
+       s:pid="Y"
+       s:position="right"
+       id="g2577" />
+  </g>
+  <g
+     s:type="inputExt"
+     s:width="30"
+     s:height="20"
+     transform="translate(1064.8996,79.446722)"
+     id="g2587">
+    <text
+       x="-2"
+       y="12"
+       text-anchor="end"
+       class="cell_B pin_name_text"
+       s:attribute="ref"
+       id="text2581">B</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       d="M 0,0 V 20 H 15 L 30,10 15,0 Z"
+       class="cell_B symbol"
+       id="path2583" />
+    <g
+       s:x="30"
+       s:y="10"
+       s:pid="Y"
+       s:position="right"
+       id="g2585" />
+  </g>
+  <g
+     s:type="inputExt"
+     s:width="30"
+     s:height="20"
+     transform="translate(657.89962,234.44672)"
+     id="g2595">
+    <text
+       x="-2"
+       y="12"
+       text-anchor="end"
+       class="cell_GND pin_name_text"
+       s:attribute="ref"
+       id="text2589">GND</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       d="M 0,0 V 20 H 15 L 30,10 15,0 Z"
+       class="cell_GND symbol"
+       id="path2591" />
+    <g
+       s:x="30"
+       s:y="10"
+       s:pid="Y"
+       s:position="right"
+       id="g2593" />
+  </g>
+  <g
+     s:type="inputExt"
+     s:width="30"
+     s:height="20"
+     transform="translate(891.89962,239.44672)"
+     id="g2603">
+    <text
+       x="-2"
+       y="12"
+       text-anchor="end"
+       class="cell_VCC pin_name_text"
+       s:attribute="ref"
+       id="text2597">VCC</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       d="M 0,0 V 20 H 15 L 30,10 15,0 Z"
+       class="cell_VCC symbol"
+       id="path2599" />
+    <g
+       s:x="30"
+       s:y="10"
+       s:pid="Y"
+       s:position="right"
+       id="g2601" />
+  </g>
+  <line
+     x1="802.8996"
+     x2="781.8996"
+     y1="244.44672"
+     y2="244.44672"
+     class="net_2"
+     id="line2605" />
+  <line
+     x1="781.8996"
+     x2="781.8996"
+     y1="244.44672"
+     y2="244.44672"
+     class="net_2"
+     id="line2607" />
+  <line
+     x1="781.8996"
+     x2="697.8996"
+     y1="244.44672"
+     y2="244.44672"
+     class="net_2"
+     id="line2609" />
+  <line
+     x1="697.8996"
+     x2="697.8996"
+     y1="244.44672"
+     y2="244.44672"
+     class="net_2"
+     id="line2611" />
+  <circle
+     cx="697.8996"
+     cy="244.44672"
+     r="2"
+     style="fill:#000000"
+     class="net_2"
+     id="circle2613" />
+  <circle
+     cx="697.8996"
+     cy="244.44672"
+     r="2"
+     style="fill:#000000"
+     class="net_2"
+     id="circle2615" />
+  <line
+     x1="697.8996"
+     x2="687.8996"
+     y1="244.44672"
+     y2="244.44672"
+     class="net_2"
+     id="line2617" />
+  <line
+     x1="747.8996"
+     x2="697.8996"
+     y1="189.44672"
+     y2="189.44672"
+     class="net_2"
+     id="line2619" />
+  <line
+     x1="697.8996"
+     x2="697.8996"
+     y1="189.44672"
+     y2="244.44672"
+     class="net_2"
+     id="line2621" />
+  <circle
+     cx="697.8996"
+     cy="244.44672"
+     r="2"
+     style="fill:#000000"
+     class="net_2"
+     id="circle2623" />
+  <line
+     x1="697.8996"
+     x2="687.8996"
+     y1="244.44672"
+     y2="244.44672"
+     class="net_2"
+     id="line2625" />
+  <line
+     x1="687.8996"
+     x2="697.8996"
+     y1="244.44672"
+     y2="244.44672"
+     class="net_2"
+     id="line2627" />
+  <line
+     x1="697.8996"
+     x2="697.8996"
+     y1="244.44672"
+     y2="254.44672"
+     class="net_2"
+     id="line2629" />
+  <circle
+     cx="697.8996"
+     cy="244.44672"
+     r="2"
+     style="fill:#000000"
+     class="net_2"
+     id="circle2631" />
+  <line
+     x1="697.8996"
+     x2="707.8996"
+     y1="254.44672"
+     y2="254.44672"
+     class="net_2"
+     id="line2633" />
+  <line
+     x1="802.8996"
+     x2="880.8996"
+     y1="129.44672"
+     y2="129.44672"
+     class="net_8"
+     id="line2635" />
+  <line
+     x1="880.8996"
+     x2="880.8996"
+     y1="129.44672"
+     y2="269.44672"
+     class="net_8"
+     id="line2637" />
+  <line
+     x1="880.8996"
+     x2="1025.1996"
+     y1="269.44672"
+     y2="269.44672"
+     class="net_8"
+     id="line2639" />
+  <line
+     x1="1025.1996"
+     x2="1025.1996"
+     y1="269.44672"
+     y2="389.44672"
+     class="net_8"
+     id="line2641" />
+  <line
+     x1="1025.1996"
+     x2="1135.1996"
+     y1="389.44672"
+     y2="389.44672"
+     class="net_8"
+     id="line2643" />
+  <line
+     x1="802.8996"
+     x2="802.8996"
+     y1="129.44672"
+     y2="154.44672"
+     class="net_8"
+     id="line2645" />
+  <line
+     x1="802.8996"
+     x2="846.8996"
+     y1="129.44672"
+     y2="129.44672"
+     class="net_8"
+     id="line2647" />
+  <circle
+     cx="846.8996"
+     cy="129.44672"
+     r="2"
+     style="fill:#000000"
+     class="net_8"
+     id="circle2649" />
+  <line
+     x1="846.8996"
+     x2="846.8996"
+     y1="129.44672"
+     y2="139.44672"
+     class="net_8"
+     id="line2651" />
+  <line
+     x1="946.8996"
+     x2="936.8996"
+     y1="219.44672"
+     y2="219.44672"
+     class="net_3"
+     id="line2653" />
+  <line
+     x1="936.8996"
+     x2="936.8996"
+     y1="219.44672"
+     y2="249.44672"
+     class="net_3"
+     id="line2655" />
+  <circle
+     cx="936.8996"
+     cy="249.44672"
+     r="2"
+     style="fill:#000000"
+     class="net_3"
+     id="circle2657" />
+  <line
+     x1="936.8996"
+     x2="921.8996"
+     y1="249.44672"
+     y2="249.44672"
+     class="net_3"
+     id="line2659" />
+  <line
+     x1="921.8996"
+     x2="936.8996"
+     y1="249.44672"
+     y2="249.44672"
+     class="net_3"
+     id="line2661" />
+  <line
+     x1="936.8996"
+     x2="936.8996"
+     y1="249.44672"
+     y2="259.44672"
+     class="net_3"
+     id="line2663" />
+  <line
+     x1="936.8996"
+     x2="1135.1996"
+     y1="259.44672"
+     y2="259.44672"
+     class="net_3"
+     id="line2665" />
+  <circle
+     cx="936.8996"
+     cy="259.44672"
+     r="2"
+     style="fill:#000000"
+     class="net_3"
+     id="circle2667" />
+  <circle
+     cx="936.8996"
+     cy="249.44672"
+     r="2"
+     style="fill:#000000"
+     class="net_3"
+     id="circle2669" />
+  <line
+     x1="1135.1996"
+     x2="1135.1996"
+     y1="259.44672"
+     y2="269.44672"
+     class="net_3"
+     id="line2671" />
+  <line
+     x1="921.8996"
+     x2="936.8996"
+     y1="249.44672"
+     y2="249.44672"
+     class="net_3"
+     id="line2673" />
+  <circle
+     cx="936.8996"
+     cy="249.44672"
+     r="2"
+     style="fill:#000000"
+     class="net_3"
+     id="circle2675" />
+  <line
+     x1="936.8996"
+     x2="936.8996"
+     y1="249.44672"
+     y2="279.44672"
+     class="net_3"
+     id="line2677" />
+  <line
+     x1="725.8996"
+     x2="747.8996"
+     y1="89.446724"
+     y2="89.446724"
+     class="net_6"
+     id="line2679" />
+  <line
+     x1="747.8996"
+     x2="747.8996"
+     y1="89.446724"
+     y2="89.446724"
+     class="net_6"
+     id="line2681" />
+  <line
+     x1="747.8996"
+     x2="791.8996"
+     y1="89.446724"
+     y2="89.446724"
+     class="net_6"
+     id="line2683" />
+  <line
+     x1="791.8996"
+     x2="791.8996"
+     y1="89.446724"
+     y2="399.44672"
+     class="net_6"
+     id="line2685" />
+  <circle
+     cx="747.8996"
+     cy="89.446724"
+     r="2"
+     style="fill:#000000"
+     class="net_6"
+     id="circle2687" />
+  <line
+     x1="791.8996"
+     x2="936.8996"
+     y1="399.44672"
+     y2="399.44672"
+     class="net_6"
+     id="line2689" />
+  <line
+     x1="725.8996"
+     x2="747.8996"
+     y1="89.446724"
+     y2="89.446724"
+     class="net_6"
+     id="line2691" />
+  <line
+     x1="747.8996"
+     x2="747.8996"
+     y1="89.446724"
+     y2="99.446724"
+     class="net_6"
+     id="line2693" />
+  <line
+     x1="1044.8997"
+     x2="1054.8997"
+     y1="94.446724"
+     y2="94.446724"
+     class="net_4"
+     id="line2695" />
+  <line
+     x1="1054.8997"
+     x2="1054.8997"
+     y1="94.446724"
+     y2="104.44672"
+     class="net_4"
+     id="line2697" />
+  <line
+     x1="1094.8997"
+     x2="1104.8997"
+     y1="89.446724"
+     y2="89.446724"
+     class="net_5"
+     id="line2699" />
+  <line
+     x1="1104.8997"
+     x2="1104.8997"
+     y1="89.446724"
+     y2="114.44672"
+     class="net_5"
+     id="line2701" />
+  <line
+     x1="1054.8997"
+     x2="1035.1996"
+     y1="194.44672"
+     y2="194.44672"
+     class="net_7"
+     id="line2703" />
+  <line
+     x1="1035.1996"
+     x2="1035.1996"
+     y1="194.44672"
+     y2="329.44672"
+     class="net_7"
+     id="line2705" />
+  <line
+     x1="1035.1996"
+     x2="1045.1996"
+     y1="329.44672"
+     y2="329.44672"
+     class="net_7"
+     id="line2707" />
+  <line
+     x1="1104.8997"
+     x2="1088.8997"
+     y1="204.44672"
+     y2="204.44672"
+     class="net_7"
+     id="line2709" />
+  <line
+     x1="1088.8997"
+     x2="1088.8997"
+     y1="204.44672"
+     y2="249.44672"
+     class="net_7"
+     id="line2711" />
+  <line
+     x1="1088.8997"
+     x2="1035.1996"
+     y1="249.44672"
+     y2="249.44672"
+     class="net_7"
+     id="line2713" />
+  <line
+     x1="1035.1996"
+     x2="1035.1996"
+     y1="249.44672"
+     y2="329.44672"
+     class="net_7"
+     id="line2715" />
+  <circle
+     cx="1035.1996"
+     cy="249.44672"
+     r="2"
+     style="fill:#000000"
+     class="net_7"
+     id="circle2717" />
+  <line
+     x1="1035.1996"
+     x2="1045.1996"
+     y1="329.44672"
+     y2="329.44672"
+     class="net_7"
+     id="line2719" />
+  <line
+     x1="846.8996"
+     x2="836.8996"
+     y1="229.44672"
+     y2="229.44672"
+     class="net_9"
+     id="line2721" />
+  <line
+     x1="836.8996"
+     x2="836.8996"
+     y1="229.44672"
+     y2="339.44672"
+     class="net_9"
+     id="line2723" />
+  <line
+     x1="836.8996"
+     x2="846.8996"
+     y1="339.44672"
+     y2="339.44672"
+     class="net_9"
+     id="line2725" />
+  <path
+     style="fill:#ff0000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     d="M 496.37537,456.78635 V 1512.5184"
+     id="path2745" />
+  <path
+     style="fill:#ff0000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 848.28595,456.78638 V 1512.5184"
+     id="path3570" />
+  <path
+     style="fill:#ff0000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 144.4646,808.69696 H 1200.1967"
+     id="path3572" />
+  <path
+     style="fill:#ff0000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 144.46456,1160.6077 H 1200.1967"
+     id="path3574" />
+  <image
+     width="287"
+     height="371"
+     preserveAspectRatio="none"
+     xlink:href="data:image/png;base64,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
+"
+     id="image3826"
+     x="1235.4777"
+     y="479.06259" />
+</svg>

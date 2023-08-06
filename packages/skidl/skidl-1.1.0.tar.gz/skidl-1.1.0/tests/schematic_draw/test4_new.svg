@@ -1,0 +1,267 @@
+<svg xmlns:s="https://github.com/nturley/netlistsvg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="svg112" sodipodi:docname="test4_skin.svg" inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)" width="374.6" height="869">
+  <style>svg {
+    stroke: #000;
+    fill: none;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  text {
+    fill: #000;
+    stroke: none;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+  }
+  .skidl_text {
+    fill: #999;
+    stroke: none;
+    font-weight: bold;
+    font-family: consolas, "Courier New", monospace;
+  }
+  .pin_num_text {
+      fill: #840000;
+  }
+  .pin_name_text {
+      fill: #008484;
+  }
+  .part_text {
+      fill: #840000;
+  }
+  .part_ref_text {
+      fill: #008484;
+  }
+  .part_name_text {
+      fill: #008484;
+  }
+  .pen_fill {
+      fill: #840000;
+  }
+  .background_fill {
+      fill: #FFFFC2
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .splitjoinBody {
+    fill: #000;
+  }
+  .symbol {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke: #840000;
+  }
+  .detail {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    fill: #000;
+  }</style>
+  <g s:type="GND_1_" s:width="30.0" s:height="30.0" transform="translate(224.3,807)" id="cell_#PWR1">
+    <s:alias val="GND_1_"/>
+    <path d="M 0,0 V 15 H 15 L 0,30 -15,15 H 0" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_#PWR1 symbol " id="path42" inkscape:connector-curvature="0"/>
+    <g s:x="0.0" s:y="0.0" s:pid="1" s:position="top" id="g44"/>
+    <text class="part_name_text" x="0" y="45" transform="translate(0,7.5)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:middle;fill:#008484;stroke:none" s:attribute="value" id="text46">GND</text>
+  </g>
+  <g s:type="VCC_1_" s:width="18.0" s:height="30.0" transform="translate(294.3,157)" id="cell_#PWR2">
+    <s:alias val="VCC_1_"/>
+    <path d="M -9,-15 0,-30" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_#PWR2 symbol " id="path50" inkscape:connector-curvature="0"/>
+    <path d="M 0,0 V -30" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_#PWR2 symbol " id="path52" inkscape:connector-curvature="0"/>
+    <path d="m 0,-30 9,15" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_#PWR2 symbol " id="path54" inkscape:connector-curvature="0"/>
+    <g s:x="0.0" s:y="0.0" s:pid="1" s:position="bottom" id="g56"/>
+    <text class="part_name_text" x="0" y="-45" transform="translate(0,7.5)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:middle;fill:#008484;stroke:none" s:attribute="value" id="text58">VCC</text>
+  </g>
+  <g s:type="Q_PNP_CBE_1_V" s:width="108.3" s:height="120.0" transform="translate(166,247)" id="cell_Q1">
+    <s:alias val="Q_PNP_CBE_1_V"/>
+    <circle cx="15" cy="0" r="33.299999" style="stroke:#840000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round" class="cell_Q1 symbol " id="circle62"/>
+    <path d="M 7.5,7.5 30,30" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_Q1 symbol " id="path64" inkscape:connector-curvature="0"/>
+    <path d="M 7.5,-7.5 30,-30 v 0" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_Q1 symbol " id="path66" inkscape:connector-curvature="0"/>
+    <path d="m 7.5,22.5 v -45 0" style="stroke:#840000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round" class="cell_Q1 symbol " id="path68" inkscape:connector-curvature="0"/>
+    <path d="m 27,-21 -6,-6 -6,12 12,-6 v 0" style="fill:#840000;stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_Q1 symbol pen_fill" id="path70" inkscape:connector-curvature="0"/>
+    <g s:x="30.0" s:y="60.0" s:pid="1" s:position="bottom" id="g76">
+      <path d="M 30,60 V 30" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_Q1 symbol" id="path72" inkscape:connector-curvature="0"/>
+      <text class="pin_num_text" x="30" y="30" transform="rotate(-90,32.25,33.75)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:end;fill:#840000;stroke:none" id="text74">1</text>
+    </g>
+    <g s:x="-60.0" s:y="0.0" s:pid="2" s:position="left" id="g82">
+      <path d="M -60,0 H 7.5" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_Q1 symbol" id="path78" inkscape:connector-curvature="0"/>
+      <text class="pin_num_text" x="7.5" y="0" transform="translate(-6,-1.5)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:end;fill:#840000;stroke:none" id="text80">2</text>
+    </g>
+    <g s:x="30.0" s:y="-60.0" s:pid="3" s:position="top" id="g88">
+      <path d="m 30,-60 v 30" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_Q1 symbol" id="path84" inkscape:connector-curvature="0"/>
+      <text class="pin_num_text" x="30" y="-30" transform="rotate(-90,26.25,-32.25)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:start;fill:#840000;stroke:none" id="text86">3</text>
+    </g>
+    <text class="part_ref_text" x="60" y="15" transform="translate(0,-7.5)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:start;fill:#008484;stroke:none" s:attribute="ref" id="text90">Q1</text>
+    <text class="part_name_text" x="60" y="-15" transform="translate(0,-7.5)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:start;fill:#008484;stroke:none" s:attribute="value" id="text92">Q_PNP_CBE</text>
+  </g>
+  <g s:type="Q_PNP_CBE_1_V" s:width="108.3" s:height="120.0" transform="translate(254.3,517)" id="cell_Q2">
+    <s:alias val="Q_PNP_CBE_1_V"/>
+    <circle cx="15" cy="0" r="33.299999" style="stroke:#840000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round" class="cell_Q2 symbol " id="circle62"/>
+    <path d="M 7.5,7.5 30,30" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_Q2 symbol " id="path64" inkscape:connector-curvature="0"/>
+    <path d="M 7.5,-7.5 30,-30 v 0" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_Q2 symbol " id="path66" inkscape:connector-curvature="0"/>
+    <path d="m 7.5,22.5 v -45 0" style="stroke:#840000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round" class="cell_Q2 symbol " id="path68" inkscape:connector-curvature="0"/>
+    <path d="m 27,-21 -6,-6 -6,12 12,-6 v 0" style="fill:#840000;stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_Q2 symbol pen_fill" id="path70" inkscape:connector-curvature="0"/>
+    <g s:x="30.0" s:y="60.0" s:pid="1" s:position="bottom" id="g76">
+      <path d="M 30,60 V 30" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_Q2 symbol" id="path72" inkscape:connector-curvature="0"/>
+      <text class="pin_num_text" x="30" y="30" transform="rotate(-90,32.25,33.75)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:end;fill:#840000;stroke:none" id="text74">1</text>
+    </g>
+    <g s:x="-60.0" s:y="0.0" s:pid="2" s:position="left" id="g82">
+      <path d="M -60,0 H 7.5" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_Q2 symbol" id="path78" inkscape:connector-curvature="0"/>
+      <text class="pin_num_text" x="7.5" y="0" transform="translate(-6,-1.5)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:end;fill:#840000;stroke:none" id="text80">2</text>
+    </g>
+    <g s:x="30.0" s:y="-60.0" s:pid="3" s:position="top" id="g88">
+      <path d="m 30,-60 v 30" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_Q2 symbol" id="path84" inkscape:connector-curvature="0"/>
+      <text class="pin_num_text" x="30" y="-30" transform="rotate(-90,26.25,-32.25)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:start;fill:#840000;stroke:none" id="text86">3</text>
+    </g>
+    <text class="part_ref_text" x="60" y="15" transform="translate(0,-7.5)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:start;fill:#008484;stroke:none" s:attribute="ref" id="text90">Q2</text>
+    <text class="part_name_text" x="60" y="-15" transform="translate(0,-7.5)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:start;fill:#008484;stroke:none" s:attribute="value" id="text92">Q_PNP_CBE</text>
+  </g>
+  <g s:type="R_1_" s:width="24.0" s:height="90.0" transform="translate(52,147)" id="cell_R1">
+    <s:alias val="R_1_"/>
+    <rect x="-12" y="-30" width="24" height="60" style="stroke:#840000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round" class="cell_R1 symbol " id="rect96"/>
+    <g s:x="0.0" s:y="-45.0" s:pid="1" s:position="top" id="g100">
+      <path d="m 0,-45 v 15" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_R1 symbol" id="path98" inkscape:connector-curvature="0"/>
+    </g>
+    <g s:x="0.0" s:y="45.0" s:pid="2" s:position="bottom" id="g104">
+      <path d="M 0,45 V 30" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_R1 symbol" id="path102" inkscape:connector-curvature="0"/>
+    </g>
+    <text class="part_ref_text" x="24" y="0" transform="rotate(-90,27.75,-3.75)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:middle;fill:#008484;stroke:none" s:attribute="ref" id="text106">R1</text>
+    <text class="part_name_text" x="0" y="0" transform="rotate(-90,3.75,-3.75)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:middle;fill:#008484;stroke:none" s:attribute="value" id="text108">10k</text>
+  </g>
+  <g s:type="R_1_" s:width="24.0" s:height="90.0" transform="translate(96,417)" id="cell_R2">
+    <s:alias val="R_1_"/>
+    <rect x="-12" y="-30" width="24" height="60" style="stroke:#840000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round" class="cell_R2 symbol " id="rect96"/>
+    <g s:x="0.0" s:y="-45.0" s:pid="1" s:position="top" id="g100">
+      <path d="m 0,-45 v 15" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_R2 symbol" id="path98" inkscape:connector-curvature="0"/>
+    </g>
+    <g s:x="0.0" s:y="45.0" s:pid="2" s:position="bottom" id="g104">
+      <path d="M 0,45 V 30" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_R2 symbol" id="path102" inkscape:connector-curvature="0"/>
+    </g>
+    <text class="part_ref_text" x="24" y="0" transform="rotate(-90,27.75,-3.75)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:middle;fill:#008484;stroke:none" s:attribute="ref" id="text106">R2</text>
+    <text class="part_name_text" x="0" y="0" transform="rotate(-90,3.75,-3.75)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:middle;fill:#008484;stroke:none" s:attribute="value" id="text108">10k</text>
+  </g>
+  <g s:type="R_1_" s:width="24.0" s:height="90.0" transform="translate(184.3,707)" id="cell_R3">
+    <s:alias val="R_1_"/>
+    <rect x="-12" y="-30" width="24" height="60" style="stroke:#840000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round" class="cell_R3 symbol " id="rect96"/>
+    <g s:x="0.0" s:y="-45.0" s:pid="1" s:position="top" id="g100">
+      <path d="m 0,-45 v 15" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_R3 symbol" id="path98" inkscape:connector-curvature="0"/>
+    </g>
+    <g s:x="0.0" s:y="45.0" s:pid="2" s:position="bottom" id="g104">
+      <path d="M 0,45 V 30" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_R3 symbol" id="path102" inkscape:connector-curvature="0"/>
+    </g>
+    <text class="part_ref_text" x="24" y="0" transform="rotate(-90,27.75,-3.75)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:middle;fill:#008484;stroke:none" s:attribute="ref" id="text106">R3</text>
+    <text class="part_name_text" x="0" y="0" transform="rotate(-90,3.75,-3.75)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:middle;fill:#008484;stroke:none" s:attribute="value" id="text108">10k</text>
+  </g>
+  <g s:type="R_1_" s:width="24.0" s:height="90.0" transform="translate(170.3,77)" id="cell_R4">
+    <s:alias val="R_1_"/>
+    <rect x="-12" y="-30" width="24" height="60" style="stroke:#840000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round" class="cell_R4 symbol " id="rect96"/>
+    <g s:x="0.0" s:y="-45.0" s:pid="1" s:position="top" id="g100">
+      <path d="m 0,-45 v 15" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_R4 symbol" id="path98" inkscape:connector-curvature="0"/>
+    </g>
+    <g s:x="0.0" s:y="45.0" s:pid="2" s:position="bottom" id="g104">
+      <path d="M 0,45 V 30" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_R4 symbol" id="path102" inkscape:connector-curvature="0"/>
+    </g>
+    <text class="part_ref_text" x="24" y="0" transform="rotate(-90,27.75,-3.75)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:middle;fill:#008484;stroke:none" s:attribute="ref" id="text106">R4</text>
+    <text class="part_name_text" x="0" y="0" transform="rotate(-90,3.75,-3.75)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:middle;fill:#008484;stroke:none" s:attribute="value" id="text108">10k</text>
+  </g>
+  <g s:type="R_1_" s:width="24.0" s:height="90.0" transform="translate(52,662)" id="cell_R5">
+    <s:alias val="R_1_"/>
+    <rect x="-12" y="-30" width="24" height="60" style="stroke:#840000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round" class="cell_R5 symbol " id="rect96"/>
+    <g s:x="0.0" s:y="-45.0" s:pid="1" s:position="top" id="g100">
+      <path d="m 0,-45 v 15" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_R5 symbol" id="path98" inkscape:connector-curvature="0"/>
+    </g>
+    <g s:x="0.0" s:y="45.0" s:pid="2" s:position="bottom" id="g104">
+      <path d="M 0,45 V 30" style="stroke:#840000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" class="cell_R5 symbol" id="path102" inkscape:connector-curvature="0"/>
+    </g>
+    <text class="part_ref_text" x="24" y="0" transform="rotate(-90,27.75,-3.75)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:middle;fill:#008484;stroke:none" s:attribute="ref" id="text106">R5</text>
+    <text class="part_name_text" x="0" y="0" transform="rotate(-90,3.75,-3.75)" style="font-weight:bold;font-size:15px;font-family:'Courier New', monospace;text-anchor:middle;fill:#008484;stroke:none" s:attribute="value" id="text108">10k</text>
+  </g>
+  <g s:type="inputExt" s:width="30" s:height="20" transform="translate(12,82)" id="cell_A">
+    <text x="-2" y="12" class="cell_A pin_name_text" s:attribute="ref" id="text4" style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:end;fill:#008484;stroke:none">A</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M 0,0 V 20 H 15 L 30,10 15,0 Z" class="cell_A symbol" id="path6" inkscape:connector-curvature="0" style="stroke:#840000;stroke-linecap:round;stroke-linejoin:round"/>
+    <g s:x="30" s:y="10" s:pid="Y" s:position="right" id="g8"/>
+  </g>
+  <g s:type="outputExt" s:width="30" s:height="20" transform="translate(234.3,642)" id="cell_A_AND_B">
+    <text x="32" y="12" class="cell_A_AND_B pin_name_text" s:attribute="ref" id="text12" style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;fill:#008484;stroke:none">A_AND_B</text>
+    <s:alias val="$_outputExt_"/>
+    <path d="M 30,0 V 20 H 15 L 0,10 15,0 Z" class="cell_A_AND_B symbol" id="path14" inkscape:connector-curvature="0" style="stroke:#840000;stroke-linecap:round;stroke-linejoin:round"/>
+    <g s:x="0" s:y="10" s:pid="A" s:position="left" id="g16"/>
+  </g>
+  <g s:type="inputExt" s:width="30" s:height="20" transform="translate(130.3,12)" id="cell_B">
+    <text x="-2" y="12" class="cell_B pin_name_text" s:attribute="ref" id="text4" style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:end;fill:#008484;stroke:none">B</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M 0,0 V 20 H 15 L 30,10 15,0 Z" class="cell_B symbol" id="path6" inkscape:connector-curvature="0" style="stroke:#840000;stroke-linecap:round;stroke-linejoin:round"/>
+    <g s:x="30" s:y="10" s:pid="Y" s:position="right" id="g8"/>
+  </g>
+  <g s:type="inputExt" s:width="30" s:height="20" transform="translate(134.3,772)" id="cell_GND">
+    <text x="-2" y="12" class="cell_GND pin_name_text" s:attribute="ref" id="text4" style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:end;fill:#008484;stroke:none">GND</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M 0,0 V 20 H 15 L 30,10 15,0 Z" class="cell_GND symbol" id="path6" inkscape:connector-curvature="0" style="stroke:#840000;stroke-linecap:round;stroke-linejoin:round"/>
+    <g s:x="30" s:y="10" s:pid="Y" s:position="right" id="g8"/>
+  </g>
+  <g s:type="inputExt" s:width="30" s:height="20" transform="translate(244.3,147)" id="cell_VCC">
+    <text x="-2" y="12" class="cell_VCC pin_name_text" s:attribute="ref" id="text4" style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:end;fill:#008484;stroke:none">VCC</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M 0,0 V 20 H 15 L 30,10 15,0 Z" class="cell_VCC symbol" id="path6" inkscape:connector-curvature="0" style="stroke:#840000;stroke-linecap:round;stroke-linejoin:round"/>
+    <g s:x="30" s:y="10" s:pid="Y" s:position="right" id="g8"/>
+  </g>
+  <line x1="184.3" x2="174.3" y1="752" y2="752" class="net_2"/>
+  <line x1="174.3" x2="174.3" y1="752" y2="782" class="net_2"/>
+  <circle cx="174.3" cy="782" r="2" style="fill:#000" class="net_2"/>
+  <line x1="174.3" x2="164.3" y1="782" y2="782" class="net_2"/>
+  <line x1="52" x2="42" y1="707" y2="707" class="net_2"/>
+  <line x1="42" x2="42" y1="707" y2="762" class="net_2"/>
+  <line x1="42" x2="174.3" y1="762" y2="762" class="net_2"/>
+  <line x1="174.3" x2="174.3" y1="762" y2="782" class="net_2"/>
+  <circle cx="174.3" cy="762" r="2" style="fill:#000" class="net_2"/>
+  <circle cx="174.3" cy="782" r="2" style="fill:#000" class="net_2"/>
+  <line x1="174.3" x2="164.3" y1="782" y2="782" class="net_2"/>
+  <line x1="164.3" x2="174.3" y1="782" y2="782" class="net_2"/>
+  <line x1="174.3" x2="174.3" y1="782" y2="807" class="net_2"/>
+  <circle cx="174.3" cy="782" r="2" style="fill:#000" class="net_2"/>
+  <line x1="174.3" x2="224.3" y1="807" y2="807" class="net_2"/>
+  <line x1="294.3" x2="284.3" y1="157" y2="157" class="net_3"/>
+  <line x1="284.3" x2="284.3" y1="157" y2="157" class="net_3"/>
+  <circle cx="284.3" cy="157" r="2" style="fill:#000" class="net_3"/>
+  <line x1="284.3" x2="274.3" y1="157" y2="157" class="net_3"/>
+  <line x1="274.3" x2="284.3" y1="157" y2="157" class="net_3"/>
+  <line x1="284.3" x2="284.3" y1="157" y2="177" class="net_3"/>
+  <line x1="284.3" x2="196" y1="177" y2="177" class="net_3"/>
+  <circle cx="284.3" cy="177" r="2" style="fill:#000" class="net_3"/>
+  <circle cx="284.3" cy="157" r="2" style="fill:#000" class="net_3"/>
+  <line x1="196" x2="196" y1="177" y2="187" class="net_3"/>
+  <line x1="274.3" x2="284.3" y1="157" y2="157" class="net_3"/>
+  <circle cx="284.3" cy="157" r="2" style="fill:#000" class="net_3"/>
+  <line x1="284.3" x2="284.3" y1="157" y2="457" class="net_3"/>
+  <line x1="42" x2="52" y1="92" y2="92" class="net_4"/>
+  <line x1="52" x2="52" y1="92" y2="102" class="net_4"/>
+  <line x1="196" x2="96" y1="307" y2="307" class="net_8"/>
+  <line x1="96" x2="96" y1="307" y2="372" class="net_8"/>
+  <line x1="196" x2="96" y1="307" y2="307" class="net_8"/>
+  <line x1="96" x2="96" y1="307" y2="362" class="net_8"/>
+  <line x1="96" x2="52" y1="362" y2="362" class="net_8"/>
+  <circle cx="96" cy="362" r="2" style="fill:#000" class="net_8"/>
+  <line x1="52" x2="52" y1="362" y2="617" class="net_8"/>
+  <line x1="284.3" x2="184.3" y1="577" y2="577" class="net_6"/>
+  <line x1="184.3" x2="184.3" y1="577" y2="652" class="net_6"/>
+  <circle cx="184.3" cy="652" r="2" style="fill:#000" class="net_6"/>
+  <line x1="184.3" x2="234.3" y1="652" y2="652" class="net_6"/>
+  <line x1="234.3" x2="184.3" y1="652" y2="652" class="net_6"/>
+  <circle cx="184.3" cy="652" r="2" style="fill:#000" class="net_6"/>
+  <line x1="184.3" x2="184.3" y1="652" y2="662" class="net_6"/>
+  <line x1="160.3" x2="170.3" y1="22" y2="22" class="net_5"/>
+  <line x1="170.3" x2="170.3" y1="22" y2="32" class="net_5"/>
+  <line x1="52" x2="42" y1="192" y2="192" class="net_7"/>
+  <line x1="42" x2="42" y1="192" y2="247" class="net_7"/>
+  <line x1="42" x2="86" y1="247" y2="247" class="net_7"/>
+  <line x1="86" x2="86" y1="247" y2="247" class="net_7"/>
+  <circle cx="86" cy="247" r="2" style="fill:#000" class="net_7"/>
+  <line x1="86" x2="106" y1="247" y2="247" class="net_7"/>
+  <line x1="170.3" x2="86" y1="122" y2="122" class="net_7"/>
+  <line x1="86" x2="86" y1="122" y2="247" class="net_7"/>
+  <line x1="86" x2="106" y1="247" y2="247" class="net_7"/>
+  <line x1="96" x2="86" y1="462" y2="462" class="net_9"/>
+  <line x1="86" x2="86" y1="462" y2="517" class="net_9"/>
+  <line x1="86" x2="194.3" y1="517" y2="517" class="net_9"/>
+</svg>

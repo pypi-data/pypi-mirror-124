@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="366.3" height="854">
+  <style>svg {
+    stroke: #000;
+    fill: none;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  text {
+    fill: #000;
+    stroke: none;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .splitjoinBody {
+    fill: #000;
+  }
+  .symbol {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  .detail {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    fill: #000;
+  }</style>
+  <g s:type="resistor_v" s:width="24.0" s:height="90.0" transform="translate(162,87)" id="cell_R1">
+    <rect x="-12.0" y="-45.0" width="24.0" height="90.0" style="stroke-width:3; stroke:#f00" class="cell_R1 symbol"/>
+    <s:alias val="r_v"/>
+    <rect x="-12.0" y="-30.0" width="24.0" height="60.0" style="stroke-width:3.0; fill:" class="cell_R1 symbol"/>
+    <g s:x="0.0" s:y="-45.0" s:pid="A" s:position="top">
+      <path d="M 0.0 -45.0 L 0.0 -30.0" class="cell_R1 connec"/>
+    </g>
+    <g s:x="0.0" s:y="45.0" s:pid="B" s:position="bottom">
+      <path d="M 0.0 45.0 L 0.0 30.0" class="cell_R1 connec"/>
+    </g>
+    <text font-size="15.0" class="text" text-anchor="middle" x="24.0" y="0.0" transform="rotate(-90 24.0 0.0) translate(0.0 7.5)" s:attribute="ref">R1</text>
+    <text font-size="15.0" class="text" text-anchor="middle" x="0.0" y="0.0" transform="rotate(-90 0.0 0.0) translate(0.0 7.5)" s:attribute="value">10k</text>
+  </g>
+  <g s:type="resistor_v" s:width="24.0" s:height="90.0" transform="translate(52,142)" id="cell_R2">
+    <rect x="-12.0" y="-45.0" width="24.0" height="90.0" style="stroke-width:3; stroke:#f00" class="cell_R2 symbol"/>
+    <s:alias val="r_v"/>
+    <rect x="-12.0" y="-30.0" width="24.0" height="60.0" style="stroke-width:3.0; fill:" class="cell_R2 symbol"/>
+    <g s:x="0.0" s:y="-45.0" s:pid="A" s:position="top">
+      <path d="M 0.0 -45.0 L 0.0 -30.0" class="cell_R2 connec"/>
+    </g>
+    <g s:x="0.0" s:y="45.0" s:pid="B" s:position="bottom">
+      <path d="M 0.0 45.0 L 0.0 30.0" class="cell_R2 connec"/>
+    </g>
+    <text font-size="15.0" class="text" text-anchor="middle" x="24.0" y="0.0" transform="rotate(-90 24.0 0.0) translate(0.0 7.5)" s:attribute="ref">R2</text>
+    <text font-size="15.0" class="text" text-anchor="middle" x="0.0" y="0.0" transform="rotate(-90 0.0 0.0) translate(0.0 7.5)" s:attribute="value">10k</text>
+  </g>
+  <g s:type="transistor_pnp" s:width="108.3" s:height="120.0" transform="translate(166,242)" id="cell_Q1">
+    <rect x="-60.0" y="-60.0" width="108.3" height="120.0" style="stroke-width:3; stroke:#f00" class="cell_Q1 symbol"/>
+    <s:alias val="q_pnp"/>
+    <circle cx="15.0" cy="0.0" r="33.3" style="stroke-width:3.0; fill:" class="cell_Q1 symbol"/>
+    <path d="M 7.5 -7.5 L 30.0 -30.0 " style="stroke-width:1; fill:" class="cell_Q1 symbol"/>
+    <path d="M 7.5 7.5 L 30.0 30.0 L 30.0 30.0 " style="stroke-width:1; fill:" class="cell_Q1 symbol"/>
+    <path d="M 7.5 -22.5 L 7.5 22.5 L 7.5 22.5 " style="stroke-width:6.0; fill:" class="cell_Q1 symbol"/>
+    <path d="M 27.0 21.0 L 21.0 27.0 L 15.0 15.0 L 27.0 21.0 L 27.0 21.0 " style="stroke-width:1; fill:#000" class="cell_Q1 symbol"/>
+    <g s:x="30.0" s:y="-60.0" s:pid="C" s:position="top">
+      <path d="M 30.0 -60.0 L 30.0 -30.0" class="cell_Q1 connec"/>
+      <text font-size="15.0" class="text" text-anchor="start" x="30.0" y="-30.0" transform="rotate(-90 30.0 -30.0) translate(6.0 -1.5)"> 1 </text>
+    </g>
+    <g s:x="-60.0" s:y="0.0" s:pid="B" s:position="left">
+      <path d="M -60.0 0.0 L 7.5 0.0" class="cell_Q1 connec"/>
+      <text font-size="15.0" class="text" text-anchor="end" x="7.5" y="0.0" transform="rotate(0 7.5 0.0) translate(-6.0 -1.5)"> 2 </text>
+    </g>
+    <g s:x="30.0" s:y="60.0" s:pid="E" s:position="bottom">
+      <path d="M 30.0 60.0 L 30.0 30.0" class="cell_Q1 connec"/>
+      <text font-size="15.0" class="text" text-anchor="end" x="30.0" y="30.0" transform="rotate(-90 30.0 30.0) translate(-6.0 -1.5)"> 3 </text>
+    </g>
+    <text font-size="15.0" class="text" text-anchor="start" x="60.0" y="-15.0" transform="rotate(0 60.0 -15.0) translate(0.0 7.5)" s:attribute="ref">Q1</text>
+    <text font-size="15.0" class="text" text-anchor="start" x="60.0" y="15.0" transform="rotate(0 60.0 15.0) translate(0.0 7.5)" s:attribute="value"></text>
+  </g>
+  <g s:type="resistor_v" s:width="24.0" s:height="90.0" transform="translate(52,357)" id="cell_R3">
+    <rect x="-12.0" y="-45.0" width="24.0" height="90.0" style="stroke-width:3; stroke:#f00" class="cell_R3 symbol"/>
+    <s:alias val="r_v"/>
+    <rect x="-12.0" y="-30.0" width="24.0" height="60.0" style="stroke-width:3.0; fill:" class="cell_R3 symbol"/>
+    <g s:x="0.0" s:y="-45.0" s:pid="A" s:position="top">
+      <path d="M 0.0 -45.0 L 0.0 -30.0" class="cell_R3 connec"/>
+    </g>
+    <g s:x="0.0" s:y="45.0" s:pid="B" s:position="bottom">
+      <path d="M 0.0 45.0 L 0.0 30.0" class="cell_R3 connec"/>
+    </g>
+    <text font-size="15.0" class="text" text-anchor="middle" x="24.0" y="0.0" transform="rotate(-90 24.0 0.0) translate(0.0 7.5)" s:attribute="ref">R3</text>
+    <text font-size="15.0" class="text" text-anchor="middle" x="0.0" y="0.0" transform="rotate(-90 0.0 0.0) translate(0.0 7.5)" s:attribute="value">10k</text>
+  </g>
+  <g s:type="resistor_v" s:width="24.0" s:height="90.0" transform="translate(96,412)" id="cell_R4">
+    <rect x="-12.0" y="-45.0" width="24.0" height="90.0" style="stroke-width:3; stroke:#f00" class="cell_R4 symbol"/>
+    <s:alias val="r_v"/>
+    <rect x="-12.0" y="-30.0" width="24.0" height="60.0" style="stroke-width:3.0; fill:" class="cell_R4 symbol"/>
+    <g s:x="0.0" s:y="-45.0" s:pid="A" s:position="top">
+      <path d="M 0.0 -45.0 L 0.0 -30.0" class="cell_R4 connec"/>
+    </g>
+    <g s:x="0.0" s:y="45.0" s:pid="B" s:position="bottom">
+      <path d="M 0.0 45.0 L 0.0 30.0" class="cell_R4 connec"/>
+    </g>
+    <text font-size="15.0" class="text" text-anchor="middle" x="24.0" y="0.0" transform="rotate(-90 24.0 0.0) translate(0.0 7.5)" s:attribute="ref">R4</text>
+    <text font-size="15.0" class="text" text-anchor="middle" x="0.0" y="0.0" transform="rotate(-90 0.0 0.0) translate(0.0 7.5)" s:attribute="value">10k</text>
+  </g>
+  <g s:type="resistor_v" s:width="24.0" s:height="90.0" transform="translate(76,712)" id="cell_R5">
+    <rect x="-12.0" y="-45.0" width="24.0" height="90.0" style="stroke-width:3; stroke:#f00" class="cell_R5 symbol"/>
+    <s:alias val="r_v"/>
+    <rect x="-12.0" y="-30.0" width="24.0" height="60.0" style="stroke-width:3.0; fill:" class="cell_R5 symbol"/>
+    <g s:x="0.0" s:y="-45.0" s:pid="A" s:position="top">
+      <path d="M 0.0 -45.0 L 0.0 -30.0" class="cell_R5 connec"/>
+    </g>
+    <g s:x="0.0" s:y="45.0" s:pid="B" s:position="bottom">
+      <path d="M 0.0 45.0 L 0.0 30.0" class="cell_R5 connec"/>
+    </g>
+    <text font-size="15.0" class="text" text-anchor="middle" x="24.0" y="0.0" transform="rotate(-90 24.0 0.0) translate(0.0 7.5)" s:attribute="ref">R5</text>
+    <text font-size="15.0" class="text" text-anchor="middle" x="0.0" y="0.0" transform="rotate(-90 0.0 0.0) translate(0.0 7.5)" s:attribute="value">10k</text>
+  </g>
+  <g s:type="transistor_pnp" s:width="108.3" s:height="120.0" transform="translate(246,512)" id="cell_Q2">
+    <rect x="-60.0" y="-60.0" width="108.3" height="120.0" style="stroke-width:3; stroke:#f00" class="cell_Q2 symbol"/>
+    <s:alias val="q_pnp"/>
+    <circle cx="15.0" cy="0.0" r="33.3" style="stroke-width:3.0; fill:" class="cell_Q2 symbol"/>
+    <path d="M 7.5 -7.5 L 30.0 -30.0 " style="stroke-width:1; fill:" class="cell_Q2 symbol"/>
+    <path d="M 7.5 7.5 L 30.0 30.0 L 30.0 30.0 " style="stroke-width:1; fill:" class="cell_Q2 symbol"/>
+    <path d="M 7.5 -22.5 L 7.5 22.5 L 7.5 22.5 " style="stroke-width:6.0; fill:" class="cell_Q2 symbol"/>
+    <path d="M 27.0 21.0 L 21.0 27.0 L 15.0 15.0 L 27.0 21.0 L 27.0 21.0 " style="stroke-width:1; fill:#000" class="cell_Q2 symbol"/>
+    <g s:x="30.0" s:y="-60.0" s:pid="C" s:position="top">
+      <path d="M 30.0 -60.0 L 30.0 -30.0" class="cell_Q2 connec"/>
+      <text font-size="15.0" class="text" text-anchor="start" x="30.0" y="-30.0" transform="rotate(-90 30.0 -30.0) translate(6.0 -1.5)"> 1 </text>
+    </g>
+    <g s:x="-60.0" s:y="0.0" s:pid="B" s:position="left">
+      <path d="M -60.0 0.0 L 7.5 0.0" class="cell_Q2 connec"/>
+      <text font-size="15.0" class="text" text-anchor="end" x="7.5" y="0.0" transform="rotate(0 7.5 0.0) translate(-6.0 -1.5)"> 2 </text>
+    </g>
+    <g s:x="30.0" s:y="60.0" s:pid="E" s:position="bottom">
+      <path d="M 30.0 60.0 L 30.0 30.0" class="cell_Q2 connec"/>
+      <text font-size="15.0" class="text" text-anchor="end" x="30.0" y="30.0" transform="rotate(-90 30.0 30.0) translate(-6.0 -1.5)"> 3 </text>
+    </g>
+    <text font-size="15.0" class="text" text-anchor="start" x="60.0" y="-15.0" transform="rotate(0 60.0 -15.0) translate(0.0 7.5)" s:attribute="ref">Q2</text>
+    <text font-size="15.0" class="text" text-anchor="start" x="60.0" y="15.0" transform="rotate(0 60.0 15.0) translate(0.0 7.5)" s:attribute="value"></text>
+  </g>
+  <g s:type="vcc" s:width="18.0" s:height="30.0" transform="translate(206,147)" id="cell_vcc">
+    <rect x="-9.0" y="-30.0" width="18.0" height="30.0" style="stroke-width:3; stroke:#f00" class="cell_vcc symbol"/>
+    <s:alias val="vcc"/>
+    <path d="M -9.0 -15.0 L 0.0 -30.0 " style="stroke-width:1; fill:" class="cell_vcc symbol"/>
+    <path d="M 0.0 0.0 L 0.0 -30.0 " style="stroke-width:1; fill:" class="cell_vcc symbol"/>
+    <path d="M 0.0 -30.0 L 9.0 -15.0 " style="stroke-width:1; fill:" class="cell_vcc symbol"/>
+    <g s:x="0.0" s:y="0.0" s:pid="A" s:position="bottom"/>
+    <text font-size="15.0" class="text" text-anchor="middle" x="0.0" y="-45.0" transform="rotate(0 0.0 -45.0) translate(0.0 7.5)" s:attribute="value"></text>
+  </g>
+  <g s:type="vcc" s:width="18.0" s:height="30.0" transform="translate(286,417)" id="cell_vcc2">
+    <rect x="-9.0" y="-30.0" width="18.0" height="30.0" style="stroke-width:3; stroke:#f00" class="cell_vcc2 symbol"/>
+    <s:alias val="vcc"/>
+    <path d="M -9.0 -15.0 L 0.0 -30.0 " style="stroke-width:1; fill:" class="cell_vcc2 symbol"/>
+    <path d="M 0.0 0.0 L 0.0 -30.0 " style="stroke-width:1; fill:" class="cell_vcc2 symbol"/>
+    <path d="M 0.0 -30.0 L 9.0 -15.0 " style="stroke-width:1; fill:" class="cell_vcc2 symbol"/>
+    <g s:x="0.0" s:y="0.0" s:pid="A" s:position="bottom"/>
+    <text font-size="15.0" class="text" text-anchor="middle" x="0.0" y="-45.0" transform="rotate(0 0.0 -45.0) translate(0.0 7.5)" s:attribute="value"></text>
+  </g>
+  <g s:type="gnd" s:width="30.0" s:height="30.0" transform="translate(36,452)" id="cell_gnd">
+    <rect x="-15.0" y="0.0" width="30.0" height="30.0" style="stroke-width:3; stroke:#f00" class="cell_gnd symbol"/>
+    <s:alias val="gnd"/>
+    <path d="M 0.0 0.0 L 0.0 15.0 L 15.0 15.0 L 0.0 30.0 L -15.0 15.0 L 0.0 15.0 " style="stroke-width:1; fill:" class="cell_gnd symbol"/>
+    <g s:x="0.0" s:y="0.0" s:pid="A" s:position="top"/>
+    <text font-size="15.0" class="text" text-anchor="middle" x="0.0" y="45.0" transform="rotate(0 0.0 45.0) translate(0.0 7.5)" s:attribute="value"></text>
+  </g>
+  <g s:type="gnd" s:width="30.0" s:height="30.0" transform="translate(166,812)" id="cell_gnd2">
+    <rect x="-15.0" y="0.0" width="30.0" height="30.0" style="stroke-width:3; stroke:#f00" class="cell_gnd2 symbol"/>
+    <s:alias val="gnd"/>
+    <path d="M 0.0 0.0 L 0.0 15.0 L 15.0 15.0 L 0.0 30.0 L -15.0 15.0 L 0.0 15.0 " style="stroke-width:1; fill:" class="cell_gnd2 symbol"/>
+    <g s:x="0.0" s:y="0.0" s:pid="A" s:position="top"/>
+    <text font-size="15.0" class="text" text-anchor="middle" x="0.0" y="45.0" transform="rotate(0 0.0 45.0) translate(0.0 7.5)" s:attribute="value"></text>
+  </g>
+  <g s:type="inputExt" s:width="30" s:height="20" transform="translate(122,22)" id="cell_A">
+    <text x="15" y="-4" class="cell_A" s:attribute="ref">A</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 V20 H15 L30,10 15,0 Z" class="cell_A"/>
+    <g s:x="30" s:y="10" s:pid="Y" s:position="right"/>
+  </g>
+  <g s:type="inputExt" s:width="30" s:height="20" transform="translate(12,77)" id="cell_B">
+    <text x="15" y="-4" class="cell_B" s:attribute="ref">B</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 V20 H15 L30,10 15,0 Z" class="cell_B"/>
+    <g s:x="30" s:y="10" s:pid="Y" s:position="right"/>
+  </g>
+  <g s:type="outputExt" s:width="30" s:height="20" transform="translate(176,647)" id="cell_A AND B">
+    <text x="15" y="-4" class="cell_A AND B" s:attribute="ref">A AND B</text>
+    <s:alias val="$_outputExt_"/>
+    <path d="M30,0 V20 H15 L0,10 15,0 Z" class="cell_A AND B"/>
+    <g s:x="0" s:y="10" s:pid="A" s:position="left"/>
+  </g>
+  <line x1="152" x2="162" y1="32" y2="32" class="net_2"/>
+  <line x1="162" x2="162" y1="32" y2="42" class="net_2"/>
+  <line x1="42" x2="52" y1="87" y2="87" class="net_3"/>
+  <line x1="52" x2="52" y1="87" y2="97" class="net_3"/>
+  <line x1="206" x2="196" y1="147" y2="147" class="net_6"/>
+  <line x1="196" x2="196" y1="147" y2="182" class="net_6"/>
+  <line x1="196" x2="96" y1="302" y2="302" class="net_7"/>
+  <line x1="96" x2="96" y1="302" y2="302" class="net_7"/>
+  <line x1="96" x2="52" y1="302" y2="302" class="net_7"/>
+  <circle cx="96" cy="302" r="2" style="fill:#000" class="net_7"/>
+  <line x1="52" x2="52" y1="302" y2="312" class="net_7"/>
+  <line x1="196" x2="96" y1="302" y2="302" class="net_7"/>
+  <line x1="96" x2="96" y1="302" y2="367" class="net_7"/>
+  <line x1="276" x2="76" y1="572" y2="572" class="net_4"/>
+  <line x1="76" x2="76" y1="572" y2="657" class="net_4"/>
+  <circle cx="76" cy="657" r="2" style="fill:#000" class="net_4"/>
+  <line x1="76" x2="176" y1="657" y2="657" class="net_4"/>
+  <line x1="176" x2="76" y1="657" y2="657" class="net_4"/>
+  <circle cx="76" cy="657" r="2" style="fill:#000" class="net_4"/>
+  <line x1="76" x2="76" y1="657" y2="667" class="net_4"/>
+  <line x1="286" x2="276" y1="417" y2="417" class="net_10"/>
+  <line x1="276" x2="276" y1="417" y2="452" class="net_10"/>
+  <line x1="52" x2="26" y1="402" y2="402" class="net_8"/>
+  <line x1="26" x2="26" y1="402" y2="452" class="net_8"/>
+  <line x1="26" x2="36" y1="452" y2="452" class="net_8"/>
+  <line x1="76" x2="66" y1="757" y2="757" class="net_12"/>
+  <line x1="66" x2="66" y1="757" y2="812" class="net_12"/>
+  <line x1="66" x2="166" y1="812" y2="812" class="net_12"/>
+  <line x1="162" x2="86" y1="132" y2="132" class="net_5"/>
+  <line x1="86" x2="86" y1="132" y2="242" class="net_5"/>
+  <line x1="86" x2="106" y1="242" y2="242" class="net_5"/>
+  <line x1="52" x2="42" y1="187" y2="187" class="net_5"/>
+  <line x1="42" x2="42" y1="187" y2="242" class="net_5"/>
+  <line x1="42" x2="86" y1="242" y2="242" class="net_5"/>
+  <line x1="86" x2="86" y1="242" y2="242" class="net_5"/>
+  <circle cx="86" cy="242" r="2" style="fill:#000" class="net_5"/>
+  <line x1="86" x2="106" y1="242" y2="242" class="net_5"/>
+  <line x1="96" x2="86" y1="457" y2="457" class="net_9"/>
+  <line x1="86" x2="86" y1="457" y2="512" class="net_9"/>
+  <line x1="86" x2="186" y1="512" y2="512" class="net_9"/>
+</svg>

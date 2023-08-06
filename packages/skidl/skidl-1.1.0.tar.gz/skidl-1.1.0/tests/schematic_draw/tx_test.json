@@ -1,0 +1,105 @@
+{
+  "modules": {
+    "": {
+      "cells": {
+        "Q_": {
+          "attributes": {
+            "value": "Q_PNP_CBE"
+          },
+          "connections": {},
+          "port_directions": {
+            "1": "input",
+            "2": "input",
+            "3": "input"
+          },
+          "type": "Q_PNP_CBE_Q__1_"
+        },
+        "Q_H": {
+          "attributes": {
+            "value": "Q_PNP_CBE"
+          },
+          "connections": {},
+          "port_directions": {
+            "1": "input",
+            "2": "input",
+            "3": "input"
+          },
+          "type": "Q_PNP_CBE_Q_H_1_H"
+        },
+        "Q_HR": {
+          "attributes": {
+            "value": "Q_PNP_CBE"
+          },
+          "connections": {},
+          "port_directions": {
+            "1": "input",
+            "2": "input",
+            "3": "input"
+          },
+          "type": "Q_PNP_CBE_Q_HR_1_HR"
+        },
+        "Q_L": {
+          "attributes": {
+            "value": "Q_PNP_CBE"
+          },
+          "connections": {},
+          "port_directions": {
+            "1": "input",
+            "2": "input",
+            "3": "input"
+          },
+          "type": "Q_PNP_CBE_Q_L_1_L"
+        },
+        "Q_LV": {
+          "attributes": {
+            "value": "Q_PNP_CBE"
+          },
+          "connections": {},
+          "port_directions": {
+            "1": "input",
+            "2": "input",
+            "3": "input"
+          },
+          "type": "Q_PNP_CBE_Q_LV_1_LV"
+        },
+        "Q_R": {
+          "attributes": {
+            "value": "Q_PNP_CBE"
+          },
+          "connections": {},
+          "port_directions": {
+            "1": "input",
+            "2": "input",
+            "3": "input"
+          },
+          "type": "Q_PNP_CBE_Q_R_1_R"
+        },
+        "Q_V": {
+          "attributes": {
+            "value": "Q_PNP_CBE"
+          },
+          "connections": {},
+          "port_directions": {
+            "1": "input",
+            "2": "input",
+            "3": "input"
+          },
+          "type": "Q_PNP_CBE_Q_V_1_V"
+        },
+        "Q_VL": {
+          "attributes": {
+            "value": "Q_PNP_CBE"
+          },
+          "connections": {},
+          "port_directions": {
+            "1": "input",
+            "2": "input",
+            "3": "input"
+          },
+          "type": "Q_PNP_CBE_Q_VL_1_VL"
+        }
+      },
+      "ports": {}
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "modules": {
+    "": {
+      "cells": {
+        "M1": {
+          "attributes": {
+            "value": "MPMOS"
+          },
+          "connections": {
+            "1": [
+              2
+            ],
+            "2": [
+              2
+            ],
+            "3": [
+              1
+            ]
+          },
+          "port_directions": {
+            "1": "input",
+            "2": "input",
+            "3": "input",
+            "4": "input"
+          },
+          "type": "MPMOS_1_HL"
+        },
+        "M2": {
+          "attributes": {
+            "value": "MPMOS"
+          },
+          "connections": {
+            "3": [
+              1
+            ]
+          },
+          "port_directions": {
+            "1": "input",
+            "2": "input",
+            "3": "input",
+            "4": "input"
+          },
+          "type": "MPMOS_1_"
+        }
+      },
+      "ports": {}
+    }
+  }
+}

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="198" height="351">
+  <style>svg {
+    stroke: #000;
+    fill: none;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  text {
+    fill: #000;
+    stroke: none;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .splitjoinBody {
+    fill: #000;
+  }
+  .symbol {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  .detail {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    fill: #000;
+  }</style>
+  <g s:type="GND_1_" s:width="30.0" s:height="30.0" transform="translate(42,12)" id="cell_#PWR1">
+    <rect x="-15.0" y="0.0" width="30.0" height="30.0" style="stroke-width:3; stroke:#f00" class="cell_#PWR1 symbol"/>
+    <s:alias val="GND_1_"/>
+    <path d="M 0.0 0.0 L 0.0 15.0 L 15.0 15.0 L 0.0 30.0 L -15.0 15.0 L 0.0 15.0 " style="stroke-width:1; fill:" class="cell_#PWR1 symbol"/>
+    <g s:x="0.0" s:y="0.0" s:pid="1" s:position="top"/>
+    <text font-size="15.0" class="text" text-anchor="middle" x="0.0" y="45.0" transform="rotate(0 0.0 45.0) translate(0.0 7.5)" s:attribute="value">GND</text>
+  </g>
+  <g s:type="VCC_1_" s:width="18.0" s:height="30.0" transform="translate(12,63)" id="cell_#PWR2">
+    <rect x="-9.0" y="-30.0" width="18.0" height="30.0" style="stroke-width:3; stroke:#f00" class="cell_#PWR2 symbol"/>
+    <s:alias val="VCC_1_"/>
+    <path d="M -9.0 -15.0 L 0.0 -30.0 " style="stroke-width:1; fill:" class="cell_#PWR2 symbol"/>
+    <path d="M 0.0 0.0 L 0.0 -30.0 " style="stroke-width:1; fill:" class="cell_#PWR2 symbol"/>
+    <path d="M 0.0 -30.0 L 9.0 -15.0 " style="stroke-width:1; fill:" class="cell_#PWR2 symbol"/>
+    <g s:x="0.0" s:y="0.0" s:pid="1" s:position="bottom"/>
+    <text font-size="15.0" class="text" text-anchor="middle" x="0.0" y="-45.0" transform="rotate(0 0.0 -45.0) translate(0.0 7.5)" s:attribute="value">VCC</text>
+  </g>
+  <g s:type="Q_PNP_CBE_1_" s:width="108.3" s:height="120.0" transform="translate(72,219)" id="cell_Q1">
+    <rect x="-60.0" y="-60.0" width="108.3" height="120.0" style="stroke-width:3; stroke:#f00" class="cell_Q1 symbol"/>
+    <s:alias val="Q_PNP_CBE_1_"/>
+    <circle cx="15.0" cy="0.0" r="33.3" style="stroke-width:3.0; fill:" class="cell_Q1 symbol"/>
+    <path d="M 7.5 -7.5 L 30.0 -30.0 " style="stroke-width:1; fill:" class="cell_Q1 symbol"/>
+    <path d="M 7.5 7.5 L 30.0 30.0 L 30.0 30.0 " style="stroke-width:1; fill:" class="cell_Q1 symbol"/>
+    <path d="M 7.5 -22.5 L 7.5 22.5 L 7.5 22.5 " style="stroke-width:6.0; fill:" class="cell_Q1 symbol"/>
+    <path d="M 27.0 21.0 L 21.0 27.0 L 15.0 15.0 L 27.0 21.0 L 27.0 21.0 " style="stroke-width:1; fill:#000" class="cell_Q1 symbol"/>
+    <g s:x="30.0" s:y="-60.0" s:pid="1" s:position="top">
+      <path d="M 30.0 -60.0 L 30.0 -30.0" class="cell_Q1 connec"/>
+      <text font-size="15.0" class="text" text-anchor="start" x="30.0" y="-30.0" transform="rotate(-90 30.0 -30.0) translate(6.0 -1.5)"> 1 </text>
+    </g>
+    <g s:x="-60.0" s:y="0.0" s:pid="2" s:position="left">
+      <path d="M -60.0 0.0 L 7.5 0.0" class="cell_Q1 connec"/>
+      <text font-size="15.0" class="text" text-anchor="end" x="7.5" y="0.0" transform="rotate(0 7.5 0.0) translate(-6.0 -1.5)"> 2 </text>
+    </g>
+    <g s:x="30.0" s:y="60.0" s:pid="3" s:position="bottom">
+      <path d="M 30.0 60.0 L 30.0 30.0" class="cell_Q1 connec"/>
+      <text font-size="15.0" class="text" text-anchor="end" x="30.0" y="30.0" transform="rotate(-90 30.0 30.0) translate(-6.0 -1.5)"> 3 </text>
+    </g>
+    <text font-size="15.0" class="text" text-anchor="start" x="60.0" y="-15.0" transform="rotate(0 60.0 -15.0) translate(0.0 7.5)" s:attribute="ref">Q1</text>
+    <text font-size="15.0" class="text" text-anchor="start" x="60.0" y="15.0" transform="rotate(0 60.0 15.0) translate(0.0 7.5)" s:attribute="value">Q_PNP_CBE</text>
+  </g>
+  <g s:type="R_1_" s:width="24.0" s:height="90.0" transform="translate(162,57)" id="cell_R1">
+    <rect x="-12.0" y="-45.0" width="24.0" height="90.0" style="stroke-width:3; stroke:#f00" class="cell_R1 symbol"/>
+    <s:alias val="R_1_"/>
+    <rect x="-12.0" y="-30.0" width="24.0" height="60.0" style="stroke-width:3.0; fill:" class="cell_R1 symbol"/>
+    <g s:x="0.0" s:y="-45.0" s:pid="1" s:position="top">
+      <path d="M 0.0 -45.0 L 0.0 -30.0" class="cell_R1 connec"/>
+    </g>
+    <g s:x="0.0" s:y="45.0" s:pid="2" s:position="bottom">
+      <path d="M 0.0 45.0 L 0.0 30.0" class="cell_R1 connec"/>
+    </g>
+    <text font-size="15.0" class="text" text-anchor="middle" x="24.0" y="0.0" transform="rotate(-90 24.0 0.0) translate(0.0 7.5)" s:attribute="ref">R1</text>
+    <text font-size="15.0" class="text" text-anchor="middle" x="0.0" y="0.0" transform="rotate(-90 0.0 0.0) translate(0.0 7.5)" s:attribute="value">R</text>
+  </g>
+  <g s:type="inputExt" s:width="30" s:height="20" transform="translate(84,22)" id="cell___NOCONNECT">
+    <text x="15" y="-4" class="cell___NOCONNECT" s:attribute="ref">__NOCONNECT</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 V20 H15 L30,10 15,0 Z" class="cell___NOCONNECT"/>
+    <g s:x="30" s:y="10" s:pid="Y" s:position="right"/>
+  </g>
+</svg>

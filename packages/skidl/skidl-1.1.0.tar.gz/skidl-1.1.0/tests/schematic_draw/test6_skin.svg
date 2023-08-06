@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg"     xmlns:xlink="http://www.w3.org/1999/xlink"     xmlns:s="https://github.com/nturley/netlistsvg">  <s:properties    constants="false"    splitsAndJoins="false"    genericsLaterals="true">    <s:layoutEngine        org.eclipse.elk.layered.spacing.nodeNodeBetweenLayers="5"        org.eclipse.elk.layered.compaction.postCompaction.strategy="4"        org.eclipse.elk.spacing.nodeNode= "50"        org.eclipse.elk.direction="DOWN"/>  </s:properties><style>svg {  stroke: #000;  fill: none;  stroke-linejoin: round;  stroke-linecap: round;}text {  fill: #000;  stroke: none;  font-size: 10px;  font-weight: bold;  font-family: "Courier New", monospace;}.skidl_text {  fill: #999;  stroke: none;  font-weight: bold;  font-family: consolas, "Courier New", monospace;}.pin_num_text {    fill: #840000;}.pin_name_text {    fill: #008484;}.net_name_text {    font-style: italic;    fill: #840084;}.part_text {    fill: #840000;}.part_ref_text {    fill: #008484;}.part_name_text {    fill: #008484;}.pen_fill {    fill: #840000;}.background_fill {    fill: #FFFFC2}.nodelabel {  text-anchor: middle;}.inputPortLabel {  text-anchor: end;}.splitjoinBody {  fill: #000;}.symbol {  stroke-linejoin: round;  stroke-linecap: round;  stroke: #840000;}.detail {  stroke-linejoin: round;  stroke-linecap: round;  fill: #000;}</style><!-- signal --><g s:type="inputExt" s:width="30" s:height="20" transform="translate(0,0)">  <text x="-2" y="12" text-anchor='end' class="$cell_id pin_name_text" s:attribute="ref">input</text>  <s:alias val="$_inputExt_"/>  <path d="M0,0 V20 H15 L30,10 15,0 Z" class="$cell_id symbol"/>  <g s:x="30" s:y="10" s:pid="Y" s:position="right"/></g><g s:type="outputExt" s:width="30" s:height="20" transform="translate(0,0)">  <text x="32" y="12" class="$cell_id pin_name_text" s:attribute="ref">output</text>  <s:alias val="$_outputExt_"/>  <path d="M30,0 V20 H15 L0,10 15,0 Z" class="$cell_id symbol"/>  <g s:x="0" s:y="10" s:pid="A" s:position="left"/></g><!-- signal --><!-- builtin --><g s:type="generic" s:width="30" s:height="40" transform="translate(0,0)">  <text x="15" y="-4" class="nodelabel $cell_id" s:attribute="ref">generic</text>  <rect width="30" height="40" x="0" y="0" s:generic="body" class="$cell_id"/>  <g transform="translate(30,10)"     s:x="30" s:y="10" s:pid="out0" s:position="right">    <text x="5" y="-4" class="$cell_id">out0</text>  </g>  <g transform="translate(30,30)"     s:x="30" s:y="30" s:pid="out1" s:position="right">    <text x="5" y="-4" class="$cell_id">out1</text>  </g>  <g transform="translate(0,10)"     s:x="0" s:y="10" s:pid="in0" s:position="left">      <text x="-3" y="-4" class="inputPortLabel $cell_id">in0</text>  </g>  <g transform="translate(0,30)"     s:x="0" s:y="30" s:pid="in1" s:position="left">    <text x="-3" y="-4" class="inputPortLabel $cell_id">in1</text>  </g></g><!-- builtin -->
+<g s:type="GND_1_" s:width="30.0" s:height="30.0"
+ transform="translate(15.0,-0.0)">
+<s:alias val="GND_1_"/>
+<path d="M 0.0 0.0 L 0.0 15.0 L 15.0 15.0 L 0.0 30.0 L -15.0 15.0 L 0.0 15.0" style="stroke-width:1.0" class="$cell_id symbol " />
+<text class='part_name_text' text-anchor='middle' x='0.0' y='45.0' transform='rotate(0 0.0 45.0) translate(0.0 7.5)' style='font-size:15.0px' s:attribute="value" > X </text>
+<g s:x="0.0" s:y="-12.0" s:pid="1" s:position="top"/>
+</g>
+<g s:type="VCC_1_" s:width="18.0" s:height="30.0"
+ transform="translate(9.0,30.0)">
+<s:alias val="VCC_1_"/>
+<path d="M -9.0 -15.0 L 0.0 -30.0" style="stroke-width:1.0" class="$cell_id symbol " />
+<path d="M 0.0 0.0 L 0.0 -30.0" style="stroke-width:1.0" class="$cell_id symbol " />
+<path d="M 0.0 -30.0 L 9.0 -15.0" style="stroke-width:1.0" class="$cell_id symbol " />
+<text class='part_name_text' text-anchor='middle' x='0.0' y='-45.0' transform='rotate(0 0.0 -45.0) translate(0.0 7.5)' style='font-size:15.0px' s:attribute="value" > X </text>
+<g s:x="0.0" s:y="12.0" s:pid="1" s:position="bottom"/>
+</g>
+<g s:type="R_1_" s:width="24.0" s:height="114.0"
+ transform="translate(12.0,57.0)">
+<s:alias val="R_1_"/>
+<rect x="-12.0" y="-30.0" width="24.0" height="60.0" style="stroke-width:3.0" class="$cell_id symbol " />
+<path d="M 0.0 -57.0 L 0.0 -30.0" style="stroke-width:1.0" class="$cell_id symbol"/>
+<path d="M 0.0 57.0 L 0.0 30.0" style="stroke-width:1.0" class="$cell_id symbol"/>
+<text class='part_ref_text' text-anchor='middle' x='24.0' y='0.0' transform='rotate(-90 24.0 0.0) translate(0.0 7.5)' style='font-size:15.0px' s:attribute="ref" > X </text>
+<text class='part_name_text' text-anchor='middle' x='0.0' y='0.0' transform='rotate(-90 0.0 0.0) translate(0.0 7.5)' style='font-size:15.0px' s:attribute="value" > X </text>
+<g s:x="0.0" s:y="-57.0" s:pid="1" s:position="top"/>
+<g s:x="0.0" s:y="57.0" s:pid="2" s:position="bottom"/>
+</g>
+<g s:type="R_1_l" s:width="114.0" s:height="24.0"
+ transform="translate(57.0,12.0)">
+<s:alias val="R_1_l"/>
+<rect x="-30.0" y="-12.0" width="60.0" height="24.0" style="stroke-width:3.0" class="$cell_id symbol " />
+<path d="M -57.0 0.0 L -30.0 0.0" style="stroke-width:1.0" class="$cell_id symbol"/>
+<path d="M 57.0 0.0 L 30.0 0.0" style="stroke-width:1.0" class="$cell_id symbol"/>
+<text class='part_ref_text' text-anchor='middle' x='0.0' y='-24.0' transform='rotate(0 0.0 -24.0) translate(7.5 0.0)' style='font-size:15.0px' s:attribute="ref" > X </text>
+<text class='part_name_text' text-anchor='middle' x='0.0' y='0.0' transform='rotate(0 0.0 0.0) translate(7.5 0.0)' style='font-size:15.0px' s:attribute="value" > X </text>
+<g s:x="-57.0" s:y="0.0" s:pid="1" s:position="left"/>
+<g s:x="57.0" s:y="0.0" s:pid="2" s:position="right"/>
+</g>
+<g s:type="R_1_R" s:width="114.0" s:height="24.0"
+ transform="translate(57.0,12.0)">
+<s:alias val="R_1_R"/>
+<rect x="-30.0" y="-12.0" width="60.0" height="24.0" style="stroke-width:3.0" class="$cell_id symbol " />
+<path d="M 57.0 0.0 L 30.0 0.0" style="stroke-width:1.0" class="$cell_id symbol"/>
+<path d="M -57.0 0.0 L -30.0 0.0" style="stroke-width:1.0" class="$cell_id symbol"/>
+<text class='part_ref_text' text-anchor='middle' x='0.0' y='24.0' transform='rotate(0 0.0 24.0) translate(-7.5 0.0)' style='font-size:15.0px' s:attribute="ref" > X </text>
+<text class='part_name_text' text-anchor='middle' x='0.0' y='0.0' transform='rotate(0 0.0 0.0) translate(-7.5 0.0)' style='font-size:15.0px' s:attribute="value" > X </text>
+<g s:x="57.0" s:y="0.0" s:pid="1" s:position="right"/>
+<g s:x="-57.0" s:y="0.0" s:pid="2" s:position="left"/>
+</g>
+</svg>

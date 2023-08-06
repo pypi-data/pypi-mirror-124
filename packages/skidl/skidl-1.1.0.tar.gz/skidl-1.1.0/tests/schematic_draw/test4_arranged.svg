@@ -1,0 +1,2954 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:s="https://github.com/nturley/netlistsvg"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="296.6"
+   height="752.2"
+   version="1.1"
+   id="svg288"
+   sodipodi:docname="test4.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata294">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs292" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="815"
+     inkscape:window-height="460"
+     id="namedview290"
+     showgrid="false"
+     inkscape:snap-global="true"
+     inkscape:zoom="1.2549853"
+     inkscape:cx="-612.46688"
+     inkscape:cy="39.937544"
+     inkscape:window-x="553"
+     inkscape:window-y="1011"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg288" />
+  <style
+     id="style2">svg {
+    stroke: #000;
+    fill: none;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  text {
+    fill: #000;
+    stroke: none;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace;
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .splitjoinBody {
+    fill: #000;
+  }
+  .symbol {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  .detail {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    fill: #000;
+  }</style>
+  <g
+     s:type="GND_1_"
+     s:width="30.0"
+     s:height="30.0"
+     transform="translate(99.6,690.2)"
+     id="cell_#PWR1">
+    <rect
+       x="-15.0"
+       y="0.0"
+       width="30.0"
+       height="30.0"
+       style="stroke-width:3; stroke:#f00"
+       class="cell_#PWR1 symbol"
+       id="rect4" />
+    <s:alias
+       val="GND_1_" />
+    <path
+       d="M 0.0 0.0 L 0.0 15.0 L 15.0 15.0 L 0.0 30.0 L -15.0 15.0 L 0.0 15.0 "
+       style="stroke-width:1; fill:"
+       class="cell_#PWR1 symbol"
+       id="path6" />
+    <g
+       s:x="0.0"
+       s:y="0.0"
+       s:pid="1"
+       s:position="top"
+       id="g8" />
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="middle"
+       x="0.0"
+       y="45.0"
+       transform="rotate(0 0.0 45.0) translate(0.0 7.5)"
+       s:attribute="value"
+       id="text10">GND</text>
+  </g>
+  <g
+     s:type="VCC_1_"
+     s:width="18.0"
+     s:height="30.0"
+     transform="translate(252.6,157)"
+     id="cell_#PWR2">
+    <rect
+       x="-9.0"
+       y="-30.0"
+       width="18.0"
+       height="30.0"
+       style="stroke-width:3; stroke:#f00"
+       class="cell_#PWR2 symbol"
+       id="rect13" />
+    <s:alias
+       val="VCC_1_" />
+    <path
+       d="M -9.0 -15.0 L 0.0 -30.0 "
+       style="stroke-width:1; fill:"
+       class="cell_#PWR2 symbol"
+       id="path15" />
+    <path
+       d="M 0.0 0.0 L 0.0 -30.0 "
+       style="stroke-width:1; fill:"
+       class="cell_#PWR2 symbol"
+       id="path17" />
+    <path
+       d="M 0.0 -30.0 L 9.0 -15.0 "
+       style="stroke-width:1; fill:"
+       class="cell_#PWR2 symbol"
+       id="path19" />
+    <g
+       s:x="0.0"
+       s:y="0.0"
+       s:pid="1"
+       s:position="bottom"
+       id="g21" />
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="middle"
+       x="0.0"
+       y="-45.0"
+       transform="rotate(0 0.0 -45.0) translate(0.0 7.5)"
+       s:attribute="value"
+       id="text23">VCC</text>
+  </g>
+  <g
+     s:type="Q_PNP_CBE_1_V"
+     s:width="66.6"
+     s:height="66.6"
+     transform="translate(156,227)"
+     id="cell_Q1">
+    <rect
+       x="-18.299999999999997"
+       y="-33.3"
+       width="66.6"
+       height="66.6"
+       style="stroke-width:3; stroke:#f00"
+       class="cell_Q1 symbol"
+       id="rect26" />
+    <s:alias
+       val="Q_PNP_CBE_1_V" />
+    <circle
+       cx="15.0"
+       cy="0.0"
+       r="33.3"
+       style="stroke-width:3.0; fill:"
+       class="cell_Q1 symbol"
+       id="circle28" />
+    <path
+       d="M 7.5 7.5 L 30.0 30.0 "
+       style="stroke-width:1; fill:"
+       class="cell_Q1 symbol"
+       id="path30" />
+    <path
+       d="M 7.5 -7.5 L 30.0 -30.0 L 30.0 -30.0 "
+       style="stroke-width:1; fill:"
+       class="cell_Q1 symbol"
+       id="path32" />
+    <path
+       d="M 7.5 22.5 L 7.5 -22.5 L 7.5 -22.5 "
+       style="stroke-width:6.0; fill:"
+       class="cell_Q1 symbol"
+       id="path34" />
+    <path
+       d="M 27.0 -21.0 L 21.0 -27.0 L 15.0 -15.0 L 27.0 -21.0 L 27.0 -21.0 "
+       style="stroke-width:1; fill:#000"
+       class="cell_Q1 symbol"
+       id="path36" />
+    <g
+       s:x="30.0"
+       s:y="60.0"
+       s:pid="1"
+       s:position="bottom"
+       id="g42">
+      <path
+         d="M 30.0 60.0 L 30.0 30.0"
+         class="cell_Q1 connec"
+         id="path38" />
+      <text
+         font-size="15.0"
+         class="text"
+         text-anchor="end"
+         x="30.0"
+         y="30.0"
+         transform="rotate(-90 30.0 30.0) translate(-6.0 -1.5)"
+         id="text40"> 1 </text>
+    </g>
+    <g
+       s:x="-60.0"
+       s:y="0.0"
+       s:pid="2"
+       s:position="left"
+       id="g48">
+      <path
+         d="M -60.0 0.0 L 7.5 0.0"
+         class="cell_Q1 connec"
+         id="path44" />
+      <text
+         font-size="15.0"
+         class="text"
+         text-anchor="end"
+         x="7.5"
+         y="0.0"
+         transform="rotate(0 7.5 0.0) translate(-6.0 -1.5)"
+         id="text46"> 2 </text>
+    </g>
+    <g
+       s:x="30.0"
+       s:y="-60.0"
+       s:pid="3"
+       s:position="top"
+       id="g54">
+      <path
+         d="M 30.0 -60.0 L 30.0 -30.0"
+         class="cell_Q1 connec"
+         id="path50" />
+      <text
+         font-size="15.0"
+         class="text"
+         text-anchor="start"
+         x="30.0"
+         y="-30.0"
+         transform="rotate(-90 30.0 -30.0) translate(6.0 -1.5)"
+         id="text52"> 3 </text>
+    </g>
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="start"
+       x="60.0"
+       y="15.0"
+       transform="rotate(0 60.0 15.0) translate(0.0 -7.5)"
+       s:attribute="ref"
+       id="text56">Q1</text>
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="start"
+       x="60.0"
+       y="-15.0"
+       transform="rotate(0 60.0 -15.0) translate(0.0 -7.5)"
+       s:attribute="value"
+       id="text58">Q_PNP_CBE</text>
+  </g>
+  <g
+     s:type="Q_PNP_CBE_1_V"
+     s:width="66.6"
+     s:height="66.6"
+     transform="translate(202.6,483.6)"
+     id="cell_Q2">
+    <rect
+       x="-18.299999999999997"
+       y="-33.3"
+       width="66.6"
+       height="66.6"
+       style="stroke-width:3; stroke:#f00"
+       class="cell_Q2 symbol"
+       id="rect61" />
+    <s:alias
+       val="Q_PNP_CBE_1_V" />
+    <circle
+       cx="15.0"
+       cy="0.0"
+       r="33.3"
+       style="stroke-width:3.0; fill:"
+       class="cell_Q2 symbol"
+       id="circle63" />
+    <path
+       d="M 7.5 7.5 L 30.0 30.0 "
+       style="stroke-width:1; fill:"
+       class="cell_Q2 symbol"
+       id="path65" />
+    <path
+       d="M 7.5 -7.5 L 30.0 -30.0 L 30.0 -30.0 "
+       style="stroke-width:1; fill:"
+       class="cell_Q2 symbol"
+       id="path67" />
+    <path
+       d="M 7.5 22.5 L 7.5 -22.5 L 7.5 -22.5 "
+       style="stroke-width:6.0; fill:"
+       class="cell_Q2 symbol"
+       id="path69" />
+    <path
+       d="M 27.0 -21.0 L 21.0 -27.0 L 15.0 -15.0 L 27.0 -21.0 L 27.0 -21.0 "
+       style="stroke-width:1; fill:#000"
+       class="cell_Q2 symbol"
+       id="path71" />
+    <g
+       s:x="30.0"
+       s:y="60.0"
+       s:pid="1"
+       s:position="bottom"
+       id="g77">
+      <path
+         d="M 30.0 60.0 L 30.0 30.0"
+         class="cell_Q2 connec"
+         id="path73" />
+      <text
+         font-size="15.0"
+         class="text"
+         text-anchor="end"
+         x="30.0"
+         y="30.0"
+         transform="rotate(-90 30.0 30.0) translate(-6.0 -1.5)"
+         id="text75"> 1 </text>
+    </g>
+    <g
+       s:x="-60.0"
+       s:y="0.0"
+       s:pid="2"
+       s:position="left"
+       id="g83">
+      <path
+         d="M -60.0 0.0 L 7.5 0.0"
+         class="cell_Q2 connec"
+         id="path79" />
+      <text
+         font-size="15.0"
+         class="text"
+         text-anchor="end"
+         x="7.5"
+         y="0.0"
+         transform="rotate(0 7.5 0.0) translate(-6.0 -1.5)"
+         id="text81"> 2 </text>
+    </g>
+    <g
+       s:x="30.0"
+       s:y="-60.0"
+       s:pid="3"
+       s:position="top"
+       id="g89">
+      <path
+         d="M 30.0 -60.0 L 30.0 -30.0"
+         class="cell_Q2 connec"
+         id="path85" />
+      <text
+         font-size="15.0"
+         class="text"
+         text-anchor="start"
+         x="30.0"
+         y="-30.0"
+         transform="rotate(-90 30.0 -30.0) translate(6.0 -1.5)"
+         id="text87"> 3 </text>
+    </g>
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="start"
+       x="60.0"
+       y="15.0"
+       transform="rotate(0 60.0 15.0) translate(0.0 -7.5)"
+       s:attribute="ref"
+       id="text91">Q2</text>
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="start"
+       x="60.0"
+       y="-15.0"
+       transform="rotate(0 60.0 -15.0) translate(0.0 -7.5)"
+       s:attribute="value"
+       id="text93">Q_PNP_CBE</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="60.0"
+     transform="translate(52,156.99999999999997)"
+     id="cell_R1">
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3; stroke:#f00"
+       class="cell_R1 symbol"
+       id="rect96" />
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3.0; fill:"
+       class="cell_R1 symbol"
+       id="rect98" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g102">
+      <path
+         d="M 0.0 -45.0 L 0.0 -30.0"
+         class="cell_R1 connec"
+         id="path100" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g106">
+      <path
+         d="M 0.0 45.0 L 0.0 30.0"
+         class="cell_R1 connec"
+         id="path104" />
+    </g>
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="middle"
+       x="24.0"
+       y="0.0"
+       transform="rotate(-90 24.0 0.0) translate(0.0 7.5)"
+       s:attribute="ref"
+       id="text108">R1</text>
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="middle"
+       x="0.0"
+       y="0.0"
+       transform="rotate(-90 0.0 0.0) translate(0.0 7.5)"
+       s:attribute="value"
+       id="text110">10k</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="60.0"
+     transform="translate(186,358.6)"
+     id="cell_R2">
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3; stroke:#f00"
+       class="cell_R2 symbol"
+       id="rect113" />
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3.0; fill:"
+       class="cell_R2 symbol"
+       id="rect115" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g119">
+      <path
+         d="M 0.0 -45.0 L 0.0 -30.0"
+         class="cell_R2 connec"
+         id="path117" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g123">
+      <path
+         d="M 0.0 45.0 L 0.0 30.0"
+         class="cell_R2 connec"
+         id="path121" />
+    </g>
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="middle"
+       x="24.0"
+       y="0.0"
+       transform="rotate(-90 24.0 0.0) translate(0.0 7.5)"
+       s:attribute="ref"
+       id="text125">R2</text>
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="middle"
+       x="0.0"
+       y="0.0"
+       transform="rotate(-90 0.0 0.0) translate(0.0 7.5)"
+       s:attribute="value"
+       id="text127">10k</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="60.0"
+     transform="translate(232.6,635.2)"
+     id="cell_R3">
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3; stroke:#f00"
+       class="cell_R3 symbol"
+       id="rect130" />
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3.0; fill:"
+       class="cell_R3 symbol"
+       id="rect132" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g136">
+      <path
+         d="M 0.0 -45.0 L 0.0 -30.0"
+         class="cell_R3 connec"
+         id="path134" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g140">
+      <path
+         d="M 0.0 45.0 L 0.0 30.0"
+         class="cell_R3 connec"
+         id="path138" />
+    </g>
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="middle"
+       x="24.0"
+       y="0.0"
+       transform="rotate(-90 24.0 0.0) translate(0.0 7.5)"
+       s:attribute="ref"
+       id="text142">R3</text>
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="middle"
+       x="0.0"
+       y="0.0"
+       transform="rotate(-90 0.0 0.0) translate(0.0 7.5)"
+       s:attribute="value"
+       id="text144">10k</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="60.0"
+     transform="translate(198.6,87)"
+     id="cell_R4">
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3; stroke:#f00"
+       class="cell_R4 symbol"
+       id="rect147" />
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3.0; fill:"
+       class="cell_R4 symbol"
+       id="rect149" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g153">
+      <path
+         d="M 0.0 -45.0 L 0.0 -30.0"
+         class="cell_R4 connec"
+         id="path151" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g157">
+      <path
+         d="M 0.0 45.0 L 0.0 30.0"
+         class="cell_R4 connec"
+         id="path155" />
+    </g>
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="middle"
+       x="24.0"
+       y="0.0"
+       transform="rotate(-90 24.0 0.0) translate(0.0 7.5)"
+       s:attribute="ref"
+       id="text159">R4</text>
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="middle"
+       x="0.0"
+       y="0.0"
+       transform="rotate(-90 0.0 0.0) translate(0.0 7.5)"
+       s:attribute="value"
+       id="text161">10k</text>
+  </g>
+  <g
+     s:type="R_1_"
+     s:width="24.0"
+     s:height="60.0"
+     transform="translate(98.6,610.2)"
+     id="cell_R5">
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3; stroke:#f00"
+       class="cell_R5 symbol"
+       id="rect164" />
+    <s:alias
+       val="R_1_" />
+    <rect
+       x="-12.0"
+       y="-30.0"
+       width="24.0"
+       height="60.0"
+       style="stroke-width:3.0; fill:"
+       class="cell_R5 symbol"
+       id="rect166" />
+    <g
+       s:x="0.0"
+       s:y="-45.0"
+       s:pid="1"
+       s:position="top"
+       id="g170">
+      <path
+         d="M 0.0 -45.0 L 0.0 -30.0"
+         class="cell_R5 connec"
+         id="path168" />
+    </g>
+    <g
+       s:x="0.0"
+       s:y="45.0"
+       s:pid="2"
+       s:position="bottom"
+       id="g174">
+      <path
+         d="M 0.0 45.0 L 0.0 30.0"
+         class="cell_R5 connec"
+         id="path172" />
+    </g>
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="middle"
+       x="24.0"
+       y="0.0"
+       transform="rotate(-90 24.0 0.0) translate(0.0 7.5)"
+       s:attribute="ref"
+       id="text176">R5</text>
+    <text
+       font-size="15.0"
+       class="text"
+       text-anchor="middle"
+       x="0.0"
+       y="0.0"
+       transform="rotate(-90 0.0 0.0) translate(0.0 7.5)"
+       s:attribute="value"
+       id="text178">10k</text>
+  </g>
+  <text
+     style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;fill:#000000;stroke:none"
+     id="text181"
+     s:attribute="ref"
+     class="cell_A"
+     y="88"
+     x="27">A</text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path183"
+     class="cell_A"
+     d="m 12,92 v 20 H 27 L 42,102 27,92 Z" />
+  <g
+     id="g185"
+     s:position="right"
+     s:pid="Y"
+     s:y="10"
+     s:x="30"
+     transform="translate(12,92)" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m -851.2818,-33.420871 v 20 h 15 l 15,-10 -15,-10 z"
+     class="cell_A"
+     id="path1273" />
+  <g
+     s:type="outputExt"
+     s:width="30"
+     s:height="20"
+     transform="translate(242.6,565.2)"
+     id="cell_A_AND_B">
+    <text
+       x="15"
+       y="-4"
+       class="cell_A_AND_B"
+       s:attribute="ref"
+       id="text188">A_AND_B</text>
+    <s:alias
+       val="$_outputExt_" />
+    <path
+       d="M30,0 V20 H15 L0,10 15,0 Z"
+       class="cell_A_AND_B"
+       id="path190" />
+    <g
+       s:x="0"
+       s:y="10"
+       s:pid="A"
+       s:position="left"
+       id="g192" />
+  </g>
+  <g
+     s:type="inputExt"
+     s:width="30"
+     s:height="20"
+     transform="translate(158.6,22)"
+     id="cell_B">
+    <text
+       x="15"
+       y="-4"
+       class="cell_B"
+       s:attribute="ref"
+       id="text195">B</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       d="M0,0 V20 H15 L30,10 15,0 Z"
+       class="cell_B"
+       id="path197" />
+    <g
+       s:x="30"
+       s:y="10"
+       s:pid="Y"
+       s:position="right"
+       id="g199" />
+  </g>
+  <line
+     x1="232.6"
+     x2="89.6"
+     y1="680.2"
+     y2="680.2"
+     class="net_2"
+     id="line202" />
+  <line
+     x1="89.6"
+     x2="89.6"
+     y1="680.2"
+     y2="690.2"
+     class="net_2"
+     id="line204" />
+  <line
+     x1="89.6"
+     x2="99.6"
+     y1="690.2"
+     y2="690.2"
+     class="net_2"
+     id="line206" />
+  <line
+     x1="98.6"
+     x2="78.6"
+     y1="655.2"
+     y2="655.2"
+     class="net_2"
+     id="line208" />
+  <line
+     x1="78.6"
+     x2="78.6"
+     y1="655.2"
+     y2="690.2"
+     class="net_2"
+     id="line210" />
+  <line
+     x1="78.6"
+     x2="89.6"
+     y1="690.2"
+     y2="690.2"
+     class="net_2"
+     id="line212" />
+  <line
+     x1="89.6"
+     x2="89.6"
+     y1="690.2"
+     y2="690.2"
+     class="net_2"
+     id="line214" />
+  <circle
+     cx="89.6"
+     cy="690.2"
+     r="2"
+     style="fill:#000"
+     class="net_2"
+     id="circle216" />
+  <line
+     x1="89.6"
+     x2="99.6"
+     y1="690.2"
+     y2="690.2"
+     class="net_2"
+     id="line218" />
+  <line
+     x1="252.6"
+     x2="232.6"
+     y1="157"
+     y2="157"
+     class="net_3"
+     id="line220" />
+  <line
+     x1="232.6"
+     x2="232.6"
+     y1="157"
+     y2="157"
+     class="net_3"
+     id="line222" />
+  <line
+     x1="232.6"
+     x2="186"
+     y1="157"
+     y2="157"
+     class="net_3"
+     id="line224" />
+  <circle
+     cx="232.6"
+     cy="157"
+     r="2"
+     style="fill:#000"
+     class="net_3"
+     id="circle226" />
+  <line
+     x1="186"
+     x2="186"
+     y1="157"
+     y2="167"
+     class="net_3"
+     id="line228" />
+  <line
+     x1="252.6"
+     x2="232.6"
+     y1="157"
+     y2="157"
+     class="net_3"
+     id="line230" />
+  <line
+     x1="232.6"
+     x2="232.6"
+     y1="157"
+     y2="423.6"
+     class="net_3"
+     id="line232" />
+  <line
+     x1="42"
+     x2="52"
+     y1="101.99999999999997"
+     y2="101.99999999999997"
+     class="net_4"
+     id="line234" />
+  <line
+     x1="52"
+     x2="52"
+     y1="101.99999999999997"
+     y2="111.99999999999997"
+     class="net_4"
+     id="line236" />
+  <line
+     x1="186"
+     x2="186"
+     y1="287"
+     y2="313.6"
+     class="net_8"
+     id="line238" />
+  <line
+     x1="186"
+     x2="186"
+     y1="287"
+     y2="303.6"
+     class="net_8"
+     id="line240" />
+  <line
+     x1="186"
+     x2="98.6"
+     y1="303.6"
+     y2="303.6"
+     class="net_8"
+     id="line242" />
+  <circle
+     cx="186"
+     cy="303.6"
+     r="2"
+     style="fill:#000"
+     class="net_8"
+     id="circle244" />
+  <line
+     x1="98.6"
+     x2="98.6"
+     y1="303.6"
+     y2="565.2"
+     class="net_8"
+     id="line246" />
+  <line
+     x1="232.6"
+     x2="232.6"
+     y1="543.6"
+     y2="575.2"
+     class="net_6"
+     id="line248" />
+  <circle
+     cx="232.6"
+     cy="575.2"
+     r="2"
+     style="fill:#000"
+     class="net_6"
+     id="circle250" />
+  <line
+     x1="232.6"
+     x2="242.6"
+     y1="575.2"
+     y2="575.2"
+     class="net_6"
+     id="line252" />
+  <line
+     x1="242.6"
+     x2="232.6"
+     y1="575.2"
+     y2="575.2"
+     class="net_6"
+     id="line254" />
+  <circle
+     cx="232.6"
+     cy="575.2"
+     r="2"
+     style="fill:#000"
+     class="net_6"
+     id="circle256" />
+  <line
+     x1="232.6"
+     x2="232.6"
+     y1="575.2"
+     y2="590.2"
+     class="net_6"
+     id="line258" />
+  <line
+     x1="188.6"
+     x2="198.6"
+     y1="32"
+     y2="32"
+     class="net_5"
+     id="line260" />
+  <line
+     x1="198.6"
+     x2="198.6"
+     y1="32"
+     y2="42"
+     class="net_5"
+     id="line262" />
+  <line
+     x1="52"
+     x2="42"
+     y1="201.99999999999997"
+     y2="201.99999999999997"
+     class="net_7"
+     id="line264" />
+  <line
+     x1="42"
+     x2="42"
+     y1="201.99999999999997"
+     y2="226.99999999999997"
+     class="net_7"
+     id="line266" />
+  <line
+     x1="42"
+     x2="86"
+     y1="226.99999999999997"
+     y2="226.99999999999997"
+     class="net_7"
+     id="line268" />
+  <line
+     x1="86"
+     x2="86"
+     y1="226.99999999999997"
+     y2="226.99999999999997"
+     class="net_7"
+     id="line270" />
+  <circle
+     cx="86"
+     cy="226.99999999999997"
+     r="2"
+     style="fill:#000"
+     class="net_7"
+     id="circle272" />
+  <line
+     x1="86"
+     x2="96"
+     y1="226.99999999999997"
+     y2="227"
+     class="net_7"
+     id="line274" />
+  <line
+     x1="198.6"
+     x2="86"
+     y1="132"
+     y2="132"
+     class="net_7"
+     id="line276" />
+  <line
+     x1="86"
+     x2="86"
+     y1="132"
+     y2="226.99999999999997"
+     class="net_7"
+     id="line278" />
+  <line
+     x1="86"
+     x2="96"
+     y1="226.99999999999997"
+     y2="227"
+     class="net_7"
+     id="line280" />
+  <line
+     x1="186"
+     x2="132.6"
+     y1="403.6"
+     y2="403.6"
+     class="net_9"
+     id="line282" />
+  <line
+     x1="132.6"
+     x2="132.6"
+     y1="403.6"
+     y2="483.6"
+     class="net_9"
+     id="line284" />
+  <line
+     x1="132.6"
+     x2="142.6"
+     y1="483.6"
+     y2="483.6"
+     class="net_9"
+     id="line286" />
+  <g
+     id="g1109"
+     transform="translate(-782.84546,-48.994113)"
+     s:height="30.0"
+     s:width="30.0"
+     s:type="GND_1_">
+    <rect
+       id="rect1101"
+       class="cell_#PWR1 symbol"
+       style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       height="30"
+       width="30"
+       y="0"
+       x="-15" />
+    <s:alias
+       val="GND_1_" />
+    <path
+       id="path1103"
+       class="cell_#PWR1 symbol"
+       style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+       d="M 0,0 V 15 H 15 L 0,30 -15,15 H 0"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g1105"
+       s:position="top"
+       s:pid="1"
+       s:y="0.0"
+       s:x="0.0" />
+    <text
+       id="text1107"
+       s:attribute="value"
+       transform="translate(0,7.5)"
+       y="45"
+       x="0"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">GND</text>
+  </g>
+  <g
+     id="g1145"
+     transform="translate(-565.38271,-23.420871)"
+     s:height="66.6"
+     s:width="66.6"
+     s:type="Q_PNP_CBE_1_V">
+    <rect
+       id="rect1111"
+       class="cell_Q1 symbol"
+       style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       height="66.599998"
+       width="66.599998"
+       y="-33.299999"
+       x="-18.299999" />
+    <s:alias
+       val="Q_PNP_CBE_1_V" />
+    <circle
+       id="circle1113"
+       class="cell_Q1 symbol"
+       style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       r="33.299999"
+       cy="0"
+       cx="15" />
+    <path
+       id="path1115"
+       class="cell_Q1 symbol"
+       style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+       d="M 7.5,7.5 30,30"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path1117"
+       class="cell_Q1 symbol"
+       style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+       d="M 7.5,-7.5 30,-30 v 0"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path1119"
+       class="cell_Q1 symbol"
+       style="stroke-width:6;stroke-linecap:round;stroke-linejoin:round"
+       d="m 7.5,22.5 v -45 0"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path1121"
+       class="cell_Q1 symbol"
+       style="fill:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+       d="m 27,-21 -6,-6 -6,12 12,-6 v 0"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g1127"
+       s:position="bottom"
+       s:pid="1"
+       s:y="60.0"
+       s:x="30.0">
+      <path
+         id="path1123"
+         class="cell_Q1 connec"
+         d="M 30,60 V 30"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text1125"
+         transform="rotate(-90,32.25,33.75)"
+         y="30"
+         x="30"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:end;fill:#000000;stroke:none">1</text>
+    </g>
+    <g
+       id="g1133"
+       s:position="left"
+       s:pid="2"
+       s:y="0.0"
+       s:x="-60.0">
+      <path
+         id="path1129"
+         class="cell_Q1 connec"
+         d="M -60,0 H 7.5"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text1131"
+         transform="translate(-6,-1.5)"
+         y="0"
+         x="7.5"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:end;fill:#000000;stroke:none">2</text>
+    </g>
+    <g
+       id="g1139"
+       s:position="top"
+       s:pid="3"
+       s:y="-60.0"
+       s:x="30.0">
+      <path
+         id="path1135"
+         class="cell_Q1 connec"
+         d="m 30,-60 v 30"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text1137"
+         transform="rotate(-90,26.25,-32.25)"
+         y="-30"
+         x="30"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:start;fill:#000000;stroke:none">3</text>
+    </g>
+    <text
+       id="text1141"
+       s:attribute="ref"
+       transform="translate(0,-7.5)"
+       y="15"
+       x="60"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:start;fill:#000000;stroke:none">Q1</text>
+    <text
+       id="text1143"
+       s:attribute="value"
+       transform="translate(0,-7.5)"
+       y="-15"
+       x="60"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:start;fill:#000000;stroke:none">Q_PNP_CBE</text>
+  </g>
+  <g
+     id="g1181"
+     transform="translate(-237.03133,-23.420871)"
+     s:height="66.6"
+     s:width="66.6"
+     s:type="Q_PNP_CBE_1_V">
+    <rect
+       id="rect1147"
+       class="cell_Q2 symbol"
+       style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       height="66.599998"
+       width="66.599998"
+       y="-33.299999"
+       x="-18.299999" />
+    <s:alias
+       val="Q_PNP_CBE_1_V" />
+    <circle
+       id="circle1149"
+       class="cell_Q2 symbol"
+       style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       r="33.299999"
+       cy="0"
+       cx="15" />
+    <path
+       id="path1151"
+       class="cell_Q2 symbol"
+       style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+       d="M 7.5,7.5 30,30"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path1153"
+       class="cell_Q2 symbol"
+       style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+       d="M 7.5,-7.5 30,-30 v 0"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path1155"
+       class="cell_Q2 symbol"
+       style="stroke-width:6;stroke-linecap:round;stroke-linejoin:round"
+       d="m 7.5,22.5 v -45 0"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path1157"
+       class="cell_Q2 symbol"
+       style="fill:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+       d="m 27,-21 -6,-6 -6,12 12,-6 v 0"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g1163"
+       s:position="bottom"
+       s:pid="1"
+       s:y="60.0"
+       s:x="30.0">
+      <path
+         id="path1159"
+         class="cell_Q2 connec"
+         d="M 30,60 V 30"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text1161"
+         transform="rotate(-90,32.25,33.75)"
+         y="30"
+         x="30"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:end;fill:#000000;stroke:none">1</text>
+    </g>
+    <g
+       id="g1169"
+       s:position="left"
+       s:pid="2"
+       s:y="0.0"
+       s:x="-60.0">
+      <path
+         id="path1165"
+         class="cell_Q2 connec"
+         d="M -60,0 H 7.5"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text1167"
+         transform="translate(-6,-1.5)"
+         y="0"
+         x="7.5"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:end;fill:#000000;stroke:none">2</text>
+    </g>
+    <g
+       id="g1175"
+       s:position="top"
+       s:pid="3"
+       s:y="-60.0"
+       s:x="30.0">
+      <path
+         id="path1171"
+         class="cell_Q2 connec"
+         d="m 30,-60 v 30"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text1173"
+         transform="rotate(-90,26.25,-32.25)"
+         y="-30"
+         x="30"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:start;fill:#000000;stroke:none">3</text>
+    </g>
+    <text
+       id="text1177"
+       s:attribute="ref"
+       transform="translate(0,-7.5)"
+       y="15"
+       x="60"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:start;fill:#000000;stroke:none">Q2</text>
+    <text
+       id="text1179"
+       s:attribute="value"
+       transform="translate(0,-7.5)"
+       y="-15"
+       x="60"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:start;fill:#000000;stroke:none">Q_PNP_CBE</text>
+  </g>
+  <g
+     id="g1199"
+     transform="translate(-904.7182,-23.420871)"
+     s:height="60.0"
+     s:width="24.0"
+     s:type="R_1_">
+    <rect
+       id="rect1183"
+       class="cell_R1 symbol"
+       style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       height="60"
+       width="24"
+       y="-30"
+       x="-12" />
+    <s:alias
+       val="R_1_" />
+    <rect
+       id="rect1185"
+       class="cell_R1 symbol"
+       style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       height="60"
+       width="24"
+       y="-30"
+       x="-12" />
+    <g
+       id="g1189"
+       s:position="top"
+       s:pid="1"
+       s:y="-45.0"
+       s:x="0.0">
+      <path
+         id="path1187"
+         class="cell_R1 connec"
+         d="m 0,-45 v 15"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g1193"
+       s:position="bottom"
+       s:pid="2"
+       s:y="45.0"
+       s:x="0.0">
+      <path
+         id="path1191"
+         class="cell_R1 connec"
+         d="M 0,45 V 30"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       id="text1195"
+       s:attribute="ref"
+       transform="rotate(-90,27.75,-3.75)"
+       y="0"
+       x="24"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">R1</text>
+    <text
+       id="text1197"
+       s:attribute="value"
+       transform="rotate(-90,3.75,-3.75)"
+       y="0"
+       x="0"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">10k</text>
+  </g>
+  <g
+     id="g1217"
+     transform="translate(-416.91119,-23.420871)"
+     s:height="60.0"
+     s:width="24.0"
+     s:type="R_1_">
+    <rect
+       id="rect1201"
+       class="cell_R2 symbol"
+       style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       height="60"
+       width="24"
+       y="-30"
+       x="-12" />
+    <s:alias
+       val="R_1_" />
+    <rect
+       id="rect1203"
+       class="cell_R2 symbol"
+       style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       height="60"
+       width="24"
+       y="-30"
+       x="-12" />
+    <g
+       id="g1207"
+       s:position="top"
+       s:pid="1"
+       s:y="-45.0"
+       s:x="0.0">
+      <path
+         id="path1205"
+         class="cell_R2 connec"
+         d="m 0,-45 v 15"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g1211"
+       s:position="bottom"
+       s:pid="2"
+       s:y="45.0"
+       s:x="0.0">
+      <path
+         id="path1209"
+         class="cell_R2 connec"
+         d="M 0,45 V 30"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       id="text1213"
+       s:attribute="ref"
+       transform="rotate(-90,27.75,-3.75)"
+       y="0"
+       x="24"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">R2</text>
+    <text
+       id="text1215"
+       s:attribute="value"
+       transform="rotate(-90,3.75,-3.75)"
+       y="0"
+       x="0"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">10k</text>
+  </g>
+  <g
+     id="g1235"
+     transform="translate(-88.559799,-23.420871)"
+     s:height="60.0"
+     s:width="24.0"
+     s:type="R_1_">
+    <rect
+       id="rect1219"
+       class="cell_R3 symbol"
+       style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       height="60"
+       width="24"
+       y="-30"
+       x="-12" />
+    <s:alias
+       val="R_1_" />
+    <rect
+       id="rect1221"
+       class="cell_R3 symbol"
+       style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       height="60"
+       width="24"
+       y="-30"
+       x="-12" />
+    <g
+       id="g1225"
+       s:position="top"
+       s:pid="1"
+       s:y="-45.0"
+       s:x="0.0">
+      <path
+         id="path1223"
+         class="cell_R3 connec"
+         d="m 0,-45 v 15"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g1229"
+       s:position="bottom"
+       s:pid="2"
+       s:y="45.0"
+       s:x="0.0">
+      <path
+         id="path1227"
+         class="cell_R3 connec"
+         d="M 0,45 V 30"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       id="text1231"
+       s:attribute="ref"
+       transform="rotate(-90,27.75,-3.75)"
+       y="0"
+       x="24"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">R3</text>
+    <text
+       id="text1233"
+       s:attribute="value"
+       transform="rotate(-90,3.75,-3.75)"
+       y="0"
+       x="0"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">10k</text>
+  </g>
+  <g
+     id="g1253"
+     transform="translate(-350.47482,-23.420871)"
+     s:height="60.0"
+     s:width="24.0"
+     s:type="R_1_">
+    <rect
+       id="rect1237"
+       class="cell_R4 symbol"
+       style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       height="60"
+       width="24"
+       y="-30"
+       x="-12" />
+    <s:alias
+       val="R_1_" />
+    <rect
+       id="rect1239"
+       class="cell_R4 symbol"
+       style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       height="60"
+       width="24"
+       y="-30"
+       x="-12" />
+    <g
+       id="g1243"
+       s:position="top"
+       s:pid="1"
+       s:y="-45.0"
+       s:x="0.0">
+      <path
+         id="path1241"
+         class="cell_R4 connec"
+         d="m 0,-45 v 15"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g1247"
+       s:position="bottom"
+       s:pid="2"
+       s:y="45.0"
+       s:x="0.0">
+      <path
+         id="path1245"
+         class="cell_R4 connec"
+         d="M 0,45 V 30"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       id="text1249"
+       s:attribute="ref"
+       transform="rotate(-90,27.75,-3.75)"
+       y="0"
+       x="24"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">R4</text>
+    <text
+       id="text1251"
+       s:attribute="value"
+       transform="rotate(-90,3.75,-3.75)"
+       y="0"
+       x="0"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">10k</text>
+  </g>
+  <g
+     id="g1271"
+     transform="translate(-731.40906,-23.420871)"
+     s:height="60.0"
+     s:width="24.0"
+     s:type="R_1_">
+    <rect
+       id="rect1255"
+       class="cell_R5 symbol"
+       style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       height="60"
+       width="24"
+       y="-30"
+       x="-12" />
+    <s:alias
+       val="R_1_" />
+    <rect
+       id="rect1257"
+       class="cell_R5 symbol"
+       style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       height="60"
+       width="24"
+       y="-30"
+       x="-12" />
+    <g
+       id="g1261"
+       s:position="top"
+       s:pid="1"
+       s:y="-45.0"
+       s:x="0.0">
+      <path
+         id="path1259"
+         class="cell_R5 connec"
+         d="m 0,-45 v 15"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g1265"
+       s:position="bottom"
+       s:pid="2"
+       s:y="45.0"
+       s:x="0.0">
+      <path
+         id="path1263"
+         class="cell_R5 connec"
+         d="M 0,45 V 30"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       id="text1267"
+       s:attribute="ref"
+       transform="rotate(-90,27.75,-3.75)"
+       y="0"
+       x="24"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">R5</text>
+    <text
+       id="text1269"
+       s:attribute="value"
+       transform="rotate(-90,3.75,-3.75)"
+       y="0"
+       x="0"
+       class="text"
+       font-size="15.0"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">10k</text>
+  </g>
+  <g
+     id="g1281"
+     transform="translate(-677.82617,-28.709445)"
+     s:height="20"
+     s:width="30"
+     s:type="inputExt">
+    <text
+       id="text1275"
+       s:attribute="ref"
+       class="cell_B"
+       y="-4"
+       x="15"
+       style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;fill:#000000;stroke:none">B</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       id="path1277"
+       class="cell_B"
+       d="M 0,0 V 20 H 15 L 30,10 15,0 Z"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g1279"
+       s:position="right"
+       s:pid="Y"
+       s:y="10"
+       s:x="30" />
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -957.94597,58.964831 920.495334,0"
+     id="path1394"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path1396"
+     d="m -957.94597,87.969164 920.495334,0"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -957.94597,174.9821 920.495334,0"
+     id="path1402"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path1404"
+     d="m -957.94597,203.98644 920.495334,0"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -957.94597,232.99077 920.495334,0"
+     id="path1406"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path1408"
+     d="m -957.94597,261.99507 920.495334,0"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -957.94597,290.99941 920.495334,0"
+     id="path1410"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path1412"
+     d="m -957.94597,320.00371 920.495334,0"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -821.2818,-23.420871 h 9.32013 v 83.182524"
+     id="path1416"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -782.84546,-48.994113 v -15.548474 h 25.86451 V 88.447246"
+     id="path1418"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -731.40906,-68.420871 V -85.25996 h 31.7993 l 0,172.48081"
+     id="path1420"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -731.40906,21.579129 0,209.698301"
+     id="path1422"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -647.82617,-18.709445 h 12.759 V 172.91038"
+     id="path1424"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -625.38271,-23.420871 V 203.98644"
+     id="path1426"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -535.38271,36.579129 V 231.87522"
+     id="path1428"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -535.38271,-83.420871 v -22.556459 h 54.10219 v 366.53814"
+     id="path1430"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -416.91119,-68.420871 V -85.25996 h -37.27738 l 0,315.24868"
+     id="path1432"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -416.91119,21.579129 0,267.520841"
+     id="path1434"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -350.47482,-68.420871 v -18.432733 h -30.40612 l 0,289.697764"
+     id="path1438"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -904.7182,-68.420871 v -18.902144 h -41.8581 V 61.424689"
+     id="path1440"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -904.7182,21.579129 V 203.41113"
+     id="path1442"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -350.47482,21.579129 V 174.11234"
+     id="path1444"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -297.03133,-23.420871 V 289.05375"
+     id="path1446"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -207.03133,36.579129 V 318.35254"
+     id="path1448"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -207.03133,-83.420871 v -24.185919 h 59.4105 l 0,369.61551"
+     id="path1450"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -88.559799,21.579129 V 87.34285"
+     id="path1452"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -88.559799,-68.420871 v -31.297786 h 41.230984 V 318.35254"
+     id="path1454"
+     inkscape:connector-curvature="0" />
+  <circle
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path1460"
+     cx="-946.57629"
+     cy="58.044067"
+     r="7.8881359" />
+  <circle
+     r="7.8881359"
+     cy="204.53802"
+     cx="-906.00873"
+     id="circle1462"
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="circle1464"
+     cx="-813.60486"
+     cy="58.044075"
+     r="7.8881359" />
+  <circle
+     r="7.8881359"
+     cy="87.342865"
+     cx="-757.26105"
+     id="circle1466"
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="circle1468"
+     cx="-702.04407"
+     cy="86.215988"
+     r="7.8881359" />
+  <circle
+     r="7.8881359"
+     cy="231.58305"
+     cx="-732.46973"
+     id="circle1470"
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="circle1472"
+     cx="-635.55835"
+     cy="174.11235"
+     r="7.8881359" />
+  <circle
+     r="7.8881359"
+     cy="203.41113"
+     cx="-625.4165"
+     id="circle1474"
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="circle1476"
+     cx="-535.82983"
+     cy="232.70993"
+     r="7.8881359" />
+  <circle
+     r="7.8881359"
+     cy="262.00873"
+     cx="-481.17633"
+     id="circle1478"
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="circle1480"
+     cx="-454.13129"
+     cy="231.58307"
+     r="7.8881359" />
+  <circle
+     r="7.8881359"
+     cy="290.18066"
+     cx="-416.94437"
+     id="circle1482"
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="circle1484"
+     cx="-380.88431"
+     cy="203.97461"
+     r="7.8881359" />
+  <circle
+     r="7.8881359"
+     cy="174.67581"
+     cx="-351.58551"
+     id="circle1486"
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="circle1488"
+     cx="-298.05887"
+     cy="290.74411"
+     r="7.8881359" />
+  <circle
+     r="7.8881359"
+     cy="320.04291"
+     cx="-207.34531"
+     id="circle1490"
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="circle1492"
+     cx="-147.62085"
+     cy="262.00879"
+     r="7.8881359"
+     inkscape:transform-center-x="58.59758"
+     inkscape:transform-center-y="77.754482" />
+  <circle
+     inkscape:transform-center-y="77.754482"
+     inkscape:transform-center-x="58.59758"
+     r="7.8881359"
+     cy="86.77948"
+     cx="-89.586708"
+     id="circle1494"
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="circle1496"
+     cx="-46.7654"
+     cy="317.78918"
+     r="7.8881359"
+     inkscape:transform-center-x="58.59758"
+     inkscape:transform-center-y="77.754482" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -207.03133,36.579129 V 318.35254"
+     id="path1498"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -535.38271,36.579129 V 231.87522"
+     id="path1500"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.42380952"
+     d="m -946.05998,59.761653 h 134.09831"
+     id="path1502"
+     inkscape:connector-curvature="0" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path1504"
+     d="m -756.98093,88.447243 668.801226,0"
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.42380952"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.42380952"
+     d="m -635.06717,172.91038 283.40945,0"
+     id="path1502-3"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.42380952"
+     d="m -904.7182,203.41113 525.12447,0"
+     id="path1502-6"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.42380952"
+     d="m -731.40906,231.27743 278.33851,0"
+     id="path1502-7"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.42380952"
+     d="m -481.28052,260.56081 334.68234,0"
+     id="path1502-5"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.42380952"
+     d="m -416.91119,289.09997 119.44891,0"
+     id="path1502-35"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.42380952"
+     d="M -207.03133,318.35254 H -47.328815"
+     id="path1502-62"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path1288"
+     d="M -957.94597,555.35395 H -37.450636"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     sodipodi:nodetypes="cc"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -957.94597,584.35829 H -37.450636"
+     id="path1290"
+     inkscape:connector-curvature="0" />
+  <path
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path1292"
+     d="M -957.94597,671.37122 H -37.450636"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     sodipodi:nodetypes="cc"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -957.94597,700.37556 H -37.450636"
+     id="path1294"
+     inkscape:connector-curvature="0" />
+  <path
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path1296"
+     d="M -957.94597,729.37989 H -37.450636"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     sodipodi:nodetypes="cc"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -957.94597,758.38419 H -37.450636"
+     id="path1298"
+     inkscape:connector-curvature="0" />
+  <path
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path1300"
+     d="M -957.94597,787.38853 H -37.450636"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     sodipodi:nodetypes="cc"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -957.54756,816.39283 H -37.052225"
+     id="path1302"
+     inkscape:connector-curvature="0" />
+  <g
+     id="g1438">
+    <g
+       id="g1206"
+       transform="translate(-904.7182,472.96825)"
+       s:height="60.0"
+       s:width="24.0"
+       s:type="R_1_">
+      <rect
+         id="rect1190"
+         class="cell_R1 symbol"
+         style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         height="60"
+         width="24"
+         y="-30"
+         x="-12" />
+      <s:alias
+         val="R_1_" />
+      <rect
+         id="rect1192"
+         class="cell_R1 symbol"
+         style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         height="60"
+         width="24"
+         y="-30"
+         x="-12" />
+      <g
+         id="g1196"
+         s:position="top"
+         s:pid="1"
+         s:y="-45.0"
+         s:x="0.0">
+        <path
+           id="path1194"
+           class="cell_R1 connec"
+           d="m 0,-45 v 15"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g1200"
+         s:position="bottom"
+         s:pid="2"
+         s:y="45.0"
+         s:x="0.0">
+        <path
+           id="path1198"
+           class="cell_R1 connec"
+           d="M 0,45 V 30"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         id="text1202"
+         s:attribute="ref"
+         transform="rotate(-90,27.75,-3.75)"
+         y="0"
+         x="24"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">R1</text>
+      <text
+         id="text1204"
+         s:attribute="value"
+         transform="rotate(-90,3.75,-3.75)"
+         y="0"
+         x="0"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">10k</text>
+    </g>
+    <circle
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1342"
+       cx="-905.53998"
+       cy="554.43317"
+       r="7.8881359" />
+    <circle
+       r="7.8881359"
+       cy="700.92712"
+       cx="-906.00873"
+       id="circle1344"
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g1442">
+    <path
+       inkscape:connector-curvature="0"
+       d="m -851.2818,462.96825 v 20 h 15 l 15,-10 -15,-10 z"
+       class="cell_A"
+       id="path1106" />
+    <circle
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1346"
+       cx="-838.30634"
+       cy="554.43317"
+       r="7.8881359" />
+  </g>
+  <g
+     id="g1450"
+     transform="translate(481.28052)">
+    <g
+       id="g1116"
+       transform="translate(-782.84546,447.39501)"
+       s:height="30.0"
+       s:width="30.0"
+       s:type="GND_1_">
+      <rect
+         id="rect1108"
+         class="cell_#PWR1 symbol"
+         style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         height="30"
+         width="30"
+         y="0"
+         x="-15" />
+      <s:alias
+         val="GND_1_" />
+      <path
+         id="path1110"
+         class="cell_#PWR1 symbol"
+         style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+         d="M 0,0 V 15 H 15 L 0,30 -15,15 H 0"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g1112"
+         s:position="top"
+         s:pid="1"
+         s:y="0.0"
+         s:x="0.0" />
+      <text
+         id="text1114"
+         s:attribute="value"
+         transform="translate(0,7.5)"
+         y="45"
+         x="0"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">GND</text>
+    </g>
+    <circle
+       r="7.8881359"
+       cy="583.73199"
+       cx="-781.16571"
+       id="circle1348"
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g1463"
+     transform="translate(391.00582)">
+    <g
+       id="g1278"
+       transform="translate(-731.40906,472.96825)"
+       s:height="60.0"
+       s:width="24.0"
+       s:type="R_1_">
+      <rect
+         id="rect1262"
+         class="cell_R5 symbol"
+         style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         height="60"
+         width="24"
+         y="-30"
+         x="-12" />
+      <s:alias
+         val="R_1_" />
+      <rect
+         id="rect1264"
+         class="cell_R5 symbol"
+         style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         height="60"
+         width="24"
+         y="-30"
+         x="-12" />
+      <g
+         id="g1268"
+         s:position="top"
+         s:pid="1"
+         s:y="-45.0"
+         s:x="0.0">
+        <path
+           id="path1266"
+           class="cell_R5 connec"
+           d="m 0,-45 v 15"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g1272"
+         s:position="bottom"
+         s:pid="2"
+         s:y="45.0"
+         s:x="0.0">
+        <path
+           id="path1270"
+           class="cell_R5 connec"
+           d="M 0,45 V 30"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         id="text1274"
+         s:attribute="ref"
+         transform="rotate(-90,27.75,-3.75)"
+         y="0"
+         x="24"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">R5</text>
+      <text
+         id="text1276"
+         s:attribute="value"
+         transform="rotate(-90,3.75,-3.75)"
+         y="0"
+         x="0"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">10k</text>
+    </g>
+    <circle
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1350"
+       cx="-731.12805"
+       cy="582.6051"
+       r="7.8881359" />
+    <circle
+       r="7.8881359"
+       cy="727.97217"
+       cx="-732.46973"
+       id="circle1352"
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g1470">
+    <g
+       id="g1286"
+       transform="translate(-677.82617,467.67968)"
+       s:height="20"
+       s:width="30"
+       s:type="inputExt">
+      <text
+         id="text1280"
+         s:attribute="ref"
+         class="cell_B"
+         y="-4"
+         x="15"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;fill:#000000;stroke:none">B</text>
+      <s:alias
+         val="$_inputExt_" />
+      <path
+         id="path1282"
+         class="cell_B"
+         d="M 0,0 V 20 H 15 L 30,10 15,0 Z"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g1284"
+         s:position="right"
+         s:pid="Y"
+         s:y="10"
+         s:x="30" />
+    </g>
+    <circle
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1354"
+       cx="-664.24396"
+       cy="670.50146"
+       r="7.8881359" />
+  </g>
+  <g
+     id="g1494">
+    <g
+       id="g1152"
+       transform="translate(-565.38271,472.96825)"
+       s:height="66.6"
+       s:width="66.6"
+       s:type="Q_PNP_CBE_1_V">
+      <rect
+         id="rect1118"
+         class="cell_Q1 symbol"
+         style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         height="66.599998"
+         width="66.599998"
+         y="-33.299999"
+         x="-18.299999" />
+      <s:alias
+         val="Q_PNP_CBE_1_V" />
+      <circle
+         id="circle1120"
+         class="cell_Q1 symbol"
+         style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         r="33.299999"
+         cy="0"
+         cx="15" />
+      <path
+         id="path1122"
+         class="cell_Q1 symbol"
+         style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+         d="M 7.5,7.5 30,30"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1124"
+         class="cell_Q1 symbol"
+         style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+         d="M 7.5,-7.5 30,-30 v 0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1126"
+         class="cell_Q1 symbol"
+         style="stroke-width:6;stroke-linecap:round;stroke-linejoin:round"
+         d="m 7.5,22.5 v -45 0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1128"
+         class="cell_Q1 symbol"
+         style="fill:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+         d="m 27,-21 -6,-6 -6,12 12,-6 v 0"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g1134"
+         s:position="bottom"
+         s:pid="1"
+         s:y="60.0"
+         s:x="30.0">
+        <path
+           id="path1130"
+           class="cell_Q1 connec"
+           d="M 30,60 V 30"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text1132"
+           transform="rotate(-90,32.25,33.75)"
+           y="30"
+           x="30"
+           class="text"
+           font-size="15.0"
+           style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:end;fill:#000000;stroke:none">1</text>
+      </g>
+      <g
+         id="g1140"
+         s:position="left"
+         s:pid="2"
+         s:y="0.0"
+         s:x="-60.0">
+        <path
+           id="path1136"
+           class="cell_Q1 connec"
+           d="M -60,0 H 7.5"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text1138"
+           transform="translate(-6,-1.5)"
+           y="0"
+           x="7.5"
+           class="text"
+           font-size="15.0"
+           style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:end;fill:#000000;stroke:none">2</text>
+      </g>
+      <g
+         id="g1146"
+         s:position="top"
+         s:pid="3"
+         s:y="-60.0"
+         s:x="30.0">
+        <path
+           id="path1142"
+           class="cell_Q1 connec"
+           d="m 30,-60 v 30"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text1144"
+           transform="rotate(-90,26.25,-32.25)"
+           y="-30"
+           x="30"
+           class="text"
+           font-size="15.0"
+           style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:start;fill:#000000;stroke:none">3</text>
+      </g>
+      <text
+         id="text1148"
+         s:attribute="ref"
+         transform="translate(0,-7.5)"
+         y="15"
+         x="60"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:start;fill:#000000;stroke:none">Q1</text>
+      <text
+         id="text1150"
+         s:attribute="value"
+         transform="translate(0,-7.5)"
+         y="-15"
+         x="60"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:start;fill:#000000;stroke:none">Q_PNP_CBE</text>
+    </g>
+    <path
+       style="fill:none;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -535.38271,532.96825 V 728.26434"
+       id="path1316"
+       inkscape:connector-curvature="0" />
+    <circle
+       r="7.8881359"
+       cy="699.80023"
+       cx="-535.77405"
+       id="circle1356"
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1358"
+       cx="-535.82983"
+       cy="729.09906"
+       r="7.8881359" />
+    <circle
+       r="7.8881359"
+       cy="758.39783"
+       cx="-535.75867"
+       id="circle1360"
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g1507"
+     transform="translate(-77.417495)">
+    <g
+       id="g1224"
+       transform="translate(-416.91119,472.96825)"
+       s:height="60.0"
+       s:width="24.0"
+       s:type="R_1_">
+      <rect
+         id="rect1208"
+         class="cell_R2 symbol"
+         style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         height="60"
+         width="24"
+         y="-30"
+         x="-12" />
+      <s:alias
+         val="R_1_" />
+      <rect
+         id="rect1210"
+         class="cell_R2 symbol"
+         style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         height="60"
+         width="24"
+         y="-30"
+         x="-12" />
+      <g
+         id="g1214"
+         s:position="top"
+         s:pid="1"
+         s:y="-45.0"
+         s:x="0.0">
+        <path
+           id="path1212"
+           class="cell_R2 connec"
+           d="m 0,-45 v 15"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g1218"
+         s:position="bottom"
+         s:pid="2"
+         s:y="45.0"
+         s:x="0.0">
+        <path
+           id="path1216"
+           class="cell_R2 connec"
+           d="M 0,45 V 30"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         id="text1220"
+         s:attribute="ref"
+         transform="rotate(-90,27.75,-3.75)"
+         y="0"
+         x="24"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">R2</text>
+      <text
+         id="text1222"
+         s:attribute="value"
+         transform="rotate(-90,3.75,-3.75)"
+         y="0"
+         x="0"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">10k</text>
+    </g>
+    <circle
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1362"
+       cx="-416.68066"
+       cy="727.97217"
+       r="7.8881359" />
+    <circle
+       r="7.8881359"
+       cy="786.56976"
+       cx="-416.94437"
+       id="circle1364"
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g1520"
+     transform="translate(-249.80371)">
+    <g
+       id="g1260"
+       transform="translate(-350.47482,472.96825)"
+       s:height="60.0"
+       s:width="24.0"
+       s:type="R_1_">
+      <rect
+         id="rect1244"
+         class="cell_R4 symbol"
+         style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         height="60"
+         width="24"
+         y="-30"
+         x="-12" />
+      <s:alias
+         val="R_1_" />
+      <rect
+         id="rect1246"
+         class="cell_R4 symbol"
+         style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         height="60"
+         width="24"
+         y="-30"
+         x="-12" />
+      <g
+         id="g1250"
+         s:position="top"
+         s:pid="1"
+         s:y="-45.0"
+         s:x="0.0">
+        <path
+           id="path1248"
+           class="cell_R4 connec"
+           d="m 0,-45 v 15"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g1254"
+         s:position="bottom"
+         s:pid="2"
+         s:y="45.0"
+         s:x="0.0">
+        <path
+           id="path1252"
+           class="cell_R4 connec"
+           d="M 0,45 V 30"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         id="text1256"
+         s:attribute="ref"
+         transform="rotate(-90,27.75,-3.75)"
+         y="0"
+         x="24"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">R4</text>
+      <text
+         id="text1258"
+         s:attribute="value"
+         transform="rotate(-90,3.75,-3.75)"
+         y="0"
+         x="0"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">10k</text>
+    </g>
+    <circle
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1366"
+       cx="-350.20667"
+       cy="700.36371"
+       r="7.8881359" />
+    <circle
+       r="7.8881359"
+       cy="671.06494"
+       cx="-351.58551"
+       id="circle1368"
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g1544"
+     transform="translate(-217.12934)">
+    <g
+       id="g1188"
+       transform="translate(-237.03133,472.96825)"
+       s:height="66.6"
+       s:width="66.6"
+       s:type="Q_PNP_CBE_1_V">
+      <rect
+         id="rect1154"
+         class="cell_Q2 symbol"
+         style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         height="66.599998"
+         width="66.599998"
+         y="-33.299999"
+         x="-18.299999" />
+      <s:alias
+         val="Q_PNP_CBE_1_V" />
+      <circle
+         id="circle1156"
+         class="cell_Q2 symbol"
+         style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         r="33.299999"
+         cy="0"
+         cx="15" />
+      <path
+         id="path1158"
+         class="cell_Q2 symbol"
+         style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+         d="M 7.5,7.5 30,30"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1160"
+         class="cell_Q2 symbol"
+         style="stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+         d="M 7.5,-7.5 30,-30 v 0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1162"
+         class="cell_Q2 symbol"
+         style="stroke-width:6;stroke-linecap:round;stroke-linejoin:round"
+         d="m 7.5,22.5 v -45 0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1164"
+         class="cell_Q2 symbol"
+         style="fill:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+         d="m 27,-21 -6,-6 -6,12 12,-6 v 0"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g1170"
+         s:position="bottom"
+         s:pid="1"
+         s:y="60.0"
+         s:x="30.0">
+        <path
+           id="path1166"
+           class="cell_Q2 connec"
+           d="M 30,60 V 30"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text1168"
+           transform="rotate(-90,32.25,33.75)"
+           y="30"
+           x="30"
+           class="text"
+           font-size="15.0"
+           style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:end;fill:#000000;stroke:none">1</text>
+      </g>
+      <g
+         id="g1176"
+         s:position="left"
+         s:pid="2"
+         s:y="0.0"
+         s:x="-60.0">
+        <path
+           id="path1172"
+           class="cell_Q2 connec"
+           d="M -60,0 H 7.5"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text1174"
+           transform="translate(-6,-1.5)"
+           y="0"
+           x="7.5"
+           class="text"
+           font-size="15.0"
+           style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:end;fill:#000000;stroke:none">2</text>
+      </g>
+      <g
+         id="g1182"
+         s:position="top"
+         s:pid="3"
+         s:y="-60.0"
+         s:x="30.0">
+        <path
+           id="path1178"
+           class="cell_Q2 connec"
+           d="m 30,-60 v 30"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text1180"
+           transform="rotate(-90,26.25,-32.25)"
+           y="-30"
+           x="30"
+           class="text"
+           font-size="15.0"
+           style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:start;fill:#000000;stroke:none">3</text>
+      </g>
+      <text
+         id="text1184"
+         s:attribute="ref"
+         transform="translate(0,-7.5)"
+         y="15"
+         x="60"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:start;fill:#000000;stroke:none">Q2</text>
+      <text
+         id="text1186"
+         s:attribute="value"
+         transform="translate(0,-7.5)"
+         y="-15"
+         x="60"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:start;fill:#000000;stroke:none">Q_PNP_CBE</text>
+    </g>
+    <path
+       style="fill:none;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -207.03133,532.96825 V 814.74166"
+       id="path1334"
+       inkscape:connector-curvature="0" />
+    <circle
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1370"
+       cx="-207.61957"
+       cy="787.13324"
+       r="7.8881359" />
+    <circle
+       r="7.8881359"
+       cy="816.43201"
+       cx="-207.34531"
+       id="circle1372"
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1374"
+       cx="-207.38251"
+       cy="758.39789"
+       r="7.8881359"
+       inkscape:transform-center-x="58.59758"
+       inkscape:transform-center-y="77.754482" />
+  </g>
+  <g
+     id="g1557"
+     transform="translate(-289.34175)">
+    <g
+       id="g1242"
+       transform="translate(-88.559799,472.96825)"
+       s:height="60.0"
+       s:width="24.0"
+       s:type="R_1_">
+      <rect
+         id="rect1226"
+         class="cell_R3 symbol"
+         style="stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         height="60"
+         width="24"
+         y="-30"
+         x="-12" />
+      <s:alias
+         val="R_1_" />
+      <rect
+         id="rect1228"
+         class="cell_R3 symbol"
+         style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+         height="60"
+         width="24"
+         y="-30"
+         x="-12" />
+      <g
+         id="g1232"
+         s:position="top"
+         s:pid="1"
+         s:y="-45.0"
+         s:x="0.0">
+        <path
+           id="path1230"
+           class="cell_R3 connec"
+           d="m 0,-45 v 15"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g1236"
+         s:position="bottom"
+         s:pid="2"
+         s:y="45.0"
+         s:x="0.0">
+        <path
+           id="path1234"
+           class="cell_R3 connec"
+           d="M 0,45 V 30"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         id="text1238"
+         s:attribute="ref"
+         transform="rotate(-90,27.75,-3.75)"
+         y="0"
+         x="24"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">R3</text>
+      <text
+         id="text1240"
+         s:attribute="value"
+         transform="rotate(-90,3.75,-3.75)"
+         y="0"
+         x="0"
+         class="text"
+         font-size="15.0"
+         style="font-weight:bold;font-size:10px;font-family:'Courier New', monospace;text-anchor:middle;fill:#000000;stroke:none">10k</text>
+    </g>
+    <circle
+       inkscape:transform-center-y="77.754482"
+       inkscape:transform-center-x="58.59758"
+       r="7.8881359"
+       cy="583.16858"
+       cx="-89.586708"
+       id="circle1376"
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       style="opacity:0.62000002;fill:#3a5899;fill-opacity:0.98039216;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle1378"
+       cx="-87.801735"
+       cy="814.17828"
+       r="7.8881359"
+       inkscape:transform-center-x="58.59758"
+       inkscape:transform-center-y="77.754482" />
+  </g>
+</svg>

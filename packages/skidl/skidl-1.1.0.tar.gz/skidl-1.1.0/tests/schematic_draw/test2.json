@@ -1,0 +1,31 @@
+{
+  "modules": {
+    "": {
+      "cells": {
+        "U1A": {
+          "attributes": {
+            "value": "NCS2325D"
+          },
+          "connections": {
+            "1": [
+              3
+            ],
+            "2": [
+              2
+            ],
+            "3": [
+              1
+            ]
+          },
+          "port_directions": {
+            "1": "output",
+            "2": "input",
+            "3": "input"
+          },
+          "type": "NCS2325D_1_H"
+        }
+      },
+      "ports": {}
+    }
+  }
+}
