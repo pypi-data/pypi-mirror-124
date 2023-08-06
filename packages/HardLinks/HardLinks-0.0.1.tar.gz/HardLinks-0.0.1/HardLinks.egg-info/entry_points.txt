@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        hardlinks=HardLinks.hard_links:main
+    
