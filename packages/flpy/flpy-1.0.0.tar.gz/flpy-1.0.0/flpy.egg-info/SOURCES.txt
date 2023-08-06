@@ -1,0 +1,7 @@
+LICENSE.md
+README.md
+setup.py
+flpy.egg-info/PKG-INFO
+flpy.egg-info/SOURCES.txt
+flpy.egg-info/dependency_links.txt
+flpy.egg-info/top_level.txt
