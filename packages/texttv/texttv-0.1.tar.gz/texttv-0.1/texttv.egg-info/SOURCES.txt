@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+texttv/__init__.py
+texttv/texttv.py
+texttv.egg-info/PKG-INFO
+texttv.egg-info/SOURCES.txt
+texttv.egg-info/dependency_links.txt
+texttv.egg-info/entry_points.txt
+texttv.egg-info/requires.txt
+texttv.egg-info/top_level.txt
