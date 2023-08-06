@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ezpostgres
+Version: 0.0.1
+Summary: Quick, dumbed-down wrapper around psycopg2 to use Postgres with Python
+Home-page: https://github.com/Noctsol/lib-py-ezpostgres
+Author: Noctsol
+Author-email: noctsol@pm.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# lib-py-ezpostgres
+Wrapper around psycopg2 for postgres. This was made for a lazy person to quickly use postgres via Python.
+This will not have all the commands. This is really just made for quick reads/writes and low level admin functions.
+
+(This is currently a place holder until the official version gets released. DO NOT USE
+
+
