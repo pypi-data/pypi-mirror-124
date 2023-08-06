@@ -1,0 +1,8 @@
+aioredis<2
+websockets
+
+[geo]
+pyproj<2
+
+[testing]
+pytest
