@@ -1,0 +1,6 @@
+librosa
+numpy
+torch
+torchaudio
+torchcrepe
+tqdm
