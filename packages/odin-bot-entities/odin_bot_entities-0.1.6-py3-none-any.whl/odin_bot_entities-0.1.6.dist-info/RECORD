@@ -1,0 +1,9 @@
+odin_bot_entities/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+odin_bot_entities/balances.py,sha256=X0TeJ-D6QOk7ydz7IJX4XSEyKcdfIP09O7rUTNf-TAg,3314
+odin_bot_entities/currencies.py,sha256=SklU-VCzM63UDHJ4Xm_zk9HD8pDdAUVtTJ7ba_4qL98,3306
+odin_bot_entities/lote.py,sha256=InWPAMZVxtf745tN8JFSZqAi-jlsBPztqro3Zednh7k,2218
+odin_bot_entities/report.py,sha256=Q4QV3n0-b2eJ7ubGtVhsr6866woxVuc8f8iJj2r09GY,1909
+odin_bot_entities/trades.py,sha256=BQbMqqzl5OEDnR-LMU49w4T4bnDSk1NVRQJz0RUmljA,2130
+odin_bot_entities-0.1.6.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+odin_bot_entities-0.1.6.dist-info/METADATA,sha256=UX38PHW6oNiTMrM9VsZC7Oc12JcB7Qsg3A_gxhkWZ2M,392
+odin_bot_entities-0.1.6.dist-info/RECORD,,
