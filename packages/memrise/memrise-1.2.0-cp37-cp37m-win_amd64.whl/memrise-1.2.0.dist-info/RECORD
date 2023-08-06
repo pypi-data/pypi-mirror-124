@@ -1,0 +1,8 @@
+memrise/__init__.py,sha256=ongRajtrhj-iO_VDeiHac2fkFHpQvwGlP0vGoxsV49g,1733
+memrise/memrise.c,sha256=R5a1LO_Y4L8UV55yqaDpGzUgahsM6Ff_xwIIQulpq40,419470
+memrise/memrise.pyd,sha256=Z2ryyPLVmmLbV3nptqWPL7fDcCUyx-iIBI_BJPswAQs,95744
+memrise-1.2.0.dist-info/LICENSE,sha256=5HNAwn90K8ztk2ejIrRJL1ypJI-bwRj8Zx1rp2s3GWI,1088
+memrise-1.2.0.dist-info/METADATA,sha256=_UPWW6J15mTL2eHbB2SICnjHoPGYN7KQPtaluKiaMqU,4643
+memrise-1.2.0.dist-info/WHEEL,sha256=OmDKD3JmZjhMu_YdpkiJDfFL1rf8n9nexhWCGhSBGVE,101
+memrise-1.2.0.dist-info/top_level.txt,sha256=PxLDSr-q485_zcPnxpFHdu5kZ4p8DSXNJ9GNsa-YSXo,8
+memrise-1.2.0.dist-info/RECORD,,
