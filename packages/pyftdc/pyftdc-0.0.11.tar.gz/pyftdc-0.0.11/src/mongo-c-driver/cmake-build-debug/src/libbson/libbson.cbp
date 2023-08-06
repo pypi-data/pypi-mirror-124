@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libbson"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\libbson\;CMake Files\src\libbson\build\;CMake Files\src\libbson\build\cmake\;CMake Files\src\libbson\src\;CMake Files\src\libbson\src\bson\;CMake Files\src\libbson\src\jsonsl\;CMake Files\src\libbson\examples\;CMake Files\src\libbson\fuzz\;CMake Files\src\libbson\tests\;CMake Files\src\libmongoc\;CMake Files\src\libmongoc\src\;CMake Files\src\libmongoc\src\mongoc\;CMake Files\src\libmongoc\build\;CMake Files\src\libmongoc\build\cmake\;CMake Files\src\libmongoc\examples\;CMake Files\src\libmongoc\tests\;CMake Files\src\zlib-1.2.11\;CMake Files\src\common\;CMake Files\src\tools\;CMake Files\build\;CMake Files\build\cmake\;CMake Files\build\cmake\make_dist\;CMake Files\build\sphinx\;CMake Files\build\sphinx\readable\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\src\;CMake Files\cmake-build-debug\src\libmongoc\;CMake Files\orchestration_configs\;CMake Files\generate_uninstall\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bson-check-depth">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/bson-check-depth" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bson-check-depth"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bson-check-depth/fast">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/bson-check-depth" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bson-check-depth/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="json-to-bson">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/json-to-bson" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 json-to-bson"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="json-to-bson/fast">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/json-to-bson" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 json-to-bson/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bson_shared">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/libbson-1.0.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBSON_COMPILATION"/>
+					<Add option="-DJSONSL_PARSE_NAN"/>
+					<Add option="-DCOMMON_PREFIX_=_bson_common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bson_shared"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bson_shared/fast">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/libbson-1.0.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBSON_COMPILATION"/>
+					<Add option="-DJSONSL_PARSE_NAN"/>
+					<Add option="-DCOMMON_PREFIX_=_bson_common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bson_shared/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bson-streaming-reader">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/bson-streaming-reader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bson-streaming-reader"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bson-streaming-reader/fast">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/bson-streaming-reader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bson-streaming-reader/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bson_static">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/libbson-static-1.0.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBSON_STATIC"/>
+					<Add option="-DBSON_COMPILATION"/>
+					<Add option="-DJSONSL_PARSE_NAN"/>
+					<Add option="-DCOMMON_PREFIX_=_bson_common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bson_static"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bson_static/fast">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/libbson-static-1.0.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBSON_STATIC"/>
+					<Add option="-DBSON_COMPILATION"/>
+					<Add option="-DJSONSL_PARSE_NAN"/>
+					<Add option="-DCOMMON_PREFIX_=_bson_common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bson_static/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bson-to-json">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/bson-to-json" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bson-to-json"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bson-to-json/fast">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/bson-to-json" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bson-to-json/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bson-metrics">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/bson-metrics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bson-metrics"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bson-metrics/fast">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/bson-metrics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bson-metrics/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bcon-speed">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/bcon-speed" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bcon-speed"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bcon-speed/fast">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/bcon-speed" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bcon-speed/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bcon-col-view">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/bcon-col-view" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bcon-col-view"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bcon-col-view/fast">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/bcon-col-view" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bcon-col-view/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bson-validate">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/bson-validate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bson-validate"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bson-validate/fast">
+				<Option output="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/bson-validate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/../../src/common"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src"/>
+					<Add directory="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/../../src/common"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 bson-validate/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson/bson-config.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libbson/src/bson/bson-version.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/common/common-b64.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/common/common-md5.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/common/common-thread.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/examples/bcon-col-view.c">
+			<Option target="bcon-col-view"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/examples/bcon-speed.c">
+			<Option target="bcon-speed"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/examples/bson-check-depth.c">
+			<Option target="bson-check-depth"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/examples/bson-metrics.c">
+			<Option target="bson-metrics"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/examples/bson-streaming-reader.c">
+			<Option target="bson-streaming-reader"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/examples/bson-to-json.c">
+			<Option target="bson-to-json"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/examples/bson-validate.c">
+			<Option target="bson-validate"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/examples/json-to-bson.c">
+			<Option target="json-to-bson"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bcon.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bcon.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-atomic.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-atomic.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-clock.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-clock.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-compat.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-context.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-context.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-decimal128.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-decimal128.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-endian.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-error.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-error.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-iso8601.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-iter.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-iter.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-json.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-json.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-keys.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-keys.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-macros.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-md5.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-md5.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-memory.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-memory.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-oid.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-oid.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-prelude.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-reader.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-reader.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-string.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-string.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-timegm.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-types.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-utf8.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-utf8.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-value.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-value.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-version-functions.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-version-functions.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-writer.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-writer.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/forwarding/bson.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/jsonsl/jsonsl.c">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/jsonsl/jsonsl.h">
+			<Option target="bson_shared"/>
+			<Option target="bson_static"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libbson\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libbson\build\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/build/cmake/BSONPackage.cmake">
+			<Option virtualFolder="CMake Files\src\libbson\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libbson\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/build/cmake/CheckAtomics.cmake">
+			<Option virtualFolder="CMake Files\src\libbson\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/build/cmake/libbson-1.0-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\src\libbson\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/build/cmake/libbson-1.0-config.cmake.in">
+			<Option virtualFolder="CMake Files\src\libbson\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/build/cmake/libbson-static-1.0-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\src\libbson\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/build/cmake/libbson-static-1.0-config.cmake.in">
+			<Option virtualFolder="CMake Files\src\libbson\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libbson\src\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson-config.cmake">
+			<Option virtualFolder="CMake Files\src\libbson\src\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/libbson-1.0.pc.in">
+			<Option virtualFolder="CMake Files\src\libbson\src\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/libbson-static-1.0.pc.in">
+			<Option virtualFolder="CMake Files\src\libbson\src\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libbson\src\bson\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-config.h.in">
+			<Option virtualFolder="CMake Files\src\libbson\src\bson\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/bson/bson-version.h.in">
+			<Option virtualFolder="CMake Files\src\libbson\src\bson\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/src/jsonsl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libbson\src\jsonsl\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libbson\examples\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/fuzz/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libbson\fuzz\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libbson/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libbson\tests\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libmongoc\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libmongoc\src\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/src/libmongoc-1.0.pc.in">
+			<Option virtualFolder="CMake Files\src\libmongoc\src\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/src/libmongoc-ssl-1.0.pc.in">
+			<Option virtualFolder="CMake Files\src\libmongoc\src\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/src/libmongoc-static-1.0.pc.in">
+			<Option virtualFolder="CMake Files\src\libmongoc\src\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/src/mongoc-config.cmake">
+			<Option virtualFolder="CMake Files\src\libmongoc\src\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/src/mongoc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libmongoc\src\mongoc\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/src/mongoc/mongoc-config.h.in">
+			<Option virtualFolder="CMake Files\src\libmongoc\src\mongoc\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/src/mongoc/mongoc-version.h.in">
+			<Option virtualFolder="CMake Files\src\libmongoc\src\mongoc\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libmongoc\build\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libmongoc\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/build/cmake/libmongoc-1.0-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\src\libmongoc\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/build/cmake/libmongoc-1.0-config.cmake.in">
+			<Option virtualFolder="CMake Files\src\libmongoc\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/build/cmake/libmongoc-static-1.0-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\src\libmongoc\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/build/cmake/libmongoc-static-1.0-config.cmake.in">
+			<Option virtualFolder="CMake Files\src\libmongoc\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libmongoc\examples\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/libmongoc/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libmongoc\tests\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/zlib-1.2.11/zconf.h.in">
+			<Option virtualFolder="CMake Files\src\zlib-1.2.11\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\common\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/common/common-config.h.in">
+			<Option virtualFolder="CMake Files\src\common\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/src/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\tools\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/build/cmake/CheckSchedGetCPU.cmake">
+			<Option virtualFolder="CMake Files\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/build/cmake/FindResSearch.cmake">
+			<Option virtualFolder="CMake Files\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/build/cmake/FindSASL2.cmake">
+			<Option virtualFolder="CMake Files\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/build/cmake/FindSnappy.cmake">
+			<Option virtualFolder="CMake Files\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/build/cmake/LoadVersion.cmake">
+			<Option virtualFolder="CMake Files\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/build/cmake/MaintainerFlags.cmake">
+			<Option virtualFolder="CMake Files\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/build/cmake/MongoCPackage.cmake">
+			<Option virtualFolder="CMake Files\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/build/cmake/ParseVersion.cmake">
+			<Option virtualFolder="CMake Files\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/build/cmake/make_dist/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\cmake\make_dist\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/build/cmake/make_dist/MakeDistFiles.cmake">
+			<Option virtualFolder="CMake Files\build\cmake\make_dist\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/build/sphinx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\sphinx\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/build/sphinx/readable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\build\sphinx\readable\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/cmake-build-debug/src/libmongoc/accept_test1.c">
+			<Option virtualFolder="CMake Files\cmake-build-debug\src\libmongoc\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/orchestration_configs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\orchestration_configs\"/>
+		</Unit>
+		<Unit filename="/Users/jorge.imperial/mongo/mongo-c-driver/generate_uninstall/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\generate_uninstall\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
