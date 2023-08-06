@@ -1,0 +1,5 @@
+[console_scripts]
+batchquery = elmclient.examples.batchquery:main
+oslcquery = elmclient.examples.oslcquery:main
+reqif_io = elmclient.examples.reqif_io:main
+
