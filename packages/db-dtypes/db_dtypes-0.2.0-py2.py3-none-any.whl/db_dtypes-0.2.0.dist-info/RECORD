@@ -1,0 +1,10 @@
+db_dtypes/__init__.py,sha256=SAAx3aknnhWzaFzHo-PHBNNcQI2JPsvTATePj6opekI,6781
+db_dtypes/core.py,sha256=N7J3f6UffzrITSNu_28_oIEarMAjqFLCYzG8SVBcguw,6565
+db_dtypes/pandas_backports.py,sha256=N2FlnT4er68Z6H6aeY4e-ql1NNS81yjGKUNni0lYx-c,3940
+db_dtypes/version.py,sha256=osD76vT_BagNvmkjk4CAe11-5IRwZQBg8rHO98IojPA,598
+db_dtypes-0.2.0.dist-info/AUTHORS,sha256=ZzwnqDCA5-5_W_beU6-64JXYg_8IyNUp7aHfvZHowmI,331
+db_dtypes-0.2.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+db_dtypes-0.2.0.dist-info/METADATA,sha256=VrIyWRw1elOVfO983ZB2z8hZejrbPJVDOZFQCpv16gA,2970
+db_dtypes-0.2.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+db_dtypes-0.2.0.dist-info/top_level.txt,sha256=Lzrj78HENTzHjW4Xb-xOlAuHlAgu4z8nG9NrXPqZKJk,10
+db_dtypes-0.2.0.dist-info/RECORD,,
