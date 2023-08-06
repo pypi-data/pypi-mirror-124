@@ -1,0 +1,8 @@
+qjob/__init__.py,sha256=eekJGKPJCOdxwqA-pOLPFt9d8ZmXxoo5GEJVer8LxHc,68
+qjob/_version.py,sha256=zoi3rxgp7NFamJgnq0ZKqxj3sGvLelYAeXT2bv_vXMU,20
+qjob/cli.py,sha256=sHNRtBedly817gw2Jmu9n-il30V9IXMsMXKfFFUlwBc,22658
+qjob-0.3.1.dist-info/LICENSE,sha256=EjDwaZYHv3p61J2SCEa2GvrPwsxiu-N6n1ufav0QacA,1071
+qjob-0.3.1.dist-info/METADATA,sha256=OoJlouu80ypZUcWOI2p4YAaOzu02Wp1WDsUnkT6jYGQ,740
+qjob-0.3.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+qjob-0.3.1.dist-info/top_level.txt,sha256=F5plcpi76e6v5Zs4CaJWuocWtToTlx2xozDezuHzsLc,5
+qjob-0.3.1.dist-info/RECORD,,
