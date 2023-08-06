@@ -1,0 +1,7 @@
+pandas
+dataclasses
+arrow
+xarray
+bs4
+tqdm
+pvlib
