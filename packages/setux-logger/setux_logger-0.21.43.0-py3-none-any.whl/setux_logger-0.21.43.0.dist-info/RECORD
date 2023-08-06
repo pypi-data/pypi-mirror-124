@@ -1,0 +1,8 @@
+setux/logger/__init__.py,sha256=MXsmBcOnLrHLtsfaXUjzJNPoC5MsiRhMWRUfKQ6SRWk,58
+setux/logger/config.py,sha256=sXsEg9eGV0LBhUslVNTZeDzZVbBZvlGOPOEXIwPKbkM,1619
+setux/logger/logger.py,sha256=zkTOiIQERPrxrupl1z5_uEJCa2pPFZoJQ8azdbZGZlA,283
+setux_logger-0.21.43.0.dist-info/LICENSE,sha256=0tNHXfCacj_eX-GwlIVtBc7i881BDBotZvM9QeCIUPY,1090
+setux_logger-0.21.43.0.dist-info/METADATA,sha256=ULIRxyiJ3FXgnLMGlEP8GpoKPdigKQ178gbO5bp3Jl0,1120
+setux_logger-0.21.43.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+setux_logger-0.21.43.0.dist-info/top_level.txt,sha256=kmCnG8Rj9-DTuv9TjsPUPItgUhXEAxy9VU24QddH_X4,6
+setux_logger-0.21.43.0.dist-info/RECORD,,
