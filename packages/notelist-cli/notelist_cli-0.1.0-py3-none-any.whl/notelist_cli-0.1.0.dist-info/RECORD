@@ -1,0 +1,15 @@
+notelist_cli/__init__.py,sha256=yJQVEubf9Xjext6odOPYH7AH6WVAQnku3NsakfPtJ20,763
+notelist_cli/__main__.py,sha256=HPLvb3UKa4cDQ9YJVVqxic-S_RrHdDGShFOozgEGtdY,97
+notelist_cli/admin.py,sha256=idbk5GyxcHXqN34F4KQ732sS2vmOtGXmIfksWgHrhFE,6544
+notelist_cli/auth.py,sha256=97e78ynSXOdTH1wZs3F1ipyeYB3z0-VxOy-fj6pAemc,5293
+notelist_cli/config.py,sha256=tI-DphgmDaYmbRnigzCPK7TVX6nYttc1Tora-dzF3rM,374
+notelist_cli/note.py,sha256=E6tzpfMbvs6qYZ4zfA3KzlzD_6WWrCKoHGPsOC_Objs,7331
+notelist_cli/notebook.py,sha256=R_mew4mWDVQyTTa27RRO2Iw1_Z02sKxyBFDeczYtW4I,4878
+notelist_cli/search.py,sha256=sc__2PKuQ59bmxwf5CrjhgYn704JtTeSMOlDkptMvv4,1141
+notelist_cli/user.py,sha256=x8wgaMf1iDM4zBipXvOoo6V-JtXgMFCiTjXrlKhKRxQ,2963
+notelist_cli-0.1.0.dist-info/LICENSE,sha256=eunRdXoC6QppF1BswodkM7jtXO06o7Xo8urOg67tiGM,1072
+notelist_cli-0.1.0.dist-info/METADATA,sha256=qeaU6-HyGEriFRNmJnDkxL4cTvhoyXPhhMebNbBd2w4,2128
+notelist_cli-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+notelist_cli-0.1.0.dist-info/entry_points.txt,sha256=CRzdgEZaprexoC-jXBN8zpxjFDpG8pFykx7fs1y_Z8o,52
+notelist_cli-0.1.0.dist-info/top_level.txt,sha256=s_kMmDG5bPvqf5GP5GVIb8YTscGPda7RXfeKF12J6i0,13
+notelist_cli-0.1.0.dist-info/RECORD,,
