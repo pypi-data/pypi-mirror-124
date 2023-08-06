@@ -1,0 +1,14 @@
+pyproject.toml
+setup.cfg
+setup.py
+src/amoapi/__init__.py
+src/amoapi/amoapi_basic.py
+src/amoapi/exceptions.py
+src/amoapi/filters.py
+src/amoapi/interaction.py
+src/amoapi/tokens.py
+src/amoapi.egg-info/PKG-INFO
+src/amoapi.egg-info/SOURCES.txt
+src/amoapi.egg-info/dependency_links.txt
+src/amoapi.egg-info/requires.txt
+src/amoapi.egg-info/top_level.txt
