@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: Scrapyer
+Version: 1.2.0
+Summary: A high-level Web Crawling and Web Scraping framework
+Home-page: https://scrapy.org
+Author: Buliqioqiolibusdo
+Maintainer: Buliqioqiolibusdo
+Maintainer-email: dingyeran@163.com
+License: BSD
+Project-URL: Documentation, https://docs.scrapy.org/
+Project-URL: Source, https://github.com/Buliqioqiolibusdo/scrapyer
+Project-URL: Tracker, https://github.com/Buliqioqiolibusdo/scrapyer/issues
+Description: UNKNOWN
+Keywords: scrapyer
+Platform: UNKNOWN
