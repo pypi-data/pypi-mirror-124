@@ -1,0 +1,99 @@
+#!/bin/bash
+###########
+# 恢復 chmod 全縣
+# /lib64/ld-linux-x86-64.so.2  /bin/chmod +x /bin/chmod
+###########
+# cd /lib64
+# ./ld-linux-x86-64.so.2  /bin/chmod +x /bin/chmod
+
+# 查看CentOS的版本號：
+# cat /etc/centos-release
+
+
+### 設定網卡IP
+# nmtui
+### 前置 專案
+# yum -y install git
+# git clone http://github.com/moon-start/SH.git
+### 修改 主機名稱
+# hostnamectl set-hostname Moon
+### 查看
+# hostname
+
+
+
+# ${@##*/}
+
+########## 把 SH 目錄設置在 ###[pwd]
+cd /root/SH/
+
+
+
+if [ "$#" = "0" ]
+then
+    #echo "len( )=0"
+
+    ############# 這裡是
+    sh ok `pwd`
+else
+    #echo "$@"
+    #echo "var is 456"
+    ### 清空
+    sh `pwd`/bin/BinDel
+    ### 自己
+    rm -rf /usr/bin/ok
+    chmod +x `pwd`/ok
+    ln `pwd`/ok  /usr/bin
+    echo ""
+    echo ""
+    echo ""
+    echo 位置: `pwd`
+    echo ""
+    ##
+    ##
+    ##########  git clone https://github.com/moon-start/SH.git
+    chmod +x `pwd`/bin/*
+    ln `pwd`/bin/*      /usr/bin
+    echo  ln 完成!!
+    echo ""
+    ########## SH
+    chmod +x `pwd`/binSH/*
+    ln `pwd`/binSH/*  /usr/bin
+    echo ""
+    ########## SHH
+    chmod +x `pwd`/binSHH/*
+    ln `pwd`/binSHH/*  /usr/bin
+    echo ""
+    ########## SQL
+    chmod +x `pwd`/binSQL/*
+    ln `pwd`/binSQL/*  /usr/bin
+    rm -rf     /usr/bin/*.sql
+    cp -f `pwd`/binSQL/*.sql  /usr/bin
+    echo ""
+    ########## binSHHblade
+    # chmod +x `pwd`/binSHHblade/*
+    # ln `pwd`/binSHHblade/*  /usr/bin
+    # rm -rf     /usr/bin/*.sql
+    # cp -f `pwd`/binSHHblade/*.sql  /usr/bin
+    # echo ""
+
+    ########################     Django
+    rm -rf /usr/bin/*.Djabgo     ## 砍掉連結檔
+    chmod +x `pwd`/Django/*      ## 授權
+    ln `pwd`/Django/*   /usr/bin ## 建立連結檔
+    ############################################# Ln 了 所以不需要
+    #cp -f `pwd`/Django/Go.sh  /usr/bin        ## 共用檔案 Go.sh
+    #cp -f `pwd`/Django/setup  /usr/bin        ## 共用檔案 
+    #cp -f `pwd`/Django/setup-D  /usr/bin      ## 共用檔案 
+fi
+
+
+
+## 指令檔為.Django 限制
+########################    說明範本
+########################    Django
+# rm -rf /usr/bin/*.Django
+# chmod +x `pwd`/Django/*.Django
+# ln `pwd`/Django/*.Django   /usr/bin
+
+

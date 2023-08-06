@@ -1,0 +1,39 @@
+#!/bin/bash
+
+
+
+
+
+
+
+## 使用
+# inAdmin   /usr/share/nginx/html
+# inAdmin   /root/www/laravel/public
+
+
+
+## 安裝 
+# cd /usr/share/nginx/html
+cd  $1
+# wget https://files.phpmyadmin.net/phpMyAdmin/4.9.1/phpMyAdmin-4.9.1-all-languages.tar.gz
+wget https://raw.githubusercontent.com/moon-start/SH/master/binSHHconf/phpMyAdmin-4.9.1-all-languages.tar.gz
+
+
+## 解壓縮
+tar zxvf phpMyAdmin-4.9.1-all-languages.tar.gz
+mv phpMyAdmin-4.9.1-all-languages Admin
+rm -rf  phpMyAdmin-4.9.1-all-languages.tar.gz
+
+
+## 下載檔案
+cd /usr/share/nginx/html/admin
+wget https://raw.githubusercontent.com/moon-start/SH/master/binSHHconf/config.inc.php
+
+
+## 修改屬性
+## http://192.168.1.114/Admin/
+restorecon -Rvv /usr/share/nginx/html
+chown root:nginx /var/lib/php/session
+yum -y install php-mysqlnd
+## 多餘
+systemctl restart php-fpm

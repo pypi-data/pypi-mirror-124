@@ -1,0 +1,33 @@
+#!/bin/bash
+
+
+
+## 基礎
+
+inNginx
+
+inPHP
+
+inMysql
+
+inAdmin   /usr/share/nginx/html
+
+
+
+## laravel
+
+inComposer
+
+## 重新修改一次
+clone配置.sh   ## 這個會更改 網頁目錄 不建議
+
+
+
+
+
+## 除錯
+# sudo tail -n 20 /var/log/nginx/error.log
+# 如何修復404找不到nginx的問題
+# 解答:
+# 重新啟動PHP
+# inPHP

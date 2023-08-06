@@ -1,0 +1,68 @@
+#!/bin/bash
+
+
+## 用法
+#clonePHP laravel
+
+#安裝需要的套件
+yum -y install php-xml rsyslog
+systemctl start rsyslog
+systemctl restart php-fpm
+cls
+
+
+## 假設尚未安裝
+cd ~/www
+cloneX $1
+############# 專案名稱
+cd ~/www/$1
+# composer create-project --prefer-dist laravel/laravel PHPproject
+# 在專案底下?
+########
+composer install 
+
+
+
+## 不太適合用 wget ...改用 git clone?
+### 指令設計 在composer專案 
+###################### 建議寫在XP專案 一起上傳
+## 在專案頂層目錄
+rm -rf  .env
+wget https://raw.githubusercontent.com/moon-start/SH/master/binSHHconf/.env
+
+
+## 修改權限
+# chownPHP $1
+#### 修改目錄的 權限
+chown -R nginx ../
+semanage fcontext -a -t httpd_sys_rw_content_t "/usr/share/nginx/html/$1/storage(/.*)?"
+semanage fcontext -a -t httpd_sys_rw_content_t "/usr/share/nginx/html/$1/resources(/.*)?"
+restorecon -Rvv ../
+
+
+## 更新KEY
+phpKEY
+## [改變 nginx]的 default.conf
+DefaultConf.sh  $1
+ln -s /usr/share/nginx/html/Admin  /root/www/laravel/public
+## admin
+inAdmin   /root/www/laravel/public
+
+
+## 不太適合用 wget ...改用 git clone?
+## blade.tar CSS
+## TAR 檔案的布置
+cd /root/www/$1/resources/views
+wget https://raw.githubusercontent.com/moon-start/SH/master/binTAR/blade.tar
+tar xvf blade.tar
+rm -rf  blade.tar
+
+
+
+
+##  設定 mysql 環境
+yum install php-mysqlnd
+systemctl restart php-fpm
+## 查詢 httpd_can_network_connect_db
+# getsebool -a | grep 'httpd'
+setsebool httpd_can_network_connect_db 1

@@ -1,0 +1,46 @@
+#!/bin/bash
+
+
+#pwd
+
+### 一次性的檔案
+### 顯示目前的 目錄
+for dir in $(ls `pwd`/bin)
+do
+ #echo "123"
+ #echo $dir
+ #[ -d $dir ] && echo $dir
+ 
+ rm -rf /usr/bin/$dir 
+done
+
+
+
+##
+for dir in $(ls `pwd`/binSH)
+do
+     
+ rm -rf /usr/bin/$dir 
+done
+##
+for dir in $(ls `pwd`/binSHH)
+do
+     
+ rm -rf /usr/bin/$dir 
+done
+##
+for dir in $(ls `pwd`/binSQL)
+do
+     
+ rm -rf /usr/bin/$dir 
+done
+
+
+
+############################
+for dir in $(ls `pwd`/Django)
+do
+     
+ rm -rf /usr/bin/$dir 
+done
+#############################

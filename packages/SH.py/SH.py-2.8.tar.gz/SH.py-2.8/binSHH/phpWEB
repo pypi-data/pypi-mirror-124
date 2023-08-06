@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+## 相同
+## php artisan route:list
+php artisan r:l

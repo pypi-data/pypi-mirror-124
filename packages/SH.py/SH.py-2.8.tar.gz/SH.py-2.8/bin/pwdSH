@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# cd `pwd`/
+cd /usr/bin
+pwd

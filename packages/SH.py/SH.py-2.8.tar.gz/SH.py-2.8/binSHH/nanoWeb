@@ -1,0 +1,19 @@
+#!/bin/bash
+
+## 查看檔案 
+## ls database/migrations 
+
+
+if [ "$#" = "0" ]
+then
+    cd ./routes
+    cls
+    nano web.php
+else
+    # ## 專案 位置
+    ############# 專案名稱
+    nano ~/www/$1/routes/web.php
+    #nano $1
+fi
+
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#########
+## MV-退出
+deactivate

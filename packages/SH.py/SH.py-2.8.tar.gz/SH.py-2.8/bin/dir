@@ -1,0 +1,12 @@
+#!/bin/bash
+
+### 一行顯示
+### ls -l /usr/ |awk '/^d/ {print $NF}'
+
+### 顯示目前的 目錄
+for dir in $(ls `pwd`/)
+do
+ #echo "123"
+ echo $dir
+ #[ -d $dir ] && echo $dir
+done

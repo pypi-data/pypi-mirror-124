@@ -1,0 +1,26 @@
+#!/bin/bash
+
+
+### 這是一個 建立資料庫的指令
+
+
+## 取得上層目錄 #########
+QQ=`pwd`
+QQA=${QQ##*/}
+
+if   [ "$#" = "1" ]
+then
+########################
+    wget https://raw.githubusercontent.com/moon-start/SH/master/binSQL/moonDEL.sql
+    sed -i "s/moon/$1/g"  ./moonDEL.sql
+    clear
+    echo "你輸入你的 MySQL 密碼: "
+    mysql -u root -p  <   ./moonDEL.sql
+    rm -rf ./moonDEL.sql
+    
+else
+    echo ""
+    echo "說明 [指令] [資料庫的名稱]"
+    echo ""
+fi
+

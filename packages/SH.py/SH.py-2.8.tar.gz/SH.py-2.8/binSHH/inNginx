@@ -1,0 +1,61 @@
+#!/bin/bash
+systemctl enable --now cockpit.socket
+#systemctl status cockpit.socket
+
+
+
+### 安裝
+yum -y install nginx
+
+
+### 開機啟動
+systemctl enable --now nginx
+### 查看
+# systemctl status nginx -l
+
+
+### 防火牆
+# 暫時設定(打開防火牆)
+firewall-cmd --add-service=http
+# 永久設定
+firewall-cmd --add-service=http --permanent
+
+
+# systemctl restart nginx ##重新啟動服務
+# ls -al /usr/share/nginx/html
+ln -s /usr/share/nginx/html /root/www
+
+
+
+### 狀態
+## systemctl status nginx
+### 建立一個 restorecon -Rvv /usr/share/nginx/html
+cd /etc/nginx
+rm -rf ./nginx.conf
+wget https://raw.githubusercontent.com/moon-start/SH/master/binSHHconf/nginx.conf
+### 建立一個 /etc/nginx/conf.d/default.conf
+mkdir /etc/nginx/conf.d
+cd /etc/nginx/conf.d
+wget https://raw.githubusercontent.com/moon-start/SH/master/binSHHconf/default.conf
+##
+cd /usr/share/nginx/html
+wget https://raw.githubusercontent.com/moon-start/SH/master/binSHHconf/index.php
+## 重新載入設定
+# systemctl reload nginx
+nginx -c /etc/nginx/nginx.conf
+# nginx -c /etc/nginx/conf.d/default.conf
+nginx -s reload
+
+
+## 好像不用
+# mv /etc/nginx/default.d/php.conf    /root
+# mv /etc/nginx/conf.d/php-fpm.conf   /root
+# restorecon -Rvv /usr/share/nginx/html
+
+
+
+
+
+
+
+

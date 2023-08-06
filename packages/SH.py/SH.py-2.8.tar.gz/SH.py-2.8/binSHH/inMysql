@@ -1,0 +1,77 @@
+#!/bin/bash
+systemctl enable --now cockpit.socket
+yum -y install epel-release
+#systemctl status cockpit.socket
+
+# chown mysql:mysql
+# chmod 777 
+# chmod o+t
+
+## 狀態
+#systemctl status mysqld.service
+
+## 安裝 客戶端和伺服器端
+yum -y install mysql mysql-server
+
+## 附加一行
+echo default-authentication-plugin=mysql_native_password>>/etc/my.cnf.d/mysql-server.cnf
+
+## 自動啟用	
+systemctl enable --now mysqld
+# 啟動 MySQL 服務，並修改預設密碼
+systemctl start mysqld
+#mysql_secure_installation
+firewall-cmd --add-service=mysql
+firewall-cmd --runtime-to-permanent
+systemctl restart mysqld
+
+
+## 安裝 自動外掛
+yum -y install expect
+## 安裝 wget
+yum -y install wget
+
+
+
+## 下載 github檔案
+## /SH/bin/SH/MySQL.sh
+wget https://raw.githubusercontent.com/moon-start/SH/master/binSH/MySQL.sh
+###########
+chmod 750 /root     ## drwxr-x---. 
+chmod +x  ./MySQL.sh
+# 因為expect用的不是bash所以會報錯。執行的時候直接./autosu.sh就可以了。～切記！
+./MySQL.sh
+rm -rf  MySQL.sh
+
+
+
+
+# mysqladmin -uroot -p password hello123
+# ## 如果密碼有問題..則在設定密碼 ...8版
+mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED BY 'hello123';"
+
+
+## 安裝位置
+# rpm -qal |grep php-fpm
+# find / -name mysql
+# Which命令是通過PATH環境變數查詢可執行檔案路徑，用於查詢指向這個命令所在的資料夾
+# which mysql
+
+
+
+# ## 查看帳號
+# # select user,Host, plugin from mysql.user;
+# ## 查看密碼
+# SELECT User , Host , HEX ( authentication_string ) FROM mysql .user where user = 'root' and host='localhost';
+
+
+
+############# 失敗區
+# ## 修改u...
+# ## 資料表 mysql.user 欄位 plugin 紀錄 user欄位+host欄位
+# update mysql.user set plugin = 'mysql_native_password' where user = 'root' and host='localhost';
+# FLUSH PRIVILEGES;
+# ## 免密碼
+# update mysql.user set plugin = 'auth_socket' where user = 'root' and host='localhost';FLUSH PRIVILEGES;
+## 免密碼 失敗?
+# nano /etc/my.cnf

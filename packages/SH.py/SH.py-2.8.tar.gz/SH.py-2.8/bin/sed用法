@@ -1,0 +1,8 @@
+## 直接修改檔案
+sed -i 's/9/99/g' moon_data.sql
+
+## 輸出畫面
+sed -e 's/9/99/g' moon_data.sql
+
+## 刪除有 1的那一行
+sed -e '/1/d' moon_data.sql

@@ -1,0 +1,10 @@
+針對服務開啟，例：
+#firewall-cmd --add-service=http
+#firewall-cmd --add-service=cockpit
+
+### 永久生效
+#firewall-cmd --runtime-to-permanent
+
+針對 port 開啟，例：
+#firewall-cmd --add-port=8080/tcp
+#firewall-cmd --add-port=1234/tcp

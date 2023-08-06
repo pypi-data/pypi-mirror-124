@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+#mysql -e "SHOW DATABASES;"
+
+
+echo "drop database  $1;">txt.sql
+
+mysql -u root -p <txt.sql
+
+rm -rf ./txt.sql

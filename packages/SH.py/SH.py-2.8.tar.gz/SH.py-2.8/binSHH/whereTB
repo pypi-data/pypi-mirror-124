@@ -1,0 +1,29 @@
+#!/bin/bash
+
+
+
+#cd ..
+
+
+## TB ## /root/www/laravel/aaa.txt:123999
+## T ## /root/www/laravel/aaa.txt
+find `pwd` -type f -exec grep -H "$1" {} \;  
+
+
+## 取得上層目錄
+# QQ=`pwd`
+# echo "刪除 ${QQ##*/} 專案"
+
+
+
+# ## 刪除
+# cd ..
+# rm -rf ./${QQ##*/}
+
+
+# ## 下載
+# cloneX ${QQ##*/}
+
+
+# find . -name gtwang.txt
+

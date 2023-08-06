@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#PY3.Djabgo
+#cp  /usr/bin/PY3.Djabgo  /usr/bin/PY3  
+#rm -fm /usr/bin/*.Djabgo
+
+
+### 檔案名稱 [不用副檔名]
+### 建立中介呼叫檔
+# nn=
+rm   /usr/bin/$1
+#sed -e "s/QQ/$1/g" Go.sh   > $1
+
+
+
+############################
+# for dir in $(ls `pwd`/Django)
+# do
+     
+#  rm -rf /usr/bin/$dir 
+# done
+# #############################
+
+
+## 缺點是無法自動 刪除所有
+## 但可以指定去刪除

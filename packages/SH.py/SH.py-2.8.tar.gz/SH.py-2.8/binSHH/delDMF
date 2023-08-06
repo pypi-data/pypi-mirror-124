@@ -1,0 +1,5 @@
+#!/bin/bash
+
+### 回復到最初的資料庫結構
+### 並且手動 刪除資料表
+php artisan migrate:refresh

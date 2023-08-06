@@ -1,0 +1,28 @@
+#!/bin/bash
+
+cd /usr/bin
+
+
+#echo `pwd`/${@##*/}
+# $dir =`pwd`/${@##*/}
+
+
+# for i in $dir
+# do
+#  echo $i
+# done
+# #######
+
+echo $#
+
+
+#############  等號 禁止空格
+dir=${@##*/}
+echo $dir
+for i in $dir
+do
+ echo ./$i
+ rm -rf ./$i
+done
+######
+

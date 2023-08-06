@@ -1,0 +1,131 @@
+#!/bin/bash
+
+
+
+### 生成檔案
+### App\Http\Controllers\Auth
+# 未定義 auth..??
+# php artisan make:auth
+##############################
+### 被這個取代
+### composer require laravel/ui     ## 方法A
+### php artisan ui vue --auth
+
+
+
+#    composer.json
+#    "require": {
+#         "php": "^7.2",
+#         "fideloper/proxy": "^4.0",
+#         "laravel/framework": "^6.2",
+#         "laravel/tinker": "^2.0",
+#         "laravel/ui": "^1.2"
+#     },
+
+
+if [ "$#" = "0" ]
+then
+    ## echo "inAuth  專案名稱 "
+    ## 取得上層目錄
+    QQ=`pwd`
+    ## echo "刪除 ${QQ##*/} 專案"
+    ## 上上層目錄
+    cd ..
+    QB=`pwd`
+    ## echo "刪除 ${QB##*/} 專案"
+    if [ "${QB##*/}" = "www" ]
+    then
+        cd ${QQ##*/}
+        inAuth ${QQ##*/}
+    else
+        cls
+        echo ""
+        echo "請在 www 專案中(執行)"
+    fi
+else
+    ## 專案底下
+    cd ~/www/$1
+
+    ## 更新  composer這個指令版本
+    composer selfupdate
+
+    ## 安裝 ul
+    ## [npm install && npm run dev]  需要下面的這一個先跑
+    ## composer require laravel/ui     ## 方法A
+    composer update
+    composer dump-autoload
+    composer require laravel/ui --dev  ## 方法B
+    composer require laravel/ui "^2.0"
+    ## 如果錯誤修改這個   composer.json  "require": 
+    ## 使用 ul
+    ## 專案/resources/views/auth
+    ## 產生............[auth/login.blade.php ..等等文件
+    php artisan ui vue --auth
+    ## 引導腳手架已成功安裝。
+    ## 請運行“ npm install && npm run dev”來編譯新的腳手架。
+
+
+    # 建立含有使用者認證的框架（bootstrap 版本）
+    # php artisan ui bootstrap --auth
+    # 建立含有使用者認證的框架（vue 版本）
+    # php artisan ui vue --auth
+    # 建立含有使用者認證的框架（React 版本）
+    # php artisan ui react --auth
+    
+
+
+    ## https://www.codepeople.cn/2019/10/09/CentOS7.4-install-nodejs/
+    ##
+    ############# 安裝 npm
+    # 安裝訊息
+    # $ yum info epel-release
+    # 安裝
+    yum -y install epel-release
+    yum -y install nodejs
+    # 版本
+    # $ node -v
+    ############# npm 指令安裝完成
+
+    ### 找不到要導入的樣式表。
+    ### // Bootstrap
+    ### @import '~bootstrap/scss/bootstrap';
+    ### App.scss
+    npm install bootstrap
+
+    ## 安裝npm
+    ## composer install npm ## 他建議下一行安裝
+
+    ## 這個 是錯誤指令
+    ##  composer require npm
+
+
+    #yum install nodejs
+
+
+
+    ## 安裝  auto
+    ##
+    ## 安裝 相關的檔案 [app.css ... app.js]
+    #/css/app.css   177 KiB  /js/app  [emitted]  /js/app
+    #/js/app.js  1.39 MiB  /js/app  [emitted]  /js/app
+    npm install && npm run dev
+fi
+
+
+### 刪除的寫法
+# composer remove filp/whoops
+# composer remove laravel/framework
+# 
+# https://laracasts.com/discuss/channels/laravel/composer-require-laravelui-error?page=1#reply=586951
+# composer require laravel/ui "^2.0"
+#
+######################################### 這一篇 蠻仔細的
+# https://blog.csdn.net/LJFPHP/article/details/82289555
+# 不能要求自己 composer require laravel/laravel
+#
+################################################## https://github.com/laravel/passport/issues/774
+# composer require paragonie/random_compat:2.*
+# composer require laravel/passport
+#
+# composer require paragonie/random_compat=~2.0
+# composer require laravel/passport=~4.0

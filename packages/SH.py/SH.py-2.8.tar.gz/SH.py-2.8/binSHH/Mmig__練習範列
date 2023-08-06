@@ -1,0 +1,29 @@
+#!/bin/bash
+
+
+###  Migration 初始化
+### 利用 .env 檔案設定，在資料庫內建立一個 migrations 的資料表!
+### 建立過程中，亦對資料庫進行連線測試!
+php artisan migrate:install
+
+
+
+### 可在XP執行[在專案跟目錄]
+### laravel]# 
+php artisan make:migration create_qqkk_table
+### 在專案 ./laravel/database/migrations
+# Schema::create('qqkk', function (Blueprint $table)
+# {
+# }
+### 建立資料表
+### 2020_02_06_011549_create_qqkk_table  
+php artisan migrate
+
+
+
+
+### 查看
+### 類似 ls -al   ./database/migrations
+php artisan migrate:status
+
+

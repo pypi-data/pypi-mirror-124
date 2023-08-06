@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+cd ~/SH
+
+git reset --hard HEAD~
+
+git pull
+
+
+###
+
+okSH

@@ -1,0 +1,22 @@
+#!/bin/bash
+###########
+# 恢復 chmod 全縣
+# /lib64/ld-linux-x86-64.so.2  /bin/chmod +x /bin/chmod
+
+### 清空
+sh ./bin/BinDel
+### 自己
+rm -rf /usr/bin/ok
+chmod +x `pwd`/ok
+ln `pwd`/ok  /usr/bin
+
+
+
+echo SH目錄位置: `pwd`
+##########  git clone https://github.com/moon-start/SH.git
+chmod +x `pwd`/bin/*
+
+ln `pwd`/bin/*  /usr/bin
+
+
+

@@ -1,0 +1,17 @@
+#!/bin/bash
+# 另一種實現的方法：
+# ${var##*/}就是把變量var最後一個/以及左邊的內容去掉
+# ${var%/*}就是把變量var最後一個/以及右邊的內容去掉
+###
+# echo -n "印出完整路徑 "; echo $filename
+# echo -n "取出路徑 "; echo ${filename%\/*}
+# echo -n "取出檔名 "; echo ${filename##*/}
+# echo -n "取出副檔名 "; echo ${filename##*.}
+# echo -n "去掉最後的副檔名 "; echo ${filename%.*}
+
+### 當前目錄的底下bin
+cd /usr/bin
+
+echoSH ./*
+
+#rm -rf ./${@##*/}

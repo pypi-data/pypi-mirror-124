@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+## 網路斷線
+
+
+## 重新啟動 服務
+systemctl restart php-fpm
+
+
+## 重新啟動 專案
+setsebool httpd_can_network_connect_db 1

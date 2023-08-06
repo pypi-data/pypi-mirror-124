@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+ls -d */
+
+
+ls -l|grep ^d
