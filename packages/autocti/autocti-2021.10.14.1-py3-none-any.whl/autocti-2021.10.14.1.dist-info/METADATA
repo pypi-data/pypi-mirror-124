@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: autocti
+Version: 2021.10.14.1
+Summary: PyAutoCTI: Automated Charge Transfer Inefficiency Modeling
+Home-page: https://github.com/jammy2211/PyAutoCTI
+Author: James Nightingale and Richard Hayes
+Author-email: james.w.nightingale@durham.ac.uk
+License: MIT License
+Keywords: cli
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: autofit (==2021.10.14.1)
+Requires-Dist: autoarray (==2021.10.14.1)
+Requires-Dist: astropy (>=3.0.0)
+Requires-Dist: matplotlib (>=3.0.3)
+Requires-Dist: autoconf (==2021.10.14.1)
+
+# PyAutoCTI
+Coming Soon
+
+
