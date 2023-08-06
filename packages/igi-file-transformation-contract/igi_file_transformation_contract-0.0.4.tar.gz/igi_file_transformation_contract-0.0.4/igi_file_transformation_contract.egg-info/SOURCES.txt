@@ -1,0 +1,9 @@
+setup.py
+igi_file_transformation_contract/__init__.py
+igi_file_transformation_contract/exceptions.py
+igi_file_transformation_contract/interface.py
+igi_file_transformation_contract/result.py
+igi_file_transformation_contract.egg-info/PKG-INFO
+igi_file_transformation_contract.egg-info/SOURCES.txt
+igi_file_transformation_contract.egg-info/dependency_links.txt
+igi_file_transformation_contract.egg-info/top_level.txt
