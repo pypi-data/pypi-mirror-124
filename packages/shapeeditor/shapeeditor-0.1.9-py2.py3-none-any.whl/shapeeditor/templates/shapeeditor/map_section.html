@@ -1,0 +1,32 @@
+<!-- {% verbatim %} -->
+<div class="accordion" id="accordion_map">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading_map">
+      <button
+        class="accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse_map"
+        aria-expanded="true"
+        aria-controls="collapse_map"
+      >
+        Show/Hide Map
+      </button>
+    </h2>
+    <div
+      class="accordion-collapse collapse show"
+      id="collapse_map"
+      aria-labelledby="heading_map"
+      data-bs-parent="#accordion_map"
+    >
+      <div class="accordion-body">
+        <div id="fullscreen-view" class="fullscreen">
+          <!-- OpenLayers + OpenStreetMap -->
+          <div tabindex="1" id="map_container" class="map_container">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- {% endverbatim %} -->
