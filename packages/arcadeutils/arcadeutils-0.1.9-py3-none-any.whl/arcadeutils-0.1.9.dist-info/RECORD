@@ -1,0 +1,10 @@
+arcadeutils/README.md,sha256=WunmgPymDt_M9EQvuOQxyKhmgmopHVkvijzFjNn8wvY,10619
+arcadeutils/__init__.py,sha256=_zvOAHlHQwOUGAe0S7FeP0b6hrELVM8owDOVlBU5t5E,188
+arcadeutils/binary.py,sha256=XfhW6Zf7KU4Fh5NFV9NWA2vKpSh2--TP-6z-rHOlGLQ,12765
+arcadeutils/filebytes.py,sha256=AtCLVv7rPuDn3EABJzHI2BgcxtFE8cydKObV8dSbtlI,20250
+arcadeutils/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arcadeutils-0.1.9.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+arcadeutils-0.1.9.dist-info/METADATA,sha256=-WQU7ATwyJlJ2s9EKX9ej4hyRSyPXPY-Z-UypaQtkuE,11049
+arcadeutils-0.1.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+arcadeutils-0.1.9.dist-info/top_level.txt,sha256=n9D-EWos79L3eU1vDCeeml7KjlcFCE3KvG3lH1E4gnQ,12
+arcadeutils-0.1.9.dist-info/RECORD,,
