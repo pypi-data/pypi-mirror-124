@@ -1,0 +1,13 @@
+LICENSE
+README.txt
+setup.py
+WServer_qdk_beta.egg-info/PKG-INFO
+WServer_qdk_beta.egg-info/SOURCES.txt
+WServer_qdk_beta.egg-info/dependency_links.txt
+WServer_qdk_beta.egg-info/requires.txt
+WServer_qdk_beta.egg-info/top_level.txt
+wserver_qdk/__init__.py
+wserver_qdk/main.py
+wserver_qdk/tools.py
+wserver_qdk/tests/__init__.py
+wserver_qdk/tests/main_test.py

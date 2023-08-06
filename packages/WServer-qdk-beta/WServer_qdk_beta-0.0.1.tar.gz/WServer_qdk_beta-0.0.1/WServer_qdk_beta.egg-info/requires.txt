@@ -1,0 +1,4 @@
+qodex_pi
+wsqluse
+gc_qdk
+wta
