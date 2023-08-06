@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: TFST
+Version: 0.1
+Summary: Time-Frequency-Scale Transform
+Home-page: https://github.com/Manza12/TFST
+Author: Gonzalo Romero-García
+Author-email: tritery@hotmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Time,Frequency,Scale,Transform,Signal Processing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
