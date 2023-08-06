@@ -1,0 +1,4 @@
+[console_scripts]
+rupy = violence.ru.ru:__main__
+unrupy = violence.ru.ru:__unrupy__
+

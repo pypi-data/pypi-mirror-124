@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+violence/__init__.py
+violence.py.egg-info/PKG-INFO
+violence.py.egg-info/SOURCES.txt
+violence.py.egg-info/dependency_links.txt
+violence.py.egg-info/entry_points.txt
+violence.py.egg-info/top_level.txt
+violence/ru/__init__.py
+violence/ru/ru.py
+violence/utils/__init__.py
+violence/utils/puts.py
+violence/utils/raw_input.py
