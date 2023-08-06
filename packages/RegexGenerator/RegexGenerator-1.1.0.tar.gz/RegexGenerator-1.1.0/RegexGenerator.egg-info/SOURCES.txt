@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+RegexGenerator/__init__.py
+RegexGenerator/regex_generator.py
+RegexGenerator.egg-info/PKG-INFO
+RegexGenerator.egg-info/SOURCES.txt
+RegexGenerator.egg-info/dependency_links.txt
+RegexGenerator.egg-info/top_level.txt
