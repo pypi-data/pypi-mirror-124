@@ -1,0 +1,4 @@
+aiohttp
+beautifulsoup4
+disnake
+markdownify==0.6.1
