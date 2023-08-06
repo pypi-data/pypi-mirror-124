@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: t2s
+Version: 2021.1
+Summary: Python based toolkit for writing Command-Line Interface applications
+Home-page: https://quo.rtfd.io
+Author: Gerrishon Sirere
+Author-email: secretum.inc@pm.me
+Maintainer: Secretum Inc.
+Maintainer-email: secretum.inc@pm.me
+License: MIT
+Project-URL: Donate, https://tinyurl.com/ygaj5fwj
+Project-URL: Documentation, https://quo.rtfd.io
+Project-URL: Changes, https://quo.readthedocs.io/en/latest/changes.html
+Project-URL: Source Code, https://github.com/secretum-inc/quo
+Project-URL: Issue Tracker, https://github.com/secretum-inc/quo/issues/
+Project-URL: Twitter, https://twitter.com/secretum_inc
+Project-URL: Chat, https://gitter.im/secretum-inc
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+Requires-Dist: quo ; platform_system == "Windows"
+Requires-Dist: six ; python_version < "3.8"
+
+# t2s
+
+**t2s** (*Text-to-Speech*), a Python library and CLI tool to interface with Google Translate's text-to-speech API. 
+Write spoken `mp3` data to a file, a file-like object (bytestring) for further audio manipulation, or `stdout`. Or simply pre-generate Google Translate TTS request URLs to feed to an external program.
+<http://t2s.readthedocs.org/>
+
+[![PyPI version](https://img.shields.io/pypi/v/t2s.svg)](https://pypi.org/project/t2s/)
+[![Python versions](https://img.shields.io/pypi/pyversions/t2s.svg)](https://pypi.org/project/gTTS/)
+[![Tests workflow](https://github.com/secretum-inc/t2s/workflows/Tests/badge.svg)](https://github.com/secretum-inc/t2s/actions)
+[![codecov](https://codecov.io/gh/pndurette/gTTS/branch/master/graph/badge.svg)](https://codecov.io/gh/pndurette/gTTS)
+[![Commits Since](https://img.shields.io/github/commits-since/secretum-inc/t2s/latest.svg)](https://github.com/secretum-inc/t2s/commits/)
+[![PyPi Downloads](http://pepy.tech/badge/t2s)](http://pepy.tech/project/t2s)
+[![Buy me a Coffee](https://img.shields.io/badge/buy%20me%20a-coffee-orange)](https://www.buymeacoffee.com/pndurette)
+
+## Features
+
+-   Customizable speech-specific sentence tokenizer that allows for unlimited lengths of text to be read, all while keeping proper intonation, abbreviations, decimals and more;
+-   Customizable text pre-processors which can, for example, provide pronunciation corrections;
+
+### Installation
+
+    $ pip install t2s
+
+### Quickstart
+
+Command Line:
+
+    $ t2s-cli 'hello' --output hello.mp3
+
+Module:
+
+    >>> from t2s import T2S
+    >>> tts = T2S('hello')
+    >>> tts.save('hello.mp3')
+
+See <http://t2s.readthedocs.org/> for documentation and examples.
+
+### Disclaimer
+
+This project is *not* affiliated with Google or Google Cloud. Breaking upstream changes *can* occur without notice. This project is leveraging the undocumented [Google Translate](https://translate.google.com) speech functionality and is *different* from [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech/).
+
+### Project
+
+-   [Questions & community](https://github.com/secretum-inc/t2s/discussions)
+-   [Changelog](CHANGELOG.rst)
+-   [Contributing](CONTRIBUTING.rst)
+
+### Licence
+
+[The MIT License (MIT)](LICENSE) Copyright © 2014-2021 Pierre Nicolas Durette & [Contributors](https://github.com/pndurette/gTTS/graphs/contributors)
+
+
