@@ -1,0 +1,10 @@
+COPYING
+README.md
+aiocurl.py
+pyproject.toml
+setup.cfg
+aiocurl.egg-info/PKG-INFO
+aiocurl.egg-info/SOURCES.txt
+aiocurl.egg-info/dependency_links.txt
+aiocurl.egg-info/requires.txt
+aiocurl.egg-info/top_level.txt
