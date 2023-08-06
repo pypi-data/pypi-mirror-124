@@ -1,0 +1,8 @@
+README.md
+setup.py
+jnumpy/__init__.py
+jnumpy.egg-info/PKG-INFO
+jnumpy.egg-info/SOURCES.txt
+jnumpy.egg-info/dependency_links.txt
+jnumpy.egg-info/requires.txt
+jnumpy.egg-info/top_level.txt
