@@ -1,0 +1,3 @@
+[console_scripts]
+dthok = src.cli:main
+
