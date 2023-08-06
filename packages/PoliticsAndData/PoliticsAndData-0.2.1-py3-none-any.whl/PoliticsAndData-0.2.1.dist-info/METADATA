@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PoliticsAndData
+Version: 0.2.1
+Summary: Easily summarize the csv data files from https://politicsandwar.com/data/
+Home-page: https://github.com/pythonian23/PoliticsAndData
+Author: pythonian23
+License: MPL-2.0
+Platform: UNKNOWN
+Requires-Dist: requests (>=2.0.0)
+Requires-Dist: pytz (>=2020.0)
+Requires-Dist: regex (>=2020.0.0)
+
+UNKNOWN
+
