@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: proai
+Version: 0.0.6
+Summary: Tools and AI for building prosocial AI algorithms.
+Home-page: https://gitlab.com/prosocialai/proai
+Author: Hobson Lane (ProAI.org)
+Author-email: hobson@proai.org
+License: Hippocratic License (MIT + Do No Harm)
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: coverage
+Requires-Dist: flake8
+Requires-Dist: GitPython
+Requires-Dist: pandas
+Requires-Dist: pathlib
+Requires-Dist: pathlib2
+Requires-Dist: pycrypto
+Requires-Dist: pytest-cov
+Requires-Dist: python-dotenv (>=0.5.1)
+Requires-Dist: Sphinx
+Requires-Dist: tqdm
+Requires-Dist: wheel
+
+UNKNOWN
+
