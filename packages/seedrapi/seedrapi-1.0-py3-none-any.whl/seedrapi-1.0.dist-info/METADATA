@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: seedrapi
+Version: 1.0
+Summary: API wrapper for seedrapi.cc
+Home-page: https://github.com/Spratiher9/Seedr-Client
+Author: Souvik Pratiher
+Author-email: spratiher9@gmail.com
+License: MIT License
+Download-URL: https://github.com/Spratiher9/Seedr-Client/releases/tag/v1.0
+Keywords: seedrapi,seedrapi-api,seedrapi.cc,seedrapi-async,seedrapi-python-client
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anyio
+Requires-Dist: certifi
+Requires-Dist: charset-normalizer
+Requires-Dist: h11
+Requires-Dist: httpcore
+Requires-Dist: httpx
+Requires-Dist: idna
+Requires-Dist: requests
+Requires-Dist: rfc3986
+Requires-Dist: sniffio
+Requires-Dist: urllib3
+Requires-Dist: wheel
+
+# Seedr Python Client
+# <a href="https://ibb.co/jL6D9k8"><img src="https://i.ibb.co/wK04Zhd/seedr-client-head.png" class="centerImage" alt="seedr-client-head" border="0"></a>
+
+### <img src="https://i.ibb.co/7n8sb9F/seedr-icon-stream.png" alt="seedr" height="75px"> Seedr API built with 💛 by [**Souvik Pratiher**](https://www.linkedin.com/in/souvik-pratiher-32bb3a133/) 
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Spratiher9)
+
+
+## Features
+* Intuitive user-friendly 🤓 library
+* Contains both asynchronous 🏁 and synchronous 🏴 methods
+* Blazing fast performance 🐱‍🏍
+
+## Installation
+
+```
+pip install seedrapi
+```
+
+## Usage
+
+```py
+# Get the client
+from seedrapi.api import SeedrAPI
+
+# For the asynchronous client use the below import statement instead of the above one
+# from seedrapi.api_async import SeedrAPI
+
+# Login to account. You can login to your account by email and password or via access token.
+# After login an access token will retrieve. Don't care, It's for devs.
+seedr = SeedrAPI(email='example@email.com', password='example')
+
+# Get all files and folders in your account
+files = seedr.get_drive()
+
+# Add magnet to your account
+tor = seedr.add_torrent('magnet:?xt=urn:btih:c12fe1c06bba254a9dc9f519b335aa7c1367a88a')
+print(tor)  # This may retrieve some info about torrent etc...
+
+# Go to a dir and get details
+dir = seedr.get_folder('folder_id')
+
+# Get direct link for a file
+file = seedr.get_file('file_id')
+
+# Delete a folder
+seedr.delete_folder('folder_id')
+
+# Delete a file
+seedr.delete_file('file_id')
+
+# Rename a file
+seedr.rename('file_id', 'new_name')
+```
+
+
+
