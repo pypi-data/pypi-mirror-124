@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mongantic
+Version: 0.0.1
+Summary: Bridge between Pydantic and MongoDB
+Home-page: UNKNOWN
+Author: Austin Howard
+Author-email: austin@tangibleintelligence.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.6.1
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic (<2,>=1.8.2)
+
+# mongantic
+Pydantic / MongoDB bridge
+
+
