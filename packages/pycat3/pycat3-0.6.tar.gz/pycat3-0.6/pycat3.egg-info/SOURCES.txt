@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pycat3/__init__.py
+pycat3/pyads_cls.py
+pycat3.egg-info/PKG-INFO
+pycat3.egg-info/SOURCES.txt
+pycat3.egg-info/dependency_links.txt
+pycat3.egg-info/requires.txt
+pycat3.egg-info/top_level.txt
