@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pprintex/__init__.py
+src/pprintex/pp_new.py
+src/printex.egg-info/PKG-INFO
+src/printex.egg-info/SOURCES.txt
+src/printex.egg-info/dependency_links.txt
+src/printex.egg-info/top_level.txt
