@@ -1,0 +1,8 @@
+bareasgi_cors/__init__.py,sha256=ZsAnTu50w15mi9ULkylwGm6w_8z22DFNL57AjDHF9JA,167
+bareasgi_cors/cors_provider.py,sha256=qF48bREem6BCKuIPCHHqFgJ6VX_9k1E3q8CEkaPqUsQ,9455
+bareasgi_cors/helpers.py,sha256=B3EqkctUBOWDh9ycW5JQwTdV7CNJaA2bcOv7h82izek,1985
+bareasgi_cors/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bareasgi_cors-4.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bareasgi_cors-4.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+bareasgi_cors-4.1.0.dist-info/METADATA,sha256=v2ObUEoaZAqu0iJtBtEY-Cs5-5gWVzi3IQWAbm9HsPY,1850
+bareasgi_cors-4.1.0.dist-info/RECORD,,
