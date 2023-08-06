@@ -1,0 +1,15 @@
+lmfit_varpro/__init__.py,sha256=Tzwd-KIG6ySEBY7ctWzRhYbcNa7YOz5K_hkU_J8DGGk,523
+lmfit_varpro/constraints.py,sha256=lRYzeg4I30JP3U_GUIXuSGS0AQEiZiYUYoGxnQFvPr8,1297
+lmfit_varpro/qr_decomposition.py,sha256=b7HrjMoTBoeFYz7zrL92SK8A9bXZhIxeCDGS6zIrx98,667
+lmfit_varpro/result.py,sha256=sfmm3Z1nyvxbKh-u9HradcAf6KuA69OkFeHxd-yA228,4215
+lmfit_varpro/separable_model.py,sha256=lIDzRSBIFrBaRJVOpNq9KfHjZJcHRZGb2ehQvh-GSTU,2115
+lmfit_varpro/util.py,sha256=XUnGdzc9gSlqvPQ1Wve8Ga3G_0y8bbcfk8LCc8jfdPo,214
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_helpers.py,sha256=0QNWFM5vy1JY5BDYy1Axi7Bx0N6fd-EkIdVh4dxLxrM,718
+tests/test_simple_kinetic_model.py,sha256=Va6veNXvTXQ3ZO8SY8pUfXCr-nG_wn6uctlznrxdDRI,4757
+lmfit_varpro-0.0.5.post1.dist-info/AUTHORS.rst,sha256=CxDgf_sMyTCcvEcXXAkhhhs-Y_Yv-GfV69gFE8cfLJI,419
+lmfit_varpro-0.0.5.post1.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+lmfit_varpro-0.0.5.post1.dist-info/METADATA,sha256=y68ATGIZRmGIOoinVBH9y5RERMBXGH5bKiW2hEE1-4I,2898
+lmfit_varpro-0.0.5.post1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+lmfit_varpro-0.0.5.post1.dist-info/top_level.txt,sha256=PuICUPOPkO-T3pmDwJoEqYx0YMMX5dC4LM0Uq1mK6ng,19
+lmfit_varpro-0.0.5.post1.dist-info/RECORD,,

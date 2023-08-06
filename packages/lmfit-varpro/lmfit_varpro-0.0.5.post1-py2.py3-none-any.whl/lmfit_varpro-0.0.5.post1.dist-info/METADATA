@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: lmfit-varpro
+Version: 0.0.5.post1
+Summary: A variable projection implementation for Python/lmfit.
+Home-page: https://github.com/glotaran/lmfit-varpro
+Author: Joris Snellenburg, Joern Weissenborn
+Author-email: j.snellenburg@gmail.com,
+                    joern.weissenborn@gmail.com
+License: GPLv3
+Download-URL: https://github.com/glotaran/lmfit-varpro/tarball/master
+Keywords: alpha
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: lmfit
+
+# lmfit-varpro
+
+[![latest release](https://pypip.in/version/lmfit-varpro/badge.svg)](https://pypi.org/project/lmfit-varpro/)
+[![Build Status](https://travis-ci.org/glotaran/lmfit-varpro.svg?branch=master)](https://travis-ci.org/glotaran/lmfit-varpro)
+[![Documentation Status](https://readthedocs.org/projects/lmfit-varpro/badge/?version=latest)](https://lmfit-varpro.readthedocs.io/en/latest/?badge=latest)
+[![Coverage Status](https://coveralls.io/repos/github/glotaran/lmfit-varpro/badge.svg?branch=master)](https://coveralls.io/github/glotaran/lmfit-varpro?branch=master)
+
+NOTE: this package is deprecated and its repository archived.
+
+## Description
+
+Python based implementation of variable projection extending [lmfit-py](https://github.com/lmfit/lmfit-py).
+
+## Deprecation warning
+
+This package has been deprecated; the functionality it provided has been integrated into the [pyglotaran](https://github.com/glotaran/pyglotaran) package.
+
+An early adopter version of this package was released on pypi, but it is no longer maintained. This repository is archived to serve the purpose of providing an example of how one could extend a popular Python fitting library [lmfit-py](https://github.com/lmfit/lmfit-py) with support for variable projection (varpro).
+
+It should be noted that this code base has not been extensively validated, beyond the checks that the unit tests provide. Anyone who wishes to re-use parts of the `lmfit-varpro` code base is responsible for their own due diligence.
+
+## Credits
+
+The credits can be found in the documentations [credits](https://lmfit-varpro.readthedocs.io/en/latest/credits.html) section
+
+Special thanks goes out to Stefan Schütz, who provided an early C++ prototype and the first Python proof-of-concept code to build on.
+
+
