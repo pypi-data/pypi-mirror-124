@@ -1,0 +1,15 @@
+napari_imaris_loader/__init__.py,sha256=PaOZs2t7kttBYdN7KExu-8qm_EhtENraodREI46LsW4,328
+napari_imaris_loader/_version.py,sha256=r-gvXl1xffrsR8F0kZZIDVPZhINWa52JlJdVo6tF-Rg,142
+napari_imaris_loader/controls.py,sha256=f_MUMAx2ehoJS27Zan69wWIlQgG2dah83nIAiIfTdQ4,1612
+napari_imaris_loader/h5layer.py,sha256=IWuazH_dCoPcqFSvmfc30UP7YJha0POjOJtx0Rg8Dxw,1233
+napari_imaris_loader/ims.py,sha256=WE9wDUsEN_M19eGpfklDLqGA-8Pl2EGzkdnt-9xQvvk,19555
+napari_imaris_loader/reader.py,sha256=xPAeMRVfA1iwMG4p_OTIPVHJTqyqkmCfFtDxZKDtFw0,6593
+napari_imaris_loader/resolution_change_widget.py,sha256=4Y6nNQs7I7jJAM_bIlKkqWEtMC14byEUoMH1x7tuccE,2933
+napari_imaris_loader/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_imaris_loader/_tests/test_reader.py,sha256=gOy02C1IqFea7NVMHyeAJe9_4WbHunX_MXXgsAFV3OQ,829
+napari_imaris_loader-0.0.4.dist-info/LICENSE,sha256=70MROrMnX7S0j67yJ6RflMBOxzCi4kEyBd2RvsCYOpE,1492
+napari_imaris_loader-0.0.4.dist-info/METADATA,sha256=EXaCvkhxjBPdd2-ce23xeQvGkkgGmjKgMOqBY7jsmwE,5532
+napari_imaris_loader-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+napari_imaris_loader-0.0.4.dist-info/entry_points.txt,sha256=AMunvUppr9R1yHRzreriqJek9AzfzOSCYypvBdGYfZ8,61
+napari_imaris_loader-0.0.4.dist-info/top_level.txt,sha256=A7q7WHypSTDcBSIzwVVPB8ZsH9oV6NmzENvbiKMJChw,21
+napari_imaris_loader-0.0.4.dist-info/RECORD,,
