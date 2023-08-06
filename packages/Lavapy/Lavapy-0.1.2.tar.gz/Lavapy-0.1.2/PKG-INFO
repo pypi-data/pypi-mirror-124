@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Lavapy
+Version: 0.1.2
+Summary: A powerful and robust python library for interacting with Lavalink.
+Home-page: UNKNOWN
+Author: Aspect1103
+Author-email: jack.ashwell1@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
