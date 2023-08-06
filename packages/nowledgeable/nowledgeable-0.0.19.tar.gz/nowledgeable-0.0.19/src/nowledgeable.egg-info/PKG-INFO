@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nowledgeable
+Version: 0.0.19
+Summary: Auto checker
+Home-page: https://www.python.org/sigs/distutils-sig/
+Author: Laurent CETINSOY
+Author-email: laurent.cetinsoy+pypi@nowledgeable.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/nowledgeable/nowledgeable/-/incidents
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+file: README.md
+
