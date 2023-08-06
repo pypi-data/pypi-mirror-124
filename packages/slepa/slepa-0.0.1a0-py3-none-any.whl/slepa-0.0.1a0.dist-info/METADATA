@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: slepa
+Version: 0.0.1a0
+Summary: an interpretable materials design tool based on self-learning population annealing
+Home-page: https://github.com/tsudalab/EntropicPopulationAnnealing
+Author: SLEPA developers
+Author-email: author@example.com
+License: GPLv3
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: physbo
+Requires-Dist: modlamp
+
+<div align="center">
+
+# Self-Learning Entropic Population Annealing
+
+
+</div>
+
+## Description
+This is a Python package that is designed for interpretable materials design in combinatorial search spaces based on entropic population annealing.
+
+## Required Packages
+
+- Python >= 3.6
+- numpy
+- scipy
+- physbo
+- modlamp
+
+## Install
+
+- From PyPI (recommended)
+
+```bash
+pip3 install slepa
+```
+- To update modlamp to the latest version, run the following:
+
+```bash
+pip install --upgrade slepa
+```
+
+- From source (for developers)
+    1. Update pip (>= 19.0)
+
+        ```bash
+        pip3 install -U pip
+        ```
+
+    2. Download or clone the github repository
+
+        ```
+        git clone https://github.com/tsudalab/EntropicPopulationAnnealing
+        ```
+
+    3. Install via pip
+        ``` bash
+        pip3 install ./SLEPA
+        ```
+
+
+## Uninstall
+
+```bash
+pip3 uninstall slepa
+```
+
+## Usage
+
+['examples/simple.py'](https://github.com/tsudalab/EntropicPopulationAnnealing) is a simple example.
+
+## License
+
+SLEPA package is distributed under GNU General Public License version 3 (GPL v3) or later.
+
+### Copyright
+
+© *2021- The University of Tokyo. All rights reserved.*
+
