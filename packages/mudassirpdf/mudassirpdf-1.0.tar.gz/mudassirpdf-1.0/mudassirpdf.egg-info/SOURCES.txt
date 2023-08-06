@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mudassir/__init__.py
+mudassir/pdf2image.py
+mudassir/pdf2text.py
+mudassirpdf.egg-info/PKG-INFO
+mudassirpdf.egg-info/SOURCES.txt
+mudassirpdf.egg-info/dependency_links.txt
+mudassirpdf.egg-info/top_level.txt
