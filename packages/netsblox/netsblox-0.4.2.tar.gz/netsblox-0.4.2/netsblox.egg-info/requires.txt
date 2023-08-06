@@ -1,0 +1,8 @@
+darkdetect
+jedi
+mss
+numpy
+parso
+pillow
+requests
+websocket-client
