@@ -1,0 +1,6 @@
+README.md
+setup.py
+blackmail.egg-info/PKG-INFO
+blackmail.egg-info/SOURCES.txt
+blackmail.egg-info/dependency_links.txt
+blackmail.egg-info/top_level.txt
