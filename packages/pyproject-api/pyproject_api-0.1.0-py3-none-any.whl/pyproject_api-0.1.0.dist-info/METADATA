@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: pyproject-api
+Version: 0.1.0
+Summary: API to interact with the python pyproject.toml based projects
+Home-page: http://pyproject-api.readthedocs.org
+Author: Bernát Gábor
+Author-email: gaborjbernat@gmail.com
+Maintainer: Bernát Gábor
+Maintainer-email: gaborjbernat@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/tox-dev/pyproject-api
+Project-URL: Tracker, https://github.com/tox-dev/pyproject-api/issues
+Keywords: virtual,environments,isolated,testing
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: tox
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: packaging
+Requires-Dist: tomli (>=1.2)
+Provides-Extra: docs
+Requires-Dist: furo (>=2021.8.17b43) ; extra == 'docs'
+Requires-Dist: sphinx (>=4.1) ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints (>=1.12) ; extra == 'docs'
+Provides-Extra: testing
+Requires-Dist: covdefaults (>=2) ; extra == 'testing'
+Requires-Dist: pytest (>=6.2) ; extra == 'testing'
+Requires-Dist: pytest-cov (>=3) ; extra == 'testing'
+Requires-Dist: pytest-mock (>=3.6) ; extra == 'testing'
+Requires-Dist: importlib-metadata (>=4.6.1) ; (python_version < "3.8") and extra == 'testing'
+
+# [`pyproject-api`](https://pyproject-api.readthedocs.io/en/latest/)
+
+[![check](https://github.com/tox-dev/pyproject-api/actions/workflows/check.yml/badge.svg)](https://github.com/tox-dev/pyproject-api/actions/workflows/check.yml)
+[![codecov](https://codecov.io/gh/tox-dev/pyproject-api/branch/rewrite/graph/badge.svg)](https://codecov.io/gh/tox-dev/pyproject-api/branch/rewrite)
+[![Code style:
+black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Documentation Status](https://readthedocs.org/projects/pyproject-api/badge/?version=latest)](https://pyproject-api.readthedocs.io/en/latest/?badge=latest)
+
+
