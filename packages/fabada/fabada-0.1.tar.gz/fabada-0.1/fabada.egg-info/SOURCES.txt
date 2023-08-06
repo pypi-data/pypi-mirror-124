@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+fabada/__init__.py
+fabada.egg-info/PKG-INFO
+fabada.egg-info/SOURCES.txt
+fabada.egg-info/dependency_links.txt
+fabada.egg-info/requires.txt
+fabada.egg-info/top_level.txt

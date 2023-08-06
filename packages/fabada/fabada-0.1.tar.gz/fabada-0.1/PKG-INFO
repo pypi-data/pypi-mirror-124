@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: fabada
+Version: 0.1
+Summary: Fully Adaptive Bayesian Algorithm for Data Analysis FABADA
+Home-page: https://github.com/PabloMSanAla/fabada
+Author: Pablo M. Sánchez Alarcón
+Author-email: pablom.sanala@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/PabloMSanAla/fabada/archive/refs/tags/v_01.tar.gz
+Project-URL: Bug Tracker, https://github.com/PabloMSanAla/fabada/issues
+Description: FABADA is a novel non-parametric noise reduction technique which arise from the point of view of Bayesian inference that iteratively evaluates possible smoothed models of the data, obtaining an estimation of the underlying signal that is statistically compatible with the noisy measurements. Iterations stop based on the evidence $E$ and the $\chi^2$ statistic of the last smooth model, and we compute the expected value of the signal as a weighted average of the smooth models.
+        You can find the entire paper describing the new procces in (introduce link to arxiv).
+Keywords: Astronomy,Image Denoising,Bayesian
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: Free for non-commercial use
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
