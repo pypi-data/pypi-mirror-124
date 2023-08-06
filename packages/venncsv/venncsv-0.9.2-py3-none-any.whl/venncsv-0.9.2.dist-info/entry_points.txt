@@ -1,0 +1,3 @@
+[console_scripts]
+venncsv=venncsv.__main__:main
+
