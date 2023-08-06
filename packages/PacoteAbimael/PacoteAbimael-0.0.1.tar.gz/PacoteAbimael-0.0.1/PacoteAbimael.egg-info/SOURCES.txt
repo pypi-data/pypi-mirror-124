@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+PacoteAbimael/__init__.py
+PacoteAbimael/modulo.py
+PacoteAbimael.egg-info/PKG-INFO
+PacoteAbimael.egg-info/SOURCES.txt
+PacoteAbimael.egg-info/dependency_links.txt
+PacoteAbimael.egg-info/requires.txt
+PacoteAbimael.egg-info/top_level.txt
