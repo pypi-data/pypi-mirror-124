@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ai-common
+Version: 0.0.1
+Summary: AI platform helper library
+Home-page: https://bitbucket.org/TIKI-Institut/ai-common-python
+Author: TIKI GmbH
+Author-email: info@tiki-institut.com
+License: http://www.apache.org/licenses/LICENSE-2.0
+Description: Blank ai-common library.
+Platform: UNKNOWN
