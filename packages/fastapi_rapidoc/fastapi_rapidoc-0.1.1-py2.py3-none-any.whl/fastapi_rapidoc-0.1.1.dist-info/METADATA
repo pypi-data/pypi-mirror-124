@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: fastapi_rapidoc
+Version: 0.1.1
+Summary: Quickly add RapiDoc to FastAPI
+Author-email: Mawoka <mawoka-myblock@e.email>
