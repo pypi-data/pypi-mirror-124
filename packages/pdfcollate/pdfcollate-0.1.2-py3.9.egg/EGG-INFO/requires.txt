@@ -1,0 +1,4 @@
+pyinotify
+python-dateutil
+PyPDF4
+pydantic
