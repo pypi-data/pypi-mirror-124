@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aop2db
+Version: 0.1.1
+Summary: Package for generating a relational database of GEO derived information.
+Home-page: https://github.com/brucetony/aop2db
+Author: Bruce Schultz
+Author-email: bruce.schultz@scai.fraunhofer.de
+License: MIT license
+Keywords: aop2db
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
