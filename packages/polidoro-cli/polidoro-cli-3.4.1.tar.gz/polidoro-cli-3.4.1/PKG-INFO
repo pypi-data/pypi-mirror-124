@@ -1,0 +1,198 @@
+Metadata-Version: 2.1
+Name: polidoro-cli
+Version: 3.4.1
+Summary: Generic CLI.
+Home-page: https://github.com/heitorpolidoro/cli
+Author: Heitor Polidoro
+License: unlicense
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Polidoro CLI
+### To install
+
+```
+sudo apt install python3-pip -y
+pip3 install polidoro_cli
+```
+
+Then add to your `.bashrc`
+```
+export PATH="$PATH:$HOME/.local/bin/"
+```
+
+### To use:
+`cli --help`
+
+### Tips:
+Create alias for the CLI commands:
+
+Add in your `.bashrc`
+```
+alias dk='cli docker'
+alias ex='cli elixir'
+alias dj='cli django'
+alias rb='cli ruby'
+alias g='cli git'
+...
+```
+Or run `cli create_aliases` to create aliases for all default CLIs
+### Default CLIs:
+- **Django** [more information](README_DJANGO.md)
+- **Docker:** [more information](README_DOCKER.md)
+- **Elixir:** [more information](README_ELIXIR.md)
+- **Git:** [more information](README_GIT.md)
+- **NPM:** [more information](README_NPM.md)
+- **PyTest:** [more information](README_PYTEST.md)
+- **Ruby:** [more information](README_RUBY.md)
+
+### Creating your own CLI
+To create your CLI just create a file in `~/.cli` with the CLI name `NAME.cli` or `NAME.py` then call it with `cli name` or create an alias for it:
+```shell
+alias name='cli name'
+```
+In the `.cli` file, create aliases similar to the bash
+```
+# git.cli
+ps=git push
+```
+To call run `cli git ps`. Or create an bash alias `alias g=cli git` then run using only `g ps` 
+
+It is possible to create multiples aliases to the same command
+```
+# ruby.cli
+console,c=exec rails console
+```
+You can call using either `rb console` or `rb c`.
+
+You can insert the arguments in the command with `$args`.
+```
+# docker.cli
+bash=docker-compose exec $args bash
+```
+Running `dk bash postgres` will execute `docker-compose exec 'postgres' bash`
+
+It is possible to specify the argument
+```
+# docker.cli
+copy_log,cplog=docker cp $arg0:/logs/$arg1 .
+```
+Running `dk cplog main 2021-03-26.log` will execute `docker cp main:/logs/2021=03=26.log .`
+
+
+To create a command with multiple commands separate by `;`
+```
+# git.cli
+commit_push,cp=git commit -m $args;git push
+```
+Run using `g cp batata` will execute `git commit -m "batata"` then `git push`
+
+**NOTE:** If any command fails, will not execute the other commands
+
+To set some variable use `set NAME=VALE`
+```
+# main.cli
+set CD_PROJ=cd /home/user/workspace/main_project
+
+run=$CD_PROJ;./run
+stop=$CD_PROJ;./stop
+pull=$CD_PROJ;git pull
+```
+So, when you call `main run` the CLI will change the working directory to `.../main_project` and execute `./run`. 
+Same for `main stop` and `main pull` 
+
+There is a special variable called `DEFAULT_COMMAND`, when set will start all commands with the value. 
+```
+# git.cli
+set DEFAULT_COMMAND=git
+
+ps=push
+pl=pull
+commit_push,cp=commit -m "$args";push
+```
+When run `g ps` will execute `git push`. Also works with multiple commands, like `g cp msg` will execute 
+`git commit -m "msg"` then `git push`. Also, when `DEFAULT_COMMAND` is set all commands that is not set in 
+the `.cli` file will be called using the `DEFAULT_COMMAND`. `g fetch` will call `git fetch` even if the command
+`fetch` is not in the `git.cli`, and, when run `--help` will show the `DEFAULT_COMMAND` help then the CLI help.
+
+There is another special variable called `docker`, you can't (shouldn't) set, but you can use. When used will 
+replace the `$docker` with `docker-compose exec $service` if the parameter `-d/--docker` is in the command line.
+The CLI will replace `$service` for the first argument from the command line, if is a valid service,
+or will use the first service with `build` in `docker-compose.yml`.
+
+```
+# elixir.cli
+deps=$docker mix deps.get
+```
+If you call `ex deps` will execute `mix deps.get`, if you call `ex deps -d` will execute `docker-compose exec service mix deps.get`. 
+With the `$docker` variable you can create CLIs that works in the host or in the container.
+
+You can combine things like:
+```
+# elixir.cli
+set DEFAULT_COMMAND=$docker mix
+
+deps=deps.get
+setup=ecto.setup
+reset=ecto.reset
+```
+All commands will run in the host or in the container if `-d/--docker` is in the parameters
+
+You can explicit the command (or replace the `DEFAULT_COMMAND`) passing a dict (Python format) as command.
+```
+# elixir.cli
+set DEFAULT_COMMAND=mix
+
+deps=deps.get
+iex={'command': 'iex -S mix'}
+```
+In this case, when you call `ex iex` will run `iex -S mix` without the `DEFAULT_COMMAND`
+
+| Key | Description |
+| ---: | --- |
+| `command` | The command to execute |
+| `help` | Replace the generated help |
+| `show_cmd` | To print or not the command (default=`True`) |
+| `exit_on_fail` | if `False` will not terminate multiples commands when any one fails (default=`True`) |
+| `messages` | Another dict with Messages to print: <br> `start`: Print the message before any command <br> `success`: Print the message when the command finish with success <br> `error`: Print the message when the command fails <br> `finish`: Print the message regardless the command result |
+| `ANY_THNG` | Will set environment variable
+
+Examples:
+```
+test={
+    'command': '$docker mix test',
+    'MIX_ENV': 'test'
+}
+```
+Will set the environment variable `MIX_ENV` to `test` then run `mix test`
+
+
+---
+To create more complexes command, you can create a `NAME.py` file create a class with the name of the CLI
+annotate the method you want with `@Command` and run the commands with `CLI.execute`
+```
+# git.py
+import os
+
+from polidoro_argument import Command
+from polidoro_cli import CLI
+
+
+class Git(object):
+    @staticmethod
+    @Command(help='Run "git fetch" in all git projects')
+    def fetch_all():
+        for dir in os.listdir():
+            if os.path.isdir(dir):
+                os.chdir(dir)
+                if os.path.exists('.git'):
+                    print(f'Fetching in {dir}...')
+                    CLI.execute('git fetch', show_cmd=False)
+                os.chdir('..')
+```
+
+
+
