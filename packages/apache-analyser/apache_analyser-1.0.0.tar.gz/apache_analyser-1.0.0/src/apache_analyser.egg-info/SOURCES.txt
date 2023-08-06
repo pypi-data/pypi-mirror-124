@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/apache_analyser.egg-info/PKG-INFO
+src/apache_analyser.egg-info/SOURCES.txt
+src/apache_analyser.egg-info/dependency_links.txt
+src/apache_analyser.egg-info/top_level.txt
+src/apache_analyser_package/__init__.py
+src/apache_analyser_package/apache_analyser.py
