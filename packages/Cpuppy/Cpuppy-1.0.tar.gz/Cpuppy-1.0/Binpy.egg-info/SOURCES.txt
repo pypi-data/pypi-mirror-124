@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Binpy.egg-info/PKG-INFO
+Binpy.egg-info/SOURCES.txt
+Binpy.egg-info/dependency_links.txt
+Binpy.egg-info/top_level.txt
+binarylogicgates/__init__.py
