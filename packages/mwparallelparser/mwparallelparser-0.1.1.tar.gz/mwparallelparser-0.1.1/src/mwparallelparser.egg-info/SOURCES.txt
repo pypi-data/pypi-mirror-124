@@ -1,0 +1,15 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/mwparallelparser/__init__.py
+src/mwparallelparser/exceptions.py
+src/mwparallelparser/handler.py
+src/mwparallelparser/lexer.py
+src/mwparallelparser/parser.py
+src/mwparallelparser/rlexer.py
+src/mwparallelparser/tag.py
+src/mwparallelparser.egg-info/PKG-INFO
+src/mwparallelparser.egg-info/SOURCES.txt
+src/mwparallelparser.egg-info/dependency_links.txt
+src/mwparallelparser.egg-info/top_level.txt
