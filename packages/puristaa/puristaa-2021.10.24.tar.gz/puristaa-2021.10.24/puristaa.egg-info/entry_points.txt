@@ -1,0 +1,3 @@
+[console_scripts]
+puristaa = puristaa.cli:app
+
