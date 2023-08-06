@@ -1,0 +1,15 @@
+2d_graph.png
+3d_graph.png
+LICENSE
+MANIFEST.in
+README.md
+comparison_graph.png
+pyproject.toml
+setup.cfg
+setup.py
+src/delanalysis.py
+src/delanalysis.egg-info/PKG-INFO
+src/delanalysis.egg-info/SOURCES.txt
+src/delanalysis.egg-info/dependency_links.txt
+src/delanalysis.egg-info/requires.txt
+src/delanalysis.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+include pyproject.toml
+include *.md
+include LICENSE.txt
+include setup.py
+inplude setup.cfg
+include *.png
