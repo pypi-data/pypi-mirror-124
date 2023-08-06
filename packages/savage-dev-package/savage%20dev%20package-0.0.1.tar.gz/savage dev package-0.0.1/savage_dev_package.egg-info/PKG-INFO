@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: savage-dev-package
+Version: 0.0.1
+Summary: TEST - Not intended for public use!
+Home-page: UNKNOWN
+Author: Savage Music
+Author-email: savagemusicyt@outlook.com
+License: MIT
+Description: This is a test library for python 3.
+        
+        Change Log
+        ===========
+        
+        0.0.1 (22/10/21)
+        -----------------
+        - First Release
+Keywords: savage
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
