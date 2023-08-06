@@ -1,0 +1,69 @@
+rules_metadata:
+  # TODO: Fix this rule's metadata
+  - rule_id: non_car_gcp_sql_database_ssl_required
+    cloud_provider: google_cloud_provider
+    name: Ensure SQL database requires SSL
+    severity: major
+    description: Ensure SQL database requires SSL
+    human_readable_logic: Ensure SQL database requires SSL
+    remediation_steps:
+      terraform: Ensure SQL database requires SSL
+      console: Ensure SQL database requires SSL
+    rule_type: non_context_aware
+    security_layer: networking
+    resource_type:
+      - database
+    supported_iac_types:
+      - terraform
+  - rule_id: non_car_cloud_sql_restrict_trusted_ip
+    cloud_provider: google_cloud_provider
+    name: Ensure that Cloud SQL database instances are not open to the world
+    severity: major
+    description: To minimize attack surface on a Database server instance, only trusted/known and required IP(s) should be allowedto connect to it. An authorized network should not have IPs/networks configured to 0.0.0.0/0 which will allow access to the instance from anywhere in the world. Note that authorized networks apply only to instances with public IPs.
+    human_readable_logic: Cloudrail will review the database instance configuration within your GCP subscription and Terraform plan to ensure that database connections are not permitted from 0.0.0.0/0.
+    remediation_steps:
+      terraform: For the google_sql_database_instance resource, set the authorized Networks parameter under ipConfiguration subblock to value other than 0.0.0.0/0.
+      console:  Follow the guide at <https://console.cloud.google.com/sql/instances> in order to audit and delete any authorized networks with 0.0.0.0/0.
+    rule_type: non_context_aware
+    security_layer: networking
+    resource_type:
+      - database
+    supported_iac_types:
+      - terraform
+  - rule_id: non_car_cloud_sql_database_instance_no_public_ip
+    cloud_provider: google_cloud_provider
+    name: Ensure that Cloud SQL database instances do not have public IPs
+    severity: medium
+    description: It is recommended to configure second generation sql instances to use private IPs and not public IPs to reduce the organization's attack surface.
+    human_readable_logic: Cloudrail will review the database instance configuration within your GCP subscription and Terraform plan to ensure that Google Cloud database instances have 'ipv4_enabled' attribute not set to true.
+    remediation_steps:
+      terraform: For the google_sql_database_instance resources, ensure that ‘ipv4_enabled’ attribute is set to false for Google Cloud SQL database instances.
+      console: Follow the guides at <https://cloud.google.com/sql/docs/mysql/private-ip>  and <https://console.cloud.google.com/iam-admin/orgpolicies/sql-restrictPublicIp>  in order to ensure that private IPs are used instead of public IPs.
+    rule_type: non_context_aware
+    security_layer: networking
+    resource_type:
+      - database
+    supported_iac_types:
+      - terraform
+  - rule_id: non_car_compute_instance_ensure_serial_port_disabled
+    cloud_provider: google_cloud_provider
+    compliance:
+      CIS:
+        1.1.0:
+        - '4.5'
+    name: Ensure ‘Enable connecting to serial ports’ is not enabled for VM Instance
+    severity: major
+    description: The interactive serial console does not support IP-based access restrictions such as IP whitelists. 
+      If the interactive serial console is enabled on an instance, clients can attempt to connect to that instance from any IP address.
+      This allows unwanted access to that instance if they know the correct SSH key, username, project ID, zone, and instance name. 
+      Hence interactive serial console support should be disabled.
+    human_readable_logic: Cloudrail will review the compute instances configuration within your GCP subscription and Terraform plan to ensure that metadata value for serial-port-enable is not set to true.
+    remediation_steps:
+      terraform: For the google_compute_instance resource ensure the metadata serial-port-enable is not set to true (default is false).
+      console: Follow the guides at <https://cloud.google.com/compute/docs/instances/interacting-with-serial-console> in order to disable the serial console access to the compute VM instance.
+    rule_type: non_context_aware
+    security_layer: networking
+    resource_type:
+      - compute
+    supported_iac_types:
+      - terraform
