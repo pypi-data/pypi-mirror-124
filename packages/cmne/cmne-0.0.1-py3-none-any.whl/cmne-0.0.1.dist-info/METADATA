@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cmne
+Version: 0.0.1
+Summary: Contextual Minimum Norm Estimates
+Home-page: https://github.com/chdinh/cmne
+Author: CMNE developers
+Maintainer: Christoph Dinh
+Maintainer-email: christoph.dinh@mne-cpp.org
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/chdinh/cmne/issues
+Project-URL: Source, https://github.com/chdinh/cmne
+Keywords: MEG cerebellum mne python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CMNE
+
+Implementation of the Contextual Minimum Norm Estimation Method.
+
+
