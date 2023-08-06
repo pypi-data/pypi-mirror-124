@@ -1,0 +1,3 @@
+jinja2<4,>=3
+mistune<3,>=2.0.0rc1
+watchgod<2,>=0.7
