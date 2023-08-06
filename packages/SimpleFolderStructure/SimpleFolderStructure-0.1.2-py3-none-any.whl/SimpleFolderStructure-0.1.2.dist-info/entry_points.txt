@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        folderstructure=FolderStructure.folder_structure:main
+    
