@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+render_asyncapi=mkdocs_asyncapi_plugin:AsyncAPIPlugin
+
