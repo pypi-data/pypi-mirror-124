@@ -1,0 +1,8 @@
+lupa/__init__.py,sha256=YCDUPjhfLz0B1faVw3BuLYJX27X6UosTN6xA1b04fV4,915
+lupa/_lupa.cp310-win_amd64.pyd,sha256=fRiexvMQ-nWeLMF_O4erPVz3Seb5Sn0w0dBaQBPWFEo,620544
+lupa/version.py,sha256=7O9PBRdsaeTn89lwI9vE0mfhz7mWXmAYijq4hKt6zLY,22
+lupa-1.10.dist-info/LICENSE.txt,sha256=voW_Xgot6luR5fNKVcDkOuyOwp9PpbWFjmcntgoA8iw,2281
+lupa-1.10.dist-info/METADATA,sha256=NxyvSwHztALb5TZh-RwXky9VWGw0I5JJZ7_eGae_6cU,50421
+lupa-1.10.dist-info/WHEEL,sha256=C6CHup2HLC2Rld8AL5u9w89MYULjdaP5k0k7SG83CcI,102
+lupa-1.10.dist-info/top_level.txt,sha256=zBjq_OEwVlKBUT25L2ENcMO-9XdwVQSN7X6VHyH7Pcg,5
+lupa-1.10.dist-info/RECORD,,
