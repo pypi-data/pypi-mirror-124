@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "minectl"
+version = "0.1.0"
+description = "InterMine automation helper"
+authors = ["Ankur Kumar <ank@leoank.me>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+blackcap = "*"
+PyYAML = "^5.4.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+minectl = "minectl.cli.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
