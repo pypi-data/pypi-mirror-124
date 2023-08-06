@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tadaaa
+Version: 0.0.4
+Summary: Plays funny sounds
+Home-page: https://github.com/Yankovsky/tadaaa
+Author: Andrey Yankovsky
+Author-email: YankovskyAndrey@gmail.com
+License: BSD 3-Clause License
+Keywords: tada,fanfares,sad
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy
+Requires-Dist: simpleaudio
+
+Defines tada() and quaquaquaquauaua() functions which play funny sounds.
+
+
