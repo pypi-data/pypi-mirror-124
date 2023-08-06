@@ -1,0 +1,5 @@
+click
+daemoniker
+jinja2
+pyzmq
+zeroconf<=0.27
