@@ -1,0 +1,14 @@
+MANIFEST.in
+setup.cfg
+setup.py
+references_finder/__init__.py
+references_finder/driveapi.py
+references_finder/mail_sender.py
+references_finder/mto_with_adress_108847.csv
+references_finder/obraz.py
+references_finder/utils.py
+references_finder.egg-info/PKG-INFO
+references_finder.egg-info/SOURCES.txt
+references_finder.egg-info/dependency_links.txt
+references_finder.egg-info/not-zip-safe
+references_finder.egg-info/top_level.txt
