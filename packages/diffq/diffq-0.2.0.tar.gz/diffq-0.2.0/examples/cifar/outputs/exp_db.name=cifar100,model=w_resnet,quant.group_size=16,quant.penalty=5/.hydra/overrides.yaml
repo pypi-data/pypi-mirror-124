@@ -1,0 +1,5 @@
+- db.name=cifar100
+- model=w_resnet
+- quant.penalty=5
+- quant.group_size=16
+- device=cpu

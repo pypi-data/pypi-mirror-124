@@ -1,0 +1,8 @@
+Cython
+numpy
+torch
+
+[dev]
+coverage
+flake8
+pdoc3
