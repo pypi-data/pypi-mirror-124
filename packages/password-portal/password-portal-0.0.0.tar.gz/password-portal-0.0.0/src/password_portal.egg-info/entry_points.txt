@@ -1,0 +1,3 @@
+[console_scripts]
+password-portal = password_portal.server:main
+

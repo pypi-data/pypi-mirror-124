@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/password_portal/server.py
+src/password_portal.egg-info/PKG-INFO
+src/password_portal.egg-info/SOURCES.txt
+src/password_portal.egg-info/dependency_links.txt
+src/password_portal.egg-info/entry_points.txt
+src/password_portal.egg-info/requires.txt
+src/password_portal.egg-info/top_level.txt

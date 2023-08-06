@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: password-portal
+Version: 0.0.0
+Summary: password-portal flask
+Home-page: https://gitlab.com/krink/password-portal
+Author: Karl Rink
+Author-email: karl@rink.us
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/krink/password-portal/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+HTTP RESTful interface for asymmetric and symmetric encryption
+
