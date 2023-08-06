@@ -1,0 +1,12 @@
+evaler/__init__.py,sha256=VkYTns1wAbdPiyAXsGogRwrLlef3wzPJ7hdIyh5pffs,235
+evaler/_version.py,sha256=07NzQXBgNlnw5kSN6ZYxE9By-_RuH3Jyy58Z74sIio0,21
+evaler/inverse_eval.py,sha256=a76uu2xzr1SYDWk8rlgTAURr7R1cSfB2bLfyl9G0s9A,48758
+evaler/inverse_evaler.py,sha256=Hx3zg4ZEcfA92Qgql4ut2AdGCS9Y9oXzlJ2W2CWbExQ,21959
+evaler/mne_simulation.py,sha256=3Cz39uEOPcSwRzJNUp4dfIu1OlGSA5h-hgn4aUeXSOU,12556
+evaler/plotting_tools.py,sha256=xc6zPmzd10LCPxMeNwT17QbDSlHss2AlYhqeF-4c1VU,33859
+evaler/settings.py,sha256=2jQJybky6a4UPXnU-bxQ95uiGcF7tTBtdxpOp5qYN3Y,4241
+evaler/source_space_tools.py,sha256=S0J1Aebkddu5RQaOp2knqQ8dizVPA_4gyk_OLao8NAI,20379
+evaler-0.0.1.dist-info/METADATA,sha256=qlbq2Aqh8KvLco61bt4NP4MUJRxrnmFo6XuGKhuzQdU,1615
+evaler-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+evaler-0.0.1.dist-info/top_level.txt,sha256=ZQgZSBqjhEN420MQqDVViZFjzv3ybUoj7GJUAw22x20,7
+evaler-0.0.1.dist-info/RECORD,,
