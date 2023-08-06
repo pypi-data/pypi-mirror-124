@@ -1,0 +1,9 @@
+README.md
+setup.py
+SIDRA/API.py
+SIDRA/__init__.py
+SIDRA.egg-info/PKG-INFO
+SIDRA.egg-info/SOURCES.txt
+SIDRA.egg-info/dependency_links.txt
+SIDRA.egg-info/top_level.txt
+bin/SIDRA
