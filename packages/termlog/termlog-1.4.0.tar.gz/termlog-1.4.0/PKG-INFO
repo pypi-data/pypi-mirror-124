@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: termlog
+Version: 1.4.0
+Summary: A Terminal logging library
+Home-page: https://github.com/brianbruggeman/termlog
+License: MIT
+Keywords: terminal,logging,color,json
+Author: Brian Bruggeman
+Author-email: 1350114+brianbruggeman@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Dist: pygments (>=2.6.1,<3.0.0)
+Project-URL: Repository, https://github.com/brianbruggeman/termlog
+Description-Content-Type: text/x-rst
+
+======
+Readme
+======
+
+Termlog
+=======
+
+.. image:: http://img.shields.io/badge/license-MIT-brightgreen.svg
+    :target: http://opensource.org/licenses/MIT
+
+.. image:: https://badge.fury.io/py/termlog.svg
+    :target: https://pypi.python.org/pypi/termlog
+
+.. image:: https://github.com/brianbruggeman/termlog/workflows/Latest%20Stable/badge.svg
+    :target: https://github.com/brianbruggeman/termlog/actions
+
+.. image:: https://codecov.io/gh/brianbruggeman/termlog/branch/stable/graph/badge.svg?token=y6xPnPtcdc
+    :target: https://codecov.io/gh/brianbruggeman/termlog
+
+
+Termlog: A terminal logging library for logging data both as lexed text or json
+
+
+Motivation
+==========
+
+I love f-strings and I wanted a method of displaying
+beautiful f-strings in command-line interfaces.
+However, I needed a way of simultaneously creating a
+developer friendly text log and producing structured
+text that could be interpreted by a log-shipper in a
+clustered environment.
+
+Termlog will...
+
+* wrap print statements with a new method, `echo`
+* `echo` is fully compatible with print and is meant
+  to be a drop-in replacement
+* `echo` can immediately control: color, json,
+  timestamp, time-format outputs on each invocation
+* Alternatively, a `set_config` command can set the
+  library to use a specific configuration for each subsequent call to `echo`
+
+
+Usage
+=====
+
+.. code-block:: python
+
+     from termlog import blue, echo, red, rgb, set_config
+
+     key = 'abc'
+     value = 123
+
+     set_config(color=True, json=False)
+
+     echo(f'{red(key)}: {blue(value)}')
+     echo(f'{rgb(message=key, red=71, green=61, blue=139)}: {blue(value)}')
+     echo(f'{key}: {blue(value)}', color=True)
+
+
+
+Installation
+============
+
+To install termlog, simply run the following.
+
+.. code-block:: bash
+
+    $ pip install termlog
+
+
+.. include::./CONTRIBUTING.rst
+
+
