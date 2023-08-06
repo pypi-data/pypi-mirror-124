@@ -1,0 +1,5 @@
+colorlog
+jieba
+scikit-learn
+pandas
+numpy
