@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: arraytool
+Version: 0.1.0
+Summary: 基于numpy的Series及DataFrame数据结构
+Home-page: https://gitee.com/yonder_sky/arraytool
+Author: 陈杨城
+Author-email: yondersky@126.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
