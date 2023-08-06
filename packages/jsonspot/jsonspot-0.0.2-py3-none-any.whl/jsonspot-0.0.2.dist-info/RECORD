@@ -1,0 +1,10 @@
+jsonspot/__init__.py,sha256=IkuYNBi2_J_pah9z44XBuU-rmfZ6NgeDaxNTcsY3UQs,26
+jsonspot/comDef.py,sha256=VgbGju_-CQY31oUCVEhk7U_D46P8L31EXXVrTl2OIzk,917
+jsonspot/exceptions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonspot/jsonspot.py,sha256=V26rekFy9Fi2wG73b0TnuTe68njVVWir8V1L7-tGVCo,2304
+jsonspot/main.py,sha256=7iBVpcrucvV-pyym0wvpvBA3jA6v4elrHptfbA259w4,1386
+jsonspot/test.py,sha256=42dqcrZeV1-_CEVP1ymf8EfQjIxMCZHWSkIyZ-adaoQ,99
+jsonspot-0.0.2.dist-info/METADATA,sha256=RaRNC_wbxyhxN4kVdIv-uMNkO12bFxorfvS8riICaOI,524
+jsonspot-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jsonspot-0.0.2.dist-info/top_level.txt,sha256=nTl5oNu_SVbU78uYE2zx402F_DEg34wSacPEBnp_CZE,9
+jsonspot-0.0.2.dist-info/RECORD,,
