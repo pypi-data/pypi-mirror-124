@@ -1,0 +1,10 @@
+pyfletchgen-0.0.20.dist-info/entry_points.txt,sha256=mZLsUPEEzeHjz1_Jya_2MKQJISaf9yFdueBY0e_1uVs,48
+pyfletchgen-0.0.20.dist-info/WHEEL,sha256=Vqd_n_IKgR469FNqkIoqwEhrX3PSWel3O4QQXU4e5pU,150
+pyfletchgen-0.0.20.dist-info/top_level.txt,sha256=Wd9YqLaVdtwMLpVhVsrOmooF52Pw0t9cOi7ZlWTAV9I,12
+pyfletchgen-0.0.20.dist-info/RECORD,,
+pyfletchgen-0.0.20.dist-info/METADATA,sha256=9KJMDFdWzbdUO33RVlZPV3JERzEhQoUl6hDk87A4onY,796
+pyfletchgen/__init__.py,sha256=3A-Mn_7dHseogdRuTqZ7_IZwc6cB-l3rNQtS08q9npY,715
+pyfletchgen/lib.cpython-37m-x86_64-linux-gnu.so,sha256=CXUCVcrA5tsoHtA5Ormk5m0OaC28pOOWc-3w1cxdc4I,182944
+pyfletchgen.libs/libfletchgen_lib-47fc9b27.so,sha256=bRLkXK_d8Qf3iNN2R-_2wW7Vo8O8agzIom7sFkvekVw,5643864
+pyfletchgen.libs/libarrow-777f8346.so.500,sha256=DLlbcZIYFMxBLMj-pwYYme1H5U7QtENSp_IkCtByyIw,43694200
+pyfletchgen.libs/libarrow_python-9a100f2c.so.500,sha256=iQaDkj1dnTirjHx2npRZEdGKC9EciNFw-Yft6jwy6f0,2487216
