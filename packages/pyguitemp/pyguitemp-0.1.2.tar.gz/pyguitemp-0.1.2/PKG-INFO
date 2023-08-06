@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyguitemp
+Version: 0.1.2
+Summary: UNKNOWN
+Home-page: https://github.com/ImperialCollegeLondon/python-gui-template
+Author: Research Computing Service, Imperial College London
+Author-email: rcs-support@imperial.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
+Provides-Extra: doc
+License-File: LICENSE
+
+UNKNOWN
+
