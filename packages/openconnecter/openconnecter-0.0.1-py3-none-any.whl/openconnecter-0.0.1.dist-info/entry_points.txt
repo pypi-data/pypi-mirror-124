@@ -1,0 +1,3 @@
+[console_scripts]
+openconnecter=openconnecter.__main__:main
+
