@@ -1,0 +1,77 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-19 17:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Preferred-Encodings: utf-8 latin1\n"
+
+#: ./ftw/iframeblock/configure.zcml:32
+msgid "Register ftw.iframeblock generally"
+msgstr ""
+
+#: ./ftw/iframeblock/configure.zcml:41
+msgid "Uninstall ftw.iframeblock"
+msgstr ""
+
+#: ./ftw/iframeblock/configure.zcml:23
+msgid "ftw.iframeblock"
+msgstr ""
+
+#: ./ftw/iframeblock/profiles/default/types/ftw.iframeblock.IFrameBlock.xml
+#: ./ftw/iframeblock/profiles/default_plone5/types/ftw.iframeblock.IFrameBlock.xml
+msgid "iFrame block"
+msgstr "iFrame Block"
+
+#: ./ftw/iframeblock/configure.zcml:23
+msgid "iFrame block (add-on for ftw.simplelayout)"
+msgstr "iFrame-Block (Erweiterung für ftw.simplelayout)"
+
+#. Default: "If enabled (default - yes), the page scrolls to the top, if the height of the site changes. For example while nagivation in the iframe itself. This mimixs a more natural behavior."
+#: ./ftw/iframeblock/contents/iframeblock.py:28
+msgid "iframeblock_auto_desc"
+msgstr "Falls aktiviert (standard - Ja), wird automatisch an den Anfang der Seite gesprungen, falls sich die die Höhe vom Iframe verändert. Die ist beim Navigieren innerhalb vom Iframe in der Regel erwünscht. Mit dieser Option kann dieses Verhalten jedoch deaktiviert werden."
+
+#. Default: "Automatisches Springen aktivieren"
+#: ./ftw/iframeblock/contents/iframeblock.py:27
+msgid "iframeblock_auto_jump_label"
+msgstr "Automatisches Springen aktivieren"
+
+#. Default: "If activated, the given site must have the <a href=\"https://github.com/davidjbradshaw/iframe-resizer\" target=\"_blank\">iframe-resizer package</a> installed.<br>Without this package, the auto resize WONT work!<br/>When auto resize is set, the value of the \"Height\" field wont have any influence on how the block is displayed."
+#: ./ftw/iframeblock/contents/iframeblock.py:39
+msgid "iframeblock_auto_size_desc"
+msgstr "Falls aktiviert muss die angegebene Seite über das <a href=\"https://github.com/davidjbradshaw/iframe-resizer\" target=\"_blank\">iframe-resizer</a> Packet verfügen. Ansonsten wird die automatische Skalierung nicht funktionieren. <br/>Wenn die automatische Skalierung eingeschaltet ist, hat der Wert aus dem Input-Feld \"Höhe\" keinen Einfluss auf das Aussehen des iFrame Blocks."
+
+#. Default: "Auto Size"
+#: ./ftw/iframeblock/contents/iframeblock.py:37
+msgid "iframeblock_auto_size_label"
+msgstr "Automatische Skalierung"
+
+#. Default: "See <a href=\"https://github.com/davidjbradshaw/iframe-resizer/blob/v4.2.9/docs/parent_page/options.md#heightcalculationmethod\" target=\"_blank\">iframe-resizer package</a> for the available options.<br>Defaults to \"bodyOffset\"."
+#: ./ftw/iframeblock/contents/iframeblock.py:52
+msgid "iframeblock_height_calculation_method_desc"
+msgstr "Siehe: <a href=\"https://github.com/davidjbradshaw/iframe-resizer/blob/v4.2.9/docs/parent_page/options.md#heightcalculationmethod\" target=\"_blank\">iframe-resizer Packet</a> für die verfügbaren Optionen.<br>Standard ist: \"bodyOffset\"."
+
+#. Default: "Height calculation method"
+#: ./ftw/iframeblock/contents/iframeblock.py:50
+msgid "iframeblock_height_calculation_method_label"
+msgstr "Höhenberechnungsmethode"
+
+#. Default: "Height"
+#: ./ftw/iframeblock/contents/iframeblock.py:21
+msgid "iframeblock_height_label"
+msgstr "Höhe"
+
+#. Default: "URL"
+#: ./ftw/iframeblock/contents/iframeblock.py:16
+msgid "iframeblock_url_label"
+msgstr "URL"
+

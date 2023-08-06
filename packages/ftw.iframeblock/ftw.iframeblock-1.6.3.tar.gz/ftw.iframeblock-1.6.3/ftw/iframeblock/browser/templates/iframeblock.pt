@@ -1,0 +1,15 @@
+<html xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      tal:omit-tag="python: 1"
+      i18n:domain="ftw.iframeblock">
+
+    <div class="iframeSpinner loading"></div>
+    <iframe tal:attributes="src view/get_url;
+                            height context/height;
+                            scrolling python:'no' if context.auto_size else 'auto';
+                            data-auto-size context/auto_size;
+                            data-auto-jump context/auto_jump | python: True;
+                            data-resizer-options view/resizer_options;"
+            width="100%"
+            class="iframeblock loading"></iframe>
+</html>
