@@ -1,0 +1,9 @@
+README.md
+setup.py
+./split.py
+./tabular_dict.cpython-38-x86_64-linux-gnu.so
+tabular_dict.egg-info/PKG-INFO
+tabular_dict.egg-info/SOURCES.txt
+tabular_dict.egg-info/dependency_links.txt
+tabular_dict.egg-info/not-zip-safe
+tabular_dict.egg-info/top_level.txt
