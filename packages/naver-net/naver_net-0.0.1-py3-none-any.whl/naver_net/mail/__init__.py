@@ -1,0 +1,45 @@
+try:
+    __import__('pkg_resources').declare_namespace(__name__)
+except ImportError:
+    __path__ = __import__('pkgutil').extend_path(__path__, __name__)
+
+
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from naver_config import NaverConfig
+
+
+class Sender():
+    def __init__(self,myApp):
+        try:
+            self.config = NaverConfig(myApp)
+            self.fromaddr = self.config.core.getVariable("MAIL_USER")
+            self.passwrd = self.config.core.getVariable("MAIL_PASS")
+            self.mailserver = self.config.core.getVariable("MAIL_SERVER")
+            self.port = self.config.core.getVariable("MAIL_SERVER_PORT")
+            self.server = smtplib.SMTP(self.mailserver, self.port)
+            self.server.starttls()
+            self.server.login(self.fromaddr, self.passwrd)
+        except Exception as e:
+            raise e
+            
+    def send(self):
+        try:
+            text = self.msg.as_string()
+            self.server.sendmail(self.fromaddr, self.msg['To'], text)
+            self.server.quit()
+        except Exception as e:
+            raise e
+
+    def sendmail(self, toaddr, subject, body):
+        try:
+            self.msg = MIMEMultipart()
+            self.msg['From'] = self.fromaddr
+            self.msg['To'] = toaddr
+            self.msg['Subject'] = subject
+            self.msg.attach(MIMEText(body, 'html'))
+            self.send(self.msg)
+        except Exception as e:
+            raise e
+
