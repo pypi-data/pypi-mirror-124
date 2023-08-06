@@ -1,0 +1,16 @@
+grgrlib/__init__.py,sha256=bdP1oJbFqsS8QcOYe2O9ZpSL030f_3ZIm4UaLsIBEXA,146
+grgrlib/core.py,sha256=T4Co6n4iX0Jk8KWjTpuqhAsgQeNHd0WvOeqtL9ufl7w,8091
+grgrlib/la.py,sha256=_aXk7dDyI7A4pW_9q-D9YT_n-jrvEszKFpbPAKSqUQE,9122
+grgrlib/legacy.py,sha256=cwoMTU9LKlu1n-FwRdQgikZvhOfD3WVNttDD83QHe3s,2758
+grgrlib/multiprocessing.py,sha256=YVkMiFsicwebp-Bg9baRsHGeZp9HqROQHMPRZN7UuxY,1191
+grgrlib/njitted.py,sha256=FNCPUQ-asahrlxmodRC58bK-Ov7vozKB6SH9F9cUToo,2015
+grgrlib/optimize.py,sha256=EmGCA9g_wk79Pb10J2mEddCWewnProKsodlbBNrRoVU,24369
+grgrlib/patches.py,sha256=5CyROyn2A56WS-4mt9PR7GnRSouO00kfiLA8dBB0QmI,3717
+grgrlib/plots.py,sha256=eLqsj-8cD38m9XwnlyIjC1wKacyiaz8pLKbUaaTAWBo,11759
+grgrlib/shooting.py,sha256=mVqwdEI0_qQPszwymULJo62qL7ow8XQBqPFvvZf5ue4,1425
+grgrlib/stats.py,sha256=yNXKEvLcebugnrQ0dxQjnnrnFhwveW949RvV_Pu0uWc,3311
+grgrlib-0.0.1.dist-info/LICENSE,sha256=0QpEdPmfS0bsRxFg0cw6NPUSMbTf4x1EpyrOTLImVsg,1079
+grgrlib-0.0.1.dist-info/METADATA,sha256=7STZQxljUepqoN5nmSaky1Etoiqu_6pstQmOOG5GdHg,1259
+grgrlib-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+grgrlib-0.0.1.dist-info/top_level.txt,sha256=lqGCnoz7qbBC8Ox-Y_iITHZn-Hozmg5A0QFUhm87Dm8,8
+grgrlib-0.0.1.dist-info/RECORD,,
