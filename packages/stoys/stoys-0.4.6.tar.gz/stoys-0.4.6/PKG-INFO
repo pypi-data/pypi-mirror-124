@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: stoys
+Version: 0.4.6
+Summary: Stoys: Spark Tools @ stoys.io
+Home-page: https://github.com/stoys-io/stoys-python
+License: Apache-2.0
+Author: Stoys Authors
+Author-email: authors@stoys.io
+Requires-Python: >=3.6.2,<4
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Dist: jupyterlab (>=3,<4)
+Requires-Dist: pandas (>=1,<2)
+Requires-Dist: pyserde (>=0.5.0)
+Requires-Dist: pyspark (>=3,<3.3)
+Project-URL: Bug Tracker, https://github.com/stoys-io/stoys-python/issues
+Project-URL: Repository, https://github.com/stoys-io/stoys-python
