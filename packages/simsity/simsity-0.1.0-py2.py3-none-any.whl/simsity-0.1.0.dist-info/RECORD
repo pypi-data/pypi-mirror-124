@@ -1,0 +1,17 @@
+simsity/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+simsity/datasets.py,sha256=F0HaY6nDUi2bnCRe1PDcVjDaK5uOdY4LMlGyyHbGZaI,611
+simsity/error.py,sha256=84DyklqSOlCOXZ-nxVyeQmgjhhNG_udBhU8oa0F3Uok,730
+simsity/serve.py,sha256=_h4sLNV0hx7sN0Da-kzu8ARrHk2UMGjH-VvOwXkel4c,771
+simsity/service.py,sha256=VtuTBepQzl5X3_evnw4S-ChCU0KbllKIcpHgRskWLSE,4464
+simsity/indexer/__init__.py,sha256=5EXfFGjbYVmoz2Wj_EPUDtyN2EWTN55u3-HSTxDyZbo,269
+simsity/indexer/lshforest.py,sha256=J3TLy2pLDA6fIgkW3Jt87fhlIRo6jnzMy6QtZvZp_OY,1015
+simsity/indexer/pynn.py,sha256=DokUE_4gHvTOclPygXhFL2u7IbYoz_7A9O6gWakgZoU,1505
+simsity/preprocessing/__init__.py,sha256=EF3QskHktuiK0-zxgB4c-uv5akV0o5_UWLKCXMb-bZ0,310
+simsity/preprocessing/_columnlist.py,sha256=khesEW-sNTo33rVsZcgSPnMPyF_DpqkScp5na85cZQ4,667
+simsity/preprocessing/_identity.py,sha256=tz8r8SQVhlilJq9lHwb_vgq1UrSiAj8X0OcLWvV553k,606
+simsity/preprocessing/_minhash.py,sha256=D5K1MO7rtppVaZYYrXWLnMWCjpbqrwx1HQndCO0Wwxs,1142
+simsity-0.1.0.dist-info/LICENSE,sha256=d7-Yf9jsOJ5x0cLyKnj0cYbRrENKwTZEEKacwStkdJ0,1077
+simsity-0.1.0.dist-info/METADATA,sha256=RoDpDX3X3iA_vuN92GeTEg0MEK8Nz2WU_RrHgUaMQG0,4245
+simsity-0.1.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+simsity-0.1.0.dist-info/top_level.txt,sha256=yIwppQC14GIhzGMSlv2YL7uxincwzbn-siMCUr9JIxw,8
+simsity-0.1.0.dist-info/RECORD,,
