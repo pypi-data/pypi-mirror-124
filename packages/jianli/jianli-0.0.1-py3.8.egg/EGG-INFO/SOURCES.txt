@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+jianli/__init__.py
+jianli/main.py
+jianli.egg-info/PKG-INFO
+jianli.egg-info/SOURCES.txt
+jianli.egg-info/dependency_links.txt
+jianli.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
