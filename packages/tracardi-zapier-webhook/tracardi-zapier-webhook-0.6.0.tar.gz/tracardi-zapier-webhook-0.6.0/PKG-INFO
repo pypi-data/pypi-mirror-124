@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: tracardi-zapier-webhook
+Version: 0.6.0
+Summary: This plugin calls zapier webhook.
+Home-page: UNKNOWN
+Author: Risto Kowaczewski
+Author-email: risto.kowaczewski@gmail.com
+License: UNKNOWN
+Keywords: tracardi,plugin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Zapier plugin
+
+This plugin calls zapier webhook API.
+
+# Configuration
+
+```json
+{
+  "url": "https://hooks.zapier.com/hooks/catch/10523213728/b4basesz/",
+  "body": "<json as string>",
+  "timeout": 10
+}
+```
+
+This configuration requires zapier webhook url.
+
+# Payload
+
+Payload for this plugin defines a JSON data to be sent. It can be any json schema.
+
+# Result
+
+This plugin returns either the response (on response port) or and error on error port.
+
+Valid response is:
+
+```json
+{
+  "status": 200,
+  "content": {
+    <response as json>
+  }
+}
+```
+
