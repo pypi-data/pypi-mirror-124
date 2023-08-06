@@ -1,0 +1,10 @@
+pelikan/Pelikan.py,sha256=SzXZaHxnFvwne8BFjqL-SQE59cJbINwTZg9juGkdxkI,1989
+pelikan/__init__.py,sha256=YuYwATi4JNst0G6HXbp8keQsntl0HqhKB697TuilJRI,248
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=NH1WkDrvbmPmQ1YYH16x026fXwTfOXTh5NZphLDckAY,912
+pelikan-0.0.5.dist-info/LICENSE,sha256=bVwwa7Giq4QTGEnYARK2iK6bLk-rbXndIqrUeASnVtw,1070
+pelikan-0.0.5.dist-info/METADATA,sha256=tI6J2R1br6iUWiIJyY1TnUaQeqKOScw66sl_RCT6RhU,1390
+pelikan-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pelikan-0.0.5.dist-info/entry_points.txt,sha256=Td-1xaj-SdT-EYgveieuue-mIVfGgXs-J7MlWSic1tw,50
+pelikan-0.0.5.dist-info/top_level.txt,sha256=HdajMUXaGHWdn3AxzuNAFWi6yC4eA-QnB_6TVAZMvxk,14
+pelikan-0.0.5.dist-info/RECORD,,
