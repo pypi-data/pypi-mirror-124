@@ -1,0 +1,8 @@
+requests
+pandas
+matplotlib
+scipy
+uos-activpal
+numba
+seaborn
+numpy==1.20
