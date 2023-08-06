@@ -1,0 +1,17 @@
+zensols/nlp/__init__.py,sha256=pSX9ki4vT-Rkttfh6H3D47pNG5MnS8xHjZ4HEJt78Wo,362
+zensols/nlp/combine.py,sha256=QXPfFCc0lCwTogZgZmKRlq0LaVKEK6i1l0BOZa1Xzgs,4299
+zensols/nlp/component.py,sha256=7lD3eudE4FTJRZpVTu2RmpTgIKk6w6gcUIk8g1Lx1ok,782
+zensols/nlp/container.py,sha256=qvZ8uEK1ls_aox1z8-T1RNku4RaX4KB_62tbzrzpRGg,16868
+zensols/nlp/dataframe.py,sha256=wvJ9D7unnMyEG-rotoBsu2aqhKfByfX-leu5rBYGTNg,1390
+zensols/nlp/docparser.py,sha256=ppYkyVGHJgkZyC3e26BcA4A4uaeWq6zwaIV3qUb34dA,3923
+zensols/nlp/feature.py,sha256=Ybya2tES1E1xRMxzjgUjoiXxVf2v3WCNKuVfvIpoLmY,10744
+zensols/nlp/lang.py,sha256=_W34Cn1kjSZSdk25YFCNzZ-5V2K0mOphuUe8Yk7CDH0,11654
+zensols/nlp/norm.py,sha256=FnFoRLxdSUZr9f6O0FKwWjU_ava6ipA6umeL3fyDMWc,10659
+zensols/nlp/stemmer.py,sha256=51LPX85jCuG_PBIO0VNVDtHHKc2dD4EVq2k-mjFsFIU,576
+zensols/nlp/resources/component.conf,sha256=m7Ge21vCl2DMMzmQ3mc30ChrTKJXnJh34ce9xMBkuRs,362
+zensols/nlp/resources/mapper.conf,sha256=xMG9tOrgGmAUNvqsxRtax3yixqUng3ZweQ_ceBO05OQ,596
+zensols/nlp/resources/obj.conf,sha256=jK58jVQF8iLp_6H3AoOX-T-HB7PdsyTc7ehFlWM1nJE,968
+zensols.nlp-1.0.0.dist-info/METADATA,sha256=6aOOuhF01L4XZtHtWDA_Yya67HVIc5AMlNJy9EMwCT0,5579
+zensols.nlp-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+zensols.nlp-1.0.0.dist-info/top_level.txt,sha256=NgD-P1jf-0xvfkWIxho1IVPkpl2JLBaIjIssgP_pkw8,12
+zensols.nlp-1.0.0.dist-info/RECORD,,
