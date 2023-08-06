@@ -1,0 +1,13 @@
+scan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scan/folderwatcher.py,sha256=-Toj9t88k0wPUADmoJmmjPXx_xnFxez5b0DBO8LQLeE,2664
+scan/pdf.py,sha256=JM7spSqe5GZbEkZZ5wV25PJZB3klA2aVno47AGpRxAM,1341
+scan/scan2wiki.py,sha256=G02kLBTQCOEdDyKISIVe3WSFBCZ6huD3tmu6-PkVBD4,4180
+scan/uploadentry.py,sha256=ZfbNkKAwK6AiZTkrCw3ePU67PunF5LkhAjqWoWyAnu0,2799
+scan/webserver.py,sha256=CsLu_kbJsa4pIu0NdiXban3R4iHzTWCP3QIe0cc_8zw,8245
+scan/wikiuploaddialog.py,sha256=y66UJNSJ0mAhnP6U0Aa7nQ_AWN2KSq6ZwHD_mlasYsc,1499
+scan2wiki-0.0.10.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scan2wiki-0.0.10.dist-info/METADATA,sha256=bai5t0JIw40eppI9DluofjwJOmEkW7HzVB7MtrhlTfU,1698
+scan2wiki-0.0.10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+scan2wiki-0.0.10.dist-info/entry_points.txt,sha256=0Yhl-ADq2uWGjgRdT0471_mOErtB6BtdbYV-cSkrUCM,51
+scan2wiki-0.0.10.dist-info/top_level.txt,sha256=oNWx0oPes2ZjFNr_S8xyloy7E88_I0NLYz-Tb3iXeHk,5
+scan2wiki-0.0.10.dist-info/RECORD,,
