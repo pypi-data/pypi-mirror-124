@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: PYSTARMEOWCRYPTOR
+Version: 0.1.3a1
+Summary: A Cryptor
+Home-page: https://github.com/chenchaotsun/scripts
+Author: Chaoqun Chen
+Author-email: chen.chaoqun.ext@99cloud.net
+License: GNU General Public License v3.0
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Keywords: cryptor
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+To install the package under the site-packages directory of
+your Python installation, run "python setup.py install".
+
+

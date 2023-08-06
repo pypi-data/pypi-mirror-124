@@ -1,0 +1,10 @@
+LICENSE.txt
+README.txt
+setup.py
+PYSTARMEOWCRYPTOR.egg-info/PKG-INFO
+PYSTARMEOWCRYPTOR.egg-info/SOURCES.txt
+PYSTARMEOWCRYPTOR.egg-info/dependency_links.txt
+PYSTARMEOWCRYPTOR.egg-info/top_level.txt
+pystarmeow_cryptor/__init__.py
+pystarmeow_cryptor/pystarmeow_cryptor_.py
+pystarmeow_cryptor/pystarmeow_cryptor_20211014_.py
