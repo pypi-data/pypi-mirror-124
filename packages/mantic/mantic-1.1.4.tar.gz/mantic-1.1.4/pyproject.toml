@@ -1,0 +1,157 @@
+[tool.poetry]
+name = "mantic"
+version = "1.1.4"
+description = "Command-line tools to facilitate se-mantic versioning."
+license = "EUPL-1.2-or-later"
+authors = ["Mauko Quiroga <mauko@pm.me>"]
+maintainers = ["Mauko Quiroga <mauko@pm.me>"]
+readme = "README.md"
+homepage = ""
+repository = "https://github.com/maukoquiroga/mantic"
+documentation = "https://mantic.readthedocs.io"
+keywords = []
+classifiers = []
+packages = [
+    {include = "mantic", from = "src"},
+    {include = "mantic_cli", from = "src"},
+    {include = "mantic_hypothesis", from = "src"},
+    ]
+
+[tool.poetry.dependencies]
+python = "~3.7 || ~3.8 || ~3.9"
+classes = "<1"
+deal = "<5"
+GitPython = "<4"
+invoke = "<2"
+numpy = ">=1.7, <1.22"
+returns = "<1"
+rich = "<11"
+termcolor = "<2"
+toml = "<1"
+typical = "<3"
+typing_extensions = {version = "<4", python = "~3.7"}
+
+[tool.poetry.dev-dependencies]
+autopep8 = "<2"
+codecov = "<3"
+coverage = {extras = ["toml"], version = "<7"}
+hypothesis = {extras = ["numpy"], version = "<7"}
+interrogate = "<2"
+ipython = "<8"
+mypy = "<1"
+pytest = "<7"
+pytest-cov = "<4"
+pytest-mock = "<4"
+pytest-randomly = "<4"
+pytest-sugar = "<1"
+pytest-xdist = {extras = ["psutil"], version = "<3"}
+pytype = [
+    {platform = "linux", version = "^2021.10.4"},
+    {platform = "darwin", version = "^2021.10.4"},
+]
+pyupgrade = "<3"
+robotframework = "<5"
+Sphinx = "<5"
+sphinx-autodoc-typehints = "<2"
+typeguard = "<3"
+wemake-python-styleguide = "<1"
+xdoctest = "<1"
+
+[tool.poetry.scripts]
+mantic = 'mantic_cli:main.run'
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+disable_warnings = ["module-not-imported", "no-data-collected"]
+source = ["mantic"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 80
+
+[tool.interrogate]
+fail-under = 100
+ignore-init-method = true
+ignore-magic = true
+ignore-nested-classes = false
+ignore-nested-functions = true
+ignore-private = true
+ignore-semiprivate = true
+omit-covered-files = true
+verbose = 2
+
+[tool.pytest.ini_options]
+addopts = [
+    "-qx",
+    "--disable-pytest-warnings",
+    "--numprocesses=auto",
+    "--pdbcls=IPython.terminal.debugger:TerminalPdb",
+    "--showlocals",
+    "--tb=long",
+    # "--typeguard-packages=mantic",
+    "--xdoctest",
+    ]
+doctest_optionflags = [
+    "ELLIPSIS",
+    "IGNORE_EXCEPTION_DETAIL",
+    "NORMALIZE_WHITESPACE",
+    "NUMBER",
+    ]
+
+[tool.mypy]
+ignore_missing_imports = true
+implicit_reexport = true
+install_types = true
+non_interactive = true
+plugins = ["deal.mypy", "typic.mypy", "returns.contrib.mypy.returns_plugin"]
+strict = false
+
+[tool.isort]
+case_sensitive = true
+force_alphabetical_sort_within_sections = true
+group_by_package = true
+include_trailing_comma = true
+known_first_party = ["mantic", "mantic_cli", "mantic_hypothesis"]
+known_typing = [
+    "types",
+    "mypy",
+    "mypy_extensions",
+    "types",
+    "typing",
+    "typing_extensions",
+    ]
+multi_line_output = 8
+py_version = 37
+sections = [
+    "FUTURE",
+    "TYPING",
+    "STDLIB",
+    "THIRDPARTY",
+    "FIRSTPARTY",
+    "LOCALFOLDER",
+    ]
+
+[tool.mantic]
+ignore = [
+    ".editorconfig",
+    ".github",
+    ".gitignore",
+    ".pdbrc",
+    ".pre-commit-hooks.sh",
+    ".python-version",
+    ".readthedocs.yml",
+    "docs",
+    "LICENSE",
+    "Makefile",
+    "noxfile.py",
+    "README.md",
+    "setup.cfg",
+    "tests",
+    ]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
