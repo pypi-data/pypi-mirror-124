@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: dsa-downloader
+Version: 0.0.4
+Summary: Disney Sorcerer's Arena resources downloader
+Home-page: https://github.com/phstudy/dsa-downloader
+Author: Study Hsueh
+Author-email: ph.study@gmail.com
+Maintainer: Study Hsueh
+Maintainer-email: ph.study@gmail.com
+License: MIT
+Keywords: dsa,python,disney
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DSA Downloader
+
+DSA Downloader is a Disney Sorcerer's Arena resources downloader, 
+which allow developers to download localization files and assets.
+
+## How to use
+
+Show supported commands
+
+```
+$ dsa-downloader --help
+Usage: dsa-downloader [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --debug / --no-debug
+  --help                Show this message and exit.
+
+Commands:
+  download-assets  Download assets.
+  download-langs   Download localization files.
+  extract-config   Extract bootstrap config from APK file.
+```
+
+Install the library using pip
+
+```
+$ pip install dsa-downloader -U
+```
+
+Extract bootstrap config from *APK* file
+
+```
+$ dsa-downloader extract-config com.glu.disneygame.apk
+bootstrap_config file is written to out/bootstrap_config.json.
+```
+
+Download localization files
+
+```
+$ dsa-downloader download-langs --langs ChineseTraditional --langs English
+ChineseTraditional localization file is written to out/langs/Loc_ChineseTraditional.txt.
+ChineseTraditional localization file is written to out/langs/Loc_ChineseTraditional.json.
+English localization file is written to out/langs/Loc_English.txt.
+English localization file is written to out/langs/Loc_English.json.
+```
+
+Download assets
+
+```
+$ dsa-downloader download-assets
+  2%|██▋                                         | 81/3896 [00:03<03:00, 21.08it/s]
+```
+
+## Docker
+
+Use docker container to extract bootstrap config from *APK* file 
+
+```
+$ docker run --rm -v "$PWD":/dsa study/dsa-downloader dsa-downloader \
+        extract-config com.glu.disneygame.apk
+bootstrap_config file is written to out/bootstrap_config.json.
+```
+
