@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: FaceChannel
+Version: 0.0.1
+Summary: A python interface for training Reinforcement Learning agents to play the Chef's Hat Card Game.
+Home-page: https://github.com/pablovin/facechannel
+Author: Pablo Barros
+Author-email: pablovin@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Games/Entertainment :: Simulation
+Classifier: Topic :: Games/Entertainment :: Turn Based Strategy
+Classifier: Topic :: Internet
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: h5py (==3.1.0)
+Requires-Dist: intel-tensorflow (==2.6.0)
+Requires-Dist: keras (==2.6.0)
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: opencv-python (==4.5.3.56)
+Requires-Dist: tensorflow (==2.6.0)
+
+A python interface for training Reinforcement Learning agents to play the Chef's Hat Card Game.
+
