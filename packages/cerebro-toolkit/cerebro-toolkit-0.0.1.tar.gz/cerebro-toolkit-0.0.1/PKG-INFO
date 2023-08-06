@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: cerebro-toolkit
+Version: 0.0.1
+Summary: Provide systematic process of build and improving codebase without creating new functionality that can transform a mess into clean code and simple design architect.
+Home-page: https://github.com/hieupth/cerebro-toolkit
+Author: Hieu Pham
+Author-email: hieupt.ai@gmail.com
+License: MIT
+Download-URL: https://github.com/hieupth/cerebro-toolkit/archive/v_01.tar.gz
+Keywords: refactoring,data structures,design patterns
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Cerebro Toolkit Package
+This package provide a systematic process of building and improving software codebase without creating new functionality
+that can transform a mess into clean code and simple design architect.
+<br><br>
+This is a core package of [Cerebro](https://github.com/hieupth/cerebro) because we build everything with engineering mindset which means clean code and good 
+software architect is our top concern.
+<br><br>
+We focus on the package in Python because it is our first programming language but we are working hard to make 
+cross-platform support as soon as possible.
+## Installation
+The package can be installed by pip command:
+```
+pip install cerebro-toolkit
+```
+## Maintainers
+* [Hieu Pham](https://github.com/hieupth) (author)
+## License
+[MIT License](https://github.com/hieupth/cerebro-toolkit/blob/main/LICENSE). <br>
+Copyright &copy; 2021 [Hieu Pham](https://github.com/hieupth). All rights reserved.
+<br><br>
+*This project was initialized as a part of [Cerebro](https://github.com/hieupth/cerebro) open source project which helps 
+to build  intelligence system that run everywhere for everyone.*
+
+
