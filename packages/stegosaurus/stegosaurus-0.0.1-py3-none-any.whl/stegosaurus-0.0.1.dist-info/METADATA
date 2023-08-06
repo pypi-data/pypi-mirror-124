@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: stegosaurus
+Version: 0.0.1
+Summary: Fast Image Steganography with numpy - encode a message into a file.
+Home-page: https://github.com/xzava/stegosaurus
+Author: Mike Hall
+Author-email: micheal.hall@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/xzava/stegosaurus/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Stegosaurus - TEST VERSION
+
+Fast Image Steganography with numpy - encode a message into a file.
+
+### Give this project a star
+[Project Source Code](https://github.com/xzava/stegosaurus)
+
+
+## Installation
+
+```
+pip install stegosaurus
+```
+
+## Useage
+
+
+### Python
+
+```python
+
+
+
+```
+
+
+### Cli
+
+```python
+
+
+
+```
+
+
+## License
+
+
+## Author
+
+
+
