@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "NiaAML-GUI"
+version = "0.1.11"
+description = "GUI for NiaAML Python package"
+license = "MIT"
+authors = ["Luka Pečnik <lukapecnik96@gmail.com>"]
+keywords = ['classification', 'NiaPy', 'NiaAML', 'scikit-learn', 'nature-inspired algorithms', 'feature selection', 'preprocessing']
+homepage = "https://github.com/lukapecnik/NiaAML-GUI"
+repository = "https://github.com/lukapecnik/NiaAML-GUI"
+readme = "README.rst"
+include = [
+    "LICENSE"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+PyQt5 = "^5.15.0"
+NiaPy = "^2.0.0rc18"
+QtAwesome = "^1.0.2"
+niaaml = "^1.1.1rc2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
