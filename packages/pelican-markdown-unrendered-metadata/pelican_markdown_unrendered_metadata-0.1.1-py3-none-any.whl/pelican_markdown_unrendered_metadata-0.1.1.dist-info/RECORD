@@ -1,0 +1,10 @@
+pelican/plugins/markdown_unrendered_metadata/__init__.py,sha256=pQVDJZK8Cje1smhBYPtkivW0hSsSIoNbhE24RNq0Y-A,728
+pelican_markdown_unrendered_metadata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pelican_markdown_unrendered_metadata/markdown_metadata.py,sha256=9g6bP8ykAaGp2MYmF0v8CvSdPY69pHyqlW_4mZCKIVg,423
+pelican_markdown_unrendered_metadata/markdown_metadata_in_heading.py,sha256=Y06FLjgWOSfKv-NSPoi_pHyXR9x1Uq3jtEmF2Ol0n5U,1036
+pelican_markdown_unrendered_metadata/markdown_metadata_in_reference.py,sha256=5Ud-xz_4_nwyJA8gHU-yvAqmXH-onTM_MtApkeXT3RE,1422
+pelican_markdown_unrendered_metadata-0.1.1.dist-info/LICENSE.txt,sha256=C9gnBRGPUOy2oQmLGej3PcWvIQkutQM41Tr1gl7k4GY,1070
+pelican_markdown_unrendered_metadata-0.1.1.dist-info/METADATA,sha256=-Vzt3tiXZ5nH7uDTMFCS9G-JEZMG8CQTppn7FH3iQb8,2773
+pelican_markdown_unrendered_metadata-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pelican_markdown_unrendered_metadata-0.1.1.dist-info/top_level.txt,sha256=MFeb-hrWWIahYh5jcGNEPBFShF943gJQM96BK7TIXts,45
+pelican_markdown_unrendered_metadata-0.1.1.dist-info/RECORD,,
