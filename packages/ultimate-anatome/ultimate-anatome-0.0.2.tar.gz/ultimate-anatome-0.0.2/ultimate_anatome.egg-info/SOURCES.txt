@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+anatome/__init__.py
+anatome/fourier.py
+anatome/landscape.py
+anatome/similarity.py
+anatome/utils.py
+ultimate_anatome.egg-info/PKG-INFO
+ultimate_anatome.egg-info/SOURCES.txt
+ultimate_anatome.egg-info/dependency_links.txt
+ultimate_anatome.egg-info/requires.txt
+ultimate_anatome.egg-info/top_level.txt
