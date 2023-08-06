@@ -1,0 +1,6 @@
+with_partial/__init__.py,sha256=7qcCDAp846PsTmiGDb9Qa9d1NbMRs-n-3MalX2TVwOw,53
+with_partial/partial_context.py,sha256=uZbqQ9OorlI8ITwAtFu1Sg2XZzxacKG3ArrTQEiqMus,1944
+with_partial/partial_proxy.py,sha256=rEoh89dpFt04voN4yY0tBEOFvlPSKcrH56WZfOR8hKc,1360
+with_partial-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+with_partial-0.1.0.dist-info/METADATA,sha256=xhTkT6khHKoGtWQ_uUn9uSel3oV_sRhcDl4ic8B-V0g,593
+with_partial-0.1.0.dist-info/RECORD,,
