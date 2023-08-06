@@ -1,0 +1,8 @@
+worktree_manager/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+worktree_manager/config.py,sha256=HRLx4_H1b2J7IJmRBj4rqmdTY3VxGaNc1m40duQOrj8,468
+worktree_manager/manager.py,sha256=Q09XYMOW5s25H8TMVcFoVd5X7lQB4qEa2J5pXk9GU78,2100
+worktree_manager/utils.py,sha256=c4g4UA5ETt6WfWxcLLK98Tf974xzMRkyMj4y5VTVr6E,867
+worktree_manager-0.1.1.dist-info/entry_points.txt,sha256=XsEasDFplT_zw7IyZvL5v8H1HH11OupNdhYPfkMbZY4,53
+worktree_manager-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+worktree_manager-0.1.1.dist-info/METADATA,sha256=VE3AG6uIh0If6HkgIxv75xUMT7Pf7WgprhfXLeGYLSo,388
+worktree_manager-0.1.1.dist-info/RECORD,,
