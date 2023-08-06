@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/accbib/__init__.py
+src/accbib/accbib.py
+src/accbib/iobib.py
+src/accbib/ioxml.py
+src/accbib/translator.py
+src/accbib/version.py
+src/accbib.egg-info/PKG-INFO
+src/accbib.egg-info/SOURCES.txt
+src/accbib.egg-info/dependency_links.txt
+src/accbib.egg-info/top_level.txt
