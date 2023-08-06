@@ -1,0 +1,10 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "tzdata>=2020.1",
+    "backports.zoneinfo>=0.2.1",
+    "rx>=3.0",
+    "nextcord"
+]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: nextcord-ext-all
+Version: 1.0.0
+Summary: A Nextcord extension for all ext additions
+Home-page: https://github.com/VincentRPS/nextcord-ext-all
+Author: Nextcord, Ext-Creators, VincentRPS
+License: Apache Software License
+Project-URL: Issue Tracker, https://github.com/VincentRPS/nextcord-ext-all/issues
+Project-URL: Source, https://github.com/VincentRPS/nextcord-ext-all
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Communications
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6.0
+License-File: license
+
+UNKNOWN
+
