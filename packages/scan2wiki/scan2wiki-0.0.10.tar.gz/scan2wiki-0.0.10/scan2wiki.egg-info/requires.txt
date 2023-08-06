@@ -1,0 +1,6 @@
+gitpython
+jinja2
+pywikibot
+py-3rdparty-mediawiki
+pycryptodome
+mwclient

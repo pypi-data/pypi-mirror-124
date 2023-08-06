@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+scan/__init__.py
+scan/folderwatcher.py
+scan/pdf.py
+scan/scan2wiki.py
+scan/uploadentry.py
+scan/webserver.py
+scan/wikiuploaddialog.py
+scan2wiki.egg-info/PKG-INFO
+scan2wiki.egg-info/SOURCES.txt
+scan2wiki.egg-info/dependency_links.txt
+scan2wiki.egg-info/entry_points.txt
+scan2wiki.egg-info/requires.txt
+scan2wiki.egg-info/top_level.txt
