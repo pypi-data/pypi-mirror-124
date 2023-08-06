@@ -1,0 +1,9 @@
+audmath/__init__.py,sha256=EgQn57uw2q42hHdS2o60GEf_J2dls9D2VghDm1oE23Q,381
+audmath/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+audmath/core/api.py,sha256=GyjXGyWtClnv88eSFTGynZhuFp7edjM66P5_d8Bkv4g,5712
+audmath/core/utils.py,sha256=2nrDU2uwHHTSaVw-DP5pP9D3qNYiaSAQZrCMr-8a4Oo,460
+audmath-0.9.4.dist-info/LICENSE,sha256=8pKUblypr7VnIMwcrHoo_Hulm0g3haHHsfgyx7bhASs,1118
+audmath-0.9.4.dist-info/METADATA,sha256=r_iKSPx2AK9NuySCmsa3RE2nAn3WyWkSjrIDcBxkCOc,2298
+audmath-0.9.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+audmath-0.9.4.dist-info/top_level.txt,sha256=lkF0K3Kb-VQGJfDutj9LL0aF2zeFQYcFVBfyHsi1wgo,8
+audmath-0.9.4.dist-info/RECORD,,
