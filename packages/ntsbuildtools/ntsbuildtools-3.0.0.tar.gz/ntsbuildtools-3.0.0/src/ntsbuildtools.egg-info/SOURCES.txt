@@ -1,0 +1,7 @@
+setup.py
+src/ntsbuildtools.egg-info/PKG-INFO
+src/ntsbuildtools.egg-info/SOURCES.txt
+src/ntsbuildtools.egg-info/dependency_links.txt
+src/ntsbuildtools.egg-info/entry_points.txt
+src/ntsbuildtools.egg-info/requires.txt
+src/ntsbuildtools.egg-info/top_level.txt
