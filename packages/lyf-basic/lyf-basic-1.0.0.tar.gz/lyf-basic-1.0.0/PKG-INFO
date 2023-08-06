@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: lyf-basic
+Version: 1.0.0
+Summary: lyf-test
+Home-page: https://gitee.com/guoyasoft/guoya-api.git
+Author: lyf
+Author-email: lyf23william@gmail.com
+License: MIT Licence
+Description: test
+Keywords: init,lyf
+Platform: python
