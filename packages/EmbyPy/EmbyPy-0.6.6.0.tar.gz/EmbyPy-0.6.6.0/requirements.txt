@@ -1,0 +1,7 @@
+aiohttp
+arrow
+asyncio
+random
+requests
+simplejson
+websockets
