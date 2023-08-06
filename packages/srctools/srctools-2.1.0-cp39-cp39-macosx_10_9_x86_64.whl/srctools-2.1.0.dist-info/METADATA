@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: srctools
+Version: 2.1.0
+Summary: Modules for working with Valve's Source Engine file formats.
+Home-page: https://github.com/TeamSpen210/srctools
+Author: TeamSpen210
+Author-email: spencerb21@live.com
+License: MIT
+Keywords: Valve,Source Engine
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: attrs
+Requires-Dist: versioningit
+Requires-Dist: cython
+Requires-Dist: importlib-resources ; python_version < "3.7"
+Requires-Dist: contextvars ; python_version < "3.7"
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-datadir ; extra == 'test'
+Requires-Dist: pytest-regressions ; extra == 'test'
+Provides-Extra: wx
+Requires-Dist: wxPython ; extra == 'wx'
+
+UNKNOWN
+
