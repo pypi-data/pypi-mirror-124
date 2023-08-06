@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+CPVI/CPVI.py
+CPVI/__init__.py
+CPVI/errors.py
+CPVI/inflection.py
+CPVI/utils.py
+CPVI.egg-info/PKG-INFO
+CPVI.egg-info/SOURCES.txt
+CPVI.egg-info/dependency_links.txt
+CPVI.egg-info/requires.txt
+CPVI.egg-info/top_level.txt
+CPVI/data/conjugations.json
+CPVI/data/irregulars.json
