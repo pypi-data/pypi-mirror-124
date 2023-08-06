@@ -1,0 +1,4 @@
+[console_scripts]
+demo = dotbot.demo:demo_http
+orchestrator_http = dotbot.orchestrator.server:main_app
+

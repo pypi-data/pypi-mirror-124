@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pydotbot
+Version: 0.0.1
+Summary: DotBot Orchestrator comunicate multiple DotBots to internet.
+Home-page: http://www.crystalfree.org/
+Author: José Astorga
+Author-email: jose.n.astorga.tobar@gmail.com
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/DotBots/PyDotBot
+Project-URL: Bug Tracker, https://github.com/DotBots/PyDotBot/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Flask (>=1.1.2)
+Requires-Dist: Flask-Bootstrap (>=3.3.7.1)
+Requires-Dist: Flask-Classful (>=0.14.2)
+Requires-Dist: Flask-Cors (>=3.0.10)
+Requires-Dist: Flask-MQTT (>=1.1.1)
+Requires-Dist: Flask-SocketIO (>=5.1.1)
+Requires-Dist: numpy (>=1.20.3)
+Requires-Dist: paho-mqtt (>=1.5.1)
+Requires-Dist: pyserial (>=3.5)
+Requires-Dist: setuptools (>=58.0.4)
+Requires-Dist: toml (>=0.10.2)
+
+# PyDotBot
+
+PyDotBot is a library allowing for simple and elegant control of Swarms of DotBots.
+
+<!---
+TODO: Show a simple Pythonic example of configuring and controlling dotbots using the library (likely move commands or importing a controller).
+TODO: Also show a user interface example of doing the same thing.
+-->
+
+## Installing PyDotBot and Supported Versions
+
+PyDotBot will soon be available on PyPI (officially supporting Python 3.6+):
+```bash
+python -m pip install dotbot
+```
+
+
