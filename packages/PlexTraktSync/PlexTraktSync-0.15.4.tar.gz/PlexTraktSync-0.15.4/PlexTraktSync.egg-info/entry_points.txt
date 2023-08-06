@@ -1,0 +1,3 @@
+[console_scripts]
+plextraktsync = plex_trakt_sync.cli:cli
+
