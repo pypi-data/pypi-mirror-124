@@ -1,0 +1,6 @@
+numpy
+numba
+stripy
+ipyvolume
+h5py
+matplotlib
