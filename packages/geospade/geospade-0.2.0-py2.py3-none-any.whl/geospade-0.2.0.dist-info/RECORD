@@ -1,0 +1,13 @@
+geospade/__init__.py,sha256=45ecQXbslOoomAOW_mwqNU80oChZjJTNG0fouWuceHY,442
+geospade/crs.py,sha256=aMiOeIl8_n1p466QOQfuxF8Neox5kutfYpNuXLFsm8I,20367
+geospade/errors.py,sha256=r_0LEfC52DXmNyYYWab_AipSSusndhcDRS1ABFVaQig,953
+geospade/raster.py,sha256=uwhC2Iw_pmlXvV14pO2TfLXCkRn3SxGHTh1JozBWfes,93435
+geospade/tools.py,sha256=EIUaInFc1p4Y7TRS9FsEBsPJqnixN7aLOGDqpH0ktaU,16915
+geospade/transform.py,sha256=oCZjXREdXmVJtfLyhyg_hlyYBP-iVDmNDicb6pZ0xdI,6491
+geospade/vector.py,sha256=MEFGxmqlEOyFKFWMUy-gqoNrhQ6Sya3yYMIHlsKAR1Y,1089
+geospade-0.2.0.dist-info/AUTHORS.rst,sha256=h3lGVK95YJ5MG72jQ_FhUsyPNqUOSETlz9sjCatBU28,226
+geospade-0.2.0.dist-info/LICENSE.txt,sha256=F53fn9xnPpkudYHWwL5FFBemqvG182ZlNHSinRjZu0k,1156
+geospade-0.2.0.dist-info/METADATA,sha256=e4siRtYi1O7dvWe9TRQ-t3xWR40eYyB3kJw17KH7FUg,6666
+geospade-0.2.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+geospade-0.2.0.dist-info/top_level.txt,sha256=SEBb1vNi5SY7SUfklNgVT6GgiFSmAkCn-gfSysGIet0,9
+geospade-0.2.0.dist-info/RECORD,,
