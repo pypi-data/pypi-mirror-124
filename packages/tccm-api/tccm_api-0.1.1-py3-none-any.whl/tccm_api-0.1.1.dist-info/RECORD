@@ -1,0 +1,15 @@
+tccm_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tccm_api/app.py,sha256=fJBsxUCANCHAczdh2859PhgxqU2pjD5xF5mnR8Zqt54,1048
+tccm_api/config.py,sha256=1x_gJsO-WcaeXQzENi8V7GT_Njbv_WKe6ZdJFqCqG5E,401
+tccm_api/enums.py,sha256=As6MAFafXtBQi4hBPZ8--rTKk89AVAziZ7BtHDxIbNQ,347
+tccm_api/namespaces.py,sha256=EesImhIGj-K9We4txtonBwXstIof_Tzn7j8fExR2_1w,817
+tccm_api/utils.py,sha256=X45atw3QTKjyiw5IqwmRKBRQ74QAKQTs6GJASuEjVvs,2070
+tccm_loader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tccm_loader/icdo.py,sha256=_q8-4DxKzVmuuU52R2K59yUkU56zWKGimp6SSr2muwk,1536
+tccm_loader/ncit.py,sha256=Qe_yy0FAoeYnm_7sQoZCHxddLGjW2QzrL2zx1bMb5Ik,2228
+tccm_loader/obo.py,sha256=nNoHUPn6aafevB9lKr9C6pJf-Y-VUxI76ijZniN41i8,489
+tccm_api-0.1.1.dist-info/LICENSE,sha256=VTfU0Qt2uBtujf2LZESApLHvozL7sM22ESbFvnge97Q,6554
+tccm_api-0.1.1.dist-info/METADATA,sha256=pAIJocA8ybtuEGrcHURb_KploRY4PrJ7GUl6vCdqlv0,696
+tccm_api-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tccm_api-0.1.1.dist-info/top_level.txt,sha256=IHMUKZXXMlcIRdrj7Fxh8Jccr822KuctgqYcMgpZzp0,21
+tccm_api-0.1.1.dist-info/RECORD,,
