@@ -1,0 +1,9 @@
+README.md
+setup.py
+InstagramIG/SidraTools.py
+InstagramIG/__init__.py
+InstagramIG.egg-info/PKG-INFO
+InstagramIG.egg-info/SOURCES.txt
+InstagramIG.egg-info/dependency_links.txt
+InstagramIG.egg-info/requires.txt
+InstagramIG.egg-info/top_level.txt
