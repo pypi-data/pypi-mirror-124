@@ -1,0 +1,12 @@
+translator_template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+translator_template/app.py,sha256=vmeXECTqTW3Vt8Du2_dZiYLLdir1x4-lbwEkaIdpvtk,1698
+translator_template/parse.py,sha256=-8HTVh0wgV4HYGyuh4xviFU6COj7ypxGrNmNuSWtNaY,1081
+translator_template/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+translator_template/tests/data/test.txt,sha256=mPHxf5pzzP4-JZQK3Y2c6b8FUTEEysuE8vEYW_WIaoQ,3
+translator_template/tests/test_app.py,sha256=29VcdRalka3IhZRryjcSozsOcyhqkj1boG4FM4pgHwU,359
+translator_template/tests/test_parse.py,sha256=Uk1RyesfqMIr6jp0xnKnmOISlqjJ5ddO1q6AeXs7OtA,802
+translator_template-0.1.9.dist-info/entry_points.txt,sha256=PDDkrAFkwTV-EZFH9CNJcXWpzfTiLc8z8YtPeTGuWlc,57
+translator_template-0.1.9.dist-info/LICENSE,sha256=1nKxHvnw1iwoBv5yQyxVBCncuxGLIj2zeMGJf6Cwa_Y,1071
+translator_template-0.1.9.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+translator_template-0.1.9.dist-info/METADATA,sha256=4-2NAEO4xVJuWwM8NULr4BpbsILtA3aNN4wKjbbk6GU,1647
+translator_template-0.1.9.dist-info/RECORD,,
