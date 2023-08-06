@@ -1,0 +1,11 @@
+Django>=2.2
+djangorestframework>=3.10
+django-guardian>=1.4
+drf-nested-routers>=0.90
+
+[development]
+psycopg2-binary
+
+[testing]
+tox
+watchdog==0.9
