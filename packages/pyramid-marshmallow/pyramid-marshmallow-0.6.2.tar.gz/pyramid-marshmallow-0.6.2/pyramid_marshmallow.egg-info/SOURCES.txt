@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+pyramid_marshmallow/__init__.py
+pyramid_marshmallow/generatespec.py
+pyramid_marshmallow/spec.py
+pyramid_marshmallow/utils.py
+pyramid_marshmallow.egg-info/PKG-INFO
+pyramid_marshmallow.egg-info/SOURCES.txt
+pyramid_marshmallow.egg-info/dependency_links.txt
+pyramid_marshmallow.egg-info/requires.txt
+pyramid_marshmallow.egg-info/top_level.txt
