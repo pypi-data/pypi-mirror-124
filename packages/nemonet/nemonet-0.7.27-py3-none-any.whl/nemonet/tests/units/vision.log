@@ -1,0 +1,6 @@
+2021-10-21 14:45:14 - DEBUG - nodename=None type=TEST_TYPE xpath=some_xpathstring value=value key=something waitafter=3
+2021-10-21 14:45:22 - DEBUG - Hello, world!
+2021-10-21 14:45:22 - DEBUG - Hello, world!
+2021-10-21 14:52:35 - DEBUG - nodename=None type=TEST_TYPE xpath=some_xpathstring value=value key=something waitafter=3
+2021-10-21 14:52:43 - DEBUG - Hello, world!
+2021-10-21 14:52:43 - DEBUG - Hello, world!
