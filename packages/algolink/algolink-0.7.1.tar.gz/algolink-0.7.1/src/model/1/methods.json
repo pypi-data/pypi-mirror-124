@@ -1,0 +1,1 @@
+{"predict": ["__call__", {"shape": [null], "dtype": "int64", "type": "algolink.ext.numpy.dataset.NumpyNdarrayDatasetType"}, {"shape": [null], "dtype": "int64", "type": "algolink.ext.numpy.dataset.NumpyNdarrayDatasetType"}]}

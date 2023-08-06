@@ -1,0 +1,1 @@
+{"meta_repo": {"db_uri": "sqlite:///sql.db", "type": "sqlalchemy"}, "artifact_repo": {"path": "/Users/leepand/Downloads/MLOps/AlgoLink/tests", "type": "local"}, "dataset_repo": {"repo": {"path": "/Users/leepand/Downloads/MLOps/AlgoLink/tests", "type": "local"}}}
