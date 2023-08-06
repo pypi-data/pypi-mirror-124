@@ -1,0 +1,3 @@
+[console_scripts]
+efsync2 = efsync2.efsync_cli:main
+
