@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: keybox
+Version: 0.3
+Summary: Storage for passwords, encrypted with GPG
+Home-page: https://github.com/rbrich/keybox
+Author: Radek Brich
+Author-email: radek.brich@devl.cz
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: blessed
+
+UNKNOWN
+
