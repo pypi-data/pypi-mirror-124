@@ -1,0 +1,5 @@
+bitwarden_kv/__init__.py,sha256=Twhr4hf8-FerfDnf2ZDOQURalw24DU_3SG5ecoddn-Y,23
+bitwarden_kv/vault.py,sha256=IVLnEM0jIoGORDGxIcwmS9AXP_4q7mVUMo45FjvaOYQ,4467
+bitwarden_kv-0.5.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bitwarden_kv-0.5.0.dist-info/METADATA,sha256=WxB2lggSZvl9f47MhTv7bcFIfiMzPIa3mgENBu4b4YY,441
+bitwarden_kv-0.5.0.dist-info/RECORD,,
