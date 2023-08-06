@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+sqlpt.egg-info/PKG-INFO
+sqlpt.egg-info/SOURCES.txt
+sqlpt.egg-info/dependency_links.txt
+sqlpt.egg-info/top_level.txt
