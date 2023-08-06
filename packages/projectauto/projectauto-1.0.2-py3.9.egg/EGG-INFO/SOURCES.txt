@@ -1,0 +1,11 @@
+README.md
+setup.py
+project/__init__.py
+project/script.py
+projectauto.egg-info/PKG-INFO
+projectauto.egg-info/SOURCES.txt
+projectauto.egg-info/dependency_links.txt
+projectauto.egg-info/entry_points.txt
+projectauto.egg-info/not-zip-safe
+projectauto.egg-info/requires.txt
+projectauto.egg-info/top_level.txt
