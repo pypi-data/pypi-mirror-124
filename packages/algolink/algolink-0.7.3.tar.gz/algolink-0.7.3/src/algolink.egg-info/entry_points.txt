@@ -1,0 +1,3 @@
+[console_scripts]
+alink = algolink.cli:main
+

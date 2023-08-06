@@ -1,0 +1,1 @@
+{"requirements": [{"module": "sklearn", "version": "0.24.2", "type": "installable"}, {"module": "numpy", "version": "1.19.5", "type": "installable"}]}

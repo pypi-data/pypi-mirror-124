@@ -1,0 +1,1 @@
+{"predict": ["__call__", {"columns": ["a", "b"], "dtypes": ["int64", "int64"], "index_cols": [], "type": "algolink.ext.pandas.dataset.DataFrameType"}, {"shape": [null], "dtype": "int64", "type": "algolink.ext.numpy.dataset.NumpyNdarrayDatasetType"}]}
