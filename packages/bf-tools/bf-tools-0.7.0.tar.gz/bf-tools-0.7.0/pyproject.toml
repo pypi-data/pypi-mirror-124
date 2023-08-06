@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bf-tools"
+version = "0.7.0"
+description = "This is the package including tools for BrainFrame developers to debug the system."
+authors = ["Stephen Li <stephen@aotu.ai>"]
+
+[tool.poetry.dependencies]
+python = "^2.7 || ^3.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+bf-info = 'bf_tools.bf_info:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
