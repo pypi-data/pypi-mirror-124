@@ -1,0 +1,4 @@
+pbr
+networkx~=2.0
+attrs>=19.2.0
+hypothesis
