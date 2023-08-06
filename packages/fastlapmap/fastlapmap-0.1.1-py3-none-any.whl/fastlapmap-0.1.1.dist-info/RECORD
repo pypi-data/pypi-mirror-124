@@ -1,0 +1,10 @@
+fastlapmap/__init__.py,sha256=vqzItgrh0huoFH_FMqChvpJ1yM2IiTErTGmfy5DKjY0,413
+fastlapmap/ann.py,sha256=FU-zEfRvI0CkfnuqSq6PKhQ6KQ1OxhE21IFoYctycog,17377
+fastlapmap/benchmark.py,sha256=zir5oXV6P1tMowM3CLyIjp2jAcj5gh0ufre6o7osM54,2984
+fastlapmap/similarities.py,sha256=XCKHsfPrrjNTvtVZMnfZrdHGrgL7c1hFwEQL313kHpE,28130
+fastlapmap/spectral.py,sha256=G_E2zW3_ieMFc70tM1EV84JXXvzfLRD6v3GqKDnolH0,7225
+fastlapmap-0.1.1.dist-info/LICENSE,sha256=EVnZrUmhkZtsyeqXJcyEUn9bY8jbI3UTkPR_s-U8X58,1100
+fastlapmap-0.1.1.dist-info/METADATA,sha256=mtoELcoOA9npYp3wMTDhsBBDHFdiTHc9ljS4GbcAX3s,4612
+fastlapmap-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fastlapmap-0.1.1.dist-info/top_level.txt,sha256=Vl9BlUcWwaCle8H9CyfOO-fpxdsrJALNmL0xFoUx3pY,11
+fastlapmap-0.1.1.dist-info/RECORD,,
