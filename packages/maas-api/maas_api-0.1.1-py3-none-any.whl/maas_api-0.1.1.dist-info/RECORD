@@ -1,0 +1,5 @@
+maas_api/__init__.py,sha256=yKsmdAGLyocL4DNWwiIUM_p1aL29vQghWltXjSdPKSE,49
+maas_api/client.py,sha256=ChOlraUxaZLCc44BhvY1zVfRQTWlw7EKtt3W_XyTFNE,2719
+maas_api-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+maas_api-0.1.1.dist-info/METADATA,sha256=mhbXcesRzXsu-ZFiiwEGijyDQNfmkyzschF_l2m6ueo,1874
+maas_api-0.1.1.dist-info/RECORD,,
