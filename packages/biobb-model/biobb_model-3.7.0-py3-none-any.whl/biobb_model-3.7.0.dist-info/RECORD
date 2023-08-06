@@ -1,0 +1,16 @@
+biobb_model/__init__.py,sha256=hr95ipGq_uLBY6Yny663DovVjoLS0nHUh6wNmWMH3kg,41
+biobb_model/model/__init__.py,sha256=IwiHY2dUmSrxLf-3MvOVOshgJ1QCFBvIPLLg5qKb1ww,116
+biobb_model/model/checking_log.py,sha256=OMl5NQhIC8X1jMdPGeV5eMijqnqMplAKKXv8u4b-bm8,4618
+biobb_model/model/common.py,sha256=MEHVBFcIv2mjlPJDdxIInouG0KastFkwMrGOzNXg0Bg,584
+biobb_model/model/fix_amides.py,sha256=a0Xho9uubMaEf3uPhw2-wr7vlfbXwt552uEJ9ygPSdg,4544
+biobb_model/model/fix_backbone.py,sha256=au3GNL3i2yTMctQEDsx2H0a5J7QEKrMZShhvgIZTTu0,6456
+biobb_model/model/fix_chirality.py,sha256=FyaU6jck35TlLi_SwBq-xbGqxqFqQ8zmwsIlbXFe0a4,4786
+biobb_model/model/fix_side_chain.py,sha256=i4HdDF-Z8MdnuEEiKNmGQM9sJswoI86aFOfZbsfi9zw,5571
+biobb_model/model/mutate.py,sha256=Z6brkM5PwoTSdpQWZyaicX05oICTj4-GC2t4mVlT95o,5803
+biobb_model/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_model-3.7.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+biobb_model-3.7.0.dist-info/METADATA,sha256=GwkNL7s0dRiB8SNLaYNC5-oBHzD5ajn-p1Y7ljsKW1g,4009
+biobb_model-3.7.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+biobb_model-3.7.0.dist-info/entry_points.txt,sha256=nPbaIenfQYjs_sV8vwusCI4SM1wOyGNQfnpeDH7y6FA,315
+biobb_model-3.7.0.dist-info/top_level.txt,sha256=2eU0cjypUSQXFaC1paHoeFjd5BkWze2UA1BpHW5tmhs,12
+biobb_model-3.7.0.dist-info/RECORD,,
