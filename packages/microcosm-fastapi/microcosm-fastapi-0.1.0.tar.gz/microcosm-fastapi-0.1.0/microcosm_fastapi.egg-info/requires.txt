@@ -1,0 +1,14 @@
+microcosm>=3.0.0
+fastapi
+uvicorn
+aiofiles
+SQLAlchemy>=1.4.0
+httpx
+click
+jinja2
+sqlalchemy-utils
+microcosm-pubsub
+microcosm-postgres[encryption]>=2.0.0
+asyncpg
+psycopg2-binary>=2.7.5
+makefun
