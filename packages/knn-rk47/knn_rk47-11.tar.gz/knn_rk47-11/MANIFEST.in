@@ -1,0 +1,5 @@
+include src/knn/a.txt
+include src/knn/index.bl
+include knn_main.py
+recursive-include data *
+
