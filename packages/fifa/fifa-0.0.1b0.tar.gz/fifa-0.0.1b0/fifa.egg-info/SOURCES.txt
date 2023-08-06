@@ -1,0 +1,7 @@
+fifa.py
+setup.cfg
+setup.py
+fifa.egg-info/PKG-INFO
+fifa.egg-info/SOURCES.txt
+fifa.egg-info/dependency_links.txt
+fifa.egg-info/top_level.txt
