@@ -1,0 +1,13 @@
+# Explicitly include the C/C++ sources, for cythonless installs.
+global-include *.c *.cpp *.h *.hpp
+# Cython headers
+global-include *.pxd
+
+prune .tox
+
+# FGD database.
+include src/srctools/fgd.lzma
+# Marks as having type hints.
+include src/srctools/py.typed
+# Lookup table.
+include src/libsquish/singlecolourlookup.inl

@@ -1,0 +1,15 @@
+attrs
+versioningit
+cython
+
+[:python_version < "3.7"]
+importlib_resources
+contextvars
+
+[test]
+pytest
+pytest-datadir
+pytest-regressions
+
+[wx]
+wxPython
