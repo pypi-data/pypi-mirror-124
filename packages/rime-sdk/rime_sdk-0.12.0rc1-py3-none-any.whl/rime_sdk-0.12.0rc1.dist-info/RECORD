@@ -1,0 +1,16 @@
+rime_sdk/__init__.py,sha256=nIpP1u-5_N9NrGq_foR3WCJWdovLJfDZbpolF_f7SaM,271
+rime_sdk/client.py,sha256=jE45toh10BdkYjConpL7uMe1AyFGO0n47cRdP-6RhGI,15095
+rime_sdk/internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rime_sdk/internal/throttle_queue.py,sha256=8AS4pvlJfMUcE3KHWZu7DFElgjKralMwOZey_37fVFI,2690
+rime_sdk/protos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rime_sdk/protos/model_testing_pb2.py,sha256=5a8oBOZlohqczIffxa6j3zDI9kFgm-Xi2VyGQQYUjzA,25511
+rime_sdk/protos/model_testing_pb2_grpc.py,sha256=OPD-xZZf458L94G-DLhlji7kSpG372E5bx5mO0KG7fE,7410
+rime_sdk/protos/results_upload_pb2.py,sha256=JlhAKpgbU5Nt8fL1yicT2VuteKbL051mV5DZP_h46DM,108044
+rime_sdk/protos/results_upload_pb2_grpc.py,sha256=aalTBSGEvkvj77fOKrkK7kJo0tSsvCAgMfh2iqh7I3Y,9462
+rime_sdk/protos/test_run_tracker_pb2.py,sha256=kHoISjJFi3ortCf3O1pT4jOW2V14rh3YZiuCoOjSjmk,32171
+rime_sdk/protos/test_run_tracker_pb2_grpc.py,sha256=Z53sxewMuZcyUdfn39k-ksaQJ365EB5sXkps9V6vaLE,6080
+rime_sdk-0.12.0rc1.dist-info/LICENSE,sha256=FCtogwD4MrOfqw9MoBEMOtnriRb6wsYSCch9mvU7ZZ0,566
+rime_sdk-0.12.0rc1.dist-info/METADATA,sha256=wztACOupCBH0beEEF_Oe99uW7LKv7YimnKi7kUwICsA,7126
+rime_sdk-0.12.0rc1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+rime_sdk-0.12.0rc1.dist-info/top_level.txt,sha256=jbj1XXjqDSfEprIz45zYS3o1g7yJhdMdaIbqQbgSV4Y,9
+rime_sdk-0.12.0rc1.dist-info/RECORD,,
