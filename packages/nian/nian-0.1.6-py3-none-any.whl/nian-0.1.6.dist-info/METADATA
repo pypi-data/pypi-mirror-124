@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nian
+Version: 0.1.6
+Summary: 白嫖音乐等
+Home-page: http://0.wlwmz.top:2/
+Author: 初慕苏流年
+Author-email: 1274210585@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+白嫖QQ，酷狗，酷我，网易
+
+
