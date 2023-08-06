@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/xora/__init__.py
+src/xora/__main__.py
+src/xora/cli.py
+src/xora/daemon.py
+src/xora/xoraing.py
+src/xora.egg-info/PKG-INFO
+src/xora.egg-info/SOURCES.txt
+src/xora.egg-info/dependency_links.txt
+src/xora.egg-info/entry_points.txt
+src/xora.egg-info/not-zip-safe
+src/xora.egg-info/requires.txt
+src/xora.egg-info/top_level.txt
+src/xora/core/__init__.py

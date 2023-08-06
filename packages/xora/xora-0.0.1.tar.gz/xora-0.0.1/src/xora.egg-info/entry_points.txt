@@ -1,0 +1,4 @@
+[console_scripts]
+xora = xora.cli:main
+xorad = xora.daemon:main
+
