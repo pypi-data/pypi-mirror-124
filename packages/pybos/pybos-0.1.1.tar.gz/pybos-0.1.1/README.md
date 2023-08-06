@@ -1,0 +1,139 @@
+# pyBOS
+
+## **B**ackground **O**riented **S**chlieren: BOS Imaging
+
+### Context 
+
+For the visualization of fluid motion based on local refractive index variations **B**ackground **O**riented **S**chlieren (**BOS**, also known as Synthetic Schlieren) is a simple and cost-effective alternative to laser imaging methods, because it doesn’t need any complex illumination device like a laser needed for laser imaging, and it works without seeding the flow.
+
+BOS is a line-of-sight imaging technique and measures locally the density gradient as an integrated value over the line-of-sight. In practice, only a random dot pattern in the background of the flow is imaged with a high resolution camera before and during the test. By comparing the two pictures (or more precisely correlating the two patterns similar to the image correlation in PIV) the local displacement of the background pattern can be used to provide lateral information on path-integrated refractive index variations.
+
+More precisely, it is based on the deflection of light beams crossing gradients of the index of refraction in a transparent medium. These index of refraction gradients can be introduced by density variations in a fluid or in mixing processes of different optical materials. Schlieren is a line-of-sight imaging technique allowing only a qualitative flow visualization.
+
+BOS can visualize large scale flow phenomena and measures the optical flow distortion in form of a digital vector map. For 2-dimensional or axisymmetric flows, BOS provides the potential to measure absolute 3-dimensional density and temperature fields. In general, a Tomographic BOS Imaging can be used to overcome this symmetry limitation.
+
+Some extensions exist like CBOS or CGBOS that use a colored background to improve the precision.
+
+### Limits
+
+For the reconstruction, one need to know the relationship between the refractive index and the density and or the temperature. Thus it generally cannot be used in contexts where this relationship depends on multiple variables (e.g. temperature, pressure or species mixing)
+
+### Technical description
+
+1. A displacement field $\vec{\epsilon}$ is aquired using a PIV-like method between a reference image (a background without the distortions) and the measurment image (the distorded background). The background can be
+   * a black and white random noise (BOS)
+   * a colored random noise (CBOS)
+   * a colored grid (CGBOS)
+
+2. The BOS equation is solved
+$$ \Delta I_{dz} = \frac{2n_0}{2 d + w} \nabla . \vec{\epsilon} $$
+where $n_0$ is the refractive index of the environment, $w$ is the object width and $d$ the pattern-object distance and:
+$$I_{dz} = \int_{object} n dz $$
+
+3. The refractive index $n$ is extracted
+* with a 2d hypothesis ($I_{dz} = wn$)
+* with an axisymmetry hypothesis thanks to an Abel transform.
+
+4. The density and/or the temperature are recovered using physical laws like
+ * linear or polynomial regression for the temperature directly
+ * Gladstone–Dale relation for density and Ideal gas law for temperature ($G$ being the Gladstone constant)
+ $$ n-1 = \rho G $$
+ $$ p M = \rho RT $$
+
+
+### Bibliography
+
+BOS can also be found in the literature as Synthetic Schlieren or rarely dot tracking refractometry. The technique was initiated approximately at the same time by several authors [1]–[3] in 2000.
+Several interesting references [4], [5] present the different variations of the BOS method and a wide range of applications.
+Above are given the generalized equations but they vary among researchers according to the consideration of the optical system, object configuration and the nomenclature. The detail of the equations (integration along the optical path) can be found:
+  *	For the 2D configuration in Dalziel et al. [1] or in the Jensen thesis appendix [6] (also 1D case)
+  *	For the 3D axisymmetric configuration in Kinder et al. [7]
+  *	For the 3D by tomographic reconstruction in [8], [9] among numerous studies
+
+[1] S. B. Dalziel, G. O. Hughes, and B. R. Sutherland, “Whole-field density measurements by ‘synthetic schlieren’” Exp. Fluids, vol. 28, no. 4, pp. 322–335, 2000.
+
+[2] G. E. A. Meier, “Computerized background-oriented schlieren” Exp. Fluids, vol. 33, no. 1, pp. 181–187, 2002.
+
+[3] M. Raffel, H. Richard, and G. E. A. Meier, “On the applicability of background oriented optical tomography for large scale aerodynamic investigations” Exp. Fluids, vol. 28, no. 5, pp. 477–481, 2000.
+
+[4]	M. Raffel, “Background-oriented schlieren (BOS) techniques,” Exp. Fluids, vol. 56, no. 3, p. 60, Mar. 2015, doi: 10.1007/s00348-015-1927-5.
+
+[5]	G. S. Settles and M. J. Hargather, “A review of recent developments in schlieren and shadowgraph techniques” Meas. Sci. Technol., vol. 28, no. 4, p. 042001, Feb. 2017, doi: 10.1088/1361-6501/aa5748.
+
+[6]	O. Jensen, “Optical density and velocity measurements in cryogenic-gas flows” PhD Thesis, ETH Zurich, 2003.
+
+[7]	K. Kindler, E. Goldhahn, F. Leopold, and M. Raffel, “Recent developments in background oriented schlieren methods for rotor blade tip vortex measurements” Exp. Fluids, vol. 43, no. 2, pp. 233–240, 2007.
+
+[8]	S. J. Grauer, A. Unterberger, A. Rittler, K. J. Daun, A. M. Kempf, and K. Mohri, “Instantaneous 3D flame imaging by background-oriented schlieren tomography” Combust. Flame, vol. 196, pp. 284–299, Oct. 2018, doi: 10.1016/j.combustflame.2018.06.022.
+
+[9]	E. Goldhahn and J. Seume, “Background Oriented Schlieren technique – sensitivity, accuracy, resolution and application to a three-dimensional density field” p. 11, 2006.
+
+## Technical Ressources
+
+This library make intensive use of [xarray](https://xarray.pydata.org/en/stable/)
+and use [fipy](https://www.ctcms.nist.gov/fipy/) to solve the BOS equation.
+Please consider to look at their documentation.
+
+You might also want to look at [pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
+documentation since it is the main inspiration of `xarray`
+
+## Installation
+
+### Pre-instalation steps for Windows (conda)
+
+You should use the [Anaconda](https://anaconda.org/) distribution and create a virtual environment. This will isolate this tool from any other python app you may have.
+
+To create this virtual environment and install all the dependencies, 
+ * download this [file](https://gitlab.coria-cfd.fr/pouxa/pybos/-/raw/main/environment.yml?inline=false).
+ * Open an Anaconda Prompt in the folder where you put the downloaded file
+ * create the virtual environment
+
+```bash
+conda activate venv-pybos
+```
+* and activate it (now and every time you want to use pyBOS)
+```bash
+conda activate venv-pybos
+```
+
+`(venv-pybos)` should appear at the begining of the terminal prompt
+
+### Pre-instalation steps for Linux
+
+It is also recomended to use a python virtualenv for your project. Open a terminal in the folder you want to work and type:
+```bash
+python -m venv venv-pybos
+```
+
+You'll have to activate it (now and every time you want to use pyBOS)
+```bash
+source venv-pybos/bin/activate
+```
+
+`(venv-pybos)` should appear at the begining of the terminal prompt
+
+## Instalation
+
+You can install pyBOS with
+
+* ```bash
+  pip install pybos # minimal installation
+  ```
+* ```bash
+  pip install pybos[jupyter] # installation with jupyter
+  ```
+* ```bash
+  pip install pybos[transform] # installation with support for transform operation (abel)
+  ```
+* ```bash
+  pip install pybos[jupyter,transform] # installation with jupyter and support for transform operation (abel)
+  ```
+
+## Development
+
+There is another [file](https://gitlab.coria-cfd.fr/pouxa/pybos/-/raw/main/environment_dev.yml?inline=false) for creating the virtual environment with conda. It contains more dependencies.
+
+And there is also a complete package with all the dependencies for dev purposes
+```pip
+pip install -e pybos[dev]
+```
