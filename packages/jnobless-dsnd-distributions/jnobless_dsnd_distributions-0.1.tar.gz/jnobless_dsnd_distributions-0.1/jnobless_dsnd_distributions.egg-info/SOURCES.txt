@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+jnobless_dsnd_distributions.egg-info/PKG-INFO
+jnobless_dsnd_distributions.egg-info/SOURCES.txt
+jnobless_dsnd_distributions.egg-info/dependency_links.txt
+jnobless_dsnd_distributions.egg-info/not-zip-safe
+jnobless_dsnd_distributions.egg-info/top_level.txt
