@@ -1,0 +1,60 @@
+{% extends 'timeline.html' %}
+{% load datetime_filter %}
+{% load humanize %}
+
+{% block title %}
+User {{ user.username }} - Luna
+{% endblock %}
+
+{% block heading %}
+<div id="user-info">
+  <h1>{{ user.username }}</h1>
+  @{{ user.username }}@{{ user.host }}
+  <p>
+    {{ user.description | safe }}
+  </p>
+</div>
+{% endblock %}
+
+{% block list %}
+<ul class="timeline">
+{% for item in items %}
+<li>
+  {% if item.type == 'post' %}
+  <h2>
+    <a href="{% url 'post' item.id %}">{{ item.title }}</a>
+  </h2>
+  <p>
+    Submitted
+    <time datetime="{{ item.created }}">
+      {{ item.created | to_datetime | naturaltime }}
+    </time>
+    {% if timeline_type != 'community' %}
+    to
+    <a href="{% url 'community' item.community.id %}">{{ item.community.name }}</a>
+    {% endif %}
+  </p>
+  {% else %}
+  <h2>
+    <a href="{% url 'post' item.post.id %}">{{ item.post.title }}</a>
+  </h2>
+  <p>
+    Commented
+    <time datetime="{{ item.created }}">
+      {{ item.created | to_datetime | naturaltime }}:
+    </time>
+    <span>
+      {{ item.content_html | safe }}
+    </span>
+  </p>
+  {% endif %}
+</li>
+{% endfor %}
+</ul>
+{% endblock %}
+
+{% block pagination %}
+{% if next_page %}
+<a href="{% url 'user_old' user.id next_page %}">Next page</a>
+{% endif %}
+{% endblock %}
