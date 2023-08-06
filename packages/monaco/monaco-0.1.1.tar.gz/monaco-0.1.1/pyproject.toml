@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "monaco"
+version = "0.1.1"
+description = "A python library for setting up, running, and analyzing Monte-Carlo simulations to conduct uncertainty and sensitivity analysis."
+authors = ["Scott Shambaugh <scott@theshamblog.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+repository = "https://github.com/scottshambaugh/monaco/"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development",
+]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+numpy = "^1.21"
+scipy = "^1.7"
+pathos = "^0.2.7"
+matplotlib = "^3.3.0"
+tqdm = "^4.0"
+pandas = "^1.3.0"
+psutil = "^5.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.0"
+coverage = "^6.0"
+mypy = "^0.800"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
