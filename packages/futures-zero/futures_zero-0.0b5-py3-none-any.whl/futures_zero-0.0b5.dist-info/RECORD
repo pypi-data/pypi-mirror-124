@@ -1,0 +1,11 @@
+futures_zero/__init__.py,sha256=9qvN7HHciSg3COqfoWPCwGmnP0JjaFvIG_UJx2yfpkY,135
+futures_zero/config.py,sha256=KVcEJt6KDYNiMRLx-vAhQs2MuJnfoyVxMvxxCh3npYI,819
+futures_zero/futures.py,sha256=uNSTVIblpXowj_BtQSceCOyrCmOUofRD9-vq7s84je4,28696
+futures_zero/server.py,sha256=_iMzyoYdGmEaZxPwgX9GzfGUwcuD1BvzovOmvaee4xw,14718
+futures_zero/utils.py,sha256=-ibWQ0s_dM8lyCG08AVEzL0NKHRBYFA6W-NaPNBjw7M,1108
+futures_zero/worker.py,sha256=m7heS2cUYrA-Ip-alXEGoarmIpLMexAGCTrxaE1slio,11780
+futures_zero-0.0b5.dist-info/LICENSE,sha256=HTcc_aX_QRU4_N_HaS3-oILNWZL-T2OJZSTU_QNhO28,1514
+futures_zero-0.0b5.dist-info/METADATA,sha256=J5gfNkEQCHI40kBtknxuG9KkNKNhIAspkIuYO8WI1Pc,444
+futures_zero-0.0b5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+futures_zero-0.0b5.dist-info/top_level.txt,sha256=TcD0FL3LJFd2zQIglUk5fFTJ8f8F1qW9a-C63V_gyKs,13
+futures_zero-0.0b5.dist-info/RECORD,,
