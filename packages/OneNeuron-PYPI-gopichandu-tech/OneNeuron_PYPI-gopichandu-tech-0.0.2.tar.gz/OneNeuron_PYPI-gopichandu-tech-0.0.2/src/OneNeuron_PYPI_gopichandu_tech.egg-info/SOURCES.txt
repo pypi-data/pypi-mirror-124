@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/OneNeuron_PYPI/Perceptron.py
+src/OneNeuron_PYPI/__init__.py
+src/OneNeuron_PYPI_gopichandu_tech.egg-info/PKG-INFO
+src/OneNeuron_PYPI_gopichandu_tech.egg-info/SOURCES.txt
+src/OneNeuron_PYPI_gopichandu_tech.egg-info/dependency_links.txt
+src/OneNeuron_PYPI_gopichandu_tech.egg-info/requires.txt
+src/OneNeuron_PYPI_gopichandu_tech.egg-info/top_level.txt
