@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+datadis/__init__.py
+datadis/adaptors.py
+datadis/validators.py
+datadis/webservice.py
+datadis_aseme.egg-info/PKG-INFO
+datadis_aseme.egg-info/SOURCES.txt
+datadis_aseme.egg-info/dependency_links.txt
+datadis_aseme.egg-info/requires.txt
+datadis_aseme.egg-info/top_level.txt
