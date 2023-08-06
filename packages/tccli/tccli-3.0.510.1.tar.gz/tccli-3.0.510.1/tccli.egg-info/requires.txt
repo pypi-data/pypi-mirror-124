@@ -1,0 +1,2 @@
+tencentcloud-sdk-python >= 3.0.510
+jmespath==0.10.0
