@@ -1,0 +1,2 @@
+httpie>=2.0.0
+openstacksdk>=0.59.0
