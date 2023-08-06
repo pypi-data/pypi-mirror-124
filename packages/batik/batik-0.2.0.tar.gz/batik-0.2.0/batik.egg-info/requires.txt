@@ -1,0 +1,10 @@
+requests
+flask
+requests-toolbelt
+pyyaml
+watchdog
+
+[test]
+coverage
+pytest
+pytest-cov
