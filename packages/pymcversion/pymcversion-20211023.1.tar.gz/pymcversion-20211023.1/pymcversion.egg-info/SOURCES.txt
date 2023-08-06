@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+pymcversion/__init__.py
+pymcversion/bedrock_server.py
+pymcversion/ios_store_lookup.py
+pymcversion/java_version_manifest.py
+pymcversion.egg-info/PKG-INFO
+pymcversion.egg-info/SOURCES.txt
+pymcversion.egg-info/dependency_links.txt
+pymcversion.egg-info/entry_points.txt
+pymcversion.egg-info/requires.txt
+pymcversion.egg-info/top_level.txt
+pymcversion/scripts/__init__.py
+pymcversion/scripts/mcversion.py
