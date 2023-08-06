@@ -1,0 +1,8 @@
+setup.py
+aws_sqs_batch_sender/__init__.py
+aws_sqs_batch_sender/batch_sender.py
+aws_sqs_batch_sender.egg-info/PKG-INFO
+aws_sqs_batch_sender.egg-info/SOURCES.txt
+aws_sqs_batch_sender.egg-info/dependency_links.txt
+aws_sqs_batch_sender.egg-info/requires.txt
+aws_sqs_batch_sender.egg-info/top_level.txt
