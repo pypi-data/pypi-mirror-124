@@ -1,0 +1,47 @@
+Change Log
+====================================================
+
+0.0.1 (21.10.2021) / First Release
+------------------------------------------------------------------------
+- All related comments for Delta Electronika SM15K
+- Basic, Ah, Wh datalogging as thread
+- Watchdog configuration as thread
+- Charging, discharging, cycling operations as thread
+
+0.0.2 (22.10.2021) / Second Release
+------------------------------------------------------------------------
+- All related comments for Delta Electronika SM15K
+- Basic, Ah, Wh datalogging as thread
+- Watchdog configuration as thread
+- Charging, discharging, cycling operations as thread
+- For logging encode='utf-8' has been removed
+- Cycling counter has been fixed. (Assigned value is not going to be halved anymore)
+- IPV4 has been removed from global variables and added as instance for all classes separately!
+- Colorful selection has been done for datalogger printing option, default is green as feedback indicator.
+
+0.0.3 (24.10.2021) / Third Release
+------------------------------------------------------------------------
+- All related comments for Delta Electronika SM15K
+- Basic, Ah, Wh datalogging as thread
+- Watchdog configuration as thread
+- Charging, discharging, cycling operations as thread
+- For logging encode='utf-8' has been removed
+- Cycling counter has been fixed. (Assigned value is not going to be halved anymore)
+- IPV4 has been removed from global variables and added as instance for all classes separately!
+- Colorful selection has been done for datalogger printing option, default is green as feedback indicator.
+- Readme section has been improved for detailed information.
+- For logging encode='utf-8' has been removed.
+
+0.0.4 (25.10.2021) / Fourth Release
+------------------------------------------------------------------------
+- All related comments for Delta Electronika SM15K
+- Basic, Ah, Wh datalogging as thread
+- Watchdog configuration as thread
+- Charging, discharging, cycling operations as thread
+- For logging encode='utf-8' has been removed
+- Cycling counter has been fixed. (Assigned value is not going to be halved anymore)
+- IPV4 has been removed from global variables and added as instance for all classes separately!
+- Colorful selection has been done for datalogger printing option, default is green as feedback indicator.
+- Readme section has been improved for detailed information.
+- For logging encode='utf-8' has been removed.
+- Shutdown bug has been fixed.
