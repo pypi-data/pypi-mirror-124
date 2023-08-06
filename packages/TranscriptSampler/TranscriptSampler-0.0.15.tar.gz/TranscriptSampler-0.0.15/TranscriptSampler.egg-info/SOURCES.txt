@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.py
+./TranscriptSampler/__init__.py
+./TranscriptSampler/cli.py
+./TranscriptSampler/helper_functions.py
+./TranscriptSampler/transcript_sampler.py
+TranscriptSampler.egg-info/PKG-INFO
+TranscriptSampler.egg-info/SOURCES.txt
+TranscriptSampler.egg-info/dependency_links.txt
+TranscriptSampler.egg-info/entry_points.txt
+TranscriptSampler.egg-info/requires.txt
+TranscriptSampler.egg-info/top_level.txt

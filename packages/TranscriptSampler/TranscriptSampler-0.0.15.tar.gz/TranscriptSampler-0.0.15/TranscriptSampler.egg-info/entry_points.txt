@@ -1,0 +1,3 @@
+[console_scripts]
+TranscriptSampler = TranscriptSampler.cli:write_sample
+
