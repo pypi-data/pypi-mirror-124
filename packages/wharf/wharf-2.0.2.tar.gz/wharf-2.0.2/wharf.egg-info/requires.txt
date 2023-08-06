@@ -1,0 +1,5 @@
+click<8
+docker==4.4.4
+dockerpty<0.5
+jinja2<2.9
+templated-yaml>=1.1.2
