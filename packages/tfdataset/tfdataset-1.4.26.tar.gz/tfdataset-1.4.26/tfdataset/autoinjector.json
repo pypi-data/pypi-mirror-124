@@ -1,0 +1,13 @@
+{
+    "injector": 1,
+    "injector_cap": 2,
+    "grab_pen": 3,
+    "select_dose": 4,
+    "hand_sub_needle": 5,
+    "hand_main_needle": 6,
+    "hand_main_cap": 7,
+    "hand_sub_pen": 8,
+    "inject_main": 9,
+    "hand_main_pen": 10,
+    "hand_sub_cap": 11
+}
