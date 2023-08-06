@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+safegraph_eval/safegraph_eval.egg-info/PKG-INFO
+safegraph_eval/safegraph_eval.egg-info/SOURCES.txt
+safegraph_eval/safegraph_eval.egg-info/dependency_links.txt
+safegraph_eval/safegraph_eval.egg-info/top_level.txt
