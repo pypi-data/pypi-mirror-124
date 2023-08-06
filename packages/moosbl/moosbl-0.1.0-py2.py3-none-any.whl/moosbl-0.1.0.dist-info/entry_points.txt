@@ -1,0 +1,3 @@
+[console_scripts]
+snowball = snowball.__main__:main
+
