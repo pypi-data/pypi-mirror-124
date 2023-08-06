@@ -1,0 +1,17 @@
+PColorLogging/__init__.py,sha256=eQffxc79AkWSehYtDz4RAiwom16cEAxcd_Jv1NAqzQM,824
+PColorLogging/error.py,sha256=aRqee11_eeaJpyfhBZ6ltdzsGYzISt15ZO6CF5z4gDA,250
+PColorLogging/Drawer/__init__.py,sha256=1-v240Tvk7W3a623SyRgoSSTcNxGSTBeemgefnNkSsU,2434
+PColorLogging/Drawer/message_manager.py,sha256=Fb3UzKLAAZyx4SypwIAie2ZJtR0zWRj5HynwLMLNY-g,918
+PColorLogging/Drawer/color/__init__.py,sha256=Y_98Vug3zKA2j2c3bD7EyMj41yr7BtFG2rpS1m8fgk4,2577
+PColorLogging/Drawer/color/color_code.py,sha256=lRQDfS-ceoAM-YIq1Fn6jIAxUlLeetSq37C3qhH3xUg,790
+PColorLogging/Formatter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PColorLogging/Formatter/colored_formatter.py,sha256=DyKJSIA_LmMJHD0rCLt9FMRY7qxnOjwGbcrMAnEPMZc,545
+PColorLogging/LogRecord/__init__.py,sha256=5cakb9djPp8DXq3ewrGNj8m6eMUs1BBp6im7KCedC00,240
+PColorLogging/Logger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PColorLogging/Logger/Adapter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PColorLogging/Logger/Adapter/extra_adapter_logger.py,sha256=8zQxFWD2bqUITsPDag5y-FNj8buPggYxUcTGVeIaYP8,605
+PColorLogging-0.0.22.dist-info/LICENSE,sha256=S1pJL407BwTTXzZK0BQPNM7ZZs57uj1pTSfVZ8Whx30,1061
+PColorLogging-0.0.22.dist-info/METADATA,sha256=Tt7iX__cAW4ZwgRIvlzFomiOLrHi5tP4jAnH1l0q7bg,2158
+PColorLogging-0.0.22.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PColorLogging-0.0.22.dist-info/top_level.txt,sha256=GMJ6-WyMwYrtGELiKbsQ4rM8W6sRoql9rCMnqwjUka0,14
+PColorLogging-0.0.22.dist-info/RECORD,,
