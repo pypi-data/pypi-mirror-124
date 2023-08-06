@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+airzonecloud/AirzoneCloudConnector.py
+airzonecloud/AirzoneDevice.py
+airzonecloud/AirzoneInstallation.py
+airzonecloud/AirzoneWebsocket.py
+airzonecloud/const.py
+python_airzonecloud.egg-info/PKG-INFO
+python_airzonecloud.egg-info/SOURCES.txt
+python_airzonecloud.egg-info/dependency_links.txt
+python_airzonecloud.egg-info/top_level.txt
+tests/__init__.py
+tests/test_device.py
+tests/test_installation.py
