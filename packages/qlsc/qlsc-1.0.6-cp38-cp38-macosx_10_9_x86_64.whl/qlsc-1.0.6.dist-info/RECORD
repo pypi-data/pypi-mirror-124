@@ -1,0 +1,16 @@
+qlsc/__init__.py,sha256=cwL2Xote3xg5bLd16VyiDWxpnZdRwQiUGDOmhtKd_8Y,215
+qlsc/generate.py,sha256=PaOjvYSAOizS9GS_s9KiPgzjLjMNDAx0EK1jbOBr5ng,3550
+qlsc/q3c.cpython-38-darwin.so,sha256=E2UG-LEbZl-b5asbn8hSmldXKvya3IAq_5MRkE9ACg8,94672
+qlsc/qlsc_base.py,sha256=Ob6IUEwMoSG33r8GeBRmTD0cFkD9g1JeLKYThstREO0,33782
+qlsc/qlsc_functions.py,sha256=fJg1AegIsf7K5QUGLdJyIC5isWN4gBhI4HeAEdenk7Y,1549
+qlsc/utilities.py,sha256=h3kHtutbxlOyIYa6WoBqAjepC7olRJhqhc42ha8bcOk,13185
+qlsc/version.py,sha256=u4FbELk-3BBXn91SUY4aXA4GTKbMa3gEwAIipVDcNdA,258
+qlsc/c_code/qlsc_c_module.c,sha256=CPrrFQWy1Ab_wWbjoQ05D6DCVGQvp5TdFw5Sv-f4nI4,29542
+qlsc/c_code/q3c/common.h,sha256=CEeEMAQn-r-hIu-FRl-qFkQFVKO3sHyXwcdxtgKUHjU,11508
+qlsc/c_code/q3c/my_bits.h,sha256=6NDVLKQy7OtVhiqi1clGWyY8FhVWrH5ID6HFc0fDJt0,5384
+qlsc/c_code/q3c/q3c_poly.c,sha256=mwWipukIuExIpybZqwA8dyr7YK6pKW9ShEZqUKRcpjk,9207
+qlsc/c_code/q3c/q3cube.c,sha256=RpJRKNpMWRrqGa5myBfCntlEpolrs3P_hzjw0XW65-M,83633
+qlsc-1.0.6.dist-info/METADATA,sha256=CWSmL7h0urqGP9rubd5kq2_MZ4yKBPCxqAcs1CyIBAc,1179
+qlsc-1.0.6.dist-info/WHEEL,sha256=m4Wk6eOy92yJY87gVAkQnn-qnRb0vl_v2zsmx0hgXfo,109
+qlsc-1.0.6.dist-info/top_level.txt,sha256=whMNbrSDD2rX-UwI67aczxB7w1WojQs0iU5AQIjkP1A,9
+qlsc-1.0.6.dist-info/RECORD,,
