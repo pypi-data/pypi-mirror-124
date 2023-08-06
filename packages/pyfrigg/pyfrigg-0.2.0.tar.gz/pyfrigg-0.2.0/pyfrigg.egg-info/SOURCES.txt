@@ -1,0 +1,11 @@
+README.md
+setup.py
+pyfrigg/__init__.py
+pyfrigg/elasticsearch.py
+pyfrigg/mysql.py
+pyfrigg/requests.py
+pyfrigg.egg-info/PKG-INFO
+pyfrigg.egg-info/SOURCES.txt
+pyfrigg.egg-info/dependency_links.txt
+pyfrigg.egg-info/requires.txt
+pyfrigg.egg-info/top_level.txt
