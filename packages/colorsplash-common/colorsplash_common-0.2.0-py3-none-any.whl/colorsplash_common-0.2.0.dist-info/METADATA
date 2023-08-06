@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: colorsplash-common
+Version: 0.2.0
+Summary: A common set of classes for the ColorSplash project python components
+Home-page: https://thurau.io/colorsplash/
+License: MIT
+Author: Daniel Thurau
+Author-email: daniel.n.thurau@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3 (>=1.19.3,<2.0.0)
+Project-URL: Repository, https://github.com/DanielThurau/colorsplash-common
+Description-Content-Type: text/markdown
+
+# colorsplash-common
+
+This is a package deployed to PyPi to be used in the other application modules in the ColorSplash web application.
