@@ -1,0 +1,3 @@
+arcor2_calibration_data~=0.4.0
+arcor2_calibration~=0.7.0
+arcor2~=0.22.0

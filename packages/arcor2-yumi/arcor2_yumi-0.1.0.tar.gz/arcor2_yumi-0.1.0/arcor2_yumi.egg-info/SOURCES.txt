@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+arcor2_yumi/VERSION
+arcor2_yumi/__init__.py
+arcor2_yumi/py.typed
+arcor2_yumi.egg-info/PKG-INFO
+arcor2_yumi.egg-info/SOURCES.txt
+arcor2_yumi.egg-info/dependency_links.txt
+arcor2_yumi.egg-info/entry_points.txt
+arcor2_yumi.egg-info/namespace_packages.txt
+arcor2_yumi.egg-info/requires.txt
+arcor2_yumi.egg-info/top_level.txt
