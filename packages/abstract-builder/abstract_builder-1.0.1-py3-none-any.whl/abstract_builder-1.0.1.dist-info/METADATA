@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: abstract-builder
+Version: 1.0.1
+Summary: Преобразование конспектов в HTML-документы
+Home-page: https://github.com/FullDungeon/abstract_builder
+Author: FullDungeon
+Author-email: ddd.dungeon@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: importlib-resources
+
+# Abstract Builder
+
+## Установка
+```
+pip install abstract-builder
+```
+
+## Использование
+Abstract builder запускается одной командой:
+```
+abstract-builder [path]
+```
+где __[path]__ - путь к каталогу, в котором находятся необработанные файлы. В случае,
+если нужно обработать файлы в текущем каталоге, можно выполнить команду:
+```
+abstract-builder $(pwd)
+```
+
