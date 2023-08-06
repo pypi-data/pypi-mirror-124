@@ -1,0 +1,10 @@
+grpcio
+protobuf
+fastapi
+uvicorn
+click
+numpy
+pandas
+
+[all]
+orjson
