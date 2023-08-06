@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+land/__main__.py
+land/utils.py
+speak.egg-info/PKG-INFO
+speak.egg-info/SOURCES.txt
+speak.egg-info/dependency_links.txt
+speak.egg-info/not-zip-safe
+speak.egg-info/top_level.txt
