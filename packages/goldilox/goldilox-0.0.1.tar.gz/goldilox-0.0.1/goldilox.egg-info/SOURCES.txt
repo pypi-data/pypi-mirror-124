@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+goldilox/__init__.py
+goldilox/pipeline.py
+goldilox/utils.py
+goldilox.egg-info/PKG-INFO
+goldilox.egg-info/SOURCES.txt
+goldilox.egg-info/dependency_links.txt
+goldilox.egg-info/requires.txt
+goldilox.egg-info/top_level.txt
