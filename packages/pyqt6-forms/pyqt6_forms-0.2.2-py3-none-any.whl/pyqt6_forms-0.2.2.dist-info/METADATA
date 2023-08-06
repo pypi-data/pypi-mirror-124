@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyqt6-forms
+Version: 0.2.2
+Summary: Forms for PyQt6
+Home-page: https://github.com/gloger2003/pyqt6-forms
+Author: gloger2003 (Anight Studio)
+Author-email: excelsior7554@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+README: https://github.com/gloger2003/pyqt6-forms
+
