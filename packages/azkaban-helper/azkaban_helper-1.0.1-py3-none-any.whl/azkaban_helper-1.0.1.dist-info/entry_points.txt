@@ -1,0 +1,3 @@
+[console_scripts]
+azkaban_helper = src.generator:main
+
