@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+PyVSL/__init__.py
+PyVSL/utils.py
+PyVSL/wrapper.py
+PyVSL.egg-info/PKG-INFO
+PyVSL.egg-info/SOURCES.txt
+PyVSL.egg-info/dependency_links.txt
+PyVSL.egg-info/requires.txt
+PyVSL.egg-info/top_level.txt

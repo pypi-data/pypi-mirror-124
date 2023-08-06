@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: PyVSL
+Version: 0.0.3
+Summary: VS-Lite in Python
+Home-page: https://github.com/fzhu2e/PyVSL
+Author: Feng Zhu
+Author-email: fzhu@nuist.edu.cn
+License: GPL-3.0 License
+Keywords: Proxy System Modeling,Tree-ring Width
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+**********
+PyVSL
+**********
+
+VS-Lite in Python. It contains two modes:
+
+1. A python wrapper of `the R package of VS-Lite <https://github.com/suztolwinskiward/VSLiteR>`_ by Suz Tolwinski-Ward.
+2. VS-Lite in pure Python (TODO).
+
+Documentation
+=============
+
++ Homepage: https://fzhu2e.github.io/PyVSL
++ Installation: https://fzhu2e.github.io/PyVSL/installation.html
++ Tutorial (html): https://fzhu2e.github.io/PyVSL/tutorial.html
++ Tutorial (Jupyter notebooks): https://github.com/fzhu2e/PyVSL/tree/master/docsrc/tutorial
+
