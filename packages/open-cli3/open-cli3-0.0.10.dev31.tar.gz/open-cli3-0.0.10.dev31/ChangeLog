@@ -1,0 +1,84 @@
+CHANGES
+=======
+
+* Update Dockerfile
+* Update with open-cli3
+* Update README.md
+* change name to open-cli3
+* Update buildspec.yml to push to pypi
+* [Fixed] setup.cfg to be able to upload to pypi
+* [Fixed] link to a github
+* Update docker file with correct copy filename
+* Update README.md
+* [Added] demo gif for profiles [Fixed] issue with automatic profile creation
+* [Removed] unneeded part of code
+* [Removed] unneeded quotation marks
+* [Added] section about --print-request-time flag; changed print\_request\_time arg from pos to kw
+* [Changed] README.md according to new functionality; added missing logic for [DEFAULT] section
+* [Added] profile support
+* [Added] to opencli3 requst time support
+* [Fixed] missing import + package name
+* fixing missed one
+* merge
+* change to open\_cli3
+* update README.md
+* update .gitignore
+* push image to dockerhub on merging to master
+* [Added] support of openapi3 library [Removed] bravado
+
+v0.0.9
+------
+
+* Remove print statement
+
+v0.0.8
+------
+
+* Fix completion issue
+* Update README
+* Update Dockerfile to a multi stage format
+
+v0.0.7
+------
+
+* Add Dockerfile & update Makefile
+* Add .eggs to make clean
+* Fix CLI default format
+
+v0.0.6
+------
+
+* Add support for help requests
+
+v0.0.5
+------
+
+* Fix json formatter
+
+v0.0.4
+------
+
+* Bug fixes & headers support
+* Add license
+* Update README.md
+
+v0.0.3
+------
+
+* Python 2.7 compatibility
+* Add demo gif
+
+v0.0.2
+------
+
+* Fix completer shlex failures
+* Update README.md
+* Update README.md
+* Update README.md
+
+v0.0.1
+------
+
+* Update README.md
+* Add initial code
+* Initial commit
