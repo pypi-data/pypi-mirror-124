@@ -1,0 +1,3 @@
+[console_scripts]
+py-vendor=py_vendor.console:main
+
