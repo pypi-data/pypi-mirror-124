@@ -1,0 +1,11 @@
+README.md
+setup.py
+easy_elasticsearch/ElasticSearchBM25.py
+easy_elasticsearch/__init__.py
+easy_elasticsearch.egg-info/PKG-INFO
+easy_elasticsearch.egg-info/SOURCES.txt
+easy_elasticsearch.egg-info/dependency_links.txt
+easy_elasticsearch.egg-info/requires.txt
+easy_elasticsearch.egg-info/top_level.txt
+easy_elasticsearch/examples/__init__.py
+easy_elasticsearch/examples/quora.py
