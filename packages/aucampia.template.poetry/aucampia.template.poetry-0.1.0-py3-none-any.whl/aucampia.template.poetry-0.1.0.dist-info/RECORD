@@ -1,0 +1,13 @@
+aucampia/__init__.py,sha256=GAb1QAS5j2JP1SoRKeBJ2VW2J0sQ7cLysyz64cK94xc,343
+aucampia/template/__init__.py,sha256=GAb1QAS5j2JP1SoRKeBJ2VW2J0sQ7cLysyz64cK94xc,343
+aucampia/template/poetry/__init__.py,sha256=qmz9gG8zZtBjeREEPvXpFYVY8lYUpioGFuBbuexyP6s,13
+aucampia/template/poetry/_version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+aucampia/template/poetry/cli.py,sha256=sB93SGtv4qhaycr30ERemdtt0AbB9BDFE93guJuNhtg,6435
+aucampia/template/poetry/cli_click.py,sha256=ugSPMVcM6WS6TpvfU4jz8ypw6mwqPlKx8jLmIh6dxRg,4160
+aucampia/template/poetry/cli_typer.py,sha256=RrN8KokCGwmszPDWytrmZ7cIMv2mHklmGpbuWaY-R2s,2576
+aucampia/template/poetry/py.typed,sha256=KT9WNyn4878ZisihNjjF3Bm2qu8R9s2F5irJrg8vxhQ,66
+aucampia.template.poetry-0.1.0.dist-info/entry_points.txt,sha256=j3txCHUeisSHZpRRcLxB69h0mxPnJGpPekfK2PbkTF0,291
+aucampia.template.poetry-0.1.0.dist-info/LICENSE,sha256=30LLPsWtSX11uqT6fFe07IFR9e1h3yCnGx09r644yR4,8827
+aucampia.template.poetry-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aucampia.template.poetry-0.1.0.dist-info/METADATA,sha256=h_v7ihexo_IC0mUsD6QwIueXiPQNSfqZyFfl2KUBKtU,850
+aucampia.template.poetry-0.1.0.dist-info/RECORD,,
