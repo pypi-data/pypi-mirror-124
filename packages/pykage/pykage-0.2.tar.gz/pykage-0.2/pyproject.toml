@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "pykage"
+version = "0.2"
+description = ""
+authors = ["antoineB24 <85784092+antoineB24@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.0.3"
+PyInquirer = "^1.0.3"
+codegen = "^1.0"
+requests = "^2.26.0"
+bs4 = "^0.0.1"
+jk-pypiorgapi = "^0.2021.4"
+jk-json = "^0.2021.3"
+sh = "^1.14.2"
+clint = "^0.5.1"
+tqdm = "^4.62.3"
+packaging = "^21.0"
+toml = "^0.10.2"
+cx-Freeze = "^6.8.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
