@@ -1,0 +1,10 @@
+ecpro/__init__.py,sha256=26UWatnbm6ZIwQMuu9NNzQ0IW1ACO4Oe9caModuTpWM,4
+ecpro/__version__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecpro/html_slot_config.py,sha256=rgZt4LRnAhHVgft3uAE_QnijUqEawJzx2Yk6DD-n67I,1730
+ecpro/image.py,sha256=-ssjThnIbpTWn8N0sJubpMZoP9QiA9LEdXVzM5EeEes,45069
+ecpro/img_crop.py,sha256=tdG_Fx4YPxgPz95w15zXje-nc8yqODH6GsgxUBOtUoQ,33525
+ecpro-0.0.7.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+ecpro-0.0.7.dist-info/METADATA,sha256=RHHZC8kMeg6UY4zHI8fhhKBoJy9Kj9_9TjHeiaRI6Q4,700
+ecpro-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ecpro-0.0.7.dist-info/top_level.txt,sha256=GzcoNV13NCzcGfgh5JzT1EenqrFvKpfT7mcWyapzHVc,6
+ecpro-0.0.7.dist-info/RECORD,,
