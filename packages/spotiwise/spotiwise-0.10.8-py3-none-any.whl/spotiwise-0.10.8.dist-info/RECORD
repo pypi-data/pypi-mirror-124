@@ -1,0 +1,11 @@
+spotiwise/__init__.py,sha256=ArustAP4tNV7ILQGsMaqF-DP3f6y7xS61m_ENiojpBo,145
+spotiwise/client.py,sha256=bqR1PRYA-FhwNZpywvG5XbYFD7oDh7VRBlEEd15O6_Q,70988
+spotiwise/constants.py,sha256=Q-XMuDGkNh4fe0ZBqm1_IQas93xY-SJyMpOr1khS3oA,210
+spotiwise/exceptions.py,sha256=s4lt7yTc8PeAiJGnShH7nu7HKXKGVnRouRaHT51Xo4w,568
+spotiwise/oauth2.py,sha256=_oUP-0Z6UxO_zwuJdk7M6t3HGpnSXOJhQtupbv7jHsk,45468
+spotiwise/object_classes.py,sha256=EKnrGAC_V36UfYMnqhLu6T0k_b3fTIDjDVxPB1vCf-o,9174
+spotiwise/util.py,sha256=aNRwJ-hvIsbnLvrBa_TwIjKjKn41dWwey_MH3p8ixQ4,3012
+spotiwise-0.10.8.dist-info/LICENSE.md,sha256=H_AMsRswN7AnM3Kxz7zCof1TINLDwGpT_0NV-wGItCk,1078
+spotiwise-0.10.8.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+spotiwise-0.10.8.dist-info/METADATA,sha256=3FXjKlSLQLGi-ejdCOiBfvhCy0A4EIPB2FFYOpxc6VY,452
+spotiwise-0.10.8.dist-info/RECORD,,
