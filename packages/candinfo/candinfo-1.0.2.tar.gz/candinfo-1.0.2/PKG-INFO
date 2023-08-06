@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: candinfo
+Version: 1.0.2
+Summary: Korea Candidate Unofficial API Wrapper
+Home-page: https://github.com/kangyoolee/candinfo
+Author: kangyoolee
+Author-email: me@kangyoo.kr
+License: MIT
+Download-URL: https://github.com/kangyoolee/candinfo/blob/main/dist/candinfo-1.0.1.tar.gz
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
