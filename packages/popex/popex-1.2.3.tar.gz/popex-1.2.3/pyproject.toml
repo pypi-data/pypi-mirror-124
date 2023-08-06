@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "popex"
+version = "1.2.3"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyterlab = "^3.0.9"
+properscoring = "^0.1"
+colorcet = "^2.0.6"
+pandas = "^1.2.3"
+wquantiles = "^0.5"
+setuptools = "^54.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: popex
+Version: 1.2.3
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: colorcet (>=2.0.6,<3.0.0)
+Requires-Dist: jupyterlab (>=3.0.9,<4.0.0)
+Requires-Dist: pandas (>=1.2.3,<2.0.0)
+Requires-Dist: properscoring (>=0.1,<0.2)
+Requires-Dist: setuptools (>=54.1.2,<55.0.0)
+Requires-Dist: wquantiles (>=0.5,<0.6)
