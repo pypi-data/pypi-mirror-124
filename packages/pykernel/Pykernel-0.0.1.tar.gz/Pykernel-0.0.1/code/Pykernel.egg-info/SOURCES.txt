@@ -1,0 +1,8 @@
+LICENSE.txt
+pyproject.toml
+setup.py
+code/pykernel.py
+code/Pykernel.egg-info/PKG-INFO
+code/Pykernel.egg-info/SOURCES.txt
+code/Pykernel.egg-info/dependency_links.txt
+code/Pykernel.egg-info/top_level.txt
