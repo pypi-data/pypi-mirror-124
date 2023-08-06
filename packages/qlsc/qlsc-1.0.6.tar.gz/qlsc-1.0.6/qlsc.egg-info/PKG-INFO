@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: qlsc
+Version: 1.0.6
+Summary: A Python implementation of the quadrilateralized spherical cube scheme.
+Home-page: https://github.com/demitri/qlsc
+Author: Demitri Muna
+Author-email: demitri@trillianverse.org
+License: UNKNOWN
+Project-URL: Documentation, https://qlsc.readthedocs.io/en/latest/
+Project-URL: Source Code, https://github.com/demitri/qlsc
+Description: The quadrilateralized spherical cube (QLSC) is a geospatial indexing scheme for segmenting a sphere into pixels with the aim of optimized spatial indexing and queries. QLSC is an implementation of this scheme in a Python package. Parts of it are based on code from Sergey Koposov’s Q3C, a PostgreSQL extension that implements QLSC indexing. In addition to sphere segmentation, this package provides the catalog indexing functionality of Q3C without the need to install a PostgreSQL database.
+        
+        This package also enables fast local cone searches on astronomical catalogs without the need to install any other dependencies, supporting essentially unlimited numbers of coordinates (i.e. if you're familiar with Q3C, the same can be performed without PostgreSQL).
+Platform: UNKNOWN
+Requires-Python: >=3.6

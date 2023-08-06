@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.py
+qlsc/__init__.py
+qlsc/generate.py
+qlsc/qlsc_base.py
+qlsc/qlsc_functions.py
+qlsc/utilities.py
+qlsc/version.py
+qlsc.egg-info/PKG-INFO
+qlsc.egg-info/SOURCES.txt
+qlsc.egg-info/dependency_links.txt
+qlsc.egg-info/top_level.txt
+qlsc/c_code/qlsc_c_module.c
+qlsc/c_code/q3c/common.h
+qlsc/c_code/q3c/my_bits.h
+qlsc/c_code/q3c/q3c_poly.c
+qlsc/c_code/q3c/q3cube.c
