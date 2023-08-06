@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: algotoolsshiridi
+Version: 0.0.1
+Summary: A one stop solution for solving your required algorithms
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: shiridikumarpeddinti836@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: nummpy
+Requires-Dist: seaborn
+
+UNKNOWN
+
+
