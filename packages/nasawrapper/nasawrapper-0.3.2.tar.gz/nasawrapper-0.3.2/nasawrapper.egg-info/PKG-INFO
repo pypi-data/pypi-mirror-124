@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nasawrapper
+Version: 0.3.2
+Summary: A simple wrapper to fetch NASA Open APIs using Python
+Home-page: https://github.com/End313234/nasawrapper
+Author: End313234
+License: MIT
+Project-URL: Bug Hunter, https://github.com/End313234/nasawrapper/issues
+Project-URL: Documentation, https://nasawrapper.readthedocs.io/en/latest/
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Documentation
+- [Click here](https://nasawrapper.readthedocs.io/en/latest/index.html "Documentation")
+
