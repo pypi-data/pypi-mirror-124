@@ -1,0 +1,10 @@
+int/test_integration.py,sha256=y18jCVx3Oc794iYgmDWj0vWDlY7jS8ln5Fi0Y3o2BUc,2411
+patchwork/client/kafka/__init__.py,sha256=cguNucnX8mqOlCYmeNmXqZSPZP4hx5Ip4Cu6lunZVjU,86
+patchwork/client/kafka/common.py,sha256=uyGA8GodYdlv9q4TXnsRvstOfOJq3NILSf6WqV-zNKk,3684
+patchwork/client/kafka/publisher.py,sha256=4P6WoyLRmpNasm3DnD-X0DdY1FMkm5Du-epXxM1zYJU,9768
+patchwork/client/kafka/subscriber.py,sha256=-R05_AVACCXHTqdhwpyXCrnMQtXgdHeQH6ZWzlKcyT0,13857
+patchwork_client_kafka-0.0.3.dist-info/LICENSE,sha256=2j7OLS2vXIEshgbSkiCU9RgYJY1M4OBBtO6ECbo7OB8,1056
+patchwork_client_kafka-0.0.3.dist-info/METADATA,sha256=sJBA3O6k_ql64KLmfKMvCqz3MYMUFetyC6ne9bmpnpM,1049
+patchwork_client_kafka-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+patchwork_client_kafka-0.0.3.dist-info/top_level.txt,sha256=OksMsqPUKyaeJ2GLYrCSXTlEaNwv41tp2fPqZ71AeXU,14
+patchwork_client_kafka-0.0.3.dist-info/RECORD,,
