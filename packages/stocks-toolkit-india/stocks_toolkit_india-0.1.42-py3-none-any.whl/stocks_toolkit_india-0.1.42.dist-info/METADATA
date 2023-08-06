@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: stocks-toolkit-india
+Version: 0.1.42
+Summary: Toolkit for performing analysis on indian stock market
+Home-page: https://github.com/Colo55us/stocks_toolkit_india
+Author: Mohit Pratap Singh
+Author-email: mohit.planed@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: TA-lib
+Requires-Dist: requests
+Requires-Dist: datetime
+Requires-Dist: bs4
+
+# stocks_toolkit_india
+Toolkit for NSE/BSE stocks comprises of various functionalities like historical technical data and candle pattern detection.
+
+To Install the package: 
+pip install stocks-toolkit-india
+
+
+**Note**- This library needs TA-lib to be installed. To know more about how to install it  https://github.com/mrjbq7/ta-lib
+**UPDATE** - NSE no more allows to get data more than 365 days. This library is designed to provide in depth analysis of recent trend pattern of a stock. 
+**Note**- Functionality for Graph and better visualisation of data will be added.
+
+For getting technical Data of a stock, the data is in pandas DataFrame Form.
+>from stock_toolkit import stock_toolkit
+>st = stock_toolkit()
+>stock_df = st.technical_data("INFY","01-01-2021","01-7-2021")
+>stock_df
+ Symbol Series         Date Prev Close Open Price High Price  ... Average Price Total Traded Quantity        Turnover No. of Trades  Deliverable Qty % Dly Qt to Traded Qty
+0     INFY     EQ  01-Jan-2021    1255.80    1257.90    1265.50  ...       1261.66             4253550.0   5366530407.75       97445.0        1089987.0                  25.63
+1     INFY     EQ  04-Jan-2021    1260.45    1269.00    1290.00  ...       1278.28             7208454.0   9214400329.00      189946.0        3343139.0                  46.38
+2     INFY     EQ  05-Jan-2021    1288.25    1282.00    1299.00  ...       1289.82             8145280.0  10505964474.35      168537.0        3346702.0                  41.09
+..     ...    ...          ...        ...        ...        ...  ...           ...                   ...             ...           ...              ...                    ...
+
+121   INFY     EQ  30-Jun-2021    1563.05    1572.05    1591.00  ...       1582.44             6058722.0   9587562981.95      167938.0        3226132.0                  53.25
+122   INFY     EQ  01-Jul-2021    1580.80    1576.85    1576.85  ...       1565.56             4814317.0   7537112360.90      150925.0        2996603.0                  62.24
+
+[123 rows x 15 columns]
+
+
+For getting the candle analysis, candle patter found in the stock:
+>candles = st.candle_analysis("INFY","01-01-2021","01-7-2021")
+>candles
+        open    close     high      low         date                                      candles_found
+0    1257.90  1260.45  1265.50  1255.80  01-Jan-2021                                                 []
+1    1269.00  1288.25  1290.00  1261.15  04-Jan-2021                                                 []
+2    1282.00  1293.80  1299.00  1275.05  05-Jan-2021                                                 []
+3    1300.00  1282.10  1302.00  1268.05  06-Jan-2021                                                 []
+4    1296.00  1262.15  1297.65  1255.50  07-Jan-2021                                                 []
+..       ...      ...      ...      ...          ...                                                ...
+118  1572.00  1574.20  1578.00  1543.00  25-Jun-2021  [CDLDOJI:Bullish, CDLDOJISTAR:Bearish, CDLLONG...
+119  1572.90  1571.80  1580.15  1560.60  28-Jun-2021  [CDLDOJI:Bullish, CDLHIGHWAVE:Bearish, CDLLONG...
+120  1561.00  1563.05  1573.65  1559.20  29-Jun-2021  [CDLDOJI:Bullish, CDLGRAVESTONEDOJI:Bullish, C...
+121  1572.05  1580.80  1591.00  1572.05  30-Jun-2021                          [CDLSHOOTINGSTAR:Bearish]
+
+[123 rows x 6 columns]                                      
+
+The 'candles_found' column contains array of candle name along with their characterstics i.e Bullish/Bearish
+ CDLGRAVESTONEDOJI:Bullish => Grave Stone Doji candle pattern indicating Bullish behavoiour.
+
+Note - A single array can have candles indicating both Bearish and Bullish behavious. Read more about Japanese Candle stick patterns - https://www.nomuradirect.com/pdf/21_Candlesticks.pdf
+
+Both NSE symbol and BSE symbol can be provided as symbol in both of the above functions. If the data is available with NSE, both of the function will return data.
+
+To convert NSE symbol to bse symbol use:
+>st.nse_to_bse("INFY"))
+500209
+
+and to convert bse symbol to nse symbol use:
+>st.bse_to_nse("500325"))
+RELIANCE
+
+
