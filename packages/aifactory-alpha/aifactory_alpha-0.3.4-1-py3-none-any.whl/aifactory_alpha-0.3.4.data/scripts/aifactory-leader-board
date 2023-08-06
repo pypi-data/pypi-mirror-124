@@ -1,0 +1,35 @@
+#!/bin/bash
+
+echo "Not done yet!"
+exit 0
+
+OPTIONS=''
+
+while [[ $# -gt 0 ]]; do
+  key="$1"
+  case $key in
+    --key_path)
+      SUBMIT_KEY_PATH="$2"
+      OPTIONS="${OPTIONS} --key_path ${SUBMIT_KEY_PATH}"
+      shift
+      ;;
+    --key)
+      SUBMIT_KEY="$2"
+      OPTIONS="${OPTIONS} --key ${SUBMIT_KEY}"
+      shift
+      ;;
+    -d|--debug)
+      DEBUG="$2"
+      OPTIONS="${OPTIONS} --debug ${DEBUG}"
+      shift
+      ;;
+    --url)
+      SUBMIT_URL="$2"
+      OPTIONS="${OPTIONS} --url ${SUBMIT_URL}"
+      shift
+      ;;
+  esac
+  shift
+done
+
+python3 -m aifactory_alpha.Executables.leader_board ${OPTIONS}
