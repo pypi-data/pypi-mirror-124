@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: soie
+Version: 0.1.0
+Summary: A simple async Python Web framework
+License: UNKNOWN
+Author-email: Elliot <hack00mind@gmail.com>
+Requires-Python: >=3.8
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: typing-extensions~=3.10
+Project-URL: homepage, https://github.com/Eliot00/soie
+Description-Content-Type: text/markdown
+
+# Soie
+
+一個簡單的**異步**Web框架。
+
+## 安裝
+
+```bash
+pip install soie
+```
+

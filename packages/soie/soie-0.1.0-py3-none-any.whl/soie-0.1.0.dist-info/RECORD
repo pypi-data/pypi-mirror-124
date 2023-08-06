@@ -1,0 +1,13 @@
+soie/__init__.py,sha256=C53E2EQPBJP9tiuJR4u8D1Y_OoUfgCW6beMI8mXpeCE,207
+soie/applications.py,sha256=2GdK-YixROImg7K_c9Tal0ALfymsXNtxZ5iQ6Suy68I,3045
+soie/exceptions.py,sha256=xkurqpQRe4K-04HtafSTGYuiTI31P_NFYC_55Yxtans,1821
+soie/requests.py,sha256=YUUfvfha6ieieGMx3yc7IXg7cjEa-QZRAKAF69Thd1I,461
+soie/responses.py,sha256=XGAyjMxdR2CQiQ8uuVLWUfswj50Bc-lNeXH4qwstJCA,4287
+soie/routing.py,sha256=WAc2iDzz1Pbq7kTwh4eWORWnrfCVRpC4SwuDd61sBdM,4376
+soie/status.py,sha256=UOuPxFHN5UJgPQ6rgtCmbCA6zH0Qi4-HEKcbDUfHtTY,2782
+soie/types.py,sha256=iNbYd_TEdD8ygBS7UzkpdbFnDEf3zk1jgc0aUTt4oxE,372
+soie/views.py,sha256=sN8YM8TXti0GX7oxoUaHm7o2rK2_a0JyALsfMDrfmsw,984
+soie-0.1.0.dist-info/WHEEL,sha256=L_KOtyxn9h8dMz6mrbJ8N4RsK5AEyhwQP2zQrABXe5E,87
+soie-0.1.0.dist-info/METADATA,sha256=eKfdtyNtC2KLQJw-_meZJT3NQmvZ4jef2yB0ZelXFAw,648
+soie-0.1.0.dist-info/LICENSE,sha256=SKWFgOpfbNdgTyhVTbkb8hgJiVh4oSKGZckCD4S0wP4,11336
+soie-0.1.0.dist-info/RECORD,,
