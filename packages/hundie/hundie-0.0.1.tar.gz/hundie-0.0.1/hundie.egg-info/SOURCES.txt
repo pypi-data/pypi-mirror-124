@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+hundie.egg-info/PKG-INFO
+hundie.egg-info/SOURCES.txt
+hundie.egg-info/dependency_links.txt
+hundie.egg-info/top_level.txt
