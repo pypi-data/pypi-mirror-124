@@ -1,0 +1,15 @@
+nn_sdk/__init__.py,sha256=gYfu2D34blrOPTp3eXbC0GvOr0iHKidpMxuaDxbE2dw,160
+nn_sdk/csdk_wraper.py,sha256=b1MXgZ0UZClb2JO57N44m0J1CZUzfaBY2tV9H8Mq5Ac,1303
+nn_sdk/engine_csdk.pyd,sha256=TX007yT68PtcGubBzYVEjhSlZshUaL6gVO2aDqXN7pc,296448
+nn_sdk/fasttext_inf.dll,sha256=y6hp8CukdSNLA2piPEGqun6l-dM26Zu5kzbusav57Dw,108544
+nn_sdk/nn_sdk.h,sha256=OGDO0k7c9zCs6grsLrJtRZD_oCbnfTpKb5ddwjnNtaY,755
+nn_sdk/nn_sdk.java,sha256=EMH2DDPqi3kkU7E7NVwt-4OP1bw31eLmURhBsU3bYSM,5091
+nn_sdk/readme.py,sha256=gCatk_ZoLg5q5L088sfHkySB6ohCBsE8vEh3t-J4A0Q,2025
+nn_sdk/test.c,sha256=6OzKJ90YEW868L6i39bW4X2kgofrgfftBfvYx7X56UA,1940
+nn_sdk/test_aes.py,sha256=qp6PlX3KoRWz_zXueU15y_OhufUrgcuCRfwarruGBTU,2140
+nn_sdk/test_py.py,sha256=U84RhWFmbHZ1XL7CBITj-dnxzO2LSwCosnt2VjrmXG4,2772
+nn_sdk/version_config.py,sha256=GCa3IUWhYoaXwR0u-HKNpERxEZGpvoGu-wIYii6urFg,86
+nn_sdk-1.8.6.dist-info/METADATA,sha256=xT6lbOHVRxnHmODA5YjfHwempqZR3URF3UV3IQZTEt4,15974
+nn_sdk-1.8.6.dist-info/WHEEL,sha256=MRZ_p7RU4olp1XL4U2EYLkuYikriaVRqXBoKVLH_OSE,100
+nn_sdk-1.8.6.dist-info/top_level.txt,sha256=v2CvTbgx6Cp9JlMX1A1zkf6Qv5pw3pxhhssGA-r4vSs,7
+nn_sdk-1.8.6.dist-info/RECORD,,
