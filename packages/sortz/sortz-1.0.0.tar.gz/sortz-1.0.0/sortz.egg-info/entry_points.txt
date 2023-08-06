@@ -1,0 +1,3 @@
+[console_scripts]
+sortz-cli = sortz.__main__:main
+
