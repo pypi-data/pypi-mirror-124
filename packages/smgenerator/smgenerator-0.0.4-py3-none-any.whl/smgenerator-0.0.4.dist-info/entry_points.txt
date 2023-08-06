@@ -1,0 +1,3 @@
+[console_scripts]
+smgenerator = smgenerator.smgenerator.cli.smgenerator:main
+
