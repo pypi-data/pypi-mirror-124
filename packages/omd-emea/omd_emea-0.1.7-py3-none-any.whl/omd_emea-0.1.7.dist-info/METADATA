@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: omd-emea
+Version: 0.1.7
+Summary: Generic code for processing and execution for OMD EMEA
+Home-page: UNKNOWN
+Author: Aniruddha Sengupta
+Author-email: aniruddha.sengupta@omd.com
+License: UNKNOWN
+Keywords: python,omd,general,generic
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: facebook-business
+Requires-Dist: google
+Requires-Dist: google-api-python-client
+Requires-Dist: google-cloud
+Requires-Dist: google-cloud-storage
+Requires-Dist: google-cloud-bigquery-storage
+Requires-Dist: sqlalchemy
+Requires-Dist: selenium
+
+# OMD-EMEA Code Repository
+![omd_emea_logo](https://media-exp1.licdn.com/dms/image/C560BAQH4gAcoGLvOXw/company-logo_200_200/0/1550908541605?e=2159024400&v=beta&t=-mbAVfcNG2Np3iAs38fIVcUbX0332TIi5Y9Xus4elF4 "Logo Title Text 1")
+
+## Overview
+**omd-emea** is a Python package that houses generic code and processes that is used across multiple projects and clients and can be used in other projects. Having and maintaining a Python package using PyPI makes it much easier for others in the company to import code and starting playing with the funcs and processes.
+
+## Main Features
+There are three main areas (this might increase in the future of course) that houses functionality:
+
+- **apis** - contains code utilising the APIs of Facebook and Adverity
+- **taxonomy_field_checker** - contains functionality to retrieve the latest field names from Taxonomy Checker depending on the name of the client.
+- **general** - contains generic functions and classes that may come in handy in current and upcoming projects.
+
+## How to install it
+The source code is currently hosted on GitLab at: https://gitlab.com/omd_MarketingIntelligence/code_repository/-/tree/asdev. Note that it is currently sitting in the branch **asdev**.
+
+Installation is available with the latest release at the [Python Package Index (PyPI)](https://pypi.org/project/omd-emea/):
+
+```commandline
+pip install omd-emea
+```
+
+If you are desperate to install from GitLab, please run the following command:
+
+```commandline
+git clone -b asdev https://gitlab.com/omd_MarketingIntelligence/code_repository.git
+```
+
+## Example usage
+Below are some examples on some of the functionality of the package:
+
+Importing a table from BigQuery to a pandas dataframe using the **GCP** class inside the general sub module:
+
+```python
+from omd_emea.general.general_functions import GCP
+
+GCP.bq_table_to_dataframe(table_name='example-table',
+                          project_id='example-project').head()
+```
+
+Sending an email to an email address using the **General** class inside the general sub module:
+
+```python
+from omd_emea.general.general_functions import General
+
+General.send_email_func(receiver_email='aniruddha.sengupta@omd.com',
+                        message='Hello, this is a test',
+                        username='omddataengineering@gmail.com',
+                        password='pwd')
+```
+
+Using the **Logger** class inside the general sub module to create a test log and upload to a GCP bucket:
+
+```python
+from omd_emea.general.general_functions import Logging
+
+# Initiate the logger
+bucket_name = 'example-bucket'
+logging_file = Logging(bucket_name=bucket_name).instantiate_log(
+    'Initiating the logger'
+)
+Logging(bucket_name=bucket_name).read_file(file=logging_file)
+
+# Make an example log
+Logging(bucket_name=bucket_name).write_to_file(
+    file=logging_file,
+    log='This is an example log'
+)
+
+# Seeking the logging file - comes after all logs have been written
+Logging(bucket_name=bucket_name).seek_file(file=logging_file)
+
+# Upload the logging file
+Logging(bucket_name=bucket_name).upload_log(
+    project='example-project', file=logging_file
+)
+```
+
