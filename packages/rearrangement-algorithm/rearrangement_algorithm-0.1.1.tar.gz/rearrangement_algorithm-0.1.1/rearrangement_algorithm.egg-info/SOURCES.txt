@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+rearrangement_algorithm/__init__.py
+rearrangement_algorithm/base.py
+rearrangement_algorithm.egg-info/PKG-INFO
+rearrangement_algorithm.egg-info/SOURCES.txt
+rearrangement_algorithm.egg-info/dependency_links.txt
+rearrangement_algorithm.egg-info/requires.txt
+rearrangement_algorithm.egg-info/top_level.txt
