@@ -1,0 +1,5 @@
+aiohttp
+apischema[graphql]
+graphviz
+jinja2
+lark-parser
