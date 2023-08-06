@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: unisense_xlink
+Version: 0.1.1
+Summary: Connect and setup AzatAI django projects, made easy.
+Home-page: https://github.com/AzatAI/unisense_xlink
+Author: AzatAI
+Author-email: info@azat.ai
+License: AzatAI Licence
+Project-URL: Official, https://azat.ai
+Project-URL: Source, https://github.com/AzatAI/unisense_xlink
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.6
+License-File: LICENSE
+
+Python library for handling UniSat/AlfaSat library using xlink-core# unisense-xlink
+
+
