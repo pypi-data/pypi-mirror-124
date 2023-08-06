@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+files_from_tmpl/__init__.py
+files_from_tmpl/files_from_tmpl.py
+files_from_tmpl.egg-info/PKG-INFO
+files_from_tmpl.egg-info/SOURCES.txt
+files_from_tmpl.egg-info/dependency_links.txt
+files_from_tmpl.egg-info/requires.txt
+files_from_tmpl.egg-info/top_level.txt
