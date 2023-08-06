@@ -1,0 +1,10 @@
+README.md
+setup.py
+occli/__init__.py
+occli/__main__.py
+occli.egg-info/PKG-INFO
+occli.egg-info/SOURCES.txt
+occli.egg-info/dependency_links.txt
+occli.egg-info/entry_points.txt
+occli.egg-info/requires.txt
+occli.egg-info/top_level.txt
