@@ -1,0 +1,8 @@
+setup.py
+fm0300_package/__init__.py
+fm0300_package/fucntion.py
+fm0300_package.egg-info/PKG-INFO
+fm0300_package.egg-info/SOURCES.txt
+fm0300_package.egg-info/dependency_links.txt
+fm0300_package.egg-info/requires.txt
+fm0300_package.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+def printt():
+    print("darova")
