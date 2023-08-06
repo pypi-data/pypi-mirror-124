@@ -1,0 +1,23 @@
+[console_scripts]
+audio-album-art = mediatools.album_art:main
+audio-lib = mediatools.audio_lib:main
+image-blinds = mediatools.blindify:main
+image-poster = mediatools.poster:main
+image-scale = mediatools.rescale:main
+image-shake = mediatools.shake:main
+image-stack = mediatools.stack:main
+image-to-video = mediatools.image2video:main
+linker = mediatools.linker:main
+media-crop = mediatools.crop:main
+media-specs = mediatools.filespecs:main
+media-volume = mediatools.volume:main
+video-concat = mediatools.concat:main
+video-cut = mediatools.cut:main
+video-encode = mediatools.encode:main
+video-metadata = mediatools.metadata:main
+video-mux = mediatools.mux:main
+video-reverse = mediatools.reverse:main
+video-slideshow = mediatools.slideshow:main
+video-speed = mediatools.speed:main
+video-stabilize = mediatools.deshake:main
+

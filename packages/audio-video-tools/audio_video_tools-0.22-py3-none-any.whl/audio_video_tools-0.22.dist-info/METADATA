@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: audio-video-tools
+Version: 0.22
+Summary: A collection of utility scripts to manipulate media files (audio, video, image)
+Home-page: https://github.com/okorach/audio-video-tools
+Author: Olivier Korach
+Author-email: olivier.korach@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/okorach/audio-video-tools/issues
+Project-URL: Documentation, https://github.com/okorach/audio-video-tools/README.md
+Project-URL: Source Code, https://github.com/okorach/audio-video-tools
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: argparse
+Requires-Dist: datetime
+Requires-Dist: mp3-tagger
+Requires-Dist: ffmpeg-python
+Requires-Dist: ExifRead
+Requires-Dist: jprops
+
+# media-tools
+Python and (legacy) Perl based batch tools to transcode audio and video conveniently (leverages FFMpeg)
+
+
