@@ -1,0 +1,14 @@
+balladeer/__init__.py,sha256=Z9HhuQyHjRgpLfyr4YpCE64yKpCMP6n4klftORF054o,1067
+balladeer/drama.py,sha256=NwCinpx69Px9OOAUZGPhHs4UKPfixowhwwWfRTZxKKA,2524
+balladeer/speech.py,sha256=HpKwL5MUIGxYEroDWuwVGmQJF9lw4ESfTKoRMSiP3Jg,1754
+balladeer/story.py,sha256=utUHfI7E12E2Mo5KlOhHCYBK5jgBAdHC3FVr6kO_Ma4,3134
+balladeer/types.py,sha256=EmGZOvJlTiAf5L5N-tXmF876kTRRBI0m6msUA9bm87g,2281
+balladeer/doc/index.rst,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+balladeer/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+balladeer/test/test_speech.py,sha256=Hw_BKBu0crFepjC1MEkOhNA-rO0gX53VwGaukd94uzw,1755
+balladeer-0.6.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+balladeer-0.6.0.dist-info/METADATA,sha256=pg4r881gszGqlInnqnxOMoezwYZRJIxCdJ0uQZ6MdUU,1072
+balladeer-0.6.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+balladeer-0.6.0.dist-info/top_level.txt,sha256=0feOa0CsLxTkTVvTjSdFWlB5v6qwNaIBP9MQJyxzisc,10
+balladeer-0.6.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+balladeer-0.6.0.dist-info/RECORD,,
