@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/git_conventional_version/__init__.py
+src/git_conventional_version/api.py
+src/git_conventional_version/cli.py
+src/git_conventional_version.egg-info/PKG-INFO
+src/git_conventional_version.egg-info/SOURCES.txt
+src/git_conventional_version.egg-info/dependency_links.txt
+src/git_conventional_version.egg-info/entry_points.txt
+src/git_conventional_version.egg-info/requires.txt
+src/git_conventional_version.egg-info/top_level.txt
+src/git_conventional_version/versioning/__init__.py
+src/git_conventional_version/versioning/conventional.py
+src/git_conventional_version/versioning/releases.py
+src/git_conventional_version/versioning/versions.py
