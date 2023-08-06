@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: verbcalc
+Version: 1.0.0a0
+Summary: VerbCalc is a Python library that allows to perform calculations based on human speech.
+Home-page: https://github.com/ErykPiasecki07/VerbCalc
+Author: Eryk Piasecki
+Author-email: eryk.piasecki@outlook.com
+License: BSD-3-Clause Licence
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+verbcalc/__init__.py
+verbcalc.egg-info/PKG-INFO
+verbcalc.egg-info/SOURCES.txt
+verbcalc.egg-info/dependency_links.txt
+verbcalc.egg-info/top_level.txt
+verbcalc/core/__init__.py
+verbcalc/core/translator.py
+verbcalc/tests/__init__.py
+verbcalc/tests/test_translator.py
