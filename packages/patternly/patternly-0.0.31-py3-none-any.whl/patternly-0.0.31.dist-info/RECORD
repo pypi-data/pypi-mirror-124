@@ -1,0 +1,9 @@
+patternly/__init__.py,sha256=fwbDWz4E_eMJ9oswGQTr204hKzZ7M3GHf5r8rMLVkLI,455
+patternly/_utils.py,sha256=QPFJp-_glDSNYK6tWdxyT7dhCTWQbqJvhpdMKm00eNs,4908
+patternly/detection.py,sha256=u3bmw3oKuM5Nom3GzObCSJg3J0B1Gzkm7tt2sLJqoUI,30031
+patternly/test.py,sha256=dwOtVsSQ4xPB9S7EdL4lqpjABdspkYtti4VZSc4pLIo,3042
+patternly-0.0.31.dist-info/LICENSE,sha256=KeJJ1GzaC0b5EuE7XmauPozraQDwWxm4oC5AtPlh5M8,1065
+patternly-0.0.31.dist-info/METADATA,sha256=cbtmHTHLQ84sM6k1XDaefHe9SdlJVkFWxo7VNHZSFmc,2008
+patternly-0.0.31.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+patternly-0.0.31.dist-info/top_level.txt,sha256=lORLW0f7BaBaB05q5crQsYW787udpLqNsIdI7Ugei5s,10
+patternly-0.0.31.dist-info/RECORD,,
