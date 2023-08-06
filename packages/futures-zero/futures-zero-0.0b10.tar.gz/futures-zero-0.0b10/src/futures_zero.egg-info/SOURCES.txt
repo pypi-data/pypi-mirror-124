@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.py
+src/futures_zero/__init__.py
+src/futures_zero/config.py
+src/futures_zero/futures.py
+src/futures_zero/server.py
+src/futures_zero/utils.py
+src/futures_zero/worker.py
+src/futures_zero.egg-info/PKG-INFO
+src/futures_zero.egg-info/SOURCES.txt
+src/futures_zero.egg-info/dependency_links.txt
+src/futures_zero.egg-info/top_level.txt
