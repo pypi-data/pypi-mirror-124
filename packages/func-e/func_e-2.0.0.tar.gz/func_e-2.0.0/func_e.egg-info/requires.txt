@@ -1,0 +1,8 @@
+numpy
+pandas
+progressbar2
+requests
+scipy
+scipy
+sklearn
+statsmodels
