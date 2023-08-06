@@ -1,0 +1,3 @@
+#!python
+import trivium
+trivium.cli.main()
