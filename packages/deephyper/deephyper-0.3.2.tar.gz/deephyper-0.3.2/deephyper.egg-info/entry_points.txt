@@ -1,0 +1,4 @@
+[console_scripts]
+deephyper = deephyper.core.cli._cli:main
+deephyper-analytics = deephyper.core.analytics._analytics:main
+
