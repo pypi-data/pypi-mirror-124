@@ -1,0 +1,8 @@
+aiostream>=0
+appdirs>=1
+argparse>=1
+beautifulsoup4>=4
+brotlipy>=0
+lxml>=4
+mechanicus>=0
+mutagen>=1
