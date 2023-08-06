@@ -1,0 +1,19 @@
+include pyproject.toml
+
+# Include the README
+include *.md
+
+# Include the license file
+include LICENSE.txt
+
+# Include setup.py
+include setup.py
+
+# Include the data files
+recursive-include src/OpenSync/OpenBCILSL *
+recursive-include src/OpenSync/GazepointLSL *
+recursive-include src/OpenSync/KinectBodyBasicsLSL *
+recursive-include src/OpenSync/LabRecorder *
+recursive-include src/OpenSync/LiveAmpLSL *
+recursive-include src/OpenSync/UnicornLSL *
+recursive-include src/OpenSync/eHealthLSL *

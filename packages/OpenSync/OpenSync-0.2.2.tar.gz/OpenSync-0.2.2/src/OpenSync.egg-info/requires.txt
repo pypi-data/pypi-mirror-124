@@ -1,0 +1,4 @@
+pyOpenBCI
+mindwavelsl
+pylsl
+xmltodict

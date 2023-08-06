@@ -1,0 +1,1 @@
+This is a python package to synchronize multiple measures in a Neuroscience/Psychology experiment.
