@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: glimmr
+Version: 1.1.0
+Summary: An asynchronous library to control Glimmr devices.
+Home-page: https://github.com/d8ahaard/python-glimmr
+Author: d8ahazard
+Author-email: donate.to.digitalhigh@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+License-File: LICENSE.md
+
+UNKNOWN
+

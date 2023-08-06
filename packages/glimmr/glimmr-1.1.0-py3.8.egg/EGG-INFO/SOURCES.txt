@@ -1,0 +1,11 @@
+LICENSE
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+glimmr.egg-info/PKG-INFO
+glimmr.egg-info/SOURCES.txt
+glimmr.egg-info/dependency_links.txt
+glimmr.egg-info/top_level.txt
+tests/__init__.py
+tests/test_glimmr.py
