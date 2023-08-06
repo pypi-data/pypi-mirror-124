@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: thtools
+Version: 0.3.0
+Summary: A library for the analysis of toehold switch riboregulators created by the iGEM team City of London UK 2021.
+Home-page: https://github.com/lkn849/thtools/
+Author: Lucas Ng
+Author-email: lkn849@gmail.com
+License: GPLv3
+Platform: any
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Typing :: Typed
+Requires-Python: <4.0,>=3.6
+Description-Content-Type: text/markdown
+License-File: COPYING
+
+# ToeholdTools
+
+<p align="center">
+  <img width="200wv" src="https://raw.githubusercontent.com/lkn849/thtools/master/src/thtools/app/web/favicon.svg" />
+</p>
+
+| Category | Status                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Repository | [![GitHub](https://img.shields.io/github/license/lkn849/thtools?style=for-the-badge)](https://github.com/lkn849/thtools/blob/master/COPYING) [![Documentation Status](https://img.shields.io/readthedocs/thtools?style=for-the-badge&logo=readthedocs&logoColor=white)](https://thtools.readthedocs.io/)                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Package  | ![Python](https://img.shields.io/pypi/pyversions/thtools?style=for-the-badge&logo=python&logoColor=white) [![PyPI](https://img.shields.io/pypi/v/thtools?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/thtools/) [![PyPI - Downloads](https://img.shields.io/pypi/dm/thtools?style=for-the-badge&logo=pypi&logoColor=white)](https://pypistats.org/packages/thtools)                                                                                                                                                                                                                                                                                                                                                                                     |
+| Build    | [![Build](https://img.shields.io/github/workflow/status/lkn849/thtools/Build?style=for-the-badge&logo=github)](https://github.com/lkn849/thtools/actions/workflows/autowheel.yml) [![GitHub Workflow Status (event)](https://img.shields.io/github/workflow/status/lkn849/thtools/App?label=app&style=for-the-badge&logo=github)](https://github.com/lkn849/thtools/actions/workflows/autoapp.yml) [![GitHub Workflow Status (event)](https://img.shields.io/github/workflow/status/lkn849/thtools/Test?label=tests&style=for-the-badge&logo=github)](https://github.com/lkn849/thtools/actions/workflows/autotest.yml) [![Codecov](https://img.shields.io/codecov/c/github/lkn849/thtools?style=for-the-badge&logo=codecov&logoColor=white)](https://codecov.io/gh/lkn849/thtools/)|
+| Quality  | [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/lkn849/thtools.svg?logo=lgtm&style=for-the-badge)](https://lgtm.com/projects/g/lkn849/thtools/context:python) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/lkn849/thtools.svg?logo=lgtm&style=for-the-badge)](https://lgtm.com/projects/g/lkn849/thtools/context:javascript) [![LGTM Alerts](https://img.shields.io/lgtm/alerts/github/lkn849/thtools?label=lgtm%20alerts&style=for-the-badge&logo=lgtm)](https://lgtm.com/projects/g/lkn849/thtools/)                                                                                                                                                                                                                       |
+
+A library for the analysis of toehold switch riboregulators created by the iGEM team City of London UK 2021.
+## What is ToeholdTools?
+ToeholdTools is a Python package and desktop app designed to facilitate analyzing
+and designing toehold switches, created as part of the 2021 iGEM competition. **As of 2021 this is the *only* software of its kind!**
+It's still in the making, so please leave a feature request
+if there is anything else you would like to see!
+
+## Features
+- An easy-to-use programmatic API for investigating the target RNA specificity of toehold switches.
+- A desktop app complete with a graphical user interface for users who prioritise ease over configuration.
+- Full offline support in both the desktop app and the API, with offline support for the latest release of miRBase as well.
+- Progress–tracking support in both the desktop app and the API.
+- Support for Pandas to allow further data-processing.
+
+
+## Documentation
+Installation instructions, the full API reference and all available developer notes can be found [here](https://thtools.readthedocs.io/en/stable/).
+
+## License
+ToeholdTools is licensed under the terms of the [GPLv3](https://github.com/lkn849/thtools/blob/master/COPYING).
+However, the distributed app is bundled with several third party projects.
+Please see [third_party/NOTICES.md](https://github.com/lkn849/thtools/blob/master/third_party/NOTICES.md) for more information.
+
+© Copyright 2021, Lucas Ng.
+
