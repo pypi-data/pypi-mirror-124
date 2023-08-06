@@ -1,0 +1,17 @@
+airt/__init__.py,sha256=-vQwZPVOtZ7YIG49WM7PShqvDtMKb6KObT2_AHKAbT8,29
+airt/_nbdev.py,sha256=YHLhg_78hyeUfBjIub-DeF4kZOSBc2ZIoKFfLd5qQVU,1843
+airt/client.py,sha256=9s1g2bH-7-2ByNHweSB70ar7DX0I-sC2suKZYR-Ql9k,46571
+airt/logger.py,sha256=Xx5pKPRLfCgQLR5eMq1IC0U3Owh9rdvd-7XU1Ydx42s,1788
+airt/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airt/cli/cli.py,sha256=kiEIGxSgPyAKOlbhyPXS5U5rtSvs_6IqKE6Gkv5nj4s,3030
+airt/cli/ds.py,sha256=r3DkPtAYtURXSWDs6cafLObnMiPtJgy6ZfOlJIquCPs,10960
+airt/cli/helper.py,sha256=733Wv8HtJ7GoE7EakHsHteItPJ3PYmplJLvkWlr4PSc,2163
+airt/cli/model.py,sha256=4wMh1V7Q7o02SYqn7LhDK6ydstcPYvsqLTqm5mEsqLY,4467
+airt/cli/pred.py,sha256=j8WtWwQUyI3fdlfOpPC6dIJjxJYzm9YHQCBRwkWcyis,4543
+airt/cli/token.py,sha256=p05ByqAIOVQtlUB0bMCbpEg-vYfK7vUlmRBODXkwPPc,2315
+airt_client-2021.10.1rc2.dist-info/LICENSE,sha256=AIoSvFSyZW2FvOnRow37N7G7s2BGaJH5x-8h4JBPFAA,11351
+airt_client-2021.10.1rc2.dist-info/METADATA,sha256=ftOA2EujyPuJ5OhW5u9bU9ox7ctfvyWpW7JwX_PybJg,4879
+airt_client-2021.10.1rc2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+airt_client-2021.10.1rc2.dist-info/entry_points.txt,sha256=3CdbQWWVJPgoI-atfwoU-L9smSWvoHQLVUsSCufiOgk,43
+airt_client-2021.10.1rc2.dist-info/top_level.txt,sha256=_QcNYaDk0ObAJDdq3po5zIiB6fAjfN_KUhXaWWlN-p4,5
+airt_client-2021.10.1rc2.dist-info/RECORD,,
