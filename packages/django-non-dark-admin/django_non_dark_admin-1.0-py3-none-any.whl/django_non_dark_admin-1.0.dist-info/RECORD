@@ -1,0 +1,10 @@
+django_non_dark_admin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_non_dark_admin/conf.py,sha256=nImoDOpn0xlZcyE_MfDgMTPANDj05YwIXhX8A4BBb0Q,105
+django_non_dark_admin/static/django_non_dark_admin/no-dark-fix.css,sha256=eNXyGkR4c8lR-qjVxn6CHEokx9UscqpJG89n7Duig0o,1630
+django_non_dark_admin/templates/admin/base.html,sha256=1TG8-UWo7EpmN5N-1SbuVlrS5FrfK2dnCqJ7iQky1b4,188
+django_non_dark_admin/templates/django_non_dark_admin/darkmode_switch.html,sha256=vOTgy4SX8LWxGMMs7SQ3GyWQrSmzzGpABbctKTR23fA,159
+django_non_dark_admin/templatetags/admin_darkmode_switch.py,sha256=-mSNaR61QqsKShJ9Kfw0UDgycp6fwo226mtH0dgl-T4,299
+django_non_dark_admin-1.0.dist-info/LICENSE.rst,sha256=77NAayT4nB8FevGkg3StqejYIG8lOGFClrj5JND8GQU,1599
+django_non_dark_admin-1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+django_non_dark_admin-1.0.dist-info/METADATA,sha256=GGbBqaKNO0-3KXVBNtdsl0iF6chd1ScyLsZHlGUKNtU,1756
+django_non_dark_admin-1.0.dist-info/RECORD,,
