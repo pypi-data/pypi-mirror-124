@@ -1,0 +1,9 @@
+msgpack_asgi/__init__.py,sha256=CIegL65t_OknGcRwhQMYPGcqNRDIoNQ81x8iVM90Dbo,136
+msgpack_asgi/__version__.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+msgpack_asgi/_middleware.py,sha256=dlE7f3umm2PGFmIsIIDyti6R_r-e_hN3QJJ32ii3tVk,5216
+msgpack_asgi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msgpack_asgi-1.1.0.dist-info/LICENSE,sha256=y1GSwZQqqWFkpw6G0l-bGmcYDa9PByWjwa2bxVY-puA,1072
+msgpack_asgi-1.1.0.dist-info/METADATA,sha256=n97LjtTf687K61OXPg1_9Wux71U6CbqCYRgfbWtW32A,7616
+msgpack_asgi-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+msgpack_asgi-1.1.0.dist-info/top_level.txt,sha256=84Ub884W24niQ_LxUEFe3kHS5WzwAWYOgu1yHX0PChI,13
+msgpack_asgi-1.1.0.dist-info/RECORD,,
