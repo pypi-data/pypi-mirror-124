@@ -1,0 +1,6 @@
+
+Features:
+* Responsive - The menu is placed on top in case of smaller screen area
+* Pages are editable
+* Auto-generation of menu items
+

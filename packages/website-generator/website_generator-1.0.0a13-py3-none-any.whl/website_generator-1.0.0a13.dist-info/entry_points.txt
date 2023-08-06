@@ -1,0 +1,3 @@
+[console_scripts]
+website-gen = websitegen.main:main
+
