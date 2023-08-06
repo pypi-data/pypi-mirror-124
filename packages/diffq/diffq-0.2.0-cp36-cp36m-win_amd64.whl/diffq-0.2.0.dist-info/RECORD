@@ -1,0 +1,12 @@
+diffq/__init__.py,sha256=BuxhILqzhJ6tRvqsiyRSGaRtq_9pZc-kJBIBArk-KJA,872
+diffq/base.py,sha256=Nnnm9wrlz6ZPcLn1HL_bTW83KOVMwuLTpXEDLf93jKM,11715
+diffq/bitpack.cp36-win_amd64.pyd,sha256=3CLBpF0AIVaR76uK5sLxOeUymnvIiwO8KeHOUdSLqiE,162816
+diffq/diffq.py,sha256=25nqeZAPW3k4KHbsptPqyvl9GElu9GfrZ-dRfJa_3Zk,13521
+diffq/lsq.py,sha256=vP6dP2r-ImjrB5ql84T3gcmnaqfNN7Ie7ES_AJ29YeQ,6955
+diffq/uniform.py,sha256=XadFuN_BCb_U6zyxaFvpsgAUbk1SaTEerVckc7JOpjU,4825
+diffq/utils.py,sha256=MEELSkxUfUNmIs1rIgtrtIHBwomFxNQlQED3Ty-FTos,1794
+diffq-0.2.0.dist-info/LICENSE,sha256=N_pDjclkea-MoftlG9ySe7gpmj287LqCIm0r7ZI8Zj8,19730
+diffq-0.2.0.dist-info/METADATA,sha256=NvEEYDvX_dNecD5cLL15-HVMCQ6sNLqEVwBxKwTfK_k,7760
+diffq-0.2.0.dist-info/WHEEL,sha256=hjxCepQBXS-sq_JehIDt_m-XLDxE9ssXOignC0wRm1s,101
+diffq-0.2.0.dist-info/top_level.txt,sha256=ULGopdV-UekaZRtXaRqllPoha8OPjfxpT04w9dMAJ9c,6
+diffq-0.2.0.dist-info/RECORD,,
