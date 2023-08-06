@@ -1,0 +1,9 @@
+README.md
+setup.py
+kwiki/__init__.py
+kwiki/kwiki.py
+kwiki.egg-info/PKG-INFO
+kwiki.egg-info/SOURCES.txt
+kwiki.egg-info/dependency_links.txt
+kwiki.egg-info/top_level.txt
+kwiki/data/wikiferheng.json
