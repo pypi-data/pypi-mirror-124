@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/TurtLSystems/__init__.py
+src/TurtLSystems/examples.py
+src/TurtLSystems/source.py
+src/TurtLSystems.egg-info/PKG-INFO
+src/TurtLSystems.egg-info/SOURCES.txt
+src/TurtLSystems.egg-info/dependency_links.txt
+src/TurtLSystems.egg-info/requires.txt
+src/TurtLSystems.egg-info/top_level.txt
+src/TurtLSystems.egg-info/zip-safe
