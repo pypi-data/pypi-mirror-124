@@ -1,0 +1,5 @@
+discord-py-interactions
+discord.py
+dinteractions-Paginator
+thefuzz
+Levenshtein
