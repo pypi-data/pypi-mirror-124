@@ -1,0 +1,17 @@
+bottle
+CodeChat
+markdown
+psutil
+Sphinx
+strictyaml
+thrift
+typer
+watchdog
+websockets
+
+[test]
+coverage
+mypy
+pytest
+requests
+tox
