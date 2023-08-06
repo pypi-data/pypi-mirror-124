@@ -1,0 +1,12 @@
+README.md
+setup.py
+layouts_segmentation_simplifier.egg-info/PKG-INFO
+layouts_segmentation_simplifier.egg-info/SOURCES.txt
+layouts_segmentation_simplifier.egg-info/dependency_links.txt
+layouts_segmentation_simplifier.egg-info/entry_points.txt
+layouts_segmentation_simplifier.egg-info/requires.txt
+layouts_segmentation_simplifier.egg-info/top_level.txt
+lss/__init__.py
+lss/cli.py
+lss/parsers.py
+lss/utils.py

@@ -1,0 +1,6 @@
+lxml==4.6.3
+simplification==0.5.13
+shapely<1.8.0,>=1.7.1
+Pillow<8.4.0,>=8.3.2
+click<9.0.0,>=8.0.1
+tqdm<5.0.0,>=4.62.3
