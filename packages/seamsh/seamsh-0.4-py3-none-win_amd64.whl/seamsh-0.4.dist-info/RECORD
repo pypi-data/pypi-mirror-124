@@ -1,0 +1,13 @@
+seamsh/__init__.py,sha256=KCcOVJtANlll4poHklFjdyuEOKH3z1eeJrYX_WIsZhE,969
+seamsh/_tools.py,sha256=hWODo7N6TK6GNcLGI_rpZXAJDr17YrEWRV9sLTo9cr0,3188
+seamsh/field.py,sha256=TDCu2zq9ipnhPTgM7SWSG0mGA_qzZVqdXpIH5GgwKdI,4982
+seamsh/geometry.py,sha256=WqZ0hgI5fv28RgXnHxGPf1N4JPYygzJ69zIrirgIB_c,17884
+seamsh/gmsh.py,sha256=6jYEcdI14G1tzjzUHQ3vssKl5p64DgEyQf27Na_hQQk,15864
+seamsh/libseamsh.so,sha256=y9nPtMZnIpnn4PnljCC6oa0UXSYQiHO-ZCZaPSbi3kI,2496188
+seamsh-0.4.dist-info/AUTHORS.txt,sha256=4ulsdzCBqZIQbFjacbYHFw_KzanYxgYmXl10_Yp8Dvc,139
+seamsh-0.4.dist-info/COPYING.txt,sha256=CuBIWlvTemPmNgNZZBfk6w5lMzT6bH-TLKOg6F1K8ic,35148
+seamsh-0.4.dist-info/LICENSE.txt,sha256=Rqk0llmSj2voOm2OQknfopNwwTYPVJVuVz889t-wB0k,1455
+seamsh-0.4.dist-info/METADATA,sha256=pEDTS5ZjqI0q5AkDVqprufouH-lbNf4vv_-F-MA_210,2416
+seamsh-0.4.dist-info/WHEEL,sha256=JOxpj-GQs62BIkVc4wyOOWNSgiEvjbFILYfm0SaCLp0,99
+seamsh-0.4.dist-info/top_level.txt,sha256=QOu8affdf51wa2bcxEzSocm5GU1j3qceQvbSGHMcmxo,7
+seamsh-0.4.dist-info/RECORD,,
