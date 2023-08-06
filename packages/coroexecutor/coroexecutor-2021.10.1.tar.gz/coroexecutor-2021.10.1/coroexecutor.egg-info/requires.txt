@@ -1,0 +1,10 @@
+
+[dev]
+check-manifest
+pygments
+wheel
+
+[test]
+pytest
+pytest-cov
+pytest-flake8
