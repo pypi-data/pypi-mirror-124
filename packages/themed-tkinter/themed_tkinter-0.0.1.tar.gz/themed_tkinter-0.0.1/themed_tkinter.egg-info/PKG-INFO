@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: themed-tkinter
+Version: 0.0.1
+Summary: Simple Friendly terminal interface
+Home-page: https://gitlab.com/olive007/ufterm
+Author: SECRET Olivier
+Author-email: pypi-package-themed_tkinter@devo.live
+License: UNKNOWN
+Description: # Themed Tkinter
+        Simple module help developer to generate tkinter with color matching the OS theme.
+        
+        
+        ## Issues/Bug report or improvement ideas
+        https://gitlab.com/olive007/themed-tkinter/-/issues
+        
+        
+        ## License
+        GNU Lesser General Public License v3 or later (LGPLv3+)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
