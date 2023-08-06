@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['eventsourcing_django', 'eventsourcing_django.migrations']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['Django>=3.0.0,<4.0.0', 'eventsourcing>=9.1.0,<10.0.0']
+
+setup_kwargs = {
+    'name': 'eventsourcing-django',
+    'version': '0.1.5',
+    'description': 'Python package for eventsourcing with Django.',
+    'long_description': '# Event Sourcing with Django\n\nThe Python package `eventsourcing-django` provides a Django app\nthat uses the [Django ORM](https://www.djangoproject.com/)\nto define alternative persistence infrastructure for the\n[Python eventsourcing library](https://github.com/pyeventsourcing/eventsourcing).\nThis package is [available on PyPI](https://pypi.org/project/eventsourcing-django/).\n\nThis package is designed and tested to work with version 9.1 of\nthe Python eventsourcing library, Django versions 3.0, 3.1, and\n3.2, and Python versions 3.7, 3.8, 3.9, and 3.10.\n\nThe functionality provided by this package was previously included\nin the Python eventsourcing package, but was moved out to a separate\npackage during development of version 9.\n\nThis is package is maintained by the Python eventsourcing project.\nPlease [raise issues on GitHub](https://github.com/pyeventsourcing/eventsourcing-django/issues)\nand [join the community](https://join.slack.com/t/eventsourcinginpython/shared_invite/enQtMjczNTc2MzcxNDI0LTJjMmJjYTc3ODQ3M2YwOTMwMDJlODJkMjk3ZmE1MGYyZDM4MjIxODZmYmVkZmJkODRhZDg5N2MwZjk1YzU3NmY)\ndiscussion on Slack.\n\n\n## Installation\n\nYou can use `pip` to install the package. It is recommended to install\nPython packages into a Python virtual environment.\n\n    $ pip install eventsourcing-django\n\n\n## Configuration\n\nIf you are using Django 3.0 or 3.1, please add\n`\'eventsourcing_django.apps.EventsourcingConfig\'` to your Django\nproject\'s `INSTALLED_APPS` setting.\n\n    INSTALLED_APPS = [\n        ...\n        \'eventsourcing_django.apps.EventsourcingConfig\',\n    ]\n\n\nIf you are using Django 3.2 or later, you only need to add `\'eventsourcing_django\'`\nto your Django project\'s `INSTALLED_APPS` setting, although the above will work also.\n\n    INSTALLED_APPS = [\n        ...\n        \'eventsourcing_django\',\n    ]\n\n\n## Database migration\n\nTo migrate your database, please run Django\'s `manage.py migrate` command.\n\n    $ python manage.py migrate eventsourcing_django\n\n\n## Event-sourced aggregates and application\n\nYou can develop event-sourced aggregates and applications\nindependently of persistence infrastructure. Please refer\nto the [core library docs](https://eventsourcing.readthedocs.io/)\nfor more information.\n\nThe example below defines an event-sourced aggregate `World`. It\nwill be created with a `history` attribute. The command method\n`make_it_so()` triggers an event `SomethingHappened`\nthat appends the command argument `what` to the `history`.\n\n```python\nfrom eventsourcing.domain import Aggregate, event\n\n\nclass World(Aggregate):\n    def __init__(self):\n        self.history = []\n\n    @event("SomethingHappened")\n    def make_it_so(self, what):\n        self.history.append(what)\n```\n\nThe application class `Universe` has three methods. The method `create_world()`\ncreates a new `World` aggregate. The method `make_it_so()` calls `make_it_so()`\non an existing `World` aggregate. The method `get_world_history()`\nreturns the current `history` value of an existing `World` aggregate.\n\n```python\nfrom eventsourcing.application import Application\n\nclass Universe(Application):\n    def create_world(self):\n        world = World()\n        self.save(world)\n        return world.id\n\n    def make_it_so(self, world_id, what):\n        world = self.repository.get(world_id)\n        world.make_it_so(what)\n        self.save(world)\n\n    def get_world_history(self, world_id):\n        world = self.repository.get(world_id)\n        return world.history\n```\n\n\n## Initialize application object\n\nThe application object brings together the domain model and the\npersistence infrastructure, and provides an interface for views\nand forms.\n\nTo use the Django ORM as the application\'s persistence infrastructure,\nyou must set the application\'s environment variable\n`INFRASTRUCTURE_FACTORY` to `eventsourcing_django.factory:Factory`.\nEnvironment variables can be set in the environment, or set on the\napplication class, or passed in when constructing the application\nobject as seen below.\n\n```python\n# Construct the application.\napp = Universe(env={\n    "INFRASTRUCTURE_FACTORY": "eventsourcing_django.factory:Factory",\n})\n```\n\nYou may wish to construct the application object on a signal\nwhen the Django project is "ready". You can use the `ready()`\nmethod of the `AppConfig` class in the `apps.py` module of a\nDjango app.\n\n\n## Views and forms\n\nAfter migrating the database and constructing the application object,\nthe application object\'s methods can be called. The application object\'s\nmethods may be called from Django views and forms.\n\n```python\n# Call application command methods.\nworld_id = app.create_world()\n\napp.make_it_so(world_id, "dinosaurs")\napp.make_it_so(world_id, "trucks")\napp.make_it_so(world_id, "internet")\napp.make_it_so(world_id, "covid")\n\n# Call application query methods.\nhistory = app.get_world_history(world_id)\nassert history == ["dinosaurs", "trucks", "internet", "covid"]\n```\n\nFor more information, please refer to the Python\n[eventsourcing](https://github.com/johnbywater/eventsourcing) library\nand the [Django](https://www.djangoproject.com/) project.\n',
+    'author': 'John Bywater',
+    'author_email': 'john.bywater@appropriatesoftware.net',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://eventsourcing.readthedocs.io/',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)
