@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: Pagla-Mama-WEB
+Version: 0.1
+Summary: this is Pagla-Mama Env---Str
+Home-page: UNKNOWN
+Author: Pagla-Mama-WEB
+Author-email: islambazid64@gmail.com
+License: BSD
+Keywords: example documentation tutorial
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+
+  # Baizid-Tanvir-Coder  /----- About Us >>> https://devyeasir.info/
+//////////////////////******************
+////////////////////********************
+//////////////////***** # Pagla Mama *****
+////////////////************************
+//////////////**************************
+////////////****************************
+///////////*****************************
+
+# Pagla Mama Installation
+```pip install pagla Mama```
+
+## How to use it?
+Open terminal and type pagla Mama and then input the integer
+
+## License
+
+© 2021 Udit Vashisht
+
+ This repository is licensed under the MIT license. See LICENSE for details.
+
+
