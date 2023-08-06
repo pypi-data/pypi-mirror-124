@@ -1,0 +1,10 @@
+Change Log
+===========
+
+0.0.2 (23/10/21)
+-----------------
+- Basic discord bot setup,
+- Activity changes,
+- Advanced logging,
+- Bug Patches.
+
