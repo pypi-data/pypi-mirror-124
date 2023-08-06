@@ -1,0 +1,13 @@
+setup.py
+django_admin_object_button/__init__.py
+django_admin_object_button/admin.py
+django_admin_object_button/apps.py
+django_admin_object_button/decorators.py
+django_admin_object_button/models.py
+django_admin_object_button/tests.py
+django_admin_object_button/views.py
+django_admin_object_button.egg-info/PKG-INFO
+django_admin_object_button.egg-info/SOURCES.txt
+django_admin_object_button.egg-info/dependency_links.txt
+django_admin_object_button.egg-info/top_level.txt
+django_admin_object_button/migrations/__init__.py
