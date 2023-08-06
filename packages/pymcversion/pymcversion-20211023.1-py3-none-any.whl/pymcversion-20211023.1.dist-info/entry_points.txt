@@ -1,0 +1,3 @@
+[console_scripts]
+mcversion = pymcversion.scripts.mcversion:main
+

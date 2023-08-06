@@ -1,0 +1,12 @@
+pymcversion/__init__.py,sha256=zXDQPF0YbkrZqj27yiz5hn1gmPVdfGU64eAva2avfVA,229
+pymcversion/bedrock_server.py,sha256=cQsFuamRzznLRZh3Dr05YjEhKTZFOLHl2eio1VfDddw,1174
+pymcversion/ios_store_lookup.py,sha256=z0At960-TaQrTRsmI48PvMPpmSUiAQqyxgE8oGwqa_s,1719
+pymcversion/java_version_manifest.py,sha256=N3pY2Mcx3Q5Fj2cQYoOBSKXVXgtLIRt-qAv5ieIDzsE,768
+pymcversion/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymcversion/scripts/mcversion.py,sha256=Y-kl61pe6pKQkw9bVA7oljAqM5qMQuQNI-eG9HHgyw0,2672
+pymcversion-20211023.1.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+pymcversion-20211023.1.dist-info/METADATA,sha256=fsj7aQoP1F6vtEivFNY8s-Oo8ZWzge88etgtnilQ2QM,1052
+pymcversion-20211023.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pymcversion-20211023.1.dist-info/entry_points.txt,sha256=rRWro5HmrgWm2Ep-k_Xg2xu-XKOX9aGq8_Y6w8DWb5s,66
+pymcversion-20211023.1.dist-info/top_level.txt,sha256=G2ak1VuujcG6z3rFR3Iv6zGbTV22xn-f9lJDbbFYGNw,12
+pymcversion-20211023.1.dist-info/RECORD,,

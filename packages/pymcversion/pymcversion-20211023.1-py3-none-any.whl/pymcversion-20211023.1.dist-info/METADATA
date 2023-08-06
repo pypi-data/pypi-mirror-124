@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pymcversion
+Version: 20211023.1
+Summary: Minecraft version info utility
+Home-page: https://github.com/aoirint/pymcversion
+Author: aoirint
+Author-email: aoirint@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pydantic
+
+# pymcversion
+
+## Install
+
+```shell
+pip3 install git+https://github.com/aoirint/pymcversion.git
+```
+
+## Command Usage
+
+```shell
+$ mcversion bedrock-server
+1.17.40.06
+
+$ mcversion java
+1.17.1
+
+$ mcversion ios
+1.17.40
+```
+
+## Develop
+
+```shell
+pip3 install -r requirements.txt
+```
+
+## Run tests
+
+```shell
+pip3 install -r requirements-test.txt
+
+make test
+```
+
+
