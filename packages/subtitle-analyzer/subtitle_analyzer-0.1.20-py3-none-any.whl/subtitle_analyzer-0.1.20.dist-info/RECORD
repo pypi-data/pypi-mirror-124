@@ -1,0 +1,13 @@
+subtitle_analyzer/__init__.py,sha256=RXgpyly2304zTuACPiNhVGKx3wGhE6YlcJN05J7sRoc,2874
+subtitle_analyzer/empty.srt,sha256=E0oe1FBPZL2ChSQcKTgRj9ApRDCfNgIF3c8ex8O-mjg,54
+subtitle_analyzer/entry.py,sha256=wPnOHX0_z0uTFPpCj2loLMmO4dP7Tjfe3p479ZUH45o,2448
+subtitle_analyzer/lib.py,sha256=i_XLYFhbPAW7iFPf-cMQ8Mt_i28Rob5AGIXFV17cwH4,2375
+subtitle_analyzer/phrase_analyzer.py,sha256=O1qBhEFzt7R48vBRo2UxxhpPDzVGzBpq4Lf8iQ2O6AU,3533
+subtitle_analyzer/phrase_ass_writer.py,sha256=8lyTBRMqT6z18IQWwy0QsPTpEWkmWUZZlf-b-OznJIU,5439
+subtitle_analyzer/tbr.py,sha256=qfeY0uvTZv6wXafaHJ21itHr_d1P_OORKH8hHlQo4ZY,3702
+subtitle_analyzer/vocab_analyzer.py,sha256=lBiOKux604qt_Q80r_-69THzf3OgbuXNXKH-zqRVWGs,1530
+subtitle_analyzer/vocab_ass_writer.py,sha256=XWmW3Wk6IJXkYURhgZ26l26sbkHDQCPLOIZtQO_YKX4,2203
+subtitle_analyzer-0.1.20.dist-info/entry_points.txt,sha256=YNgpeKSkJo5a5ovgxYG0NkafwmbGj7ltCYuRD6AHGS4,218
+subtitle_analyzer-0.1.20.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+subtitle_analyzer-0.1.20.dist-info/METADATA,sha256=pcaqgArFrbIrAl8VWZ-IoEQSkpOf79lkZHNKMLxSL4o,4336
+subtitle_analyzer-0.1.20.dist-info/RECORD,,
