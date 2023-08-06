@@ -1,0 +1,16 @@
+salt-call:
+  config_dir: .
+salt-ssh:
+  config_dir: .
+salt-minion:
+  config_dir: .
+salt-run:
+  config_dir: .
+salt-master:
+  config_dir: .
+salt-api:
+  config_dir: .
+salt-key:
+  config_dir: .
+salt:
+  config_dir: .

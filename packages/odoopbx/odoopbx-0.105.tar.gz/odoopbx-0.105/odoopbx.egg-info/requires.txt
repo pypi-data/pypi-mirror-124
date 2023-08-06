@@ -1,0 +1,4 @@
+click
+jinja2==2.11.3
+jsonrpcserver<=4.2.0
+salt==3003
