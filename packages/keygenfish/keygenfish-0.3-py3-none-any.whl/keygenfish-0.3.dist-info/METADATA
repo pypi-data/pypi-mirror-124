@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: keygenfish
+Version: 0.3
+Summary: Python Package for generating logically unique keys & passowrds
+Home-page: UNKNOWN
+Author: Finnovesh (Finnovesh Incorporation)
+Author-email: <finnovesh@gmail.com>
+License: UNKNOWN
+Keywords: python,keygennerator,keygen,password
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+A package that allows to generate logically unique keys & passowrds to be used in applications and databases
+
+
