@@ -1,0 +1,15 @@
+geometron/__init__.py,sha256=chMj2w1CmJuk4dJmI0issvgGXGJddB0RmtJsLCaiaWY,31
+geometron/core.py,sha256=KrRk9yx43cBSpGWrXuxjV8lQ_JRmJCbGww2zkG8hxZU,1008
+geometron/curve2d/__init__.py,sha256=tJDKWu8VulhQjnXgUEyNQ4eaxPluPo8vAYde4HR5iCY,89
+geometron/curve2d/cubic_length.py,sha256=xZkR0v3jnHP757vB4OFoPBkeOJ8vd-OhrQ4EnwkNiXY,4411
+geometron/geom_to_vtk/__init__.py,sha256=EcdZb1Pj5Dw80nhqSMEa3Jb3imQlAc-gDZob8WsyFxI,33
+geometron/geom_to_vtk/gdf_to_vtk.py,sha256=NQt634cUdsRcDJu4-Yhbn7CTT2JEvkEdleVVDEOh7k4,3984
+geometron/plot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geometron/plot/geological_maps.py,sha256=A6zMHhakPLTEIJEgOwE5ITPQcdRxKF3qiohoXuB5mX8,7045
+geometron-0.0.11.dist-info/AUTHORS,sha256=0nFzbzy_k12NYSueUTumLN7c-rq1KRghxZW0nnWMqpc,40
+geometron-0.0.11.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+geometron-0.0.11.dist-info/METADATA,sha256=GenJt0fLJrWGN2eQQG3aQ8O1BwQhOVO328IByLEwdjs,5615
+geometron-0.0.11.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+geometron-0.0.11.dist-info/pbr.json,sha256=dTd91YMKuRQz_nUWA4w0MvA785xjxHl3Co4KI7Feuh8,46
+geometron-0.0.11.dist-info/top_level.txt,sha256=cW8FmatxoR0xFBTLCBaecw4p9H3_8_0ZJyFnidW-Mf8,10
+geometron-0.0.11.dist-info/RECORD,,
