@@ -1,0 +1,8 @@
+setup.py
+sumandmul/__init__.py
+sumandmul/mainfile.py
+sumandmul.egg-info/PKG-INFO
+sumandmul.egg-info/SOURCES.txt
+sumandmul.egg-info/dependency_links.txt
+sumandmul.egg-info/requires.txt
+sumandmul.egg-info/top_level.txt
