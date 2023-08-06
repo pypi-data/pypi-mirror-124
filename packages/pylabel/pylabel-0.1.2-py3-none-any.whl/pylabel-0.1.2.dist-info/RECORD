@@ -1,0 +1,13 @@
+pylabel/__init__.py,sha256=xzBGaoCtlURlKhPZr8iSGyqSlTCzH5ej6EX1lc0MCbc,84
+pylabel/analyze.py,sha256=8IJE5xEVwVVBHzRJfmZkaZJ6OcwFTpywt7WZ-pWAIDQ,1728
+pylabel/constants.py,sha256=VbEpDhaDpPRvy03AtLFlQzXoOmpbCHDVC0zyTkWSaGs,517
+pylabel/dataset.py,sha256=IXhRBlUjKduKjHBf7rS7dfjZHoxvA4hqzad4Vq60-mw,589
+pylabel/exporter.py,sha256=XE8oFfEJMMAo2VprOE9DqfVVCDFb6QvURe5mWXytgXU,16531
+pylabel/importer.py,sha256=s9Us3NhIh4-Pymi57oUNKkI2rwaAA_OwPSXPPsXpCSA,8457
+pylabel/splitter.py,sha256=VNhNnFgERWzMSi_VMY32E31gRxpjnyL3zOFCf5kKW54,6230
+pylabel/visualize.py,sha256=wIBJ0hj2n8cRgmKzTRfDC7fA8oFSnQPHpvQ2TfezpUE,1522
+pylabel-0.1.2.dist-info/LICENSE.txt,sha256=fshoWhAb-XJ3-Qp3xwViLOKB8u4eUoQa7IGXc8Y0G2U,1069
+pylabel-0.1.2.dist-info/METADATA,sha256=z0w-QNLdjQKT_5Zsz42nuQSOaJA-7N47gpAzUOs3ZkI,366
+pylabel-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pylabel-0.1.2.dist-info/top_level.txt,sha256=f0aZetLrw6lltBr2EAwmnQmKC3MtwXzVtkxqZBs_NQY,8
+pylabel-0.1.2.dist-info/RECORD,,
