@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: moonauth
+Version: 1.0.0
+Summary: A Python wrapper for the Moonauth RESTful API
+Home-page: https://github.com/moonauth/SDK-NodeJS
+Author: Dominik Gralka
+Author-email: dominik@gralka.info
+License: Do No Harm
+Project-URL: Bug Tracker, https://github.com/moonauth/SDK-Python/issues
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A Python wrapper for the Moonauth RESTful API
+
