@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: shy
+Version: 0.2.4
+Summary: very shy library
+Home-page: http://github.com/gunjunlee/shy
+Author: gunjunlee
+Author-email: gunjunlee97@gmail.com
+License: MIT
+Keywords: shy
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: backtrace
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
