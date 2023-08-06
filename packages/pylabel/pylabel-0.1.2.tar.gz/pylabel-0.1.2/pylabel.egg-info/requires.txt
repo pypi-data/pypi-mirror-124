@@ -1,0 +1,5 @@
+pandas
+bbox_visualizer
+matplotlib
+opencv-python
+scikit-learn
