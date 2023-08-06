@@ -1,0 +1,13 @@
+juliacall/__init__.py,sha256=MiPu7z1Zp6czTHE77652hzfjPio6EekL-XtTVg41084,94
+juliacall/all.py,sha256=rcxs3Ir2Bj17b4EFT6Z9jTbvpfpavpN42dgw0q2mmsg,45
+juliacall/deps.py,sha256=4MrwOxvghjKcirsjIVIvEnwUwS26TxMhDipOOg9OQQ4,8068
+juliacall/init.py,sha256=DEJ9qxekHPZY7-OYmaIk3T3SYsmqWvoNshzC7UfTvKU,7922
+juliacall/jlcompat.py,sha256=KmuLegn9xi5Vi9_UXTGWJP1eJEq67RBA7TCO8OIDFhc,5399
+juliacall/juliacalldeps.json,sha256=N3ZQ1lsS_X8Ff2oUf9czFHxmAHmSoYNPjiWa8APur_Y,24
+juliacall/matplotlib.py,sha256=iacgQu5mWm-EenD90ebLTSOPL0Y16DJO0gtbQUhOVUA,1025
+juliacall/utils.py,sha256=Khj9iuUhQ1vxTO4LsWd-ug0G3Bil2Enw5mzJ_pfBvr0,1084
+juliacall-0.4.2.dist-info/LICENSE,sha256=SqHGL-c8IiS-nASZ1eDtDLcoZHzMREqff_ZsAZPiYVc,1085
+juliacall-0.4.2.dist-info/METADATA,sha256=42sUFBU5VFYxC1HBTq6u6qvmdRIub0NtAMRz_zuNBwM,4530
+juliacall-0.4.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+juliacall-0.4.2.dist-info/top_level.txt,sha256=tou3dsFjkaSXHukY_7NL6lavind9oT1H8fRhkkVF5Ms,10
+juliacall-0.4.2.dist-info/RECORD,,
