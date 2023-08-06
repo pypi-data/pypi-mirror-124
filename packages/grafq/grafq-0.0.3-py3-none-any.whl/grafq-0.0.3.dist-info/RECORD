@@ -1,0 +1,10 @@
+grafq/__init__.py,sha256=1WG5T6H-JRhbY_80-_vroBqdZIccG3az_E-3qUyj3eA,209
+grafq/client.py,sha256=RgRHioYncqOo8q0NH-4mUmE9On29s_n9GY4A8Q1vLEc,1997
+grafq/errors.py,sha256=7d3rs3d82kmSIYqn7cuRXESSoyv6flIHvAzeMbTZnz4,737
+grafq/language.py,sha256=JM5R-5bJARRUhi7YOIITSDY9k9GdKaavoLW-ydnj0Xs,6392
+grafq/schema.py,sha256=z6J0gzO8u-M-afjH6usi0pPWrq3TiHJ1nBFqMoC8CuM,15110
+grafq-0.0.3.dist-info/LICENSE,sha256=sEfyCqKPpUqxi1xKLo47c98t3F8UfonajXq1yXqagAc,1076
+grafq-0.0.3.dist-info/METADATA,sha256=V1KG7oF4ZE8wDaVFlgIrFBUP_5TbQMaFGioZ3E0ejKk,4237
+grafq-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+grafq-0.0.3.dist-info/top_level.txt,sha256=GStjIU9Bp1-rhJCuRQVnpoqIHgCA7U5uRaRsUpi5ggA,6
+grafq-0.0.3.dist-info/RECORD,,
