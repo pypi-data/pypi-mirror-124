@@ -1,0 +1,8 @@
+README.md
+setup.py
+EasyFacesPy/__init__.py
+EasyFacesPy.egg-info/PKG-INFO
+EasyFacesPy.egg-info/SOURCES.txt
+EasyFacesPy.egg-info/dependency_links.txt
+EasyFacesPy.egg-info/requires.txt
+EasyFacesPy.egg-info/top_level.txt
