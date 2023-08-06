@@ -1,0 +1,11 @@
+jupyterhub>=1.4.0
+
+[dev]
+black==21.5b0
+docutils==0.17.1
+flake8==3.9.1
+
+[test]
+pytest==6.2.4
+docker==5.0.0
+six==1.16.0
