@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pygendata
+Version: 1.0.5
+Summary: a package for generating data in different formats (csv, tsv, sql, json, xml)
+Home-page: UNKNOWN
+License: MIT
+Keywords: python,data generation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE.txt
+
+UNKNOWN
+
