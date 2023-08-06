@@ -1,0 +1,10 @@
+pyxid2/__init__.py,sha256=uXgUK2gYcRXqH-vspDW6FIMww1ra6a8wszfsgeiTL1A,1147
+pyxid2/constants.py,sha256=8RicBu8xrZYxvPXta2cBSXqwcxZWhRCjSt08NeA79eY,180
+pyxid2/internal.py,sha256=WQ86xdVDOYRhx0t8QayKnImA6pOZ-bmZMgdv3-2MbAM,11079
+pyxid2/keymaps.py,sha256=1BAEpGAn8r_S-P0ej7DbWywg3Jb-90GxjUUlz9OUwbs,951
+pyxid2/pyxid_impl.py,sha256=29Zcb4sQ9C_t4rSu4JfSl2WMBq7KCGwtYWNZJY2HU70,15014
+pyxid2-1.0.3.dist-info/COPYING,sha256=OElnW70BmXdS2LfeJLZu-b9wYC2g4QUhYxY4hFDXiNc,1509
+pyxid2-1.0.3.dist-info/METADATA,sha256=iZTFAL_NmXvBlduN7gjJZap7vhB_8GMgXw4bpdDnX4s,3442
+pyxid2-1.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyxid2-1.0.3.dist-info/top_level.txt,sha256=Pj3ftTfOM_sdNc-KlsqTc4gfwIMG32MewZ2syNfrGPg,7
+pyxid2-1.0.3.dist-info/RECORD,,
