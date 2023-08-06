@@ -1,0 +1,142 @@
+// goedkeuren
+digraph {
+	open_asign
+	user
+	pw
+	button_submit
+	button_consent
+	button_logout_remove
+	screenshot_reden
+	selecteer_ceremoniewagen
+	geef_informatie
+	volgende_1
+	screenshot_type
+	selecteer_parkeerverbod
+	volgende_2
+	screenshot_wanneer
+	volgende_3
+	vul_straat_in
+	screenshot_locatie
+	wanneer_datum_van
+	wanneer_datum_tot
+	selecteer_straat_drop_down
+	selecteer_nummer_niet_gekend
+	let_op
+	locatie_ok
+	locatie_begin_en_eind_ja
+	screenshot_locatie_overzicht
+	locatie_volgende
+	selecteer_burger
+	persoonlijke_info_voornaam
+	persoonlijke_info_achternaam
+	persoonlijke_info_email
+	persoonlijke_info_tel
+	persoonlijke_info_iban
+	persoonlijke_info_ssn
+	persoonlijke_info_straat
+	persoonlijke_info_huisnummer
+	persoonlijke_info_postnummer
+	persoonlijke_info_stad
+	persoonlijke_info_scroll_beneden
+	betaal_online
+	persoonlijke_info_volgende
+	wanneer_van_remove
+	wanneer_tot_remove
+	wanneer_tot_remove
+	overzicht_scroll_beneden
+	overzicht_volgende
+	screenshot_persoonlijke_info
+	screenshot_overzicht
+	footer_version_remove
+	save_url_overzicht
+	split_url_overzicht
+	url_request
+	open_asign_bo
+	ad_login_digipolis
+	bo_user
+	bo_pw
+	bo_button_submit
+	bo_request_to_approve
+	select_visa
+	select_visa_name
+	select_visa_number
+	select_visa_expire_month
+	select_visa_expire_year
+	select_visa_verification
+	select_visa_bevestig
+	wait_until_status_change
+	scroll_bottom_location_screen
+	aanvraag_straat
+	aanvraag_straat_dropdown
+	aanvraag_nummer
+	bo_aan_mij_toewijzen
+	bo_goedkeuren
+	bo_goedkeuren_ok
+	dummy
+	open_asign -> user
+	user -> pw
+	pw -> button_submit
+	button_submit -> button_consent
+	button_consent -> button_logout_remove
+	button_logout_remove -> footer_version_remove
+	footer_version_remove -> screenshot_reden
+	screenshot_reden -> selecteer_ceremoniewagen
+	selecteer_ceremoniewagen -> geef_informatie
+	geef_informatie -> aanvraag_straat
+	aanvraag_straat -> aanvraag_straat_dropdown
+	aanvraag_straat_dropdown -> aanvraag_nummer
+	aanvraag_nummer -> volgende_1
+	volgende_1 -> screenshot_type
+	screenshot_type -> selecteer_parkeerverbod
+	selecteer_parkeerverbod -> volgende_2
+	volgende_2 -> screenshot_wanneer
+	screenshot_wanneer -> volgende_3
+	volgende_3 -> screenshot_locatie
+	screenshot_locatie -> let_op
+	let_op -> selecteer_nummer_niet_gekend
+	selecteer_nummer_niet_gekend -> scroll_bottom_location_screen
+	scroll_bottom_location_screen -> locatie_ok
+	locatie_ok -> locatie_begin_en_eind_ja
+	locatie_begin_en_eind_ja -> screenshot_locatie_overzicht
+	screenshot_locatie_overzicht -> locatie_volgende
+	locatie_volgende -> selecteer_burger
+	selecteer_burger -> persoonlijke_info_voornaam
+	persoonlijke_info_voornaam -> persoonlijke_info_achternaam
+	persoonlijke_info_achternaam -> persoonlijke_info_email
+	persoonlijke_info_email -> persoonlijke_info_tel
+	persoonlijke_info_tel -> persoonlijke_info_iban
+	persoonlijke_info_iban -> persoonlijke_info_ssn
+	persoonlijke_info_ssn -> persoonlijke_info_straat
+	persoonlijke_info_straat -> persoonlijke_info_huisnummer
+	persoonlijke_info_huisnummer -> persoonlijke_info_postnummer
+	persoonlijke_info_postnummer -> persoonlijke_info_stad
+	persoonlijke_info_stad -> screenshot_persoonlijke_info
+	screenshot_persoonlijke_info -> persoonlijke_info_volgende
+	persoonlijke_info_volgende -> betaal_online
+	betaal_online -> wanneer_van_remove
+	wanneer_van_remove -> wanneer_tot_remove
+	wanneer_tot_remove -> overzicht_scroll_beneden
+	overzicht_scroll_beneden -> screenshot_overzicht
+	screenshot_overzicht -> save_url_overzicht
+	save_url_overzicht -> split_url_overzicht
+	split_url_overzicht -> url_request
+	url_request -> overzicht_volgende
+	overzicht_volgende -> select_visa
+	select_visa -> select_visa_name
+	select_visa_name -> select_visa_number
+	select_visa_number -> select_visa_expire_month
+	select_visa_expire_month -> select_visa_expire_year
+	select_visa_expire_year -> select_visa_verification
+	select_visa_verification -> select_visa_bevestig
+	select_visa_bevestig -> wait_until_status_change
+	wait_until_status_change -> open_asign_bo
+	open_asign_bo -> ad_login_digipolis
+	ad_login_digipolis -> bo_user
+	bo_user -> bo_pw
+	bo_pw -> bo_button_submit
+	bo_button_submit -> bo_request_to_approve
+	bo_request_to_approve -> bo_aan_mij_toewijzen
+	bo_aan_mij_toewijzen -> bo_goedkeuren
+	bo_goedkeuren -> bo_goedkeuren_ok
+	bo_goedkeuren_ok -> dummy
+}
