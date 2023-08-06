@@ -1,0 +1,10 @@
+-r docs.in
+hypothesis
+coverage
+py
+pytest
+pytest-benchmark
+pytest-cov
+pytest-icdiff
+sortedcollections
+sortedcontainers

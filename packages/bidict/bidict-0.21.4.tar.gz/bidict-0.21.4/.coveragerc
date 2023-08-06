@@ -1,0 +1,12 @@
+[run]
+branch = True
+source = bidict
+dynamic_context = test_function
+
+[report]
+precision = 1
+exclude_lines =
+  pragma: no cover
+  def __repr__
+  @.*overload
+  if .*TYPE_CHECKING

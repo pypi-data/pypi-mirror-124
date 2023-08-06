@@ -1,0 +1,28 @@
+# Tip: pip install check-manifest && check-manifest -uv
+
+include .LICENSE_HEADER
+include LICENSE
+include *.py
+include *.rst
+include *.sh
+include *.yaml
+include *.yml
+include .coveragerc
+include .editorconfig
+include .pre-commit-config.yaml
+include .pylintrc
+include mypy.ini
+include pyproject.toml
+include pytest.ini
+include tox.ini
+include docs/_static/custom.css
+include docs/_static/bidict-types-diagram.dot
+include bidict/py.typed
+recursive-include assets *.*
+recursive-include docs/_static *.*
+recursive-include docs *.py
+recursive-include docs *.rst
+recursive-include docs Makefile
+recursive-include requirements *.*
+recursive-include tests *.py
+recursive-include tests *.txt
