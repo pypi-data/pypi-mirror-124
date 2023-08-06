@@ -1,0 +1,10 @@
+amoapi/__init__.py,sha256=dqcShBxV0j2sS76a7zFGcSEYn_QoGdigmsh7oHKNRrg,678
+amoapi/amoapi_basic.py,sha256=8yC3ERK0VIuitUftn2GvD581gj4bbQY8NVm9szrzT6w,7875
+amoapi/exceptions.py,sha256=nuA6hpSziwLrSufPo16C9x2ng9EOkmfcis7TgHtaRiA,1011
+amoapi/filters.py,sha256=R5pKR13P-x8_Ck7hpX4KzeQ6GiyOo-DdPum-lLBVcIY,996
+amoapi/interaction.py,sha256=1ZUkjtsuH0kmBm5YE8eJr0QIKRIXRpG9ki-YdMRGWw4,4979
+amoapi/tokens.py,sha256=yN4fLyo-foBq2BqP8C4mvkzg27aEKooPOt62T9Twu9c,5843
+amoapi-0.0.3.dist-info/METADATA,sha256=4npKLhzoObtppUxu9PZp2FfmHoWG1Lv0LVLgyAo9UEs,666
+amoapi-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+amoapi-0.0.3.dist-info/top_level.txt,sha256=85YNfR3kyYYdJZp4ZwIDCj4eGc0Mzb7VGodsQx3bZIM,7
+amoapi-0.0.3.dist-info/RECORD,,
