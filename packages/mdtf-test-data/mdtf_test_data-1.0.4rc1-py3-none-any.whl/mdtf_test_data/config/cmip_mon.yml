@@ -1,0 +1,230 @@
+variables :
+  name :
+    - "areacello"
+    - "zos"
+    - "tauuo"
+    - "tauvo"
+    - "so"
+    - "thetao"
+
+areacello :
+  atts :
+    cell_methods : "area: sum"
+    comment : "TAREA"
+    coordinates : "lat lon"
+    description : "Cell areas for any grid used to report ocean variables and variables which are requested as used on the model ocean grid (e.g. hfsso, which is a downward heat flux from the atmosphere interpolated onto the ocean grid). These cell areas should be defined to enable exact calculation of global integrals (e.g., of vertical fluxes of energy at the surface and top of the atmosphere)."
+    frequency : "fx"
+    id : "areacello"
+    long_name : "Grid-Cell Area for Ocean Variables"
+    mipTable : "Ofx"
+    missing_value : 1.e+20
+    out_name : "areacello"
+    prov : "Ofx ((isd.003))"
+    realm : "ocean"
+    standard_name : "cell_area"
+    time_label : "None"
+    time_title : "No temporal dimensions ... fixed field"
+    title : "Grid-Cell Area for Ocean Variables"
+    type : "real"
+    units : "m2"
+    variable_id : "areacello"
+  grid : "tripolar"
+  static : true
+
+zos :
+  atts :
+    cell_measures : 'area: areacello'
+    cell_methods : 'area: mean where sea time: mean'
+    comment : 'SSH'
+    coordinates : "lat lon"
+    description : 'This is the dynamic sea level, so should have zero global area mean. It should not include inverse barometer depressions from sea ice.'
+    frequency : 'mon'
+    id : 'zos'
+    long_name : 'Sea Surface Height Above Geoid'
+    mipTable : 'Omon'
+    out_name : 'zos'
+    prov : 'Omon ((isd.003))'
+    realm : 'ocean'
+    standard_name : 'sea_surface_height_above_geoid'
+    time : 'time'
+    time_label : 'time-mean'
+    time_title : 'Temporal mean'
+    title : 'Sea Surface Height Above Geoid'
+    type : 'real'
+    units : 'm'
+    variable_id : 'zos'
+  grid : "tripolar"
+  stats :
+    - [-0.09352626651525497, 0.7232627272605896]
+
+tauuo :
+  atts :
+    cell_measures : '--OPT'
+    cell_methods : 'time: mean'
+    comment : 'TAUX'
+    coordinates : "lat lon"
+    description : 'This is the stress on the liquid ocean from overlying atmosphere, sea ice, ice shelf, etc.'
+    frequency : 'mon'
+    id : 'tauuo'
+    long_name : 'Surface Downward X Stress'
+    mipTable : 'Omon'
+    out_name : 'tauuo'
+    positive : 'down'
+    prov : 'Omon ((isd.003))'
+    realm : 'ocean'
+    standard_name : 'surface_downward_x_stress'
+    time : 'time'
+    time_label : 'time-mean'
+    time_title : 'Temporal mean'
+    title : 'Surface Downward X Stress'
+    type : 'real'
+    units : 'N m-2'
+    variable_id : 'tauuo'
+  grid : "tripolar"
+  stats :
+    - [0.001569337327964604, 0.07642165571451187]
+
+tauvo :
+  atts :
+    cell_measures : '--OPT'
+    cell_methods : 'time: mean'
+    comment : 'TAUY'
+    coordinates : "lat lon"
+    description : 'This is the stress on the liquid ocean from overlying atmosphere, sea ice, ice shelf, etc.'
+    frequency : 'mon'
+    id : 'tauuo'
+    long_name : 'Surface Downward Y Stress'
+    mipTable : 'Omon'
+    out_name : 'tauvo'
+    positive : 'down'
+    prov : 'Omon ((isd.003))'
+    realm : 'ocean'
+    standard_name : 'surface_downward_y_stress'
+    time : 'time'
+    time_label : 'time-mean'
+    time_title : 'Temporal mean'
+    title : 'Surface Downward Y Stress'
+    type : 'real'
+    units : 'N m-2'
+    variable_id : 'tauuo'
+  grid : "tripolar"
+  stats :
+    - [0.0020488635636866093, 0.04154461994767189]
+
+so :
+  atts :
+    cell_measures : '--OPT'
+    cell_methods : 'time: mean'
+    coordinates : "lat lon"
+    description : 'sea water salinity'
+    frequency : 'mon'
+    id : 'so'
+    long_name : 'sea water salinity'
+    out_name : 'so'
+    positive : 'down'
+    realm : 'ocean'
+    standard_name : 'sea_water_salinity'
+    time : 'time'
+    time_label : 'time-mean'
+    time_title : 'Temporal mean'
+    title : 'Sea Water Salinity'
+    type : 'real'
+    units : 'psu'
+    variable_id : 'so'
+  grid : "tripolar"
+  stats :
+    - [ 37.091705, 37.169098 ]
+    - [ 37.090427, 37.16815 ]
+    - [ 37.086548, 37.163586 ]
+    - [ 37.054672, 37.13838 ]
+    - [ 36.948807, 37.03889 ]
+    - [ 36.872665, 36.96365 ]
+    - [ 36.825863, 36.92407 ]
+    - [ 36.793346, 36.899162 ]
+    - [ 36.767387, 36.878147 ]
+    - [ 36.744244, 36.85687 ]
+    - [ 36.721256, 36.8339 ]
+    - [ 36.698128, 36.80898 ]
+    - [ 36.673008, 36.782074 ]
+    - [ 36.644700, 36.753128 ]
+    - [ 36.61258,  36.72212 ]
+    - [ 36.576668, 36.689003 ]
+    - [ 36.537296, 36.65366 ]
+    - [ 36.495052, 36.615482 ]
+    - [ 36.45111, 36.574173 ]
+    - [ 36.406807, 36.529804 ]
+    - [ 36.36356, 36.483067 ]
+    - [ 36.322468, 36.43506 ]
+    - [ 36.28378, 36.387257 ]
+    - [ 36.247128, 36.340984 ]
+    - [ 36.21161, 36.297478 ]
+    - [ 36.176785, 36.257397 ]
+    - [ 36.14187, 36.22075 ]
+    - [ 36.106518, 36.186737 ]
+    - [ 36.07005, 36.154045 ]
+    - [ 36.03362, 36.121113 ]
+    - [ 36.000076, 36.087433 ]
+    - [ 35.974377, 36.05332 ]
+    - [ 35.96569, 36.020916 ]
+    - [ 35.982994, 35.994526 ]
+    - [ 36.03397, 35.97875 ]
+
+thetao:
+  atts:
+    cell_measures: '--OPT'
+    cell_methods: 'time: mean'
+    coordinates: "lat lon"
+    description: 'sea water potential temperature'
+    frequency: 'mon'
+    id: 'thetao'
+    long_name: 'sea water potential temperature'
+    out_name: 'thetao'
+    positive: 'down'
+    realm: 'ocean'
+    standard_name: 'sea_water_potential_temperature'
+    time: 'time'
+    time_label: 'time-mean'
+    time_title: 'Temporal mean'
+    title: 'Sea Water Potential Temperature'
+    type: 'real'
+    units: 'degC'
+    variable_id: 'thetao'
+  grid: "tripolar"
+  stats:
+    - [ 23.438206, 23.501827 ]
+    - [ 23.393858, 23.457973 ]
+    - [ 23.332743, 23.399124 ]
+    - [ 23.145956, 23.248714 ]
+    - [ 22.192282, 22.395288 ]
+    - [ 21.162468, 21.3618 ]
+    - [ 20.480297, 20.662258 ]
+    - [ 20.052425, 20.224604 ]
+    - [ 19.769545, 19.938387 ]
+    - [ 19.559475, 19.728683 ]
+    - [ 19.38311, 19.554249 ]
+    - [ 19.219982, 19.393152 ]
+    - [ 19.060669, 19.235872 ]
+    - [ 18.89744, 19.073635 ]
+    - [ 18.726213, 18.900887 ]
+    - [ 18.545187, 18.714998 ]
+    - [ 18.352053, 18.513506 ]
+    - [ 18.143354, 18.293566 ]
+    - [ 17.917408, 18.054794 ]
+    - [ 17.674921, 17.799715 ]
+    - [ 17.41897, 17.532667 ]
+    - [ 17.154121, 17.25874 ]
+    - [ 16.885664, 16.982744 ]
+    - [ 16.61834, 16.708748 ]
+    - [ 16.356245, 16.439966 ]
+    - [ 16.10178, 16.178211 ]
+    - [ 15.854486, 15.922733 ]
+    - [ 15.610342, 15.66957 ]
+    - [ 15.362126, 15.412205 ]
+    - [ 15.101099, 15.14296 ]
+    - [ 14.81898, 14.854497 ]
+    - [ 14.509788, 14.541605 ]
+    - [ 14.171214, 14.202383 ]
+    - [ 13.806399, 13.840008 ]
+    - [ 13.422476, 13.461085 ]
+
+
