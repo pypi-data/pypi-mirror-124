@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+Hanzi.egg-info/PKG-INFO
+Hanzi.egg-info/SOURCES.txt
+Hanzi.egg-info/dependency_links.txt
+Hanzi.egg-info/top_level.txt
+hanzi/__init__.py
+hanzi/core.py
+hanzi/data/data.json
