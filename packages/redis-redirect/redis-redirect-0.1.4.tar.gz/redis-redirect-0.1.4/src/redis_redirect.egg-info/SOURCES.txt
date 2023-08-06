@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/redis_redirect.egg-info/PKG-INFO
+src/redis_redirect.egg-info/SOURCES.txt
+src/redis_redirect.egg-info/dependency_links.txt
+src/redis_redirect.egg-info/requires.txt
+src/redis_redirect.egg-info/top_level.txt
