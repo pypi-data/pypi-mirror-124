@@ -1,0 +1,59 @@
+# Source Hub Paste CLI - paste.sr.ht
+
+This simple script utilizes the new GraphQL API to offer the ability to upload files directly from the command line!
+
+## Usage
+
+First you have to login to the service. To do this simply run `shpaste login` it will give you directions on how to login:
+```bash
+$ shpaste login
+Please navigate to: https://meta.sr.ht/oauth2/personal-token to generate a personal auth token
+Grant string: "paste.sr.ht/PROFILE paste.sr.ht/PASTES:RW"
+: YOUR_TOKEN_HERE
+```
+
+Then you can start sending some files! Run `cat my_file.txt | shpaste` and you will receive the link:
+```bash
+$ cat test.txt | shpaste
+https://paste.sr.ht/~joshmulliken/6c5494f6984bf515ee92f1a534d9d866f02de73d
+```
+
+## Installation
+
+Installation is really simple! Just run `pip3 install shpaste`.
+
+## Additional Docs
+
+### Using the main CLI:
+
+```bash
+$ shpaste --help
+usage: shpaste [-h] [-f FILENAME] [-v VISIBILITY] {login} ...
+
+paste.sr.ht command line utility
+
+positional arguments:
+  {login}
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FILENAME, --filename FILENAME
+                        Optional filename
+  -v VISIBILITY, --visibility VISIBILITY
+                        PUBLIC, PRIVATE, or UNLISTED
+```
+
+### Logging in:
+
+```bash
+$ shpaste login --help
+usage: shpaste login [-h] [-t TOKEN]
+
+Login to paste.sr.ht with your personal access token
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -t TOKEN, --token TOKEN
+                        personal access token from https://meta.sr.ht/oauth2
+```
+

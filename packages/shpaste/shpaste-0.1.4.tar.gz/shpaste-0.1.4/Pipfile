@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+appdirs = "~=1.4"
+requests = "*"
+
+[dev-packages]
+twine = "*"
+
+[requires]
+python_version = "3.9"
