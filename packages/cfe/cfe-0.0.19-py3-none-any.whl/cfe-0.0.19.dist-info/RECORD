@@ -1,0 +1,11 @@
+cfe/__init__.py,sha256=AixLlU6Em9Z_zs4l1lTxAHg1b8pa8z3BTNKIHDkjBmo,23
+cfe/_nbdev.py,sha256=nlF63JpLoXS5whSllkgFA73jjH2BId-C2sO_O1AcKEk,478
+cfe/cli.py,sha256=qYrbSd8jW36UqI3unLkj_lgw422sW-VZ6UMgSDZzVLA,401
+cfe/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cfe/services/linode.py,sha256=a3qG2H_oogZgJMbx33xDg2OwFG_E-dx_IijhnQvmPm4,3710
+cfe-0.0.19.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cfe-0.0.19.dist-info/METADATA,sha256=cRVy3AfOoODlteFh9KCI5GG_clgmo-xuwFe7Xc1tJt8,1884
+cfe-0.0.19.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cfe-0.0.19.dist-info/entry_points.txt,sha256=FUWFMTChRalf27fOn3snk54ZLh1eJPzvNqAxiy9y-AA,41
+cfe-0.0.19.dist-info/top_level.txt,sha256=etC2dNVXYICGmvCQqDBiRYt8P7vL4qCSwlCv1rmCqGs,4
+cfe-0.0.19.dist-info/RECORD,,

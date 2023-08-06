@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: cfe
+Version: 0.0.19
+Summary: Coding for Entrepreneurs Command Line Interface
+Home-page: https://github.com/jmitchel3/cfe/tree/main/
+Author: Justin Mitchel
+Author-email: hello@teamcfe.com
+License: Apache Software License 2.0
+Keywords: cfe,dev tools
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pip
+Requires-Dist: packaging
+Requires-Dist: fire (<0.5.0,>=0.4.0)
+Requires-Dist: linode-api4 (<6.0.0,>=5.2.0)
+Provides-Extra: dev
+
+# CFE CLI
+A command line tool for various CFE-related tutorials and services.
+
+> Do you have ideas for features? Please tweet us [@joincfe](https://twitter.com/joincfe)
+
+## Install
+
+`pip install cfe`
+
+
+## Services (`cfe services`)
+
+```
+cfe services
+```
+This will give you all of the available services.
+
+
+### Linode (`cfe services linode`)
+
+
+#### Instance Inventory  `cfe services linode inventory`
+
+This is primarily made for usage with Ansible but it can be useful for many other things too.
+
+``
+export LINODE_ACCESS_TOKEN=your_linode_personal_access_token
+``
+> `LINODE_ACCESS_TOKEN` needs to be in environment variables
+
+```
+cfe services linode inventory --save-path "inventory.ini" --tags "webapps"
+```
+or
+
+```
+LINODE_ACCESS_TOKEN=your_linode_personal_access_token cfe services linode inventory
+```
+
+Options:
+
+- `--all` Lists all Linode instance IP addresses and groups items by tags
+- `--save-path` write a path to save a `inventory.ini` file
+- `--tags` Use a comma separated list of tags you want to include (`--all` will override)
+
+
