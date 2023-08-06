@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/kronecker/__init__.py
+src/kronecker/api.py
+src/kronecker/core.py
+src/kronecker/primitives.py
+src/kronecker.egg-info/PKG-INFO
+src/kronecker.egg-info/SOURCES.txt
+src/kronecker.egg-info/dependency_links.txt
+src/kronecker.egg-info/requires.txt
+src/kronecker.egg-info/top_level.txt
+src/kronecker/backends/__init__.py
+src/kronecker/backends/base.py
+src/kronecker/backends/numpy.py
+src/kronecker/backends/scipy_sparse.py
