@@ -1,0 +1,8 @@
+mediax/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mediax/main.py,sha256=o-RIEiKXlY1YlL0HwskMSZyP0_7ZjaTEIPkcbGlky4Q,254
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=Dp_7iF6EHJVafbKCIrdc6NbOIvuGmY_0iQ6PU0Myqv0,424
+mediax-0.0.1.dist-info/METADATA,sha256=Yp9vHFZe4MSqlTVQVeIUuGwmMdaas96q8Dx63l-ffrc,894
+mediax-0.0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+mediax-0.0.1.dist-info/top_level.txt,sha256=HoBaSYKHmMr9Vx5Qnpaf0izelnrwNC3ACUPCMno0lyA,13
+mediax-0.0.1.dist-info/RECORD,,
