@@ -1,0 +1,7 @@
+README.md
+setup.py
+AERzip.egg-info/PKG-INFO
+AERzip.egg-info/SOURCES.txt
+AERzip.egg-info/dependency_links.txt
+AERzip.egg-info/requires.txt
+AERzip.egg-info/top_level.txt
