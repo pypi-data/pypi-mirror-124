@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+SapGui/SapGuiFramework.egg-info/PKG-INFO
+SapGui/SapGuiFramework.egg-info/SOURCES.txt
+SapGui/SapGuiFramework.egg-info/dependency_links.txt
+SapGui/SapGuiFramework.egg-info/requires.txt
+SapGui/SapGuiFramework.egg-info/top_level.txt
