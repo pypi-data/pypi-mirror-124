@@ -1,0 +1,10 @@
+aws_cdk/aws_kinesisfirehose_alpha/__init__.py,sha256=CN4kZ45sxlDpUgxNl0A25lwQ31pR0h0ZXWNGFjuTvrk,120952
+aws_cdk/aws_kinesisfirehose_alpha/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_kinesisfirehose_alpha/_jsii/__init__.py,sha256=zxa68YAZJKg4Wot-7T_xA3b-bG4ZPEEFhUaNDWEdbFs,421
+aws_cdk/aws_kinesisfirehose_alpha/_jsii/aws-kinesisfirehose-alpha@2.0.0-alpha.1.jsii.tgz,sha256=Dr9T-eTVVJdbFqspXDnUZ09DHaSVfzests3utozpAUI,299833
+aws_cdk.aws_kinesisfirehose_alpha-2.0.0a1.dist-info/LICENSE,sha256=PPdRlpoLCV1CRrCV1eKpp3m0lNjchFAP4a9zfc8tRLo,11391
+aws_cdk.aws_kinesisfirehose_alpha-2.0.0a1.dist-info/METADATA,sha256=6G23oi6MtUlEPEILK7wM20h3B3rHjtzU5L7Ia3xqAT0,29914
+aws_cdk.aws_kinesisfirehose_alpha-2.0.0a1.dist-info/NOTICE,sha256=xo56krus2e5ShfXqz_B7vuvGcMn_D0F7TjjpfTz8YMw,113
+aws_cdk.aws_kinesisfirehose_alpha-2.0.0a1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_cdk.aws_kinesisfirehose_alpha-2.0.0a1.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_kinesisfirehose_alpha-2.0.0a1.dist-info/RECORD,,
