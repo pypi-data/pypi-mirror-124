@@ -1,0 +1,69 @@
+Metadata-Version: 1.1
+Name: plib3.ui
+Version: 0.11
+Summary: A simple Python 3 UI framework.
+Home-page: http://pypi.org/project/plib3.ui
+Author: Peter A. Donis
+Author-email: peterdonis@alum.mit.edu
+License: UNKNOWN
+Description: The PLIB3.UI package contains a simple framework for
+        writing user interfaces in Python. The aim is to provide
+        two main features:
+        
+        - It lets the same high-level code work with a number of
+          different underlying user interface toolkits, by
+          providing higher-level abstractions of UI functions.
+        
+        - It allows you to express the layout of your UI declaratively
+          using Python lists and dicts, and to focus on the code
+          specific to your application with a minimum of boilerplate.
+        
+        This package is intended as a replacement for the old ``plib.gui``
+        package, providing substantially the same underlying GUI support
+        but with a simpler and easier to use interface.
+        
+        The ``setup.py`` script for PLIB3.UI uses the ``setuputils``
+        helper module, which helps to automate away much of the
+        boilerplate in Python setup scripts. This module is available
+        as a separate release at https://pypi.python.org/pypi/setuputils3.
+        
+        Installation
+        ------------
+        
+        To install PLIB3.UI, you can simply run::
+        
+            $ python setup.py install
+        
+        at a shell prompt from the directory into which you
+        unzipped the source tarball (the same directory that this
+        README file is in). This will install PLIB3 and then
+        run each of the post-install scripts in the scripts
+        directory.
+        
+        Example Programs
+        ----------------
+        
+        PLIB3.UI comes with example programs that illustrate key features
+        of the package. After installation, these can be found in the
+        ``$PREFIX/share/plib/examples`` directory. If you have a
+        POSIX system (Linux or Mac OSX), the ``plib-setup-examples``
+        post-install script will install symlinks to the example
+        programs in the ``$PREFIX/bin`` directory.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Environment :: X11 Applications :: KDE
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
