@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: pyrangelist
+Version: 0.1.2
+Summary: Implementation of the RangeList datastructure in python. 
+Home-page: UNKNOWN
+Author: Sergiy Popovych
+Author-email: sergiy.popovich@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: intervaltree
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: astroid ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+[![Build Status](https://app.travis-ci.com/supersergiy/pyrangelist.svg?token=Vbe962LdVGQA2xznpx5U&branch=main)](https://app.travis-ci.com/supersergiy/pyrangelist)
+# pyrangelist 
+
+Hello Jerry
+
+This is my work for the take home interview. 
+I'm not a JS guy. But if Jerry wants to take data science seriously, I will help you build the best infrastructure for it.
+
+The package has 100% test coverage and has 10/10 pylint score, and it is stress-tested with 100k random add/remove operations.
+
+
+## Intstallation
+```
+pip install pyrangelist
+```
+
+## Developer guide
+
+### Intall
+```
+python setup.py develop
+```
+
+As customary, pinned requirements are in the `requirements.txt`.
+
+### Test
+```
+python -m pytest
+```
+
+
+ 
+## About
+This version uses [intervaltree](https://github.com/chaimleib/intervaltree) library under the hood.
+A more efficient implementation would be a modified B-tree structure that would keep ranges as values,
+as well as keep the minimum and maximum value of the subtree for each edge. This would allow deletion 
+and addition to be `O(long(n) + m)`, where `n` is the number of ranges currently stored and `m` is the
+number of ranges that the new range overlaps with. However, from the task description it didn't seem
+like you guys were looking for maximum efficiency, so I focused my efforts elsewhere. The current implementation
+is sub-optimal: `O(long(n) * m)`
+
+
+
