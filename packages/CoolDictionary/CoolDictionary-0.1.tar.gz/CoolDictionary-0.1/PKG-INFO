@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: CoolDictionary
+Version: 0.1
+Summary: First pip package so just testing things
+Home-page: https://github.com/Max-Hitchings/CoolDictionary
+Author: Max Hitchings
+Author-email: max.hitchings@gmail.com
+License: MIT
+Download-URL: https://github.com/Max-Hitchings/CoolDictionary/archive/v0.1-alpha.tar.gz
+Description: UNKNOWN
+Keywords: CoolDictionary,Dictionary,Cool
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
