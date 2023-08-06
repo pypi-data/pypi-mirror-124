@@ -1,0 +1,7 @@
+setup.py
+hello_lib/__init__.py
+hello_lib/hello.py
+test_python_lib.egg-info/PKG-INFO
+test_python_lib.egg-info/SOURCES.txt
+test_python_lib.egg-info/dependency_links.txt
+test_python_lib.egg-info/top_level.txt
