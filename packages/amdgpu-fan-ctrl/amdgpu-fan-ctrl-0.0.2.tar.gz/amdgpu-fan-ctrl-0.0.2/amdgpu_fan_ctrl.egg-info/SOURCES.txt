@@ -1,0 +1,7 @@
+README.md
+setup.py
+./amdgpu_fan_ctrl.py
+amdgpu_fan_ctrl.egg-info/PKG-INFO
+amdgpu_fan_ctrl.egg-info/SOURCES.txt
+amdgpu_fan_ctrl.egg-info/dependency_links.txt
+amdgpu_fan_ctrl.egg-info/top_level.txt
