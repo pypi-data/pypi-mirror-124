@@ -1,0 +1,3 @@
+include README.md
+include requirements*
+include docs/*.txt
