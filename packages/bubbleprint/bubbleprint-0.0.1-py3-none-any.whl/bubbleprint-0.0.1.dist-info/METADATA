@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: bubbleprint
+Version: 0.0.1
+Summary: Give your print statements personality
+Home-page: UNKNOWN
+Author: Brian K. Blaylock
+Author-email: blaylockbk@gmail.com
+License: MIT
+Project-URL: Source Code, https://github.com/blaylockbk/BubblePrint
+Keywords: python,print
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# 💬 Bubble Print
+
+Give your print statements personality. Print dialoge in speach bubbles.
+
+```python
+from bubbleprint import bprint
+
+bprint("Hello World!")
+bprint('I have a whale of a tale for you.', messenger="🐳", color="blue", width=15, align='center')
+bprint("Here is a website:\nhttps://docs.python.org/3/library/textwrap.html", width=None)
+```
+
+![](https://github.com/blaylockbk/BubblePrint/blob/main/images/bprint_demo.png?raw=true)
+
+
