@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pygamehelper/__init__.py
+pygamehelper/pygamehelper.py
+pygamehelper.egg-info/PKG-INFO
+pygamehelper.egg-info/SOURCES.txt
+pygamehelper.egg-info/dependency_links.txt
+pygamehelper.egg-info/requires.txt
+pygamehelper.egg-info/top_level.txt

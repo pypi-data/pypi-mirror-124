@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: pygamehelper
+Version: 0.0.1
+Summary: Helps you to scale,rotate and display text on the pygame window 
+Home-page: UNKNOWN
+Author: Asher Thomas Abraham
+Author-email: achutomonline@gmail.com
+License: UNKNOWN
+Description: 
+        # pygamehelper
+        Developed by Asher Thomas Abraham
+        
+        # Uses of pygame helper
+        ```
+        helps you to show text on the pygame window easily.
+        helps you to scale images on the pygame window easily
+        helps you to rotate images in the pygame window easily
+        ```
+        # how to scale images with pygame helper
+        ```python
+        #example
+        YOUR_IMAGE_NAME = scale_image(pygame.image.load("YOUR_IMAGE_PATH"), TYPE_THE_NUMBER_HERE_TO_SCALE)
+        ```
+        # how to rotate images with pygame helper
+        ```python
+        #example
+        blit_rotate_center(win, self.img, (self.x, self.y), self.angle)
+        ```
+        # how to show text with pygame helper
+        ```python
+        #example
+        blit_text_center(WIN, MAIN_FONT, "THE_TEXT")
+        ```
+        # Credits
+        ```
+        Developed by Asher Thomas
+        Special thanks to Tim Ruscica
+        ```
+        
+Keywords: python,text,rotate,pygame,scale
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
