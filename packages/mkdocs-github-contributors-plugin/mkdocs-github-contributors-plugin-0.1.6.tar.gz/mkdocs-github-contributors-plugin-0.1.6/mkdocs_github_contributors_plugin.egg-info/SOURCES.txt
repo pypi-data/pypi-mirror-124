@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mkdocs_github_contributors_plugin/__init__.py
+mkdocs_github_contributors_plugin/plugin.py
+mkdocs_github_contributors_plugin.egg-info/PKG-INFO
+mkdocs_github_contributors_plugin.egg-info/SOURCES.txt
+mkdocs_github_contributors_plugin.egg-info/dependency_links.txt
+mkdocs_github_contributors_plugin.egg-info/entry_points.txt
+mkdocs_github_contributors_plugin.egg-info/top_level.txt
