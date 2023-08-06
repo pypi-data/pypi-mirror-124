@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/ellipsize/__init__.py
+src/ellipsize/ellipsize.py
+src/ellipsize/version.py
+src/ellipsize.egg-info/PKG-INFO
+src/ellipsize.egg-info/SOURCES.txt
+src/ellipsize.egg-info/dependency_links.txt
+src/ellipsize.egg-info/requires.txt
+src/ellipsize.egg-info/top_level.txt
