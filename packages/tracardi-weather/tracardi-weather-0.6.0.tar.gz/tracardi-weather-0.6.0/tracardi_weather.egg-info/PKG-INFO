@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: tracardi-weather
+Version: 0.6.0
+Summary: This plugin connects to weather server and retrieve weather data in given city.
+Home-page: UNKNOWN
+Author: Risto Kowaczewski
+Author-email: risto.kowaczewski@gmail.com
+License: UNKNOWN
+Keywords: tracardi,plugin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Weather plugin
+
+This plugin connects to weather server and retrieves weather information.
+
+# Configuration
+
+First you need to configure what type of temperature you need. Either in Celsius (C) of Fahrenheit (F)
+
+Example of configuration.
+
+```json
+{
+  "system": "C",
+  "city": "profile@traits.public.city"
+}
+```
+
+City can ba a path to data or a plain text.
+
+```json
+{
+  "city": "Paris"
+}
+```
+
+# Input
+
+Input payload is not processed by this plugin.
+
+# Output
+
+*Example*
+
+```json
+{
+  "temperature": 4,
+  "humidity": 87,
+  "wind_speed": 15,
+  "description": "Sunny"
+}
+```
+

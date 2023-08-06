@@ -1,0 +1,2 @@
+recursive-include tracardi_weather/service *
+recursive-include tracardi_weather/model *
