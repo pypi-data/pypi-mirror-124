@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: flink-sql-gateway-client
+Version: 1.0.3
+Summary: Flink SQL Rest API
+Home-page: https://gitlab.com/belvederetrading/public/flink_sql_python_client
+Author: Belvedere Trading
+Author-email: big_data_team@belvederellc.onmicrosoft.com
+License: UNKNOWN
+Keywords: BelvedereTrading,OpenAPI-Generator,Flink SQL Rest API
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE
+
+    Flink SQL Rest API Client. For more information, reference the documentation at https://gitlab.com/belvederetrading/public/flink_sql_python_client  # noqa: E501
+    
+
