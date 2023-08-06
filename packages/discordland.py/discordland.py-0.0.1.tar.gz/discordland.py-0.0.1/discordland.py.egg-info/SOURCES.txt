@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+discordland/__init__.py
+discordland/client.py
+discordland/errors.py
+discordland/results.py
+discordland.py.egg-info/PKG-INFO
+discordland.py.egg-info/SOURCES.txt
+discordland.py.egg-info/dependency_links.txt
+discordland.py.egg-info/requires.txt
+discordland.py.egg-info/top_level.txt
