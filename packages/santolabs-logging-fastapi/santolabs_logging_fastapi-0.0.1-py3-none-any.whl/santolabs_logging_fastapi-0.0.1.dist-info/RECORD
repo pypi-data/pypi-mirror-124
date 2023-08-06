@@ -1,0 +1,10 @@
+santolabs/logging/fastapi/__init__.py,sha256=8IT6Y7aAIETYObX4e6YzqwmFdJ8nj5wyipE1xY-XO14,178
+santolabs/logging/fastapi/logging.py,sha256=DosRM9Cbch9uTUYaS2nsurdMjRo5tzmqT2TGRdbtpik,5482
+santolabs/logging/fastapi/package.py,sha256=Cw5Tfix0Qk9SsIr4OgHWovfi7TjQ2eUmykW8-QFFVJE,793
+santolabs/logging/fastapi/version.py,sha256=bKoS1mXz9E4LhKtjefZXv7clB79IKaCsyyJO_IwBe0U,602
+santolabs_logging_fastapi-0.0.1.dist-info/LICENSE,sha256=N4vXVykw0iRbDOEA4wPmYo-tpsh_akDdzn6zOWGvVF0,585
+santolabs_logging_fastapi-0.0.1.dist-info/METADATA,sha256=tVzXwDqRl5HWdGwhQFDoWgz1_Fwb4dEE3EG0kaPgWVw,1507
+santolabs_logging_fastapi-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+santolabs_logging_fastapi-0.0.1.dist-info/entry_points.txt,sha256=irpZfWrSGIW0Brh1AcIZr0IFVveb0BOBzvsoXyrLR_o,72
+santolabs_logging_fastapi-0.0.1.dist-info/top_level.txt,sha256=SCba51DELkIQJTuysCnBn0H-Fz_GOJ3ZCVbn71mpTzg,10
+santolabs_logging_fastapi-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: santolabs-logging-fastapi
+Version: 0.0.1
+Summary: Logging Wrapper for fastapi with Cloud Logging
+Home-page: UNKNOWN
+Author: SantoLabs
+Author-email: santolabs@santodigital.com.br
+License: Apache-2.0
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: google-cloud-logging (<2,>=2.3.1)
+Provides-Extra: framework
+Requires-Dist: starlette (<1.0.0,>=0.14.2) ; extra == 'framework'
+Requires-Dist: starlette-context (<1.0.0,>=0.3.3) ; extra == 'framework'
+Requires-Dist: google-cloud-logging (<3,>=2.3.1) ; extra == 'framework'
+Requires-Dist: google-auth (<2.0.0,>=1.32.0) ; extra == 'framework'
+Provides-Extra: test
+Requires-Dist: starlette (<1.0.0,>=0.14.2) ; extra == 'test'
+Requires-Dist: starlette-context (<1.0.0,>=0.3.3) ; extra == 'test'
+Requires-Dist: google-cloud-logging (<3,>=2.3.1) ; extra == 'test'
+Requires-Dist: google-auth (<2.0.0,>=1.32.0) ; extra == 'test'
+
+Wrapper para trabalhar com a API do Cloud Logging
+=================================================
+
+Teste
+
+
