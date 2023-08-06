@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: SM15K
+Version: 0.0.3
+Summary: Delta Elektronika SM15K Controller
+Home-page: https://github.com/keklikyusuf
+Author: Yusuf Keklik
+Author-email: keklikyusuf@gmail.com
+License: MIT
+Download-URL: https://github.com/keklikyusuf/DeltaElektronika/archive/refs/tags/v0.0.3-alpha.tar.gz
+Description: UNKNOWN
+Keywords: Delta Elektronika,Power Supply,SM15K,Socket,Threding
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
