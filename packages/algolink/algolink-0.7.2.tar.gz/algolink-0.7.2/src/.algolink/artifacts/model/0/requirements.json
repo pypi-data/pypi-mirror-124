@@ -1,0 +1,1 @@
+{"requirements": [{"module": "numpy", "version": "1.19.5", "type": "installable"}, {"module": "pandas", "version": "1.1.5", "type": "installable"}]}
