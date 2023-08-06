@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cooleiot
+Version: 0.0.2
+Summary: CoolEIoT Python Library
+Home-page: https://github.com/jokerwho/cooleiot-python
+Author: ZaiGie
+Author-email: jokerwho@yeah.net
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.22.0)
+Requires-Dist: urllib3 (>=1.25.3)
+Requires-Dist: paho-mqtt (>=1.6.1)
+
+# cooleiot-python
+ 閰锋槗鐗╄仈Python3SDK
+
+
