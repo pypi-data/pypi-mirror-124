@@ -1,0 +1,3 @@
+[console_scripts]
+flex-plot-run=flex_plot.cli.run:main
+
