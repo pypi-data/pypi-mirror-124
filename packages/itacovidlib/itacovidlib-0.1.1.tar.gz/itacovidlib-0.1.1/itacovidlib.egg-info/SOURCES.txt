@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+itacovidlib/__init__.py
+itacovidlib/backend.py
+itacovidlib/exceptions.py
+itacovidlib/functions.py
+itacovidlib.egg-info/PKG-INFO
+itacovidlib.egg-info/SOURCES.txt
+itacovidlib.egg-info/dependency_links.txt
+itacovidlib.egg-info/requires.txt
+itacovidlib.egg-info/top_level.txt
+tests/__init__.py
+tests/test_icl_functions.py
+tests/test_no_internet.py
