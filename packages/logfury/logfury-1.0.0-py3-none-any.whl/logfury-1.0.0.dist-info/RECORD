@@ -1,0 +1,12 @@
+logfury/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logfury/_logfury/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logfury/_logfury/meta.py,sha256=NOdDyMZEeEQF_-Yv855NNgpVXL-6KR3cGsrMzcjt5tQ,5325
+logfury/_logfury/trace_call.py,sha256=6juYKjSSI1iFXLY3BQn44UaSnjtvtyV565h40fB7ndI,2933
+logfury/_logfury/tuning.py,sha256=iDieyfSLK6dARcSUofEmb-xfi-kMoFQa-6KlKANHg4E,847
+logfury/v0_1/__init__.py,sha256=cd6PN8ltzWUArSj7uiArjJ1qkx7Wd4wDhScQOkrWxyo,19
+logfury/v1/__init__.py,sha256=2wyAPRk0F5LWTV38K-Ed70URHMEda6-5E6auuVXsyYE,348
+logfury-1.0.0.dist-info/LICENSE,sha256=50cqulyO55KnISTBHJNzyyv33wFNePEYKK7G0JyV5Ls,1502
+logfury-1.0.0.dist-info/METADATA,sha256=_IuNSe4KqF8x_TdoPOgO3X0HAbGImYNFY3U5AYJ6U8U,5946
+logfury-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+logfury-1.0.0.dist-info/top_level.txt,sha256=wdnSySK5NBD6Yc673GiJ_lQfNaBxzWYm4zM1D30PUtg,8
+logfury-1.0.0.dist-info/RECORD,,
