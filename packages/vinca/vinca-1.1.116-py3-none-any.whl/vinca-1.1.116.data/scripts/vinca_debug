@@ -1,0 +1,2 @@
+#!/bin/fish
+python3 -m fire vinca $argv -- --interactive
