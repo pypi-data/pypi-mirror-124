@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ebrahimcla
+Version: 0.0.1
+Summary: calculater
+Home-page: UNKNOWN
+Author: ُEbrahim Mokhtar
+Author-email: ebrahim00244@gmail.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.TXT
+
+very baisc calculater
+
+Change Log
+===========
+
+0.0.1 (24/10/2021)
+-------------------
+- First Release
+
