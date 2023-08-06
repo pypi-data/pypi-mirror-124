@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: yami
+Version: 0.2.3
+Summary: A command handler that complements Hikari, a Discord API wrapper written in Python.
+Home-page: https://github.com/Jonxslays/Yami
+License: GPL-3.0-only
+Author: Jonxslays
+Author-email: jon@jonxslays.com
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: aiohttp (>=3.7.4.post0)
+Requires-Dist: hikari (>=2.0.0.dev103)
+Project-URL: Repository, https://github.com/Jonxslays/Yami
+Description-Content-Type: text/markdown
+
+## Yami
+---
+[![CI](https://img.shields.io/github/workflow/status/Jonxslays/Yami/CI?label=Build&logo=github)](https://github.com/Jonxslays/Yami/actions/workflows/continuous-integration.yml)
+[![Python](https://img.shields.io/pypi/pyversions/yami?label=Python&logo=python)](https://github.com/Jonxslays/Yami/blob/master/LICENSE)
+[![License](https://img.shields.io/pypi/l/yami?label=License)](https://github.com/Jonxslays/Yami/blob/master/LICENSE)
+
+[![Latest Commit](https://img.shields.io/github/last-commit/jonxslays/yami?label=Latest%20Commit&logo=git)](https://github.com/Jonxslays/Yami)
+[![Maintained](https://img.shields.io/maintenance/yes/2021?label=Maintained)](https://github.com/Jonxslays/Yami)
+[![Latest Release](https://img.shields.io/pypi/v/yami?label=Latest%20Release&logo=pypi)](https://pypi.org/project/yami)
+
+Still in early development. Not ready for use.
+
