@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dragoncurses
+Version: 0.1.1
+Summary: Console-based UI toolkit building on top of curses.
+Home-page: https://github.com/DragonMinded/dragoncurses
+Author: DragonMinded
+Author-email: dragonminded@dragonminded.com
+License: Public Domain
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: windows-curses ; platform_system == "Windows"
+
+# DragonCurses
+
+A simple UI wrapper library around curses for python3. Supports mouse click events, keyboard input, rendering abstractions and automatic resizing events. Includes a few batteries-included components that allow you to build a simple UI.
+
+
