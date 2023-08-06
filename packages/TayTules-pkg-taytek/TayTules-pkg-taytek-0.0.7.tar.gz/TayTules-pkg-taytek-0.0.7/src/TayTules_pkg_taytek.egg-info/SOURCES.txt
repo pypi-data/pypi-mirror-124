@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/TayTools/__init__.py
+src/TayTools/stayt_up.py
+src/TayTools/tools.py
+src/TayTules_pkg_taytek.egg-info/PKG-INFO
+src/TayTules_pkg_taytek.egg-info/SOURCES.txt
+src/TayTules_pkg_taytek.egg-info/dependency_links.txt
+src/TayTules_pkg_taytek.egg-info/top_level.txt
