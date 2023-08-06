@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: manylinux1-unsupported
+Version: 0.0.0
+Summary: Refuse to be installed
+Home-page: https://github.com/lordmauve/manylinux1-unsupported
+Author: Daniel Pope
+Author-email: mauve@mauveweb.co.uk
+License: MIT
+Description:
+    This package cannot be installed. It is intended to be referenced by
+    deliberate "bad" manylinux1 wheels.
+
+    Packages can create and upload these in order to indicate to users of
+    outdated pip versions that they are not receiving binary packages because
+    their pip version is out of date.
+
+    For many packages this is more desirable than attempting to download and
+    build the sdist, which will either fail, or succeed but lack features.
