@@ -1,0 +1,14 @@
+PiicoDev_BME280.py,sha256=FPvxkOKE3V5U1sYz9CqUcZR-2uDe1WuBVZpElPvUzJA,5086
+PiicoDev_CAP1203.py,sha256=LpK8FED_3Ih0W1pYI1Gec91yOiObssCgaUaKxoh7mYU,5286
+PiicoDev_MPU6050.py,sha256=E2D45DAl2J2Bemz5MPZp4EvW7fyPPannjZ9Oqy5MKeQ,7248
+PiicoDev_MS5637.py,sha256=WRC25k7qd8EAlNqh0RRvLf4VDCa8Qnc5nCjCBUQeFco,7612
+PiicoDev_TMP117.py,sha256=VWUk97AGvQRfPcHcTG_UGpvp9y0R8tk06Sd97WK-OXk,1417
+PiicoDev_Unified.py,sha256=sUPpcgexfVdHuSoOyXWxtIpjMqT2QkxvYI8LijKCXc0,5273
+PiicoDev_VEML6030.py,sha256=o-YjRrjU0WN67KMCmFLyxt77wxDr9F5Gp6LVYbUJdkc,2631
+PiicoDev_VEML6040.py,sha256=OmznmGD0wSZeA8aWBKlVQ-XuWvDukT-ClRzxD4_DC5g,4466
+PiicoDev_VL53L1X.py,sha256=f0PmB5vQI6MNPESCgaOmX0VRVOatLE4gKn8tAAle_M0,6891
+piicodev-0.0.13.dist-info/LICENSE.md,sha256=jbi0YpzhccSOqCLnzxdx_ustz42_u-HbfQfFTUE2n80,2958
+piicodev-0.0.13.dist-info/METADATA,sha256=eBkVeoancvVnt4GYpzoFwKrhNPjHGx3t_V9fD4NZ3to,1139
+piicodev-0.0.13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+piicodev-0.0.13.dist-info/top_level.txt,sha256=u07Iuh3pK3VpdYyPpGQRwh3CsVcpgq3owdRaMfrB1W0,152
+piicodev-0.0.13.dist-info/RECORD,,
