@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: python-banqup-uc-api
+Version: 0.1.1
+Summary: Wrapper for the BanqUP (UnifiedPost) Universal Connector API - v3
+Home-page: https://github.com/alexanderlhsglobal/python-banqup-uc-api
+Author: Alexander Schillemans
+Author-email: alexander.schillemans@lhs.global
+License: GPL-3.0-or-later
+Download-URL: https://github.com/alexanderlhsglobal/python-banqup-uc-api/archive/refs/tags/0.1.1.tar.gz
+Description: # python-banqup-uc-api
+        Wrapper for the BanqUP (UnifiedPost) Universal Connector API - v3
+Keywords: bill-to-box,universal connectorapi,banqup,unifiedpost,bill to box
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
