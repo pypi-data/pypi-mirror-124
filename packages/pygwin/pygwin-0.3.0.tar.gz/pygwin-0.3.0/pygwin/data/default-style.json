@@ -1,0 +1,182 @@
+{
+    "Node:status=selected": {
+        "background": "color",
+        "background-color": [70, 130, 180],
+        "corner": 8
+    },
+    "Node:status=disabled": {
+        "color": [100, 100, 100]
+    },
+    "Node:parentclass=Button": {
+        "expand": true,
+        "halign": "center",
+        "valign": "center"
+    },
+    "Node:parentclass=Table": {
+        "valign": "center"
+    },
+    "Window": {
+        "padding": 10,
+        "border": "color",
+        "border-width": 4,
+        "background": "color",
+        "corner": 12,
+        "border-color": [0, 30, 60],
+        "background-color": [0, 2, 30],
+        "window-cross-image": "window-cross.png"
+    },
+    "Frame": {
+        "padding": 10,
+        "border": "color",
+        "border-width": 4,
+        "corner": 12,
+        "border-color": [0, 30, 60],
+        "frame-bar-color": [0, 60, 120, 150],
+        "frame-bar-background-color": [0, 30, 60, 150],
+        "frame-bar-width": 12,
+        "frame-bar-corner": 3
+    },
+    "Button": {
+        "corner": 4,
+        "background": "color",
+        "border": "color",
+        "border-width": 4,
+        "size": [200, 50],
+        "border-color": [0, 60, 120],
+        "background-color": [30, 100, 140]
+    },
+    "Button:status=overed": {
+        "background-color": [0, 0, 128]
+    },
+    "Button:status=clicked": {
+        "background-color": [0, 50, 100]
+    },
+    "Button:status=focus": {
+        "background-color": [0, 150, 255]
+    },
+    "Button:status=disabled": {
+        "border-color": [100, 100, 100],
+        "background-color": [50, 50, 50]
+    },
+    "InputText": {
+        "padding": 4,
+        "border": "color",
+        "border-width": 4,
+        "border-color": [0, 30, 60],
+        "size": [200, null],
+        "corner": 6
+    },
+    "InputText:status=focus": {
+        "color": [0, 120, 240],
+        "border-color": [0, 120, 240]
+    },
+    "InputText:status=overed": {
+        "color": [70, 130, 180],
+        "border-color": [70, 130, 180]
+    },
+    "InputText:status=disabled": {
+        "border-color": [100, 100, 100]
+    },
+    "Checkbox": {
+        "padding": 2,
+        "border": "color",
+        "border-width": 4,
+        "border-color": [0, 30, 60],
+        "color": [0, 30, 60],
+        "size": [24, 24],
+        "corner": 4
+    },
+    "Checkbox:status=disabled": {
+        "border-color": [100, 100, 100],
+        "color": [100, 100, 100]
+    },
+    "Checkbox:status=focus": {
+        "border-color": [0, 120, 240],
+        "color": [0, 120, 240]
+    },
+    "Checkbox:status=focus,value=True": {
+        "border-color": [0, 120, 240],
+        "color": [0, 120, 240]
+    },
+    "Checkbox:status=overed": {
+        "color": [70, 130, 180],
+        "border-color": [70, 130, 180]
+    },
+    "Gauge": {
+        "corner": 8,
+        "border": "color",
+        "border-width": 3,
+        "size": [200, 30],
+        "background": "color",
+        "color": [0, 100, 0],
+        "background-color": [200, 50, 50],
+        "border-color": [255, 255, 255],
+        "gauge-label-format": "{value} / {max}",
+        "gauge-label-class": "gauge_label"
+    },
+    "gauge_label": {
+        "font-size": "small",
+        "halign": "center",
+        "valign": "center"
+    },
+    "Rule": {
+        "color": [0, 30, 60]
+    },
+    "HorizontalRule": {
+        "halign": "center",
+        "size": ["100%", 4]
+    },
+    "VerticalRule": {
+        "valign": "center",
+        "size": [4, "100%"]
+    },
+    "Select": {
+        "orientation": "horizontal"
+    },
+    "IntSelect": {
+        "select-next-label": "+",
+        "select-prev-label": "-"
+    },
+    "ItemSelect": {
+        "select-next-label": "&gt;&gt;",
+        "select-prev-label": "&lt;&lt;"
+    },
+    "Range": {
+        "range-label-distance": 8,
+        "range-label-class": "range_label",
+        "range-label-format": "{value}",
+        "range-bullet-color": [0, 80, 160],
+        "range-bullet-radius": 8,
+        "range-bar-size": [300, 4],
+        "range-bar-color": [0, 30, 60],
+        "range-bar-corner": 4,
+        "range-step": 1
+    },
+    "Range:status=focus": {
+        "range-bullet-color": [0, 120, 240],
+        "range-bar-color": [0, 60, 120]
+    },
+    "Range:status=overed": {
+        "range-bullet-color": [70, 130, 180],
+        "range-bar-color": [0, 40, 80]
+    },
+    "Range:status=disabled": {
+        "range-bullet-color": [100, 100, 100],
+        "range-bar-color": [100, 100, 100]
+    },
+    "range_label": {
+        "font-size": "small"
+    },
+    "link:class=Label": {
+        "color": [70, 130, 180]
+    },
+    "link:class=Label,status=focus": {
+        "color": [0, 120, 240]
+    },
+    "link:class=Label,status=overed": {
+        "color": [120, 180, 230]
+    },
+    "window_title": {
+        "font-size": "x-large"
+    }
+}

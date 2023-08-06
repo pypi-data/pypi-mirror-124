@@ -1,0 +1,185 @@
+{
+    "frame": {
+        "padding": 10,
+        "border": "image",
+        "frame-vbar-images": [
+            "frame-vbar-background-top.png",
+            "frame-vbar-background-middle.png",
+            "frame-vbar-background-bottom.png",
+            "frame-vbar-top.png",
+            "frame-vbar-middle.png",
+            "frame-vbar-bottom.png"
+        ],
+        "border-images": [
+            "window-border-top-left.png",
+            "window-border-top-right.png",
+            "window-border-bottom-right.png",
+            "window-border-bottom-left.png",
+            "window-border-horizontal.png",
+            "window-border-vertical.png"
+        ]
+    },
+    "window": {
+        "padding": 10,
+        "border": "image",
+        "border-images": [
+            "window-border-top-left.png",
+            "window-border-top-right.png",
+            "window-border-bottom-right.png",
+            "window-border-bottom-left.png",
+            "window-border-horizontal.png",
+            "window-border-vertical.png"
+        ],
+        "background": "color",
+        "background-color": [10, 10, 0],
+        "corner": 0,
+        "window-cross-image": "user-window-cross.png"
+    },
+    "int_select": {   
+        "select-next-class": "int_select_next",
+        "select-next-label": null,
+        "select-prev-class": "int_select_prev",
+        "select-prev-label": null
+    },
+    "int_select_prev": {
+        "background": "image",
+        "background-image": "int-select-prev-base.png"
+    },
+    "int_select_prev:status=overed": {
+        "background-image": "int-select-prev-overed.png"
+    },
+    "int_select_prev:status=disabled": {
+        "background-image": "int-select-prev-disabled.png"
+    },
+    "int_select_next": {
+        "background": "image",
+        "background-image": "int-select-next-base.png"
+    },
+    "int_select_next:status=overed": {
+        "background-image": "int-select-next-overed.png"
+    },
+    "int_select_next:status=disabled": {
+        "background-image": "int-select-next-disabled.png"
+    },
+    "item_select": {   
+        "select-next-class": "item_select_next",
+        "select-next-label": null,
+        "select-prev-class": "item_select_prev",
+        "select-prev-label": null
+    },
+    "item_select_prev": {
+        "background": "image",
+        "background-image": "item-select-prev-base.png"
+    },
+    "item_select_prev:status=overed": {
+        "background-image": "item-select-prev-overed.png"
+    },
+    "item_select_prev:status=disabled": {
+        "background-image": "item-select-prev-disabled.png"
+    },
+    "item_select_next": {
+        "background": "image",
+        "background-image": "item-select-next-base.png"
+    },
+    "item_select_next:status=overed": {
+        "background-image": "item-select-next-overed.png"
+    },
+    "item_select_next:status=disabled": {
+        "background-image": "item-select-next-disabled.png"
+    },
+    "input_text": {
+        "border": null,
+        "background": "image",
+        "padding": [10, 0],
+        "background-image": "input-text.png"
+    },
+    "input_text:status=overed": {
+        "color": [100, 100, 0]
+    },
+    "input_text:status=focus": {
+        "color": [233, 233, 0]
+    },
+    "img_button": {
+        "border": null,
+        "padding": 0,
+        "background": "image",
+        "background-image": "button-base.png"
+    },
+    "img_button:status=overed": {
+        "background-image": "button-overed.png"
+    },
+    "img_button:status=clicked": {
+        "background-image": "button-overed.png"
+    },
+    "img_button:status=disabled": {
+        "background-image": "button-overed.png"
+    },
+    "checkbox:value=True": {
+        "border": null,
+        "padding": 0,
+        "background": "image",
+        "background-image": "checkbox-true-base.png"
+    },
+    "checkbox:value=False": {
+        "border": null,
+        "padding": 0,
+        "background": "image",
+        "background-image": "checkbox-false-base.png"
+    },
+    "checkbox:status=disabled,value=True": {
+        "background-image": "checkbox-true-disabled.png"
+    },
+    "checkbox:status=disabled,value=False": {
+        "background-image": "checkbox-false-disabled.png"
+    },
+    "checkbox:status=focus,value=True": {
+        "background-image": "checkbox-true-overed.png"
+    },
+    "checkbox:status=focus,value=False": {
+        "background-image": "checkbox-false-overed.png"
+    },
+    "checkbox:status=overed,value=True": {
+        "background-image": "checkbox-true-overed.png"
+    },
+    "checkbox:status=overed,value=False": {
+        "background-image": "checkbox-false-overed.png"
+    },
+    "radiobox:value=True": {
+        "border": null,
+        "padding": 0,
+        "background": "image",
+        "background-image": "radiobox-true-base.png"
+    },
+    "radiobox:value=False": {
+        "border": null,
+        "padding": 0,
+        "background": "image",
+        "background-image": "radiobox-false-base.png"
+    },
+    "radiobox:status=disabled,value=True": {
+        "background-image": "radiobox-true-disabled.png"
+    },
+    "radiobox:status=disabled,value=False": {
+        "background-image": "radiobox-false-disabled.png"
+    },
+    "radiobox:status=focus,value=True": {
+        "background-image": "radiobox-true-overed.png"
+    },
+    "radiobox:status=focus,value=False": {
+        "background-image": "radiobox-false-overed.png"
+    },
+    "radiobox:status=overed,value=True": {
+        "background-image": "radiobox-true-overed.png"
+    },
+    "radiobox:status=overed,value=False": {
+        "background-image": "radiobox-false-overed.png"
+    },
+    "HorizontalRule": {
+        "size": ["100%", null],
+        "rule-images": [
+            "hrule-left.png",
+            "hrule-middle.png",
+            "hrule-right.png"
+        ]
+    }
+}
