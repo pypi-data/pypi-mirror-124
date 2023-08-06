@@ -1,0 +1,3 @@
+[console_scripts]
+pytbd = pytbd.__main__:cli
+

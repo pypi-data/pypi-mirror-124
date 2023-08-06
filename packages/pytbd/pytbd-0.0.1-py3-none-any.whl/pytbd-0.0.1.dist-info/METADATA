@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pytbd
+Version: 0.0.1
+Summary: Swiss army knife for Apple's .tbd file manipulation
+Home-page: https://github.com/doronz88/pytbd
+Author: DoronZ
+License: UNKNOWN
+Project-URL: pytbd, https://github.com/doronz88/pytbd
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: pyyaml
+Requires-Dist: pygments
+Requires-Dist: coloredlogs
+
+# Description
+
+Inspired by [tbdswizzler](https://gist.github.com/steventroughtonsmith/9e8ecbd0ab89e7d24ce873a464c5dc83), this simple
+python tool for manipulating Apple's `.tbd` format.
+
+# Installation
+
+```shell
+python3 -m pip install --user -U pytbd
+```
+
+# Usage
+
+```
+Usage: pytbd [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  append-arch  appench given arch to all .tbd files
+  find-symbol  locate .tbd files where the given symbol is exported from
+  json         output given tbd file as json
+```
+
+
