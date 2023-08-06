@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/x25519/__init__.py
+src/x25519/djbec.py
+src/x25519.egg-info/PKG-INFO
+src/x25519.egg-info/SOURCES.txt
+src/x25519.egg-info/dependency_links.txt
+src/x25519.egg-info/top_level.txt
