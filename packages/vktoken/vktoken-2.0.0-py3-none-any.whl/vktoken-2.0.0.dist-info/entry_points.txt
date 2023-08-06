@@ -1,0 +1,3 @@
+[console_scripts]
+vktoken=vktoken.__main__:main
+
