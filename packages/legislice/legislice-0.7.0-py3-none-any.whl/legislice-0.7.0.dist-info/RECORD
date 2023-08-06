@@ -1,0 +1,17 @@
+legislice/__init__.py,sha256=aArGQfa20Y9xMrTPEXbLCTboZL6XpIH_vj8TP4qMyqY,419
+legislice/citations.py,sha256=KMwfEC9MI5_6oxAHdjuEVpOa8cmLOPgq4m7973dzLfs,4043
+legislice/download.py,sha256=zmpHl38OkEIuu4r695YCvdwOi_iFx8QQfF9TkTYqAcc,14976
+legislice/enactments.py,sha256=uFouJ2uVoeTn8gmdz2nd_Rc0YSN0qM5aTf3xYGhW1x0,32801
+legislice/groups.py,sha256=NZXmaxyqTMWyX6QkwcsKTo89XQbpcSOZfgh-zmJY60M,4160
+legislice/types.py,sha256=AlxLl1Zr8__6_khH6-ycO1ovMcCtHtbqAiW_kxkrTow,2769
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=bepZM1ofJDg1UxaAys_boGDurrXv1NDLpb7N8FowcIw,29890
+tests/test_citations.py,sha256=fz7QrTqzNBYgZbeOfylR38-MNhfGoMnBltLPDfa1UWY,3243
+tests/test_download.py,sha256=p1XDWaqIpua2iqYyzf0ebUCKLCbXn4J-lx6UamWRbcM,14608
+tests/test_enactments.py,sha256=lD9h5DKyh0K6Ur0MSxHxBh_51-wSrB5BCunbmgQFiPU,46650
+tests/test_groups.py,sha256=TvuYD1Zt6xQuOpRwK9zbMnmw61veTOysOYd3vEwhmzQ,6718
+tests/test_load_json.py,sha256=96hp7u7_O9M3aOTABAiTjWOTBQujMa4EDCs_wVgm_oc,7221
+legislice-0.7.0.dist-info/METADATA,sha256=FVf0w2-eaZQZ_EfEuB-5r7liN5_DEC58s_CEPeJ7KK8,1726
+legislice-0.7.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+legislice-0.7.0.dist-info/top_level.txt,sha256=bTAekD0yfklKPOVpjtyk4B1LZHEg8XcBVWxQpxMIBow,16
+legislice-0.7.0.dist-info/RECORD,,
