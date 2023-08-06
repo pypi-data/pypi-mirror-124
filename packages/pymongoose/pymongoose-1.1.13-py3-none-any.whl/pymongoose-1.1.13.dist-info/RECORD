@@ -1,0 +1,10 @@
+pymongoose/__init__.py,sha256=zAUszB1nPthxsPqEWEn3ISXbjt8kgVsXbK8NT1nsa2A,113
+pymongoose/logger.py,sha256=DU6kP9MH-6Hcdk7GtRSvwiDcf350-E4xugFcGtJhcss,717
+pymongoose/methods.py,sha256=acFxgFgTDoGyWN0uwF7b2ToNjnMygYbVadf_ZHYs1jk,14249
+pymongoose/mongo_types.py,sha256=An3VGLq99DMJwBE2YZ5bBshOZGar95itiuRnl04rxVo,15684
+pymongoose/version.py,sha256=wzIA1LlVnj_A7XPjkbOtQVcuIPV4U2BlyHhc57gWBfA,253
+pymongoose-1.1.13.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pymongoose-1.1.13.dist-info/METADATA,sha256=NzFq80sbFlLGwxVdFX3DLbdhuzuhht7w9P-E_xk-Azc,6734
+pymongoose-1.1.13.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pymongoose-1.1.13.dist-info/top_level.txt,sha256=zotUINwQjGIhEYq3H6c-fb-ylSRC2IBSdCeoISExzYk,11
+pymongoose-1.1.13.dist-info/RECORD,,
