@@ -1,0 +1,603 @@
+# Japanese translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: eintritt@hotmail.com\n"
+"POT-Creation-Date: 2021-06-11 07:56+0200\n"
+"PO-Revision-Date: 2021-03-17 06:54+0000\n"
+"Last-Translator: Naoko Tsukuda <mxi01460@nifty.com>\n"
+"Language: ja\n"
+"Language-Team: Japanese <http://weblate.taler.net/projects/gnu-taler"
+"/demonstration-pages/ja/>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: talermerchantdemos/blog/blog.py:126 talermerchantdemos/landing/landing.py:93
+msgid "Internal error"
+msgstr "内部エラー"
+
+#: talermerchantdemos/blog/blog.py:186
+msgid "Cannot refund unpaid article"
+msgstr "未払いの記事の返金はできません"
+
+#: talermerchantdemos/blog/blog.py:193
+#, fuzzy
+msgid "Article is not anymore refundable"
+msgstr "記事はもはや払い戻し可能ではありません"
+
+#: talermerchantdemos/blog/blog.py:229
+msgid "You did not pay for this article (nice try!)"
+msgstr "この記事のためにお金を払っていない (頑張った)"
+
+#: talermerchantdemos/blog/blog.py:234
+msgid "Item not refundable (anymore)"
+msgstr "払い戻し不可の商品(これ以上)"
+
+#: talermerchantdemos/blog/blog.py:260
+#, fuzzy
+msgid "Internal error: Files for article ({}) not found."
+msgstr "内部エラー: アーティクル ({}) のファイルが見つかりません。"
+
+#: talermerchantdemos/blog/blog.py:267
+msgid "Supplemental file ({}) for article ({}) not found."
+msgstr "記事 ({}) の補足ファイル ({}) が見つかりません。"
+
+#: talermerchantdemos/blog/blog.py:345 talermerchantdemos/blog/blog.py:359
+msgid "Direct access forbidden"
+msgstr "直接アクセスは禁止されています"
+
+#: talermerchantdemos/blog/blog.py:411
+msgid "Internal server error"
+msgstr "サーバー 内部エラー"
+
+#: talermerchantdemos/blog/blog.py:419
+#: talermerchantdemos/donations/donations.py:284
+#: talermerchantdemos/landing/landing.py:166
+#: talermerchantdemos/survey/survey.py:162
+msgid "Page not found"
+msgstr "ページが見つかりません！"
+
+#: talermerchantdemos/donations/donations.py:125
+msgid "parameter '{}' required"
+msgstr "パラメータ「{}」が必要"
+
+#: talermerchantdemos/donations/donations.py:242
+msgid "Backend could not create the order"
+msgstr ""
+
+#: talermerchantdemos/httpcommon/__init__.py:40
+#: talermerchantdemos/httpcommon/__init__.py:80
+msgid "Could not establish connection to backend"
+msgstr "backendへのコネクションを確立することができませんでした"
+
+#: talermerchantdemos/httpcommon/__init__.py:46
+#: talermerchantdemos/httpcommon/__init__.py:85
+msgid "Could not parse response from backend"
+msgstr "backendからの応答を解析することができませんでした"
+
+#: talermerchantdemos/httpcommon/__init__.py:51
+#: talermerchantdemos/httpcommon/__init__.py:88
+msgid "Backend returned error status"
+msgstr "Backend は、エラー・ステータスを返してきました"
+
+#: talermerchantdemos/landing/landing.py:174
+#: talermerchantdemos/survey/survey.py:170
+msgid "HTTP method not allowed for this page"
+msgstr "HTTP方式は、このページでは許可されていません"
+
+#: talermerchantdemos/templates/blog-article-frame.html.j2:11
+#: talermerchantdemos/templates/blog-article-frame.html.j2:16
+#, fuzzy
+msgid "Taler allows merchants to offer refunds to customers."
+msgstr "タラーは、商人が顧客に払い戻しを提供することを可能にします。"
+
+#: talermerchantdemos/templates/blog-article-frame.html.j2:12
+#, fuzzy
+msgid ""
+"You can <a href=\"{url}\">request a refund</a> within the first hour "
+"after buying this article."
+msgstr "この記事を購入してから最初の1時間以内に<a href=\"{url}\">払い戻し</a>をリクエストできます。"
+
+#: talermerchantdemos/templates/blog-article-frame.html.j2:17
+#, fuzzy
+msgid "This article can't be refunded anymore."
+msgstr "払い戻し不可の商品(これ以上)"
+
+#: talermerchantdemos/templates/blog-base.html.j2:9
+msgid "Essay shop"
+msgstr "エッセイショップ"
+
+#: talermerchantdemos/templates/blog-base.html.j2:11
+msgid "On this page you can buy articles using an imaginary currency."
+msgstr "このページでは、架空の通貨を使用して記事を購入できます。"
+
+#: talermerchantdemos/templates/blog-base.html.j2:12
+msgid ""
+"The articles are chapters from Richard Stallman's book &quot;Free "
+"Software, Free Society&quot;."
+msgstr "この記事は、リチャード・ストールマンの&quot;Free Software, Free Society&quot;という本の各章からの引用です。"
+
+#: talermerchantdemos/templates/blog-base.html.j2:13
+msgid ""
+"The book is <a href=\"{shop}\">published by the FSF</a> and available "
+"gratis at <a href=\"{gnu}\">gnu.org</a>."
+msgstr ""
+"この本は<a href=\"{shop}\">FSFによって発行されており</a><a "
+"href=\"{gnu}\">、gnu.orgで</a>無料で入手できます。"
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:3
+msgid "Confirm refund request for article"
+msgstr "記事の払い戻しリクエストを確認する"
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:7
+msgid "Do you want to get a refund for the article <em>{name}</em>?"
+msgstr "<em>記事{name}の</em>払い戻しを希望しますか？"
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:8
+msgid ""
+"In this demonstration, refunds will be automatically approved by the "
+"merchant."
+msgstr "このデモンストレーションでは、払い戻しは販売者によって自動的に承認されます。"
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:9
+msgid ""
+"After you have obtained a refund, you will not be able to read the "
+"article anymore."
+msgstr "払い戻しを受け取った後は、記事を読むことができなくなります。"
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:15
+msgid ""
+"You will only be able to receive the refund on the same wallet that you "
+"have used to pay for this article originally."
+msgstr "払い戻しは、この記事の最初の支払いに使用したのと同じウォレットでのみ受け取ることができます。"
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:21
+msgid "Request refund"
+msgstr "払い戻しをリクエストする"
+
+#: talermerchantdemos/templates/blog-error.html.j2:3
+#: talermerchantdemos/templates/donations-error.html.j2:3
+#: talermerchantdemos/templates/landing-error.html.j2:3
+#: talermerchantdemos/templates/survey-error.html.j2:3
+msgid "Error encountered"
+msgstr "エラーが発生しました"
+
+#: talermerchantdemos/templates/blog-error.html.j2:9
+#: talermerchantdemos/templates/donations-error.html.j2:9
+#: talermerchantdemos/templates/survey-error.html.j2:9
+msgid "The backend returned status code {code}."
+msgstr "バックエンドがステータスコード{code}を返しました。"
+
+#: talermerchantdemos/templates/blog-error.html.j2:14
+#: talermerchantdemos/templates/donations-error.html.j2:14
+#: talermerchantdemos/templates/survey-error.html.j2:14
+msgid "Backend response:"
+msgstr "バックエンドの応答："
+
+#: talermerchantdemos/templates/blog-error.html.j2:19
+#: talermerchantdemos/templates/donations-error.html.j2:19
+#: talermerchantdemos/templates/landing-error.html.j2:8
+#: talermerchantdemos/templates/survey-error.html.j2:19
+msgid "Stack trace:"
+msgstr "スタックトレース："
+
+#: talermerchantdemos/templates/blog-index.html.j2:3
+msgid "Essay Shop: Free Software, Free Society"
+msgstr "エッセイショップ：自由ソフトウェア、自由社会"
+
+#: talermerchantdemos/templates/blog-index.html.j2:5
+msgid ""
+"This is the latest edition of <cite>Free Software, Free Society: Selected"
+" Essays of Richard M. Stallman.</cite>"
+msgstr "これは、フリーソフトウェア、フリーソサエティの最新版です<cite>：リチャードMの選択されたエッセイ</cite>"
+
+#: talermerchantdemos/templates/blog-index.html.j2:13
+msgid ""
+"Verbatim copying and distribution of this entire book are permitted "
+"worldwide, without royalty, in any medium, provided this notice is "
+"preserved. Permission is granted to copy and distribute translations of "
+"this book from the original English into another language provided the "
+"translation has been approved by the Free Software Foundation and the "
+"copyright notice and this permission notice are preserved on all copies."
+msgstr "この通知が保存されていることを条件に、この本全体のコピーと配布は、どのような媒体でも、ロイヤリティーなしで、世界中で許可されています。翻訳がフリーソフトウェア財団によって承認され、著作権表示とこの許可表示がすべてのコピーに保存されていることを条件に、原文の英語から他の言語への本書の翻訳をコピーして配布することが許可されています。"
+
+#: talermerchantdemos/templates/blog-index.html.j2:18
+msgid "Chapters"
+msgstr "チャプター"
+
+#: talermerchantdemos/templates/blog-index.html.j2:20
+msgid "Click on an individual chapter to to purchase it with GNU Taler."
+msgstr "個々の章をクリックして、GNUTalerで購入してください。"
+
+#: talermerchantdemos/templates/blog-index.html.j2:21
+#, fuzzy
+msgid ""
+"You can get free, virtual money to buy articles on this page at the <a "
+"href=\"{}\")\">bank</a>."
+msgstr "<a href=\"{}\")\">あなたは銀行</a>でこのページの記事を購入するために無料の仮想通貨を得ることができます"
+
+#: talermerchantdemos/templates/blog-index.html.j2:28
+msgid "Pay to read more..."
+msgstr "続きを読むために支払う..."
+
+#: talermerchantdemos/templates/blog-index.html.j2:31
+msgid "No articles available in this language."
+msgstr "この言語で利用できる記事はありません。"
+
+#: talermerchantdemos/templates/common-base.html.j2:20
+#, fuzzy
+msgid "GNU Taler Demo"
+msgstr "ターラーデモ"
+
+#: talermerchantdemos/templates/common-base.html.j2:44
+#: talermerchantdemos/templates/landing-base.html.j2:5
+msgid "Introduction"
+msgstr "序章"
+
+#: talermerchantdemos/templates/common-base.html.j2:47
+msgid "Bank"
+msgstr "銀行"
+
+#: talermerchantdemos/templates/common-base.html.j2:50
+msgid "Essay Shop"
+msgstr "エッセイショップ"
+
+#: talermerchantdemos/templates/common-base.html.j2:53
+#: talermerchantdemos/templates/donations-base.html.j2:6
+msgid "Donations"
+msgstr "寄付"
+
+#: talermerchantdemos/templates/common-base.html.j2:56
+msgid "Tipping/Survey"
+msgstr "チップ/調査"
+
+#: talermerchantdemos/templates/common-base.html.j2:85
+msgid ""
+"You can learn more about GNU Taler on our main <a "
+"href=\"{site}\">website</a>."
+msgstr "GNU Talerの詳細については、メインの<a href=\"{site}\">Webサイトをご覧ください</a>。"
+
+#: talermerchantdemos/templates/donations-base.html.j2:8
+msgid "This is the donation page."
+msgstr "こちらは寄付ページです。"
+
+#: talermerchantdemos/templates/donations-base.html.j2:9
+msgid ""
+"Using this page you can make donations in {currency} to Free Software "
+"projects."
+msgstr "このページを使用すると、{currency}でフリーソフトウェアプロジェクトに寄付を行うことができます。"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:5
+msgid "Select your payment method"
+msgstr "お支払い方法を選択してください"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:9
+msgid "This is an example for a \"checkout\" page of a Web shop."
+msgstr "これは、Webショップの「チェックアウト」ページの例です。"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:10
+msgid ""
+"On the previous page, you have created the shopping cart and decided "
+"which product to buy (i.e. which project to donate KUDOS to)."
+msgstr "前のページでは、ショッピングカートを作成し、どの商品を購入するか（つまり、どのプロジェクトにKUDOSを寄付するか）を決定しました。"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:11
+msgid ""
+"As Taler is not yet universally used, we expect merchants will offer "
+"various payment options."
+msgstr "Talerはまだ、広く使われている状態ではないため、我々は、売買業者が様々な支払オプションを提供するだろうと考えている。"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:12
+msgid "To continue with the demo, select the &quot;Taler&quot; payment option."
+msgstr "デモ版を継続するには、 &quot;Taler&quot; 支払オプションを選んでください。"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:17
+msgid ""
+"Note that you must select Taler here for the demo to continue, as the "
+"other payment options are just placeholders and not really working in the"
+" demonstration."
+msgstr "デモ版を継続するには、ここでTalerを選ばなければなりません。ほかの支払オプションは単なるプレースホルダーで、デモ版において何らかの機能をもつわけではないからです。"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:18
+msgid ""
+"It would be possible to ask the user to make this choice already on the "
+"previous page (with the shopping cart); we just separated the two steps "
+"to keep each step as simple as possible."
+msgstr "（ショッピングカートのある）前のページに既にある選択を、ユーザーに求めることはできます。各ステップができるだけ単純となるように、ふたつのステップを別々にしました。"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:44
+msgid "Confirm selection"
+msgstr "選択を確認してください"
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:4
+msgid "Donation Receipt"
+msgstr "寄付の領収書"
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:7
+msgid ""
+"Thank you, <strong>{donor}</strong>, for donating "
+"<strong>{amount}</strong> to <strong>{receiver}</strong>."
+msgstr "<strong>{donor}</strong>様、<strong>{receiver}</strong>に対し<strong>{amount}</strong>を寄付して頂き、ありがとうございました。"
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:12
+msgid ""
+"Please keep the order identifier <strong>{id}</strong> as a receipt for "
+"your donation."
+msgstr "寄付の領収書として、注文ID<strong>{id}</strong>を保存しておいてください。"
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:13
+msgid ""
+"You can show other people that you donated by sharing <a "
+"href=\"{link}\">this link</a> with them."
+msgstr "あなたが寄付したことは、 <a href=\"{link}\">このリンク先</a>を共有することで、他の人に知らせることができます。"
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:19
+msgid "You can always make <a href=\"{link}\">another donation</a>."
+msgstr "いつでも、<a href=\"{link}\">もう一度寄付する</a>ことができます。"
+
+#: talermerchantdemos/templates/donations-index.html.j2:4
+msgid "Donate to Free Software projects"
+msgstr "自由ソフトウェアプロジェクトに寄付しましょう"
+
+#: talermerchantdemos/templates/donations-index.html.j2:8
+msgid ""
+"This donations website shows the user experience for donations with GNU "
+"Taler."
+msgstr "この寄付ウェブサイトは、GNU Talerへの寄付におけるユーザー・エクスペリエンスを示しています。"
+
+#: talermerchantdemos/templates/donations-index.html.j2:9
+msgid "You can make donations in an toy currency ({currency})"
+msgstr "おもちゃの通貨 ({currency})で寄付することもできます"
+
+#: talermerchantdemos/templates/donations-index.html.j2:16
+msgid ""
+"Please select a project, the amount (*) of {currency} you wish to donate,"
+" and enter the donor's name that will appear on your receipt:"
+msgstr "寄付したいプロジェクトおよび{currency}の金額（＊）を選択し、領収書に記載される寄付者名を入力してください。"
+
+#: talermerchantdemos/templates/donations-index.html.j2:33
+msgid "Anonymous Donor"
+msgstr "匿名の寄付者"
+
+#: talermerchantdemos/templates/donations-index.html.j2:34
+msgid "Donate!"
+msgstr "寄付しましょう！"
+
+#: talermerchantdemos/templates/donations-index.html.j2:39
+msgid ""
+"(*) To make the demo a bit more interesting, the 5 {currency} option is "
+"deliberately implemented with a fault: the merchant will try to make you "
+"donate 6 {currency} instead of the 5 {currency} shown in the form.  But "
+"do not worry, you will be given the opportunity to review the final offer"
+" from the merchant in the Taler wallet.  That way, Taler protects you "
+"from committing to erroneous payments."
+msgstr ""
+"（＊）デモをもう少し面白くするために、 5 {currency} "
+"のオプションは、欠陥を伴ってわざと入れられています。売買業者は、フォームに示された 5 {currency} の代わりに6 {currency} "
+"で寄付させようとするでしょう。でも心配はいりません。あなたには、Talerウォレットの売買業者からの最終的な提案事項をレビューする機会が与えられます。こうして、Talerは、あなたが誤って支払いを行うことからあなたを守ります。"
+
+#: talermerchantdemos/templates/donations-provider-not-supported.html.j2:4
+msgid "Payment Provider Not Supported"
+msgstr "サポートされていない支払プロバイダ"
+
+#: talermerchantdemos/templates/donations-provider-not-supported.html.j2:7
+msgid "Unfortunately the selected payment provider is not supported in this demo."
+msgstr "残念ながら、選択された支払プロバイダは、このデモではサポートされていません。"
+
+#: talermerchantdemos/templates/donations-provider-not-supported.html.j2:8
+msgid "Please go back and select &quot;Taler&quot;."
+msgstr "戻って &quot;Taler&quot;を選択してください。"
+
+#: talermerchantdemos/templates/landing-base.html.j2:7
+msgid "This is the GNU Taler demo."
+msgstr "これはGNU Talerデモです。"
+
+#: talermerchantdemos/templates/landing-base.html.j2:8
+msgid "Here you can try out the GNU Taler payment system using a toy currency."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:4
+msgid "Step 1: Install the Taler wallet"
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:7
+msgid "Install the wallet from the <a href=\"{link}\">installation page</a>."
+msgstr "<a href=\"{link}\">インストールのページ</a>からウォレットをインストールしてください。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:8
+msgid "Installation only takes one click."
+msgstr "インストールはワンクリックでできます。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:12
+msgid ""
+"After installation, you may be asked to grant the browser-based Taler "
+"wallet additional optional permissions that allow it to improve your user"
+" experience."
+msgstr "インストール後、あなたのユーザー・エクスペリエンスを改善させる、オプショナルな追加的許可事項を、ブラウザ・ベースのTalerウォレットに与えるよう求められることがあります。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:13
+msgid ""
+"These permissions will allow the wallet to automatically open if a page "
+"asks for a Taler payment."
+msgstr "これらの事項を許可することにより、あるページがTalerによる支払いを求めた場合、ウォレットが自動的に開きます。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:14
+msgid ""
+"Regardless of the permissions you grant, the wallet will never transmit "
+"information about you or your browsing history to anyone."
+msgstr "与えた許可に関係なく、ウォレットは、あなたやあなたの閲覧履歴に関する情報を、ほかの誰にも伝送しません。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:19
+msgid "Step 2: Withdraw coins"
+msgstr "ステップ2：コインの引き出し"
+
+#: talermerchantdemos/templates/landing-index.html.j2:22
+msgid "In this demo you are paying with {currency}, an imaginary currency."
+msgstr "このデモでは、架空の通貨である{currency}で支払いを行います。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:23
+msgid ""
+"To withdraw {currency} coins you must first create an account at our <a "
+"href=\"{bank}\">bank</a>."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:24
+msgid "Signing up only requires you to pick a username and password."
+msgstr "ユーザーネームとパスワードを選ぶだけで、サインアップできます。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:25
+msgid ""
+"When you create an account at our bank, you will be credited 100 "
+"{currency} for signing up."
+msgstr "当行で口座を作るとき、サインアップすることで100 {currency} が与えられます。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:26
+msgid ""
+"Afterwards, use the bank's Web interface to authorize the transfer of "
+"{currency} to your wallet."
+msgstr "その後は、当行のウェブのインターフェースを使い、あなたのウォレットへ{currency} を送金する権限を与えてください。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:30
+msgid ""
+"Once you have completed this step, you can click on the Taler icon in "
+"your browser to check your balance."
+msgstr "このステップを完了したら、ブラウザのTalerアイコンをクリックし、残高を確認することができます。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:35
+msgid "Step 3: Pay"
+msgstr "ステップ3：支払い"
+
+#: talermerchantdemos/templates/landing-index.html.j2:38
+msgid "We have two demo merchants where you can spend your coins:"
+msgstr "コインを使える、2つのデモ売買業者があります。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:44
+msgid ""
+"At the <a href=\"{blog}\">essay store</a> you can pay in {currency} for "
+"individual chapters of Richard Stallman&#39;s book &quot;Free Software, "
+"Free Society&quot;."
+msgstr ""
+"<a href=\"{blog}\">エッセイ・ストア</a> で、 {currency} を使い、リチャード・ストールマン&#39;の本 "
+"&quot;Free Software, Free Society&quot;の各章に対し、支払いを行うことができます。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:45
+msgid "The book is also available for free at <a href=\"{fsf}\">the FSF</a>."
+msgstr "<a href=\"{fsf}\">the FSF</a>では、この本を無料で入手することができます。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:50
+msgid ""
+"At the project <a href=\"{donations}\">donation website</a> you can show "
+"respect to a software project of your choice by donating {currency} to "
+"them."
+msgstr ""
+"<a href=\"{donations}\">寄付サイト</a> プロジェクトでは、{currency} "
+"を寄付することにより、お選びのソフトウェア・プロジェクトに対する敬意を示すことができます。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:56
+msgid "Step 4: Check money flow"
+msgstr "ステップ4：資金の流れを確認する"
+
+#: talermerchantdemos/templates/landing-index.html.j2:59
+#, fuzzy
+msgid ""
+"You can see the wire transfers from the escrow account of the exchange to"
+" the merchants on the <a href=\"{bank}\">public accounts page</a> of the "
+"bank."
+msgstr ""
+"当該取引のエスクロー口座から売買業者への電信送金を、当行の<a href=\"{bank}/public-"
+"accounts\">公開口座ページ</a> で確認することができます。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:60
+msgid ""
+"Note that only accounts configured to be publicly viewable are shown on "
+"that page."
+msgstr "公に見ることができると設定された口座のみがそのページに示されることに注意してください。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:65
+msgid "Step 5: Survey"
+msgstr "ステップ5：アンケート"
+
+#: talermerchantdemos/templates/landing-index.html.j2:68
+msgid "Websites can give tips to visitors for completing tasks."
+msgstr "ウェブサイトは、訪問者に対し、タスクを完了するためのヒントを与えることができます。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:69
+msgid ""
+"You can earn some {currency} coins by filling in our <a "
+"href=\"{url}\">survey</a>."
+msgstr "<a href=\"{url}\">アンケート</a>に記入することで、いくらかの {currency} コインを得ることができます。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:81
+msgid "Step 6: Reach out to us"
+msgstr "ステップ6：私たちに、手を差し伸べてください"
+
+#: talermerchantdemos/templates/landing-index.html.j2:84
+msgid "We appreciate feedback about Taler and this demonstrator."
+msgstr "Talerとこのデモについてのフィードバックを歓迎します。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:85
+msgid "Let us know what you think by <a href=\"{link}\">contacting us</a>."
+msgstr "<a href=\"{link}\">私たちにコンタクトする</a>ことにより、あなたの感想を聞かせてください。"
+
+#: talermerchantdemos/templates/survey-base.html.j2:6
+msgid "Survey"
+msgstr "アンケート"
+
+#: talermerchantdemos/templates/survey-base.html.j2:8
+msgid "This page demonstrates how to tip visitors for completing small tasks."
+msgstr "このページでは、小さいタスクの完了に対して訪問者にチップを与える方法を紹介します。"
+
+#: talermerchantdemos/templates/survey-base.html.j2:9
+msgid ""
+"Tipping is a way for offer cash rewards that go directly into a user's "
+"wallet."
+msgstr "チップは、ユーザーのウォレットに直接入金される現金により報酬を与えるひとつの方法です。"
+
+#: talermerchantdemos/templates/survey-index.html.j2:6
+msgid ""
+"Please participate in our survey about payment systems and receive a tip "
+"in return."
+msgstr "支払システムについてのアンケートに参加し、その代わりにチップをお受け取りください。"
+
+#: talermerchantdemos/templates/survey-index.html.j2:12
+msgid "Which payment system do you prefer?"
+msgstr "どの支払システムがよいですか？"
+
+#: talermerchantdemos/templates/survey-index.html.j2:23
+msgid "Submit Survey"
+msgstr "アンケートを提出する"
+
+#~ msgid "English [en]"
+#~ msgstr "英語 [en]"
+
+#~ msgid "Spanish [es]"
+#~ msgstr "スペイン語[es]"
+
+#~ msgid "German [de]"
+#~ msgstr "ドイツ語 - de"
+
+#~ msgid "Swedish [sv]"
+#~ msgstr "スウェーデン語 (sv)"
+
+#~ msgid "GNU Taler Demo: Essay Shop"
+#~ msgstr "GNU Talerデモ：エッセイショップ"
+
+#~ msgid "Back-office"
+#~ msgstr "事務管理部門"
+
+#~ msgid "GNU Taler Demo: Donations"
+#~ msgstr "GNU Talerデモ：寄付"
+
+#~ msgid "GNU Taler Demo: Introduction"
+#~ msgstr "GNU Talerデモ：はじめに"
+
+#~ msgid "GNU Taler Demo: Survey"
+#~ msgstr "GNU Talerデモ：アンケート"
+

@@ -1,0 +1,9 @@
+These articles are from
+
+$ cvs -d cvs.savannah.gnu.org:/web/www checkout www
+
+You can find them in the 'gnu/' and 'philosophy/' subdirectories of the
+above repository.
+
+Use the import.sh shell script to sort the files by language as needed,
+after setting $REPO to point to the CVS checkout.

@@ -1,0 +1,595 @@
+# Chinese (Traditional) translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: eintritt@hotmail.com\n"
+"POT-Creation-Date: 2021-06-11 07:56+0200\n"
+"PO-Revision-Date: 2021-07-29 21:30+0000\n"
+"Last-Translator: Ting-Yi Fu <futingyi0215@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <http://weblate.taler.net/projects/"
+"gnu-taler/demonstration-pages/zh_Hant/>\n"
+"Language: zh_Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: talermerchantdemos/blog/blog.py:126 talermerchantdemos/landing/landing.py:93
+msgid "Internal error"
+msgstr "內部錯誤"
+
+#: talermerchantdemos/blog/blog.py:186
+msgid "Cannot refund unpaid article"
+msgstr "無法對於未付款文章進行退款"
+
+#: talermerchantdemos/blog/blog.py:193
+msgid "Article is not anymore refundable"
+msgstr "已無法對此文章進行退款"
+
+#: talermerchantdemos/blog/blog.py:229
+msgid "You did not pay for this article (nice try!)"
+msgstr "您並沒有為此文章付款（想得美！）"
+
+#: talermerchantdemos/blog/blog.py:234
+msgid "Item not refundable (anymore)"
+msgstr "此文章無法進行退款（已無法）"
+
+#: talermerchantdemos/blog/blog.py:260
+msgid "Internal error: Files for article ({}) not found."
+msgstr "內部錯誤：找不到此文章 ({}) 的檔案。"
+
+#: talermerchantdemos/blog/blog.py:267
+msgid "Supplemental file ({}) for article ({}) not found."
+msgstr "找不到文章 ({}) 的補充文件 ({}) 。"
+
+#: talermerchantdemos/blog/blog.py:345 talermerchantdemos/blog/blog.py:359
+msgid "Direct access forbidden"
+msgstr "禁止直接訪問"
+
+#: talermerchantdemos/blog/blog.py:411
+msgid "Internal server error"
+msgstr "內部伺服器錯誤"
+
+#: talermerchantdemos/blog/blog.py:419
+#: talermerchantdemos/donations/donations.py:284
+#: talermerchantdemos/landing/landing.py:166
+#: talermerchantdemos/survey/survey.py:162
+msgid "Page not found"
+msgstr "找不到此頁面"
+
+#: talermerchantdemos/donations/donations.py:125
+msgid "parameter '{}' required"
+msgstr "需要 '{}' 參數"
+
+#: talermerchantdemos/donations/donations.py:242
+msgid "Backend could not create the order"
+msgstr "後端無法創建訂單"
+
+#: talermerchantdemos/httpcommon/__init__.py:40
+#: talermerchantdemos/httpcommon/__init__.py:80
+msgid "Could not establish connection to backend"
+msgstr "無法建立後台連線"
+
+#: talermerchantdemos/httpcommon/__init__.py:46
+#: talermerchantdemos/httpcommon/__init__.py:85
+msgid "Could not parse response from backend"
+msgstr "無法解析後台回覆"
+
+#: talermerchantdemos/httpcommon/__init__.py:51
+#: talermerchantdemos/httpcommon/__init__.py:88
+msgid "Backend returned error status"
+msgstr "後台回傳錯誤狀態"
+
+#: talermerchantdemos/landing/landing.py:174
+#: talermerchantdemos/survey/survey.py:170
+msgid "HTTP method not allowed for this page"
+msgstr "HTTP 方法不被此頁面允許"
+
+#: talermerchantdemos/templates/blog-article-frame.html.j2:11
+#: talermerchantdemos/templates/blog-article-frame.html.j2:16
+msgid "Taler allows merchants to offer refunds to customers."
+msgstr "Taler 允許商家提供退款給顧客。"
+
+#: talermerchantdemos/templates/blog-article-frame.html.j2:12
+msgid ""
+"You can <a href=\"{url}\">request a refund</a> within the first hour "
+"after buying this article."
+msgstr "您可以在購買此文章的一個小時內<a href=\"{url}\">要求退款</a>。"
+
+#: talermerchantdemos/templates/blog-article-frame.html.j2:17
+msgid "This article can't be refunded anymore."
+msgstr "此文章已無法進行退款。"
+
+#: talermerchantdemos/templates/blog-base.html.j2:9
+msgid "Essay shop"
+msgstr "文章商店"
+
+#: talermerchantdemos/templates/blog-base.html.j2:11
+msgid "On this page you can buy articles using an imaginary currency."
+msgstr "您可以使用虛擬貨幣在此頁面購買文章。"
+
+#: talermerchantdemos/templates/blog-base.html.j2:12
+msgid ""
+"The articles are chapters from Richard Stallman's book &quot;Free "
+"Software, Free Society&quot;."
+msgstr ""
+"這些文章是 Richard Stallman 所寫的書&quot;Free Software, Free Society&quot;裡面的章節 。"
+
+#: talermerchantdemos/templates/blog-base.html.j2:13
+msgid ""
+"The book is <a href=\"{shop}\">published by the FSF</a> and available "
+"gratis at <a href=\"{gnu}\">gnu.org</a>."
+msgstr "這本書由<a href=\"{shop}\">FSF出版，</a>並可於<a href=\"{gnu}\">gnu.org </a>免費取得。"
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:3
+msgid "Confirm refund request for article"
+msgstr "確認申請項目退款"
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:7
+msgid "Do you want to get a refund for the article <em>{name}</em>?"
+msgstr "您想為商品<em>{name}</em>申請退款嗎？"
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:8
+msgid ""
+"In this demonstration, refunds will be automatically approved by the "
+"merchant."
+msgstr "在這個 demo 中，退款會自動由商家批准。"
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:9
+msgid ""
+"After you have obtained a refund, you will not be able to read the "
+"article anymore."
+msgstr "在獲得退款之後，您將無法再次閱讀此文章。"
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:15
+msgid ""
+"You will only be able to receive the refund on the same wallet that you "
+"have used to pay for this article originally."
+msgstr "您只能透過使用當初購買文章所使用的錢包取得退款。"
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:21
+msgid "Request refund"
+msgstr "要求退款"
+
+#: talermerchantdemos/templates/blog-error.html.j2:3
+#: talermerchantdemos/templates/donations-error.html.j2:3
+#: talermerchantdemos/templates/landing-error.html.j2:3
+#: talermerchantdemos/templates/survey-error.html.j2:3
+msgid "Error encountered"
+msgstr "發生錯誤"
+
+#: talermerchantdemos/templates/blog-error.html.j2:9
+#: talermerchantdemos/templates/donations-error.html.j2:9
+#: talermerchantdemos/templates/survey-error.html.j2:9
+msgid "The backend returned status code {code}."
+msgstr "後端回傳狀態碼 {code}。"
+
+#: talermerchantdemos/templates/blog-error.html.j2:14
+#: talermerchantdemos/templates/donations-error.html.j2:14
+#: talermerchantdemos/templates/survey-error.html.j2:14
+msgid "Backend response:"
+msgstr "後端回應："
+
+#: talermerchantdemos/templates/blog-error.html.j2:19
+#: talermerchantdemos/templates/donations-error.html.j2:19
+#: talermerchantdemos/templates/landing-error.html.j2:8
+#: talermerchantdemos/templates/survey-error.html.j2:19
+msgid "Stack trace:"
+msgstr "堆疊追蹤："
+
+#: talermerchantdemos/templates/blog-index.html.j2:3
+msgid "Essay Shop: Free Software, Free Society"
+msgstr "文章商店：Free Software, Free Society"
+
+#: talermerchantdemos/templates/blog-index.html.j2:5
+msgid ""
+"This is the latest edition of <cite>Free Software, Free Society: Selected"
+" Essays of Richard M. Stallman.</cite>"
+msgstr ""
+"這是最新版本的 <cite>Free Software, Free Society: Richard M. Stallman 的文章選集。</cite>"
+
+#: talermerchantdemos/templates/blog-index.html.j2:13
+msgid ""
+"Verbatim copying and distribution of this entire book are permitted "
+"worldwide, without royalty, in any medium, provided this notice is "
+"preserved. Permission is granted to copy and distribute translations of "
+"this book from the original English into another language provided the "
+"translation has been approved by the Free Software Foundation and the "
+"copyright notice and this permission notice are preserved on all copies."
+msgstr ""
+"只要保留本通知、無需使用費，這整本書允許被透過任何媒介在全世界範圍內被逐字複製和分發。此書被自營軟體基金會批准，且所有副本保留版權聲明與許可通知的內容被許"
+"從原文英文翻譯到另一個語言並被複製、分發。"
+
+#: talermerchantdemos/templates/blog-index.html.j2:18
+msgid "Chapters"
+msgstr "章節"
+
+#: talermerchantdemos/templates/blog-index.html.j2:20
+msgid "Click on an individual chapter to to purchase it with GNU Taler."
+msgstr "點選並使用 GNU Taler 來購買特定章節。"
+
+#: talermerchantdemos/templates/blog-index.html.j2:21
+msgid ""
+"You can get free, virtual money to buy articles on this page at the <a "
+"href=\"{}\")\">bank</a>."
+msgstr "您可以在<a href=\"{}\")\">銀行</a>獲得免費的虛擬貨幣以在此頁面購買文章。"
+
+#: talermerchantdemos/templates/blog-index.html.j2:28
+msgid "Pay to read more..."
+msgstr "付款以閱讀更多..."
+
+#: talermerchantdemos/templates/blog-index.html.j2:31
+msgid "No articles available in this language."
+msgstr "沒有此以語言撰寫的文章。"
+
+#: talermerchantdemos/templates/common-base.html.j2:20
+msgid "GNU Taler Demo"
+msgstr "GNU Taler Demo"
+
+#: talermerchantdemos/templates/common-base.html.j2:44
+#: talermerchantdemos/templates/landing-base.html.j2:5
+msgid "Introduction"
+msgstr "簡介"
+
+#: talermerchantdemos/templates/common-base.html.j2:47
+msgid "Bank"
+msgstr "銀行"
+
+#: talermerchantdemos/templates/common-base.html.j2:50
+msgid "Essay Shop"
+msgstr "論文商店"
+
+#: talermerchantdemos/templates/common-base.html.j2:53
+#: talermerchantdemos/templates/donations-base.html.j2:6
+msgid "Donations"
+msgstr "捐款"
+
+#: talermerchantdemos/templates/common-base.html.j2:56
+msgid "Tipping/Survey"
+msgstr "小費/調查"
+
+#: talermerchantdemos/templates/common-base.html.j2:85
+msgid ""
+"You can learn more about GNU Taler on our main <a "
+"href=\"{site}\">website</a>."
+msgstr "您可以從我們的主要<a href=\"{site}\">網站</a>深入了解 GNU Taler。"
+
+#: talermerchantdemos/templates/donations-base.html.j2:8
+msgid "This is the donation page."
+msgstr "這是捐款頁面。"
+
+#: talermerchantdemos/templates/donations-base.html.j2:9
+msgid ""
+"Using this page you can make donations in {currency} to Free Software "
+"projects."
+msgstr "您可以透過此頁面使用 {currency} 來捐款給自由軟體項目。"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:5
+msgid "Select your payment method"
+msgstr "請選擇您的付款方式"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:9
+msgid "This is an example for a \"checkout\" page of a Web shop."
+msgstr "這是一個網路商店的\"付款\"頁面範例。"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:10
+msgid ""
+"On the previous page, you have created the shopping cart and decided "
+"which product to buy (i.e. which project to donate KUDOS to)."
+msgstr "您已在前一個頁面創建了一個購物車並決定將購入的產品 （範例：要捐款KUDOS給哪個項目）。"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:11
+msgid ""
+"As Taler is not yet universally used, we expect merchants will offer "
+"various payment options."
+msgstr "由於 Taler 的使用尚未普及，我們期望商家會提供各種付款方式。"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:12
+msgid "To continue with the demo, select the &quot;Taler&quot; payment option."
+msgstr "請選擇&quot;Taler&quot;付款選項以繼續進行 demo。"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:17
+msgid ""
+"Note that you must select Taler here for the demo to continue, as the "
+"other payment options are just placeholders and not really working in the"
+" demonstration."
+msgstr "請注意，您必須在此處選擇 Taler 來繼續 demo 的進行，因為其他的支付選項僅為佔位符、無法在 demo 中運作。"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:18
+msgid ""
+"It would be possible to ask the user to make this choice already on the "
+"previous page (with the shopping cart); we just separated the two steps "
+"to keep each step as simple as possible."
+msgstr "可以要求使用者在前一頁（使用購物車）做出此選擇；我們只是分開了兩個步驟，以保持每一步儘可能簡單。"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:44
+msgid "Confirm selection"
+msgstr "確認選擇的項目"
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:4
+msgid "Donation Receipt"
+msgstr "捐款收據"
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:7
+msgid ""
+"Thank you, <strong>{donor}</strong>, for donating "
+"<strong>{amount}</strong> to <strong>{receiver}</strong>."
+msgstr ""
+"謝謝您，<strong>{donor}</strong> 捐獻了 <strong>{amount}</strong> 予 "
+"<strong>{receiver}</strong>。"
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:12
+msgid ""
+"Please keep the order identifier <strong>{id}</strong> as a receipt for "
+"your donation."
+msgstr "請保留訂單識別號碼 <strong>{id}</strong> 做為您捐款的收據。"
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:13
+msgid ""
+"You can show other people that you donated by sharing <a "
+"href=\"{link}\">this link</a> with them."
+msgstr "您可以分享<a href=\"{link}\">此連結</a>以向他人展示您的捐款。"
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:19
+msgid "You can always make <a href=\"{link}\">another donation</a>."
+msgstr "您隨時都可以<a href=\"{link}\">捐款</a>。"
+
+#: talermerchantdemos/templates/donations-index.html.j2:4
+msgid "Donate to Free Software projects"
+msgstr "捐款給自由軟體項目"
+
+#: talermerchantdemos/templates/donations-index.html.j2:8
+msgid ""
+"This donations website shows the user experience for donations with GNU "
+"Taler."
+msgstr "這個捐款網頁展示了 GNU Taler 捐款者的顧客體驗。"
+
+#: talermerchantdemos/templates/donations-index.html.j2:9
+msgid "You can make donations in an toy currency ({currency})"
+msgstr "您可以使用任何的 toy currency ({currency}) 來捐款"
+
+#: talermerchantdemos/templates/donations-index.html.j2:16
+msgid ""
+"Please select a project, the amount (*) of {currency} you wish to donate,"
+" and enter the donor's name that will appear on your receipt:"
+msgstr "請選擇一個項目、您欲捐款的金額 (*) 以及 {currency}，並輸入顯示在收據上的捐款人姓名："
+
+#: talermerchantdemos/templates/donations-index.html.j2:33
+msgid "Anonymous Donor"
+msgstr "匿名捐款人"
+
+#: talermerchantdemos/templates/donations-index.html.j2:34
+msgid "Donate!"
+msgstr "捐款！"
+
+#: talermerchantdemos/templates/donations-index.html.j2:39
+msgid ""
+"(*) To make the demo a bit more interesting, the 5 {currency} option is "
+"deliberately implemented with a fault: the merchant will try to make you "
+"donate 6 {currency} instead of the 5 {currency} shown in the form.  But "
+"do not worry, you will be given the opportunity to review the final offer"
+" from the merchant in the Taler wallet.  That way, Taler protects you "
+"from committing to erroneous payments."
+msgstr ""
+"(*)為了使 demo 更有趣一點，5 {currency} 這個選項的錯誤為故意的：在顯示的表單中，商家將嘗試讓你捐贈 6 {currency} "
+"而不是 5 {currency} 。但是請不要擔心，在 Taler wallet 中，會提供機會給您檢查商家最終折扣表單。透過此種方式，Taler "
+"保護您、免於支付錯誤的款項。"
+
+#: talermerchantdemos/templates/donations-provider-not-supported.html.j2:4
+msgid "Payment Provider Not Supported"
+msgstr "不支援付款提供商"
+
+#: talermerchantdemos/templates/donations-provider-not-supported.html.j2:7
+msgid "Unfortunately the selected payment provider is not supported in this demo."
+msgstr "很抱歉，您所選擇的付款提供商不支持此 demo。"
+
+#: talermerchantdemos/templates/donations-provider-not-supported.html.j2:8
+msgid "Please go back and select &quot;Taler&quot;."
+msgstr "請回到先前步驟並選擇 &quot;Taler&quot;。"
+
+#: talermerchantdemos/templates/landing-base.html.j2:7
+msgid "This is the GNU Taler demo."
+msgstr "這是 GNU Taler 的 demo。"
+
+#: talermerchantdemos/templates/landing-base.html.j2:8
+msgid "Here you can try out the GNU Taler payment system using a toy currency."
+msgstr "您可以在這裡嘗試使用 toy currency 來使用 GNU Taler 付款系統。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:4
+msgid "Step 1: Install the Taler wallet"
+msgstr "步驟一：安裝 Taler wallet"
+
+#: talermerchantdemos/templates/landing-index.html.j2:7
+msgid "Install the wallet from the <a href=\"{link}\">installation page</a>."
+msgstr "從<a href=\"{link}\">安裝頁面</a>安裝錢包。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:8
+msgid "Installation only takes one click."
+msgstr "一鍵安裝。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:12
+msgid ""
+"After installation, you may be asked to grant the browser-based Taler "
+"wallet additional optional permissions that allow it to improve your user"
+" experience."
+msgstr "在安裝完成之後，為了提升您的使用體驗，您可能會被要求提供一些額外、非強制的權限給瀏覽器基礎的 Taler wallet。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:13
+msgid ""
+"These permissions will allow the wallet to automatically open if a page "
+"asks for a Taler payment."
+msgstr "這些權限許可會在頁面要求使用 Taler payment 錢包時，允許錢包自動被開啟。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:14
+msgid ""
+"Regardless of the permissions you grant, the wallet will never transmit "
+"information about you or your browsing history to anyone."
+msgstr "除了您允許的權限以外，Taler Wallet 永遠不會將關於您瀏覽紀錄的資訊傳送給任何人。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:19
+msgid "Step 2: Withdraw coins"
+msgstr "步驟二：提款"
+
+#: talermerchantdemos/templates/landing-index.html.j2:22
+msgid "In this demo you are paying with {currency}, an imaginary currency."
+msgstr "在此 demo 中，您將使用一種虛擬貨幣 {currency} 進行付款。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:23
+msgid ""
+"To withdraw {currency} coins you must first create an account at our <a "
+"href=\"{bank}\">bank</a>."
+msgstr "您需要先在我們的<a href=\"{bank}\">銀行</a>建立一個帳號以提取 {currency} 貨幣。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:24
+msgid "Signing up only requires you to pick a username and password."
+msgstr "您只需選擇您的使用者名稱以及密碼即可註冊。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:25
+msgid ""
+"When you create an account at our bank, you will be credited 100 "
+"{currency} for signing up."
+msgstr "當您於我們的銀行建立一個帳號時，您會獲得 100 {currency}。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:26
+msgid ""
+"Afterwards, use the bank's Web interface to authorize the transfer of "
+"{currency} to your wallet."
+msgstr "在這之後，使用銀行的網頁介面來授權 {currency} 轉帳至您的錢包。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:30
+msgid ""
+"Once you have completed this step, you can click on the Taler icon in "
+"your browser to check your balance."
+msgstr "在完成這個步驟之後，您可以在瀏覽器中點選 Taler 圖標來檢視您的帳戶餘額。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:35
+msgid "Step 3: Pay"
+msgstr "步驟三：付款"
+
+#: talermerchantdemos/templates/landing-index.html.j2:38
+msgid "We have two demo merchants where you can spend your coins:"
+msgstr "我們有兩個 demo merchants，您可以在其中使用您的貨幣："
+
+#: talermerchantdemos/templates/landing-index.html.j2:44
+msgid ""
+"At the <a href=\"{blog}\">essay store</a> you can pay in {currency} for "
+"individual chapters of Richard Stallman&#39;s book &quot;Free Software, "
+"Free Society&quot;."
+msgstr ""
+"在<a href=\"{blog}\">文章商店</a>，您可以使用 {currency} 來購買 Richard Stallman 的書籍 &quot;"
+"Free Software, Free Society&quot; 的各個章節。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:45
+msgid "The book is also available for free at <a href=\"{fsf}\">the FSF</a>."
+msgstr "該書也可以在 <a href=\"{fsf}\">FSF</a> 上免費取得。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:50
+msgid ""
+"At the project <a href=\"{donations}\">donation website</a> you can show "
+"respect to a software project of your choice by donating {currency} to "
+"them."
+msgstr "在項目<a href=\"{donations}\">捐贈網站</a>上，您可以通過向您選擇的軟體專案捐贈 {currency} 來表示敬意。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:56
+msgid "Step 4: Check money flow"
+msgstr "步驟四：檢查資金流量"
+
+#: talermerchantdemos/templates/landing-index.html.j2:59
+msgid ""
+"You can see the wire transfers from the escrow account of the exchange to"
+" the merchants on the <a href=\"{bank}\">public accounts page</a> of the "
+"bank."
+msgstr "您可以在銀行的<a href=\"{bank}\">公共帳戶頁面</a>上看到從交易所的託管賬戶到商家的電匯。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:60
+msgid ""
+"Note that only accounts configured to be publicly viewable are shown on "
+"that page."
+msgstr "請注意，只有被設定為公開檢視的帳號會顯示在此頁面。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:65
+msgid "Step 5: Survey"
+msgstr "步驟五：問卷調查"
+
+#: talermerchantdemos/templates/landing-index.html.j2:68
+msgid "Websites can give tips to visitors for completing tasks."
+msgstr "這些網站可以提供指點予訪客以完成任務。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:69
+msgid ""
+"You can earn some {currency} coins by filling in our <a "
+"href=\"{url}\">survey</a>."
+msgstr "您可以透過填寫我們的<a href=\"{url}\">問卷調查</a>獲得一些 {currency} 貨幣。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:81
+msgid "Step 6: Reach out to us"
+msgstr "步驟六：與我們聯絡"
+
+#: talermerchantdemos/templates/landing-index.html.j2:84
+msgid "We appreciate feedback about Taler and this demonstrator."
+msgstr "謝謝您對於 Taler 和此示範的回饋。"
+
+#: talermerchantdemos/templates/landing-index.html.j2:85
+msgid "Let us know what you think by <a href=\"{link}\">contacting us</a>."
+msgstr "<a href=\"{link}\">聯絡我們</a>並讓我們知道您的想法。"
+
+#: talermerchantdemos/templates/survey-base.html.j2:6
+msgid "Survey"
+msgstr "問卷調查"
+
+#: talermerchantdemos/templates/survey-base.html.j2:8
+msgid "This page demonstrates how to tip visitors for completing small tasks."
+msgstr "此頁面演示了如何提示參觀者完成小型任務。"
+
+#: talermerchantdemos/templates/survey-base.html.j2:9
+msgid ""
+"Tipping is a way for offer cash rewards that go directly into a user's "
+"wallet."
+msgstr "給予小費是一種直接提供現金回饋至使用者錢包的方式。"
+
+#: talermerchantdemos/templates/survey-index.html.j2:6
+msgid ""
+"Please participate in our survey about payment systems and receive a tip "
+"in return."
+msgstr "請參與我們關於支付系統的問卷調查以獲得小費。"
+
+#: talermerchantdemos/templates/survey-index.html.j2:12
+msgid "Which payment system do you prefer?"
+msgstr "請問您偏好哪個支付系統？"
+
+#: talermerchantdemos/templates/survey-index.html.j2:23
+msgid "Submit Survey"
+msgstr "提交問卷"
+
+#~ msgid "English [en]"
+#~ msgstr "英語 [en]"
+
+#~ msgid "Spanish [es]"
+#~ msgstr "西班牙語 [es]"
+
+#~ msgid "German [de]"
+#~ msgstr "德語 [de]"
+
+#~ msgid "Swedish [sv]"
+#~ msgstr "瑞典語 [sv]"
+
+#~ msgid "GNU Taler Demo: Essay Shop"
+#~ msgstr "GNU Taler 演示: 文章商店"
+
+#~ msgid "Back-office"
+#~ msgstr "後台"
+
+#~ msgid "GNU Taler Demo: Donations"
+#~ msgstr "GNU Taler 演示: 捐款"
+
+#~ msgid "GNU Taler Demo: Introduction"
+#~ msgstr "GNU Taler Demo: 介紹"
+
+#~ msgid "GNU Taler Demo: Survey"
+#~ msgstr "GNU Taler Demo: 問卷調查"

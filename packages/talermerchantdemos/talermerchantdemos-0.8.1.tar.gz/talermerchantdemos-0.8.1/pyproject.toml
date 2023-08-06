@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "talermerchantdemos"
+version = "0.8.1"
+description = "Taler merchant demos"
+authors = [
+    "Florian Dold <dold@taler.net>",
+    "Marcello Stanisci <ms@taler.net>",
+    "Christian Grothoff <grothoff@taler.net>",
+]
+license = "AGPL3+"
+include = [
+    # Common
+    "static/*.css",
+    "static/*.svg",
+    "templates/*.j2",
+    # Landing files
+    "landing/templates/*.j2",
+    "landing/static/*.css",
+    "landing/translations/*/LC_MESSAGES/*.mo",
+    # Blog files
+    "blog/templates/*.html",
+    "blog/templates/*.j2",
+    "blog/static/favicon.ico",
+    "blog/static/*.css",
+    #"blog/articles/*/*",
+    "blog/translations/*/LC_MESSAGES/*.mo",
+    "translations/*/LC_MESSAGES/*.mo",
+    "blog/data/*",
+    # Donation files
+    "donations/templates/*.j2",
+    "donations/static/*.css",
+    "donations/translations/*/LC_MESSAGES/*.mo",
+    # Survey files
+    "survey/templates/*.j2",
+    "survey/static/favicon.ico",
+    "survey/static/*.js",
+    "survey/static/*.css",
+    "survey/translations/*/LC_MESSAGES/*.mo",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.0.2"
+requests = "^2.26.0"
+taler-util = "^0.8.3"
+beautifulsoup4 = "^4.10.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+taler-merchant-demos = 'talermerchantdemos.cli:run'
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

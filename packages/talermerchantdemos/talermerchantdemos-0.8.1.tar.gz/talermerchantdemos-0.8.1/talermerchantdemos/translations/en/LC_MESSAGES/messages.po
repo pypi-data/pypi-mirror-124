@@ -1,0 +1,1877 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-06-11 07:56+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: talermerchantdemos/blog/blog.py:126 talermerchantdemos/landing/landing.py:93
+msgid "Internal error"
+msgstr ""
+
+#: talermerchantdemos/blog/blog.py:186
+msgid "Cannot refund unpaid article"
+msgstr ""
+
+#: talermerchantdemos/blog/blog.py:193
+msgid "Article is not anymore refundable"
+msgstr ""
+
+#: talermerchantdemos/blog/blog.py:229
+msgid "You did not pay for this article (nice try!)"
+msgstr ""
+
+#: talermerchantdemos/blog/blog.py:234
+msgid "Item not refundable (anymore)"
+msgstr ""
+
+#: talermerchantdemos/blog/blog.py:260
+msgid "Internal error: Files for article ({}) not found."
+msgstr ""
+
+#: talermerchantdemos/blog/blog.py:267
+msgid "Supplemental file ({}) for article ({}) not found."
+msgstr ""
+
+#: talermerchantdemos/blog/blog.py:345 talermerchantdemos/blog/blog.py:359
+msgid "Direct access forbidden"
+msgstr ""
+
+#: talermerchantdemos/blog/blog.py:411
+msgid "Internal server error"
+msgstr ""
+
+#: talermerchantdemos/blog/blog.py:419
+#: talermerchantdemos/donations/donations.py:284
+#: talermerchantdemos/landing/landing.py:166
+#: talermerchantdemos/survey/survey.py:162
+msgid "Page not found"
+msgstr ""
+
+#: talermerchantdemos/donations/donations.py:125
+msgid "parameter '{}' required"
+msgstr ""
+
+#: talermerchantdemos/donations/donations.py:242
+msgid "Backend could not create the order"
+msgstr ""
+
+#: talermerchantdemos/httpcommon/__init__.py:40
+#: talermerchantdemos/httpcommon/__init__.py:80
+msgid "Could not establish connection to backend"
+msgstr ""
+
+#: talermerchantdemos/httpcommon/__init__.py:46
+#: talermerchantdemos/httpcommon/__init__.py:85
+msgid "Could not parse response from backend"
+msgstr ""
+
+#: talermerchantdemos/httpcommon/__init__.py:51
+#: talermerchantdemos/httpcommon/__init__.py:88
+msgid "Backend returned error status"
+msgstr ""
+
+#: talermerchantdemos/landing/landing.py:174
+#: talermerchantdemos/survey/survey.py:170
+msgid "HTTP method not allowed for this page"
+msgstr ""
+
+#: talermerchantdemos/templates/blog-article-frame.html.j2:11
+#: talermerchantdemos/templates/blog-article-frame.html.j2:16
+msgid "Taler allows merchants to offer refunds to customers."
+msgstr ""
+
+#: talermerchantdemos/templates/blog-article-frame.html.j2:12
+msgid ""
+"You can <a href=\"{url}\">request a refund</a> within the first hour "
+"after buying this article."
+msgstr ""
+
+#: talermerchantdemos/templates/blog-article-frame.html.j2:17
+msgid "This article can't be refunded anymore."
+msgstr ""
+
+#: talermerchantdemos/templates/blog-base.html.j2:9
+msgid "Essay shop"
+msgstr ""
+
+#: talermerchantdemos/templates/blog-base.html.j2:11
+msgid "On this page you can buy articles using an imaginary currency."
+msgstr ""
+
+#: talermerchantdemos/templates/blog-base.html.j2:12
+msgid ""
+"The articles are chapters from Richard Stallman's book &quot;Free "
+"Software, Free Society&quot;."
+msgstr ""
+
+#: talermerchantdemos/templates/blog-base.html.j2:13
+msgid ""
+"The book is <a href=\"{shop}\">published by the FSF</a> and available "
+"gratis at <a href=\"{gnu}\">gnu.org</a>."
+msgstr ""
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:3
+msgid "Confirm refund request for article"
+msgstr ""
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:7
+msgid "Do you want to get a refund for the article <em>{name}</em>?"
+msgstr ""
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:8
+msgid ""
+"In this demonstration, refunds will be automatically approved by the "
+"merchant."
+msgstr ""
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:9
+msgid ""
+"After you have obtained a refund, you will not be able to read the "
+"article anymore."
+msgstr ""
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:15
+msgid ""
+"You will only be able to receive the refund on the same wallet that you "
+"have used to pay for this article originally."
+msgstr ""
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:21
+msgid "Request refund"
+msgstr ""
+
+#: talermerchantdemos/templates/blog-error.html.j2:3
+#: talermerchantdemos/templates/donations-error.html.j2:3
+#: talermerchantdemos/templates/landing-error.html.j2:3
+#: talermerchantdemos/templates/survey-error.html.j2:3
+msgid "Error encountered"
+msgstr ""
+
+#: talermerchantdemos/templates/blog-error.html.j2:9
+#: talermerchantdemos/templates/donations-error.html.j2:9
+#: talermerchantdemos/templates/survey-error.html.j2:9
+msgid "The backend returned status code {code}."
+msgstr ""
+
+#: talermerchantdemos/templates/blog-error.html.j2:14
+#: talermerchantdemos/templates/donations-error.html.j2:14
+#: talermerchantdemos/templates/survey-error.html.j2:14
+msgid "Backend response:"
+msgstr ""
+
+#: talermerchantdemos/templates/blog-error.html.j2:19
+#: talermerchantdemos/templates/donations-error.html.j2:19
+#: talermerchantdemos/templates/landing-error.html.j2:8
+#: talermerchantdemos/templates/survey-error.html.j2:19
+msgid "Stack trace:"
+msgstr ""
+
+#: talermerchantdemos/templates/blog-index.html.j2:3
+msgid "Essay Shop: Free Software, Free Society"
+msgstr ""
+
+#: talermerchantdemos/templates/blog-index.html.j2:5
+msgid ""
+"This is the latest edition of <cite>Free Software, Free Society: Selected"
+" Essays of Richard M. Stallman.</cite>"
+msgstr ""
+
+#: talermerchantdemos/templates/blog-index.html.j2:13
+msgid ""
+"Verbatim copying and distribution of this entire book are permitted "
+"worldwide, without royalty, in any medium, provided this notice is "
+"preserved. Permission is granted to copy and distribute translations of "
+"this book from the original English into another language provided the "
+"translation has been approved by the Free Software Foundation and the "
+"copyright notice and this permission notice are preserved on all copies."
+msgstr ""
+
+#: talermerchantdemos/templates/blog-index.html.j2:18
+msgid "Chapters"
+msgstr ""
+
+#: talermerchantdemos/templates/blog-index.html.j2:20
+msgid "Click on an individual chapter to to purchase it with GNU Taler."
+msgstr ""
+
+#: talermerchantdemos/templates/blog-index.html.j2:21
+msgid ""
+"You can get free, virtual money to buy articles on this page at the <a "
+"href=\"{}\")\">bank</a>."
+msgstr ""
+
+#: talermerchantdemos/templates/blog-index.html.j2:28
+msgid "Pay to read more..."
+msgstr ""
+
+#: talermerchantdemos/templates/blog-index.html.j2:31
+msgid "No articles available in this language."
+msgstr ""
+
+#: talermerchantdemos/templates/common-base.html.j2:20
+msgid "GNU Taler Demo"
+msgstr ""
+
+#: talermerchantdemos/templates/common-base.html.j2:44
+#: talermerchantdemos/templates/landing-base.html.j2:5
+msgid "Introduction"
+msgstr ""
+
+#: talermerchantdemos/templates/common-base.html.j2:47
+msgid "Bank"
+msgstr ""
+
+#: talermerchantdemos/templates/common-base.html.j2:50
+msgid "Essay Shop"
+msgstr ""
+
+#: talermerchantdemos/templates/common-base.html.j2:53
+#: talermerchantdemos/templates/donations-base.html.j2:6
+msgid "Donations"
+msgstr ""
+
+#: talermerchantdemos/templates/common-base.html.j2:56
+msgid "Tipping/Survey"
+msgstr ""
+
+#: talermerchantdemos/templates/common-base.html.j2:85
+msgid ""
+"You can learn more about GNU Taler on our main <a "
+"href=\"{site}\">website</a>."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-base.html.j2:8
+msgid "This is the donation page."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-base.html.j2:9
+msgid ""
+"Using this page you can make donations in {currency} to Free Software "
+"projects."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:5
+msgid "Select your payment method"
+msgstr ""
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:9
+msgid "This is an example for a \"checkout\" page of a Web shop."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:10
+msgid ""
+"On the previous page, you have created the shopping cart and decided "
+"which product to buy (i.e. which project to donate KUDOS to)."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:11
+msgid ""
+"As Taler is not yet universally used, we expect merchants will offer "
+"various payment options."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:12
+msgid "To continue with the demo, select the &quot;Taler&quot; payment option."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:17
+msgid ""
+"Note that you must select Taler here for the demo to continue, as the "
+"other payment options are just placeholders and not really working in the"
+" demonstration."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:18
+msgid ""
+"It would be possible to ask the user to make this choice already on the "
+"previous page (with the shopping cart); we just separated the two steps "
+"to keep each step as simple as possible."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:44
+msgid "Confirm selection"
+msgstr ""
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:4
+msgid "Donation Receipt"
+msgstr ""
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:7
+msgid ""
+"Thank you, <strong>{donor}</strong>, for donating "
+"<strong>{amount}</strong> to <strong>{receiver}</strong>."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:12
+msgid ""
+"Please keep the order identifier <strong>{id}</strong> as a receipt for "
+"your donation."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:13
+msgid ""
+"You can show other people that you donated by sharing <a "
+"href=\"{link}\">this link</a> with them."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:19
+msgid "You can always make <a href=\"{link}\">another donation</a>."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-index.html.j2:4
+msgid "Donate to Free Software projects"
+msgstr ""
+
+#: talermerchantdemos/templates/donations-index.html.j2:8
+msgid ""
+"This donations website shows the user experience for donations with GNU "
+"Taler."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-index.html.j2:9
+msgid "You can make donations in an toy currency ({currency})"
+msgstr ""
+
+#: talermerchantdemos/templates/donations-index.html.j2:16
+msgid ""
+"Please select a project, the amount (*) of {currency} you wish to donate,"
+" and enter the donor's name that will appear on your receipt:"
+msgstr ""
+
+#: talermerchantdemos/templates/donations-index.html.j2:33
+msgid "Anonymous Donor"
+msgstr ""
+
+#: talermerchantdemos/templates/donations-index.html.j2:34
+msgid "Donate!"
+msgstr ""
+
+#: talermerchantdemos/templates/donations-index.html.j2:39
+msgid ""
+"(*) To make the demo a bit more interesting, the 5 {currency} option is "
+"deliberately implemented with a fault: the merchant will try to make you "
+"donate 6 {currency} instead of the 5 {currency} shown in the form.  But "
+"do not worry, you will be given the opportunity to review the final offer"
+" from the merchant in the Taler wallet.  That way, Taler protects you "
+"from committing to erroneous payments."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-provider-not-supported.html.j2:4
+msgid "Payment Provider Not Supported"
+msgstr ""
+
+#: talermerchantdemos/templates/donations-provider-not-supported.html.j2:7
+msgid "Unfortunately the selected payment provider is not supported in this demo."
+msgstr ""
+
+#: talermerchantdemos/templates/donations-provider-not-supported.html.j2:8
+msgid "Please go back and select &quot;Taler&quot;."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-base.html.j2:7
+msgid "This is the GNU Taler demo."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-base.html.j2:8
+msgid "Here you can try out the GNU Taler payment system using a toy currency."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:4
+msgid "Step 1: Install the Taler wallet"
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:7
+msgid "Install the wallet from the <a href=\"{link}\">installation page</a>."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:8
+msgid "Installation only takes one click."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:12
+msgid ""
+"After installation, you may be asked to grant the browser-based Taler "
+"wallet additional optional permissions that allow it to improve your user"
+" experience."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:13
+msgid ""
+"These permissions will allow the wallet to automatically open if a page "
+"asks for a Taler payment."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:14
+msgid ""
+"Regardless of the permissions you grant, the wallet will never transmit "
+"information about you or your browsing history to anyone."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:19
+msgid "Step 2: Withdraw coins"
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:22
+msgid "In this demo you are paying with {currency}, an imaginary currency."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:23
+msgid ""
+"To withdraw {currency} coins you must first create an account at our <a "
+"href=\"{bank}\">bank</a>."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:24
+msgid "Signing up only requires you to pick a username and password."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:25
+msgid ""
+"When you create an account at our bank, you will be credited 100 "
+"{currency} for signing up."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:26
+msgid ""
+"Afterwards, use the bank's Web interface to authorize the transfer of "
+"{currency} to your wallet."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:30
+msgid ""
+"Once you have completed this step, you can click on the Taler icon in "
+"your browser to check your balance."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:35
+msgid "Step 3: Pay"
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:38
+msgid "We have two demo merchants where you can spend your coins:"
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:44
+msgid ""
+"At the <a href=\"{blog}\">essay store</a> you can pay in {currency} for "
+"individual chapters of Richard Stallman&#39;s book &quot;Free Software, "
+"Free Society&quot;."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:45
+msgid "The book is also available for free at <a href=\"{fsf}\">the FSF</a>."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:50
+msgid ""
+"At the project <a href=\"{donations}\">donation website</a> you can show "
+"respect to a software project of your choice by donating {currency} to "
+"them."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:56
+msgid "Step 4: Check money flow"
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:59
+msgid ""
+"You can see the wire transfers from the escrow account of the exchange to"
+" the merchants on the <a href=\"{bank}\">public accounts page</a> of the "
+"bank."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:60
+msgid ""
+"Note that only accounts configured to be publicly viewable are shown on "
+"that page."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:65
+msgid "Step 5: Survey"
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:68
+msgid "Websites can give tips to visitors for completing tasks."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:69
+msgid ""
+"You can earn some {currency} coins by filling in our <a "
+"href=\"{url}\">survey</a>."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:81
+msgid "Step 6: Reach out to us"
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:84
+msgid "We appreciate feedback about Taler and this demonstrator."
+msgstr ""
+
+#: talermerchantdemos/templates/landing-index.html.j2:85
+msgid "Let us know what you think by <a href=\"{link}\">contacting us</a>."
+msgstr ""
+
+#: talermerchantdemos/templates/survey-base.html.j2:6
+msgid "Survey"
+msgstr ""
+
+#: talermerchantdemos/templates/survey-base.html.j2:8
+msgid "This page demonstrates how to tip visitors for completing small tasks."
+msgstr ""
+
+#: talermerchantdemos/templates/survey-base.html.j2:9
+msgid ""
+"Tipping is a way for offer cash rewards that go directly into a user's "
+"wallet."
+msgstr ""
+
+#: talermerchantdemos/templates/survey-index.html.j2:6
+msgid ""
+"Please participate in our survey about payment systems and receive a tip "
+"in return."
+msgstr ""
+
+#: talermerchantdemos/templates/survey-index.html.j2:12
+msgid "Which payment system do you prefer?"
+msgstr ""
+
+#: talermerchantdemos/templates/survey-index.html.j2:23
+msgid "Submit Survey"
+msgstr ""
+
+#~ msgid "GNU Taler"
+#~ msgstr ""
+
+#~ msgid "Taxable Anonymous Libre Electronic Reserves"
+#~ msgstr ""
+
+#~ msgid "Contact"
+#~ msgstr ""
+
+#~ msgid "Docs"
+#~ msgstr ""
+
+#~ msgid "FAQ"
+#~ msgstr ""
+
+#~ msgid "Bibliography"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "GNU Taler is developed as part of"
+#~ " the <a href='https://www.gnu.org/'>GNU "
+#~ "project</a> for the GNU operating "
+#~ "system."
+#~ msgstr ""
+
+#~ msgid "and"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We are grateful for support and "
+#~ "free hosting of this site by <a"
+#~ " href='https://www.bfh.ch/'>BFH</a>."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This page was created using <a "
+#~ "href='https://www.gnu.org/'>Free Software</a> only."
+#~ msgstr ""
+
+#~ msgid "JavaScript license information"
+#~ msgstr ""
+
+#~ msgid "Features"
+#~ msgstr ""
+
+#~ msgid "Principles"
+#~ msgstr ""
+
+#~ msgid "News"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "News posts about changes related to "
+#~ "GNU Taler such as releases and "
+#~ "events"
+#~ msgstr ""
+
+#~ msgid "subscribe to our RSS feed"
+#~ msgstr ""
+
+#~ msgid "read more"
+#~ msgstr ""
+
+#~ msgid "Taler System Architecture"
+#~ msgstr ""
+
+#~ msgid "GNU Taler Bibliography"
+#~ msgstr ""
+
+#~ msgid "by"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is the page for the Taler "
+#~ "cashier App. It allows the cashier "
+#~ "to grant Taler users the right to"
+#~ " withdraw a certain amount of e-cash"
+#~ " from the cashier's bank account. "
+#~ "Thus, it offers an equivalent "
+#~ "functionality to what you may find "
+#~ "on the bank Web site when "
+#~ "withdrawing from an account there."
+#~ msgstr ""
+
+#~ msgid "Install Android App from Google App Store, or"
+#~ msgstr ""
+
+#~ msgid "Download App from F-Droid.org."
+#~ msgstr ""
+
+#~ msgid "Contact information"
+#~ msgstr ""
+
+#~ msgid "The mailing list"
+#~ msgstr ""
+
+#~ msgid "An archived, public mailing list for GNU Taler is hosted at"
+#~ msgstr ""
+
+#~ msgid "archive"
+#~ msgstr ""
+
+#~ msgid "You can send messages to the list at"
+#~ msgstr ""
+
+#~ msgid "Contacting individuals"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Team members are generally reachable at"
+#~ " <tt>LASTNAME@taler.net</tt>. All of us "
+#~ "support receiving GnuPG encrypted e-mails."
+#~ msgstr ""
+
+#~ msgid "Chat"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can find some team members in"
+#~ " the IRC channel <tt>#taler</tt> on "
+#~ "<tt>irc.freenode.net</tt>."
+#~ msgstr ""
+
+#~ msgid "Reporting bugs"
+#~ msgstr ""
+
+#~ msgid "We track open feature requests and bugs in our"
+#~ msgstr ""
+
+#~ msgid "Bug tracker"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "which is shared with the GNUnet "
+#~ "project. You can also report bugs "
+#~ "or feature requests to the mailing "
+#~ "list."
+#~ msgstr ""
+
+#~ msgid "General inquiries"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can reach a group of team "
+#~ "members handling general inquiries at "
+#~ "<tt>contact AT taler.net</tt>."
+#~ msgstr ""
+
+#~ msgid "Executive team"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For non-technical commercial requests, "
+#~ "please contact <tt>ceo AT taler.net</tt>."
+#~ msgstr ""
+
+#~ msgid "Copyright Assignment"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Contributors to GNU Taler with Git "
+#~ "access must sign the <a "
+#~ "href=\"/pdf/copyright.pdf\">copyright assignment</a> to"
+#~ " ensure that the <a "
+#~ "href=\"https://git.gnunet.org/gnunet-"
+#~ "ev.git/tree/gnunet_taler_agreement.tex\">GNUnet e.V. ---"
+#~ " Taler Systems SA agreement on "
+#~ "licensing and collaborative development</a> of"
+#~ " the GNUnet and GNU Taler projects"
+#~ " is satisfied."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The agreements ensure that the code "
+#~ "will continue to be made available "
+#~ "under free software licenses, which "
+#~ "gives developers the freedom to move "
+#~ "code between GNUnet and GNU Taler "
+#~ "without worrying about licenses and the"
+#~ " company the ability to dual-license"
+#~ " (for example, so that we can "
+#~ "distribute via App-stores that are "
+#~ "hostile to free software)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Minor contributions (basically, anyone without"
+#~ " Git access) do not require copyright"
+#~ " assignment. Pseudonymous contributions are "
+#~ "accepted, in this case simply sign "
+#~ "the agreement with your pseudonym. "
+#~ "Scanned copies are sufficient, but snail"
+#~ " mail is preferred."
+#~ msgstr ""
+
+#~ msgid "GNU Taler: Documentation and Resources"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is an overview of documentation "
+#~ "and other resources for GNU Taler. "
+#~ "The full documentation contents can be"
+#~ " found <a href=\"https://docs.taler.net/\">here</a>."
+#~ msgstr ""
+
+#~ msgid "Components"
+#~ msgstr ""
+
+#~ msgid "Merchant Backend Administration"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Tutorial and manual for operating a "
+#~ "merchant. Also available as <a "
+#~ "href=\"https://%(docshost)s/pdf/taler-merchant-"
+#~ "manual.pdf\">PDF</a>."
+#~ msgstr ""
+
+#~ msgid "Merchant API Tutorial"
+#~ msgstr ""
+
+#~ msgid "Tutorial for processing Taler payments using the merchant backend API."
+#~ msgstr ""
+
+#~ msgid "Also available as <a href=\"%(link)s\">PDF</a>."
+#~ msgstr ""
+
+#~ msgid "Exchange"
+#~ msgstr ""
+
+#~ msgid "Operator&#39;s manual for the GNU Taler exchange."
+#~ msgstr ""
+
+#~ msgid "Bank Integration"
+#~ msgstr ""
+
+#~ msgid "Manual for tightly integrating Taler with banking applications."
+#~ msgstr ""
+
+#~ msgid "Wallet"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Manual about the Taler wallets "
+#~ "(WebExtensions, Android, CLI). You can "
+#~ "download pre-packaged binaries from <a"
+#~ " href=\"wallet.html\">the Taler wallet Web "
+#~ "site</a>."
+#~ msgstr ""
+
+#~ msgid "Back office"
+#~ msgstr ""
+
+#~ msgid "Manual to run the back-office Web application."
+#~ msgstr ""
+
+#~ msgid "Merchant POS Terminal"
+#~ msgstr ""
+
+#~ msgid "Manual for configuring and using the point of sale app."
+#~ msgstr ""
+
+#~ msgid "Cashier"
+#~ msgstr ""
+
+#~ msgid "An app for taking in cash and handing out electronic cash."
+#~ msgstr ""
+
+#~ msgid "Internals"
+#~ msgstr ""
+
+#~ msgid "HTTP API"
+#~ msgstr ""
+
+#~ msgid "Reference for the HTTP-based API for Taler components."
+#~ msgstr ""
+
+#~ msgid "Onboarding"
+#~ msgstr ""
+
+#~ msgid "Description of our taler.net setup and how to contribute."
+#~ msgstr ""
+
+#~ msgid "Community"
+#~ msgstr ""
+
+#~ msgid "Mailing List"
+#~ msgstr ""
+
+#~ msgid "The official GNU Taler mailing list."
+#~ msgstr ""
+
+#~ msgid "IRC"
+#~ msgstr ""
+
+#~ msgid "Our IRC channel is #taler on freenode."
+#~ msgstr ""
+
+#~ msgid "Bug Tracker"
+#~ msgstr ""
+
+#~ msgid "Our bug tracker for bugs and feature request."
+#~ msgstr ""
+
+#~ msgid "Code"
+#~ msgstr ""
+
+#~ msgid "Git repositories"
+#~ msgstr ""
+
+#~ msgid "Git repositories for all of GNU Taler."
+#~ msgstr ""
+
+#~ msgid "lcov results"
+#~ msgstr ""
+
+#~ msgid "Shows results of the code coverage analysis for our test suite."
+#~ msgstr ""
+
+#~ msgid "Continuous integration"
+#~ msgstr ""
+
+#~ msgid "Continuous integration and deployment is managed by our Buildbot."
+#~ msgstr ""
+
+#~ msgid "How is Taler related to Bitcoin or Blockchains?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Taler does not require any Blockchain"
+#~ " technology, and is also not based"
+#~ " on proof-of-work or any other"
+#~ " distributed consensus mechanism. Instead, "
+#~ "Taler is based on blind signatures. "
+#~ "However, it is theoretically possible to"
+#~ " combine Taler with peer-to-peer "
+#~ "crypto-currencies like Bitcoin."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It would be possible, however, to "
+#~ "withdraw coins denominated in Bitcoin "
+#~ "into a Taler wallet (with an "
+#~ "appropriate exchange), which would give "
+#~ "some benefits over plain Bitcoin, such"
+#~ " as instant confirmation times."
+#~ msgstr ""
+
+#~ msgid "Where is the balance in my wallet stored?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your wallet stores digital coins and "
+#~ "thus ultimately your computer holds your"
+#~ " balance. The exchange keeps funds "
+#~ "matching all unspent coins in an "
+#~ "escrow bank account."
+#~ msgstr ""
+
+#~ msgid "What if my wallet is lost?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Since the digital coins of value "
+#~ "in your wallet are anonymized, the "
+#~ "exchange can not assist you in "
+#~ "recovering a lost or stolen wallet. "
+#~ "Just like with a physical wallet "
+#~ "for cash, you are responsible for "
+#~ "keeping it safe."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The risk of losing a wallet can"
+#~ " be mitigated by making backups or"
+#~ " keeping the balance reasonably low."
+#~ msgstr ""
+
+#~ msgid "What if my computer is hacked?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In case of a compromise of one "
+#~ "of your devices, an attacker can "
+#~ "spend coins from your wallet. Checking"
+#~ " your balance might reveal to you "
+#~ "that your device has been compromised."
+#~ msgstr ""
+
+#~ msgid "Can I send money to my friend with Taler?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If your friend provides goods or "
+#~ "services for you in exchange for a"
+#~ " payment, they can easily set up "
+#~ "a Taler merchant and receive the "
+#~ "payment in their bank account."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Future versions of the Taler wallet "
+#~ "may allow exchanging coins among friends"
+#~ " directly as well."
+#~ msgstr ""
+
+#~ msgid "How does Taler handle payments in different currencies?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Taler wallets can store digital coins"
+#~ " corresponding to multiple different "
+#~ "currencies such as the Euro, US "
+#~ "Dollars or Bitcoins."
+#~ msgstr ""
+
+#~ msgid "Taler currently does not offer conversion between currencies."
+#~ msgstr ""
+
+#~ msgid "How does Taler protect my privacy?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your wallet stores digital coins that"
+#~ " are <a "
+#~ "href=\"https://en.wikipedia.org/wiki/Blind_signature\">blindly "
+#~ "signed</a> by an exchange. The use "
+#~ "of a blind signature protects your "
+#~ "privacy as it prevents the exchange "
+#~ "from knowing which coin it signed "
+#~ "for which customer."
+#~ msgstr ""
+
+#~ msgid "How much does it cost?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Taler protocol allows any exchange"
+#~ " to set its own fee structure, "
+#~ "allowing operators to set fees for "
+#~ "withdrawing, depositing, refreshing or "
+#~ "refunding coins. Operators can also "
+#~ "charge fees for closing reserves and "
+#~ "for (aggregated) wire transfers to "
+#~ "merchants. Merchants may choose to cover"
+#~ " some of the fees customers incur."
+#~ " Actual transaction costs are estimated "
+#~ "around 0.001 cent/transaction (at high "
+#~ "transaction rates, amortized over billions "
+#~ "of transactions, excluding migration costs)."
+#~ " Note that this is an early "
+#~ "estimate, details may depend on hosting"
+#~ " and backup requirements from the "
+#~ "regulator and could thus easily be "
+#~ "10x higher."
+#~ msgstr ""
+
+#~ msgid "Does Taler work with international payments?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Taler&#39;s wallet supports multiple "
+#~ "currencies, but the system currently "
+#~ "does not support conversion between "
+#~ "currencies. However, in principle an "
+#~ "entity that accepts deposits in one "
+#~ "currency and allows withdrawals in "
+#~ "another currency could be created. "
+#~ "Still, the regulatory hurdles in this"
+#~ " case tend to be particularly "
+#~ "complex. The focus for Taler is on"
+#~ " day-to-day payments, so we "
+#~ "have no plans to support currency "
+#~ "conversion in the near future."
+#~ msgstr ""
+
+#~ msgid "How does Taler relate to the (European) Electronic Money Directive?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We believe the European Electronic Money"
+#~ " Directive provides part of the "
+#~ "regulatory framework a Taler exchange "
+#~ "with coins denominated in Euros would"
+#~ " have to follow."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "What bank would guarantee the conversion"
+#~ " between Taler coins and bank money"
+#~ " in regular bank accounts?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The exchange would be operated by "
+#~ "a bank or in cooperation with a"
+#~ " bank, and that bank would hold "
+#~ "the funds in escrow. Note that "
+#~ "this bank could be a regular bank"
+#~ " or a central bank for a "
+#~ "centrally banked electronic currency. "
+#~ "Regardless, the bank would fall under"
+#~ " the respective banking regulations "
+#~ "establishing a reason why consumers "
+#~ "would have faith in the conversion "
+#~ "from Taler coins into regular bank "
+#~ "money."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To whom would consumers complain to "
+#~ "in case of non-conversion or "
+#~ "non-compliance?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Any exchange should be audited by "
+#~ "one or more independent auditors. "
+#~ "Merchants and consumer wallets will "
+#~ "report certain issues automatically to "
+#~ "the auditors, but auditors may also "
+#~ "provide a method for manual submission"
+#~ " of issues. The auditors are expected"
+#~ " to make their reports available to"
+#~ " the respective regulatory authorities, or"
+#~ " even the general public."
+#~ msgstr ""
+
+#~ msgid "Are there any projects already using Taler?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We are aware of several businesses "
+#~ "running exploratory projects or having "
+#~ "developed working prototypes. We are "
+#~ "also in discussions with several regular"
+#~ " banks as well as several central "
+#~ "banks about the project. That said, "
+#~ "there are currently no products in "
+#~ "the market yet, and we believe "
+#~ "this would be premature given the "
+#~ "state of the project (see also <a"
+#~ " href=\"https://gnunet.org/bugs/\">our bugtracker</a> "
+#~ "for a list of open issues)."
+#~ msgstr ""
+
+#~ msgid "Does Taler support recurring payments?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Today, our wallet implementation does "
+#~ "not support recurring payments. Recurring "
+#~ "payments, where some fixed amount is "
+#~ "paid on a regular basis are in "
+#~ "theory possible with Taler, but they "
+#~ "come with a few caveats. Specifically,"
+#~ " recurring payments can only work if"
+#~ " the Taler wallet is running and "
+#~ "online around the desired time. "
+#~ "Furthermore, given their repetitive nature "
+#~ "they are linkable, and could thus "
+#~ "be used to deanonymize the user "
+#~ "making the recurring payment, for "
+#~ "example by forcing the user offline "
+#~ "at the time of the payment and "
+#~ "observing that it does then not "
+#~ "happen on time. Finally, the Taler "
+#~ "wallet does not work with credit "
+#~ "and thus the user would have to"
+#~ " make sure to carry a sufficient "
+#~ "balance for the recurring payment to "
+#~ "be made. Still, they can be "
+#~ "useful, and a future version of "
+#~ "the Taler wallet will likely support "
+#~ "them. But this is not a feature"
+#~ " that we are targeting for Taler "
+#~ "1.0. at this time."
+#~ msgstr ""
+
+#~ msgid "GNU Taler: Features"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "GNU Taler is a <span class=\"tlr"
+#~ "\">privacy-preserving</span> payment system. "
+#~ "Customers can stay anonymous, but "
+#~ "merchants can not hide their income "
+#~ "through payments with GNU Taler. This"
+#~ " helps to <span class=\"tlr\">avoid tax "
+#~ "evasion and money laundering</span>."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The primary use case of GNU Taler"
+#~ " is <span class=\"tlr\">payments</span>; it "
+#~ "is <span class=\"tlr\">not meant as a"
+#~ " store</span> of value. Payments are "
+#~ "always backed by an existing currency."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Payments are made after <span "
+#~ "class=\"tlr\">exchanging existing money</span> into"
+#~ " <em>electronic money</em> with the help"
+#~ " of an Exchange service, that is, "
+#~ "a payment service provider for Taler."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When making a payment, customers only"
+#~ " need a charged wallet. A merchant"
+#~ " can accept payments <span "
+#~ "class=\"tlr\">without making their customers "
+#~ "register</span> on the merchant&#39;s Website."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "GNU Taler is <span class=\"tlr\">immune "
+#~ "against many types of fraud</span>, such"
+#~ " as phishing of credit card "
+#~ "information or chargeback fraud. In case"
+#~ " of loss or theft, only the "
+#~ "limited amount of money left in "
+#~ "the wallet might be gone."
+#~ msgstr ""
+
+#~ msgid "Paying with Taler"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To pay with Taler, customers install "
+#~ "an electronic wallet on their device."
+#~ " Before the first payment, the "
+#~ "desired currency must be added to "
+#~ "the wallet&#39;s balance by some other"
+#~ " means of payment."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once the wallet is charged, payments "
+#~ "on websites take only one click, "
+#~ "are never falsely rejected by fraud "
+#~ "detection and do not pose any risk"
+#~ " of phishing or identity theft."
+#~ msgstr ""
+
+#~ msgid "Try it yourself with the interactive demo!"
+#~ msgstr ""
+
+#~ msgid "Receiving payments with Taler"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To receive Taler payments, a merchant"
+#~ " needs a bank account in the "
+#~ "desired currency. We provide supporting "
+#~ "software in various programming languages "
+#~ "to make the integration painless. The"
+#~ " merchant&#39;s backend for Taler "
+#~ "transaction processing can run on the"
+#~ " merchant&#39;s premises or be hosted "
+#~ "by a third party."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Merchant integration is simple, and "
+#~ "customers can pay for products without"
+#~ " even having to register an account."
+#~ msgstr ""
+
+#~ msgid "See how merchant integration works in our developer documentation!"
+#~ msgstr ""
+
+#~ msgid "Practical"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Taler is easy to integrate with "
+#~ "existing Web applications. Payments are "
+#~ "cryptographically secured and are confirmed"
+#~ " within milliseconds with extremely low "
+#~ "transaction costs."
+#~ msgstr ""
+
+#~ msgid "Stable"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Taler does not introduce a new "
+#~ "currency. Taler uses a digital wallet"
+#~ " storing coins and payment service "
+#~ "providers with escrow accounts in "
+#~ "existing currencies. Thus, Taler&#39;s "
+#~ "cryptographic coins correspond to existing "
+#~ "currencies, such as US Dollars, Euros"
+#~ " or even Bitcoins."
+#~ msgstr ""
+
+#~ msgid "Secure"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "By design Taler does not suffer "
+#~ "from many classes of security problems"
+#~ " such as phishing or counterfeit. "
+#~ "Thanks to its security features, Taler"
+#~ " never rejects a legitimate customer "
+#~ "due to a fraud-detection false "
+#~ "positive."
+#~ msgstr ""
+
+#~ msgid "Taxable"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When using Taler, merchant&#39;s revenue "
+#~ "is transparent for tax collection "
+#~ "authorities. Unlike cash and most "
+#~ "digital currencies, Taler helps prevent "
+#~ "black markets. Taler is not suitable "
+#~ "for illegal activities."
+#~ msgstr ""
+
+#~ msgid "Private"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you pay with Taler, your "
+#~ "identity does not have to be "
+#~ "revealed. Just like payments in cash,"
+#~ " nobody else can track how you "
+#~ "spent your electronic money. However, "
+#~ "you obtain a legally valid proof "
+#~ "of payment."
+#~ msgstr ""
+
+#~ msgid "Libre"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Taler provides protocols and reference "
+#~ "implementations that in principle enables "
+#~ "anybody to run their own payment "
+#~ "infrastructure, be it individuals, "
+#~ "organizations or whole countries. Since "
+#~ "the reference implementation is a"
+#~ msgstr ""
+
+#~ msgid "package, it will always remain free software."
+#~ msgstr ""
+
+#~ msgid "Financial News"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This page explains (only in English) "
+#~ "how Taler can change ongoing "
+#~ "developments in the financial industry."
+#~ msgstr ""
+
+#~ msgid "Advantages for Governments"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Taler provides accountability to ensure "
+#~ "business operate legally, while also "
+#~ "respecting civil liberties of citizens. "
+#~ "Taler is a payment system based on"
+#~ " open standards and free software. "
+#~ "Taler needs governments as they set "
+#~ "a financial framework and act as "
+#~ "trusted regulators. Taler contributes to "
+#~ "digital sovereignty in the critical "
+#~ "financial infrastructure."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Taler was built with the goal of"
+#~ " fighting corruption and supporting "
+#~ "taxation. With Taler, the receiver of"
+#~ " any form of payment is easily "
+#~ "identified by the government, and the"
+#~ " merchant can be compelled to provide"
+#~ " the contract that was accepted by"
+#~ " the customer. Governments can use "
+#~ "this data to tax businesses and "
+#~ "individuals based on their income, "
+#~ "making tax evasion and black markets "
+#~ "less viable."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Thus, despite offering anonymity for "
+#~ "citizens spending digital cash to buy"
+#~ " goods and services, Taler also "
+#~ "ensures that the state can observe "
+#~ "incoming funds. This can be used "
+#~ "to ensure businesses engage only in "
+#~ "legal activities, and do not evade "
+#~ "income tax, sales tax or value-"
+#~ "added tax. However, this observational "
+#~ "capability does not extend to the "
+#~ "immediate personal domain. In particular, "
+#~ "monitoring does not cover shared access"
+#~ " to funds with trusted friends and"
+#~ " family, or synchronizing wallets across"
+#~ " multiple devices."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Taler&#39;s payments are cryptographically "
+#~ "secured. Thus, customers, merchants and "
+#~ "the Taler payment service provider (the"
+#~ " exchange) can mathematically demonstrate "
+#~ "their lawful behavior in court in "
+#~ "case of disputes. Financial damages are"
+#~ " strictly limited, improving economic "
+#~ "security for individuals, merchants, the "
+#~ "exchange and the state."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As a payment service provider, the "
+#~ "Taler exchange is subject to financial"
+#~ " regulation. Financial regulation and "
+#~ "regular audits are critical to establish"
+#~ " trust. In particular, the Taler "
+#~ "design mandates the existence of an "
+#~ "independent auditor who checks cryptographic"
+#~ " proofs that accumulate at the "
+#~ "exchange to ensure that the escrow "
+#~ "account is managed honestly. This "
+#~ "ensures that the exchange does not "
+#~ "threaten the economy due to fraud."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Taler is free software implementing an"
+#~ " open protocol standard. Thus, Taler "
+#~ "will enable competition and avoid the"
+#~ " monopolization of payment systems that "
+#~ "threatens global political and financial "
+#~ "stability today."
+#~ msgstr ""
+
+#~ msgid "Efficient"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Taler has an efficient design. Unlike"
+#~ " Blockchain-based payment systems, such "
+#~ "as Bitcoin, Taler will not threaten "
+#~ "the availability of national electric "
+#~ "grids or (significantly) contribute to "
+#~ "environmental pollution."
+#~ msgstr ""
+
+#~ msgid "Taler and regulation"
+#~ msgstr ""
+
+#~ msgid "Anti money laundering (AML)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "With Taler, income is visible and "
+#~ "can be tied to the contract signed"
+#~ " by both parties."
+#~ msgstr ""
+
+#~ msgid "Know your customer (KYC)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Taler, payer and payee are "
+#~ "known by their bank accounts when "
+#~ "withdrawing or depositing coins respectively"
+#~ msgstr ""
+
+#~ msgid "General Data Protection Regulation (GDPR)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Taler cryptographically protects citizen's "
+#~ "privacy, and by design implements data"
+#~ " minimization and privacy by default."
+#~ msgstr ""
+
+#~ msgid "Payment Services Directive (PSD2)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Taler provides an open standard with "
+#~ "public APIs contributing to a "
+#~ "competitive banking sector."
+#~ msgstr ""
+
+#~ msgid "Taler provides privacy and accountability"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Taler assumes governments can observe "
+#~ "traditional wire transfers entering and "
+#~ "leaving the Taler payment system. "
+#~ "Starting with the wire transfers, "
+#~ "governments can obtain:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The total amount of digital currency "
+#~ "withdrawn by a customer. The government"
+#~ " can impose limits on how much "
+#~ "digital cash a customer can withdraw "
+#~ "within a given time frame."
+#~ msgstr ""
+
+#~ msgid "The income received by any merchant via the Taler system."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The exact details of the underlying "
+#~ "contract that was signed between "
+#~ "customer and merchant. However, this "
+#~ "information would typically not include "
+#~ "the identity of the customer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The amounts of digital coins "
+#~ "legitimately withdrawn by customers from "
+#~ "the exchange, the value of non-"
+#~ "redeemed digital coins in customer&#39;s "
+#~ "wallets, the value and corresponding "
+#~ "wire details of deposit operations "
+#~ "performed by merchants with the "
+#~ "exchange, and the income of the "
+#~ "exchange from transaction fees."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We provide a payment system that "
+#~ "makes <span class='tlr'>privacy-friendly</span> "
+#~ "online transactions <span class='tlr'>fast and"
+#~ " easy</span>."
+#~ msgstr ""
+
+#~ msgid "Payments without registration"
+#~ msgstr ""
+
+#~ msgid "Data protection by default"
+#~ msgstr ""
+
+#~ msgid "Fraud eliminated by design"
+#~ msgstr ""
+
+#~ msgid "Not a new currency!"
+#~ msgstr ""
+
+#~ msgid "Empowers communities to run their own payment infrastructure"
+#~ msgstr ""
+
+#~ msgid "Free Software"
+#~ msgstr ""
+
+#~ msgid "Try Demo!"
+#~ msgstr ""
+
+#~ msgid "Read Docs"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is the page for the Taler "
+#~ "PoS App. It allows a vendor to "
+#~ "maintain a list of products and to"
+#~ " quickly build up Taler contracts and"
+#~ " process Taler payments for these "
+#~ "contracts. Its main use-case is "
+#~ "for a mensa, cafeteria or restaurant "
+#~ "when vending food from a menu."
+#~ msgstr ""
+
+#~ msgid "GNU Taler in the Press"
+#~ msgstr ""
+
+#~ msgid "2021"
+#~ msgstr ""
+
+#~ msgid "2020"
+#~ msgstr ""
+
+#~ msgid "2019"
+#~ msgstr ""
+
+#~ msgid "2018"
+#~ msgstr ""
+
+#~ msgid "2017"
+#~ msgstr ""
+
+#~ msgid "2016"
+#~ msgstr ""
+
+#~ msgid "2015"
+#~ msgstr ""
+
+#~ msgid "GNU Taler: Design Principles"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When designing GNU Taler, we had "
+#~ "the following design principles in mind:"
+#~ msgstr ""
+
+#~ msgid "1. Free/Libre Software"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "... in the area of computing, "
+#~ "freedom means not using proprietary "
+#~ "software"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "GNU Taler must be <a "
+#~ "href=\"https://www.gnu.org/philosophy/free-sw.html\">Free/Libre"
+#~ " Software</a>. For merchants, Free/Libre "
+#~ "Software prevents vendor lock-in meaning"
+#~ " merchants can easily choose another "
+#~ "service provider to process their "
+#~ "payments. For countries, Free/Libre software"
+#~ " means GNU Taler can not compromise"
+#~ " sovereignty by imposing restrictions or"
+#~ " requirements. And for exchange operators,"
+#~ " transparency is crucial to satisfy "
+#~ "<a "
+#~ "href=\"https://en.wikipedia.org/wiki/Kerckhoffs's_principle\">Kerckhoff's"
+#~ " principle</a> and to establish public "
+#~ "confidence."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Customers benefit from Free/Libre Software "
+#~ "because anyone is free to modify "
+#~ "the wallet software support additional "
+#~ "platforms. The source code must be "
+#~ "available and make it easy to "
+#~ "verify that user-hostile features such"
+#~ " as tracking or telemetry are absent."
+#~ msgstr ""
+
+#~ msgid "2. Protect the privacy of buyers"
+#~ msgstr ""
+
+#~ msgid "You deserve some privacy"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Privacy is most meaningful when it "
+#~ "is guaranteed via technical measures, as"
+#~ " opposed to mere policies. Without a"
+#~ " technical layer providing privacy-by-"
+#~ "default, financial transactions reveal "
+#~ "unnecessary levels of personal or "
+#~ "private data. This would be especially"
+#~ " true when making micropayments for "
+#~ "online publications. Thus, GNU Taler "
+#~ "must protect the privacy of buyers "
+#~ "to avoid facilitating totalitarian control "
+#~ "over the population."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Limited private data, such as the "
+#~ "shipping address for a physical "
+#~ "delivery, may need to be collected "
+#~ "according to business needs and "
+#~ "protected according to local laws. In"
+#~ " this case, GNU Taler must enable "
+#~ "deletion of such data as soon as"
+#~ " it is no longer required."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "3. Auditability - enable the state "
+#~ "to tax income and crack down on"
+#~ " illegal business activities"
+#~ msgstr ""
+
+#~ msgid "Money laundering"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As a payment system must comply "
+#~ "with local laws in order to "
+#~ "operate legally, GNU Taler must be "
+#~ "designed to comply with these "
+#~ "requirements. GNU Taler must provide an"
+#~ " audit trail for investigators operating"
+#~ " under the law. Furthermore, we "
+#~ "consider levying of taxes as beneficial"
+#~ " to society, and fair taxation "
+#~ "requires income transparency. Thus, GNU "
+#~ "Taler must enable authorities to track"
+#~ " income."
+#~ msgstr ""
+
+#~ msgid "4. Prevent payment fraud"
+#~ msgstr ""
+
+#~ msgid "Phishing attack"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "GNU Taler must mitigate the most "
+#~ "common sources of payment fraud. We "
+#~ "must follow best practices in software"
+#~ " design, 3rd party design guidelines "
+#~ "that prevent confusion and misleading "
+#~ "user interfaces, and must have others"
+#~ " inspect our publicly available code. "
+#~ "Furthermore, GNU Taler must provide "
+#~ "extensive cryptographic evidence for all "
+#~ "key processes to enable all parties "
+#~ "to precisely attribute bad behavior."
+#~ msgstr ""
+
+#~ msgid "5. Collect the minimum information necessary"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Privacy by design, privacy by default,"
+#~ " General Data Protection Regulation (GDPR)"
+#~ " compliant"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The privacy of buyers is given "
+#~ "particular priority as part of principle"
+#~ " (2). However, other parties - such"
+#~ " as merchants - also must have "
+#~ "data protection. Generally, GNU Taler "
+#~ "must collect the minimum information "
+#~ "necessary: data that is not collected"
+#~ " or is no longer stored can not"
+#~ " be compromised."
+#~ msgstr ""
+
+#~ msgid "6. Be usable"
+#~ msgstr ""
+
+#~ msgid "Buy with one click. Easy for children."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "GNU Taler must be usable for "
+#~ "non-expert customers including end-users"
+#~ " of a GNU Taler wallet, merchants "
+#~ "who wish to accept payments using "
+#~ "GNU Taler, and 3rd party application "
+#~ "developers for e-commerce and other "
+#~ "platforms. GNU Taler must follow "
+#~ "best-practices usability guidelines and "
+#~ "incorporate feedback from experts and "
+#~ "users. Free/Libre software also requires "
+#~ "Free/Libre documentation to allow for "
+#~ "informed choices. GNU Taler must provide"
+#~ " well-documented Application Programming "
+#~ "Interfaces (APIs) to allow frictionless "
+#~ "integrations between GNU Taler and other"
+#~ " projects."
+#~ msgstr ""
+
+#~ msgid "7. Be efficient"
+#~ msgstr ""
+
+#~ msgid "Energy efficiency"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "GNU Taler must be designed to be"
+#~ " efficient. Quite simply, efficiency means"
+#~ " fewer things to break, and it "
+#~ "means more transactions per second and"
+#~ " lowers our environmental impact. "
+#~ "Efficiency is also critical for GNU "
+#~ "Taler to be used for micropayments. "
+#~ "Therefore certain expensive primitives, such"
+#~ " as proof-of-work, must not be"
+#~ " used by GNU Taler."
+#~ msgstr ""
+
+#~ msgid "8. Fault-tolerant design"
+#~ msgstr ""
+
+#~ msgid "Life Safers"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Malicious operators, fat fingers, computer "
+#~ "glitches, gremlins. Things go wrong. GNU"
+#~ " Taler must be designed to tolerate"
+#~ " failure of individual components and "
+#~ "systems. Where the system can continue"
+#~ " running safely, it will continue "
+#~ "running safely. Where it must halt "
+#~ "an operation, other operations must not"
+#~ " be needlessly pulled offline. Where "
+#~ "systems fail, they must fail gracefully."
+#~ " GNU Taler must have a plan to"
+#~ " recover from malicious operators "
+#~ "compromising core secrets."
+#~ msgstr ""
+
+#~ msgid "9. Foster competition"
+#~ msgstr ""
+
+#~ msgid "A competitive market"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It must be relatively easy for "
+#~ "competitors to deploy interoperable "
+#~ "alternatives. The barriers for this in"
+#~ " traditional financial systems are rather"
+#~ " high and outside of our control. "
+#~ "However, GNU Taler must minimize the "
+#~ "technical burden for new competitors to"
+#~ " enter the market. GNU Taler must "
+#~ "enable a diverse set of operators, "
+#~ "breaking up the current system where "
+#~ "only a few global companies dominate "
+#~ "the market. An example for a "
+#~ "design choice that supports this is "
+#~ "to split the whole system into "
+#~ "smaller components that can be operated,"
+#~ " developed and improved upon independently,"
+#~ " instead of having one completely "
+#~ "monolithic system."
+#~ msgstr ""
+
+#~ msgid "SchemaFuzz"
+#~ msgstr ""
+
+#~ msgid "Congratulations, you have installed the Taler wallet. Check out the"
+#~ msgstr ""
+
+#~ msgid "demo"
+#~ msgstr ""
+
+#~ msgid "You don&#39;t have a wallet installed yet."
+#~ msgstr ""
+
+#~ msgid "Install the wallet for your browser below, then check out the"
+#~ msgstr ""
+
+#~ msgid "demonstration"
+#~ msgstr ""
+
+#~ msgid "or"
+#~ msgstr ""
+
+#~ msgid "is required, but it appears you don&#39;t have it installed."
+#~ msgstr ""
+
+#~ msgid "version"
+#~ msgstr ""
+
+#~ msgid "or newer is required, but it appears you have an older version."
+#~ msgstr ""
+
+#~ msgid "Install wallet"
+#~ msgstr ""
+
+#~ msgid "JavaScript is disabled, installation won&#39;t work."
+#~ msgstr ""
+
+#~ msgid "Install Download Chrome Extension"
+#~ msgstr ""
+
+#~ msgid "Install GNU Taler"
+#~ msgstr ""
+
+#~ msgid "from the Chrome Web Store"
+#~ msgstr ""
+
+#~ msgid "Download Android App from F-Droid (bypassing Google registration)."
+#~ msgstr ""
+
+#~ msgid "Other browsers"
+#~ msgstr ""
+
+#~ msgid "Wallets for other browsers will be provided in the near future."
+#~ msgstr ""
+
+#~ msgid "GNU Taler Demo: Essay Shop"
+#~ msgstr ""
+
+#~ msgid "Taler Demo"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can get free, virtual money to"
+#~ " buy articles on this page at "
+#~ "the <a href=\"{}\")\">bank</a>"
+#~ msgstr ""
+
+#~ msgid "Back-office"
+#~ msgstr ""
+
+#~ msgid "GNU Taler Demo: Donations"
+#~ msgstr ""
+
+#~ msgid "GNU Taler Demo: Introduction"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can see the wire transfers "
+#~ "from the escrow account of the "
+#~ "exchange to the merchants on the "
+#~ "<a href=\"{bank}/public-accounts\">public accounts"
+#~ " page</a> of the bank."
+#~ msgstr ""
+
+#~ msgid "GNU Taler Demo: Survey"
+#~ msgstr ""
+

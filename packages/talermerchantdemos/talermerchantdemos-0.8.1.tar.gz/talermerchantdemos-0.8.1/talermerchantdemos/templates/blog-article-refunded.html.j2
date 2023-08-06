@@ -1,0 +1,18 @@
+{% extends "blog-base.html.j2" %}
+{% block main %}
+
+<h2>{{ gettext("Refunded") }}</h2>
+
+<p>
+{{
+  gettext("Your payment (order ID <tt>{order}<tt>) for the article \"{article}\" has been refunded.").format(order=order_id,article=article_name)
+}}
+</p>
+
+<p>
+{{
+  gettext("You will not be able to read the article until you pay for it again.")
+}}
+</p>
+
+{% endblock main %}

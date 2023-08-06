@@ -1,0 +1,50 @@
+{% extends "donations-base.html.j2" %}
+
+{% block main %}
+<article>
+  <h1>{{ gettext("Select your payment method") }}</h1>
+
+  <p>
+  {{
+    gettext('This is an example for a "checkout" page of a Web shop.') + "<br\>" +
+    gettext('On the previous page, you have created the shopping cart and decided which product to buy (i.e. which project to donate KUDOS to).') + "<br/>" +
+    gettext('As Taler is not yet universally used, we expect merchants will offer various payment options.') + "<br/>" +
+    gettext('To continue with the demo, select the &quot;Taler&quot; payment option.')
+    }}
+  </p>
+  <p class="graybox">
+  {{
+    gettext('Note that you must select Taler here for the demo to continue, as the other payment options are just placeholders and not really working in the demonstration.') + "<br\>" +
+    gettext('It would be possible to ask the user to make this choice already on the previous page (with the shopping cart); we just separated the two steps to keep each step as simple as possible.')
+  }}
+  </p>
+
+  <form name="tform" action="{{ url_for('donate',lang=getlang()) }}" method="get">
+    <div id="opt-form" align="left"><br>
+      <input type="hidden" name="donation_receiver" value="{{ donation_receiver }}">
+      <input type="hidden" name="donation_amount" value="{{ donation_amount }}">
+      <input type="hidden" name="donation_donor" value="{{ donation_donor }}">
+
+      <input type="radio" name="payment_system" value="lisa" id="radio-lisa">
+      <label for="radio-lisa">Lisa</input>
+      <br/>
+
+      <input type="radio" name="payment_system" value="ycard" id="radio-ycard">
+      <label for="radio-ycard">You Card</label>
+      <br/>
+
+      <input type="radio" name="payment_system" value="cardme" id="radio-cardme">
+      <label for="radio-cardme">Card Me</label>
+      <br/>
+
+      <input type="radio" name="payment_system" value="taler" checked id="radio-taler">
+      <label for=radio-taler">Taler</label>
+      <br/>
+
+      <input id="select-payment-method" type="submit" value="{{gettext("Confirm selection")}}"></input>
+    </div>
+  </form>
+
+</article>
+
+{% endblock main %}

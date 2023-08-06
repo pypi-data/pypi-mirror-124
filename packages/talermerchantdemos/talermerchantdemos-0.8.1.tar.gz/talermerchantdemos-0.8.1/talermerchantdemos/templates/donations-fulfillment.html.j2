@@ -1,0 +1,22 @@
+{% extends "donations-base.html.j2" %}
+
+{% block main %}
+<h2>{{ gettext("Donation Receipt") }}</h2>
+<p>
+  {{
+    gettext("Thank you, <strong>{donor}</strong>, for donating <strong>{amount}</strong> to <strong>{receiver}</strong>.").format(donor=donation_donor,amount=donation_amount,receiver=donation_receiver)
+  }}
+</p>
+<p>
+  {{
+    gettext("Please keep the order identifier <strong>{id}</strong> as a receipt for your donation.").format(id=order_id) +
+    gettext('You can show other people that you donated by sharing <a href="{link}">this link</a> with them.').format(link=request.url)
+   }}
+</p>
+
+<p class="graybox">
+  {{
+     gettext('You can always make <a href="{link}">another donation</a>.').format(link=url_for('index'))
+  }}
+</p>
+{% endblock main %}

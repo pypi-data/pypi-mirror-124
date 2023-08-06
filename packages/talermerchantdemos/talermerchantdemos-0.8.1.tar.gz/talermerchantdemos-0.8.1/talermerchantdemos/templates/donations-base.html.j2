@@ -1,0 +1,13 @@
+{% extends "common-base.html.j2" %}
+
+{% block header_content %}
+
+<h1>
+<span class="it"><a href="{{ env('TALER_ENV_URL_MERCHANT_DONATIONS') }}">{{gettext("Donations")}}</a></span></h1>
+<p>{{
+gettext ("This is the donation page.") + "<br>" +
+gettext ("Using this page you can make donations in {currency} to Free Software projects.").format(currency=merchant_currency)
+}}
+</p>
+
+{% endblock %}

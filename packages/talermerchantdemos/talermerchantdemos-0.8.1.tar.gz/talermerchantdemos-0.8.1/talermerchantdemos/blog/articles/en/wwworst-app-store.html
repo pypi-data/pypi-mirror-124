@@ -1,0 +1,230 @@
+<!--#include virtual="/server/html5-header.html" -->
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+<title>The WWWorst App Store
+- GNU Project - Free Software Foundation</title>
+ <!--#include virtual="/philosophy/po/wwworst-app-store.translist" -->
+<!--#include virtual="/server/banner.html" -->
+<div class="reduced-width">
+<h2>The WWWorst App Store</h2>
+
+<address class="byline">by Alexandre Oliva</address>
+<div class="thin"></div>
+
+<p>Picture the most abusive app store.</p>
+
+<p>Programs in it are meant to run on your own computer.</p>
+
+<p>However, you have to be online to run them.</p>
+
+<p>Every time you start them, they contact the app store.</p>
+
+<p>If there is an updated version, it's installed automatically, no
+questions asked.  You'd rather run the earlier version?  Tough.</p>
+
+<p>If the app store decides you're no longer welcome, the program won't 
+start any more.</p>
+
+<p>If the app store servers are offline, or if you are, it won't start
+either.</p>
+
+<div class="important">
+<p>Programs in this app store must also hold your data in the app store's
+servers.</p>
+
+<p>If the program won't start, you can't get to the data on the servers
+any more.</p>
+
+<p>You may have downloaded backups of your data, but you'd have to figure
+out how to decode them without the program.</p>
+</div>
+
+<p>Sounds like a nightmare?  It is.  But it's also very real.</p>
+
+<p>Well-known app stores are approaching this level of nastiness.</p>
+
+<p>But they are just catching up with the real thing.</p>
+
+<p>The most abusive app store is the business-driven perversion of the
+old user-empowering distributed hypertext system called &ldquo;the Web.&rdquo;</p>
+
+<p>Users have been encouraged to adopt &ldquo;web apps&rdquo; for much of their
+computing, paving the way for other app stores to follow suit.</p>
+
+<div class="important">
+<p>&ldquo;Web apps&rdquo; are most often distributed as JavaScript (though Java and
+Flash have served similar purposes), automatically installed and
+executed on your browser.</p>
+
+<p>But the problem is not that they're in JavaScript, or that it's your
+browser that runs them.  It's that:</p>
+
+<ul>
+<li>you don't have control over what the program does;</li>
+<li>you don't have control over when you can run it;</li>
+<li>you don't have control over your own data.</li>
+</ul>
+
+<p>The app store owner takes all that control away from you, thereby
+gaining control over you.</p>
+
+<p>You lose when the JavaScript code is nonfree software.<br />
+<a href="/philosophy/javascript-trap.html">
+https://www.gnu.org/philosophy/javascript-trap.html</a></p>
+
+<p>But you also lose when it is (nominally) free software!</p>
+</div>
+
+<p>When the app / web site has so much control over what runs on
+your computer, the effect &ldquo;is equivalent to using a nonfree program
+with surveillance features and a universal back door.&rdquo; <br />
+<a href="/philosophy/network-services-arent-free-or-nonfree.html">
+https://www.gnu.org/philosophy/network-services-arent-free-or-nonfree.html</a> <br />
+
+<a href="/philosophy/who-does-that-server-really-serve.html">
+https://www.gnu.org/philosophy/who-does-that-server-really-serve.html</a> </p>
+
+<p>The owner gets all the freedom, and you, the user, get none.</p>
+
+<p>That's not a self-respectful way to do your computing.</p>
+
+<p>It invades your privacy, it keeps you and your data hostage, it takes
+away your agency and your freedom when it comes to your digital life.</p>
+
+<hr class="column-limit" />
+
+<p>The web used to be a wonderful way to share information.</p>
+
+<p>Web apps and mandatory JavaScript have turned it into the worst app
+store.</p>
+
+<p>It is time to separate the WWWonderful from the WWWorst practices.</p>
+
+<p>Here are some ways to help:</p>
+
+<ul>
+<li>request web sites that require JavaScript execution to offer either:
+  <ul>
+  <li>alternate means of access to information they publish, or</li>
+  <li>alternate means of delivery for their apps;</li>
+  </ul>
+</li>
+
+<li>promote free browser extensions that control JavaScript execution;<br />
+<a href="/software/librejs/">https://www.gnu.org/software/librejs/</a></li>
+
+<li>beware of apps that are mere front ends for SaaSS;<br />
+<a href="/philosophy/who-does-that-server-really-serve.html">
+https://www.gnu.org/philosophy/who-does-that-server-really-serve.html</a></li>
+
+<li>demand software you use to be delivered in freedom-respecting ways;</li>
+
+<li>promote hypertext systems that do not grant servers control over users.<br />
+<a href="https://en.wikipedia.org/wiki/Gemini_(protocol)">
+https://en.wikipedia.org/wiki/Gemini_(protocol)</a><br />
+<a href="https://en.wikipedia.org/wiki/Gopher_(protocol)">
+https://en.wikipedia.org/wiki/Gopher_(protocol)</a></li>
+</ul>
+
+<p>More generally:</p>
+
+<ul>
+<li>as a self-respecting user, reject the abusive practices whenever you can;<br />
+<a href="/philosophy/saying-no-even-once.html">
+https://gnu.org/philosophy/saying-no-even-once.html</a></li>
+
+<li>discourage automatic execution of downloaded code;<br />
+<a href="https://www.fsfla.org/blogs/lxo/pub/who-is-afraid-of-spectre-and-meltdown.en.html">
+https://www.fsfla.org/blogs/lxo/pub/who-is-afraid-of-spectre-and-meltdown.en.html</a></li>
+
+<li>as a network service operator, set a user-respecting example;<br />
+<a href="/philosophy/network-services-arent-free-or-nonfree.html">
+https://www.gnu.org/philosophy/network-services-arent-free-or-nonfree.html</a></li>
+
+<li>spread awareness of the problem, and advice on solving and avoiding it.<br />
+<a href="/help/help-javascript.html">
+https://www.gnu.org/help/help-javascript.html</a></li>
+</ul>
+
+<p>Now, if you wish your site to give its users a taste of how the
+WWWorst app store feels to us, add to web pages you control the
+following JavaScriptlet:</p>
+
+<p class="emph-box">
+document.body.textContent = 'Please disable JavaScript to view this site.'</p>
+
+<p>If you wish, make &ldquo;disable JavaScript&rdquo; a link to this article.</p>
+
+<hr class="column-limit" />
+
+<p>Thanks to Richard Stallman for the inspiration to write about this
+issue, and for the encouragement to publish it.</p>
+
+<p><em>2021-04-01 update:</em>&nbsp; thanks to KE0VVT for letting me know that
+textContent can't have links; you need innerHTML for that.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+<!--#include virtual="/server/footer.html" -->
+<div id="footer" class="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2021 Alexandre Oliva</p>
+
+<p>This page is licensed under the <a rel="license"
+href="https://creativecommons.org/licenses/by-sa/4.0/">Creative
+Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+
+<!--#include virtual="/server/bottom-notes.html" -->
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/04/05 18:30:56 $
+<!-- timestamp end -->
+</p>
+</div>
+</div>
+</body>
+</html>
