@@ -1,0 +1,9 @@
+flake8_force_keyword_arguments/__init__.py,sha256=s9fHhqWHmAYRJQJgPSZvq46LMHuZT4DQqAlhah5K5sU,351
+flake8_force_keyword_arguments/checker.py,sha256=lLHIQlpkduJnn58LbPcb_TFVTFaODrmxAKffzoBD81A,6109
+flake8_force_keyword_arguments/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flake8_force_keyword_arguments/util.py,sha256=UOf2iN2QJGXOlxuOufVn2fJXk4iOyA6EIFdFDJmKIwE,3488
+flake8_force_keyword_arguments-1.0.0.dist-info/entry_points.txt,sha256=XUB58b3Y7OyYfDuXdR5KRNjOrS2JxVjrDbu0S9Ja9KE,64
+flake8_force_keyword_arguments-1.0.0.dist-info/LICENSE,sha256=E5cT9UqPXTpaqC34iLSbByhG6OAYVhjGeIu_3nGltNU,1071
+flake8_force_keyword_arguments-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+flake8_force_keyword_arguments-1.0.0.dist-info/METADATA,sha256=DZ4kCUwTFyL53CfelHbS4UGmIqGgVrKdMP-YoxlQ6oo,7110
+flake8_force_keyword_arguments-1.0.0.dist-info/RECORD,,
