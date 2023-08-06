@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# ◎ systemctl | grep fail 查詢失敗的服務
+
+# ◎ systemctl reset-failed 重置失敗正在清除失敗的單元
+
+

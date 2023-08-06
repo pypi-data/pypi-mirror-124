@@ -1,0 +1,23 @@
+#!/bin/bash
+
+
+#mysql -e "SHOW DATABASES;"
+
+
+
+
+echo "SHOW DATABASES;">txt.sql
+
+mysql -u root -p <txt.sql >  cat.txt
+
+rm -rf ./txt.sql
+
+
+echo " "
+echo " ################################## "
+echo " ################################## "
+echo " "
+
+
+## 刪除資料庫
+# DROP DATABASE `moon`;

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+## 重新啟動服務
+systemctl restart nginx 
+# ls -al /usr/share/nginx/html
+
+
+

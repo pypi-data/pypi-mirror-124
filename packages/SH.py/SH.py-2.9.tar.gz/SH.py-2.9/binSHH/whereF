@@ -1,0 +1,46 @@
+#!/bin/bash
+
+
+######
+## 成功
+## QQ變數
+## $2 臨時切換變數 
+############################
+if   [ "$#" = "2" ]
+then
+    cd $2
+    QQ=`pwd`
+    find $QQ -type f -name $1
+elif [ "$#" = "1" ]
+then
+    QQ=`pwd`
+    find $QQ -type f -name $1
+else
+    echo "指令 [檔案XX]  [指定path]"
+    echo ""
+    echo ""
+fi
+
+
+
+
+
+
+
+## 取得上層目錄
+# QQ=`pwd`
+# echo "刪除 ${QQ##*/} 專案"
+
+
+
+# ## 刪除
+# cd ..
+# rm -rf ./${QQ##*/}
+
+
+# ## 下載
+# cloneX ${QQ##*/}
+
+
+# find . -name gtwang.txt
+

@@ -1,0 +1,59 @@
+#!/bin/bash
+
+
+
+################# 修改配置
+##
+
+## 取得上層目錄 #########
+cd  /etc/nginx
+QQ=`pwd`
+QQ=${QQ##*/}
+
+if   [ "$QQ" = "nginx" ]
+then
+    if   [ "$#" = "0" ]
+    then
+        ########################
+        ##
+        ## 改變 nginx
+        mkdir -p  /etc/nginx/conf.d
+        cd  /etc/nginx/conf.d
+        echo "測試點A"
+        rm -rf  ./*
+        rm -rf  default.conf
+        wget https://raw.githubusercontent.com/moon-start/SH/master/binSHHconf/default.C.conf
+
+
+        ## 修改檔案
+        ###################################C# root /usr/share/nginx/html/laravel/public;
+        mv      default.C.conf   default.conf
+        # echo "測試點B"
+        # sed -i "s/專案名稱/$1/g"  default.conf
+
+
+        ## 修改檔案
+        cd ..
+        rm -rf  ./nginx.conf
+        wget https://raw.githubusercontent.com/moon-start/SH/master/binSHHconf/nginx.conf
+
+
+        ## 重新啟動
+        nginx -t
+        ##################################
+        # 避免 nginx: [error] invalid PID number "" in "/run/nginx.pid"
+        nginx -c /etc/nginx/nginx.conf
+        nginx -s reload
+    else 
+        echo ""
+        echo "說明 [指令] [無參數]"
+        echo ""
+    fi
+else
+    clear
+    echo ""
+    echo "cd /etc/nginx 失敗"
+    echo ""
+    echo "請確認 nginx 安裝!!"
+    echo ""
+fi

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/www
+git clone https://github.com/moon-start/$1.git

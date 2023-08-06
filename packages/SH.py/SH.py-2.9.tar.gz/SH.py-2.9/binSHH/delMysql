@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+## 移除
+yum -y remove mysql mysql-server
+
+## 刪除設定檔
+rm -rf /etc/mysql rm -rf /var/lib/mysql
+
+
+#5.7下
+#UPDATE mysql.user SET Password=PASSWORD('hello123') where USER='root';
+#XXX
+#UPDATE mysql.user SET authentication_string=PASSWORD('hello123') where USER='root';
+# 8版本
+# ALTER USER 'root'@'localhost' IDENTIFIED BY 'hello123';

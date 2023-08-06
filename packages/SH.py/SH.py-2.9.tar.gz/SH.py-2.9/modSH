@@ -1,0 +1,24 @@
+#!/bin/bash
+
+echo `pwd`
+##########  git clone https://github.com/moon-start/SH.git
+
+
+############## 預設是家目錄
+# cd ~/SH 無效
+# echo chmod +x `pwd`/*.sh
+chmod +x ~/SH/bin/*
+
+
+# PATH=`pwd`:$PATH:12345
+# export PATH
+
+##  nano ~/.bash_profile
+# echo export PATH=`pwd`:$PATH:12345
+
+# PATH=$
+# echo export PATH>>~/.bash_profile 
+
+# source ~/.bash_profile
+
+ln ~/SH/bin/*  /usr/bin

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+cd ~/SH
+
+sh ok

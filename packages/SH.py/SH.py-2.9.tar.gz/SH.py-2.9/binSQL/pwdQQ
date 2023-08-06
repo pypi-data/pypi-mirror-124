@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+
+if [ ! -f  /etc/profile.QQ ] ; then
+##################### >> 注意是附加 不要覆蓋
+    echo "QQ=\`pwdQQ.sh\`">>/etc/profile
+    #echo "source /etc/profile">>/etc/profile
+
+    echo "已經產生" > /etc/profile.QQ
+    echo "請重登系統~!!"
+    echo ""
+else 
+    echo "已經設定過~!!"
+    echo ""
+fi
+
+
+
+
+## 使用方式
+
+#1# pwdQQ
+
+#2# cd $QQ  

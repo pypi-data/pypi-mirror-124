@@ -1,0 +1,4 @@
+#!/bin/bash
+
+### 設定網卡IP
+nmtui

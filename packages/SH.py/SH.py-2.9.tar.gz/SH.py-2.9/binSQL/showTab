@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+#mysql -e "SHOW TABLES FROM $1 ;"
+
+echo "SHOW TABLES FROM $1;">txt.sql
+
+mysql -u root -p <txt.sql
+
+rm -rf ./txt.sql
+

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+if    [ "$#" = "0" ]
+then
+    echo "建立指令  [輸入::MV名稱]"
+else  [ "$#" = "1" ]
+    mkvirtualenv $1 --python=python3
+fi
+
+
+
+

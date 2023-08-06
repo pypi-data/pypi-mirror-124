@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+## 打包
+tar cvf views.tar views
+
+## 分開
+tar xvf FileName.tar

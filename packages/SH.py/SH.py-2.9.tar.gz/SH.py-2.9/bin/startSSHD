@@ -1,0 +1,4 @@
+#!/bin/bash
+
+### 重新啟動 SSHD
+sudo systemctl restart sshd

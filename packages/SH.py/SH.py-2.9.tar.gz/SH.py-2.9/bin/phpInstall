@@ -1,0 +1,21 @@
+#!/bin/bash
+
+cd ~/www
+git clone https://github.com/moon-start/PHPproject.git
+
+cd ./PHPproject
+composer install
+
+# 注意一下目錄權限設定
+chown -R nginx ../PHPproject
+semanage fcontext -a -t httpd_sys_rw_content_t "/usr/share/nginx/html/PHPproject/storage(/.*)?"
+semanage fcontext -a -t httpd_sys_rw_content_t "/usr/share/nginx/html/PHPproject/resources(/.*)?"
+restorecon -Rvv ../PHPproject
+
+# 設定 .env 檔案
+# cd ../PHPproject
+cp .env.example .env
+
+
+# 設定加密的 key
+php artisan key:generate

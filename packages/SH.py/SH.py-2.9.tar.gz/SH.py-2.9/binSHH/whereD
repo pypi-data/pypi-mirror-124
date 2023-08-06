@@ -1,0 +1,58 @@
+#!/bin/bash
+
+
+
+######
+## 成功
+## QQ變數
+## $2 臨時切換變數 
+############################
+if   [ "$#" = "2" ]
+then
+    cd $2
+    QQ=`pwd`
+    find $QQ -type d -name $1
+elif [ "$#" = "1" ]
+then
+    QQ=`pwd`
+    find $QQ -type d -name $1
+else
+    echo "指令 [目錄XX]  [指定path]"
+    echo ""
+    echo ""
+fi
+
+
+# #!/bin/bash
+# if [ ! -f "$1" ];then
+# echo "當前目錄不存在文件: $1"
+# else
+# echo "當前目錄存在文件: $1"
+# fi
+
+
+# if [ -d "/path/to/dir" ]; then
+#     # 目錄 /path/to/dir 存在
+#     echo "Directory /path/to/dir exists."
+# else
+#     # 目錄 /path/to/dir 不存在
+#     echo "Directory /path/to/dir does not exists."
+# fi
+
+## 取得上層目錄
+# QQ=`pwd`
+# echo "刪除 ${QQ##*/} 專案"
+
+
+
+# ## 刪除
+# cd ..
+# rm -rf ./${QQ##*/}
+
+
+# ## 下載
+# cloneX ${QQ##*/}
+
+
+# find . -name gtwang.txt
+

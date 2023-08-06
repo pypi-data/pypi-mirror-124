@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# 回復到上一個版本的資料庫結構
+php artisan migrate:rollback

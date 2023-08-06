@@ -1,0 +1,6 @@
+#!/bin/bash
+
+### 當前目錄的底下bin
+cd `pwd`/bin
+
+echoSH ./*

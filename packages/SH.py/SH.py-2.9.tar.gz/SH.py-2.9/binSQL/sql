@@ -1,0 +1,72 @@
+#!/bin/bash
+# mysql -u root -p
+# show variables like '%secure%';
+# show variables like 'tmpdir';
+
+
+### 一行顯示
+### ls -l /usr/ |awk '/^d/ {print $NF}'
+
+# ### 顯示目前的 目錄
+# for dir in $(ls `pwd`/)
+# do
+#  #echo "123"
+#  echo $dir
+#  #[ -d $dir ] && echo $dir
+# done
+
+
+## 方法C
+# while read line
+# do
+#     echo $line
+# done < file\("$1"\)
+## 方法A
+# for line in `cat file(待讀取的檔案)`
+# do
+#     echo $line
+
+# done
+## 方法B
+
+# cat file($1) | while read line
+# do
+#     echo $line
+# done
+
+
+# filename="$1"
+# while IFS='' read -r line || [[ -n "$line" ]]; do
+#     echo "a $line" # 一行一行印出內容，前面加上 a
+# done < $filename
+
+## 方法B
+# SS=-1
+# #filename="$1"
+# while IFS='' read -r line || [[ -n "$line" ]]; do
+#     mysql -e "$line"
+#     echo "$line"
+#     # ## 數字
+#     # ((SS++))
+#     # echo "$SS"
+#     # ## 陣列
+#     # ARR[$SS]="$line"
+
+
+# done < "$1"
+
+
+
+## 用法 + 輸入密碼
+## sql /usr/bin/moon.sql 
+mysql -u root -p < $1
+
+# pass.sh 
+
+# set timeout 1                  
+# set name [lindex $argv 0 ]   
+# set G [lindex $argv 1 ]   
+# spawn $name $G
+#     expect "輸入密碼\r"
+#     send "hello123\r"
+#     expect eof

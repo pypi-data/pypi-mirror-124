@@ -1,0 +1,31 @@
+#!/bin/bash
+
+## 查看檔案 
+## ls database/migrations 
+
+
+if [ "$#" = "0" ]
+then
+    # sh ok `pwd`
+    ####################
+    ####################
+    ### 沒有 len()==0 時
+    # 產生一份   migrate資料表
+    php artisan migrate:install
+    cls
+    # 顯示       migrate資料表
+    php artisan migrate:status
+    ####################
+    ## 一開始會  Migration table not found.  找不到遷移表。
+    # ls database/migrations 
+else
+    ## 查看檔案 
+    ## ls database/migrations 
+    cd database
+    cd migrations
+    cls 
+    nano $1.php
+    # nano $1
+fi
+
+

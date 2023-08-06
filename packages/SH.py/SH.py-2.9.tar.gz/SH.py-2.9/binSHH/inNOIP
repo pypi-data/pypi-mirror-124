@@ -1,0 +1,29 @@
+#!/bin/bash
+
+
+### 安裝GGC
+yum -y update gcc
+yum -y install gcc
+
+
+### 安裝 no-ip
+cd /usr/local/src/
+wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
+tar xf noip-duc-linux.tar.gz
+cd noip-2.1.9-1/
+make install
+
+
+## 輸入
+## moon-start
+## 0516
+
+## 網址]
+## moon-start.myftp.org  (預設30天)
+
+
+## 更新 分
+# /usr/local/scr
+
+echo "*/1 * * * * root noip2" >> /etc/crontab
+

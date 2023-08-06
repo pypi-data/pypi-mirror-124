@@ -1,0 +1,19 @@
+#!/bin/bash
+
+
+
+
+# 設定加密的 key
+# php artisan key:generate
+
+
+
+if    [ "$#" = "0" ]
+then
+    echo ""
+    echo "請輸入中介層的名稱"
+    echo ""
+else  [ "$#" = "1" ]
+    # 專案/app/Http/Middleware
+    php artisan make:middleware $1leware
+fi

@@ -1,0 +1,40 @@
+#!/bin/bash
+
+
+
+
+if [ "$#" = "0" ]
+then
+    cd ~/www
+elif [ "$#" = "1" ]
+then
+    ## 改變 nginx
+    cd  /etc/nginx/conf.d
+    rm -rf  default.conf
+    wget https://raw.githubusercontent.com/moon-start/SH/master/binSHHconf/default.B.conf
+
+    ## 修改檔案
+    mv      default.B.conf   default.conf
+
+    ## 範本 echo ${$1/AA/BB}
+    #### string="This is a testing"   ## 第4組
+    #### substr=$(echo $string | cut -d" " -f 4)
+    
+    ###  %% 號擷取，刪除右邊字元，保留左邊字元
+    # echo ${var%%/*}
+    
+    ### php變數  =  不能空白
+    ########################## 要留意的是，跟PHP或Python等不同，在等號（=）前後不可以加入空間。
+    var=$1
+    # sum=${var:0-1}
+    sum=${var%%/*}
+    sed -i "s/專案名稱/$sum/g"  default.conf
+
+    nginx -t
+    nginx -s reload
+    cls    
+    echo ""
+    echo "[執行結果]: 目前是 $sum 專案"
+    echo ""
+fi
+

@@ -1,0 +1,69 @@
+#!/bin/bash
+
+
+## 取得上層目錄
+QQ=`pwd`
+QQ=${QQ##*/}
+
+if   [ -f "`pwd`/package.json" ]; then
+    # 檔案 /path/to/dir/filename 存在
+    #echo "存在A."
+    if [ -f "`pwd`/composer.json" ]; then
+        # 檔案 /path/to/dir/filename 存在
+        #echo "存在B."
+        if [ -f "`pwd`/.env" ]; then
+            # 檔案 /path/to/dir/filename 存在
+            #echo "存在C."
+
+
+
+            ### 看这句提示，是因为缺少 package.json 这个文件。
+            ### 初始化項目
+            # yum remove nodejs npm -y
+            # npm init -f
+
+            ## https://ithelp.ithome.com.tw/articles/10191783
+            # 這邊是一個範例
+            # 首先我先使用了 tree node_modules -L 1 這個指令
+            # 來展示 node_modules 下面有的所有 dependency
+            # 接著，我使用 rm -rf node_modules 來把 node_modules 整個砍掉
+            # 但是我們會發現在再執行 npm install 之後
+            # 我們之前所需要的函式庫都回來了
+            # 這可以幫助 npm 跟 git 相容
+            # 因為你不需要把整個龐大的 node_modules 都丟進版本控制裡
+            # 只要把 package.json 儲存起來就好了！
+
+            ## 查看
+            # 這邊是一個範例
+            # tree node_modules -L 1 
+            ## 刪除 
+            # 把 node_modules 整個砍掉
+            rm -rf node_modules 
+
+            ##
+            npm install font-awesome
+
+            ## 這個必須要加上
+            ##############################################
+            ### 找不到要導入的樣式表。
+            ### // Bootstrap
+            ### @import '~bootstrap/scss/bootstrap';
+            ### App.scss
+            ### 產生失敗 /css/app.css 
+            npm install bootstrap
+            ##########################################
+            cls 
+            ### 編譯，把 \resources\assets\sass 
+            echo "編譯scss，專案/resources/sass目錄。"
+            npm install && npm run dev
+            echo "產生css，於\public\css的資料夾下，"
+        else
+            echo "(位置不對) does not exists."
+        fi
+    fi
+else
+    # 檔案 /path/to/dir/filename 不存在
+    echo "(位置不對) does not exists."
+fi
+
+

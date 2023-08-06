@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+
+## 用法 + 輸入密碼
+## sql /usr/bin/moon.sql 
+mysql -u root -p < /usr/bin/$1_data.sql
+

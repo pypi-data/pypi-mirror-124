@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+
+############# 專案名稱
+php artisan make:controller $1Controller --resource --model=$1
+
+
+
+
+### 建立 2個檔案
+### app/QQ.php
+### app/Http/Controllers/QQController.php
+# php artisan make:controller QQController --resource --model=QQ

@@ -1,0 +1,60 @@
+#!/bin/bash
+
+
+### 指令說明
+### 返回
+# phpDM laravel pull
+### 建置
+# phpDM laravel       
+
+
+if [ "$#" = "0" ]
+then
+    ### 建立 資料庫moon
+    sql_DATA_B.sh
+    cls
+    ## 這是XP的 addDM.bat 建立檔案函數
+    ## up() : 當執行 php artisan migrate 指令時，即會呼叫該方法，建立資料表!
+    ## down() : 當執行 php artisan migrate:rollback 指令時，即會呼叫該方法，還原資料庫結構！
+
+
+    ## 呼叫 所有up 
+    ## 新增資料表(呼叫)
+    php artisan migrate
+
+
+
+    ## database/migrations
+    ## 增加了3個表格(額外)
+    # customers[自訂]
+    # failed_jobs
+    # password_resets
+    # users
+
+
+    ## 這一行解決 資料庫權限
+    ## SQLSTATE [HY000] [2002]權限被拒絕
+    setsebool httpd_can_network_connect_db 1
+elif [ "$#" = "2" ]
+then
+    ## 2個參數 且是 pull
+    if [ "$2" = "pull" ]
+    then
+        cd ~/www
+        cd $1
+        cls 
+        php artisan migrate:rollback
+    else
+        echo "請輸出 pull 回到上一次的結構"
+    fi
+else
+    ### 建立 資料庫moon
+    sql_DATA.sh
+    cls
+    ###################
+    cd ~/www
+    cd $1
+    cls 
+    php artisan migrate
+    setsebool httpd_can_network_connect_db 1
+fi

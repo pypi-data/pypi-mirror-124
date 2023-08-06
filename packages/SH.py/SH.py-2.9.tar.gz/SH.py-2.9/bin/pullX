@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+
+
+
+if   [ "$#" = "0" ]
+then
+    echo "請填入~!專案"
+elif [ "$#" = "1" ]
+then
+    #################
+    cd ~/www
+    cd $1
+    cls
+    #################
+    git reset --hard HEAD~
+    git pull
+    echo ""
+    echo ""
+    echo "git pull [$1 結束]"
+fi

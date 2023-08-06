@@ -1,0 +1,265 @@
+#!/bin/bash
+## PID 刪除
+# ps aux | grep "clonePHP"
+## 強制刪除
+# kill -9 15150
+
+
+## 取得上層目錄 #########
+QQ=`pwd`
+QQA=${QQ##*/}
+
+if   [ "$#" = "5" ]
+then
+########################
+    ## 下載 moonADD
+    wget https://raw.githubusercontent.com/moon-start/SH/master/binSQL/moonADD
+    ## 建立一個 moon 資料庫
+    ## 執行 (會要求輸入 MySQL密碼)
+    sh moonADD moon
+    rm -rf ./moonADD
+
+    #安裝需要的套件
+    yum -y install php-xml rsyslog
+    systemctl start rsyslog
+
+    ## 假設尚未安裝
+    #cd ~/www
+    #cloneX $1
+    ############# 專案名稱
+    #cd ~/www/$1
+    # composer create-project --prefer-dist laravel/laravel PHPproject
+    # 在專案底下?
+    ########
+    cd $1
+    rm -rf ./laravel
+    
+    ## ma
+    git clone https://github.com/moon-start/laravel.git
+    ## 改下載 子儲存庫
+    git clone -b  IP115的專案  --single-branch  git@github.com:moon-start/laravel.git  "laravel"
+
+    cd ./laravel
+    composer install 
+
+
+
+    # DB_PORT=3306
+    # DB_DATABASE=moon
+    # DB_USERNAME=root
+    # DB_PASSWORD=hello123
+    ## 不太適合用 wget ...改用 git clone?
+    ### 指令設計 在composer專案 
+    ###################### 建議寫在XP專案 一起上傳
+    ## 在專案頂層目錄
+    rm -rf  .env
+    wget https://raw.githubusercontent.com/moon-start/SH/master/binSHHconf/.env
+    sed -i "s/3306/$2/g"      .env
+    sed -i "s/moon/$3/g"      .env
+    sed -i "s/root/$4/g"      .env
+    sed -i "s/hello123/$5/g"  .env
+
+    ## 修改權限
+    # chownPHP $1
+    #### 修改目錄的 權限
+    chown -R nginx ../
+    semanage fcontext -a -t httpd_sys_rw_content_t "/usr/share/nginx/html/laravel/storage(/.*)?"
+    semanage fcontext -a -t httpd_sys_rw_content_t "/usr/share/nginx/html/laravel/resources(/.*)?"
+    restorecon -Rvv ../
+
+
+    ## 更新KEY
+    php artisan key:generate
+
+    ## 1.首先關閉artisan服務器並更改.env文件並運行以下命令
+    # php artisan cache:clear
+    # php artisan config:clear
+    # php artisan route:clear
+    
+    # 然後運行 http://127.0.0.1:8000
+    # php artisan serve   # 不需要這行
+
+
+    # ######  不要使用了
+    # ######
+    # ## 不太適合用 wget ...改用 git clone?
+    # ## blade.tar CSS
+    # ## TAR 檔案的布置
+    # cd /root/www/$1/resources/views
+    # wget https://raw.githubusercontent.com/moon-start/SH/master/binTAR/blade.tar
+    # tar xvf blade.tar
+    # rm -rf  blade.tar
+
+
+
+
+    ##  設定 mysql 環境
+    yum install php-mysqlnd
+    systemctl restart php-fpm
+    setsebool httpd_can_network_connect_db 1
+
+
+
+
+    ########################
+    ############### 安裝 Auth
+    ## composer.json ########
+    composer update
+    #########################
+    composer dump-autoload
+    composer require laravel/ui --dev  ## 方法B
+
+
+    ## 產生............[auth/login.blade.php ..等等文件  The [layouts/app.blade.php] v
+    ## 已經存在..??               
+    #php artisan ui vue --auth   ## 這個會中斷?
+    ###
+
+
+    ############# 安裝 npm
+    # 安裝訊息
+    # $ yum info epel-release
+    # 安裝
+    yum -y install epel-release
+    yum -y install nodejs
+    # 版本
+    # $ node -v
+    ############# npm 指令安裝完成
+
+
+
+    ### 看这句提示，是因为缺少 package.json 这个文件。
+    ### 初始化項目
+    ### npm init -f  
+    ### 專案底下的 package.json
+    
+    ## 刪除 node_modules (當前目錄的)
+    rm -rf node_modules 
+
+
+    ##############################################
+    ### 找不到要導入的樣式表。
+    ### // Bootstrap
+    ### @import '~bootstrap/scss/bootstrap';
+    ### App.scss
+    ### 產生失敗 /css/app.css 
+    npm install bootstrap
+    ##########################################
+
+
+    # 執行 npm install，會安裝 專案/package.json 指定的套件
+    ########### https://ray247k.blogspot.com/2018/04/laravel-sass.html
+    # 初始化套件
+    # npm -install
+    # 這時候如果執行
+    # npm run dev
+    # 就會進行編譯，把 \resources\sass 內的資料編譯後儲存在
+    # \public 對應的資料夾下，詳細設定可以在 \webpack.mix.js 中看到
+    npm install && npm run dev
+    # 接下來我們把之前的 css 檔案直接複製貼上到
+    # \resources\sass\app.scss    ---------------貼到檔案中--只編譯  app.scss檔案....產生 public/css/app.css
+    # 再進行一次 npm run dev 編譯
+    # 記得把 view 引入的 CSS路徑更新！
+
+    # 如此作法，我們每次更改 CSS 都要重新編譯，這樣不是很麻煩嗎？
+    # 當然有解決的方法！
+    # npm run wstch
+    # 這個指令定義可以在 \package.json 中找到
+    # 之後 SASS會自行偵測是否有改動SCSS檔案，並且重新編譯
+    # 這樣用起來就和以前直接改CSS檔案一樣了呢！
+
+
+    ########
+    ######## 必須 建立好一個 moon
+    ########
+    ######## CREATE DATABASE moon;
+    ######## DROP DATABASE `moon`;
+    ### inDM <<<
+    php artisan migrate
+    setsebool httpd_can_network_connect_db 1
+
+
+
+
+
+########################
+elif   [ "$#" = "1" ]
+then
+    ## 下載 moonADD
+    wget https://raw.githubusercontent.com/moon-start/SH/master/binSQL/moonADD
+    ## 建立一個 moon 資料庫
+    ## 執行 (會要求輸入 MySQL密碼)
+    sh moonADD moon
+    rm -rf ./moonADD
+    ##
+    ##
+    ##
+    #安裝需要的套件
+    yum -y install php-xml rsyslog
+    systemctl start rsyslog
+    ########
+    cd /usr/share/nginx/html/
+    rm -rf ./laravel
+    git clone https://github.com/moon-start/laravel.git
+    cd ./laravel
+    composer install 
+    ###################### 建議寫在XP專案 一起上傳
+    rm -rf  .env
+    wget https://raw.githubusercontent.com/moon-start/SH/master/binSHHconf/.env
+    sed -i "s/3303/3306/g"      .env
+    sed -i "s/moon/$1/g"   .env
+    sed -i "s/root/root/g"  .env
+    sed -i "s/hello123/hello123/g"  .env
+
+
+
+
+    ## 修改權限
+    # chownPHP $1
+    #### 修改目錄的 權限
+    chown -R nginx ../
+    semanage fcontext -a -t httpd_sys_rw_content_t "/usr/share/nginx/html/laravel/storage(/.*)?"
+    semanage fcontext -a -t httpd_sys_rw_content_t "/usr/share/nginx/html/laravel/resources(/.*)?"
+    restorecon -Rvv ../
+
+
+    ## 更新KEY
+    php artisan key:generate
+
+    ## 1.首先關閉artisan服務器並更改.env文件並運行以下命令
+    # php artisan cache:clear
+    # php artisan config:clear
+    # php artisan route:clear
+    # ##  設定 mysql 環境
+    yum install php-mysqlnd
+    systemctl restart php-fpm
+    setsebool httpd_can_network_connect_db 1
+    ########################
+    ## composer.json ########
+    composer update
+    #########################
+    composer dump-autoload
+    composer require laravel/ui --dev  ## 方法B
+    ############# 安裝 npm
+    yum -y install epel-release
+    yum -y install nodejs
+    ##########################################
+    npm install bootstrap
+    ##########################################
+    npm install && npm run dev
+    ##########################################
+    php artisan migrate
+    setsebool httpd_can_network_connect_db 1
+else
+    echo ""
+    echo "說明1 [指令] [nginx root] [port] [資料庫] [mysql使用者] [mysql密碼]"
+    echo ""
+    echo "說明2 [指令]  [資料庫]"
+    echo ""
+    echo "                [其他自動填入]"   
+    echo "                [nginx root] /usr/share/nginx/html/" 
+    echo "                [port] 3306" 
+    echo "                [mysql使用者] root" 
+    echo "                [mysql密碼] hello123"
+    echo ""
+fi

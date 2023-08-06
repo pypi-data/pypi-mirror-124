@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd ~/
+
+rm -rf ./SH
+
+git clone http://github.com/moon-start/SH.git
+
+cd ./SH

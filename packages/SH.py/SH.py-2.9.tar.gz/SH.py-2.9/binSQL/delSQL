@@ -1,0 +1,10 @@
+#!/bin/bash
+
+## sql 會刪除 ls -al /var/lib/mysql/moon目錄
+#######################################
+sed -i "s/moonK/$1/g" /usr/bin/del.sql
+
+## 用法 + 輸入密碼
+## sql /usr/bin/moon.sql 
+mysql -u root -p < /usr/bin/del.sql
+

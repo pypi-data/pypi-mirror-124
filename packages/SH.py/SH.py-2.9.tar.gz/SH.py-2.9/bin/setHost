@@ -1,0 +1,5 @@
+#!/bin/bash
+
+### 更改主機名稱
+hostnamectl set-hostname Moon
+

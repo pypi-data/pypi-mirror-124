@@ -1,0 +1,10 @@
+#!/bin/bash
+
+### 一次性的檔案
+### 顯示目前的 目錄
+for dir in $(ls `pwd`/bin)
+do
+ #echo "123"
+ echo $dir
+ #[ -d $dir ] && echo $dir
+done

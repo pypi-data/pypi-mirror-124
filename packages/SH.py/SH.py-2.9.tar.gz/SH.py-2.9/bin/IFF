@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# 進階範例：
+# 1.看/etc/passwd檔案的16～30行
+#head -n 30 /etc/passwd | tail -n 15
+
+
+#!/bin/bash
+
+
+if    [ "$#" = "0" ]
+then
+    echo "1"
+else  [ "$#" = "1" ]
+    echo "2"
+fi

@@ -1,0 +1,35 @@
+#!/bin/bash
+
+
+
+mysqldump -u root -p $1>$1B.sql
+
+
+echo "CREATE DATABASE $1;">$1.sql
+
+
+# 方法B
+SS=0
+#filename="$1"
+while IFS='' read -r line || [[ -n "$line" ]]; do
+    # ## 數字
+    #((SS++))
+    # echo "$SS"
+    # ## 陣列
+    # ARR[$SS]="$line"
+
+
+    echo "$line">>$1.sql
+    # if [ "$SS" = "23" ]
+    # then
+    #     echo "$line">>$1.sql
+    # else
+    #     #echo "$line"
+    #     ((SS++))
+    # fi
+
+done < "$1B.sql"
+
+
+
+rm -rf ./$1B.sql

@@ -1,0 +1,33 @@
+#!/bin/bash
+
+## 查看檔案 
+## ls database/migrations 
+
+
+if [ "$#" = "0" ]
+then
+    # sh ok `pwd`
+    ####################
+    ####################
+    ### 沒有 len()==0 時
+    cd app
+    cd Http
+    cd Controllers
+    cls
+    echo ""
+    echo "目前 Controllers 檔案"
+    echo ""
+    dir  
+    echo ""
+else
+    ## 查看檔案 
+    ## ls database/migrations 
+    cd app
+    cd Http
+    cd Controllers
+    cls
+    #nano $1
+    nano $1Controller.php
+fi
+
+
