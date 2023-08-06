@@ -1,0 +1,6 @@
+aws_sqs_batch_sender/__init__.py,sha256=m5T3bcGGNvTDdzVBs4ECEyigj4f-kQSYh-jmIfHkK1U,38
+aws_sqs_batch_sender/batch_sender.py,sha256=m511C7l_XuF222wI8iNpNhKVGMxVppO2U9ih34oGRHM,5828
+aws_sqs_batch_sender-1.0.0b1.dist-info/METADATA,sha256=R5EPB1y_TIAzpXbIuAi27jnk5BCTv-OvVI0_M4mldoI,1808
+aws_sqs_batch_sender-1.0.0b1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aws_sqs_batch_sender-1.0.0b1.dist-info/top_level.txt,sha256=o_ZirRXECKAcHFg8OrVpb3R47hpmwuxX6zqFhl3VFDY,21
+aws_sqs_batch_sender-1.0.0b1.dist-info/RECORD,,
