@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--
+	This file is part of ToeholdTools (a library for the analysis of
+	toehold switch riboregulators created by the iGEM team City of
+	London UK 2021).
+	Copyright (c) 2021 Lucas Ng
+
+	ToeholdTools is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	ToeholdTools is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with ToeholdTools.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>ToeholdTools</title>
+
+		<!--Don't use mask-icon or apple-touch-icon since no point in supporting Safari-->
+		<meta name="theme-color" content="#ffffff" />
+		<link rel="icon" href="favicon.svg" />
+		<link rel="manifest" href="manifest.json" />
+
+		<!-- You MUST include jQuery before Fomantic -->
+		<script src="modules/jquery/jquery.slim.min.js"></script>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="modules/fomantic-ui/semantic.min.css"
+		/>
+		<script src="modules/fomantic-ui/semantic.min.js"></script>
+
+		<!-- Scroll function -->
+		<script src="scroll.js"></script>
+
+		<!-- Include eel.js before any other Eel JS files -->
+		<script type="text/javascript" src="eel.js"></script>
+
+		<!-- index files -->
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<div class="ui secondary pointing menu">
+			<div class="right menu">
+				<a
+					class="ui item"
+					href="https://github.com/lkn849/thtools/blob/master/third_party/NOTICES.md"
+				>
+					Legal
+				</a>
+			</div>
+		</div>
+		<div class="ui container">
+			<div class="ui hidden divider"></div>
+			<!--https://stackoverflow.com/a/22603786/13712044-->
+			<div style="display: flex; align-items: center">
+				<img src="favicon.svg" class="logo" style="width: 7vw" />
+				<h1 class="ui massive floated header">
+					ToeholdTools
+					<div class="sub header">
+						A suite for the analysis of toehold switch riboregulators
+					</div>
+				</h1>
+			</div>
+			<div class="ui section clearing divider"></div>
+			<div class="ui very padded raised segment">
+				<div class="ui top left attached label">Settings</div>
+				<form class="ui form" id="main_form">
+					<div class="fields">
+						<div class="fourteen wide field">
+							<label>Toehold switch</label>
+							<div class="ui fluid input">
+								<input
+									type="text"
+									name="ths"
+									value="UUAGCCGCUGUCACACGCACAGGGAUUUACAAAAAGAGGAGAGUAAAAUGCUGUGCGUGCACCAUAAAACGAACAUAGAC"
+								/>
+							</div>
+						</div>
+						<div class="two wide field">
+							<label>RBS</label>
+							<div class="ui fluid input">
+								<input type="text" name="rbs" value="AGAGGAGA" />
+							</div>
+						</div>
+					</div>
+
+					<div class="field">
+						<label>RNAs to test</label>
+						<div>
+							<select
+								class="ui fluid search dropdown top attached segment"
+								id="species_options_html"
+							>
+								<option value="">Search miRBase...</option>
+							</select>
+							<textarea
+								class="ui bottom attached segment field"
+								name="FASTA_text"
+								placeholder="Or paste a FASTA string"
+								oninput="set_dropdown_to_custom()"
+							></textarea>
+						</div>
+					</div>
+
+					<div class="three fields">
+						<div class="field">
+							<label>Temperature</label>
+							<div class="ui right labeled input">
+								<input type="text" name="temperature" value="37.0" />
+								<div class="ui basic label">°C</div>
+							</div>
+						</div>
+						<div class="field">
+							<label>Maximum complex size</label>
+							<div class="ui fluid input">
+								<input type="text" name="max_size" value="3" />
+							</div>
+						</div>
+						<div class="field">
+							<label># of Boltzmann samples per complex</label>
+							<div class="ui fluid input">
+								<input type="text" name="n_samples" value="100" />
+							</div>
+						</div>
+					</div>
+					<button
+						class="ui fluid green button"
+						type="submit"
+						id="submit_button"
+					>
+						Test
+					</button>
+				</form>
+			</div>
+			<div id="pbar_section" style="display: none">
+				<div class="ui section divider"></div>
+				<div class="ui very padded raised segment" id="pbar_segment">
+					<div class="ui top left attached label">Progress</div>
+					<div class="ui indicating progress" id="pbar_itself">
+						<div class="bar">
+							<div class="progress" id="pbar_progress"></div>
+						</div>
+						<div class="label">error: you should not be able to see this</div>
+					</div>
+				</div>
+			</div>
+			<div id="table_section" style="display: none">
+				<div class="ui section divider"></div>
+				<div class="ui very padded raised segment" id="table_segment">
+					<div class="ui top left attached label">Result</div>
+					<h3 class="ui header">
+						<a id="download_link" , href="result.csv" style="float: right">
+							<i class="big black save icon"></i>
+						</a>
+						Specificity
+						<div class="sub header" id="speci_sub_header">
+							error: you should not be able to see this
+						</div>
+					</h3>
+					<table id="result_table"></table>
+				</div>
+			</div>
+			<div class="ui hidden divider"></div>
+		</div>
+		<div class="ui basic modal">
+			<h1 class="ui center aligned icon header">
+				<i class="exclamation triangle icon"></i>
+				Error, please restart app
+			</h1>
+			<div class="ui center aligned">
+				<span id="error_msg">msg</span>
+			</div>
+		</div>
+	</body>
+</html>
