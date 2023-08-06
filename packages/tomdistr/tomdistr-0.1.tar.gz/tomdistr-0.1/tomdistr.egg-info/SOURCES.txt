@@ -1,0 +1,10 @@
+setup.py
+tomdistr/Binomialdistribution.py
+tomdistr/Gaussiandistribution.py
+tomdistr/Generaldistribution.py
+tomdistr/__init__.py
+tomdistr.egg-info/PKG-INFO
+tomdistr.egg-info/SOURCES.txt
+tomdistr.egg-info/dependency_links.txt
+tomdistr.egg-info/not-zip-safe
+tomdistr.egg-info/top_level.txt
