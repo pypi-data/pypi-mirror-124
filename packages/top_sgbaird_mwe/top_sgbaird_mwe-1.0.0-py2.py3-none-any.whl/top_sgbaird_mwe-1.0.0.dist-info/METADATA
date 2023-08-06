@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: top_sgbaird_mwe
+Version: 1.0.0
+Summary: Minimal working example for conda-smithy submodule error https://github.com/conda-forge/conda-smithy/issues/1516.
+Author-email: "Sterling G. Baird" <sterling.baird@utah.edu>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/sgbaird-mwe/top-sgbaird-mwe
+
+# top
