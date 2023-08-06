@@ -1,0 +1,10 @@
+flask_paseto_extended/__init__.py,sha256=6XW81FqAKaxskQeX9frpMPM4BZzVJ4lWaA8hhemZ9fQ,585
+flask_paseto_extended/cookie_session.py,sha256=LiV2SRwsjQv4KAJICBHScs0Tyg9KvITJSJna95owvW4,2530
+flask_paseto_extended/login_manager.py,sha256=APP_GHU_kt5iVG7LZmPGCsuWaeEKalIYaD9z1C1xqEA,3067
+flask_paseto_extended/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_paseto_extended/utils.py,sha256=n5V7C-014Vnq46i4ydE9BchH4DFYd15nR_l4OsPavKI,636
+flask_paseto_extended-0.2.0.dist-info/LICENSE,sha256=AgF25-XFMfLI2IPgFIBosnxWYrFQyOT5CWGxBqKi0sY,1072
+flask_paseto_extended-0.2.0.dist-info/METADATA,sha256=-_Uv2WQKPnc06z9WPP1WEcoBnw-As_1BZA0OCRdTGP8,6190
+flask_paseto_extended-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+flask_paseto_extended-0.2.0.dist-info/top_level.txt,sha256=gvyGr6P6m_8c4FjNxZTSJ6e7nVe-ApHNHni5Lx_JH7o,22
+flask_paseto_extended-0.2.0.dist-info/RECORD,,
