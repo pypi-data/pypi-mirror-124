@@ -1,0 +1,9 @@
+spider_core/__init__.py,sha256=kw6nD99C6E1aKa1t7Um3bIiyPYcp3GLJXjMFm6RYdk0,111
+spider_core/http_spider.py,sha256=wHV_jraz0zAuGs89DgUQ44hapN-3PcILHGMOfrQw1jQ,6342
+spider_core/main.py,sha256=9TwuO1h4QbU6Hc_tqpCM8mZFXJVgKZsEIp8aTVTe7Q8,1119
+spider_core/serverapi.py,sha256=u8zqMMIYowfXzKXpQgDc27vXeqzqxHcYBknvIaqAxiQ,6406
+spider_core_sdk-1.2.0.dist-info/METADATA,sha256=Fu2r7AwzfEM5cdEy1OyAX9AQAEl_kSOebbTX7JTYWoQ,705
+spider_core_sdk-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+spider_core_sdk-1.2.0.dist-info/entry_points.txt,sha256=-tWLdzZ5SvRmlHlYg2DTauPQtqw-2w1Bit-7Ccnwcf8,58
+spider_core_sdk-1.2.0.dist-info/top_level.txt,sha256=ha0PqSeMY7gn4glwOdzBzbYALgiKQxuLuUbaC36kZYo,12
+spider_core_sdk-1.2.0.dist-info/RECORD,,
