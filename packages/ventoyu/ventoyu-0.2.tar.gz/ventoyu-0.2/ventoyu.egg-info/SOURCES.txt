@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bin/ventoyu
+ventoyl/etc/url_config.json
+ventoyu.egg-info/PKG-INFO
+ventoyu.egg-info/SOURCES.txt
+ventoyu.egg-info/dependency_links.txt
+ventoyu.egg-info/requires.txt
+ventoyu.egg-info/top_level.txt
