@@ -1,0 +1,2 @@
+include multiprocessing_stress_tester/templates/*.html
+include multiprocessing_stress_tester/templates/*.js
