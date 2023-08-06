@@ -1,0 +1,9 @@
+pynuctran/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynuctran/cram.py,sha256=SEHlYhTubB_XpznaMscXi6JrajnUFc9op-J5HJn_Kp0,8355
+pynuctran/depletion_scheme.py,sha256=OKsdjGLIYp-e9nFIEXI5SxgEA9QHNnIVUU3QJrsxq48,7351
+pynuctran/solver.py,sha256=_U6DaguJS0OIwVmlEe8G4-v8xESUSFZGIELPS2FAeOE,13495
+pynuctran/sparse.py,sha256=j9hQdJl4I5mSi5iGshOmZ4C_mRYVomWkiQ86lflsY4Q,4806
+pynuctran-1.52.1021.dist-info/METADATA,sha256=T1IOq-inqNrjEL8_XUHVVrD3QT8dsnuX8bd-kdhqjlg,307
+pynuctran-1.52.1021.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pynuctran-1.52.1021.dist-info/top_level.txt,sha256=51iEvoOIRYvhk6KmPaqmkJbURVc7VK9tYmhEaUnuu1Y,10
+pynuctran-1.52.1021.dist-info/RECORD,,
