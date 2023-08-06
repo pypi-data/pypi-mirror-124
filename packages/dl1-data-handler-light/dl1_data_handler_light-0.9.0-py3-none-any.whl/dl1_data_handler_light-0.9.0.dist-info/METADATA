@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dl1-data-handler-light
+Version: 0.9.0
+Summary: light version of the dl1 HDF5 data writer + reader + processor
+Home-page: http://github.com/cta-observatory/dl1-data-handler
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: astropy
+Requires-Dist: numpy (>=1.15.0)
+Requires-Dist: scipy
+Requires-Dist: jupyter
+Requires-Dist: tables (>=3.4.4)
+Requires-Dist: uproot (==3.12.0)
+
+light install version of the dl1_data_handler. Visit http://github.com/cta-observatory/dl1-data-handler for a complete description
+
