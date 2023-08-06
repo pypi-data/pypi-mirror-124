@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pipen-cli-init
+Version: 0.0.4
+Summary: A pipen cli plugin to create a pipen project (pipeline)
+License: MIT
+Author: pwwang
+Author-email: pwwang@pwwang.com
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cmdy (>=0.4,<0.5)
+Requires-Dist: liquidpy (>=0.7,<0.8)
+Requires-Dist: pipen (>=0.2,<0.3)
+Requires-Dist: poetry (>=1,<2)
+Requires-Dist: toml (>=0.10,<0.11)
