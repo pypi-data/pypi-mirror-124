@@ -1,0 +1,4 @@
+idebug
+requests
+beautifulsoup4
+pandas
