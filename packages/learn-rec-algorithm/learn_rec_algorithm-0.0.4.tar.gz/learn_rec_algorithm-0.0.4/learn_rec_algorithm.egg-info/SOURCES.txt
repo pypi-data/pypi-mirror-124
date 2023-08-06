@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+learn_rec_algorithm/__init__.py
+learn_rec_algorithm.egg-info/PKG-INFO
+learn_rec_algorithm.egg-info/SOURCES.txt
+learn_rec_algorithm.egg-info/dependency_links.txt
+learn_rec_algorithm.egg-info/requires.txt
+learn_rec_algorithm.egg-info/top_level.txt
+learn_rec_algorithm/deepmatch/__init__.py
+learn_rec_algorithm/deepmatch/lib/__init__.py
+learn_rec_algorithm/deepmatch/lib/inputs.py
+learn_rec_algorithm/deepmatch/lib/layers.py
+learn_rec_algorithm/deepmatch/lib/preprocess.py
+learn_rec_algorithm/deepmatch/lib/utils.py
+learn_rec_algorithm/deepmatch/lib/youtube_dnn.py
