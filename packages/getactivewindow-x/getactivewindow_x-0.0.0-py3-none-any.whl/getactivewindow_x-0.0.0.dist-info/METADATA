@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: getactivewindow-x
+Version: 0.0.0
+Summary: Separate component to get information on the active window in X.
+Home-page: https://github.com/user202729/getactivewindow-x
+Author: user202729
+License: GNU General Public License v3 or later (GPLv3+)
+Platform: UNKNOWN
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# getactivewindow-x
+Separate component to get information on the active window in X. Requires the executable xdotool (and xprop to get the window class).
+
+
