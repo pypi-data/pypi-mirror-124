@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: computational_stopwatch
+Version: 1.0.1
+Summary: Simple stopwatch to easily print the elapsed time of a set of operations
+Home-page: https://gitlab.com/luca.baronti/computational-stopwatch
+Author: Luca Baronti
+Author-email: lbaronti@gmail.com
+License: GNUv3
+Download-URL: https://pypi.org/project/computational_stopwatch/
+Description: # Computational Stopwatch
+        
+        Simple stopwatch to easily print the elapsed time of a set of operations. It's a minimalistic library, but it is very useful in many real cases.
+        
+        ## Usage
+        The easiest way to use this tool is in conjunction with the **with** python statement.
+        ```python
+        >> from computational_stopwatch import Stopwatch
+        >>
+        >> with Stopwatch():
+        >>  time.sleep(3) # <- simulates a long computation 
+        Elapsed time 0:00:03.003106
+        ```
+        anything within the scope of the **with** statement will count against the elapsed time. An optional task name to be printed along the elapsed time (e.g. for better identification in a log) can be set in the constructor.
+        
+        Alternatively, the class can be directly instantiated and the print function explicitly called.
+        ```python
+        >> sw = Stopwatch()
+        >> time.sleep(3)
+        >> sw.print_elapsed_time()
+        Elapsed time 0:00:03.003280
+        ```
+        The start time can be reset with the **reset_time** function and the **get_elapsed_time** method returns the unformatted elapsed time, which is useful for numerical comparisons.
+        
+        
+        # Versions History
+        
+        ## v1.0.1
+        
+        - minor fixes
+        
+        ## v1.0.0
+        
+        - first reelease
+        
+Keywords: computation,time,elapsed time
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
