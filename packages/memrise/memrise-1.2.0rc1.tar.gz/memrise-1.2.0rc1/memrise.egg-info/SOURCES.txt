@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+memrise.egg-info/PKG-INFO
+memrise.egg-info/SOURCES.txt
+memrise.egg-info/dependency_links.txt
+memrise.egg-info/not-zip-safe
+memrise.egg-info/requires.txt
+memrise.egg-info/top_level.txt
+src/__init__.py
+src/memrise.c
