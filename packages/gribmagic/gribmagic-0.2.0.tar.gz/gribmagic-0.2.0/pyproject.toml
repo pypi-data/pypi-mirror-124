@@ -1,0 +1,15 @@
+[tool.isort]
+profile = "black"
+src_paths = ["gribmagic", "tests"]
+
+[tool.black]
+line-length = 99
+include = '\.pyi?$'
+
+[tool.pytest.ini_options]
+markers = [
+    "command: Tests invoking the command line interface.",
+    "unit: Unit tests FTW.",
+    "bbox: Tests related to bounding box extraction.",
+    "regrid: Tests related to regridding.",
+]
