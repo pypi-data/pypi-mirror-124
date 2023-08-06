@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mockitup
+Version: 0.0.4
+Summary: A `unittest.mock` wrapper for easier mocking
+Author: Shacham Ginat
+Author-email: shacham6@gmail.com
+Requires-Python: >=3.6.10,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyHamcrest (>=2.0.2,<3.0.0)
+Requires-Dist: typing-extensions (>=3.10.0,<4.0.0)
