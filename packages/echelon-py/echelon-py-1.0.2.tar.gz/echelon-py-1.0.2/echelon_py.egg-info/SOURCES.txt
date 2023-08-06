@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+echelon/__init__.py
+echelon/oracle.py
+echelon/scan_oracle.py
+echelon/test.py
+echelon/typing.py
+echelon_py.egg-info/PKG-INFO
+echelon_py.egg-info/SOURCES.txt
+echelon_py.egg-info/dependency_links.txt
+echelon_py.egg-info/top_level.txt
