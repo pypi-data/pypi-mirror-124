@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "github-actions": {
+    "fileMatch": ["renovate.json"]
+  },
+"packageRules": [
+    {
+      "matchPackagePatterns": [ "pycodestyle", "flake8", "pyflakes" ],
+      "separateMajorMinor": false,
+      "groupName": "linter"
+    }
+  ],
+  "branchConcurrentLimit": 50,
+  "prConcurrentLimit": 50,
+  "automerge": true,
+  "automergeType": "branch",
+  "schedule": [
+    "on the last day of the month"
+  ]
+}
