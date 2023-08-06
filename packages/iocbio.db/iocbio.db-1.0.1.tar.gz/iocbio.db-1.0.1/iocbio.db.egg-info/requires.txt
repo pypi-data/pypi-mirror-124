@@ -1,0 +1,7 @@
+PyQt5
+keyring
+psycopg2-binary
+SQLAlchemy
+docopt
+wheel
+tablib
