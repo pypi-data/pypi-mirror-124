@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: trivium-cli
+Version: 0.2.0
+Summary: Trivium CLI
+Home-page: https://triple.engineering
+Author: Triple Dot Engineering
+Author-email: pypi@triple.engineer
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Trivium CLI
+
+The Trivium CLI provides a command-line interface and Python module for
+interacting with Trivium models via the API.
+
+
