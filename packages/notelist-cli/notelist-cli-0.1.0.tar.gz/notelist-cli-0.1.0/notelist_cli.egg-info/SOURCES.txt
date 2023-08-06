@@ -1,0 +1,17 @@
+README.md
+setup.py
+notelist_cli.egg-info/PKG-INFO
+notelist_cli.egg-info/SOURCES.txt
+notelist_cli.egg-info/dependency_links.txt
+notelist_cli.egg-info/entry_points.txt
+notelist_cli.egg-info/requires.txt
+notelist_cli.egg-info/top_level.txt
+src/notelist_cli/__init__.py
+src/notelist_cli/__main__.py
+src/notelist_cli/admin.py
+src/notelist_cli/auth.py
+src/notelist_cli/config.py
+src/notelist_cli/note.py
+src/notelist_cli/notebook.py
+src/notelist_cli/search.py
+src/notelist_cli/user.py
