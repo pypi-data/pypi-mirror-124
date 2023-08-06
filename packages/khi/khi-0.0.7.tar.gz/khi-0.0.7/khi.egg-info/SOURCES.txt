@@ -1,0 +1,12 @@
+LICENSE
+pyproject.toml
+setup.py
+khi/__init__.py
+khi/beaches.py
+khi/clubs.py
+khi/districts.py
+khi.egg-info/PKG-INFO
+khi.egg-info/SOURCES.txt
+khi.egg-info/dependency_links.txt
+khi.egg-info/requires.txt
+khi.egg-info/top_level.txt
