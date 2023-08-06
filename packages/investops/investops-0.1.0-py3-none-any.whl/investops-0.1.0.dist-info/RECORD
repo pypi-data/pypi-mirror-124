@@ -1,0 +1,11 @@
+investops/__init__.py,sha256=kJMRrkXXXAp9pA8QhzNUYyh2r-iPckrVj_J4wE3vIlw,100
+investops/check.py,sha256=pT00fqLUydFHgKnFQ893ugwQm31kN43tVjsWuoK2mGo,4558
+investops/diversify.py,sha256=9r2_xyv74-WILXMjG6izY-TerBRGsqzfxE0jE3g9kbc,24235
+investops/maps.py,sha256=LqTbkWJBnn-jgttSCvKdiDvhDwBsjRz-Wyx2GdGUq_0,4923
+investops/normalize.py,sha256=MmntVOe4Ngn6VK6ImvnvilNNEVj_aCHjeIstiyVzrk0,14148
+investops/random.py,sha256=G3AcCfyGWOfK0FqUAAFJWyHHwDB81wDglH1A7rwWsXk,3986
+investops-0.1.0.dist-info/LICENSE,sha256=_kvSwGt99qfsAsdQVGt60qurH3YIrZieWwVua6EmE1U,1083
+investops-0.1.0.dist-info/METADATA,sha256=ZZcfGhPqYwmaiP0NCOoUi4tPLsShqre51RSS9Bdr--o,608
+investops-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+investops-0.1.0.dist-info/top_level.txt,sha256=jqYb0OaJocXD-NOw_N_9Ac-aV0ya0qcT29cx4N_JRF4,10
+investops-0.1.0.dist-info/RECORD,,
