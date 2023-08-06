@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: django-session-view-mixin
+Version: 0.1.3
+Summary: Your project description goes here
+Home-page: https://github.com/frankhood/django-session-view-mixin
+Author: FrankHood Business Solutions srl
+Author-email: info@frankhood.it
+License: MIT
+Keywords: django-session-view-mixin
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+=============================
+Django Session View Mixin
+=============================
+
+.. image:: https://badge.fury.io/py/django-session-view-mixin.svg/?style=flat-square
+    :target: https://badge.fury.io/py/django-session-view-mixin
+
+.. image:: https://readthedocs.org/projects/pip/badge/?version=latest&style=flat-square
+    :target: https://django-session-view-mixin.readthedocs.io/en/latest/
+
+.. image:: https://img.shields.io/coveralls/github/frankhood/django-session-view-mixin/master?style=flat-square
+    :target: https://coveralls.io/github/frankhood/django-session-view-mixin?branch=master
+    :alt: Coverage Status
+
+Your project description goes here
+
+Documentation
+-------------
+
+The full documentation is at https://django-session-view-mixin.readthedocs.io.
+
+Quickstart
+----------
+
+Install Django Session View Mixin::
+
+    pip install django-session-view-mixin
+
+Add it to your `INSTALLED_APPS`:
+
+.. code-block:: python
+
+    INSTALLED_APPS = (
+        ...
+        'session_view_mixin',
+        ...
+    )
+
+
+Features
+--------
+
+* TODO
+
+Running Tests
+-------------
+
+Does the code actually work?
+
+::
+
+    source <YOURVIRTUALENV>/bin/activate
+    (myenv) $ pip install tox
+    (myenv) $ tox
+
+
+Development commands
+---------------------
+
+::
+
+    pip install -r requirements_dev.txt
+    invoke -l
+
+
+Credits
+-------
+
+Tools used in rendering this package:
+
+*  Cookiecutter_
+*  `cookiecutter-djangopackage`_
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`cookiecutter-djangopackage`: https://github.com/pydanny/cookiecutter-djangopackage
+
+
+
+
+History
+-------
+
+0.1.0 (2021-10-19)
+++++++++++++++++++
+
+* First release on PyPI.
+
+0.1.1 (2021-10-20)
+++++++++++++++++++
+
+* Update github actions.
+
+0.1.2 (2021-10-21)
+++++++++++++++++++
+
+* Fix coveralls.
+
+0.1.3 (2021-10-21)
+++++++++++++++++++
+
+* Fix readme.
+
+
