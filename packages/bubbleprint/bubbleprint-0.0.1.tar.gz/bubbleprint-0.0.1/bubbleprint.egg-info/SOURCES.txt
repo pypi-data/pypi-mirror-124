@@ -1,0 +1,8 @@
+README.md
+setup.py
+bubbleprint/__init__.py
+bubbleprint.egg-info/PKG-INFO
+bubbleprint.egg-info/SOURCES.txt
+bubbleprint.egg-info/dependency_links.txt
+bubbleprint.egg-info/not-zip-safe
+bubbleprint.egg-info/top_level.txt
