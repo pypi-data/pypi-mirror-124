@@ -1,0 +1,9 @@
+heatmap_digitizer/__init__.py,sha256=FvMzJxttptcKblQYfmLEOrPSbmscuZ63YFhQihuH7BU,86
+heatmap_digitizer/__main__.py,sha256=HN07VELkQDZP1J_ot_LF7bJxv2cXytv2cmXexwHJrJ0,100
+heatmap_digitizer/heatmap_digitizer.py,sha256=Xt5bFfTirYtvIGiRPomv6C6H-ADX6EZ2pktijWcr_e0,10467
+heatmap_digitizer/data/example.png,sha256=dxBBwZvuvOKn1fgVfsEIf3mE72JrLCtdx7GQa5iZdbk,474556
+heatmap_digitizer-0.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+heatmap_digitizer-0.1.0.dist-info/METADATA,sha256=mZnr0CGv862n7WeZjqJC7Ov8Km5GZdBKPslQhLRrYhw,569
+heatmap_digitizer-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+heatmap_digitizer-0.1.0.dist-info/top_level.txt,sha256=2K3t5LUw0unk1vEh5p6pl9rBffm3tD19j3_9WX-8R_A,18
+heatmap_digitizer-0.1.0.dist-info/RECORD,,
