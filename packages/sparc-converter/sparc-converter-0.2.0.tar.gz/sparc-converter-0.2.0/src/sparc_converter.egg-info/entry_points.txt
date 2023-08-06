@@ -1,0 +1,3 @@
+[console_scripts]
+sparc-convert = sparc.convert.application:main
+

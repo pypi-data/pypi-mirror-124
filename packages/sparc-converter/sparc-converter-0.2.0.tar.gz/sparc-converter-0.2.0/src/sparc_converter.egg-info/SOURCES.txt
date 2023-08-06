@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+src/sparc/__init__.py
+src/sparc/convert/__init__.py
+src/sparc/convert/application.py
+src/sparc_converter.egg-info/PKG-INFO
+src/sparc_converter.egg-info/SOURCES.txt
+src/sparc_converter.egg-info/dependency_links.txt
+src/sparc_converter.egg-info/entry_points.txt
+src/sparc_converter.egg-info/not-zip-safe
+src/sparc_converter.egg-info/top_level.txt
