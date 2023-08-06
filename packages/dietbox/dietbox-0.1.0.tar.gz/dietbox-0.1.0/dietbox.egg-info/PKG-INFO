@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dietbox
+Version: 0.1.0
+Summary: The DIETBox package for data science
+Home-page: https://github.com/emptymalei/diet
+Author: Lei Ma
+Author-email: hi@leima.is
+License: MIT
+Description: DIETBox, Data scIencE Toolbox, is yet another package for data science projects
+Platform: UNKNOWN
+Provides-Extra: tests
+Provides-Extra: nose
+Provides-Extra: database
+Provides-Extra: sshtunnel
+Provides-Extra: pymysql
+Provides-Extra: SQLAlchemy
+Provides-Extra: aws
+Provides-Extra: awscli
+Provides-Extra: visual
+Provides-Extra: matplotlib
+Provides-Extra: seaborn
+Provides-Extra: mkdocstrings
+Provides-Extra: docs
+Provides-Extra: mkdocs-material
+Provides-Extra: mkdocs-autorefs
+Provides-Extra: scikit-learn
+Provides-Extra: model
+Provides-Extra: all
