@@ -1,0 +1,11 @@
+synko/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+synko/app.py,sha256=5EjkYBeCIxt4upFYgEr_zAbFw60opoPOTG7wPR7V0wo,9492
+synko/constants.py,sha256=s41BE3V5lKVb7bso-1rbgT4ZQ1FTt5xbfJP6bEUG69A,2102
+synko/main.py,sha256=X11PD1pKnTFHMkjDpU85CxK71MZrzMlDTg3ja_OXbTI,11098
+synko/utils.py,sha256=pd37VcKElOGfc2Tw4aNZlrrL-IhCFzBzX4of44WcP5U,9200
+synko-0.9.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+synko-0.9.0.dist-info/METADATA,sha256=Y43gcge6Loely57_O1KCHBVAyAPy77bo33o5fU-ZexY,8543
+synko-0.9.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+synko-0.9.0.dist-info/entry_points.txt,sha256=ZIxAiN7yv9arzuehaZYJ0d3C0HTmbxyxYaTyRPxKGLs,61
+synko-0.9.0.dist-info/top_level.txt,sha256=x1e-QDGljDyhiEEEs_9lBVNn0gDr37TStgK6p6K7WCY,6
+synko-0.9.0.dist-info/RECORD,,
