@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "typety"
+version = "1.0.2"
+description = "A simple python packages that adds a typing effect to strings"
+authors = ["Dragonlord1005"]
+homepage = "https://github.com/Dragonlord1005/typety"
+documentation = "https://typety.readthedocs.io/"
+packages = [
+  { include = "typety" }
+]
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sphinx-inline-tabs = "^2021.8.17-beta.10"
+
+[tool.poetry.dev-dependencies]
+Sphinx = "^4.2.0"
+sphinx-autobuild = "^2021.3.14"
+sphinx-copybutton = "^0.4.0"
+poethepoet = "^0.10.0"
+sphinx-rtd-theme = "^1.0.0"
+releases = "^1.6.3"
+six = "^1.16.0"
+
+
+[tool.poe.tasks]
+replit = "sphinx-autobuild . _build --port=3000 --host=0.0.0.0 -a"
+publish = "poetry publish --build"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
