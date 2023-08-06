@@ -1,0 +1,8 @@
+clickhouse_migrate/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+clickhouse_migrate/migrate.py,sha256=jAbaI5_vkHMKORZmsgqlfpFxU_fTX2m9cFFkCa-Fk7M,12061
+clickhouse_migrate/runner.py,sha256=NoDkEnpoYTVcnej_onSzg11asdnYB5GAIEjUEwDbU9M,3035
+clickhouse_migrate/utils.py,sha256=mtdv8gD8s5hP6TJbK58ileunoDSajhaChVOOsuZ3FH0,119
+chmigrate-0.1.1.dist-info/entry_points.txt,sha256=i7RPFf98WSI5dEFZVoFCiG38q6TuqEeqnaTmR8ZZeWc,59
+chmigrate-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+chmigrate-0.1.1.dist-info/METADATA,sha256=LieFr_Bjow2tedc9xxW22x18A3oARHTslLNFwUVetJ4,1164
+chmigrate-0.1.1.dist-info/RECORD,,
