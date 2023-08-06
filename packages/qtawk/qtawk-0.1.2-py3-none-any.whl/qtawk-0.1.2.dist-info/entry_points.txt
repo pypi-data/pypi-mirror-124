@@ -1,0 +1,3 @@
+[console_scripts]
+qtawk=qtawk.__main__:run
+
