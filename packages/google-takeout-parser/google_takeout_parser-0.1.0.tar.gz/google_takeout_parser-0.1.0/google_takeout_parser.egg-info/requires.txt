@@ -1,0 +1,11 @@
+click>=7.0
+logzero
+lxml
+bs4
+cachew
+pytz
+IPython
+
+[testing]
+pytest
+mypy
