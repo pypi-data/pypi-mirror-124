@@ -1,0 +1,3 @@
+[plover.extension]
+plover_startup_py = plover_startup_py:Main
+
