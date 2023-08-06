@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: strand
+Version: 0.0.2
+Summary: Easy creation of non-blocking tasks
+Home-page: https://github.com/i2mint/strand
+Author: OtoSense
+License: apache-2.0
+Description: 
+        # strand
+        Easy creation of non-blocking tasks
+        
+        
+        To install:	```pip install strand```
+        
+Platform: any
+Description-Content-Type: text/markdown

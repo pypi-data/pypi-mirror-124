@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+strand/__init__.py
+strand.egg-info/PKG-INFO
+strand.egg-info/SOURCES.txt
+strand.egg-info/dependency_links.txt
+strand.egg-info/not-zip-safe
+strand.egg-info/top_level.txt
