@@ -1,0 +1,6 @@
+click
+requests
+toml
+pyyaml
+boto3
+kubernetes
