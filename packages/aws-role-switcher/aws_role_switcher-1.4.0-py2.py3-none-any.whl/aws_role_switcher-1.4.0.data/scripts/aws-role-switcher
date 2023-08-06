@@ -1,0 +1,8 @@
+#!python
+from aws_role_switcher.main import ARS
+import sys
+if __name__ == '__main__':
+    try:
+        ARS().run(sys_args=sys.argv)
+    except KeyboardInterrupt:
+        pass
