@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: py-to-win-app
+Version: 0.0.2
+Summary: Make runnable apps from your python scripts!
+Home-page: https://github.com/ruslan-rv-ua/py-to-win-app
+License: MIT
+Author: Ruslan Iskov
+Author-email: ruslan.rv.ua@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: gen-exe (>=0.2.1,<0.3.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: tomli (>=1.2.1,<2.0.0)
+Requires-Dist: txtoml (>=1.0.0,<2.0.0)
+Project-URL: Documentation, http://ruslan.rv.ua/py-to-win-app/
+Project-URL: Repository, https://github.com/ruslan-rv-ua/py-to-win-app
+Description-Content-Type: text/markdown
+
+# py-to-win-app
+
+## Make runnable apps from your python scripts!
+
+TODO: description
+
+## Installation
+
+Install as dev dependency:
+
+    poetry add --dev py-to-win-app
+
+Or using pip:
+
+    pip install py-to-win-app
+
+## Usage
+
+1. Make `requirements.txt` file:
+
+    `pip freeze > requirements.txt`
+
+    Using `poetry`:
+
+    `poetry export -f requirements.txt -o requirements.txt --without-hashes`
+
+1. In root directory of your project create file `build.py` with following content:
+
+    ```python
+    from py_to_win_app import Project
+
+    project = Project(
+        input_dir="my_project",  # directory where your source files are
+        main_file="main.py"
+    )
+
+    project.build(python_version="3.9.7")
+    project.make_dist()
+    ```
+
+1. Run `build.py`:
+
+    `python build.py`
+
+## Documentation
+
+- [API documentation](http://ruslan.rv.ua/py-to-win-app/)
+
+## Examples
+
+1. Clone this repo:
+
+    `git clone https://github.com/ruslan-rv-ua/py2winapp`
+
+1. Execute any of `example-*.py`:
+
+    ```
+    python example-flask-desktop.py
+    ```
+
+    You can find runnable windows application in `build/flask-desktop` directory.
+    Distribution `flask-desktop.zip`
+
+#### More examples:
+
+- [telecode](https://github.com/ruslan-rv-ua/telecode) — desktop wxPython application
+
+## Credits
+
+- inspired by [ClimenteA/pyvan](https://github.com/ClimenteA/pyvan#readme)
+- some examples from [ClimenteA/flaskwebgui](https://github.com/ClimenteA/flaskwebgui)
+
