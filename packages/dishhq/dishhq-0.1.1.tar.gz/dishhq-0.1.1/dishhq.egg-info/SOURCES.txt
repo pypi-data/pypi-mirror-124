@@ -1,0 +1,8 @@
+README.md
+setup.py
+./dishhq/__init__.py
+./dishhq/dish.py
+dishhq.egg-info/PKG-INFO
+dishhq.egg-info/SOURCES.txt
+dishhq.egg-info/dependency_links.txt
+dishhq.egg-info/top_level.txt
