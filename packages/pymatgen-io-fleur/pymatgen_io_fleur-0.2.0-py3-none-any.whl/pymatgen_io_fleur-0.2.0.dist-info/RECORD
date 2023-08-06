@@ -1,0 +1,8 @@
+pymatgen/io/fleur/__init__.py,sha256=bC8oQeDwZzA5kFFWR3gKqYyy6S53UEZIkEg4Ilk9XD8,167
+pymatgen/io/fleur/fleurinput.py,sha256=bXf7af9zcpWFTmiAT3Igk87_mRPP55wO3OLrDzukhiU,7528
+pymatgen/io/fleur/tests/test_fleurinput.py,sha256=nv6NgvJS91LKiVdUFxbcqF1wzKD82OGSbbNeGQd4gIk,10681
+pymatgen_io_fleur-0.2.0.dist-info/LICENSE,sha256=DGw8YfPfQm4PwptzNoHIYRA0ncxFUOIQThxjsVoCgW0,1066
+pymatgen_io_fleur-0.2.0.dist-info/METADATA,sha256=D71nXToVrG3KI2vuM7a02E1HEv6rWeG6JrgFkb4A0G0,2741
+pymatgen_io_fleur-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pymatgen_io_fleur-0.2.0.dist-info/top_level.txt,sha256=hw3_MuYkbiMKbj1W3PJuWYeiYcB1owVQYj-SHQbvoWc,9
+pymatgen_io_fleur-0.2.0.dist-info/RECORD,,
