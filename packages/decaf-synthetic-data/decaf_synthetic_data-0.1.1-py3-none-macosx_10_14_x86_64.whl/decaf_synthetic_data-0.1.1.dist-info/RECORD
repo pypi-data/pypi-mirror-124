@@ -1,0 +1,10 @@
+decaf/DECAF.py,sha256=llUt3n9wf1PB4xtts4O_-E2oQShdS2G03hrlBaX4nW8,13629
+decaf/__init__.py,sha256=1Yo8CKS6P3luUeUh5T_1XjcP6_SbT8lfODZG3x0GOZg,176
+decaf/data.py,sha256=bHYXqHfcbd_9_C9n7uV3t7GywLyjHURmV0xKujLO12w,1596
+decaf/logger.py,sha256=YBjT1_TNH2ZwDPuklCLd-hr5_JyWjoWwC07-bxBdJZA,2768
+decaf/version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+decaf_synthetic_data-0.1.1.dist-info/LICENSE,sha256=IqNZq6018gGT6U3hgHKp6w2drRVAx7rVPQxeX8nrMfc,1519
+decaf_synthetic_data-0.1.1.dist-info/METADATA,sha256=wZHhYkzOUBjSIcieoIUb4TulrHEljoo3wRUKk9HJXfc,2373
+decaf_synthetic_data-0.1.1.dist-info/WHEEL,sha256=uMFPvbqGJBpI5p-eaYOqcqW2UGzjFgeJB5sHdeYTqGs,108
+decaf_synthetic_data-0.1.1.dist-info/top_level.txt,sha256=jBvLsYzSXodl4Brh1J9a99Rp7xluwM7Nelyml6gzdXU,6
+decaf_synthetic_data-0.1.1.dist-info/RECORD,,
