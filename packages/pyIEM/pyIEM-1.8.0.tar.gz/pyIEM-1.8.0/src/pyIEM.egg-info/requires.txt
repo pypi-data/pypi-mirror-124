@@ -1,0 +1,26 @@
+affine
+cartopy>=0.18
+descartes
+geopandas
+google-api-python-client
+jinja2
+matplotlib
+metar
+metpy
+netCDF4
+numpy
+pandas
+pillow
+pyarrow
+pydantic
+pyproj
+psycopg2
+rasterio
+rasterstats
+requests
+scipy
+shapely
+xarray
+
+[:python_version < "3.9"]
+backports.zoneinfo
