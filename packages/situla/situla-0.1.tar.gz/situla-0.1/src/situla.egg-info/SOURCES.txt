@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/situla/__init__.py
+src/situla/binning.py
+src/situla.egg-info/PKG-INFO
+src/situla.egg-info/SOURCES.txt
+src/situla.egg-info/dependency_links.txt
+src/situla.egg-info/not-zip-safe
+src/situla.egg-info/requires.txt
+src/situla.egg-info/top_level.txt
