@@ -1,0 +1,15 @@
+tracardi_string_operations/plugin.py,sha256=JXq4zIQfRWp2BhTEy7SOJ3kPj2UdykXg7Tren8F7hWI,2189
+tracardi_string_operations/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracardi_string_operations/model/configuration.py,sha256=msEc77FbiJNMB-z9pplV79w0MeYLqukYftzgxaaxXSw,84
+tracardi_string_operations/model/__pycache__/__init__.cpython-38.pyc,sha256=D-KsXU4_vx0gUxF1k-p7dfMptuoh-wA7oOWLuva3UEs,190
+tracardi_string_operations/model/__pycache__/configuration.cpython-38.pyc,sha256=wmmIL8rpAyHXuOJiBPYeh0UTS-Aa1oubtegcYevf0ik,439
+tracardi_string_operations/service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracardi_string_operations/service/operations.py,sha256=cI6BllWPI6TEzUxQiGmsi0J9iV8ygK4TaWO43ofuwJg,799
+tracardi_string_operations/service/__pycache__/__init__.cpython-38.pyc,sha256=EIzBwlvuLMrZmINJVKEJTha4KWbMZ9-yx2102v0wvbU,192
+tracardi_string_operations/service/__pycache__/operations.cpython-38.pyc,sha256=HfRudVvetn3s2QJ2ULcME-1I2Gle3ddO-O8K5YthBuc,650
+tracardi_string_operations/test/manual_test.py,sha256=W7FIUwFSW5tp_6gJr3HsHjhhve6GJzypcwIF73s9uFY,920
+trardi_string_operations-0.6.0.dist-info/LICENSE.md,sha256=sPIkAajsb4_tO1Z2VwU7vBDv6Ra_fWI9B1860-qIvR8,1066
+trardi_string_operations-0.6.0.dist-info/METADATA,sha256=OEb7gWcrPVFhDVJukAjYG8oBHTOhaYc97rso4fK3Ldw,2332
+trardi_string_operations-0.6.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+trardi_string_operations-0.6.0.dist-info/top_level.txt,sha256=jrCAOZiwqtEfEqSOsHnaQfWdLdscYGkNnlUHfHN6fFk,27
+trardi_string_operations-0.6.0.dist-info/RECORD,,
