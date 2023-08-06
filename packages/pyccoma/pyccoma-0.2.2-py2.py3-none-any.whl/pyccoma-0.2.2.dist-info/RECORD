@@ -1,0 +1,14 @@
+pyccoma/__init__.py,sha256=ezbnDcHgqeskQTqkwaYZZ4PaLN5pcI8VqQ542gcOV7U,105
+pyccoma/__main__.py,sha256=e0Eynw7G3QFHvrN8GVYlgmBfcAfsT4sSZ4cHuhazqAM,9045
+pyccoma/exceptions.py,sha256=wlkSGFL7AbO8ZOOP3NITGfnB7_OnbmBHV3gUC_8BR68,400
+pyccoma/helpers.py,sha256=UNha-VO-zz5f43QnqD9cxrDYzLmoR0fwl9uokITLSg8,1754
+pyccoma/logger.py,sha256=g_rQT3A02z-H517AxXsS6sGf8HzHHNmKIs9p0BTOXAE,655
+pyccoma/pyccoma.py,sha256=k02oRWz8Cg8vxHlPlZFVQri_phCF1Z_FV9JCMMvX-pA,14780
+pyccoma/urls.py,sha256=4318BNSb22MRX0oH5K5zmGXJ6jL-dCNw6t_02aMV-Uk,239
+pyccoma/utils.py,sha256=44wiM9Wo_1FwlQ9e3lAV0y7GYEQjboaM0SprC7_it-Y,1808
+pyccoma-0.2.2.dist-info/LICENSE,sha256=2oF1Q7JEIO95aDs6Jv9AI64N7d4ddNKTaNEm0dHzMKg,11543
+pyccoma-0.2.2.dist-info/METADATA,sha256=QQ6ToCUFC9NK20Lz8aiuNY9y8S-q3PeTIUF4ApNlivY,11171
+pyccoma-0.2.2.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pyccoma-0.2.2.dist-info/entry_points.txt,sha256=-m65NBO-1OvSdPsXRHz1QSFChzZEAGjDGJjDUM4M-74,51
+pyccoma-0.2.2.dist-info/top_level.txt,sha256=mngRaDQ2lp-GDDSISAOOqqgucyyBwcWBzycIT1ks_lk,8
+pyccoma-0.2.2.dist-info/RECORD,,
