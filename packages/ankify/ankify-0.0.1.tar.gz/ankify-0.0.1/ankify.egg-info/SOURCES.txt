@@ -1,0 +1,11 @@
+MANIFEST.in
+requirements.txt
+setup.py
+ankify/__init__.py
+ankify/cli.py
+ankify.egg-info/PKG-INFO
+ankify.egg-info/SOURCES.txt
+ankify.egg-info/dependency_links.txt
+ankify.egg-info/entry_points.txt
+ankify.egg-info/requires.txt
+ankify.egg-info/top_level.txt
