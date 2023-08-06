@@ -1,0 +1,12 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_read.py,sha256=FSUPFrgdjUTSLxm9KWZmudXDDvgeh50J7o1M3WfJbKM,1247
+tse_index/__init__.py,sha256=xfFbjNm3sinBcUuA0MCaMVJBx7-NZPslOCHYnLg6nqg,24
+tse_index/_utils.py,sha256=5ItK9XQorXOv2PBwN9jCyiUkU2z5KtBp-FHtD6ksb_w,3180
+tse_index/settings.py,sha256=gUeovj55IXJpnEDaMEHY2L-IW7yOXWGgnHAB8t6Y6KM,629
+tse_index/tse.py,sha256=doMJslzCEK4b4gFuUkP2I75KmIxZ1G3L_vjpv6COupk,12527
+tse_index/tse_scrapper.py,sha256=_lxGeiVxYNuq2Nad0pSVgS7qUBZLgUkd0iSPTfb7GGU,7255
+tse_index-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tse_index-0.0.4.dist-info/METADATA,sha256=08eRHg6Vr3X9klMJp_9p_faXVjuScF05WA2A38bec1U,5834
+tse_index-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tse_index-0.0.4.dist-info/top_level.txt,sha256=WGVTogyXFwLG1TSBGAVBBQDkFhKpuVRXcmcGzBLlBuk,16
+tse_index-0.0.4.dist-info/RECORD,,
