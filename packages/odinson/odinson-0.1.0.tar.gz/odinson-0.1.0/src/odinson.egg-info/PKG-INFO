@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: odinson
+Version: 0.1.0
+Summary: A sample god class that contains all dunder methods
+Home-page: https://github.com/foorenxiang/odinson
+Author: Ren Xiang Foo
+Author-email: foorenxiang@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/foorenxiang/odinson/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Dhor: God class containing dunder method demonstrators
+
+Dhor class does not actually do anything. Use it as a boilerplate reference for dunder method definitions
+
