@@ -1,0 +1,8 @@
+pytest_github_actions_annotate_failures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_github_actions_annotate_failures/plugin.py,sha256=6YDW6E1dwplQ7wUyEX7GVG6svbAMmuuEU3Q8FZ5FvHE,3423
+pytest_github_actions_annotate_failures-0.1.4.dist-info/LICENSE,sha256=paMjCp2zSJh0r7xYuFm-_rUqGZGcOIbStHWb_pvCZJI,1069
+pytest_github_actions_annotate_failures-0.1.4.dist-info/METADATA,sha256=Gk9KWNwAlQLyh6hhG7KnsXPKucuDPXY-vTGKVgTi4Ag,1884
+pytest_github_actions_annotate_failures-0.1.4.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pytest_github_actions_annotate_failures-0.1.4.dist-info/entry_points.txt,sha256=sV3aLVce-gCB5tHkxkRxWFkzB6kPyxgR8frFvwLYVFs,101
+pytest_github_actions_annotate_failures-0.1.4.dist-info/top_level.txt,sha256=mrkqqtVtppGBcVKsfOVFTkwLU-2-390QiM6xSy-iT5A,40
+pytest_github_actions_annotate_failures-0.1.4.dist-info/RECORD,,
