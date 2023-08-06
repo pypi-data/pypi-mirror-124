@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+            integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+            crossorigin=""
+        />
+        <script
+            src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""
+        ></script>
+        <script type="text/javascript" src="https://unpkg.com/leaflet.vectorgrid@1.2.0"></script>
+    </head>
+    <body>
+        <div id="mapid" style="width: 1800px; height: 1000px"></div>
+        <script>
+            var mymap = L.map("mapid").setView({{map_view}});
+
+            const road_opts = {
+                interactive: true,
+                vectorTileLayerStyles: {
+                    trunk: {weight: 2, color: "red"},
+                    road: {weight: 1, color: "gray"},
+                    secondary: {weight: 1, color: "orange"},
+                    trunk_link: {weight: 2, color: "red"},
+                    tertiary: {weight: 2, color: "yellow"},
+                    secondary_link: {weight: 2, color: "orange"},
+                    tertiary_link: {weight: 2, color: "yellow"},
+                    primary: {weight: 1, color: "red"},
+                    residential: {weight: 1, color: "gray"},
+                    primary_link: {weight: 2, color: "red"},
+                    track: {weight: 1, color: "gray"},
+                    service: {weight: 1, color: "gray"},
+                    unclassified: {weight: 1, color: "gray"},
+                    path: {weight: 0.5, color: "gray"},
+                }
+            }
+
+            const opts = {
+                interactive: true,
+                vectorTileLayerStyles: {
+                    admin_boundary: {
+                        weight: 2,
+                        color: "blue"
+                    },
+                    islands: {
+                        weight: 1,
+                        color: "blue",
+                        fillColor: "#9bc2c4",
+                        fillOpacity: 1,
+                        fill: true
+                    }
+                }
+            };
+            const islands = L.vectorGrid.protobuf("{% url 'djangostreetmap:islands' %}{z}/{x}/{y}.pbf", opts).addTo(mymap);
+
+            const adm = L.vectorGrid
+                .protobuf("{% url 'djangostreetmap:admin' %}{z}/{x}/{y}.pbf", opts)
+                .on("click", function (e) {
+                    L.popup()
+                        .setContent(e.layer.properties.name || e.layer.properties.type)
+                        .setLatLng(e.latlng)
+                        .openOn(mymap);
+                    L.DomEvent.stop(e);
+                })
+                .addTo(mymap);
+
+            const highways = L.vectorGrid
+                .protobuf("{% url 'djangostreetmap:highways' %}{z}/{x}/{y}.pbf", road_opts)
+                .on("click", function (e) {
+                    L.popup()
+                        .setContent(`Name: ${e.layer.properties.name}, type: ${e.layer.properties.highway}`)
+                        .setLatLng(e.latlng)
+                        .openOn(mymap);
+                    L.DomEvent.stop(e);
+                })
+                .addTo(mymap);
+        </script>
+    </body>
+</html>
