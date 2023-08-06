@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: quico-pkg-johannhospice
+Version: 0.0.1
+Summary: Quico ou quick-container est un raccourci pour docker. Il permet de compiler et lancer rapidement un conteneur.
+Home-page: https://github.com/JohannHospice/quico
+Author: Johann Hospice
+Author-email: johannhopice.dev@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/JohannHospice/quico/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Quico
+Quico ou quick-container est un raccourci pour docker. Il permet de compiler et lancer rapidement un conteneur.
+
+### Environnement requis
+
+- python 3
+### Installation
+```sh
+$ ./install.sh
+```
+
+### Utilisation
+
+```sh
+$ quico [-h] -t TAG [-n NETWORK] [-f FILE] [-p PUBLISH] [-v VOLUME] directory
+
+Quico ou quick-container permet de compiler puis lancer rapidement un
+conteneur docker.
+
+positional arguments:
+  directory             Dossier ou compiler l'image docker.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -t TAG, --tag TAG
+  -n NETWORK, --network NETWORK
+                        Réseau ou lancer le conteneur docker
+  -f FILE, --file FILE  Chemin vers le Dockerfile à compiler
+  -p PUBLISH, --publish PUBLISH
+  -v VOLUME, --volume VOLUME
+```
+

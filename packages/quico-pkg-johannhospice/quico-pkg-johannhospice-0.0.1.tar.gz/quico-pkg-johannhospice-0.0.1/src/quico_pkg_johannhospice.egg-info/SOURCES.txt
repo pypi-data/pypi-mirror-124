@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/quico_pkg_johannhospice.egg-info/PKG-INFO
+src/quico_pkg_johannhospice.egg-info/SOURCES.txt
+src/quico_pkg_johannhospice.egg-info/dependency_links.txt
+src/quico_pkg_johannhospice.egg-info/top_level.txt
