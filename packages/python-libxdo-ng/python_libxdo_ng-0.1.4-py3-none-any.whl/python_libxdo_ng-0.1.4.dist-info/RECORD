@@ -1,0 +1,12 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=ieO5M--uy9tLIhiffQrcx15E1L4mz5346zBvBXhDvj8,1596
+tests/test_base.py,sha256=hxXbjvrqMv19zUidVJW9jJsEMlMltto6SCtaNaZ0Hmo,2812
+tests/test_fixtures.py,sha256=t8oycdHx7EaeCxd082zHhdbdX-QyusZ9tVQbH9tsJO8,94
+tests/test_import_xdo.py,sha256=W3kpMtN8bVL-2Q-m-6E2GiLlOk2RjZsu8RjHGFppn4s,158
+xdo/__init__.py,sha256=kPOFpIm0O6dZjC1Qn2VFbsEVnvzW2gutNWruP6H4UxI,31594
+xdo/xdo.py,sha256=BcG4dU1X2nSVNRFXggL4JeDgQkD7XT43Jk4p6Op-Tg0,55369
+python_libxdo_ng-0.1.4.dist-info/LICENSE,sha256=A2AUs7EpbMgAR61pAEeBTdMMndNLN_t7IPJBOV18R5g,1480
+python_libxdo_ng-0.1.4.dist-info/METADATA,sha256=1fEJq6XO23ZUoDWfFfzQvspQG-wiHh5OWIhw1Tjq2iE,646
+python_libxdo_ng-0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_libxdo_ng-0.1.4.dist-info/top_level.txt,sha256=2S4H9ggicyTxvenjCKTRULJKQSlJQYzsb-SHnHzRMfs,10
+python_libxdo_ng-0.1.4.dist-info/RECORD,,
