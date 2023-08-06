@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+algoGUI.egg-info/PKG-INFO
+algoGUI.egg-info/SOURCES.txt
+algoGUI.egg-info/dependency_links.txt
+algoGUI.egg-info/requires.txt
+algoGUI.egg-info/top_level.txt
