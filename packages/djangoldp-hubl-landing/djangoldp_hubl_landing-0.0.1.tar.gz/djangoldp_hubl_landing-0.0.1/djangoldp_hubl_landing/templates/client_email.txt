@@ -1,0 +1,6 @@
+Bonjour {{contact.firstname|safe}} {{contact.name|safe}},
+
+Merci d'avoir pris contact avec notre équipe pour vos besoins freelances. Nous allons vous contacter sous 48h afin de voir en détail votre demande.
+
+À très vite,
+Cyril pour la team HUBL.
