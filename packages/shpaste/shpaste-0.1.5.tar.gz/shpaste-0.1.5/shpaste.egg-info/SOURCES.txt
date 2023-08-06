@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+shpaste/__init__.py
+shpaste/__main__.py
+shpaste/__version__.py
+shpaste.egg-info/PKG-INFO
+shpaste.egg-info/SOURCES.txt
+shpaste.egg-info/dependency_links.txt
+shpaste.egg-info/entry_points.txt
+shpaste.egg-info/requires.txt
+shpaste.egg-info/top_level.txt
