@@ -1,0 +1,5 @@
+
+[speedups]
+ujson
+aiohttp[speedups]==3.7.4.post0
+msgpack==1.0.2
