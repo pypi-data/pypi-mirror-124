@@ -1,0 +1,3 @@
+[fedora.messages]
+nuancier.new = nuancier_messages.thing:NewThingV1
+
