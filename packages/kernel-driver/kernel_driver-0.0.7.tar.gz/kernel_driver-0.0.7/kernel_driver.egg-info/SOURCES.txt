@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+kernel_driver/__init__.py
+kernel_driver/connect.py
+kernel_driver/driver.py
+kernel_driver/kernelspec.py
+kernel_driver/message.py
+kernel_driver/paths.py
+kernel_driver.egg-info/PKG-INFO
+kernel_driver.egg-info/SOURCES.txt
+kernel_driver.egg-info/dependency_links.txt
+kernel_driver.egg-info/requires.txt
+kernel_driver.egg-info/top_level.txt
