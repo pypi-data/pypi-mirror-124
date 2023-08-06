@@ -1,0 +1,12 @@
+lavalink/__init__.py,sha256=ukA31tSWgNBNLUfEe2XOA7333A9bHVzl1Y-jfedLiqI,1027
+lavalink/enums.py,sha256=3Ptw7qFZ1NuSzk0eGxQOoLKD1z8xyu0Gh9COcmrrmvg,2981
+lavalink/lavalink.py,sha256=nGgsTrT9lv3ANqZFQbYkLxGdXdAVroKrRfy0VDV-Nyg,9917
+lavalink/log.py,sha256=pLD7EtouSTiDaquCK-uzDU7BAlgQTR630Pul8FOcWAA,521
+lavalink/node.py,sha256=wR-0cI_v2mgyO_u48xP6q1X4vDMQturT6wNoseTHUHo,21824
+lavalink/player_manager.py,sha256=2bOSh2LUVvuIUcjJAXKRxqm2SWOWFJ93KjW5aQg9SCk,19135
+lavalink/rest_api.py,sha256=uo6Vl4XdBD004e_XaIgaD8VnbQRA7QH9yDkB90o5cPQ,13918
+lavalink/utils.py,sha256=WA-x0H2aNu8xBkmJvfyRUWozwXrxQM3ZQaS1Peu0_1w,173
+useless_lavalink-1.0.dist-info/LICENSE,sha256=k94lMuFZwkZ-haq91rF9q_sQkvZrkcP8DrDMcs4hXws,36616
+useless_lavalink-1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+useless_lavalink-1.0.dist-info/METADATA,sha256=VszUsybAvS9y3BAgCxspq3LBRRqke_ZZAZDvsoioMTo,655
+useless_lavalink-1.0.dist-info/RECORD,,
