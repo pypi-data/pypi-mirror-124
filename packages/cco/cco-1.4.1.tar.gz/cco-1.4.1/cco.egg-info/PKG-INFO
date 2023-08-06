@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cco
+Version: 1.4.1
+Summary: CKAN Cloud Kubernetes operator
+Home-page: https://github.com/datopian/ckan-cloud-operator
+Author: Viderum
+License: MIT
+Platform: UNKNOWN
+Provides-Extra: boto3
+Provides-Extra: coverage
+Provides-Extra: awscli
+Provides-Extra: botocore
+Provides-Extra: aws
+License-File: LICENSE
+
+UNKNOWN
+
