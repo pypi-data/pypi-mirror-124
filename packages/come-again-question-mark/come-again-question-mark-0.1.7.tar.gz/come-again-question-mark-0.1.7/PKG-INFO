@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: come-again-question-mark
+Version: 0.1.7
+Summary: Transcription tool for video or audio to text
+License: GPL-3.0-or-later
+Author: Henry Bergström
+Author-email: henrybergstrom@protonmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: progressbar2 (>=3.53.3,<4.0.0)
+Requires-Dist: srt (>=3.5.0,<4.0.0)
+Requires-Dist: vosk (>=0.3.30,<0.4.0)
