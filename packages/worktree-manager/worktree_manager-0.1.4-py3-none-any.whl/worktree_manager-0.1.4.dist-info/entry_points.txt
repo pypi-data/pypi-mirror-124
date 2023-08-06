@@ -1,0 +1,3 @@
+[console_scripts]
+work=worktree_manager.manager:cli
+
