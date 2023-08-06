@@ -1,0 +1,12 @@
+taskr/__init__.py,sha256=4CO5HgfYFai9ukHwblAQ1UyadUyf_HSzQ_zPe3TZPLM,251
+taskr/__version__.py,sha256=8MIY5UwgP1rLasyjdDzCV9ht17YREcGENSms8Tr2qfQ,14
+taskr/cli.py,sha256=hzW_pUJZxUhmj2orn2IMgIOhd8R1gaN1dwbJC9trOHY,1441
+taskr/taskr.py,sha256=hEDh7PB4Q6ZB7fl4AJy3e5VisqIwg_LNINCyrfUh-r0,6828
+taskr/template.py,sha256=ZRrDxVgzn1Tvk-TxE4fmC7lsZchj2Sa4sCBHgRqzSYw,895
+taskr/utils.py,sha256=fsS1V69Ere8wsf1Rt0oNJoAsYswPg4Lzt7c43J3v0qs,1299
+taskr_cli-0.0.3.dist-info/LICENSE,sha256=r-dZ3nX2dvIGBQgIGllf9ITlGguIqi8OqBm-x6oWS7U,1069
+taskr_cli-0.0.3.dist-info/METADATA,sha256=EBVHWAWjeclPgOEDd6cKuvd0i23se0JLG71rsMccIHI,4829
+taskr_cli-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+taskr_cli-0.0.3.dist-info/entry_points.txt,sha256=Ik-agqZrwD_tMMEjfAGJHarV1eQpC31_uKFiimVHIEo,42
+taskr_cli-0.0.3.dist-info/top_level.txt,sha256=nUs61tNfbfharkZ-iKd9ugpnblA61ctB_cj3yljwmPs,6
+taskr_cli-0.0.3.dist-info/RECORD,,
