@@ -1,0 +1,4 @@
+click
+figurl>=0.1.4
+pyyaml
+cmdstanpy

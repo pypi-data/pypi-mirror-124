@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: mcmc-monitor
+Version: 0.2.2
+Summary: Monitor MCMC runs using figurl
+Home-page: https://github.com/magland/mcmc-monitor
+Author: Jeremy Magland and Jeff Soules
+Author-email: jmagland@flatironinstitute.org
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/magland/mcmc-monitor/issues
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
