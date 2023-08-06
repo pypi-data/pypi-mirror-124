@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/face_lib/BlazeDetector.py
+src/face_lib/__init__.py
+src/face_lib/blazeFaceUtils.py
+src/face_lib/download.py
+src/face_lib/face_detection_back_256x256.onnx
+src/face_lib/face_detection_front_128x128.onnx
+src/face_lib/face_lib.py
+src/face_lib/parse_url.py
+src/face_library.egg-info/PKG-INFO
+src/face_library.egg-info/SOURCES.txt
+src/face_library.egg-info/dependency_links.txt
+src/face_library.egg-info/requires.txt
+src/face_library.egg-info/top_level.txt
