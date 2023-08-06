@@ -1,0 +1,10 @@
+numpy
+numba
+
+[examples]
+matplotlib
+scikit-rf
+
+[testing]
+pytest
+scikit-rf
