@@ -1,0 +1,2 @@
+class JSONManager:
+    pass
