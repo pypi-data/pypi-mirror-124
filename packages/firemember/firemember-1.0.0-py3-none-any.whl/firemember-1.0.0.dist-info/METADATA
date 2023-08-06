@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: firemember
+Version: 1.0.0
+Summary: Lisensi aplikasi menggunakan realtime database dari firebase
+Home-page: UNKNOWN
+Author: santo
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pycryptodome
+Requires-Dist: requests
+
+UNKNOWN
+
