@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+Multifunctionality/Multifunctionality.py
+Multifunctionality/__init__.py
+Multifunctionality.egg-info/PKG-INFO
+Multifunctionality.egg-info/SOURCES.txt
+Multifunctionality.egg-info/dependency_links.txt
+Multifunctionality.egg-info/requires.txt
+Multifunctionality.egg-info/top_level.txt
