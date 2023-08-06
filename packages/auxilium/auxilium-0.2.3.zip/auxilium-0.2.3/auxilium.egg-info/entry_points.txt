@@ -1,0 +1,3 @@
+[console_scripts]
+auxilium = auxilium:main
+
