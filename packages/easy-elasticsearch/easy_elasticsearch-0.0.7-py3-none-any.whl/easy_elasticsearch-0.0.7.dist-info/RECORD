@@ -1,0 +1,9 @@
+easy_elasticsearch/ElasticSearchBM25.py,sha256=AgE-pK2JY1QJ0nDJVVSXacgRVQf1Fbb9IhiYGmKVV4E,13045
+easy_elasticsearch/__init__.py,sha256=5I6Sc7y_826tjqqdaOUm2JAbIaCA3AznOBP9D1-9bnc,48
+easy_elasticsearch/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_elasticsearch/examples/quora.py,sha256=NPyOw3P--T4MYGCCzL7Q27yRq2xxcjFp5NawjmLjk_A,3125
+easy_elasticsearch-0.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+easy_elasticsearch-0.0.7.dist-info/METADATA,sha256=SajRJE-3hc-wFQJ0U51PyM-FblrPp-U0kumPGH-1EuE,2589
+easy_elasticsearch-0.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+easy_elasticsearch-0.0.7.dist-info/top_level.txt,sha256=FkksHppuQEKW1oIhFi3y3bjhJFBudyXoYDnCNlgPORw,19
+easy_elasticsearch-0.0.7.dist-info/RECORD,,
