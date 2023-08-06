@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: distributions-udacity-akshayudayahegde
+Version: 0.1.0
+Summary: Gaussian and Binomial Distribution Basic Functions
+Home-page: UNKNOWN
+Author: Akshay Udaya Hegde
+Author-email: akshayudayhegde2@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: # Distributions Package - Akshay Udaya Hegde
+        
+        This is package uploaded to PyPi as part of the Machine Learning Engineer Nanodegree on Udacity. This package implements OOP concepts to handle Gaussian and Binomial distributions and their statistical calculations.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
