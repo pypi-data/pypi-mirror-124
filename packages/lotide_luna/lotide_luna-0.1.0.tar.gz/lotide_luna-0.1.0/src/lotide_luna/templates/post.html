@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load datetime_filter %}
+{% load humanize %}
+
+{% block title %}
+{{ post.title }}
+{% endblock %}
+
+{% block body %}
+<section id="post">
+  <h1>{{post.title}}</h1>
+  <a href="{% url 'user' post.author.id %}">{{ post.author.username }}</a>
+  submitted
+  <time datetime="{{ post.created }}">
+    {{ post.created | to_datetime | naturaltime }}
+  </time>
+  <span class="upvote">{{ post.score }}</span> point{{ post.score|pluralize}}
+  {{ post.content_html | safe }}
+</section>
+
+<section id="comments">
+  {% for comment in comments %}
+    {% include "comment.html" %}
+  {% endfor %}
+</section>
+
+{% endblock %}
