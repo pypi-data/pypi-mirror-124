@@ -1,0 +1,12 @@
+anyio
+certifi
+charset-normalizer
+h11
+httpcore
+httpx
+idna
+requests
+rfc3986
+sniffio
+urllib3
+wheel

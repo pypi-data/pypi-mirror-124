@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+seedrapi/__init__.py
+seedrapi/api.py
+seedrapi/api_async.py
+seedrapi/errors.py
+seedrapi.egg-info/PKG-INFO
+seedrapi.egg-info/SOURCES.txt
+seedrapi.egg-info/dependency_links.txt
+seedrapi.egg-info/requires.txt
+seedrapi.egg-info/top_level.txt
