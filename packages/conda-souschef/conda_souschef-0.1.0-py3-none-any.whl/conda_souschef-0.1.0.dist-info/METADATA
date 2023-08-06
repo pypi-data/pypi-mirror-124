@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: conda-souschef
+Version: 0.1.0
+Summary: Project to handle conda recipes
+Home-page: https://github.com/marcelotrevisani/souschef
+Author: Marcelo Duarte Trevisani
+Author-email: marceloduartetrevisani@gmail.com
+License: Apache-2.0
+Project-URL: Source, https://github.com/marcelotrevisani/souschef
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: ruamel.yaml (>=0.15.3)
+Requires-Dist: ruamel.yaml.jinja2
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: mock ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+# Souschef
+
+Library to easily manipulate conda recipes.
+
+
