@@ -1,0 +1,3 @@
+[console_scripts]
+ecdh = ecdh.__main__:main
+
