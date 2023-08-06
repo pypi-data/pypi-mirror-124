@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: smpl2
+Version: 0.0.0
+Summary: simple plotting and fitting and simulation
+Home-page: https://github.com/dfb159/smpl2
+Author: dfb159
+Author-email: jSigrist@web.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: uncertainties
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: sympy
+
+# simple plotting + fitting + simulation + latex
+
+based on https://github.com/APN-Pucky/smpl
+
+Doc: https://apn-pucky.github.io/smpl/index.html
+
+[![PyPI version](https://badge.fury.io/py/smpl.svg)](https://badge.fury.io/py/smpl)
+![workflow](https://github.com/APN-Pucky/smpl/actions/workflows/stable.yml/badge.svg)
+![downloads](https://img.shields.io/pypi/dm/smpl.svg)
+
+
