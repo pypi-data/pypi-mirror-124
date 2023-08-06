@@ -1,0 +1,16 @@
+cached_property
+backoff
+packaging
+reverse_geocoder
+fast_json
+boto3
+backoff
+haversine
+osmnx
+scikit-learn
+requests
+geopandas
+imagehash
+pillow
+bottle
+gunicorn
