@@ -1,0 +1,10 @@
+sweetrpg_web_core/__init__.py,sha256=pCPEy6AEursMfLhZuoLlZ6Bcj3VNjcFnyGC0JmOYLwE,400
+sweetrpg_web_core/errors.py,sha256=u4z12i3p_k3aHzEb_wVrjEwT1oNPZ6_OSZXbereYVNo,798
+sweetrpg_web_core/blueprints/__init__.py,sha256=-aZck5Mj_bhTjywk0RQsOjeBg88ZJ9bMT4Lu2tN3xy4,81
+sweetrpg_web_core/blueprints/health/__init__.py,sha256=axo_YBu-G1VpPD3Z2ZxWmxZGf2x79F9lwLvz3ScRZC0,558
+sweetrpg_web_core-0.0.1.dist-info/LICENSE,sha256=l9scQGsqoUwsODCDicrQeU-CHjRnoRzEw_Fe2hO5kW8,1065
+sweetrpg_web_core-0.0.1.dist-info/METADATA,sha256=OYKKk6yccTah80utRMYRLUUd4p7BAN8XJ5eT2slImt4,1993
+sweetrpg_web_core-0.0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+sweetrpg_web_core-0.0.1.dist-info/entry_points.txt,sha256=dg53of_iubFvdMw7XYOVda-VXSWh3nvPb-ylj9h26qM,66
+sweetrpg_web_core-0.0.1.dist-info/top_level.txt,sha256=TqgjtoxuXm2dMR51cRwhO8Ot1KVM5b0y4ReHf9fE21s,18
+sweetrpg_web_core-0.0.1.dist-info/RECORD,,
