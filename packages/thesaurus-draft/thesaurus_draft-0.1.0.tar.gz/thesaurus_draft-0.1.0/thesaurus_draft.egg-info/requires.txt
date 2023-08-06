@@ -1,0 +1,6 @@
+numpy
+spacy
+time
+gensim.utils
+sklearn.manifold
+matplotlib.pyplot
