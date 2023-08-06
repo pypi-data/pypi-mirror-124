@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: plover-delay
+Version: 0.0.0
+Summary: Plover command plugin to sleep for some time.
+Home-page: https://github.com/user202729/plover-delay
+Author: user202729
+License: GNU General Public License v3 or later (GPLv3+)
+Keywords: plover plover_plugin
+Platform: UNKNOWN
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: plover (>=4.0.0.dev8)
+
+# plover-delay
+Plover command plugin to sleep for some time.
+
+See also: [user202729/plover-run-py: Command plugin for Plover to run an arbitrary Python command.](https://github.com/user202729/plover-run-py)
+
+## Usage
+
+In order to use this plugin in [Plover](https://github.com/openstenoproject/plover) you need to
+create a dictionary entry of the form:
+
+``` json
+{
+    "example_stroke": "{PLOVER:DELAY:0.1}"
+}
+```
+
+`DELAY` can be replaced with `SLEEP` or `WAIT`.
+
+The amount is measured in seconds.
+
+In some new Plover version `{:command:delay:0.1}` would also work.
+
+

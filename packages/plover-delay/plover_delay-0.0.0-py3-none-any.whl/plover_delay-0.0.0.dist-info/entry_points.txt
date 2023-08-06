@@ -1,0 +1,5 @@
+[plover.command]
+delay = plover_delay:delay
+sleep = plover_delay:delay
+wait = plover_delay:delay
+
