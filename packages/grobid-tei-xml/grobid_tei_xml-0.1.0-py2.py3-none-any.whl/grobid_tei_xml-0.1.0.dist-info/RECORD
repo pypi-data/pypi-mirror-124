@@ -1,0 +1,11 @@
+grobid_tei_xml/__init__.py,sha256=l6ERrNCQwECx63QN2RMsWWesH7LW-gVXl2ZWSCwcnlw,130
+grobid_tei_xml/__main__.py,sha256=WGKF1avyEYZm3s-fhjY2kcozFqJzrwZ9DnUVYWoFscc,869
+grobid_tei_xml/grobid2json.py,sha256=cKaIKvFryf3Kc1wQfD5WBGYuj8nZmaoKVTRtfLs6cNA,8737
+grobid_tei_xml/grobid_unstructured.py,sha256=uXcI_8RKnXOUg4rzgJKMDhAfxsyvp4dHSHtW5q6OenU,422
+grobid_tei_xml/parse.py,sha256=-Egcc3KnPydpg4_1KFrDIdHCI2gXumbphAES8RD7QhQ,11254
+grobid_tei_xml/types.py,sha256=kTRfmvq8Fh5GYeN_jwK731GJcUm7XB00lp1mXGmkJ1o,7562
+grobid_tei_xml-0.1.0.dist-info/LICENSE.txt,sha256=10qgKJbHV8mvYVSfJVE8KFITUgiNPwuvDsI0hu4O7IE,1098
+grobid_tei_xml-0.1.0.dist-info/METADATA,sha256=XpK8VAX6qeW3Ji8jvFUEwUBQ74fnQXYS0iNLmMmvxMA,5113
+grobid_tei_xml-0.1.0.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+grobid_tei_xml-0.1.0.dist-info/top_level.txt,sha256=JQsXg0rrmvrjpEN0hCFbbvI1xXc4xPtlWjqSDn-gzRY,15
+grobid_tei_xml-0.1.0.dist-info/RECORD,,
