@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: population-data
+Version: 0.0.4
+Summary: Get Population Data of the world
+Home-page: UNKNOWN
+Author: Anshu (Pydjango and techitutorials.com)
+Author-email: <anshupal258@gmail.com>
+License: UNKNOWN
+Requires-Dist: requests
+
+
+# A package that allows you to get world and country pouplation data
+
