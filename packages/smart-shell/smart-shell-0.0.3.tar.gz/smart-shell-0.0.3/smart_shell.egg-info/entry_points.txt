@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        plz=client:main
+        smart_shell=client:main
+    
