@@ -1,0 +1,13 @@
+diffractsim/__init__.py,sha256=vJUiLYDxJMJrbfMtIATCGJhEH5BR0jxYhyknlremV24,362
+diffractsim/backend_functions.py,sha256=ffvnq7ikplWtUeJGxDECCe-g9LrJNBLTJzMOIfC6sx0,985
+diffractsim/colour_functions.py,sha256=g5p6mNWJe0ibPJ90zLk1LamcSqtG4_JULnT15zAlp44,8699
+diffractsim/monochromatic_simulator.py,sha256=jd4tmsX3mjiiztGKmXs8GAaw43yqrfYUYcWwBwev-Fs,11643
+diffractsim/polychromatic_simulator.py,sha256=DdOW2HXTIJ2_Or_1IxFUu6V3_0Ln1syX5BjQpqgiV38,9919
+diffractsim/zernike_polynomials.py,sha256=3KtSSPi_X-Hw-EcfP5FNcOfmXeiyvtV9Vz_wVCzb-Zw,657
+diffractsim/data/cie-cmf.txt,sha256=3DS_khhCLvAmqMjJ3tHKttOLbs-Ym10_jD39AYxC6Jw,12470
+diffractsim/data/illuminant_d65.txt,sha256=YPKqC6kH-goVA5G3YbPrZ_bUuhLNfr6L8mO3QXjnFUo,10002
+diffractsim-1.4.0.dist-info/LICENSE,sha256=991K5qQ8Jmhsqobvq_fKHibThwjX4OXccKh6mGFYyLQ,1556
+diffractsim-1.4.0.dist-info/METADATA,sha256=-Z4chHQAmvBuNcOoCNqNa7_k2WnTNNbrIStfYhEL1xc,1534
+diffractsim-1.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+diffractsim-1.4.0.dist-info/top_level.txt,sha256=qeGhUQ3QzZPJW3atD2I3A822uKjTpLpEIuDJG-8skkw,12
+diffractsim-1.4.0.dist-info/RECORD,,
