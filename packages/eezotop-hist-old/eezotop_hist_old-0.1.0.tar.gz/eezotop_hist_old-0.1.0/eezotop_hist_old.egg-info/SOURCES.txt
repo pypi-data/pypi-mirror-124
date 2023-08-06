@@ -1,0 +1,8 @@
+setup.py
+eezotop_hist_old/__init__.py
+eezotop_hist_old/hist.py
+eezotop_hist_old.egg-info/PKG-INFO
+eezotop_hist_old.egg-info/SOURCES.txt
+eezotop_hist_old.egg-info/dependency_links.txt
+eezotop_hist_old.egg-info/requires.txt
+eezotop_hist_old.egg-info/top_level.txt
