@@ -1,0 +1,36 @@
+caliban: Calcium Imaging and Behavior Analysis
+======
+>...in dreaming,  
+The clouds methought would open, and show riches  
+Ready to drop upon me; that, when I waked,   
+I cried to dream again.
+
+*The Tempest*, Act III, Scene ii
+
+Twinkling calcium imaging videos are certainly filled with riches. Whereas Caliban is showered with riches in his slumber, we must dig a little harder to mine these datasets. This software was developed to assist fellow wayward travelers on their journey to understanding how neurons encode information.
+
+
+# <img src="readme_pic.jpg">
+
+
+
+This code base was written with the intention of serving as a toolbox for:
+
+1. Statistical Testing of neuron classification by behavior.
+2. Visualization of neural activity and behavior data
+3. Graph Theoretical Analysis of networks of neurons.
+4. Data Visualization tool -- see the "full picture" of the data garnered from experiments with integration of calcium imaging movies, behavioral videos, and data processing results.
+5. processing behavior data with Google Colab notebooks
+
+For any feature requests, [create an issue](https://help.github.com/articles/creating-an-issue/).
+
+## Getting Started
+
+### Google Colab
+```bash
+!pip install jb-caliban
+```
+
+## Troubleshooting
+
+[Create an issue](https://help.github.com/articles/creating-an-issue/)
