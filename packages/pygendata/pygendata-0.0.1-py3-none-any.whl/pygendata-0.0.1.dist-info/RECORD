@@ -1,0 +1,9 @@
+pygendata/__init__.py,sha256=BiXBp2J5kWumvRyYRWoI59_BSKgVGME0zM_d5CXjXuc,1266
+pygendata/datatypes.py,sha256=qjzUN94JjE7HIkEO2VRm7pQP7e0N9xW7D1vwlx8PG_E,1239
+pygendata/ddl.py,sha256=cizHt5XzEfTK8hKS0pAXv1ZNtY2kgzra-MtszSp0dS8,1381
+pygendata/exceptions.py,sha256=qi__sjWsqmliRtUecACjvLwOMsOALCvIi1unGejYItg,48
+pygendata-0.0.1.dist-info/LICENSE.txt,sha256=zJAvNQA_4UOeGZlyYd0ou82wzIsrlgQfQgrqy2iQYEs,1064
+pygendata-0.0.1.dist-info/METADATA,sha256=qH9N3OXy6dSRxkg2yEwbM1y8BwKHNujKfP6u1wZTyLo,745
+pygendata-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pygendata-0.0.1.dist-info/top_level.txt,sha256=GOP1qw8JlIn5BzdbNHPEX2RupbmBogoA5w_3igMnVsk,10
+pygendata-0.0.1.dist-info/RECORD,,
