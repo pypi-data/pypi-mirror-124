@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/compliant_dynamodb/__init__.py
+src/compliant_dynamodb/py.typed
+src/compliant_dynamodb/_jsii/__init__.py
+src/compliant_dynamodb/_jsii/compliantdynamodb@0.0.9.jsii.tgz
+src/compliantdynamodb.egg-info/PKG-INFO
+src/compliantdynamodb.egg-info/SOURCES.txt
+src/compliantdynamodb.egg-info/dependency_links.txt
+src/compliantdynamodb.egg-info/requires.txt
+src/compliantdynamodb.egg-info/top_level.txt
