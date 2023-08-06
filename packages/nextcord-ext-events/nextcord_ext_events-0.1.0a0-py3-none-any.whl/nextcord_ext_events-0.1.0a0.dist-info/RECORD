@@ -1,0 +1,10 @@
+nextcord/ext/events/__init__.py,sha256=Jbdtc12FF-LbJweWBb4uBPefY3uDKNc-v8trqjrl1MY,886
+nextcord/ext/events/_events.py,sha256=foNZqySVIL4c8ryse09fiXv06leyPpTcxqHC-aZCI9k,123
+nextcord/ext/events/member_kick.py,sha256=hEPbonwJ9JI3aeAJarCGIjYKw508c07Pb_kFl6iDoxo,613
+nextcord/ext/events/mixins.py,sha256=f5gNKOGk9Rm0ydQegFf2jYW3lf6vpqljwa9YDAhXw_8,456
+nextcord/ext/events/utils.py,sha256=JGP2eXHlS3fv1YQEj6gBKcZzFHS-ikOnikseX3RJzto,2286
+nextcord_ext_events-0.1.0a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nextcord_ext_events-0.1.0a0.dist-info/METADATA,sha256=dQS5WKhv0opRUie5_IMuAypigq_6k__WCB4Wwbjk1ro,2077
+nextcord_ext_events-0.1.0a0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nextcord_ext_events-0.1.0a0.dist-info/top_level.txt,sha256=WLKE4YjlmaQ5A1gxmxiAYHUFoYSc49lTpIaYSHFE2Qw,9
+nextcord_ext_events-0.1.0a0.dist-info/RECORD,,
