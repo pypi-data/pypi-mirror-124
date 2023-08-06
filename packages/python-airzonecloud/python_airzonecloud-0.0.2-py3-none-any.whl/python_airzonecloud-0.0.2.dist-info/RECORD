@@ -1,0 +1,13 @@
+airzonecloud/AirzoneCloudConnector.py,sha256=Ac1mAXVc8afyz88doOPJLllOB7-JEWjsjGtRNC-nkYQ,4057
+airzonecloud/AirzoneDevice.py,sha256=KjASgCgsd4YCmq0IXFAC2Z8rBCwLxwUGSl3m2FuO5Og,4538
+airzonecloud/AirzoneInstallation.py,sha256=CYOdTvXQbJ9MRRwSFwb4DEHV55RDKa2u-laKLxox3QE,1184
+airzonecloud/AirzoneWebsocket.py,sha256=bqx7PBaz4NGB-qHbW51yFD4mCLyDzFuh_u9nEu2kqjA,5108
+airzonecloud/const.py,sha256=4mgRd4ZtBde8kWSWb7_NTPIdoZNWTanQecAAr2A_l7A,205
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_device.py,sha256=E51rXx3yc51JwyfyFWKV-9Ac-CpzxL3NmdVT13D0HuU,2500
+tests/test_installation.py,sha256=p12C1u3eRBoppF9asTQZeJGoSn4_y7E0VMWMhx_x8MI,2512
+python_airzonecloud-0.0.2.dist-info/LICENSE,sha256=40mKXUu_vWmqPKLrsfqGQFZ32GHO7YH6EfSwx_BHp7Y,1065
+python_airzonecloud-0.0.2.dist-info/METADATA,sha256=nXBXS7cWHLszOmQ82hWvr4_fI7Hpg-pUv1fRw64KNv0,582
+python_airzonecloud-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+python_airzonecloud-0.0.2.dist-info/top_level.txt,sha256=nLO7hgXzKysUtbNy3Uk2C8gtbT_WKMnKOHwz9Fk-Mxc,13
+python_airzonecloud-0.0.2.dist-info/RECORD,,
