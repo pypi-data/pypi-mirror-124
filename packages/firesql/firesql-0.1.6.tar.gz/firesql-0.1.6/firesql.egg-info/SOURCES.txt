@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+firesql/__init__.py
+firesql.egg-info/PKG-INFO
+firesql.egg-info/SOURCES.txt
+firesql.egg-info/dependency_links.txt
+firesql.egg-info/requires.txt
+firesql.egg-info/top_level.txt

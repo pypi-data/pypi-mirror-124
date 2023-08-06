@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: firesql
+Version: 0.1.6
+Summary: Library to use databases sql or not-sql
+Home-page: https://github.com/4CodersColombia/firesql
+Author: Andres Gonzalez
+Author-email: andres@4coders.co
+License: GPLv3
+Download-URL: https://github.com/4CodersColombia/firesql/archive/refs/tags/0.1.5.tar.gz
+Keywords: sql,no-sql
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.txt
+
+UNKNOWN
+
