@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/staple/__init__.py
+src/staple/account.py
+src/staple/groups.py
+src/staple_ai.egg-info/PKG-INFO
+src/staple_ai.egg-info/SOURCES.txt
+src/staple_ai.egg-info/dependency_links.txt
+src/staple_ai.egg-info/top_level.txt

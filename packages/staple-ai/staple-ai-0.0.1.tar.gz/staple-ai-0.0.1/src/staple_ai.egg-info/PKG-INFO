@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: staple-ai
+Version: 0.0.1
+Summary: CLI for easy use of Staple APIs to automate your data processing
+Home-page: https://documentation.staple.io/
+Author: Staple
+Author-email: hello@staple.io
+License: UNKNOWN
+Project-URL: Bug Tracker, https://staple.io/profile/support
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+CLI for easy use of Staple APIs to automate your data processing 
+

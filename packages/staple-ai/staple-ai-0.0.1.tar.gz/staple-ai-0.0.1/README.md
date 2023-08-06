@@ -1,0 +1,1 @@
+CLI for easy use of Staple APIs to automate your data processing 
