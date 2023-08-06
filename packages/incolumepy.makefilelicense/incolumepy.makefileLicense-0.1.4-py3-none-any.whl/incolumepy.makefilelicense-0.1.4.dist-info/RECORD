@@ -1,0 +1,9 @@
+LICENSE,sha256=bum6Se-eY9V8TahaQQbTCnUEanXbt9DUF1jGnTjQv5I,1083
+incolumepy/makefilelicense/__init__.py,sha256=jjynhotXrD8VjpamYtMZT6rRp77s8y1iIuMZy-mVNMo,363
+incolumepy/makefilelicense/licenses.py,sha256=wtdedz2smttC4uNPTBoX8S6mS2-s_hVzDEfTkePG0WQ,1460
+pyproject.toml,sha256=lCeRpPnwDb8LhqusHb3hOOK7Mi9oGSBIs-8fMJ4sLe0,2378
+incolumepy.makefilelicense-0.1.4.dist-info/entry_points.txt,sha256=YYdjgm1xAl-SkqHrXpH6kWN-9WR0fFqcLdefItxKI34,505
+incolumepy.makefilelicense-0.1.4.dist-info/LICENSE,sha256=bum6Se-eY9V8TahaQQbTCnUEanXbt9DUF1jGnTjQv5I,1083
+incolumepy.makefilelicense-0.1.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+incolumepy.makefilelicense-0.1.4.dist-info/METADATA,sha256=TuivJ9tBoFvvNvGDiO-tZvSWBJ0m7HyVtMOktgTow0Y,2357
+incolumepy.makefilelicense-0.1.4.dist-info/RECORD,,

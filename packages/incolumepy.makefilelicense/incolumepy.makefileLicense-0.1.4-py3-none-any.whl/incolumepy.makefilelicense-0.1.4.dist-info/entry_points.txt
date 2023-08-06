@@ -1,0 +1,10 @@
+[console_scripts]
+license-agpl=incolumepy.makefilelicense.licenses:license_agpl
+license-apache=incolumepy.makefilelicense.licenses:license_apache
+license-bsl=incolumepy.makefilelicense.licenses:license_bsl
+license-gpl=incolumepy.makefilelicense.licenses:license_gpl
+license-lgpl=incolumepy.makefilelicense.licenses:license_lgpl
+license-mit=incolumepy.makefilelicense.licenses:license_mit
+license-mpl=incolumepy.makefilelicense.licenses:license_mpl
+unlicense=incolumepy.makefilelicense.licenses:unlicense
+
