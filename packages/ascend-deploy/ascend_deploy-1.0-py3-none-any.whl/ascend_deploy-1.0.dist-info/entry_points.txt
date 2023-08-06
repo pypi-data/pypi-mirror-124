@@ -1,0 +1,4 @@
+[console_scripts]
+ascend_deploy = ascend_deploy.ascend_deploy:main
+ascend_download = ascend_deploy.ascend_download:main
+
