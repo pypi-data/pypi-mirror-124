@@ -1,0 +1,8 @@
+dask_bigquery/__init__.py,sha256=vk3rmROvnELe8xZOZWrA56OJwZVQBYWGLqNq-exgY4Q,54
+dask_bigquery/core.py,sha256=1JxGxwcNA-qu3v2WFL7JVsRNa52fmFrUuEZ4bhqjvxw,6028
+dask_bigquery/tests/test_core.py,sha256=7tp-lFoAu8RdaIVS5igMMmLiEkNZgueNEw3pvL4Eeis,2686
+dask_bigquery-2021.10.1.dist-info/LICENSE,sha256=HNWwDA-m_QVmldFRpD9yuX2jYcnFEbLEs4qer7m5gmM,1514
+dask_bigquery-2021.10.1.dist-info/METADATA,sha256=24xwiBEADxGx4UE8M8OwzDfhNNGb9jCAY-ZovaLpJsg,2195
+dask_bigquery-2021.10.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dask_bigquery-2021.10.1.dist-info/top_level.txt,sha256=9farFIz3GwPVFWJcd2UbcdS_XjMI6nk9g3jNpbYUayU,14
+dask_bigquery-2021.10.1.dist-info/RECORD,,
