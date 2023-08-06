@@ -1,0 +1,13 @@
+aioconnectors/__init__.py,sha256=uP_mQQAAU9NvjX84KXydAtwyTxDgw6NXzdj4u6Y8XB4,1951
+aioconnectors/__main__.py,sha256=ERM5rLlIG-28fqTjgNrNAU_EvCUxq5b7zL4OkgnWFLs,9726
+aioconnectors/api.py,sha256=X8RfHlWnEVZUULxQ1Z2D8VI0yxoJOsDEx6fOaWX6WTY,59591
+aioconnectors/applications.py,sha256=fnsbXrw480AnMPu-gIFZIblaifx0lPuHo2wWxoImGk4,48133
+aioconnectors/connection.py,sha256=WTMYtnySY5lij0P98iO7aEoTm2ta7q5h8NCFfRS9d9A,86457
+aioconnectors/core.py,sha256=8cE85k6KJLX042yRIt0EbT6arJAO-S8lcKHPCBe1Jy0,117188
+aioconnectors/helpers.py,sha256=i6fo72ENvYSMX5cHpTFE4qGx5wlCSYwKh6Mv_D2AYlc,4682
+aioconnectors/ssl_helper.py,sha256=Z8DUfSmGjm19E8KUQs2PNuTHQC8ZQVjuL0_lOqWdkfA,20054
+aioconnectors-1.0.57.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aioconnectors-1.0.57.dist-info/METADATA,sha256=Y_QRFmq5a63putUO4EVU2E7mMl0weL3SXbypRa0g2ag,56090
+aioconnectors-1.0.57.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aioconnectors-1.0.57.dist-info/top_level.txt,sha256=MZn4pyKn2p0oPtbvZA7FBQAlW_jYcNROfGu2yWnTL-U,14
+aioconnectors-1.0.57.dist-info/RECORD,,
