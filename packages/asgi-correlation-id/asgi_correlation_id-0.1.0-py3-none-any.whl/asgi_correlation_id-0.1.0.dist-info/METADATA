@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: asgi-correlation-id
+Version: 0.1.0
+Summary: Middleware that propagates HTTP header correlation IDs to project logs
+Home-page: https://github.com/snok/asgi-correlation-id
+License: BSD-4-Clause
+Keywords: asgi,async,correlation,correlation-id,id,request,request-id,x-request-id,tracing,fastapi,starlette,logging,middleware,uuid,sentry,celery
+Author: Jonas Krüger Svensson
+Author-email: jonas-ks@hotmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: starlette (>=0.16.0,<0.17.0)
+Project-URL: Repository, https://github.com/snok/asgi-correlation-id
+Description-Content-Type: text/markdown
+
+[![test](https://github.com/snok/asgi-correlation-id/actions/workflows/test.yml/badge.svg)](https://github.com/snok/asgi-correlation-id/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/snok/asgi-correlation-id/branch/master/graph/badge.svg?token=1aXlWPm2gb)](https://codecov.io/gh/snok/asgi-correlation-id)
+[![pypi](https://pypi.org/pypi/asgi-correlation-id)](https://github.com/snok/asgi-correlation-id)
+
+
+# ASGI Correlation ID middleware
+
+This is a rewrite of [django-guid](django-guid) for ASGI apps.
+
