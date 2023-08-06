@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+biapol_taurus/__init__.py
+biapol_taurus/_project_file_transfer.py
+biapol_taurus.egg-info/PKG-INFO
+biapol_taurus.egg-info/SOURCES.txt
+biapol_taurus.egg-info/dependency_links.txt
+biapol_taurus.egg-info/requires.txt
+biapol_taurus.egg-info/top_level.txt
