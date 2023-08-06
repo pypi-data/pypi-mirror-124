@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+EV3PY/MediumMotor.py
+EV3PY/__init__.py
+EV3PY/myfunctions.py
+EV3PY.egg-info/PKG-INFO
+EV3PY.egg-info/SOURCES.txt
+EV3PY.egg-info/dependency_links.txt
+EV3PY.egg-info/top_level.txt
+tests/__init__.py
+tests/test_myfunctions.py

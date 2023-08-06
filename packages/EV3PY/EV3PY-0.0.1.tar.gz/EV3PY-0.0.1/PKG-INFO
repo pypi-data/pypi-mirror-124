@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: EV3PY
+Version: 0.0.1
+Summary: Convert Python Code to EV3 Code
+Home-page: UNKNOWN
+Author: Fynn Krebser
+Author-email: fynn.krebser@gmail.com
+License: MIT
+Keywords: EV3
+Platform: UNKNOWN
+License-File: LICENCE.txt
+
+This Library makes it possible to Program your EV3 with Python.
+
+Change Log
+
+==========
+
+0.0.1 (22/10/2021)
+----------------------
+- First Release
+- From Actions Implemented:
+    > Medium Motor 
+
