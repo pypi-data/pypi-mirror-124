@@ -1,0 +1,13 @@
+README.md
+setup.py
+webcontentdownloader/__init__.py
+webcontentdownloader/complexdownloader.py
+webcontentdownloader/downloadmanager.py
+webcontentdownloader/interface.py
+webcontentdownloader/simpledownloader.py
+webcontentdownloader/utils.py
+webcontentdownloader.egg-info/PKG-INFO
+webcontentdownloader.egg-info/SOURCES.txt
+webcontentdownloader.egg-info/dependency_links.txt
+webcontentdownloader.egg-info/requires.txt
+webcontentdownloader.egg-info/top_level.txt
