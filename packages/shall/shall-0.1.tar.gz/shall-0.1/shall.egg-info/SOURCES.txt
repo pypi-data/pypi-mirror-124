@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+land/__main__.py
+land/utils.py
+shall.egg-info/PKG-INFO
+shall.egg-info/SOURCES.txt
+shall.egg-info/dependency_links.txt
+shall.egg-info/not-zip-safe
+shall.egg-info/top_level.txt
