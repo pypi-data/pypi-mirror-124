@@ -1,0 +1,17 @@
+marsworks/__init__.py,sha256=fuAvuRv3_o0S_fcSh49P_fhXgbgf5NiwqDq6CUDLL8k,1330
+marsworks/alterclient.py,sha256=TaAQzwCuMoX8BWo5yxH9-o8UgxaZT8dDLKrDgDNy9KU,7071
+marsworks/client.py,sha256=MMVrYkmkmGiIRV9suc-9zpIkQMZxNOsAglbpj1RlvGA,10852
+marsworks/manifest.py,sha256=e6mzkxquCBa2BulhgghFZX9lzabb-RtyVJbMVFe3tPU,5171
+marsworks/origin/__init__.py,sha256=wOiiqqhVV4RKvA22f7ga4bsdEgNZiEhdqbaeFfe7Ip0,1252
+marsworks/origin/enums.py,sha256=AY1k3ZYDbwImsyTSLNuUO4ea8uXDMxCcXxQkesi4UnI,5990
+marsworks/origin/exceptions.py,sha256=T-eI2cg36NrLhXzsA-u8NdON_BHu8HR5VveQItjaSAg,2794
+marsworks/origin/helpers.py,sha256=WCqVcJf9r5VGuxb_jo3pyh__eFTHizE5iY2-Z8aMvD4,1719
+marsworks/origin/internal_utils.py,sha256=QwF5eHb8diY0Kmfz--EgdBnFit5FtdzQ1Xz7TfaFwQE,1075
+marsworks/origin/rest.py,sha256=jbaozNN_xA-zxuMAs4XNU6H7r8GJ9sdsCAOm3jS7I64,5709
+marsworks/origin/serializer.py,sha256=2YbTkFPX1fMMHyhiNkyxgCvEJ1_0_SLXohozbCRzLIE,2939
+marsworks/partialmanifest.py,sha256=lyIUrhxOvM_lwKrnrJKkGLtTTkqvsAqNMxaFkgGbSoQ,2510
+marsworks/photo.py,sha256=8Nw5_nlTw9gA6gAVJ4N00Vx9seS_yixQZ_KBrK3UkQc,7334
+marsworks-0.6.3.dist-info/LICENSE,sha256=nu9yAw9EXdHzzhZh4WtJlo13hEx2KGVRDSm0MEUk9mc,1088
+marsworks-0.6.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+marsworks-0.6.3.dist-info/METADATA,sha256=HNcFSrTqkvYpdUZVCMIXspnWhVK7VhAWZrrFkLsw0x4,3340
+marsworks-0.6.3.dist-info/RECORD,,
