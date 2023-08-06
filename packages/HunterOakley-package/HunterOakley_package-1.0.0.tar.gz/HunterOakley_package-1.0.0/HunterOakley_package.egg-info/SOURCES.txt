@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+setup.py
+HunterOakley_package/__init__.py
+HunterOakley_package/main.py
+HunterOakley_package.egg-info/PKG-INFO
+HunterOakley_package.egg-info/SOURCES.txt
+HunterOakley_package.egg-info/dependency_links.txt
+HunterOakley_package.egg-info/top_level.txt

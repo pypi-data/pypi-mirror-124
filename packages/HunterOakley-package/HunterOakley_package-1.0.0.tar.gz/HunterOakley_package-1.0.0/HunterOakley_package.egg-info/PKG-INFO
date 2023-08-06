@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: HunterOakley-package
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://gitee.com/the-flowers-are-still-blooming
+Author: Hunter_talk
+Author-email: 1608477018@qq.com
+License: BSD License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE.txt
+
+**这是我的第一个发布到pypi上的包**
+-实现了一些简单的函数用法
+-用来测试，希望以后可以发布有质量的项目让大家使用
+
