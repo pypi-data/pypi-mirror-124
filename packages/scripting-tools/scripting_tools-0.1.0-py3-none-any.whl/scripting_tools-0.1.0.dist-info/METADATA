@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: scripting-tools
+Version: 0.1.0
+Summary: Scripting toolbox for developers
+Home-page: https://github.com/skandabhairava/Scripting_tools
+Author: Terroid#0490
+Author-email: skandabhairava@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/skandabhairava/Scripting_tools/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h2> A package which contains a bunch of small helpful devtools while scripting </h2>
+
+> To install this package :\
+`pip install -i https://test.pypi.org/simple/ scripting-tools==0.1.5` (old)
+
