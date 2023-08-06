@@ -1,0 +1,6 @@
+knnimpute>=0.1.0
+scikit-learn>=0.24.2
+cvxpy
+cvxopt
+pytest
+nose
