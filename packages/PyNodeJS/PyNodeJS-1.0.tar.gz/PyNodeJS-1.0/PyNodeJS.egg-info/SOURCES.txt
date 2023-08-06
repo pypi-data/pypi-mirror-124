@@ -1,0 +1,7 @@
+setup.py
+PyNodeJS.egg-info/PKG-INFO
+PyNodeJS.egg-info/SOURCES.txt
+PyNodeJS.egg-info/dependency_links.txt
+PyNodeJS.egg-info/top_level.txt
+pynodejs/__init__.py
+pynodejs/__main__.py

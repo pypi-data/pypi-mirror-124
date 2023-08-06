@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: PyNodeJS
+Version: 1.0
+Summary: A Module to Use Some Node JS Keywords In Python!
+Home-page: https://github.com/sancho1952007/PyNodeJS
+Author: Sancho Godinho
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sancho1952007/PyNodeJS/issues
+Keywords: require,console.log
+Platform: UNKNOWN
+
+Please See Docs on: https://github.com/sancho1952007/PyNodeJS
+
