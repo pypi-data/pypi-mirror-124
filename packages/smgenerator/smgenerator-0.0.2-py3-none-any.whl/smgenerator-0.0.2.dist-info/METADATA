@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: smgenerator
+Version: 0.0.2
+Summary: Synthetic Models of biological systems Generator
+Home-page: https://gitlab.com/sgr34/smgen
+Author: Simone G. Riva
+Author-email: simo.riva15@gmail.com
+License: LICENCE
+Keywords: Synthetic Models,Reaction-based Models,Biochemical Networks,Systems Biology
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.5
+License-File: LICENSE
+Requires-Dist: numpy (>=1.21.2)
+Requires-Dist: python-libsbml (>=5.19.0)
+Requires-Dist: matplotlib (>=3.4.3)
+Requires-Dist: networkx (>=2.6.3)
+Requires-Dist: PyQt5 (>=5.15.5)
+
+Synthetic Models of biological systems Generator (SMGen)
+
+Several software tools for the simulation and analysis of biochemical reaction networks have been developed in the last decades; however, assessing and comparing their computational performance in executing the typical tasks of Computational Systems Biology can be limited by the lack of a standardized benchmarking approach.
+To overcome these limitations, we propose here a novel tool, named SMGen, designed to automatically generate synthetic models of biochemical reaction networks that, by construction, are characterized by both features (e.g. system connectivity, reaction discreteness) and emergent dynamics \textcolor{red}{that do not exhaust all the reactants, a non-trivial behavior that often characterizes} real biochemical networks.
+The generation of synthetic models in SMGen is based on the definition of an undirected graph consisting of a single connected component, which generally results in a computationally demanding task.
+To avoid any burden in the execution time, SMGen exploits a Main-Worker paradigm to speed up the overall process.
+SMGen is also provided with a user-friendly Graphical User Interface that allows the user to easily set up all the parameters required to generate a set of synthetic models with any user-defined number of reactions and species.
+We analysed the computational performance of SMGen by generating batches of symmetric and asymmetric Reaction-based Models (RBMs) of increasing size, showing how a different number of reactions and/or species affects the generation time.
+Our results show that when the number of reactions is higher than the number of species, SMGen has to identify and correct high numbers of errors during the creation process of the RBMs, a circumstance that increases the overall running time.
+Still, SMGen can create synthetic models with 512 species and reactions in less than 7 seconds.
+The open-source code of SMGen is available on GitLab: https://gitlab.com/sgr34/smgen.
+
