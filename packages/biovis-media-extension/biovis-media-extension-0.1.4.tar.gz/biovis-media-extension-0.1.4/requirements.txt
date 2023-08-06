@@ -1,0 +1,9 @@
+plotly>=3.6.1
+bokeh>=1.0.4
+Jinja2>=2.10
+Markdown>=3.0.1
+pyparsing>=2.3.1
+requests>=2.21.0
+multiqc>=1.7
+sqlalchemy>=1.2.18
+psutil>=5.5.1

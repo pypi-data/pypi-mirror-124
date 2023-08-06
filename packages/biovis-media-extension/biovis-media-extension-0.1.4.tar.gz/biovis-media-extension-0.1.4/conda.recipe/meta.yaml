@@ -1,0 +1,51 @@
+{% set data = load_setup_py_data() %}
+# {% set version = '0.1.4' %}
+# {% set url = 'http://biovis.3steps.cn' %}
+# {% set description = 'Display dynamic plot or more multimedia content in markdown.' %}
+
+package:
+  name: biovis-media-extension
+  version: {{ data.version }}
+
+
+source:
+  - path: ../
+
+
+build:
+  include_recipe: True
+  entry_points:
+    - biovis_media_extension = biovis_media_extension.extension:BioVisPluginExtension
+
+
+requirements:
+  build:
+    - python {{ python }}
+    - setuptools
+
+  run:
+    - python {{ python }}
+    - plotly >=3.6.1
+    - bokeh >=1.0.4
+    - Jinja2 >=2.10
+    - Markdown >=3.0.1
+    - pyparsing >=2.3.1
+    - requests >=2.21.0
+    - multiqc >=1.7
+    - sqlalchemy >=1.2.18
+    - psutil >=5.5.1
+
+test:
+  imports:
+    - biovis_media_extension
+
+about:
+  home: {{ data.url }}
+  license: AGPL 3.0
+  license_file: LICENSE.md
+  license_family: AGPL
+
+  summary: {{ data.description }}
+  description: {{ data.description }}
+  doc_url: http://docs.3steps.cn
+  dev_url: {{ data.url }}

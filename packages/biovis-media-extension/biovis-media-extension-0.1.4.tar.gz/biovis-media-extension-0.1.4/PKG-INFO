@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: biovis-media-extension
+Version: 0.1.4
+Summary: Display dynamic plot or more multimedia content in markdown.
+Home-page: https://github.com/biovis-report/biovis-media-extension
+Author: Jingcheng Yang
+Author-email: yjcyxky@163.com
+License: AGPL
+Keywords: markdown,dynamic plot,multimedia
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.md
+
+UNKNOWN
+

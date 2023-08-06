@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			".vscode-counter": true
+		},
+		"yaml.validate": false
+	}
+}
