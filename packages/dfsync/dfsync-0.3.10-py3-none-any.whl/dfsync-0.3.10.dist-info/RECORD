@@ -1,0 +1,17 @@
+dfsync/#monitor.py#,sha256=4584X7006vZlJA1bE_4N-xjOZ-zaFu1Z-wcpZhQO4o4,8605
+dfsync/__init__.py,sha256=3wVEs2QD_7OcTlD97cZdCeizd2hUbJJ0GeIO8wQIjrk,22
+dfsync/backends/__init__.py,sha256=i2WRxK1icahbr4kp8MBQ1UUasCy9jvvLlmwXuUXqH4s,64
+dfsync/backends/kube.py,sha256=PekV3N-S_8OO4MBnBQQlxgh4eoWC1uzYpuYfmoaAWZ0,22998
+dfsync/backends/kube_exec.py,sha256=xtD8-_WppEfunIgAw_Kf5n-dJ9kYeb4sMr_vGkW9YZ0,1600
+dfsync/backends/rsync.py,sha256=irJtCrZNl2i_Qbu01Uh1yPJgu83Pl5Poas9jH2Gz6QM,4780
+dfsync/char_ui.py,sha256=JoWuDTaRinItxQwIjEYiu7E7h3_G7TEVsPrhQs9nLpU,2744
+dfsync/cli.py,sha256=ZI5y-Xb-poHPHzaz1cK-X3mL6mil31FHsd12xvY6YS4,125
+dfsync/config.py,sha256=s7YnR6mpppAcEpIvSW4O6_3qsJKtVJXL9Hc7ieTSC8o,2336
+dfsync/exp.py,sha256=NiRHzObiPFWRtTTxvW-CL_y7ThRwj6gHYsGs3fRuzq0,3241
+dfsync/filters.py,sha256=yN2QD-mroEVqxS9I7xkPHWkSYcaAuZDKbLlK2LEG5p0,5225
+dfsync/monitor.py,sha256=UBmf_wle19wXO8jpGZ9KlDeWL9G3__dZFkBIv3pbazI,7971
+dfsync/transactions.py,sha256=vRfPAqrbU9-NTsTfFApGdFGvIxf19DizQzwb8yBzo5c,3350
+dfsync-0.3.10.dist-info/entry_points.txt,sha256=zz2nm7plYHVjPX5ebOVcqpOlfH45kMTHmUL_tmTFopQ,44
+dfsync-0.3.10.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+dfsync-0.3.10.dist-info/METADATA,sha256=VZSfDUyMDYhCN-Ou2wQ7SKFCFJHBiNjib217yHTcr10,543
+dfsync-0.3.10.dist-info/RECORD,,
