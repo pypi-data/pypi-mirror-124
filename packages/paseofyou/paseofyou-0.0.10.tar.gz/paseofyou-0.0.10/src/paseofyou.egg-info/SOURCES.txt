@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/paseofyou/__init__.py
+src/paseofyou/paseofyou.py
+src/paseofyou.egg-info/PKG-INFO
+src/paseofyou.egg-info/SOURCES.txt
+src/paseofyou.egg-info/dependency_links.txt
+src/paseofyou.egg-info/requires.txt
+src/paseofyou.egg-info/top_level.txt
