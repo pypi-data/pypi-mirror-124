@@ -1,0 +1,16 @@
+README.md
+setup.py
+gomssql_python/__init__.py
+gomssql_python/common.py
+gomssql_python/db_api.py
+gomssql_python/rpc_session.py
+gomssql_python.egg-info/PKG-INFO
+gomssql_python.egg-info/SOURCES.txt
+gomssql_python.egg-info/dependency_links.txt
+gomssql_python.egg-info/not-zip-safe
+gomssql_python.egg-info/requires.txt
+gomssql_python.egg-info/top_level.txt
+gomssql_python/built/__init__.py
+gomssql_python/built/build.py
+gomssql_python/built/go.py
+gomssql_python/built/gomssql_python_go.py
