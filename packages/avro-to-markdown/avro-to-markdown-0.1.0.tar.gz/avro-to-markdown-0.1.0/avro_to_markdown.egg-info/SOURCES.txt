@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+avro_to_markdown/__init__.py
+avro_to_markdown.egg-info/PKG-INFO
+avro_to_markdown.egg-info/SOURCES.txt
+avro_to_markdown.egg-info/dependency_links.txt
+avro_to_markdown.egg-info/requires.txt
+avro_to_markdown.egg-info/top_level.txt
+tests/__init__.py
+tests/unit/__init__.py
+tests/unit/test_basic.py

@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: avro-to-markdown
+Version: 0.1.0
+Summary: Create markdown documentation from an avro schema.
+Home-page: UNKNOWN
+Author: Colm O'Connor
+Author-email: coconnor1@wayfair.com
+License: See LICENSE
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Avro to Markdown
+
+[![CI pipeline status](https://github.com/wayfair-incubator/avro-to-markdown/workflows/CI/badge.svg?branch=main)](ci)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
+## About The Project
+
+Avro to markdown is a very simple project that generates readable markdown from an avro schema. This is useful
+to be able to generate readable, always up-to-date documentation on the schemas you use to exchange messages within
+your organization.
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Installation
+
+1. Clone the repo
+
+   ```sh
+   git clone https://github.com/wayfair-incubator/avro-to-markdown.git
+   ```
+
+2. Install package
+
+   ```sh
+   pip install avro-to-markdown
+   ```
+
+## Usage
+
+...
+
+## Roadmap
+
+See the [open issues](https://github.com/wayfair-incubator/avro-to-markdown//issues) for a list of proposed features (and known issues).
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. For detailed contributing guidelines, please see [CONTRIBUTING.md](CONTRIBUTING.md)
+
+## License
+
+Distributed under the `MIT` License. See `LICENSE` for more information.
+
+## Contact
+
+Colm O'Connor
+
+Project Link: [https://github.com/wayfair-incubator/avro-to-markdown/](https://github.com/wayfair-incubator/avro-to-markdown/)
+
+## Acknowledgements
+
+This template adapted from
+[https://github.com/othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+
+
