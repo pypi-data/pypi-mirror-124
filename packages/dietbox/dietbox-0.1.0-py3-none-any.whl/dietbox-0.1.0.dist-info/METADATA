@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: dietbox
+Version: 0.1.0
+Summary: The DIETBox package for data science
+Home-page: https://github.com/emptymalei/diet
+Author: Lei Ma
+Author-email: hi@leima.is
+License: MIT
+Platform: UNKNOWN
+Provides-Extra: sqlalchemy
+Requires-Dist: SQLAlchemy (>=1.4.15) ; extra == 'sqlalchemy'
+Provides-Extra: all
+Requires-Dist: seaborn (>=0.11.2) ; extra == 'all'
+Requires-Dist: mkdocstrings (>=0.15.0) ; extra == 'all'
+Requires-Dist: nose ; extra == 'all'
+Requires-Dist: SQLAlchemy (>=1.4.15) ; extra == 'all'
+Requires-Dist: scikit-learn (>=1.0) ; extra == 'all'
+Requires-Dist: mkdocs-autorefs (>=0.1.1) ; extra == 'all'
+Requires-Dist: matplotlib (>=3.0.0) ; extra == 'all'
+Requires-Dist: pymysql (>=0.9.3) ; extra == 'all'
+Requires-Dist: mkdocs-material (>=0.4.4) ; extra == 'all'
+Requires-Dist: awscli (>=1.19.50) ; extra == 'all'
+Requires-Dist: sshtunnel (>=0.1.5) ; extra == 'all'
+Provides-Extra: aws
+Requires-Dist: awscli (>=1.19.50) ; extra == 'aws'
+Provides-Extra: awscli
+Requires-Dist: awscli (>=1.19.50) ; extra == 'awscli'
+Provides-Extra: database
+Requires-Dist: SQLAlchemy (>=1.4.15) ; extra == 'database'
+Requires-Dist: pymysql (>=0.9.3) ; extra == 'database'
+Requires-Dist: sshtunnel (>=0.1.5) ; extra == 'database'
+Provides-Extra: docs
+Requires-Dist: mkdocs-autorefs (>=0.1.1) ; extra == 'docs'
+Requires-Dist: mkdocs-material (>=0.4.4) ; extra == 'docs'
+Requires-Dist: mkdocstrings (>=0.15.0) ; extra == 'docs'
+Provides-Extra: matplotlib
+Requires-Dist: matplotlib (>=3.0.0) ; extra == 'matplotlib'
+Provides-Extra: mkdocs-autorefs
+Requires-Dist: mkdocs-autorefs (>=0.1.1) ; extra == 'mkdocs-autorefs'
+Provides-Extra: mkdocs-material
+Requires-Dist: mkdocs-material (>=0.4.4) ; extra == 'mkdocs-material'
+Provides-Extra: mkdocstrings
+Requires-Dist: mkdocstrings (>=0.15.0) ; extra == 'mkdocstrings'
+Provides-Extra: model
+Requires-Dist: scikit-learn (>=1.0) ; extra == 'model'
+Provides-Extra: nose
+Requires-Dist: nose ; extra == 'nose'
+Provides-Extra: pymysql
+Requires-Dist: pymysql (>=0.9.3) ; extra == 'pymysql'
+Provides-Extra: scikit-learn
+Requires-Dist: scikit-learn (>=1.0) ; extra == 'scikit-learn'
+Provides-Extra: seaborn
+Requires-Dist: seaborn (>=0.11.2) ; extra == 'seaborn'
+Provides-Extra: sshtunnel
+Requires-Dist: sshtunnel (>=0.1.5) ; extra == 'sshtunnel'
+Provides-Extra: tests
+Requires-Dist: nose ; extra == 'tests'
+Provides-Extra: visual
+Requires-Dist: matplotlib (>=3.0.0) ; extra == 'visual'
+Requires-Dist: seaborn (>=0.11.2) ; extra == 'visual'
+
+DIETBox, Data scIencE Toolbox, is yet another package for data science projects
+
+
