@@ -1,0 +1,10 @@
+requests
+pandas
+facebook-business
+google
+google-api-python-client
+google-cloud
+google-cloud-storage
+google-cloud-bigquery-storage
+sqlalchemy
+selenium
