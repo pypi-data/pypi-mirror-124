@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+{#
+  This file is part of GNU TALER.
+  Copyright (C) 2014, 2015, 2016 Taler Systems SA
+
+  TALER is free software; you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free Software
+  Foundation; either version 2.1, or (at your option) any later version.
+
+  TALER is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+  A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public License along with
+  TALER; see the file COPYING.  If not, see <http://www.gnu.org/licenses/>
+
+  @author Marcello Stanisci
+#}
+
+{% block main %}
+
+  <h1 class="nav">{{ _("History of public accounts") }}</h1>
+
+  <a href="{{ url('index') }}">Back</a>
+  <section id="main">
+    <article>
+      {% if hint != "" %}
+      <div class="notification">
+        {% if not is_success %}
+          <p class="informational informational-fail">
+        {% else %}
+          <p class="informational informational-ok">
+        {% endif %}
+        {{ hint }}
+        </p>
+      </div>
+      {% endif %}
+      <div name="accountMenu" class="pure-menu pure-menu-horizontal">
+        <ul class="pure-menu-list">
+        {% for account in public_accounts %}
+          {% if account.account_no == selected_account.number %}
+          <li class="pure-menu-item pure-menu-selected">
+          {% else %}
+          <li class="pure-menu-item pure-menu">
+          {% endif %}
+            <a href="{{ url("public-accounts", name=account.user.username) }}" class="pure-menu-link">
+              {{ account.user.username }}
+            </a>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+
+      <div class="results">
+        {% if selected_account.history %}
+          <table class="pure-table pure-table-striped">
+            <thead>
+              <th>{{ _("Date") }}</th>
+              <th>{{ _("Amount") }}</th>
+              <th>{{ _("Counterpart") }}</th>
+              <th>{{ _("Subject") }}</th>
+            </thead>
+            <tbody>
+            {% for entry in selected_account.history %}
+            <tr>
+              <td>{{entry.date}}</td>
+              <td>
+                {{ entry.sign }} {{ entry.amount }}
+              </td>
+              <td>{{ _("account") }} #{{ entry.counterpart }}</td>
+              <td {% if entry.cancelled %} class="cancelled" {% endif %}>
+                {{ entry.subject }}
+              </td>
+            </tr>
+            {% endfor %}
+            </tbody>
+          </table>
+          <div class="pages-list">
+            {% if back %}
+              <a
+               class="page-number"
+               href="{{ url("public-accounts", name=selected_account.name, page=back) }}">&lsaquo;...</a>
+            {% endif %}
+            {% for pagej in pages %}
+              <a
+               {% if pagej == current_page%}
+                 class="current-page-number"
+               {% else %}
+                 class="page-number"
+               {% endif %}
+               href="{{ url("public-accounts", name=selected_account.name, page=pagej) }}">{{ pagej }}</a>
+            {% endfor %}
+            {% if forth %}
+              <a
+               class="page-number"
+               href="{{ url("public-accounts", name=selected_account.name, page=forth) }}">...&rsaquo;</a>
+            {% endif %}
+          </div>
+        {% else %}
+          <p>{{ _("No history for account #{account_number} ({account_name}) yet").format(account_number=selected_account.number, account_name=selected_account.name) }}</p>
+        {% endif %}
+      </div>
+    </article>
+  </section>
+{% endblock main %}

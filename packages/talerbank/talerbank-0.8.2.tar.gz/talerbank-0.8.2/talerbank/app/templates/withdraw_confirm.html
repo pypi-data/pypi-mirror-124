@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+  <h1 class="nav">{{ _("Confirm Withdrawal") }}</h1>
+
+  {% if not is_success %}
+  <p class="informational informational-fail">
+    {{ hint }}
+  </p>
+  {% endif %}
+  <p>
+    {% autoescape off %}
+    {{ _("{currency} Bank needs to verify that you intend to withdraw <b>{amount}</b> from <b>{exchange}</b>.  To prove that you are the account owner, please answer the following &quot;security question&quot; (*):").format(currency=settings_value("TALER_CURRENCY"), amount=amount, exchange=exchange) }}
+    {% endautoescape %}
+  </p>
+  <p>
+    {{ _("What is {question}?").format(question=question) }}
+  </p>
+  <div>
+    <form
+        method="post"
+        action="{{ url('withdraw-confirm', withdraw_id) }}"
+        class="pure-form"
+        style="float: left;">
+      <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}" />
+      <input type="text" name="pin_0" value="" autocomplete="off" autofocus />
+      <input type="hidden" name="pin_1" value="{{ hashed_answer }}" />
+      <input type="hidden" name="question_url" value="{{ request.get_full_path() }}" />
+      <input type="submit" value="Ok" class="pure-button pure-button-primary" />
+    </form>
+    <form
+        method="post"
+        action="{{ url('abort-withdrawal', withdraw_id=withdraw_id) }}"
+        class="pure-form">
+      <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}" />
+      <input
+        type="submit"
+        value="Abort"
+        class="pure-button pure-button-primary abort-button" />
+    </form>
+  </div>
+  <p>
+    <small style="margin: 40px 0px">(*) {{ _("A real bank should ask for a PIN/TAN instead of a simple calculation. For example by sending a one time password to the customer's mobile or providing her a random password generator.") }}
+    <small>
+  </p>
+{% endblock main %}

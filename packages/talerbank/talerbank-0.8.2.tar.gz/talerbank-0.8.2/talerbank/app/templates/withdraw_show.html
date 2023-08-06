@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script>
+  // prettier-ignore
+  let checkUrl = JSON.parse('{{ withdraw_check_url | tojson }}');
+  let delayMs = 500;
+  function check() {
+    let req = new XMLHttpRequest();
+    req.onreadystatechange = function () {
+      if (req.readyState === XMLHttpRequest.DONE) {
+        if (req.status === 200) {
+          try {
+            let resp = JSON.parse(req.responseText);
+            if (resp.selection_done) {
+              document.location.reload(true);
+            }
+          } catch (e) {
+            console.error("could not parse response:", e);
+          }
+        }
+        setTimeout(check, delayMs);
+      }
+    };
+    req.onerror = function () {
+      setTimeout(check, delayMs);
+    }
+    req.open("GET", checkUrl);
+    req.send();
+  }
+
+  setTimeout(check, delayMs);
+
+</script>
+{% endblock head %}
+
+{% block main %}
+<h1 class="nav">{{ _("Withdraw to a Taler Wallet") }}</h1>
+
+<p>
+  {{ _("You can use this QR code to withdraw to your mobile wallet:") }}
+</p>
+{{ qrcode_svg | safe }}
+<p>
+  {% autoescape off %}
+  {{ _("Click <a href=\"{taler_withdraw_uri}\">this link</a> to open your system's Taler wallet if it exists.").format(taler_withdraw_uri=taler_withdraw_uri) }}
+  {% endautoescape %}
+</p>
+
+{% endblock main %}

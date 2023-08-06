@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<h1 class="nav">{{ _("Register to the {currency} bank!").format(currency=settings_value('TALER_CURRENCY')) }}</h1>
+
+  <aside class="sidebar" id="left">
+  </aside>
+  <section id="main">
+    <article>
+      <a href="{{ url('index') }}">{{ _("Back") }}</a>
+      <div class="notification">
+        {% if wrong %}
+          <p class="informational informational-fail">
+          {{ hint }}
+          </p>
+        {% endif %}
+        {% if not_available %}
+        <p class="informational informational-fail">
+          {{ _("Sorry, this username is no longer available.  Please choose another one!") }}
+        </p>
+        {% endif %}
+      </div>
+    </article>
+  </section>
+  <section id="main">
+    <article>
+      <div class="register-form">
+	<h1>{{ _("Registration form") }}</h1>
+        <form class="pure-form" method="post" action="{{ url('register') }}">
+          <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}" />
+          <input type="text" name="username" placeholder="username" autofocus />
+          <input type="password" name="password" placeholder="password" />
+	  <input type="submit" value="{{ _('Sign Up') }}" class="pure-button pure-button-primary" />
+        </form>
+      </div>
+    </article>
+  </section>
+{% endblock main %}
