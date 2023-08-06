@@ -1,0 +1,11 @@
+numpy
+astropy
+lmfit
+sunpy
+scipy
+pyyaml
+dkist-header-validator>=2.0.9
+asdf
+
+[test]
+pytest

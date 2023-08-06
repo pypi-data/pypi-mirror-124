@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dkist-processing-pac
+Version: 0.0.16
+Summary: PA&C Pipeline
+Home-page: https://bitbucket.org/dkistdc/dkist-processing-pac/src/master/
+Author: Arthur Eigenbrot
+License: unknown
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Provides-Extra: test
+
+UNKNOWN
+
