@@ -1,0 +1,8 @@
+# File for the requirements of the documentation
+sphinx
+sphinx_rtd_theme
+nbsphinx
+recommonmark
+graphviz
+ipython
+numpy==1.20
