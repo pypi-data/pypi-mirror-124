@@ -1,0 +1,9 @@
+**CHANGES** for PLIB3.UI 0.11.post1
+
+:Author:        Peter A. Donis
+:Release Date:  21 Oct 2021
+
+Version 0.11
+------------
+
+- Initial release, version numbering continued from ``plib3.gui``.
