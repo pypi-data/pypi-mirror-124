@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/text_ppf/__init__.py
+src/text_ppf/text_ppf.py
+src/text_ppf.egg-info/PKG-INFO
+src/text_ppf.egg-info/SOURCES.txt
+src/text_ppf.egg-info/dependency_links.txt
+src/text_ppf.egg-info/requires.txt
+src/text_ppf.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+tensorflow
+string
+re
+nltk
