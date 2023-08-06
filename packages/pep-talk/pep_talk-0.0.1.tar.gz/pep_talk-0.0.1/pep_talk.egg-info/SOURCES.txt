@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pep_talk/__init__.py
+pep_talk/main.py
+pep_talk/pep_parts.py
+pep_talk.egg-info/PKG-INFO
+pep_talk.egg-info/SOURCES.txt
+pep_talk.egg-info/dependency_links.txt
+pep_talk.egg-info/entry_points.txt
+pep_talk.egg-info/requires.txt
+pep_talk.egg-info/top_level.txt

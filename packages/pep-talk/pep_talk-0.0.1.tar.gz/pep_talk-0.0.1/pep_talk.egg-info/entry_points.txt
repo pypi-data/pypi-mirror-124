@@ -1,0 +1,3 @@
+[console_scripts]
+pep-talk = pep_talk.main:print_pep
+
