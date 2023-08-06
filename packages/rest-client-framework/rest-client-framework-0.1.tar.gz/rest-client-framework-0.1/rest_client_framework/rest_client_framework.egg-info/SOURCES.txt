@@ -1,0 +1,15 @@
+COPYING
+README.md
+pyproject.toml
+setup.cfg
+rest_client_framework/rest_client_framework.egg-info/PKG-INFO
+rest_client_framework/rest_client_framework.egg-info/SOURCES.txt
+rest_client_framework/rest_client_framework.egg-info/dependency_links.txt
+rest_client_framework/rest_client_framework.egg-info/top_level.txt
+rest_client_framework/tests/__init__.py
+rest_client_framework/tests/client.py
+rest_client_framework/tests/datastructures.py
+rest_client_framework/tests/request.py
+rest_client_framework/tests/response.py
+rest_client_framework/tests/rest.py
+rest_client_framework/tests/utils.py
