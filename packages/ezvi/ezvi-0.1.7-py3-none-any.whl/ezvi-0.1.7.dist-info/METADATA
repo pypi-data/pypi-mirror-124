@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: ezvi
+Version: 0.1.7
+Summary: Automated typing in the Vi editor.
+License: MIT
+Author: TrickyTroll
+Author-email: tricky@beon.ca
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: astroid (==2.4.2)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: isort (==5.6.4)
+Requires-Dist: lazy-object-proxy (==1.4.3)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: pylint (==2.6.0)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: toml (==0.10.2)
+Description-Content-Type: text/markdown
+
+# ezvi
+
+`ezvi` is a python package that allows typing automation for the `Vi` editor.
+
+## Installation
+
+`ezvi` is distributed as a Pip package. To install the program, simply run
+
+```bash
+pip install ezvi
+```
+
+## Usage
+
+The package can be used via the `CLI`. `ezvi` functions can also be imported and used in a Python program.
+
+### The `CLI`
+
+There are two different ways of using `ezvi` via the command line. 
+
+#### The `text` command 
+
+`text` can be used to type a pre-written file. It takes one argument (`infile` and one option (`--writefile`).
+
+* `infile` is the path towards the pre-written file.
+* `--writefile` tells the program to save the file again after typing it. `--writefile` takes one argument that corresponds to the path where the typed file will be written.
+
+##### Example
+
+```bash
+ezvi text -w ./foo.txt example/message.txt
+```
+
+This takes the `message.txt` example from the [example](https://github.com/TrickyTroll/ezvi/tree/latest/example) directory and types it again. The Vi buffer is then written to `./foo.txt`.
+
+#### The `yaml` command
+
+`yaml` should be used to take a configuration as instructions to type a new file. The `yaml` command only takes one argument (`config`). Everything else should be specified in the config file.
+
+* `config` is the path towards the configuration file.
+
+##### Example
+
+```bash
+ezvi yaml example/config.yaml
+```
+
+This command would take the `config.yaml` file from the [example](https://github.com/TrickyTroll/ezvi/tree/latest/example) directory and use it to type a new file.
+
+### Writing a config file
+
+A configuration file is just a yaml file that will be parsed using [PyYAML](https://pyyaml.org "PyYAML"). The structure of the file should be similar to the one in the `config.yaml` file from the [example](https://github.com/TrickyTroll/ezvi/tree/latest/example) directory.
+
+```yaml
+- write_line: "Hello!"
+- new_line: 2
+- write_chars: "-- Good Bot."
+- write_file: "message.txt"
+- quit_editor:
+```
+
+A `-` must precede every action.
+
+## Documentation
+
+For more in depth documentation, please refer to the 
+[Read the Docs](https://ezvi.readthedocs.io/en/main/)
+
+## Development
+
+This package is in alpha. Not much testing has been done and many things could still change.  To see the latest commit, go check the [latest](https://github.com/TrickyTroll/ezvi/tree/latest) branch.
+
