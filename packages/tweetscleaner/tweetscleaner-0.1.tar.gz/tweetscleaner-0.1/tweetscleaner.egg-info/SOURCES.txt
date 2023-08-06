@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tweetscleaner.egg-info/PKG-INFO
+tweetscleaner.egg-info/SOURCES.txt
+tweetscleaner.egg-info/dependency_links.txt
+tweetscleaner.egg-info/top_level.txt
