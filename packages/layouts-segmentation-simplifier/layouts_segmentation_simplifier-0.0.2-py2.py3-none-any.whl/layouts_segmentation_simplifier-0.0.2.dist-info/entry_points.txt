@@ -1,0 +1,3 @@
+[console_scripts]
+lss = lss.cli:main
+
