@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+jax2torch/__init__.py
+jax2torch/jax2torch.py
+jax2torch.egg-info/PKG-INFO
+jax2torch.egg-info/SOURCES.txt
+jax2torch.egg-info/dependency_links.txt
+jax2torch.egg-info/requires.txt
+jax2torch.egg-info/top_level.txt
