@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: wuyazu-api
+Version: 1.0.0
+Summary: API依赖包
+Home-page: UNKNOWN
+Author: wuyanzu
+Author-email: UNKNOWN
+License: MIT Licence
+Description: API自动化依赖包和脚手架脚本
+Keywords: init,auto-api-test
+Platform: python
