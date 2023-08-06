@@ -1,0 +1,17 @@
+pilotis_io/__init__.py,sha256=UaItxiRHQDRvqHnGisO-l481zDV-rVOVNed0WFQcJyc,144
+pilotis_io/__version__.py,sha256=ahZlVFaRNmZiRkHL_5vCbEo0KXcr_y6cTV1ZqVxdde4,149
+pilotis_io/directory_structure.py,sha256=-K1WZioe62BDPOnHNhZAuCpENFKnHt0oj159OdUxGiI,2536
+pilotis_io/exceptions.py,sha256=YaTs8ceoNur38PoNw6t7A5nXYBJfpOliOgbrhC9mWH8,142
+pilotis_io/io.py,sha256=WwqSWV4bVKmUQQKN-X3FC6Ta3scglaVA87nqRFyG4MI,1599
+pilotis_io/local/__init__.py,sha256=IhslK43QyOJD2HBFug5-kUJnNceGs6GxeQio5R8psGQ,222
+pilotis_io/local/local_io_api.py,sha256=B8Qf2ukFqSe9DAKiHtWfsT_su6og1jbWPTkWDeVhz2M,2816
+pilotis_io/local/local_numpy_api.py,sha256=Ws4d3WYXhTo43aAYMcDc6Sf-KY6FVPml9O1JnDNcOOo,1154
+pilotis_io/local/local_pandas_api.py,sha256=WrSflJh5uHr4-ZH5d4Ss4Ipxn2_jwpWRzO5u-AoIXEk,2036
+pilotis_io/numpy.py,sha256=6zJ3oakowc_6WcfUm0hatwwCaFpCUpdEZnF3yq29VPY,541
+pilotis_io/pandas.py,sha256=j_79KW-cd5teTB5EBifDqRreQB7-y4p1i1Gl3xIq7kI,594
+pilotis_io/parser.py,sha256=ljK7cBrh7lXW5LnEX8GCEijYlx8GnVY_tfiUYW_ybGg,329
+pilotis_io/persistence.py,sha256=EdklN9YbbdvzD6ayqwe3iXBdIhVoCameTJRXof-FqLk,5210
+pilotis_io-0.2.0.dist-info/LICENSE,sha256=iQRC2GR6mZqIZ5UQCyxjgawYQXCxMkpmxWauTVqGjDw,1064
+pilotis_io-0.2.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+pilotis_io-0.2.0.dist-info/METADATA,sha256=tUT-hIVCdDDgXUtxr1zJeSaSWTohG9tdq-pmWfDuETM,2100
+pilotis_io-0.2.0.dist-info/RECORD,,
