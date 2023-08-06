@@ -1,0 +1,9 @@
+connection_to_mongodb/__init__.py,sha256=05GhXfr-Uw4irllpx-0LiL-hYzLAuusFud10wLB3QIM,72
+connection_to_mongodb/manager.py,sha256=d5ad5qbhiyXsnBSUWJSZjus4jCf85XdUsM2RrBC9g74,291
+connection_to_mongodb/mongoModels.py,sha256=CG2tC5WgWZHo3nOknpfNIuBrUOGFCzzTBItVIsj5EPE,5233
+mongo_model_base/__init__.py,sha256=05GhXfr-Uw4irllpx-0LiL-hYzLAuusFud10wLB3QIM,72
+mongo_model_base/mongoModels.py,sha256=LsQDoIppJAeszhOxzkbyUDAbnyz1AFJ4rzhRgWDaHo0,1639
+django_connect_mongo-1.14.0.dist-info/METADATA,sha256=hGr0EO6EkHZLtlT5gamOpKi7OUdy_IA9uJ-XvjwQ3gs,453
+django_connect_mongo-1.14.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_connect_mongo-1.14.0.dist-info/top_level.txt,sha256=aVywcS1NqQ_jmiG34l5v_dUc63wHhX1YMwsPyJhcKO0,22
+django_connect_mongo-1.14.0.dist-info/RECORD,,
