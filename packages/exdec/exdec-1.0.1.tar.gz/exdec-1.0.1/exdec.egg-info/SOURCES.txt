@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+exdec/data_classes.py
+exdec/decorator.py
+exdec/manager.py
+exdec/utils.py
+exdec.egg-info/PKG-INFO
+exdec.egg-info/SOURCES.txt
+exdec.egg-info/dependency_links.txt
+exdec.egg-info/top_level.txt
