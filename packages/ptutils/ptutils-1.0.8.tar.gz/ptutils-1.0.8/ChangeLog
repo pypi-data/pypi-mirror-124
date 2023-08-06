@@ -1,0 +1,112 @@
+CHANGES
+=======
+
+v1.0.8
+------
+
+* Bump version: 1.0.7 → 1.0.8
+* Changed run\_command logic to allow decorated function to speciy the return code
+
+v1.0.7
+------
+
+* Bump version: 1.0.6 → 1.0.7
+* Removed unicode symbols from program logging. Removed display of empty env arguments to program
+
+v1.0.6
+------
+
+* Bump version: 1.0.5 → 1.0.6
+* disabled buffering in ptutils.program.Program.start() since we read the pipe in binary mode
+
+v1.0.5
+------
+
+* Bump version: 1.0.4 → 1.0.5
+* Altered logging of program environment variables in ptutils.program.Program to be compatible with native python logging
+
+v1.0.4
+------
+
+* Bump version: 1.0.3 → 1.0.4
+* Updated cli unit test IAW allowing args with no dest and no leading '-'
+* Allow args with no dest and no leading '-'
+
+v1.0.3
+------
+
+* Bump version: 1.0.2 → 1.0.3
+* Removed redundant and non-functional verbosity args from argument parser
+
+v1.0.2
+------
+
+* Bump version: 1.0.1 → 1.0.2
+* Fixed verbosity scale and not being applied
+
+v1.0.1
+------
+
+* Bump version: 1.0.0 → 1.0.1
+* Fixed whitespace styling issue
+* Added missing documentation
+* Fixed typo
+* Broke up run\_command logic into a handful of smaller functions
+* Fixed debug display when no arguments present
+
+v1.0.0
+------
+
+* Bump version: 0.1.12 → 1.0.0
+* Fixed dangling import
+* Added stub tests for ptutils.program.Program
+* added unit tests. fixed numerous minor bugs, plus functional problems with File/Folder/Path/FolderSet
+* CI: change image build conditions only on main branch
+* CI: change change detection path
+
+v0.1.12
+-------
+
+* Bump version: 0.1.11 → 0.1.12
+* Removed wheel patching fromops, changed ci to use rules
+* Fixed tox style testing directory. Fixed style violations in unit tests
+
+v0.1.11
+-------
+
+* Bump version: 0.1.10 → 0.1.11
+* Fixed coverage config
+
+v0.1.10
+-------
+
+* Bump version: 0.1.9 → 0.1.10
+* Fixed bumpversion.cfg
+* Added some unit tests
+* Restructure: Remove references to src directory
+* Restructure: Remove references to src directory
+* Restructure: Remove references to src directory
+* Restructure: Rename occurrences of pt.ptutils to ptutils
+* Restructure: Rename occurrences of pt.ptutils to ptutils
+* Restructure: change namespaced imports (from pt.ptutils -> from ptutils)
+* Restructure: moved ptutils files out of src/pt (get rid of namespace package dir)
+* Added clean function to ops script
+
+v0.1.9
+------
+
+* Bump version: 0.1.8 → 0.1.9
+* Moved ci image build/release to new steps in build to allow test builds to se the latest image
+
+v0.1.8
+------
+
+* Bump version: 0.1.7 → 0.1.8
+* Reverted package discovery
+
+v0.1.7
+------
+
+* Bump version: 0.1.6 → 0.1.7
+* Removed wheel fix because installed library is not working
+* Added inheritance diagram to class template
