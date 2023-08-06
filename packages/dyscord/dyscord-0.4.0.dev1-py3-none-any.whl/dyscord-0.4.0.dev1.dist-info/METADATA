@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: dyscord
+Version: 0.4.0.dev1
+Summary: A simple implementation of the discord API.
+Home-page: https://github.com/isbe-house/dyscord
+Author: John Murray
+Author-email: jmurrayufo@gmail.com
+License: GPLv3
+Project-URL: Bug Tracker, https://github.com/isbe-house/dyscord/issues
+Platform: any
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cachetools (>=4.2.4)
+Requires-Dist: colour (>=0.1.5)
+Requires-Dist: emoji (>=1.5.0)
+Requires-Dist: httpx (>=0.19.0)
+Requires-Dist: nest-asyncio (>=1.5.1)
+Requires-Dist: orjson (>=3.6.3)
+Requires-Dist: requests (>=2.26.0)
+Requires-Dist: websockets (>=10.0)
+Requires-Dist: validators (>=0.18.2)
+
+# dyscord
+
+A simplistic implementation of the discord API.
+
+## Main
+
+[![Testing](https://github.com/isbe-house/dyscord/actions/workflows/python-testing.yml/badge.svg?branch=main)](https://github.com/isbe-house/dyscord/actions/workflows/python-testing.yml) [![Documentation Status](https://readthedocs.org/projects/dyscord/badge/?version=main)](https://dyscord.readthedocs.io/en/main/?badge=main)
+
+[![Downloads](https://static.pepy.tech/personalized-badge/dyscord?period=month&units=international_system&left_color=grey&right_color=brightgreen&left_text=Downloads)](https://pepy.tech/project/dyscord)
+
+## Dev
+
+[![Testing](https://github.com/isbe-house/dyscord/actions/workflows/python-testing.yml/badge.svg?branch=dev)](https://github.com/isbe-house/dyscord/actions/workflows/python-testing.yml) [![Documentation Status](https://readthedocs.org/projects/dyscord/badge/?version=dev)](https://dyscord.readthedocs.io/en/dev/?badge=dev)
+
+
+# Current Status
+
+Very much an active WIP. The API to this library is not at all locked down. Users can expect aggressive changes to the API until we hit v1.0.0
+
+# Documentation
+
+Documentation can be found over at [Read The Docs](https://dyscord.readthedocs.io/).
+
+We are following [Google Style](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) docstring patterns.
+
+# Community
+
+Come talk on the [Dyscord subreddit](https://www.reddit.com/r/dyscord/), or the [Dyscord discord](https://discord.gg/Q9NFzgZx)!
+
+# Changelog
+
+See the [Changelog](https://dyscord.readthedocs.io/en/main/changelog/).
+
