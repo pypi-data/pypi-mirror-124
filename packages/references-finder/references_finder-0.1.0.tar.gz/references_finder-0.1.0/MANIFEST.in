@@ -1,0 +1,2 @@
+recursive-include home/*
+recursive-include references_finder/*
