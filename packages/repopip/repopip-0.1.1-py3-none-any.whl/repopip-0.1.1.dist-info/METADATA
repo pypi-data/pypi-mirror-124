@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: repopip
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/luiserp/local_repo
+Author: Luis Enrique Reyes Pérez
+Author-email: luisreyesperez98@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/luiserp/local_repo/tarball/0.1
+Keywords: repository,local,packages
+Platform: UNKNOWN
+Requires-Dist: flask
+Requires-Dist: hurry.filesize
+Requires-Dist: python-dotenv
+
+UNKNOWN
+
