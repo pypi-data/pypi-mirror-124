@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/TayTools/__init__.py
+src/TayTools/configure.py
+src/TayTools/tools.py
+src/TayTules.egg-info/PKG-INFO
+src/TayTules.egg-info/SOURCES.txt
+src/TayTules.egg-info/dependency_links.txt
+src/TayTules.egg-info/top_level.txt
