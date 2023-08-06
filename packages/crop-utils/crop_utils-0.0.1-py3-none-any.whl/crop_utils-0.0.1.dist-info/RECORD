@@ -1,0 +1,9 @@
+ecpro/__init__.py,sha256=26UWatnbm6ZIwQMuu9NNzQ0IW1ACO4Oe9caModuTpWM,4
+ecpro/html_slot_config.py,sha256=bpLAh69hvYLcBH32Tf2QUvYZN0E1cWwAcFQ4XzT1vbE,1820
+ecpro/image.py,sha256=rcf_1xiEoy1Kc1LIR-sXUG7rjQMcKLs4fB-znfq5btc,48394
+ecpro/img_crop.py,sha256=GfNsv668555cZGx8WxUyJPbmoolwG132gooNT5SmIPQ,38275
+crop_utils-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+crop_utils-0.0.1.dist-info/METADATA,sha256=NXIbcxKNspbKpVDYvBO3fBcHyNqBOpVhcWc-oqtMMPM,1353
+crop_utils-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+crop_utils-0.0.1.dist-info/top_level.txt,sha256=GzcoNV13NCzcGfgh5JzT1EenqrFvKpfT7mcWyapzHVc,6
+crop_utils-0.0.1.dist-info/RECORD,,
