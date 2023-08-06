@@ -1,0 +1,13 @@
+sqlformatter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlformatter/__main__.py,sha256=ISiGaCC_MkxQHFPICdnT-gGMYl_mGkechJXNkMsVIbc,118
+sqlformatter/cli.py,sha256=EtsDwwGCASB2YPui7j3cAbAJH3ME2YdGbVYye1M2VA8,1702
+sqlformatter/config.py,sha256=X3xRFQt3SfgBvl658WCJ5ntoKMLVTYJkKBAM1RZ2Rbo,57
+sqlformatter/helpers.py,sha256=s9Hzpm0auMGTy7w3txfazUjwS2vrATHvj0BoaQ3zI7w,2737
+sqlformatter/sql_query.py,sha256=H3d8W8a7nS8IZXBBsb3m3AhzFjoMdfKSblckDfOi5SQ,1735
+sqlformatter/sqlformatter.py,sha256=yt52j5K8jlKm3xLMWqJJT3wnp-h5ns4EEH_Yuv5wCl0,780
+sqlmakeuper-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sqlmakeuper-0.1.4.dist-info/METADATA,sha256=IoB7Bu6CDLRm3c3Jn_WLJOJ7D2hYapSUS6IGF3Qfq9s,1055
+sqlmakeuper-0.1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sqlmakeuper-0.1.4.dist-info/entry_points.txt,sha256=3YdUB8SCZzfdJV49YqNR0MPG0BxE5Yp4dbFPbo4UR7w,58
+sqlmakeuper-0.1.4.dist-info/top_level.txt,sha256=ttzj7T8tZtoIuPzweS2FsPs894V8ExrbDe4kphDzMCw,13
+sqlmakeuper-0.1.4.dist-info/RECORD,,

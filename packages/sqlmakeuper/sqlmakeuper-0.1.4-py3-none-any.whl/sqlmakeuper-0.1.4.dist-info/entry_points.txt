@@ -1,0 +1,3 @@
+[console_scripts]
+sqlmakeup = sqlformatter.__main__:main
+
