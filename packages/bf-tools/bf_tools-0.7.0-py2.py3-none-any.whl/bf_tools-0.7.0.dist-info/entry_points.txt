@@ -1,0 +1,3 @@
+[console_scripts]
+bf-info=bf_tools.bf_info:main
+
