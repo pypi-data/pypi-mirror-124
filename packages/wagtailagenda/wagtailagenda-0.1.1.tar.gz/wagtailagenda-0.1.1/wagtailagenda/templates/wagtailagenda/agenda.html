@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% load i18n static wagtailcore_tags wagtailimages_tags %}
+{% load wagtailroutablepage_tags %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'wagtailagenda/css/common.css' %}" type="text/css"/>
+    <link rel="stylesheet" href="{% static 'wagtailagenda/css/agenda.css' %}" type="text/css"/>
+{% endblock %}
+
+{% block body_class %}template-agendapage{% endblock %}
+
+{% block content %}
+
+    <header class="agenda">
+
+        {% if is_archives %}
+            <h1>{% blocktrans %}Archives of{% endblocktrans %} {{ page.title }}</h1>
+        {% else %}
+            <h1>{{ page.title }}</h1>
+        {% endif %}
+
+        {% if page.description %}
+            <p class="description">
+                {{ page.description }}
+            </p>
+        {% endif %}
+
+        {% if page.archives_enabled and not is_archives %}
+            <a class="archives" href="{% routablepageurl page "archives" %}">{% blocktrans %}Archives{% endblocktrans %}</a>
+        {% endif %}
+    </header>
+
+    <main class="agenda">
+        <h2>{% blocktrans %}Activities{% endblocktrans %}</h2>
+        {% for activity in activities.all %}
+            <a class="activity" href="{% pageurl activity %}">
+                <article class="activity">
+                    <div class="begin">{{ activity.begin }}</div>
+                    
+                    <h3>{{ activity.title }}</h3>
+
+                    <div class="where">{{ activity.location.name}}</div>
+                </article>
+            </a>
+        {% endfor %}
+    </main>
+
+    <footer class="agenda">
+        <a class="ics" href="{% routablepageurl page "webcal" %}">Webcal</a>
+    </footer>
+{% endblock %}

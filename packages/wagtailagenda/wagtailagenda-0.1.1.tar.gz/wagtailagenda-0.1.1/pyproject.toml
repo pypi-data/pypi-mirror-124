@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "wagtailagenda"
+version = "0.1.1"
+description = "An aganda app for Wagtail"
+authors = ["Sébastien Gendre <seb@k-7.ch>"]
+license = "LGPL-3.0-only"
+readme = "README.md"
+repository = "https://framagit.org/SebGen/wagtail-agenda"
+packages = [
+   { include = "wagtailagenda" },
+]
+include = [
+    "README.md",
+    "LICENSE",
+    
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+wagtail = "^2.14.1"
+wagtailperson = "^0.13.2"
+ics = "^0.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
