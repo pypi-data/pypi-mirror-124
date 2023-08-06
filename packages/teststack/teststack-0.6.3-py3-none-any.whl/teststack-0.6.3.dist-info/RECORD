@@ -1,0 +1,15 @@
+teststack/__init__.py,sha256=r9XcZeFFph82y0YCU2d1L1YqqR7z8QLJ5G_sYOTOBVc,2662
+teststack/__main__.py,sha256=WsRonoTnQNaqRtDUoSQzq0SAwrf2dGg9jtG2QhXYbWg,99
+teststack/_version.py,sha256=ltd1cjlsB07UcEo0mFY7QLcEL764OMbUBj5mgUyjINo,142
+teststack/errors.py,sha256=m3vPe_9MM33pI1_FB_-1D1TGmXa-iTXspyJH-5KpkCI,51
+teststack/git.py,sha256=id13lXlyXoQwpkKWWTwgwc8OKI79-ajzTLC_ajuX28c,711
+teststack/commands/containers.py,sha256=s8Lwm5pzMfdUS5n6aMyw-8bUTJPIDT5oVgvGl7wEr_U,4977
+teststack/commands/environment.py,sha256=yMgVEmkI6alVhpYUykghMsF0TdWBpC5qxHy6VmfsPXc,1300
+teststack/containers/docker.py,sha256=4L3y5pOW5hpOa1cfjSdxiXdSO2rtubN0KjySOF8UhPE,3401
+teststack/containers/podman.py,sha256=m7iF8rB92VHIbhSnOQdieX16D3QtrrPpffxUEIkSc2I,4906
+teststack-0.6.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+teststack-0.6.3.dist-info/METADATA,sha256=8mm8o7q5isLA_S9HrEEiRyjmF3L9y_7Fyklo7M-3aMs,5434
+teststack-0.6.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+teststack-0.6.3.dist-info/entry_points.txt,sha256=cBpXO4OL6WD3HcKQqazmYKfZTc674lILuzDnrXRtOR8,251
+teststack-0.6.3.dist-info/top_level.txt,sha256=29uiy8iC-q2WLp54U2XIhbRtsrO6T04QgyAKSLNx0uA,10
+teststack-0.6.3.dist-info/RECORD,,
