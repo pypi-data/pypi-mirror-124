@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/fortnet-ase/__init__.py
+src/fortnet-ase/calculator.py
+src/fortnet-ase/common.py
+src/fortnet_ase.egg-info/PKG-INFO
+src/fortnet_ase.egg-info/SOURCES.txt
+src/fortnet_ase.egg-info/dependency_links.txt
+src/fortnet_ase.egg-info/top_level.txt
+test/test_dummy.py
