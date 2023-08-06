@@ -1,0 +1,13 @@
+logpy/__init__.py,sha256=AsqzwLyqLZaFc8p28-lyuuTCxdawzP3sUA24ybtv9Jw,191
+logpy/logger.py,sha256=wn2WUVA105w1BBwiiWv1T959lQTwu5qLjyB7T77eyrc,3064
+logpy/ansi/__init__.py,sha256=wBzh9HkPSKuPnxugnxV0wwuIVh1fRineR4JnZu0g2A8,244
+logpy/ansi/color.py,sha256=JUH46b0Lt_wen0F6XAgLAPq-V1ryGZyGRJRLhoI4wYg,1030
+logpy/ansi/effect.py,sha256=h-mIDRby2_I9wDuIyPb7kYJhUx7myzPxbWmmUgO7Gvc,479
+logpy/log/__init__.py,sha256=wdEgoR4Oi9c43H8SSmQUtP1HYojpK4YcfXRfhrdUGiw,225
+logpy/log/format.py,sha256=b3-SUVYkdVgUQLsamftBiGs0KxIZ14xNZWCAduUr9uc,2349
+logpy/log/level.py,sha256=TO2zkEQp7rvlrSK2t47NknFIOdDlSy9dx8WzycnGO5E,1715
+log.py-0.0.1.dist-info/LICENSE,sha256=le8QJYxR5dS3FeZjO0plXl1VJgmL8pj0VxMp_RIB2XI,1092
+log.py-0.0.1.dist-info/METADATA,sha256=rNNLb4B9k1Sl9WnbEdDZrQcTQyHcdUKPpBuLszch9pU,1692
+log.py-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+log.py-0.0.1.dist-info/top_level.txt,sha256=nfNH4spBGecswuP2Yia3CVBPPDliPExpWMrYxRMmYBI,6
+log.py-0.0.1.dist-info/RECORD,,
