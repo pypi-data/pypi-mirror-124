@@ -1,0 +1,9 @@
+README.md
+setup.py
+adapters/__init__.py
+adapters/amino_acids.py
+chemistry_adapters.egg-info/PKG-INFO
+chemistry_adapters.egg-info/SOURCES.txt
+chemistry_adapters.egg-info/dependency_links.txt
+chemistry_adapters.egg-info/not-zip-safe
+chemistry_adapters.egg-info/top_level.txt
