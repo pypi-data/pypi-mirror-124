@@ -1,0 +1,3 @@
+[console_scripts]
+run_pommes_dispatch=pommesdispatch.cli:run_pommes_dispatch
+
