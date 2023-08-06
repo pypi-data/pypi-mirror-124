@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: minio-driver
+Version: 0.0.6
+Summary: Minio Storage Driver for Masonite
+Home-page: UNKNOWN
+Author: Yubaraj Shrestha
+Author-email: companion.krish@outlook.com
+License: MIT
+Description: UNKNOWN
+Keywords: masonite,storage,minio,masonite-storage-driver
+Platform: UNKNOWN
