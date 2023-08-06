@@ -1,0 +1,16 @@
+djmongoauth/DjMongoAuthError.py,sha256=x2tTzUJn74wkbMSV2hjlbMRP0xptSmlnFwRWUVzPJIc,48
+djmongoauth/__init__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+djmongoauth/apps.py,sha256=xHkJE7C4h7AUBMl4lPub6ttlkryMWIskDarBZkI1cow,97
+djmongoauth/models.py,sha256=xySqdM42asChj5AtiyCO6EnOxstYGZHnoX8htKvqfTA,7492
+djmongoauth/common/Email.py,sha256=1aKb54w3MbjFxAQPWr1SOZbDQiJMruwlvXAxYwHYYTQ,324
+djmongoauth/common/EmailFactory.py,sha256=RCr8ENi8OTm7bQKAAwqm25F68w8LJ7zHvjfq1x5bPgY,4098
+djmongoauth/common/EmailTypes.py,sha256=vXKJqXUw0KuqD-WGU4_RgECwvbEA_vYX3edV83I73eE,93
+djmongoauth/common/EmailUtils.py,sha256=lyNCTdOmVfAjtQN969tpNdgWgb4vX-rIW-6BttkrOmU,300
+djmongoauth/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djmongoauth/decorators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djmongoauth/decorators/authenticated.py,sha256=cNK9AfasO8f_U9P2qWyLBJigKLN_vO5VrU2QKZXAIvA,1237
+djmongoauth/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djmongoauth-0.0.1.dist-info/METADATA,sha256=69F1OwSb1KYQ-YwS-7R-huainGi5uMg3dkSnY7rr6YY,6444
+djmongoauth-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+djmongoauth-0.0.1.dist-info/top_level.txt,sha256=labSOQ4McEoKiC4cvDQIdlaash7ssuYp35NaZD_Qea4,12
+djmongoauth-0.0.1.dist-info/RECORD,,
