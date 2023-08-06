@@ -1,0 +1,12 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.commitizen]
+version = "0.1.0"
+version_files = [
+    "setup.cfg",
+]

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dyrkdevice/__init__.py
+src/dyrkdevice/basicDyrkDevice.py
+src/dyrkdevice.egg-info/PKG-INFO
+src/dyrkdevice.egg-info/SOURCES.txt
+src/dyrkdevice.egg-info/dependency_links.txt
+src/dyrkdevice.egg-info/requires.txt
+src/dyrkdevice.egg-info/top_level.txt
