@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: ReleaseIt
+Version: 0.0.2
+Summary: Insert project description here
+Home-page: UNKNOWN
+Author: Hendrik du Toit
+Author-email: hendrik@brightedge.co.za
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: termcolor
+Requires-Dist: beetools
+Requires-Dist: toml
+
+.. image:: https://img.shields.io/pypi/status/ReleaseIt
+    :alt: PyPI - Status
+
+.. image:: https://img.shields.io/pypi/wheel/ReleaseIt
+    :alt: PyPI - Wheel
+
+.. image:: https://img.shields.io/pypi/pyversions/ReleaseIt
+    :alt: PyPI - Python Version
+
+.. image:: https://img.shields.io/github/v/release/hendrikdutoit/ReleaseIt
+    :alt: GitHub release (latest by date)
+
+.. image:: https://img.shields.io/github/license/hendrikdutoit/ReleaseIt
+    :alt: License
+
+.. image:: https://img.shields.io/github/issues-raw/hendrikdutoit/ReleaseIt
+    :alt: GitHub issues
+
+.. image:: https://img.shields.io/pypi/dm/BEETest21
+    :alt: PyPI - Downloads
+
+.. image:: https://img.shields.io/github/search/hendrikdutoit/ReleaseIt/GitHub hit
+    :alt: GitHub Searches
+
+.. image:: https://img.shields.io/codecov/c/gh/hendrikdutoit/ReleaseIt
+    :alt: CodeCov
+    :target: https://app.codecov.io/gh/hendrikdutoit/ReleaseIt
+
+.. image:: https://img.shields.io/github/workflow/status/hendrikdutoit/ReleaseIt/Pre-Commit
+    :alt: GitHub Actions - Pre-Commit
+    :target: https://github.com/hendrikdutoit/ReleaseIt/actions/workflows/pre-commit.yaml
+
+.. image:: https://img.shields.io/github/workflow/status/hendrikdutoit/ReleaseIt/CI
+    :alt: GitHub Actions - CI
+    :target: https://github.com/hendrikdutoit/ReleaseIt/actions/workflows/ci.yaml
+
+.. image:: https://img.shields.io/testpypi/v/ReleaseIt
+    :alt: PyPi
+
+Project Short Description (default ini)
+
+    Project long description or extended summary goes in here (default ini)
+
+============
+Installation
+============
+
+To install the latest release on PyPI, simply run:
+
+.. code-block:: bash
+
+    $ pip install releaseit
+
+
+=======
+Example
+=======
+
+.. code-block:: bash
+
+    >>> import releaseit
+    >>> import tempfile
+    >>> from pathlib import Path
+    >>> releaseit = releaseit.ReleaseIt('ReleaseIt', Path(tempfile.mkdtemp()))
+    >>> releaseit.release_pth
+    >>> print(releaseit.release_cfg)
+
+
