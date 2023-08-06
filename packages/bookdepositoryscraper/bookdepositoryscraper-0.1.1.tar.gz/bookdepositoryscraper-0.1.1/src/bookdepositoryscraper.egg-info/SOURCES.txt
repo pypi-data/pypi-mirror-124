@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/preprocess.py
+src/scraper.py
+src/bookdepositoryscraper.egg-info/PKG-INFO
+src/bookdepositoryscraper.egg-info/SOURCES.txt
+src/bookdepositoryscraper.egg-info/dependency_links.txt
+src/bookdepositoryscraper.egg-info/top_level.txt
