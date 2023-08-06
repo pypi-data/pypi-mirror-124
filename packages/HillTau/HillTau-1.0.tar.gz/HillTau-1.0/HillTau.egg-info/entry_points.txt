@@ -1,0 +1,9 @@
+[console_scripts]
+HillTau = HillTau.__main__:run
+Hilltau = HillTau.__main__:run
+hillTau = HillTau.__main__:run
+hilltau = HillTau.__main__:run
+ht2sbml = HillTau.__main__:run_ht2sbml
+htgraph = HillTau.__main__:run_htgraph
+mash = HillTau.__main__:run_mash
+
