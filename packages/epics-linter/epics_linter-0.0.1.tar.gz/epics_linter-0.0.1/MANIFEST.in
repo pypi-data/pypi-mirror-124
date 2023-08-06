@@ -1,0 +1,1 @@
+recursive-include epics_linter grammars *.lark
