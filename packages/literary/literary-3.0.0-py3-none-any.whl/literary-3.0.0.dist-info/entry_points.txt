@@ -1,0 +1,6 @@
+[console_scripts]
+literary = literary.commands.launcher:launch_new_instance
+
+[nbconvert.exporters]
+literary = literary.core.exporter:LiteraryExporter
+
