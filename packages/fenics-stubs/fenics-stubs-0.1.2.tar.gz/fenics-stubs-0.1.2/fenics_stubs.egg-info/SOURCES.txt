@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+fenics_stubs.egg-info/PKG-INFO
+fenics_stubs.egg-info/SOURCES.txt
+fenics_stubs.egg-info/dependency_links.txt
+fenics_stubs.egg-info/requires.txt
+fenics_stubs.egg-info/top_level.txt
+stubs/__init__.py
+stubs/common.py
+stubs/config.py
+stubs/data_manipulation.py
+stubs/mesh.py
+stubs/model.py
+stubs/model_assembly.py
+stubs/model_building.py
+stubs/solvers.py
