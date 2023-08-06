@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1132</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>qtawk</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="0">
+     <widget class="QDialog" name="kdialog"/>
+    </item>
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="toolTip">
+         <string>Field Separator</string>
+        </property>
+        <property name="text">
+         <string>FS</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_FS">
+        <property name="maximumSize">
+         <size>
+          <width>30</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="line_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="toolTip">
+         <string>Record Separator</string>
+        </property>
+        <property name="whatsThis">
+         <string/>
+        </property>
+        <property name="text">
+         <string>RS</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_RS">
+        <property name="maximumSize">
+         <size>
+          <width>30</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>\n</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="line_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditSearch">
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="btnSearchClear">
+        <property name="toolTip">
+         <string>erase</string>
+        </property>
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset theme="edit-clear">
+          <normaloff/>
+         </iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="btnSearch">
+        <property name="toolTip">
+         <string>search/next</string>
+        </property>
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset theme="search">
+          <normaloff/>
+         </iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="line">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="text">
+       <attribute name="title">
+        <string>text</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <widget class="QTableWidget" name="tableWidget"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>script</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QGroupBox" name="groupBox_2">
+            <property name="title">
+             <string>Commands list</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_4">
+             <item row="0" column="0">
+              <widget class="QListWidget" name="listWidget"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox">
+            <property name="title">
+             <string>OneLiner</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_3">
+             <item row="0" column="0">
+              <widget class="QTextEdit" name="textEdit"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1132</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSaveAs"/>
+    <addaction name="separator"/>
+    <addaction name="actionImport"/>
+    <addaction name="actionExport"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuCommands">
+    <property name="title">
+     <string>&amp;Commands</string>
+    </property>
+    <addaction name="actionEgrep"/>
+    <addaction name="actionHead"/>
+    <addaction name="actionTail"/>
+    <addaction name="actionCut"/>
+    <addaction name="actionSort"/>
+    <addaction name="actionCustom"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>E&amp;dit</string>
+    </property>
+    <addaction name="actionUndo"/>
+    <addaction name="actionRedo"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>&amp;Tools</string>
+    </property>
+    <addaction name="actionAppendField"/>
+    <addaction name="actionSelectFields"/>
+    <addaction name="actionKeepOneLine"/>
+    <addaction name="actionWhere"/>
+    <addaction name="actionSubstitute"/>
+    <addaction name="actionTranspose"/>
+    <addaction name="separator"/>
+    <addaction name="actionTable"/>
+    <addaction name="actionPadding"/>
+    <addaction name="actionAutoPadding"/>
+   </widget>
+   <widget class="QMenu" name="menuStats">
+    <property name="title">
+     <string>&amp;Stats</string>
+    </property>
+    <addaction name="actionCount"/>
+    <addaction name="actionMin"/>
+    <addaction name="actionMax"/>
+    <addaction name="actionMean"/>
+    <addaction name="actionSum"/>
+    <addaction name="actionHistogram"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuCommands"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuStats"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionSaveAs">
+   <property name="text">
+    <string>Save as...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionRawData">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>raw data</string>
+   </property>
+  </action>
+  <action name="actionDailySum">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>daily sum</string>
+   </property>
+  </action>
+  <action name="actionEgrep">
+   <property name="text">
+    <string>egrep</string>
+   </property>
+  </action>
+  <action name="actionHead">
+   <property name="text">
+    <string>head</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="text">
+    <string>Undo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="text">
+    <string>Redo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Y</string>
+   </property>
+  </action>
+  <action name="actionExport">
+   <property name="text">
+    <string>Export output as...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionTail">
+   <property name="text">
+    <string>tail</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="text">
+    <string>cut</string>
+   </property>
+  </action>
+  <action name="actionKeepOneLine">
+   <property name="text">
+    <string>keep one line</string>
+   </property>
+  </action>
+  <action name="actionWhere">
+   <property name="text">
+    <string>where</string>
+   </property>
+  </action>
+  <action name="actionSelectFields">
+   <property name="text">
+    <string>select fields</string>
+   </property>
+  </action>
+  <action name="actionSubstitute">
+   <property name="text">
+    <string>substitute</string>
+   </property>
+  </action>
+  <action name="actionSort">
+   <property name="text">
+    <string>sort</string>
+   </property>
+  </action>
+  <action name="actionCustom">
+   <property name="text">
+    <string>custom command</string>
+   </property>
+  </action>
+  <action name="actionImport">
+   <property name="text">
+    <string>Import raw data</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+I</string>
+   </property>
+  </action>
+  <action name="actionCount">
+   <property name="text">
+    <string>count</string>
+   </property>
+  </action>
+  <action name="actionAppendField">
+   <property name="text">
+    <string>append field</string>
+   </property>
+  </action>
+  <action name="actionTranspose">
+   <property name="text">
+    <string>transpose</string>
+   </property>
+  </action>
+  <action name="actionMean">
+   <property name="text">
+    <string>mean</string>
+   </property>
+  </action>
+  <action name="actionMax">
+   <property name="text">
+    <string>max</string>
+   </property>
+  </action>
+  <action name="actionMin">
+   <property name="text">
+    <string>min</string>
+   </property>
+  </action>
+  <action name="actionSum">
+   <property name="text">
+    <string>sum</string>
+   </property>
+  </action>
+  <action name="actionTable">
+   <property name="text">
+    <string>table</string>
+   </property>
+  </action>
+  <action name="actionHistogram">
+   <property name="text">
+    <string>histogram</string>
+   </property>
+  </action>
+  <action name="actionPadding">
+   <property name="text">
+    <string>padding</string>
+   </property>
+  </action>
+  <action name="actionAutoPadding">
+   <property name="text">
+    <string>padding auto</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
