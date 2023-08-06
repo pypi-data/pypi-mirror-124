@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: vktoken
+Version: 2.0.1
+Summary: Simple tool for getting VK access token
+Home-page: https://github.com/jieggii/vktoken
+License: MIT
+Keywords: vk,vkontakte
+Author: jieggii
+Author-email: jieggii.contact@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/jieggii/vktoken/issues
+Project-URL: Repository, https://github.com/jieggii/vktoken
+Description-Content-Type: text/markdown
+
+# vktoken
+Simple tool for getting VK access token
+
+## Installation
+`pip install --user vktoken`
+
+## Usage
+`vktoken [--help] [--version] [--app] login [password]`
+
+## Examples
+* `vktoken +79652331167`  
+* `vktoken --app iphone +79523311167 mypassword` 
+
+## Features
+* You can choose VK app from the list: `android`, `iphone`, `ipad` and `windows-phone`.
+
