@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/iot_beewipy.egg-info/PKG-INFO
+src/iot_beewipy.egg-info/SOURCES.txt
+src/iot_beewipy.egg-info/dependency_links.txt
+src/iot_beewipy.egg-info/top_level.txt
+src/pkg/BeewiPy.py
+src/pkg/__init__.py
