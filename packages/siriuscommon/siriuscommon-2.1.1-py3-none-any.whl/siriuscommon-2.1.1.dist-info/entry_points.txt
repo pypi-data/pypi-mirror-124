@@ -1,0 +1,4 @@
+[console_scripts]
+taiga-export-xlsx = siriuscommon.taiga:taiga_export_xlsx
+taiga-initialize-project = siriuscommon.taiga:taiga_initialize_project
+
