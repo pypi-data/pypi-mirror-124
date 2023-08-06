@@ -1,0 +1,10 @@
+pytileproj
+equi7grid
+veranda==0.1.0
+geopathfinder
+geospade
+
+[testing]
+pytest-cov
+coverage
+pytest

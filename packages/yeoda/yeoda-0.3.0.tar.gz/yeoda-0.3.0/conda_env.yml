@@ -1,0 +1,16 @@
+name: yeoda
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - gdal=3.0.2
+  - geopandas
+  - cartopy
+  - pip
+  - pip:
+    - pytileproj
+    - equi7grid
+    - veranda==0.1.0
+    - geospade
+    - geopathfinder
