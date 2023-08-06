@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pytest-testrail-api-client
+Version: 0.3
+Summary: TestRail Api Python Client
+Home-page: https://github.com/Slamnlc/test-rail-client
+Author: Biriukov Maksym
+Author-email: maximbirukov77@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Slamnlc/test-rail-client/archive/refs/tags/v0.3.tar.gz
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pytest
+Requires-Dist: gherkin-official (>=4.1.0)
+Requires-Dist: pytest-bdd (>=3.3.0)
+Requires-Dist: typing
+
+## testrail-api-client ##
+
+
