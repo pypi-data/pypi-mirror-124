@@ -1,0 +1,6 @@
+README.md
+setup.py
+dict_to_digraph.egg-info/PKG-INFO
+dict_to_digraph.egg-info/SOURCES.txt
+dict_to_digraph.egg-info/dependency_links.txt
+dict_to_digraph.egg-info/top_level.txt

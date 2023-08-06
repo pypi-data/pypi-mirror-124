@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dict_to_digraph
+Version: 0.0.3
+Summary: Turn python dictionary into Graphviz digraph
+Home-page: https://github.com/opizzato/dict_to_digraph
+Author: Olivier Pizzato
+Author-email: olivier.pizzato@gmail.com
+License: UNKNOWN
+Description: # dict_to_digraph
+        Turn python dictionary into Graphviz digraph
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
