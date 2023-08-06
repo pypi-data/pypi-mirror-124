@@ -1,0 +1,3 @@
+[console_scripts]
+ingot-http-cli = ingot_http.scripts.ingot_http:main
+
