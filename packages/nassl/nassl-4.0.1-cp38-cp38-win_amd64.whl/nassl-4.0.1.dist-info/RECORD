@@ -1,0 +1,15 @@
+nassl/__init__.py,sha256=BxLSC1ruaFNgcdppRtVZMRrxdkYRvv_KhEm9KJ2lz7M,52
+nassl/_nassl.cp38-win_amd64.pyd,sha256=8nLmgYquaCfEeWzKwXhVjiUBkMAlkdNdRrvFvHYpNU8,2008064
+nassl/_nassl_legacy.cp38-win_amd64.pyd,sha256=-6e4E30Zpc5Y0_Enz78nbf3NKDcJCLDmQ9CXZ_Hlexw,1488384
+nassl/cert_chain_verifier.py,sha256=iyDPVXsodGD0GzZLoPSnYFgNG5Z-vCWof6ZjwMin9OM,3090
+nassl/ephemeral_key_info.py,sha256=EWNo-lc_avLJ7LKe6z-iFZKGGKkcrPyDEZUPzFnyWsc,5216
+nassl/legacy_ssl_client.py,sha256=UZv4HSjnz23gVhBzhFlL829_SFcQbvwrt1quS2L98qw,7151
+nassl/ocsp_response.py,sha256=lcnuhdv6A_9MibpF5gf7cM1HHS_5t0zjpAkEg5l7gPg,1175
+nassl/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nassl/ssl_client.py,sha256=pM67pqMwv0GbhBhl2Slomc7R22E7_Dsexapp1qhAec4,17401
+tests/openssl_server/__init__.py,sha256=sTe4Jc_kTR5v1o6Gu2Bh47UBjYWrRt-j_3G23xBePuc,8739
+nassl-4.0.1.dist-info/LICENSE.txt,sha256=4O7bphXVzRuYavtsWzpLGuM3E-fp3HTRna7F4yIfnS4,35184
+nassl-4.0.1.dist-info/METADATA,sha256=0Hrc66TZQY1iYK5_HTtb8JamYfcDiRZSWkgKq1rA9xs,929
+nassl-4.0.1.dist-info/WHEEL,sha256=P24hRDQapckAvHvgBBzlH5uw6rQ_oZQtKbG6drGrqOM,100
+nassl-4.0.1.dist-info/top_level.txt,sha256=w7juJEoI2dZL9ErP5Pwl1hFN_41aqQesyIE0ZhXS8Yo,12
+nassl-4.0.1.dist-info/RECORD,,
