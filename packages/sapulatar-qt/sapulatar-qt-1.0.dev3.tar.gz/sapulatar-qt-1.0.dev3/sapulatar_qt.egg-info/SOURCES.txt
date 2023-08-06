@@ -1,0 +1,16 @@
+README.md
+setup.py
+assets/sapulatar-qt.desktop
+assets/sapulatar-qt.png
+sapulatar_qt/__init__.py
+sapulatar_qt/main.py
+sapulatar_qt.egg-info/PKG-INFO
+sapulatar_qt.egg-info/SOURCES.txt
+sapulatar_qt.egg-info/dependency_links.txt
+sapulatar_qt.egg-info/entry_points.txt
+sapulatar_qt.egg-info/requires.txt
+sapulatar_qt.egg-info/top_level.txt
+sapulatar_qt/ui/__init__.py
+sapulatar_qt/ui/main_window.py
+sapulatar_qt/ui/progress_dialog.py
+sapulatar_qt/ui/assets/logo.png
