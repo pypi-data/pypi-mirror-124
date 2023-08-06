@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+newsmeta/__init__.py
+newsmeta.egg-info/PKG-INFO
+newsmeta.egg-info/SOURCES.txt
+newsmeta.egg-info/dependency_links.txt
+newsmeta.egg-info/not-zip-safe
+newsmeta.egg-info/requires.txt
+newsmeta.egg-info/top_level.txt
