@@ -1,0 +1,9 @@
+pydantic
+tracardi_plugin_sdk>=0.6.22
+geopy>=2.2.0
+astral>=2.2
+pytz
+tracardi-dot-notation
+
+pytest
+twine
