@@ -1,0 +1,11 @@
+sfcc_connector/__init__.py,sha256=gLaN3cppktiJM7nowaUNvCskKTwc60BgFt2rWLVC_ok,55
+sfcc_connector/__main__.py,sha256=NCvZkf9xQHUAWjQujD0hfsDX0rexFQCvSSapsNV9nNs,476
+sfcc_connector/client.py,sha256=0ihjX8TMtbz3eo7_C5MTu4U2H_d7usTk4U6nTPM0Vfs,5575
+sfcc_connector/core.py,sha256=cPIIbViPeSICDdG6iv4I4Efg7uHm5EKHYFAc3VlStB8,5046
+sfcc_connector/extensions.py,sha256=Hk7CgtnK-_pvgmJHG5Le-jxp0hUYr6fa5koN2oDkPCY,1375
+sfcc_connector/queries.py,sha256=Sa78bK1gUxNxTY23iPSdLOXCmH3CUv6d8MhGWupQeQI,316
+sfcc_connector-1.0.2.dist-info/LICENSE,sha256=1YQi0k0_oO_8GGNP8NhgXdHjBSHM3UxBDIUF-TCHmDY,1068
+sfcc_connector-1.0.2.dist-info/METADATA,sha256=fhv-QIyQPHMxaueYlXMLFHoHL95XjpdbQZapcHKNysY,9322
+sfcc_connector-1.0.2.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+sfcc_connector-1.0.2.dist-info/top_level.txt,sha256=tlw5sggA8m-fZbflZAXcKX-eGO0LesOkTBl-O6zi29k,15
+sfcc_connector-1.0.2.dist-info/RECORD,,
