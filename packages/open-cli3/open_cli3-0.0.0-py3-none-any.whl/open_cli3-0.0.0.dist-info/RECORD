@@ -1,0 +1,16 @@
+open_cli3/__init__.py,sha256=-S11r9ln5z26sUh7CUJy9yJeF38Ti3jt-lT1cdUbcP8,106
+open_cli3/cli.py,sha256=0UsPjTjoPAxbXVcF9YCwXVZ16wruixx_1CxMrh2IOYg,8113
+open_cli3/completer.py,sha256=gGhNQeEEIf7HtdG1ATeWQCanFCNT2seL1jDsVYRrEvI,7785
+open_cli3/formatter.py,sha256=EHU3Hrnw5Akq40XNyLPpbiU_mbbVskxcwDiir61KxAo,2676
+open_cli3/help.py,sha256=Dcigb2lFy7TDQNYLtI84xJe1F7_kbeDtY0V9Z5kas98,526
+open_cli3/main.py,sha256=UPiF4R_fNZXyFjqLULZbpzECS26BnxORglZ9mxGKXQU,2116
+open_cli3/openapi_extension.py,sha256=qRFyglwrjg1oP3rbeIIxUS_VThKGdyzoBlE35EVIAQ4,21970
+open_cli3/parser.py,sha256=OgnZt5qMdgc2vbpmuV-oJAjU_ctYGzmbqz4t9BsyIj4,3389
+open_cli3-0.0.0.dist-info/AUTHORS,sha256=VKtImr4GKOnyjujeItNiUE8_cFkiEUMN8zpvJF7vNu4,67
+open_cli3-0.0.0.dist-info/LICENSE,sha256=loTVH0oJBY1W6oZ3l0N2_IHzhMEy5VPbTz3GHJJZ4iQ,1078
+open_cli3-0.0.0.dist-info/METADATA,sha256=cgq_9jQHTD3utxmTiQPcSBRemZYmqlkoiLRkhoDqMaI,4553
+open_cli3-0.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+open_cli3-0.0.0.dist-info/entry_points.txt,sha256=_bcetJmpOYKmB_5eg0X7_2XdFv9Gjq60nNWyfZM4O_k,51
+open_cli3-0.0.0.dist-info/pbr.json,sha256=sNe7wLxGOZIJfszDTA95zA18D9jOJn5jKbidym9ZbK8,47
+open_cli3-0.0.0.dist-info/top_level.txt,sha256=ibS9cneG1_jJrkY0G_Rokt5600-BQOOe4wFEyMC5DyM,10
+open_cli3-0.0.0.dist-info/RECORD,,
