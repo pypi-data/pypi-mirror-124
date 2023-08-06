@@ -1,0 +1,16 @@
+markupfield/__init__.py,sha256=_7OlQdbVkK4jad0CLdpI0grT-zEAb-qgFmH5mFzDXiA,22
+markupfield/fields.py,sha256=1jELRulNaTCYR9aXLUCH1Q_mWjo5fVsT9LM0amsnfEk,7727
+markupfield/markup.py,sha256=D9gE_CGBqN21IBywBxFhp1-nvpi3ymUy2jNybE12Llg,3005
+markupfield/widgets.py,sha256=xFEt4McHaBPjcJaMhiinoYeO47kocuo2Q-2QMtObl7g,430
+markupfield/locale/de/LC_MESSAGES/django.mo,sha256=PcNHyyqK3MZ6JFWcJAjQr9ZuVgNUL6NX4MMT6T59_5o,813
+markupfield/locale/de/LC_MESSAGES/django.po,sha256=hwFEAnL_OXe0eupU1cSkfTGsAf6ToOQM6ef_RHN5d18,983
+markupfield/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markupfield/tests/models.py,sha256=UPTOe6SJoCEaJEth6vGtv93gQ0kIyvzbQ_flDthsQrE,1306
+markupfield/tests/settings.py,sha256=blmj_23lc8hOnhXfJgcs_3ClpHLfpjKXZsaq54yqJu0,923
+markupfield/tests/tests.py,sha256=FE-2sXGwF9CgW7VhWYmaY8_RmYUZGOfGskjfj82LDhY,17493
+django_markupfield-2.0.1.dist-info/AUTHORS.txt,sha256=L-ocB-HFhK49xRZG9XtIkq_qM8bkvMfvQh413DEXSD4,384
+django_markupfield-2.0.1.dist-info/LICENSE,sha256=cacUdL87nmMiwhDzghu4Vp1Nci2L06kNJ5mvpfLUsCA,1351
+django_markupfield-2.0.1.dist-info/METADATA,sha256=66Xm_8XgHHvgG4wFWAo5kqXk0tfDp46fkA_EBd5p81g,7636
+django_markupfield-2.0.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+django_markupfield-2.0.1.dist-info/top_level.txt,sha256=RGzl7yN-Rs5UwNV1SI2bXUg05j2T9SOqNe7rdo3uHkE,12
+django_markupfield-2.0.1.dist-info/RECORD,,
