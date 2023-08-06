@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: manim-fontawesome
+Version: 5.15.4
+Summary: Font Awesome SVG's for Manim
+Home-page: https://github.com/naveen521kk/manim-fontawesome
+License: BSD-3-Clause
+Author: Naveen M K
+Author-email: naveen@manim.community
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: manim (>=0.3)
+Project-URL: Repository, https://github.com/naveen521kk/manim-fontawesome
