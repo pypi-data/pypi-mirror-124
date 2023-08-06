@@ -1,0 +1,5 @@
+pyyaml
+flask
+requests
+discord-py-slash-command
+discord.py
