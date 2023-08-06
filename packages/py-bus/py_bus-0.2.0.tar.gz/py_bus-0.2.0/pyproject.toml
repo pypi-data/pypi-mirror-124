@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "py_bus"
+version = "0.2.0"
+description = "Type-safe, high-performance message bus for python users"
+authors = ["ahnsv <ahnsv@bc.edu>"]
+packages = [
+    {include="pybus"}
+]
+homepage = "https://github.com/ahnsv/pybus"
+keywords = ["messagebus", "message bus", "command", "event", "cqrs"]
+
+[tool.poetry.dependencies]
+python = ">=3.6.2,<3.9"
+pydantic = "^1.8.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "5.2"
+pre-commit = "^2.15.0"
+isort = "^5.9.3"
+pycln = "^1.0.3"
+mypy = "^0.910"
+black = "21.5b2"
+pytest-benchmark = "^3.4.1"
+pytest-cov = "^3.0.0"
+commitizen = "^2.20.0"
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.2.0"
+version_files = [
+    "pyproject.toml:version"
+]
+update_changelog_on_bump = true
+annotated_tag = true
+tag_format = "v$version"
+style = [
+    ["qmark", "fg:#ff9d00 bold"],
+    ["question", "bold"],
+    ["answer", "fg:#ff9d00 bold"],
+    ["pointer", "fg:#ff9d00 bold"],
+    ["highlighted", "fg:#ff9d00 bold"],
+    ["selected", "fg:#cc5454"],
+    ["separator", "fg:#cc5454"],
+    ["instruction", ""],
+    ["text", ""],
+    ["disabled", "fg:#858585 italic"]
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

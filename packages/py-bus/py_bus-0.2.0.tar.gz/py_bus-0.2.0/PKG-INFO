@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: py-bus
+Version: 0.2.0
+Summary: Type-safe, high-performance message bus for python users
+Home-page: https://github.com/ahnsv/pybus
+Keywords: messagebus,message bus,command,event,cqrs
+Author: ahnsv
+Author-email: ahnsv@bc.edu
+Requires-Python: >=3.6.2,<3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
