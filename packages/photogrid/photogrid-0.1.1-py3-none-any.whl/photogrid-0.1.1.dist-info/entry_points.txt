@@ -1,0 +1,3 @@
+[console_scripts]
+photogrid=photogrid:cli
+
