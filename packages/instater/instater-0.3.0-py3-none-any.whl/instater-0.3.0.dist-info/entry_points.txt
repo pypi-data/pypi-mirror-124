@@ -1,0 +1,3 @@
+[console_scripts]
+instater = instater.cli:main
+
