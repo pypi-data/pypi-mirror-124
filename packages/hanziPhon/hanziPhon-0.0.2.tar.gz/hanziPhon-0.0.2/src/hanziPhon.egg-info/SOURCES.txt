@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/hanziPhon/__init__.py
+src/hanziPhon/moe.py
+src/hanziPhon.egg-info/PKG-INFO
+src/hanziPhon.egg-info/SOURCES.txt
+src/hanziPhon.egg-info/dependency_links.txt
+src/hanziPhon.egg-info/top_level.txt
+src/hanziPhon/data/moe_char_phon.json
+src/hanziPhon/data/moe_transcriptions.csv
