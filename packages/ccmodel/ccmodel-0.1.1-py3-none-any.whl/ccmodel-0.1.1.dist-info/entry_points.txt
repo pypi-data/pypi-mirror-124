@@ -1,0 +1,3 @@
+[console_scripts]
+ccm=ccmodel.ccm:run_ccm
+
