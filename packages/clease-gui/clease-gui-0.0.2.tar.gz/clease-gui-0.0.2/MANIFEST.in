@@ -1,0 +1,3 @@
+include clease_gui/assets/*.png
+
+prune .tox/
