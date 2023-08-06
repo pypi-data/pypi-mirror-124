@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+setup.py
+hydpkg/__init__.py
+hydpkg/main.py
+hydpkg.egg-info/PKG-INFO
+hydpkg.egg-info/SOURCES.txt
+hydpkg.egg-info/dependency_links.txt
+hydpkg.egg-info/top_level.txt

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: hydpkg
+Version: 2.0.2
+Summary: A small example package
+Home-page: https://github.com/zhoujinjian
+Author: mikezhou_talk
+Author-email: 762357658@qq.com
+License: BSD License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE.txt
+
+**制作第一个Python包**
+
+- 这是我的第一个Python包
+- cat_cpu()实现查看cpu使用情况
+- make_somename(n)实现返回给定形参数量的随机名字
+
+
