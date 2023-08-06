@@ -1,0 +1,3 @@
+[console_scripts]
+minian-docker = minian_docker:main
+
