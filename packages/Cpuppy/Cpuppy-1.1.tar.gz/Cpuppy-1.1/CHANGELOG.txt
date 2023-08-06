@@ -1,0 +1,10 @@
+Change Log
+----------
+
+1.0 (22/10/21)
+--------------
+- First release featuring logical gates and extra functions
+
+1.1 (22/10/21)
+--------------
+- Fixed import problem

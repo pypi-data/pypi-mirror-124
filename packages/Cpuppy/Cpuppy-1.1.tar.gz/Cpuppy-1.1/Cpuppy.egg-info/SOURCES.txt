@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Cpuppy/__init__.py
+Cpuppy.egg-info/PKG-INFO
+Cpuppy.egg-info/SOURCES.txt
+Cpuppy.egg-info/dependency_links.txt
+Cpuppy.egg-info/top_level.txt
