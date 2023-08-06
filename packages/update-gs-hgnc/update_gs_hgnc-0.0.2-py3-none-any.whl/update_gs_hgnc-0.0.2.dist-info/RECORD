@@ -1,0 +1,12 @@
+update_gene_symbols_hgnc/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+update_gene_symbols_hgnc/_nbdev.py,sha256=rzi_3dPqcYO0e_38JrrnpG7poBmTWZS3bpLdeYrEV_o,403
+update_gene_symbols_hgnc/core.py,sha256=raRZ4HJA-Ok_z3kwhUG-4rYWGLkNINBkdDJJmXMbSdg,1417
+update_gs_hgnc/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+update_gs_hgnc/_nbdev.py,sha256=4X_HbjMG16FQO21MJbednYOu8ZwSsJgFLaQMucXxFVk,383
+update_gs_hgnc/core.py,sha256=raRZ4HJA-Ok_z3kwhUG-4rYWGLkNINBkdDJJmXMbSdg,1417
+update_gs_hgnc-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+update_gs_hgnc-0.0.2.dist-info/METADATA,sha256=IMngn5yv8dZHD6ofkPH4GEkpaCVg6VlA_socyHyNmeQ,1157
+update_gs_hgnc-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+update_gs_hgnc-0.0.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+update_gs_hgnc-0.0.2.dist-info/top_level.txt,sha256=K_dN-dKe0gUx_Xd6W-c5TQpY0wfOwVHycIIFvg3BOHI,40
+update_gs_hgnc-0.0.2.dist-info/RECORD,,
