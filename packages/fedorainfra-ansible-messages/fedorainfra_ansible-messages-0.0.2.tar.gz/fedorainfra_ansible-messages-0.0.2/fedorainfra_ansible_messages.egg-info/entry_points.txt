@@ -1,0 +1,5 @@
+[fedora.messages]
+ansible.playbook.complete = fedorainfra_ansible_messages.ansible_messages:AnsiblePlaybookCompleteV1
+ansible.playbook.start = fedorainfra_ansible_messages.ansible_messages:AnsiblePlaybookStartV1
+git.receive = fedorainfra_ansible_messages.distgit_messages:GitReceiveV1
+

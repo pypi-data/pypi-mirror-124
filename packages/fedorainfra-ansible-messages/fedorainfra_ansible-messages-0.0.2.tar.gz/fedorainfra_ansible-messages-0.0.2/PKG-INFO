@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: fedorainfra_ansible-messages
+Version: 0.0.2
+Summary: A schema package for messages sent by fedorainfra_ansible
+Home-page: https://github.com/fedora-infra/fedorainfra-ansible-messages
+Maintainer: Fedora Infrastructure Team
+Maintainer-email: infrastructure@lists.fedoraproject.org
+License: GPLv2+
+Keywords: fedora
+Platform: Fedora
+Platform: GNU/Linux
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+
+# fedorainfra-ansible messages
+
+A schema package for [the fedora infrastructure ansible](https://pagure.io/fedora-infra/ansible). It defines messages for some scripts that are only kept in ansible, as well as messages ansible itself sends (like when a playbook starts)
+
+See the [detailed documentation](https://fedora-messaging.readthedocs.io/en/latest/messages.html) on packaging your schemas.
+
+
