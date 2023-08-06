@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ovirt-imageio
+Version: 2.3.0
+Summary: oVirt imageio
+Home-page: https://gerrit.ovirt.org/ovirt-imageio
+Author: oVirt Authors
+Author-email: devel@ovirt.org
+License: GNU GPLv2+
+Platform: Linux
+License-File: COPYING
+
+UNKNOWN
+

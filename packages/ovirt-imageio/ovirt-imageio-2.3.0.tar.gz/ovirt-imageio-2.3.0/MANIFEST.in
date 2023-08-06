@@ -1,0 +1,14 @@
+include README COPYING MANIFEST
+include Makefile
+include build-aux/release-suffix
+include ovirt-imageio.spec
+include ovirt-imageio
+include *.in
+include *.ini
+
+global-include *.py
+
+recursive-include data *
+recursive-include test *.py *.pem
+
+prune .tox
