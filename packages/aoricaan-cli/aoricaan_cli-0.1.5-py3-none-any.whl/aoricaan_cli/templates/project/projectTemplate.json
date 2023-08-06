@@ -1,0 +1,263 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "",
+  "Parameters": {
+    "Environment": {
+      "Type": "String",
+      "Description": "Environment name."
+    },
+    "NetworkStackParameter": {
+      "Type": "String",
+      "Description": "The stack name for get all network configuration."
+    },
+    "ArtifactsBucket": {
+      "Type": "String"
+    }
+  },
+  "Resources": {
+    "LmdRole": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com"
+              },
+              "Action": "sts:AssumeRole"
+            }
+          ]
+        },
+        "Path": "/",
+        "Policies": [
+          {
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "logs:CreateLogGroup",
+                    "logs:CreateLogStream",
+                    "logs:PutLogEvents"
+                  ],
+                  "Resource": "*"
+                }
+              ]
+            },
+            "PolicyName": "lambdaLogPermission"
+          },
+          {
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "ec2:DescribeNetworkInterfaces",
+                    "ec2:CreateNetworkInterface",
+                    "ec2:DeleteNetworkInterface",
+                    "ec2:DescribeInstances",
+                    "ec2:AttachNetworkInterface"
+                  ],
+                  "Resource": "*"
+                }
+              ]
+            },
+            "PolicyName": "lambdaVpcPermission"
+          }
+        ]
+      }
+    },
+    "ApiRole": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "apigateway.amazonaws.com"
+              },
+              "Action": "sts:AssumeRole"
+            }
+          ]
+        },
+        "Path": "/",
+        "Policies": [
+          {
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": "lambda:InvokeFunction",
+                  "Resource": "*"
+                }
+              ]
+            },
+            "PolicyName": "ApiInvokeLambdaPermission"
+          },
+          {
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "logs:CreateLogGroup",
+                    "logs:CreateLogStream",
+                    "logs:DescribeLogGroups",
+                    "logs:DescribeLogStreams",
+                    "logs:PutLogEvents",
+                    "logs:GetLogEvents",
+                    "logs:FilterLogEvents"
+                  ],
+                  "Resource": "*"
+                }
+              ]
+            },
+            "PolicyName": "ApiLogPermission"
+          }
+        ]
+      }
+    },
+    "Api": {
+      "Type": "AWS::ApiGateway::RestApi",
+      "Properties": {
+        "Body": {
+          "Fn::Transform": {
+            "Name": "AWS::Include",
+            "Parameters": {
+              "Location": {
+                "Fn::Sub": "s3://${ArtifactsBucket}/petcare.json"
+              }
+            }
+          }
+        },
+        "Name": {
+          "Fn::Sub": "${Environment}-petcare"
+        },
+        "Parameters": {
+          "endpointConfigurationTypes": "REGIONAL"
+        }
+      }
+    },
+    "DeployApi": {
+      "Type": "AWS::ApiGateway::Deployment",
+      "Properties": {
+        "RestApiId": {
+          "Ref": "Api"
+        }
+      },
+      "DeletionPolicy": "Retain"
+    },
+    "ApiStage": {
+      "Type": "AWS::ApiGateway::Stage",
+      "Properties": {
+        "RestApiId": {
+          "Ref": "Api"
+        },
+        "DeploymentId": {
+          "Ref": "DeployApi"
+        },
+        "StageName": {
+          "Ref": "Environment"
+        }
+      }
+    },
+    "UsagePlan": {
+      "Type": "AWS::ApiGateway::UsagePlan",
+      "Properties": {
+        "ApiStages": [
+          {
+            "ApiId": {
+              "Ref": "Api"
+            },
+            "Stage": {
+              "Ref": "ApiStage"
+            }
+          }
+        ],
+        "Description": "Custom Petcare usage plan",
+        "Quota": {
+          "Limit": 5000,
+          "Period": "MONTH"
+        },
+        "Throttle": {
+          "BurstLimit": 200,
+          "RateLimit": 100
+        },
+        "UsagePlanName": {
+          "Fn::Sub": "${Environment}-PetPlan"
+        }
+      }
+    },
+    "ApiKey": {
+      "Type": "AWS::ApiGateway::ApiKey",
+      "DependsOn": [
+        "DeployApi",
+        "Api"
+      ],
+      "Properties": {
+        "Name": {
+          "Fn::Sub": "${Environment}-PetApiKey"
+        },
+        "Description": "CloudFormation API Key V1",
+        "Enabled": true,
+        "StageKeys": [
+          {
+            "RestApiId": {
+              "Ref": "Api"
+            },
+            "StageName": {
+              "Ref": "ApiStage"
+            }
+          }
+        ]
+      }
+    },
+    "usagePlanKey": {
+      "Type": "AWS::ApiGateway::UsagePlanKey",
+      "Properties": {
+        "KeyId": {
+          "Ref": "ApiKey"
+        },
+        "KeyType": "API_KEY",
+        "UsagePlanId": {
+          "Ref": "UsagePlan"
+        }
+      }
+    },
+    "LayerPetCore": {
+      "Type": "AWS::Lambda::LayerVersion",
+      "Properties": {
+        "CompatibleRuntimes": [
+          "python3.9"
+        ],
+        "Content": "src/layers/pet_core",
+        "LayerName": {
+          "Fn::Sub": "${Environment}-pet-core"
+        }
+      }
+    },
+    "LayerDatabase": {
+      "Type": "AWS::Lambda::LayerVersion",
+      "Properties": {
+        "CompatibleRuntimes": [
+          "python3.9"
+        ],
+        "Content": {
+            "S3Bucket": {"Ref":  "ArtifactsBucket"},
+            "S3Key": "layers/ssl-psycopg2-3.8.zip"
+        },
+        "LayerName": {
+          "Fn::Sub": "${Environment}-database"
+        }
+      }
+    }
+  }
+}
