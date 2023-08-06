@@ -1,0 +1,15 @@
+pandas
+pathlib
+tqdm
+tables
+h5py
+synthimpute
+pytest
+pytest-dependency
+requests
+
+[dev]
+autopep8
+black
+setuptools
+wheel
