@@ -1,0 +1,24 @@
+function include_to_var($file, $datatype, $data){
+    if($datatype=="YOURVAR") {
+        $YOURVAR = $data;
+    }
+
+    ob_get_clean();
+    ob_start();
+    include $file;
+    return ob_get_clean();
+}
+
+function weboa_icon($name, $width="", $height="") {
+    $__temp = file_get_contents(__DIR__."/../../img/svg_font/".$name.".svg");
+    if(strlen($__temp) < 182) {
+        $pos = strpos($__temp, " width");
+        if ($pos !== false)
+            $__temp = substr_replace($__temp, " oldWidth", $pos, strlen(" width"));
+        $pos = strpos($__temp, " height");
+        if ($pos !== false)
+            $__temp = substr_replace($__temp, " oldHeight", $pos, strlen(" height"));
+    }
+    $__temp = str_replace("svg ","svg width='".$width."' height='".$height."'",$__temp);
+    return $__temp;
+}
