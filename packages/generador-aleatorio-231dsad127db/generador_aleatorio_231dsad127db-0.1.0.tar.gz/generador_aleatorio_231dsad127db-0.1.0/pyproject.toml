@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "generador_aleatorio_231dsad127db"
+packages = [
+    { include = "generador_aleatorio" },
+]
+version = "0.1.0"
+description = "El generador aleatorio de frases mas potente del mundo! No hay otro igual...tiembla Google!"
+authors = ["internetmosquito <alejandrovillamarin@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
