@@ -1,0 +1,3 @@
+[console_scripts]
+subtractor = subtractor.cli:app
+

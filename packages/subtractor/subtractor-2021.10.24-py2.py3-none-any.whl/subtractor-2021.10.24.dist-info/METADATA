@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: subtractor
+Version: 2021.10.24
+Summary: Pixels, pixels, pixels..
+Home-page: https://github.com/sthagen/subtractor
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sthagen/subtractor/issues
+Project-URL: Documentation, https://sthagen.github.io/subtractor
+Project-URL: Source Code, https://github.com/sthagen/subtractor
+Keywords: csv,developer-tools,ini-files,json,lint,toml,xml,yaml,validation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow (>=8.4.0)
+Requires-Dist: pixelmatch (>=0.2.3)
+Requires-Dist: pypng (>=0.0.21)
+Requires-Dist: typer (>=0.4.0)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+
+# subtractor
+
+[![license](https://img.shields.io/github/license/sthagen/subtractor.svg?style=flat)](https://github.com/sthagen/subtractor/blob/default/LICENSE)
+[![version](https://img.shields.io/pypi/v/subtractor.svg?style=flat)](https://pypi.python.org/pypi/subtractor/)
+[![downloads](https://img.shields.io/pypi/dm/subtractor.svg?style=flat)](https://pypi.python.org/pypi/subtractor/)
+[![wheel](https://img.shields.io/pypi/wheel/subtractor.svg?style=flat)](https://pypi.python.org/pypi/subtractor/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/subtractor.svg?style=flat)](https://pypi.python.org/pypi/subtractor/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/subtractor.svg?style=flat)](https://pypi.python.org/pypi/subtractor/)
+
+Pixels, pixels, pixels.
+
+## Status
+
+Experimental.
+
+**Note**: The default branch is `default`.
+
+
