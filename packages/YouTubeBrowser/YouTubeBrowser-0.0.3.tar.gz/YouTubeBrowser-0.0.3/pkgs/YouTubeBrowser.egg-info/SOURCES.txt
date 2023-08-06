@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pkgs/YouTubeBrowser.egg-info/PKG-INFO
+pkgs/YouTubeBrowser.egg-info/SOURCES.txt
+pkgs/YouTubeBrowser.egg-info/dependency_links.txt
+pkgs/YouTubeBrowser.egg-info/top_level.txt
+pkgs/ytplaylist/__init__.py
+pkgs/ytplaylist/core.py
