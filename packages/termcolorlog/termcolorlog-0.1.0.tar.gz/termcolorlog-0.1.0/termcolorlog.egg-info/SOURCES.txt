@@ -1,0 +1,8 @@
+README.md
+setup.py
+termcolorlog/__init__.py
+termcolorlog/termcolorlog.py
+termcolorlog.egg-info/PKG-INFO
+termcolorlog.egg-info/SOURCES.txt
+termcolorlog.egg-info/dependency_links.txt
+termcolorlog.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: termcolorlog
+Version: 0.1.0
+Summary: Colorize your terminal and log all your actions with colors
+Home-page: UNKNOWN
+Author: DrMonocle
+Author-email: <contact.drmonocle@gmail.com>
+License: UNKNOWN
+Description: 
+        # TermColor Log
+Keywords: python,terminal,color,logging,color log,terminal log
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
