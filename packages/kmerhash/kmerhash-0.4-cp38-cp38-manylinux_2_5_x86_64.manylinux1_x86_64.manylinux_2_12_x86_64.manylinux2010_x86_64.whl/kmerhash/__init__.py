@@ -1,0 +1,2 @@
+
+# from kmerhash import *
