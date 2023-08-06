@@ -1,0 +1,13 @@
+randomit/__init__.py,sha256=LPXRefxMdS_x7vfFxSG6_1cbrANYUHJSD7UIqgrTfgo,69
+randomit/parsers/random_images.py,sha256=Af7h4KeB67k7Y8HYK89ymwKe_4tNbW4f9g1hjbgYZ-g,3232
+randomit/randomizer.py,sha256=g7JCmwF2fToGb2cSiKPEKWA4VNOeuCehGs3oH1MEeoY,7618
+randomit/words_storage/addresses_list.txt,sha256=5J5Qgqp9rBOdJqP_4QZmCxwpV6MfDolh3acjuURkknk,27396
+randomit/words_storage/cities_list.txt,sha256=UUWKanQtAgHJkeif7mYxTp7O2y3XweDHVHEYLbewst8,18381
+randomit/words_storage/countries_list.txt,sha256=ptkJcXczp3FZj040e8SHXiOCjxxUmYYlmwpIFn8nUf4,2131
+randomit/words_storage/names_list.txt,sha256=-f0y6wSWrklufOzGOiymb4dsb-cEJI2FG2b_YofA2sE,7668
+randomit/words_storage/random_words.txt,sha256=0MomrtUuYhiermg-rca93sPW0efOKiYUKmxgDA4qpek,195395
+randomit/words_storage/surnames_list.txt,sha256=79twi_YtvR-3eEKmmfhVYMU196VSIUqVPuDsZlxruKM,76749
+randomit-0.2.0.dist-info/LICENSE,sha256=LcN-91vNrBDZhSw2uUAMtbwF2zLNCWBedAvzb2oqBe0,1089
+randomit-0.2.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+randomit-0.2.0.dist-info/METADATA,sha256=xESnvh5a2694kgyb6H5DBeQcqEDZTZO9mHNp5p0Tcxg,6202
+randomit-0.2.0.dist-info/RECORD,,
