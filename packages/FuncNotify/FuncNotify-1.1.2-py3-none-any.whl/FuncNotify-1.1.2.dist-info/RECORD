@@ -1,0 +1,13 @@
+FuncNotify/NotifyDecorators.py,sha256=JMxjUSgrfvE7VJZILcLavLEfVSDxTH0J5xyVhIDcrlM,3479
+FuncNotify/NotifyMethods.py,sha256=Ln-upYhuZIxNd2UtimOG8pSEspiiZLq91T4vuOjOcXM,10624
+FuncNotify/PrintMethod.py,sha256=9oaX6e_cVBqrvB5NH5ejGKHBhWbvJE6gNGGd6ZJgu9w,550
+FuncNotify/SlackMethod.py,sha256=5d7wchXlR-O1sBdeZT98e_HaTQRiJvw7BKa_SD2J6hA,2288
+FuncNotify/TemplateMethod_.py,sha256=ODDKJoL0Jku8Jm9UDknUDKho3O-QHbKZdkewDNf0sGE,4106
+FuncNotify/TextMethod.py,sha256=9Cmv7C3D1lc9in63bPYYavaxmJqQx9nqQetfdpQc6qs,1930
+FuncNotify/__init__.py,sha256=o-8CMcRx6Ot2qD3WVhdWtcXTRnGRlX9sY0bYOyHvthY,852
+FuncNotify-1.1.2.dist-info/LICENSE,sha256=YzXjD2XrpequgFrVUWSR1YW0ujEmT7QTk4ztagcOG_Q,1068
+FuncNotify-1.1.2.dist-info/METADATA,sha256=OapS8WFoGXrKvzi2BnNl130qENcoTvUC_2EZphABVxw,2160
+FuncNotify-1.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+FuncNotify-1.1.2.dist-info/entry_points.txt,sha256=mDtq5fbYTdTDXA-CdbL8J4uUGDm5_js9Ys2qp_8k3q4,53
+FuncNotify-1.1.2.dist-info/top_level.txt,sha256=O6uuKke_rwsdwiG0vsAY5AJq4vSfogvVuk7nk-ifAQ4,11
+FuncNotify-1.1.2.dist-info/RECORD,,
