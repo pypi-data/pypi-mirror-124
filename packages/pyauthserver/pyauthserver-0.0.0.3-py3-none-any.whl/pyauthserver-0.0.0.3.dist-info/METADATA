@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyauthserver
+Version: 0.0.0.3
+Summary: Authentication server implemented in python.
+Home-page: https://gitee.com/peiiii/pyauthserver
+Author: Wang Pei
+Author-email: 1535376447@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: sanic
+Requires-Dist: sanic-cors
+Requires-Dist: sqlalchemy
+Requires-Dist: pymysql
+
+# pyauthserver
+Authentication server implemented in python.
+
