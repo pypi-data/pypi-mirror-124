@@ -1,0 +1,9 @@
+README.md
+setup.py
+./subtitle_api/__init__.py
+./subtitle_api/example.py
+subtitle_api.egg-info/PKG-INFO
+subtitle_api.egg-info/SOURCES.txt
+subtitle_api.egg-info/dependency_links.txt
+subtitle_api.egg-info/requires.txt
+subtitle_api.egg-info/top_level.txt
