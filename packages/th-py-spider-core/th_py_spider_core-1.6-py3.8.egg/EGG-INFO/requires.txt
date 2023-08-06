@@ -1,0 +1,2 @@
+apscheduler
+qcloud-cmq-sdk-py3
