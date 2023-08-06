@@ -1,0 +1,8 @@
+setup.py
+mypypack2/__init__.py
+mypypack2/aboba.py
+mypypack2.egg-info/PKG-INFO
+mypypack2.egg-info/SOURCES.txt
+mypypack2.egg-info/dependency_links.txt
+mypypack2.egg-info/requires.txt
+mypypack2.egg-info/top_level.txt
