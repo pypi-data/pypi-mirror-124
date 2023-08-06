@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: api-client-poc
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Emile
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: requests (>=2.26.0)
+
+UNKNOWN
+
