@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+dbactor/__init__.py
+dbactor/db.py
+dbactor/jjsql.py
+dbactor/pdsqla.py
+dbactor/sqa.py
+dbactor.egg-info/PKG-INFO
+dbactor.egg-info/SOURCES.txt
+dbactor.egg-info/dependency_links.txt
+dbactor.egg-info/requires.txt
+dbactor.egg-info/top_level.txt

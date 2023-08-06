@@ -1,0 +1,16 @@
+psycopg2-binary
+
+[all]
+jinjasql
+sqlalchemy
+pandas
+
+[jinjasql]
+jinjasql
+
+[pandas]
+jinjasql
+pandas
+
+[sqlalchemy]
+sqlalchemy
