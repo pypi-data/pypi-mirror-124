@@ -1,0 +1,13 @@
+{% extends "landing-base.html.j2" %}
+{% block main %}
+  <h1>{{ gettext("Error encountered") }}</h1>
+
+  <p>{{ message }}</p>
+
+  {% if stack %}
+  <p>{{gettext("Stack trace:")}}</p>
+  <pre>
+    {{ stack }}
+  </pre>
+  {% endif %}
+{% endblock main %}

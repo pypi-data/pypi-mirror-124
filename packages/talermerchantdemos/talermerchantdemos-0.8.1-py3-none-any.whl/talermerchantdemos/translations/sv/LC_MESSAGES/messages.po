@@ -1,0 +1,677 @@
+# Swedish translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-06-11 07:56+0200\n"
+"PO-Revision-Date: 2021-02-06 13:43+0000\n"
+"Last-Translator: Stefan Lidstrom <stefan.lidstrom@tanker.se>\n"
+"Language: sv\n"
+"Language-Team: Swedish <http://weblate.taler.net/projects/gnu-taler"
+"/demonstration-pages/sv/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: talermerchantdemos/blog/blog.py:126 talermerchantdemos/landing/landing.py:93
+msgid "Internal error"
+msgstr "Internt fel"
+
+#: talermerchantdemos/blog/blog.py:186
+msgid "Cannot refund unpaid article"
+msgstr "Obetald artikel kan ej återbetalas"
+
+#: talermerchantdemos/blog/blog.py:193
+msgid "Article is not anymore refundable"
+msgstr "Återbetalning är inte längre möjlig"
+
+#: talermerchantdemos/blog/blog.py:229
+msgid "You did not pay for this article (nice try!)"
+msgstr "Du har inte betalt denna artikel (kul försök!)"
+
+#: talermerchantdemos/blog/blog.py:234
+msgid "Item not refundable (anymore)"
+msgstr "Återbetalning kan inte (längre) göras"
+
+#: talermerchantdemos/blog/blog.py:260
+msgid "Internal error: Files for article ({}) not found."
+msgstr "Internt fel: Underlag för artikel ({}) hittades inte."
+
+#: talermerchantdemos/blog/blog.py:267
+msgid "Supplemental file ({}) for article ({}) not found."
+msgstr "Kompletterande information ({}) för artikel ({}) hittades inte."
+
+#: talermerchantdemos/blog/blog.py:345 talermerchantdemos/blog/blog.py:359
+msgid "Direct access forbidden"
+msgstr "Direkt åtkomst förbjuden"
+
+#: talermerchantdemos/blog/blog.py:411
+msgid "Internal server error"
+msgstr "Internt serverfel"
+
+#: talermerchantdemos/blog/blog.py:419
+#: talermerchantdemos/donations/donations.py:284
+#: talermerchantdemos/landing/landing.py:166
+#: talermerchantdemos/survey/survey.py:162
+msgid "Page not found"
+msgstr "Sidan hittades inte"
+
+#: talermerchantdemos/donations/donations.py:125
+msgid "parameter '{}' required"
+msgstr "parameter '{}' krävs"
+
+#: talermerchantdemos/donations/donations.py:242
+msgid "Backend could not create the order"
+msgstr ""
+
+#: talermerchantdemos/httpcommon/__init__.py:40
+#: talermerchantdemos/httpcommon/__init__.py:80
+msgid "Could not establish connection to backend"
+msgstr "Det gick inte att upprätta anslutning till backend"
+
+#: talermerchantdemos/httpcommon/__init__.py:46
+#: talermerchantdemos/httpcommon/__init__.py:85
+msgid "Could not parse response from backend"
+msgstr "Det gick inte att tolka svaret från backend"
+
+#: talermerchantdemos/httpcommon/__init__.py:51
+#: talermerchantdemos/httpcommon/__init__.py:88
+msgid "Backend returned error status"
+msgstr "Backend returnerade felstatus"
+
+#: talermerchantdemos/landing/landing.py:174
+#: talermerchantdemos/survey/survey.py:170
+msgid "HTTP method not allowed for this page"
+msgstr "HTTP-metoden är inte tillåten för den här sidan"
+
+#: talermerchantdemos/templates/blog-article-frame.html.j2:11
+#: talermerchantdemos/templates/blog-article-frame.html.j2:16
+msgid "Taler allows merchants to offer refunds to customers."
+msgstr "Taler tillåter säljare att erbjuda återbetalning till kunder."
+
+#: talermerchantdemos/templates/blog-article-frame.html.j2:12
+msgid ""
+"You can <a href=\"{url}\">request a refund</a> within the first hour "
+"after buying this article."
+msgstr ""
+"Du kan <a href=\"{url}\">begära återbetalning</a> inom den första timmen "
+"efter att du har köpt den här artikeln."
+
+#: talermerchantdemos/templates/blog-article-frame.html.j2:17
+#, fuzzy
+msgid "This article can't be refunded anymore."
+msgstr "Återbetalning kan inte (längre) göras"
+
+#: talermerchantdemos/templates/blog-base.html.j2:9
+msgid "Essay shop"
+msgstr "Artiklar att köpa"
+
+#: talermerchantdemos/templates/blog-base.html.j2:11
+msgid "On this page you can buy articles using an imaginary currency."
+msgstr "På den här sidan kan du köpa artiklar med en imaginär valuta."
+
+#: talermerchantdemos/templates/blog-base.html.j2:12
+msgid ""
+"The articles are chapters from Richard Stallman's book &quot;Free "
+"Software, Free Society&quot;."
+msgstr ""
+"Artiklarna är kapitel från Richard Stallmans bok &quot;Free Software, "
+"Free Society&quot;."
+
+#: talermerchantdemos/templates/blog-base.html.j2:13
+msgid ""
+"The book is <a href=\"{shop}\">published by the FSF</a> and available "
+"gratis at <a href=\"{gnu}\">gnu.org</a>."
+msgstr ""
+"Boken <a href=\"{shop}\">publiceras av FSF</a> och finns gratis på <a "
+"href=\"{gnu}\">gnu.org</a> ."
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:3
+msgid "Confirm refund request for article"
+msgstr "Bekräfta återbetalning av artikeln"
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:7
+msgid "Do you want to get a refund for the article <em>{name}</em>?"
+msgstr "Vill du få en återbetalning för artikeln <em>{name}</em> ?"
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:8
+msgid ""
+"In this demonstration, refunds will be automatically approved by the "
+"merchant."
+msgstr "I denna demo godkänns återbetalningar automatiskt av säljaren."
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:9
+msgid ""
+"After you have obtained a refund, you will not be able to read the "
+"article anymore."
+msgstr ""
+"När du har fått en återbetalning kommer du inte att kunna läsa artikeln "
+"längre."
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:15
+msgid ""
+"You will only be able to receive the refund on the same wallet that you "
+"have used to pay for this article originally."
+msgstr ""
+"Du kommer bara att kunna få återbetalning till samma plånbok som du "
+"tidigare använt för att betala för den här artikeln."
+
+#: talermerchantdemos/templates/blog-confirm-refund.html.j2:21
+msgid "Request refund"
+msgstr "Begär återbetalning"
+
+#: talermerchantdemos/templates/blog-error.html.j2:3
+#: talermerchantdemos/templates/donations-error.html.j2:3
+#: talermerchantdemos/templates/landing-error.html.j2:3
+#: talermerchantdemos/templates/survey-error.html.j2:3
+msgid "Error encountered"
+msgstr "Fel påträffades"
+
+#: talermerchantdemos/templates/blog-error.html.j2:9
+#: talermerchantdemos/templates/donations-error.html.j2:9
+#: talermerchantdemos/templates/survey-error.html.j2:9
+msgid "The backend returned status code {code}."
+msgstr "Backend returnerade statuskoden {code}."
+
+#: talermerchantdemos/templates/blog-error.html.j2:14
+#: talermerchantdemos/templates/donations-error.html.j2:14
+#: talermerchantdemos/templates/survey-error.html.j2:14
+msgid "Backend response:"
+msgstr "Svar från backend:"
+
+#: talermerchantdemos/templates/blog-error.html.j2:19
+#: talermerchantdemos/templates/donations-error.html.j2:19
+#: talermerchantdemos/templates/landing-error.html.j2:8
+#: talermerchantdemos/templates/survey-error.html.j2:19
+msgid "Stack trace:"
+msgstr "Stackspårning:"
+
+#: talermerchantdemos/templates/blog-index.html.j2:3
+msgid "Essay Shop: Free Software, Free Society"
+msgstr "Artikel Shop: Fri programvara, Free Society"
+
+#: talermerchantdemos/templates/blog-index.html.j2:5
+msgid ""
+"This is the latest edition of <cite>Free Software, Free Society: Selected"
+" Essays of Richard M. Stallman.</cite>"
+msgstr ""
+"Detta är den senaste upplagan av <cite>Free Software, Free Society: "
+"Selected Essays of Richard M</cite>"
+
+#: talermerchantdemos/templates/blog-index.html.j2:13
+msgid ""
+"Verbatim copying and distribution of this entire book are permitted "
+"worldwide, without royalty, in any medium, provided this notice is "
+"preserved. Permission is granted to copy and distribute translations of "
+"this book from the original English into another language provided the "
+"translation has been approved by the Free Software Foundation and the "
+"copyright notice and this permission notice are preserved on all copies."
+msgstr ""
+"Muntlig kopiering och distribution av hela denna bok är tillåten över "
+"hela världen, utan royalty, i alla medium, förutsatt att detta meddelande"
+" bifogas. Tillstånd ges att kopiera och distribuera översättningar av "
+"denna bok från originalspråket till ett annat språk förutsatt att "
+"översättningen har godkänts av Free Software Foundation och "
+"upphovsrättsmeddelandet och detta tillståndsmeddelande bevaras i alla "
+"kopior."
+
+#: talermerchantdemos/templates/blog-index.html.j2:18
+msgid "Chapters"
+msgstr "Kapitel"
+
+#: talermerchantdemos/templates/blog-index.html.j2:20
+msgid "Click on an individual chapter to to purchase it with GNU Taler."
+msgstr "Klicka på ett enskilt kapitel för att köpa det med GNU Taler."
+
+#: talermerchantdemos/templates/blog-index.html.j2:21
+#, fuzzy
+msgid ""
+"You can get free, virtual money to buy articles on this page at the <a "
+"href=\"{}\")\">bank</a>."
+msgstr ""
+"Du kan få gratis, virtuella pengar för att köpa artiklar på den här sidan"
+" i <a href=\"{}\")\">banken</a>"
+
+#: talermerchantdemos/templates/blog-index.html.j2:28
+msgid "Pay to read more..."
+msgstr "Betala för att läsa mer ..."
+
+#: talermerchantdemos/templates/blog-index.html.j2:31
+msgid "No articles available in this language."
+msgstr "Inga artiklar är tillgängliga på detta språk."
+
+#: talermerchantdemos/templates/common-base.html.j2:20
+#, fuzzy
+msgid "GNU Taler Demo"
+msgstr "Taler Demo"
+
+#: talermerchantdemos/templates/common-base.html.j2:44
+#: talermerchantdemos/templates/landing-base.html.j2:5
+msgid "Introduction"
+msgstr "Inledning"
+
+#: talermerchantdemos/templates/common-base.html.j2:47
+msgid "Bank"
+msgstr "Bank"
+
+#: talermerchantdemos/templates/common-base.html.j2:50
+msgid "Essay Shop"
+msgstr "Artiklar att köpa"
+
+#: talermerchantdemos/templates/common-base.html.j2:53
+#: talermerchantdemos/templates/donations-base.html.j2:6
+msgid "Donations"
+msgstr "Donationer"
+
+#: talermerchantdemos/templates/common-base.html.j2:56
+msgid "Tipping/Survey"
+msgstr "Enkät/Belöning"
+
+#: talermerchantdemos/templates/common-base.html.j2:85
+msgid ""
+"You can learn more about GNU Taler on our main <a "
+"href=\"{site}\">website</a>."
+msgstr "Du kan lära dig mer om GNU Taler på vår <a href=\"{site}\">webb</a> ."
+
+#: talermerchantdemos/templates/donations-base.html.j2:8
+msgid "This is the donation page."
+msgstr "Det här är donationssidan."
+
+#: talermerchantdemos/templates/donations-base.html.j2:9
+msgid ""
+"Using this page you can make donations in {currency} to Free Software "
+"projects."
+msgstr ""
+"Med hjälp av denna sida kan du göra donationer i {currency} till Free "
+"Software-projekt."
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:5
+msgid "Select your payment method"
+msgstr "Välj din betalningsmetod"
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:9
+msgid "This is an example for a \"checkout\" page of a Web shop."
+msgstr "Detta är ett exempel på \"kassan\" i en webbshop."
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:10
+msgid ""
+"On the previous page, you have created the shopping cart and decided "
+"which product to buy (i.e. which project to donate KUDOS to)."
+msgstr ""
+"På föregående sida har du skapat kundvagnen och bestämt vilken produkt du"
+" ska köpa (dvs. vilket projekt du vill donera KUDOS till)."
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:11
+msgid ""
+"As Taler is not yet universally used, we expect merchants will offer "
+"various payment options."
+msgstr ""
+"Eftersom Taler ännu inte används allmänt, förväntar vi oss att säljaren "
+"kommer att erbjuda olika betalningsalternativ."
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:12
+msgid "To continue with the demo, select the &quot;Taler&quot; payment option."
+msgstr ""
+"För att fortsätta med demon, välj betalningsalternativet "
+"&quot;Taler&quot;."
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:17
+msgid ""
+"Note that you must select Taler here for the demo to continue, as the "
+"other payment options are just placeholders and not really working in the"
+" demonstration."
+msgstr ""
+"Observera att du måste välja Taler här för att demo ska fortsätta, "
+"eftersom de andra betalningsalternativen bara är platshållare och inte "
+"riktigt fungerar i demonstrationen."
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:18
+msgid ""
+"It would be possible to ask the user to make this choice already on the "
+"previous page (with the shopping cart); we just separated the two steps "
+"to keep each step as simple as possible."
+msgstr ""
+"Det skulle vara möjligt att be användaren att göra detta val redan på "
+"föregående sida (kundvagnen); vi separerade bara de två stegen för att "
+"hålla varje steg så enkelt som möjligt."
+
+#: talermerchantdemos/templates/donations-checkout.html.j2:44
+msgid "Confirm selection"
+msgstr "Bekräfta valet"
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:4
+msgid "Donation Receipt"
+msgstr "Gåvokvitto"
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:7
+msgid ""
+"Thank you, <strong>{donor}</strong>, for donating "
+"<strong>{amount}</strong> to <strong>{receiver}</strong>."
+msgstr ""
+"Tack, <strong>{donor}</strong>, för att du donerade "
+"<strong>{amount}</strong> till <strong>{receiver}</strong> ."
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:12
+msgid ""
+"Please keep the order identifier <strong>{id}</strong> as a receipt for "
+"your donation."
+msgstr ""
+"Behåll beställnings ID <strong>{id}</strong> som ett kvitto på din "
+"donation."
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:13
+msgid ""
+"You can show other people that you donated by sharing <a "
+"href=\"{link}\">this link</a> with them."
+msgstr ""
+"Du kan visa andra personer att du donerat genom att dela den <a "
+"href=\"{link}\">här länken</a> med dem."
+
+#: talermerchantdemos/templates/donations-fulfillment.html.j2:19
+msgid "You can always make <a href=\"{link}\">another donation</a>."
+msgstr "Du kan alltid göra en <a href=\"{link}\">ny donation</a> ."
+
+#: talermerchantdemos/templates/donations-index.html.j2:4
+msgid "Donate to Free Software projects"
+msgstr "Donera till projekt för fri programvara"
+
+#: talermerchantdemos/templates/donations-index.html.j2:8
+msgid ""
+"This donations website shows the user experience for donations with GNU "
+"Taler."
+msgstr "Denna donationswebbplats visar användandet av donationer med GNU Taler."
+
+#: talermerchantdemos/templates/donations-index.html.j2:9
+msgid "You can make donations in an toy currency ({currency})"
+msgstr "Du kan göra donationer i en leksaksvaluta ({currency})"
+
+#: talermerchantdemos/templates/donations-index.html.j2:16
+msgid ""
+"Please select a project, the amount (*) of {currency} you wish to donate,"
+" and enter the donor's name that will appear on your receipt:"
+msgstr ""
+"Välj ett projekt, beloppet (*) av {currency} som du vill donera och ange "
+"givarens namn som kommer att visas på ditt kvitto:"
+
+#: talermerchantdemos/templates/donations-index.html.j2:33
+msgid "Anonymous Donor"
+msgstr "Anonym givare"
+
+#: talermerchantdemos/templates/donations-index.html.j2:34
+msgid "Donate!"
+msgstr "Donera!"
+
+#: talermerchantdemos/templates/donations-index.html.j2:39
+msgid ""
+"(*) To make the demo a bit more interesting, the 5 {currency} option is "
+"deliberately implemented with a fault: the merchant will try to make you "
+"donate 6 {currency} instead of the 5 {currency} shown in the form.  But "
+"do not worry, you will be given the opportunity to review the final offer"
+" from the merchant in the Taler wallet.  That way, Taler protects you "
+"from committing to erroneous payments."
+msgstr ""
+"(*) För att göra demonstrationen lite mer intressant implementeras "
+"alternativet 5 {currency} medvetet med ett fel: säljaren försöker få dig "
+"att donera 6 {currency} istället för de 5 {currency} som visas i "
+"formuläret. Men oroa dig inte, du kommer att ges möjlighet att granska "
+"det slutliga erbjudandet från säljaren i Taler-plånboken. På det sättet "
+"skyddar Taler dig från att göra felaktiga betalningar."
+
+#: talermerchantdemos/templates/donations-provider-not-supported.html.j2:4
+msgid "Payment Provider Not Supported"
+msgstr "Betalningsleverantören stöds inte"
+
+#: talermerchantdemos/templates/donations-provider-not-supported.html.j2:7
+msgid "Unfortunately the selected payment provider is not supported in this demo."
+msgstr "Tyvärr stöds inte den valda betalningsleverantören i denna demo."
+
+#: talermerchantdemos/templates/donations-provider-not-supported.html.j2:8
+msgid "Please go back and select &quot;Taler&quot;."
+msgstr "Gå tillbaka och välj &quot;Taler&quot;."
+
+#: talermerchantdemos/templates/landing-base.html.j2:7
+msgid "This is the GNU Taler demo."
+msgstr "Detta är GNU Taler-demon."
+
+#: talermerchantdemos/templates/landing-base.html.j2:8
+msgid "Here you can try out the GNU Taler payment system using a toy currency."
+msgstr "Här kan du prova GNU Taler betalningssystem med en leksaksvaluta."
+
+#: talermerchantdemos/templates/landing-index.html.j2:4
+msgid "Step 1: Install the Taler wallet"
+msgstr "Steg 1: Installera Taler-plånboken"
+
+#: talermerchantdemos/templates/landing-index.html.j2:7
+msgid "Install the wallet from the <a href=\"{link}\">installation page</a>."
+msgstr "Installera plånboken från <a href=\"{link}\">installationssidan</a> ."
+
+#: talermerchantdemos/templates/landing-index.html.j2:8
+msgid "Installation only takes one click."
+msgstr "Installationen tar bara ett klick."
+
+#: talermerchantdemos/templates/landing-index.html.j2:12
+msgid ""
+"After installation, you may be asked to grant the browser-based Taler "
+"wallet additional optional permissions that allow it to improve your user"
+" experience."
+msgstr ""
+"Efter installationen kan du bli ombedd att ge Taler-plånboken ytterligare"
+" behörigheter som förbättrar användarupplevelsen."
+
+#: talermerchantdemos/templates/landing-index.html.j2:13
+msgid ""
+"These permissions will allow the wallet to automatically open if a page "
+"asks for a Taler payment."
+msgstr ""
+"Dessa behörigheter gör att plånboken öppnas automatiskt om en sida ber om"
+" en Taler-betalning."
+
+#: talermerchantdemos/templates/landing-index.html.j2:14
+msgid ""
+"Regardless of the permissions you grant, the wallet will never transmit "
+"information about you or your browsing history to anyone."
+msgstr ""
+"Oavsett vilka behörigheter du beviljar kommer plånboken aldrig att "
+"överföra information om dig eller din webbhistorik till någon."
+
+#: talermerchantdemos/templates/landing-index.html.j2:19
+msgid "Step 2: Withdraw coins"
+msgstr "Steg 2: Ta ut mynt"
+
+#: talermerchantdemos/templates/landing-index.html.j2:22
+msgid "In this demo you are paying with {currency}, an imaginary currency."
+msgstr "I denna demo betalar du med {currency}, en imaginär valuta."
+
+#: talermerchantdemos/templates/landing-index.html.j2:23
+msgid ""
+"To withdraw {currency} coins you must first create an account at our <a "
+"href=\"{bank}\">bank</a>."
+msgstr ""
+"För att ta ut {currency} mynt måste du först skapa ett konto i vår <a "
+"href=\"{bank}\">bank</a> ."
+
+#: talermerchantdemos/templates/landing-index.html.j2:24
+msgid "Signing up only requires you to pick a username and password."
+msgstr "Registrering kräver bara att du väljer ett användarnamn och lösenord."
+
+#: talermerchantdemos/templates/landing-index.html.j2:25
+msgid ""
+"When you create an account at our bank, you will be credited 100 "
+"{currency} for signing up."
+msgstr ""
+"När du skapar ett konto i vår bank får du 100 {currency} för att du "
+"registrerar dig."
+
+#: talermerchantdemos/templates/landing-index.html.j2:26
+msgid ""
+"Afterwards, use the bank's Web interface to authorize the transfer of "
+"{currency} to your wallet."
+msgstr ""
+"Använd sedan bankens webbgränssnitt för att tillåta överföring av "
+"{currency} till din plånbok."
+
+#: talermerchantdemos/templates/landing-index.html.j2:30
+msgid ""
+"Once you have completed this step, you can click on the Taler icon in "
+"your browser to check your balance."
+msgstr ""
+"När du har slutfört detta steg kan du klicka på ikonen Taler i din "
+"webbläsare för att kontrollera ditt saldo."
+
+#: talermerchantdemos/templates/landing-index.html.j2:35
+msgid "Step 3: Pay"
+msgstr "Steg 3: Betala"
+
+#: talermerchantdemos/templates/landing-index.html.j2:38
+msgid "We have two demo merchants where you can spend your coins:"
+msgstr "Vi har två demo-säljare där du kan spendera dina mynt:"
+
+#: talermerchantdemos/templates/landing-index.html.j2:44
+msgid ""
+"At the <a href=\"{blog}\">essay store</a> you can pay in {currency} for "
+"individual chapters of Richard Stallman&#39;s book &quot;Free Software, "
+"Free Society&quot;."
+msgstr ""
+"I <a href=\"{blog}\">butiken</a> kan du betala i {currency} för enskilda "
+"kapitel i Richard Stallmans bok &quot;Free Software, Free Society&quot;."
+
+#: talermerchantdemos/templates/landing-index.html.j2:45
+msgid "The book is also available for free at <a href=\"{fsf}\">the FSF</a>."
+msgstr "Boken finns också gratis på <a href=\"{fsf}\">FSF</a> ."
+
+#: talermerchantdemos/templates/landing-index.html.j2:50
+msgid ""
+"At the project <a href=\"{donations}\">donation website</a> you can show "
+"respect to a software project of your choice by donating {currency} to "
+"them."
+msgstr ""
+"På <a href=\"{donations}\">donations webb</a> kan du tacka valfritt "
+"mjukvaruprojekt genom att donera {currency} till dem."
+
+#: talermerchantdemos/templates/landing-index.html.j2:56
+msgid "Step 4: Check money flow"
+msgstr "Steg 4: Kontrollera penningflödet"
+
+#: talermerchantdemos/templates/landing-index.html.j2:59
+#, fuzzy
+msgid ""
+"You can see the wire transfers from the escrow account of the exchange to"
+" the merchants on the <a href=\"{bank}\">public accounts page</a> of the "
+"bank."
+msgstr ""
+"På bankens <a href=\"{bank}/public-accounts\">offentliga kontosida</a> "
+"kan du se banköverföringarna från växlingskontorets konto till handlarna."
+
+#: talermerchantdemos/templates/landing-index.html.j2:60
+msgid ""
+"Note that only accounts configured to be publicly viewable are shown on "
+"that page."
+msgstr ""
+"Observera att endast konton som är konfigurerade för att kunna visas "
+"offentligt visas på den sidan."
+
+#: talermerchantdemos/templates/landing-index.html.j2:65
+msgid "Step 5: Survey"
+msgstr "Steg 5: Undersökning"
+
+#: talermerchantdemos/templates/landing-index.html.j2:68
+msgid "Websites can give tips to visitors for completing tasks."
+msgstr "Webbplatser kan ge en slant till besökare för att slutföra uppgifter."
+
+#: talermerchantdemos/templates/landing-index.html.j2:69
+msgid ""
+"You can earn some {currency} coins by filling in our <a "
+"href=\"{url}\">survey</a>."
+msgstr ""
+"Du kan tjäna några {currency} mynt genom att fylla i vår <a "
+"href=\"{url}\">undersökning</a> ."
+
+#: talermerchantdemos/templates/landing-index.html.j2:81
+msgid "Step 6: Reach out to us"
+msgstr "Steg 6: Kontakta oss"
+
+#: talermerchantdemos/templates/landing-index.html.j2:84
+msgid "We appreciate feedback about Taler and this demonstrator."
+msgstr "Vi uppskattar feedback om Taler och denna demo."
+
+#: talermerchantdemos/templates/landing-index.html.j2:85
+msgid "Let us know what you think by <a href=\"{link}\">contacting us</a>."
+msgstr "Låt oss veta vad du tycker genom att <a href=\"{link}\">kontakta oss</a> ."
+
+#: talermerchantdemos/templates/survey-base.html.j2:6
+msgid "Survey"
+msgstr "Enkät"
+
+#: talermerchantdemos/templates/survey-base.html.j2:8
+msgid "This page demonstrates how to tip visitors for completing small tasks."
+msgstr "Den här sidan visar hur du kan belöna besökare som utfört små uppgifter."
+
+#: talermerchantdemos/templates/survey-base.html.j2:9
+msgid ""
+"Tipping is a way for offer cash rewards that go directly into a user's "
+"wallet."
+msgstr ""
+"Dricks är ett sätt att erbjuda kontantersättning som går direkt in i en "
+"användares plånbok."
+
+#: talermerchantdemos/templates/survey-index.html.j2:6
+msgid ""
+"Please participate in our survey about payment systems and receive a tip "
+"in return."
+msgstr ""
+"Vänligen delta i vår undersökning om betalningssystem och få en slant i "
+"utbyte."
+
+#: talermerchantdemos/templates/survey-index.html.j2:12
+msgid "Which payment system do you prefer?"
+msgstr "Vilket betalningssystem föredrar du?"
+
+#: talermerchantdemos/templates/survey-index.html.j2:23
+msgid "Submit Survey"
+msgstr "Skicka in enkäten"
+
+#~ msgid ""
+#~ "After installation, you may be asked "
+#~ "to grant the brower-based Taler "
+#~ "wallet additional optional permissions that"
+#~ " allow it to improve your user "
+#~ "experience."
+#~ msgstr ""
+#~ "Efter installationen kan du bli ombedd"
+#~ " att ge Taler-plånboken ytterligare "
+#~ "behörigheter som gör att den kan "
+#~ "förbättra din användarupplevelse."
+
+#~ msgid "English [en]"
+#~ msgstr "Engelska (en)"
+
+#~ msgid "Spanish [es]"
+#~ msgstr "Spanska [es]"
+
+#~ msgid "German [de]"
+#~ msgstr "Tyska [de]"
+
+#~ msgid "Swedish [sv]"
+#~ msgstr "Svenska[sv]"
+
+#~ msgid "GNU Taler Demo: Essay Shop"
+#~ msgstr "GNU Taler Demo: Artiklar att köpa"
+
+#~ msgid "Back-office"
+#~ msgstr "backoffice"
+
+#~ msgid "GNU Taler Demo: Donations"
+#~ msgstr "GNU Taler Demo: Donationer"
+
+#~ msgid "GNU Taler Demo: Introduction"
+#~ msgstr "GNU Taler Demo: Introduktion"
+
+#~ msgid "GNU Taler Demo: Survey"
+#~ msgstr "GNU Taler Demo: Enkät"
+

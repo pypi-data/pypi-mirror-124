@@ -1,0 +1,20 @@
+{% extends "blog-base.html.j2" %}
+{% block main %}
+
+{{ article_contents | safe }}
+
+<hr>
+
+{% if refundable %}
+<p class="graybox">
+  {{
+    gettext("Taler allows merchants to offer refunds to customers.") +
+    gettext('You can <a href="{url}">request a refund</a> within the first hour after buying this article.').format(url=url_for('confirm_refund', lang='en', order_id=order_id))
+  }}
+</p>
+{% else %}
+{{ gettext("Taler allows merchants to offer refunds to customers.") }}
+{{ gettext("This article can't be refunded anymore.") }}
+{% endif %}
+
+{% endblock main %}

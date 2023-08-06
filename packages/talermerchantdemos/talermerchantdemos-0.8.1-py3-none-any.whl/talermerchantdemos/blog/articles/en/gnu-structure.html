@@ -1,0 +1,397 @@
+<!--#include virtual="/server/header.html" -->
+<!-- Parent-Version: 1.91 -->
+<title>The Structure and Administration of the GNU Project
+- GNU Project - Free Software Foundation</title>
+ <!--#include virtual="/gnu/po/gnu-structure.translist" -->
+<!--#include virtual="/server/banner.html" -->
+<h2>The Structure and Administration of the GNU Project</h2>
+
+<address class="byline">by Brandon Invergo and Richard Stallman</address>
+
+<p><strong>Version 1.0.1</strong></p>
+
+<div class="announcement">
+<p>An <a href="/gnu/gnu-structure.org">Org version</a> of this
+document is also available.</p>
+</div>
+
+<hr class="thin" />
+
+<p>The GNU Project develops and maintains the
+<a href="/gnu/about-gnu.html">GNU operating system</a>.  Through this
+work, and other related activities, the GNU Project advocates and
+promotes <a href="/philosophy/philosophy.html">software freedom</a>,
+the core philosophy of the free software movement.</p>
+
+<p>An operating system consists of many software components that
+together make a computer do useful jobs.  It includes code for
+low-level functionality, such as the kernel and drivers, plus system
+libraries, as well as the programs (utilities, tools, applications,
+and games) that users explicitly run.  The GNU operating system
+comprises software across this entire spectrum.  Many of the programs
+are specifically developed and released by the GNU Project; these are
+termed &ldquo;GNU packages&rdquo;.  The GNU system also includes
+components that are <a href="/philosophy/categories.html">free
+programs</a> released by other developers, outside of the GNU
+Project.</p>
+
+<p>Just as the programs composing an operating system must work
+together coherently, the GNU Project must operate coherently.  Most of
+the work consists of developing specific programs, but these programs
+are not independent projects; they must fit well together to
+constitute the GNU system we wish for.  Therefore, over the course of
+decades, we have developed structure for the project.  None of it is
+new, but this is the first time we have documented all of it in one
+place.</p>
+
+<p>The Free Software Foundation provides many kinds of support
+(facilities, services) to the GNU Project.  How that works is outside
+the scope of this document.</p>
+
+<h3 id="software-development-structure">Software Development Structure</h3>
+
+<p>Most of the GNU Project's activity consists of development of
+software packages.  Here is how GNU software development is
+structured.</p>
+
+<h4 id="chief-gnuisance">The Chief GNUisance</h4>
+
+<p>The GNU Project is led by the Chief GNUisance, Richard Stallman,
+the founder of the project.  The Chief GNUisance is responsible in
+principle for all significant decisions, including the overall
+philosophy and standards, and directs the project in carrying them
+out.  The Chief GNUisance dubs software packages as GNU packages, or
+decommission one when necessary, and appoints their maintainers.</p>
+
+<p>In practice, the Chief GNUisance delegates many of these decisions
+and most of the tasks to others, and only rarely intervenes in the
+specifics of development of a GNU package&mdash;and usually that is
+with a suggestion.</p>
+
+<h4 id="assistant-gnuisances">Assistant GNUisances</h4>
+
+<p>This team, residing at
+<a href="mailto:maintainers@gnu.org">maintainers@gnu.org</a>, is
+available as a first point-of-contact for maintainers of GNU Software.
+They keep track of development activity across the entire project,
+ensuring timely releases, checking that the maintainers follow
+GNU's <a href="/philosophy/">philosophy</a> and guidelines, and
+resolving any conflicts that might arise.  They also handle cases when
+a maintainer steps down or when a new volunteer steps up to maintain
+an existing package (in which case they can appoint a new maintainer
+on behalf of the Chief GNUisance).</p>
+
+<p>New members are recruited from existing GNU volunteers when needed.
+However, help is often welcome for specific tasks and interested GNU
+volunteers are welcome to get in touch.</p>
+
+<h4 id="maintainers">Package maintainers</h4>
+
+<p>Each GNU software package has specific maintainers, appointed by
+the Chief GNUisance or the assistant GNUisances.  The package
+maintainers are responsible to the Chief GNUisance, under whose
+authority they are appointed and on rare occasions dismissed, and they
+are in charge of developing their packages on behalf of the GNU
+Project.</p>
+
+<p>The initial appointment of maintainers is done when a program is
+<a href="/help/evaluation.html">accepted as a GNU package</a>.  These
+are normally some of the main developers who agreed to make the
+program a GNU package.</p>
+
+<p>Over time, maintainers occasionally step down.  In some cases, the
+sole maintainer steps down from the role, leaving the package
+unmaintained.  The Chief GNUisance usually delegates finding and
+appointing new maintainers to the assistant GNUisances.
+<a href="/server/takeaction.html#unmaint">See the list of currently
+unmaintained packages</a>.  We ask the old maintainers to recommend
+new maintainers, and we consider those suggestions appreciatively.</p>
+
+<p>The maintainers of a package often recruit others to contribute to
+its development, and delegate some technical decisions to them.
+However, the maintainers retain authority over the whole of the
+package so they can carry out their responsibility to the GNU
+Project.</p>
+
+<p>A maintainer's primary responsibility is to do a good, practical
+job of developing and maintaining the program in accord with the GNU
+Project's philosophy, mission, policies, and general decisions.
+Maintainers must also ensure that their packages work well with the
+rest of the GNU System.  For more information,
+<a href="/help/evaluation.html#whatmeans">read about maintainers'
+basic duties and what it means for a program to be a GNU
+package</a>.</p>
+
+<p>In general, maintainers determine the technical directions that the
+software packages take and thus they make the day-to-day decisions for
+the packages.  Likewise, in making their packages work well together,
+maintainers can work directly with each other, and we encourage them
+to do so.  Rarely, the Chief GNUisance will make a decision that
+directly affects one or more GNU packages.  The maintainers of the
+affected packages have the responsibility to execute the decision on
+behalf of the GNU Project.</p>
+
+<p>More complete information about the specific responsibilities of
+maintainers and technical guidance for maintaining GNU software can be
+found in the <a href="/prep/maintain">Information for Maintainers of
+GNU Software</a> and <a href="/prep/standards">GNU Coding
+Standards</a> documents.</p>
+
+<p>We do not require that GNU package maintainers agree with our
+philosophy, or approve of our policies&mdash;only to follow them.
+Maintainers and contributors must carry out our philosophy, policies
+and occasional specific decisions in their work on GNU software.</p>
+
+<h3 id="package-development-support">Support for GNU Package Development</h3>
+
+<p>Several teams provide various kinds of support to the development
+and management of GNU packages.  Most of these teams have a
+coordinator to direct them; in most cases, the coordinator reports
+directly to the Chief GNUisance unless otherwise stated.  When in
+doubt, you can contact the <a href="mailto:gvc@gnu.org">GNU Volunteer
+Coordinators</a> for advice.</p>
+
+<h4 id="gnueval">Software Evaluation</h4>
+
+<p>The software evaluation team at
+<a href="mailto:gnueval@gnu.org">gnueval@gnu.org</a> evaluates
+software packages proposed as GNU packages.  This involves a careful
+assessment of the software's functionality as well as pertinent issues
+related to software freedom and how the program fits with the GNU
+system.</p>
+
+<p>New members are recruited from existing GNU volunteers when needed.
+Prior experience with non-GNU software evaluation on Savannah is
+preferable.</p>
+
+<h4 id="gnueval-security">Software Security Evaluation</h4>
+
+<p>The software security evaluation team at
+<a href="mailto:gnueval-security@gnu.org">gnueval-security@gnu.org</a>
+works with the software evaluation team.  They determine whether there
+are any security concerns in software that has been offered to
+GNU.</p>
+
+<p>New members are recruited from existing GNU volunteers when
+needed.</p>
+
+<h4 id="security">Security Team</h4>
+
+<p>The <a href="mailto:security@gnu.org">Security Team</a> helps to
+resolve security bugs in a timely fashion.  If the maintainer of a GNU
+package fails to respond to a report of a security flaw, the reporter
+can escalate the issue to the security team.  If it decides the issue
+is urgent, it can develop a patch and publish a fixed release of the
+package.  Maintainers can also ask the security team for advice in
+securing their packages.</p>
+
+<p>New members are recruited from existing GNU volunteers when
+needed.</p>
+
+<h4 id="platform-testers">Platform Testers</h4>
+
+<p>Volunteers behind the
+<a href="//lists.gnu.org/mailman/listinfo/platform-testers">platform-testers@gnu.org</a>
+mailing list test GNU software pre-releases on different hardware
+platforms to ensure that it functions correctly.</p>
+
+<p>New volunteers are welcome.</p>
+
+<h4 id="mentors">Mentors</h4>
+
+<p>The GNU Mentors
+(<a href="mailto:mentors@gnu.org">mentors@gnu.org</a>) volunteer to
+provide guidance for new software maintainers.</p>
+
+<p>We ask long-time GNU maintainers to volunteer.</p>
+
+<h4 id="proofreaders">Proofreaders</h4>
+
+<p>The proofreaders list is available to help GNU package maintainers
+by proofreading English text.  To request proofreading, write to
+<a href="mailto:proofreaders@gnu.org">proofreaders@gnu.org</a>.</p>
+
+<h3 id="other-teams-services">Other Teams and Services</h3>
+
+<p>Several other teams facilitate or manage the day-to-day operations
+within the GNU Project, or advance specific goals of the project.</p>
+
+<h4 id="gac">GNU Advisory Committee</h4>
+
+<p>The <a href="/contact/gnu-advisory.html">GNU Advisory Committee</a>
+(GAC) exists to provide advice to the Chief GNUisance.  Members of the
+Advisory Committee are appointed by the Chief GNUisance.  The Advisory
+Committee generally monitors the health of the GNU Project on behalf
+of the Chief GNUisance and they raise potential issues for
+discussion.</p>
+
+<h4 id="savannah-hackers">Savannah Hackers</h4>
+
+<p><a href="//savannah.gnu.org">Savannah</a> is the GNU Project's
+software forge.  It hosts code repositories, bug reporting tools,
+mailing list interfaces and more.  Savannah is administered by the
+<a href="mailto:savannah-hackers-public@gnu.org">Savannah Hackers</a>.
+They keep the forge software up and running.  In addition to ensuring
+that GNU software is properly hosted in the service, the Savannah
+Hackers also evaluate non-GNU software that applies to be hosted on
+the forge.</p>
+
+<p>New volunteers are welcome.</p>
+
+<h4 id="webmasters">Webmasters</h4>
+
+<p>The <a href="/people/webmeisters.html">GNU Webmasters</a> maintain
+and update the web pages at <a href="/">https://www.gnu.org</a>.</p>
+
+<p>Webmasters also answer various kinds of questions sent by the
+public, regarding topics such as free software and licenses (when the
+answer is clear).  They do initial filtering of requests to evaluate a
+distro, evaluate people who would like to become webmasters, and
+update the list of mirrors.</p>
+
+<p>The GNU Webmaster Group is led by
+the&nbsp;<a href="mailto:chief-webmaster@gnu.org">Chief Webmaster</a>
+who reports to&nbsp; the Chief GNUisance.  New volunteers are welcome.
+See <a href="/server/standards/webmaster-quiz.html">the Volunteer
+Webmaster Quiz</a>.</p>
+
+<h4 id="web-translators">Web Translators</h4>
+
+<p>Each language has a translation team, directed by a team
+coordinator.
+See <a href="/server/standards/README.translations.html">the Guide to
+Translating Web Pages on www.gnu.org</a> for more information.  The
+team coordinators report to
+the&nbsp;<a href="mailto:web-translators@gnu.org">GNU Translations
+Manager</a>, who&nbsp;reports to the Chief GNUisance.</p>
+
+<h4 id="list-helpers">List Helpers</h4>
+
+<p><a href="//savannah.gnu.org/maintenance/ListHelperAntiSpam/">Listhelper</a>
+is a system for semi-automatically managing spam sent to GNU mailing
+lists.  Most spam is caught by spam filters, but human moderators are
+also available to manage the queue of messages predicted not to be
+spam.</p>
+
+<p>New members are recruited from existing GNU volunteers when
+needed.</p>
+
+<h4 id="gvc">GNU Volunteer Coordinators</h4>
+
+<p>The GNU Volunteer Coordinators
+(<a href="mailto:gvc@gnu.org">gvc@gnu.org</a>) help to guide new
+volunteers towards suitable jobs within the GNU Project</p>
+
+<p>New GVC volunteers are welcome, but prior experience volunteering
+within GNU (and thus broad knowledge of the GNU Project) is highly
+recommended.</p>
+
+<h4 id="education">GNU Education Team</h4>
+
+<p>The <a href="/education/">GNU Education Team</a> promotes the
+adoption of the GNU Operating System in educational environments.  It
+also evaluates schools and speaks to school administrators.</p>
+
+<p>New volunteers are welcome.</p>
+
+<h4 id="standards">GNU Standards Group</h4>
+
+<p>The GNU Standards Group evaluates proposals to update the GNU
+coding standards.  Anyone can submit a proposal via the
+<a href="//lists.gnu.org/mailman/listinfo/bug-standards">bug-standards</a>
+mailing list.  The group then discusses and evaluates the proposal to
+work out all the details and implications.  They then present the
+proposal and a recommendation to the Chief GNUisance, who makes the
+decision.  The group is also responsible for installing changes to the
+document as well as updating the document on the web.</p>
+
+<p>New volunteers are recruited from existing GNU volunteers when
+needed.</p>
+
+<h3 id="correcting-errors">Correcting Errors</h3>
+
+<p>If we find errors or omissions in this description of the existing
+structure, which are possible since it previously had no centralized
+documentation, we will update this document, both
+<a href="/gnu/gnu-structure.org">the Org version</a> and
+<a href="/gnu/gnu-structure.html">the HTML version</a>, advancing the
+third version number.  We will keep older versions available
+in <a href="/gnu/old-gnu-structure/">a subdirectory</a>.</p>
+
+<h3 id="future-changes">Future Changes in Administrative Structure</h3>
+
+<p>Changes in the GNU Project administrative structure are decided on
+by the Chief GNUisance after starting consultations with GNU
+contributors, usually on appropriate GNU Project discussion lists.
+The aim of these consultations is to consider possible alternatives
+and anticipate what good and bad effects they would have, so as to
+make a wise decision.</p>
+
+<p>To report changes that are adopted, we will update this document, 
+both the Org version and the HTML version (see previous section), 
+advancing the first and/or second version number.</p>
+
+</div><!-- for id="content", starts in the include above -->
+<!--#include virtual="/server/footer.html" -->
+<div id="footer">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and submitting translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and submitting translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2020 Brandon Invergo and Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!--#include virtual="/server/bottom-notes.html" -->
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2020/10/26 13:07:59 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

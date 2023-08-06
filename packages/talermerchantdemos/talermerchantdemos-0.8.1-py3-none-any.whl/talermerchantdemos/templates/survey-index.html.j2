@@ -1,0 +1,26 @@
+{% extends "survey-base.html.j2" %}
+{% block main %}
+  <div>
+    <p>
+    {{
+    gettext("Please participate in our survey about payment systems and receive a tip in return.")
+    }}
+    </p>
+  </div>
+  <div>
+    <form action="{{ "/" + getlang() + "/submit-survey" }}" method="post" class="pure-form pure-form-stacked">
+      <legend>{{ gettext("Which payment system do you prefer?") }}</legend>
+      <fieldset>
+      <label for="option-taler">
+        <input id="option-taler" type="radio" name="paypref" value="taler" checked="checked" />
+        Taler
+      </label>
+      <label for="option-visa">
+        <input id="option-visa" type="radio" name="paypref" value="visa" />
+        Visa
+      </label>
+      </fieldset>
+      <input type="submit" value="{{ gettext("Submit Survey")}}" class="pure-button pure-button-primary" />
+    </form>
+  </div>
+{% endblock %}

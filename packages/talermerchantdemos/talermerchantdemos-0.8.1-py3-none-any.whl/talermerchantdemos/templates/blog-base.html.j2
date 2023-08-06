@@ -1,0 +1,17 @@
+{% extends "common-base.html.j2" %}
+
+{% block head %}
+  <link rel="stylesheet" type="text/css" href="{{ static('blog.css') }}" />
+{% endblock head %}
+
+{% block header_content %}
+
+<h1><span class="it"><a href="{{ env('TALER_ENV_URL_MERCHANT_BLOG') }}">{{ gettext("Essay shop") }}</a></span></h1>
+<p>{{
+  gettext("On this page you can buy articles using an imaginary currency.") + "<br>" +
+  gettext("The articles are chapters from Richard Stallman's book &quot;Free Software, Free Society&quot;.") + "<br>" +
+  gettext('The book is <a href="{shop}">published by the FSF</a> and available gratis at <a href="{gnu}">gnu.org</a>.').format(shop="https://shop.fsf.org/product/free-software-free-society-2", gnu="https://www.gnu.org")
+  }}
+</p>
+
+{% endblock %}

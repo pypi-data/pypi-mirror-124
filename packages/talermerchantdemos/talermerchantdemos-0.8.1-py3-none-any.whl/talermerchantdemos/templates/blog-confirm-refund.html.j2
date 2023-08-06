@@ -1,0 +1,23 @@
+{% extends "blog-base.html.j2" %}
+{% block main %}
+  <h1>{{ gettext("Confirm refund request for article") }}</h1>
+
+  <p>
+    {{
+       gettext("Do you want to get a refund for the article <em>{name}</em>?").format(name=article_name) + "<br/>" +
+       gettext("In this demonstration, refunds will be automatically approved by the merchant.") + "<br/>" +
+       gettext("After you have obtained a refund, you will not be able to read the article anymore.")
+    }}
+  </p>
+
+  <p>
+    {{
+      gettext ("You will only be able to receive the refund on the same wallet that you have used to pay for this article originally.")
+    }} 
+  </p>
+
+  <form action="{{ url_for('refund', order_id=order_id) }}" method="POST">
+    <input type="text" name="article_name" value={{ article_name}} hidden>
+    <input type="submit" value="{{ gettext('Request refund') }}">
+  </form>
+{% endblock main %}

@@ -1,0 +1,24 @@
+{% extends "blog-base.html.j2" %}
+{% block main %}
+  <h1>{{ gettext("Error encountered") }}</h1>
+
+  <p>{{ message }}</p>
+
+  {% if status_code %}
+  <p>
+    {{ gettext ("The backend returned status code {code}.").format(code=status_code) }}.
+  </p>
+  {% endif %}
+
+  {% if json %}
+  <p>{{gettext("Backend response:")}}</p>
+  <pre>{{ json }}</pre>
+  {% endif %}
+
+  {% if stack %}
+  <p>{{gettext("Stack trace:")}}</p>
+  <pre>
+    {{ stack }}
+  </pre>
+  {% endif %}
+{% endblock main %}

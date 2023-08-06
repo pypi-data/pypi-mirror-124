@@ -1,0 +1,89 @@
+{% extends "landing-base.html.j2" %}
+{% block main %}
+    <article>
+      <h2>{{ gettext("Step 1: Install the Taler wallet") }}</h2>
+      <p>
+       {{
+           gettext('Install the wallet from the <a href=\"{link}\">installation page</a>.').format(link="https://wallet.taler.net/") + "<br>" +
+           gettext('Installation only takes one click.')
+       }}
+      </p>
+      <p class="graybox">
+        {{ gettext('After installation, you may be asked to grant the browser-based Taler wallet additional optional permissions that allow it to improve your user experience.') }} <br>
+        {{ gettext('These permissions will allow the wallet to automatically open if a page asks for a Taler payment.') }} <br>
+        {{ gettext('Regardless of the permissions you grant, the wallet will never transmit information about you or your browsing history to anyone.') }}
+      </p>
+    </article>
+
+    <article>
+      <h2>{{ gettext("Step 2: Withdraw coins") }}</h2>
+      <p>
+        {{
+          gettext('In this demo you are paying with {currency}, an imaginary currency.').format(currency=merchant_currency) + "<br>" +
+          gettext('To withdraw {currency} coins you must first create an account at our <a href="{bank}">bank</a>.').format(currency=merchant_currency,bank=bank_register_url) + "<br>" +
+          gettext('Signing up only requires you to pick a username and password.') + "<br>" +
+          gettext('When you create an account at our bank, you will be credited 100 {currency} for signing up.').format(currency=merchant_currency) + "<br>" +
+          gettext("Afterwards, use the bank's Web interface to authorize the transfer of {currency} to your wallet.").format(currency=merchant_currency)
+        }}
+      </p>
+      <p class="graybox">
+        {{ gettext('Once you have completed this step, you can click on the Taler icon in your browser to check your balance.') }}
+      </p>
+    </article>
+
+    <article>
+      <h2>{{ gettext("Step 3: Pay") }}</h2>
+        <p>
+        {{
+           gettext("We have two demo merchants where you can spend your coins:")
+        }}
+        </p>
+        <ul>
+          <li>
+            {{
+              gettext('At the <a href="{blog}">essay store</a> you can pay in {currency} for individual chapters of Richard Stallman&#39;s book &quot;Free Software, Free Society&quot;.').format(blog=merchant_blog_url,currency=merchant_currency) + "<br>" +
+              gettext('The book is also available for free at <a href="{fsf}">the FSF</a>.').format(fsf="http://www.fsf.org/")
+            }}
+          </li>
+          <li>
+            {{
+              gettext('At the project <a href="{donations}">donation website</a> you can show respect to a software project of your choice by donating {currency} to them.').format(donations=merchant_donations_url,currency=merchant_currency)
+            }}
+          </li>
+        </ul>
+    </article>
+    <article>
+      <h2>{{ gettext("Step 4: Check money flow") }}</h2>
+        <p>
+        {{
+          gettext('You can see the wire transfers from the escrow account of the exchange to the merchants on the <a href="{bank}">public accounts page</a> of the bank.').format(bank=bank_public_accounts_url) + "<br>" +
+          gettext('Note that only accounts configured to be publicly viewable are shown on that page.')
+        }}
+        </p>
+      </article>
+    <article>
+      <h2>{{ gettext("Step 5: Survey") }}</h2>
+      <p>
+         {{
+           gettext("Websites can give tips to visitors for completing tasks.") + "<br>" +
+           gettext('You can earn some {currency} coins by filling in our <a href="{url}">survey</a>.').format(url=merchant_survey_url,currency=merchant_currency)
+         }}
+      </p>
+    </article>
+    <!-- article>
+      <h2>Step 6: Are you a merchant? Taler has a build-in back-office!</h2>
+      <p>
+         If you are a merchant, you can check the <a href="{{ backoffice_url }}">back-office</a>
+         website to see how your Taler transactions got payed back by bank wire transfers.
+      </p>
+    </article -->
+    <article>
+      <h2>{{ gettext("Step 6: Reach out to us") }}</h2>
+      <p>
+      {{
+         gettext("We appreciate feedback about Taler and this demonstrator.") + "<br>" +
+         gettext('Let us know what you think by <a href="{link}">contacting us</a>.').format(link="mailto:demo-feedback@taler.net")
+      }}
+      </p>
+    </article>
+{% endblock %}

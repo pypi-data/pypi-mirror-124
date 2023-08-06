@@ -1,0 +1,3 @@
+[console_scripts]
+taler-merchant-demos=talermerchantdemos.cli:run
+

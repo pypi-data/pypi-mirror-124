@@ -1,0 +1,44 @@
+{% extends "donations-base.html.j2" %}
+
+{% block main %}
+<h2>{{ gettext("Donate to Free Software projects") }}</h2>
+
+<p>
+{{
+  gettext("This donations website shows the user experience for donations with GNU Taler.") + "<br>" +
+  gettext("You can make donations in an toy currency ({currency})").format(currency=merchant_currency)
+}}
+</p>
+
+<div>
+  <p>
+  {{
+  gettext("Please select a project, the amount (*) of {currency} you wish to donate, and enter the donor's name that will appear on your receipt:").format(currency=merchant_currency)
+  }}
+  </p>
+
+  <form name="tform" action="{{ url_for('checkout',lang=getlang()) }}" method="GET" class="pure-form">
+    <div class="participation" id="fake-shop">
+      <select name="donation_receiver">
+        <option value="GNUnet">GNUnet</option>
+        <option value="Taler">GNU Taler</option>
+        <option value="Tor">Tor</option>
+      </select>
+      <select id="taler-donation" name="donation_amount">
+        <option value="{{ merchant_currency }}:0.1">0.1 {{ merchant_currency }}</option>
+        <option value="{{ merchant_currency }}:1">1 {{ merchant_currency }}</option>
+        <option value="{{ merchant_currency }}:6">5 {{ merchant_currency }}</option>
+        <option value="{{ merchant_currency }}:10">10 {{ merchant_currency }}</option>
+      </select>
+      <input type="text" name="donation_donor" value="{{gettext("Anonymous Donor")}}" />
+      <input type="submit" class="pure-button pure-button-primary" value="{{gettext("Donate!")}}" />
+    </div>
+  </form>
+  <p class="graybox">
+    {{
+    gettext("(*) To make the demo a bit more interesting, the 5 {currency} option is deliberately implemented with a fault: the merchant will try to make you donate 6 {currency} instead of the 5 {currency} shown in the form.  But do not worry, you will be given the opportunity to review the final offer from the merchant in the Taler wallet.  That way, Taler protects you from committing to erroneous payments.").format(currency=merchant_currency)
+    }}
+  </p>
+</div>
+
+{% endblock %}
