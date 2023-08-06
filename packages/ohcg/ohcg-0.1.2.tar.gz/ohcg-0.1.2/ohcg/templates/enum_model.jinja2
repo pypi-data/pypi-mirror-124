@@ -1,0 +1,9 @@
+class {{ model.name }}({{ model.enum_type }}, Enum):
+    {%- if model.description %}
+    """
+    {{ model.description }}
+    """
+    {% endif -%}
+    {% for (label, value) in model.enum_members -%}
+    {{ label }} = {{ value|safe }}
+    {% endfor %}

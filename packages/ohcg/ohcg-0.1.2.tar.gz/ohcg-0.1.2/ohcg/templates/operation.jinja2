@@ -1,0 +1,54 @@
+    async def {{ operation.name }}(
+        self,
+    {%- if operation.required_parameters %}
+        {%- for parameter in operation.required_parameters %}
+        {{ parameter.name.snake_case }}{% if parameter.type %}: {{ parameter.type }}{% endif %},
+        {%- endfor %}
+    {%- endif %}
+    {%- if operation.request_data %}
+        body: {{ operation.request_data.type }}{% if not operation.request_data.required %} = None{% endif %},
+    {%- endif %}
+    {%- if operation.optional_parameters %}
+        *,
+        {%- for parameter in operation.optional_parameters %}
+        {{ parameter.name.snake_case }}{% if parameter.type %}: {{ parameter.type }}{% endif %} = {% if parameter.default %}{{ parameter.default|safe }}{% else %}None{% endif %},
+        {%- endfor %}
+    {%- endif %}
+    ) {%- if operation.response.type %} -> {{ operation.response.type }}{%- endif -%}:
+        {%- if operation.summary or operation.description %}
+        """
+        {%- if operation.summary %}
+        {{ operation.summary }}
+        {%- endif %}
+        {%- if operation.description %}
+        {{ operation.description }}
+        {%- endif %}
+        """
+        {%- endif %}
+        return await self.make_request(
+            "{{ operation.method }}",
+            "{{ operation.path }}"{% if operation.path_parameters %}.format({% for p in operation.path_parameters %}{{ p.name }}={{ p.name.snake_case }}{% endfor %}){% endif %},
+            {%- if operation.request_data.content_type == "application/json" %}
+            json=body.dict(exclude_unset=True),
+            {%- endif %}
+            {%- if operation.request_data.content_type == "application/x-www-form-urlencoded" %}
+            data=body.dict(exclude_unset=True),
+            {%- endif %}
+            {%- if operation.response.type %}
+            response_model={{ operation.response.type }},
+            {%- endif %}
+            {%- if operation.query_parameters %}
+            params={{ '{' }}
+                {%- for param in operation.query_parameters %}
+                "{{ param.name }}": {{ param.name.snake_case }},
+                {%- endfor %}
+            {{ '}' }},
+            {%- endif %}
+            {%- if operation.errors %}
+            errors_models={{ '{' }}
+                {%- for error, error_type in operation.errors.items() %}
+                {{ error }}: {{ error_type }}
+                {%- endfor %}
+            {{ '}' }},
+            {%- endif %}
+        )

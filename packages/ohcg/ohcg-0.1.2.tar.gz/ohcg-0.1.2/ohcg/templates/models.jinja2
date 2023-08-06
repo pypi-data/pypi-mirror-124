@@ -1,0 +1,22 @@
+from __future__ import annotations
+
+from enum import Enum
+from datetime import datetime
+from decimal import Decimal
+import typing
+
+import pydantic
+from pydantic import *
+
+from .base_model import _BaseModel, _BaseListModel, _Error
+
+{% for model in result.models if model.is_enum %}
+{% include "enum_model.jinja2" %}
+{% endfor -%}
+{% for model in result.models if not model.is_enum %}
+{% include "model.jinja2" %}
+{% endfor -%}
+{% for model in result.models if model.need_update_forward_refs %}
+{{ model.name }}.update_forward_refs()
+{%- endfor %}
+

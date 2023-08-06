@@ -1,0 +1,60 @@
+from json import JSONDecodeError
+from typing import Type
+
+import httpx
+
+from .models import *
+
+
+class Client:
+    """
+    {{ result.info.title }}
+    version: {{ result.info.version }}
+
+    {%- if result.info.description %}
+    {{ result.info.terms_of_service }}
+    {% endif %}
+    {%- if result.info.description %}
+    {{ result.info.terms_of_service }}
+    {% endif %}
+    """
+
+    def __init__(self, base_url: str = {% if result.info.base_url %}{{ result.info.base_url }}{% else %}None{% endif %}, **kwargs):
+        self.httpx_client = httpx.AsyncClient(base_url=base_url, **kwargs)
+
+    async def make_request(
+            self,
+            method: str,
+            path: str,
+            *,
+            response_model: Type = None,
+            errors_models: dict[int, Type[BaseModel]] = None,
+            **kwargs
+    ):
+        async with self.httpx_client as client:
+            response = await client.request(method, path, **kwargs)
+
+        if response.is_error:
+            if errors_models is None:
+                errors_models = {}
+
+            error_model = errors_models.get(response.status_code)
+
+            if bool(error_model):
+                try:
+                    raise parse_obj_as(error_model, response.json())
+                except (JSONDecodeError, pydantic.ValidationError):
+                    response.raise_for_status()
+        else:
+            # Raise error if request is not succeeded before trying to parse response
+            response.raise_for_status()
+
+        response_json = response.json()
+
+        if bool(response_model):
+            return pydantic.parse_obj_as(response_model, response_json)
+
+        return response_json
+{% for operation in result.operations %}
+{% include "operation.jinja2" %}
+{% endfor %}
