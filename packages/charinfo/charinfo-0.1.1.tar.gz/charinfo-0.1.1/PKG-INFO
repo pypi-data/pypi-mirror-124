@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: charinfo
+Version: 0.1.1
+Summary: A command line tool to view detailed information about a character
+Home-page: UNKNOWN
+Author: Wasi Master
+Author-email: arianmollik323@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/wasi-master/charinfo/issues
+Project-URL: Source, https://github.com/wasi-master/charinfo
+Project-URL: Say Thanks, https://saythanks.io/to/arianmollik323@gmail.com
+Keywords: charinfo,cli,char,character,characters,character information,character-information,charinfo-cli,charinfo cli,character-info,character info,character-info-cli,character info cli
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: Topic :: Terminals
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# charinfo
+ A command line tool to view detailed information about a character
+
+## Screenshots
+
+Hover over them to know their description
+
+![Directly passing the character](https://raw.githubusercontent.com/wasi-master/charinfo/main/images/usage_direct.png "Directly passing the character")
+![Directly passing multiple characters](https://raw.githubusercontent.com/wasi-master/charinfo/main/images/usage_multiple.png "Directly passing multiple characters")
+![Passing the name of the character](https://raw.githubusercontent.com/wasi-master/charinfo/main/images/usage_name.png "Passing the name of the character")
+![Passing the name of multiple characters](https://raw.githubusercontent.com/wasi-master/charinfo/main/images/usage_name_multiple.png "Passing the name of multiple characters")
+![Passing the unicode codepoint of the character](https://raw.githubusercontent.com/wasi-master/charinfo/main/images/usage_unicode.png "Passing the unicode codepoint of the character")
+![Passing the decimal representation of the unicode codepoint of the character](https://raw.githubusercontent.com/wasi-master/charinfo/main/images/usage_decimal.png "Passing the decimal representation of the unicode codepoint of the character")
+
+
