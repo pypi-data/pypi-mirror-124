@@ -1,0 +1,192 @@
+{
+    "articles_data": {
+        "number_of_shards": 5,
+        "number_of_replicas": 1,
+        "sort.field": "publication_date",
+        "sort.order": "desc",
+        "sort.missing": "_last",
+        "mappings": {
+            "properties": {
+                "DOI": {
+                    "type": "raw"
+                },
+                "URLs": {
+                    "type": "text",
+                    "fields": {
+                        "raw": {
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "custom_id": {
+                    "type": "raw"
+                },
+                "content": {
+                    "type": "text",
+                    "index_options": "offsets",
+                    "term_vector": "with_positions_offsets",
+                    "analyzer": "classic",
+                    "search_quote_analyzer": "exact"
+                },
+                "authors": {
+                    "type": "text",
+                    "fields": {
+                        "raw": {
+                            "type": "keyword",
+                            "normalizer": "global"
+                        }
+                    }
+                },
+                "keywords": {
+                    "type": "text",
+                    "fields": {
+                        "raw": {
+                            "type": "keyword",
+                            "normalizer": "global"
+                        }
+                    }
+                },
+                "title": {
+                    "type": "text",
+                    "copy_to": "content"
+                },
+                "title_clean": {
+                    "type": "keyword"
+                },
+                "abstract": {
+                    "type": "text",
+                    "copy_to": "content",
+                    "norms": false
+                },
+                "abstract_clean" : {
+                    "type" : "keyword"
+                },
+                "fulltext": {
+                    "type": "text",
+                    "index": false,
+                    "norms": false
+                },
+                "publication_date": {
+                    "type": "date",
+                    "ignore_malformed": true,
+                    "format": "yyyy-mm-dd"
+                },
+                "language": {
+                    "type": "keyword"
+                },
+                "subject": {
+                    "type": "raw"
+                },
+                "type": {
+                    "type": "raw",
+                    "index": false
+                },
+                "citation": {
+                    "type": "integer",
+                    "index": false,
+                    "ignore_malformed": true
+                },
+                "pages": {
+                    "type": "raw",
+                    "index": false
+                },
+                "isbn": {
+                    "type": "raw",
+                    "index": false
+                },
+                "issn": {
+                    "type": "raw",
+                    "index": false
+                },
+                "container-title": {
+                    "type": "raw",
+                    "index": false
+                },
+                "volume": {
+                    "type": "raw",
+                    "index": false
+                },
+                "issue": {
+                    "type": "raw",
+                    "index": false
+                },
+                "chapter": {
+                    "type": "raw",
+                    "index": false
+                },
+                "publisher": {
+                    "type": "raw",
+                    "index": false
+                },
+                "published-print": {
+                    "type": "raw",
+                    "index": false
+                },
+                "license": {
+                    "type": "raw",
+                    "index": false
+                },
+                "editor": {
+                    "type": "raw",
+                    "index": false
+                },
+                "address": {
+                    "type": "raw",
+                    "index": false
+                }
+            }
+        },
+        "analysis": {
+            "filter": {
+                "latex_strip": {
+                    "pattern": "\\[a-zA-Z]+",
+                    "type": "pattern_replace",
+                    "replacement": ""
+                },
+                "english_snowball": {
+                    "type": "snowball",
+                    "language": "English"
+                },
+                "english_pos_stem": {
+                    "type": "stemmer",
+                    "language": "possessive_english"
+                },
+                "english_stop": {
+                    "type": "stop",
+                    "stopwords": "_english_"
+                }
+            },
+            "analyzer": {
+                "classic": {
+                    "tokenizer": "standard",
+                    "char_filter": [
+                        "html_strip"
+                    ],
+                    "filter": [
+                        "latex_strip",
+                        "english_pos_stem",
+                        "lowercase",
+                        "english_stop",
+                        "english_snowball"
+                    ]
+                },
+                "exact": {
+                    "tokenizer": "standard",
+                    "filter": [
+                        "lowercase"
+                    ]
+                }
+            },
+            "normalizer": {
+                "global": {
+                    "type": "custom",
+                    "filter": [
+                        "latex_strip",
+                        "lowercase",
+                        "asciifolding"
+                    ]
+                }
+            }
+        }
+    }
+}
