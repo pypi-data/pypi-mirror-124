@@ -1,0 +1,13 @@
+cobra~=0.22
+
+[all]
+bumpversion
+pre-commit
+towncrier
+tox
+
+[dev]
+bumpversion
+pre-commit
+towncrier
+tox
