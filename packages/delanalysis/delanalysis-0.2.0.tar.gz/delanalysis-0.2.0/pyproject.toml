@@ -1,0 +1,13 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+dependencies = [
+    "pandas==1.2.5",
+    "plotly==5.3.0",
+    "scipy==1.6.0"
+]
+
