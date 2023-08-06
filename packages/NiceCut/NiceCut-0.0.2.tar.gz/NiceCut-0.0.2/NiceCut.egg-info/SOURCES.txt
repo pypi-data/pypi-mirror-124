@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+NiceCut.egg-info/PKG-INFO
+NiceCut.egg-info/SOURCES.txt
+NiceCut.egg-info/dependency_links.txt
+NiceCut.egg-info/entry_points.txt
+NiceCut.egg-info/requires.txt
+NiceCut.egg-info/top_level.txt
+nice_cut/__init__.py
+nice_cut/argument_parser.py
+nice_cut/info.py
+nice_cut/main.py
+nice_cut/space.py
+nice_cut/version.py
+nice_cut/supported_formats/__init__.py
+nice_cut/supported_formats/srt.py
