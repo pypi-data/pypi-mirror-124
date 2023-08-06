@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+lisptick/__init__.py
+lisptick/classes.py
+lisptick/exceptions.py
+lisptick/reader.py
+lisptick/types.py
+lisptick.egg-info/PKG-INFO
+lisptick.egg-info/SOURCES.txt
+lisptick.egg-info/dependency_links.txt
+lisptick.egg-info/top_level.txt
