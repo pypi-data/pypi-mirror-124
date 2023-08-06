@@ -1,0 +1,14 @@
+arcor2_kinect_azure/VERSION,sha256=zXhTTtFa1GkStxM50UF9DQQ9gwnCuUQV8-0bnR_frtA,5
+arcor2_kinect_azure/__init__.py,sha256=l7GuqwFKxk79MXzWazHFaHr2z9wXJXzReiYP2-eFCKI,238
+arcor2_kinect_azure/kinect_azure.py,sha256=O_jFn10WJWxJE30n8vy1tyYL8TU06cGjWfS-OKmTQPQ,4889
+arcor2_kinect_azure/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arcor2_kinect_azure/data/depth.png,sha256=YDlZ5KZJu5lL4j4EoHGb1FSE3wm7bAdLMewZwVtHrig,422866
+arcor2_kinect_azure/data/rgb.jpg,sha256=y_wSgCOvulpdmmElVTXLidFGe-1Vw5UhgErMUCJp8js,180896
+arcor2_kinect_azure/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arcor2_kinect_azure/scripts/kinect_azure.py,sha256=sMz0zIoMPvEdLLJAcBQmkCzKZzWGQMigRRSybKoqQGo,7451
+arcor2_kinect_azure-0.4.0.dist-info/METADATA,sha256=2FzweS7Du2X83rMl200mDMOd4TM2sJ46bFwAI9Vn7YA,1870
+arcor2_kinect_azure-0.4.0.dist-info/WHEEL,sha256=DFtErY2uqZHQe0zv4lhVcJAGD67uy9vcDn1NKEUSIuw,93
+arcor2_kinect_azure-0.4.0.dist-info/entry_points.txt,sha256=BVJ3vHISEHyCk9QoH6QIsgzRfHif2mgpp-MR6f2zoAQ,87
+arcor2_kinect_azure-0.4.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+arcor2_kinect_azure-0.4.0.dist-info/top_level.txt,sha256=1SDQtaXRcLYs1dyBODpUGs8D0JOI7UzYgLTFWf9cTpQ,20
+arcor2_kinect_azure-0.4.0.dist-info/RECORD,,
