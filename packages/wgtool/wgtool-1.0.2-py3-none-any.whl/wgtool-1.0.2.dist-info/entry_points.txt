@@ -1,0 +1,3 @@
+    [console_scripts]
+    wgtool = wgtool.wgtool:main
+    
