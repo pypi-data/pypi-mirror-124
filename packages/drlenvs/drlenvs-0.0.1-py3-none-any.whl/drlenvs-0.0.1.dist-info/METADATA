@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: drlenvs
+Version: 0.0.1
+Summary: Some environments for reinforcement learning.
+Home-page: UNKNOWN
+Author: bug404
+Author-email: z19040042@s.upc.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Some environments for reinforcement learning.
+
+
