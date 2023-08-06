@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+console_images/__init__.py
+console_images.egg-info/PKG-INFO
+console_images.egg-info/SOURCES.txt
+console_images.egg-info/dependency_links.txt
+console_images.egg-info/requires.txt
+console_images.egg-info/top_level.txt
