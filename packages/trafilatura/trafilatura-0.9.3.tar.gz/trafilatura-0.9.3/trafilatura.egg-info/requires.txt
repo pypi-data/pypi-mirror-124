@@ -1,0 +1,19 @@
+certifi
+charset_normalizer>=2.0.7
+courlan>=0.4.2
+htmldate>=0.9.1
+justext>=3.0.0
+lxml>=4.6.3
+readability-lxml>=0.8.1
+urllib3<2,>=1.25
+
+[all]
+cchardet>=2.1.7
+htmldate[speed]>=0.9.1
+urllib3[brotli]
+
+[all:python_version < "3.6"]
+pycld3==0.21
+
+[all:python_version >= "3.6"]
+pycld3>=0.22
