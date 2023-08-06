@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Multifunctionality
+Version: 0.0.1
+Summary: The number one package for utilities from a trustworthy source
+Home-page: UNKNOWN
+Author: Vihaan Mathur & Harihar Rengan
+Author-email: vihaan.harihar341@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: keyboard
+Requires-Dist: mouse
+Requires-Dist: playsound (==1.2.2)
+
+This is the python package for anyone who requires utilities but is afraid of an untrustworthy source.
+
+This package has many functions, for example: an autoclicker, a refresher, a module call and more.
+
+We hope Multifunctionality can be a useful and reliable asset to you. Thank you!
+
