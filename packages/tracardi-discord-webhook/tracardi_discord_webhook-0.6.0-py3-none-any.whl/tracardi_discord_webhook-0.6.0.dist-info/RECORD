@@ -1,0 +1,9 @@
+tracardi_discord_webhook/plugin.py,sha256=kUZe-D-NA_RIt1h5bd4Btgqff73mV9o24IKvYRUY0KU,5036
+tracardi_discord_webhook/model/configuration.py,sha256=8-76gp_moXZqVXuVfSScXDsM-mMuuChLO4nDo59N5IY,215
+tracardi_discord_webhook/model/__pycache__/configuration.cpython-38.pyc,sha256=jSwmuNBtQnPKaZI25suqzy3blVMzItHzRCw99FWQmMw,605
+tracardi_discord_webhook/test/manual/discord_webhook_test.py,sha256=fWuJE7Et3ZSWIP-0Cv47ZhuPMcx1l1EtzCtpEMb2lEc,433
+tracardi_discord_webhook-0.6.0.dist-info/LICENSE.md,sha256=l3ZUNaXLxnJvPaG7GYQk8VW6uUE0meUyDOrd7QXXu28,1072
+tracardi_discord_webhook-0.6.0.dist-info/METADATA,sha256=SgDebZsOODzPCASfwsddr3it8yht_DQ_i6_kvuxwutU,1368
+tracardi_discord_webhook-0.6.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_discord_webhook-0.6.0.dist-info/top_level.txt,sha256=ErQ2aovNmRDE5MdDWyIJrEvG48_ecdDKsaEnMNNmPrs,25
+tracardi_discord_webhook-0.6.0.dist-info/RECORD,,
