@@ -1,0 +1,151 @@
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+extend-exclude = "dev|notebooks|typings|.*?\\.ipynb"
+line-length = 88
+target-version = ["py39",]
+
+[tool.coverage.html]
+directory = "reports/test_coverage"
+
+[tool.coverage.report]
+exclude_lines = ["pragma: no cover", ".*?if __name__.*?__main__.*",]
+
+[tool.coverage.run]
+branch = true
+omit = ["*/envs/*", "*/tests/*", "*/__init__.py", "*/__main__.py"]
+
+[tool.isort]
+ensure_newline_before_comments = true
+force_grid_wrap = 0
+import_heading_stdlib = "Standard library:"
+import_heading_thirdparty = "3rd party:"
+import_heading_firstparty = "1st party:"
+import_heading_localfolder = "local:"
+include_trailing_comma = true
+known_local_folder = ["jarpyvscode", "tests",]
+line_length = 88
+multi_line_output = 3
+py_version = "auto"
+sections = ["FUTURE", "STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER",]
+skip = ["typings", ".venv"]
+skip_glob = ["**/*.pyi"]
+use_parentheses = true
+
+[tool.mypy]
+allow_redefinition = true
+exclude = "(.venv/)|(data/)|(dev/)|(notebooks/)|(typings/)|(venv/)"
+ignore_missing_imports = true
+mypy_path = "typings"
+python_version = "3.9"
+show_column_numbers = true
+
+[tool.poetry]
+name = "jarpyvscode"
+version = "0.4.5"  # managed by poetry-dynamic-versioning; tag commits, e. g.: "vX.Y.Z"
+description = "Python backend for Jamil Raichouni's personal Visual Studio Code Extension jamilraichouni.jarpyvscode"
+documentation = "https://jar1.gitlab.io/jarpyvscode"
+authors = ["Jamil André RAICHOUNI <raichouni@gmail.com>",]
+maintainers = ["Jamil André RAICHOUNI <raichouni@gmail.com>",]
+license = "MIT"
+readme = "README.md"
+homepage = "https://gitlab.com/jar1/jarpyvscode"
+repository = "https://gitlab.com/jar1/jarpyvscode"
+include = ["LICENSE", "README.md"]
+packages = [
+    {include = "jarpyvscode"},
+    {include = "tests"},
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9.7,<4.0"
+click = "*"
+cookiecutter = "*"
+json5 = "*"
+loguru = "*"
+pandas = "*"
+psutil = "*"
+# my1stpartypkg = { path = "../my1stpartypkg", develop = true }
+
+[tool.poetry.dev-dependencies]
+black = "*"
+anybadge = "*"
+flake8 = "<=3.7"
+doc8 = "*"
+flake8-builtins = "*"
+flake8-docstrings = "*"
+flake8-isort = "*"
+flake8-quotes = "*"
+flake8-rst-docstrings = "*"
+flake8-unused-arguments = "*"
+isort = "*"
+jupyter = "*"
+line-profiler = "*"
+mypy = "*"
+notebook = "*"
+pydocstyle = "*"
+pyflakes = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-xdist = "*"
+Sphinx = "*"
+sphinx-autobuild = "*"
+sphinx-rtd-theme = "*"
+types-toml = "*"
+toml = "*"
+vulture = "*"
+
+# Example for entrypoint/ plugin:
+# [tool.poetry.plugins."requirements_bot.pattern"]
+# ComponentFunctionPattern = "requirements_bot.pattern.comp_func_pattern:ComponentFuncPattern"
+
+# Use in Python module like that:
+
+# from requirements_bot.pattern import ComponentFunctionPattern
+
+# a `setup.cfg` would declare that like so:
+
+# [options.entry_points]
+# requirements_bot.pattern =
+#     ComponentFunctionPattern = requirements_bot.pattern.comp_func_pattern:ComponentFuncPattern
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "semver"
+
+[tool.poetry-dynamic-versioning.substitution]
+files = ["*.py", "*/__init__.py", "*/__version__.py", "*/_version.py", "docs/source/sphinxconf.py"]
+patterns = [
+    "(^__version__:\\s*str\\s*=\\s*['\\\"])[^'\\\"]*(['\\\"])",
+    "(^release:\\s*str\\s*=\\s*['\\\"])[^'\\\"]*(['\\\"])",
+]
+
+[tool.pydocstyle]
+match = "(?!(conftest|test_)).*\\.py"
+
+[tool.pyright]
+pythonVersion = "3.9"
+typeCheckingMode = "strict"
+include = ["jarpyvscode", "tests",]
+reportConstantRedefinition = "warning"
+reportGeneralTypeIssues = false  # reported by mypy
+reportUnknownMemberType = false  # Pylance sometimes reports that for stuff like logger.info() etc.
+reportUnusedImport = false  # reported by flake8 (F401)
+reportUnusedVariable = false  # reported by flake8 (F841)
+
+[tool.pytest.ini_options]
+addopts = "--cov-config=pyproject.toml --cov-report=html --cov-report=term --cov-report=xml --cov=jarpyvscode --durations=3 --rootdir=. -vvv"
+testpaths = "tests"
+norecursedirs = ".git .venv .vscode data dev docs/build notebooks typings venv"
+python_files = "test_*.py"
+python_classes = "*Suite"
+python_functions = "test*"
+markers = "log"  # Marks tests for the module log.py
+
+[tool.vulture]
+exclude = ["dev", "docs", "notebooks", "jarpyvscode/constants.py"]
+ignore_decorators = ["@app.delete", "@app.get", "@app.head", "@app.on_event", "@app.options", "@app.patch", "@app.post", "@app.put", "@app.trace", "@cli.command", "@click.group"]
+min_confidence = 100
