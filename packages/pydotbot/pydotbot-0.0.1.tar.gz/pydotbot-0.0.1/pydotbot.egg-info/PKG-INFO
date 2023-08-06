@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pydotbot
+Version: 0.0.1
+Summary: DotBot Orchestrator comunicate multiple DotBots to internet.
+Home-page: http://www.crystalfree.org/
+Author: José Astorga
+Author-email: jose.n.astorga.tobar@gmail.com
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/DotBots/PyDotBot
+Project-URL: Bug Tracker, https://github.com/DotBots/PyDotBot/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# PyDotBot
+
+PyDotBot is a library allowing for simple and elegant control of Swarms of DotBots.
+
+<!---
+TODO: Show a simple Pythonic example of configuring and controlling dotbots using the library (likely move commands or importing a controller).
+TODO: Also show a user interface example of doing the same thing.
+-->
+
+## Installing PyDotBot and Supported Versions
+
+PyDotBot will soon be available on PyPI (officially supporting Python 3.6+):
+```bash
+python -m pip install dotbot
+```
+
+
