@@ -1,0 +1,2 @@
+include convolvecl.pyx wigner_3j_l.c
+exclude convolvecl.c

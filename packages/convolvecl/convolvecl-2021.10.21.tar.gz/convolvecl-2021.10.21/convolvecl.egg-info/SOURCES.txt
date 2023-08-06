@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+convolvecl.pyx
+pyproject.toml
+setup.cfg
+setup.py
+wigner_3j_l.c
+convolvecl.egg-info/PKG-INFO
+convolvecl.egg-info/SOURCES.txt
+convolvecl.egg-info/dependency_links.txt
+convolvecl.egg-info/requires.txt
+convolvecl.egg-info/top_level.txt
