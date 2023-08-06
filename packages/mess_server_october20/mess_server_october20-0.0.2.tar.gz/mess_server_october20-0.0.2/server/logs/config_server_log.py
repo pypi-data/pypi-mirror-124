@@ -1,0 +1,40 @@
+import os
+import sys
+import logging.handlers
+# from server.common import LOGGING_LEVEL
+# from server.common.variables import LOGGING_LEVEL
+from common.variables import LOGGING_LEVEL
+
+# sys.path.append('../../')
+sys.path.append('../')
+
+# создаём формировщик логов (formatter):
+server_formatter = logging.Formatter('%(asctime)s %(levelname)s %(filename)s %(message)s')
+
+# Подготовка имени файла для логирования
+# path = os.path.dirname(os.path.abspath(__file__))
+# перед размещением в проде убираем обращения
+# к "os.path.realpath(__file__)" заменяя на "os.getcwd()"
+path = os.path.dirname(os.getcwd())
+path = os.path.join(path, 'server.log')
+
+# создаём потоки вывода логов
+steam = logging.StreamHandler(sys.stderr)
+steam.setFormatter(server_formatter)
+# Выводим сообщения от информационных до критических ошибок
+steam.setLevel(logging.INFO)
+log_file = logging.handlers.TimedRotatingFileHandler(path, encoding='utf8', interval=1, when='D')
+log_file.setFormatter(server_formatter)
+
+# создаём регистратор и настраиваем его
+logger = logging.getLogger('server')
+logger.addHandler(steam)
+logger.addHandler(log_file)
+logger.setLevel(LOGGING_LEVEL)
+
+# отладка
+if __name__ == '__main__':
+    logger.critical('Test critical event')
+    logger.error('Test error event')
+    logger.debug('Test debug event')
+    logger.info('Test info event')
