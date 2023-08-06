@@ -1,0 +1,10 @@
+verbcalc/__init__.py,sha256=_V9DhKi4v4TmRgjhJ7AWaWcI7zsdkWf2m-IxJaqlk74,144
+verbcalc/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verbcalc/core/translator.py,sha256=ITQPobVBi0-_DJxQq-pbemz0unjEkhoIaXUOhQyPg3Q,1006
+verbcalc/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verbcalc/tests/test_translator.py,sha256=aX6GdxHZmM_bsnQRe1gi3uu5hbWduWM_pz9KiLiRjLo,503
+verbcalc-1.0.0a0.dist-info/LICENSE,sha256=Fd2E1nj-kptXeU76410GSy0f8A-12kPQZD24LibHDxY,1521
+verbcalc-1.0.0a0.dist-info/METADATA,sha256=MIb_rBfa76AY5uee7aWBcgbelbtqQr0esXZPQqIYvNs,347
+verbcalc-1.0.0a0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+verbcalc-1.0.0a0.dist-info/top_level.txt,sha256=2R17KH4XdDiCUm9ARMlJ0oCkg-cjjEWwBIrXCYmw5n0,9
+verbcalc-1.0.0a0.dist-info/RECORD,,
