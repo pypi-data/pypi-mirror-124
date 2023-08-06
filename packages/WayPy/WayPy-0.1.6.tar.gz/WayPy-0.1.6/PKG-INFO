@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: WayPy
+Version: 0.1.6
+Summary: Package to find a path between two points in a graph.
+Home-page: https://github.com/guilhermedonizetti/WayPy
+Author: Guilherme Donizetti and Luiz Fernando Rodrigues
+Author-email: guilhermetecnologias@gmail.com
+License: MIT
+Project-URL: Source code, https://github.com/guilhermedonizetti/WayPy
+Description: By entering a list of nodes and edges, the package is able to try to find a path between any two points.<br>The package contains different search methods that can get different results.
+Keywords: way graph
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent

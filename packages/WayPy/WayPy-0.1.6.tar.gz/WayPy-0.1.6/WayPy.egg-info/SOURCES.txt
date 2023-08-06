@@ -1,0 +1,11 @@
+README.md
+setup.py
+WayPy.egg-info/PKG-INFO
+WayPy.egg-info/SOURCES.txt
+WayPy.egg-info/dependency_links.txt
+WayPy.egg-info/top_level.txt
+waypy/__init__.py
+waypy/agent.py
+waypy/graph_values.py
+waypy/list.py
+waypy/methods.py
