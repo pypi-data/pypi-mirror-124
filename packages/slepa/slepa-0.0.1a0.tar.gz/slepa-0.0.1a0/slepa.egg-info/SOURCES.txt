@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+slepa/__init__.py
+slepa/self_learning_population_annealing.py
+slepa.egg-info/PKG-INFO
+slepa.egg-info/SOURCES.txt
+slepa.egg-info/dependency_links.txt
+slepa.egg-info/not-zip-safe
+slepa.egg-info/requires.txt
+slepa.egg-info/top_level.txt
