@@ -1,0 +1,12 @@
+MANIFEST.in
+knn_main.py
+pyproject.toml
+setup.py
+src/knn/__init__.py
+src/knn/a.txt
+src/knn/distances.py
+src/knn_rk47.egg-info/PKG-INFO
+src/knn_rk47.egg-info/SOURCES.txt
+src/knn_rk47.egg-info/dependency_links.txt
+src/knn_rk47.egg-info/requires.txt
+src/knn_rk47.egg-info/top_level.txt
