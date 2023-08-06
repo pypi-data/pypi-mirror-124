@@ -1,0 +1,2 @@
+sanic_cors==0.10.0.post3
+vytools>=0.2.15
