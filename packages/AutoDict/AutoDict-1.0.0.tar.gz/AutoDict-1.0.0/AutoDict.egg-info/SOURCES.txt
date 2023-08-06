@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+AutoDict.egg-info/PKG-INFO
+AutoDict.egg-info/SOURCES.txt
+AutoDict.egg-info/dependency_links.txt
+AutoDict.egg-info/not-zip-safe
+AutoDict.egg-info/top_level.txt
+autodict/__init__.py
+autodict/implementation.py
+autodict/version.py
+tests/__init__.py
+tests/test_autodict.py
