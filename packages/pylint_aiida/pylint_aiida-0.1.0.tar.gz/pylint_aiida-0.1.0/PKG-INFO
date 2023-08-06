@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pylint_aiida
+Version: 0.1.0
+Summary: pylint plugin for ``aiida-core`` specific issues.
+Author-email: Chris Sewell <aiidateam@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: astroid
+Requires-Dist: pytest ; extra == "test"
+Project-URL: Home, https://github.com/aiidateam/pylint-aiida
+Provides-Extra: test
+
+# pylint-aiida
+A small plugin for aiida-core related linting
+
