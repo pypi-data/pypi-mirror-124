@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+minio_driver/MinioProvider.py
+minio_driver/__init__.py
+minio_driver/integration.py
+minio_driver.egg-info/PKG-INFO
+minio_driver.egg-info/SOURCES.txt
+minio_driver.egg-info/dependency_links.txt
+minio_driver.egg-info/requires.txt
+minio_driver.egg-info/top_level.txt
