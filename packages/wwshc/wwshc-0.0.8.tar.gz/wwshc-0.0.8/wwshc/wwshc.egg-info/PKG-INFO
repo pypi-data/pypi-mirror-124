@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wwshc
+Version: 0.0.8
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: J0J0HA
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This is a program which can access WWS from Python-Code.
+
+Requires: selenium>=3.141.0, win10toast>=0.9, pydatfile>=0.0.3
+
+

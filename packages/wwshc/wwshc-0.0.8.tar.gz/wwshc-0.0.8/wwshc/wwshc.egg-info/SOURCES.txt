@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+wwshc/__init__.py
+wwshc/wwsels.py
+wwshc/wwserr.py
+wwshc/wwsopt.py
+wwshc/wwshc.egg-info/PKG-INFO
+wwshc/wwshc.egg-info/SOURCES.txt
+wwshc/wwshc.egg-info/dependency_links.txt
+wwshc/wwshc.egg-info/top_level.txt
