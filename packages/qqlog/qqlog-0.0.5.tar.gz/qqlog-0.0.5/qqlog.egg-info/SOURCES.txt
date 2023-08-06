@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+qqlog/__init__.py
+qqlog.egg-info/PKG-INFO
+qqlog.egg-info/SOURCES.txt
+qqlog.egg-info/dependency_links.txt
+qqlog.egg-info/top_level.txt
