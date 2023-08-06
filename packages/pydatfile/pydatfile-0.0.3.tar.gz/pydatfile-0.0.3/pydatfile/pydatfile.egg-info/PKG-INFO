@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pydatfile
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: J0J0HA
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Python Project to Save data in a file.
+

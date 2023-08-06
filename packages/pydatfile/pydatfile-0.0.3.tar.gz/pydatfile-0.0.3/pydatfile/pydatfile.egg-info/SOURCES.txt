@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pydatfile/__init__.py
+pydatfile/coders.py
+pydatfile/errors.py
+pydatfile/files.py
+pydatfile/pydatfile.egg-info/PKG-INFO
+pydatfile/pydatfile.egg-info/SOURCES.txt
+pydatfile/pydatfile.egg-info/dependency_links.txt
+pydatfile/pydatfile.egg-info/top_level.txt
