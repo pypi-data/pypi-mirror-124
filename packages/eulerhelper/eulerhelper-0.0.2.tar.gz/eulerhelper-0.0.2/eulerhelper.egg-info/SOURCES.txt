@@ -1,0 +1,5 @@
+setup.py
+eulerhelper.egg-info/PKG-INFO
+eulerhelper.egg-info/SOURCES.txt
+eulerhelper.egg-info/dependency_links.txt
+eulerhelper.egg-info/top_level.txt
