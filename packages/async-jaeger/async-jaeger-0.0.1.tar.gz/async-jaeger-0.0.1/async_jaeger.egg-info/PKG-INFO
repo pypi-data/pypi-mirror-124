@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: async-jaeger
+Version: 0.0.1
+Summary: Jaeger Python OpenTracing Tracer implementation for AsyncIO
+Home-page: https://github.com/alvassin/async-jaeger
+Author: Alexander Vasin
+Author-email: hi@alvass.in
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: jaeger,tracing,opentracing
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Provides-Extra: dev
+Provides-Extra: tests
