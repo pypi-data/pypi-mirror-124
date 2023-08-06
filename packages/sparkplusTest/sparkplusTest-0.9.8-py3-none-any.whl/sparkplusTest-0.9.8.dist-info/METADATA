@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sparkplusTest
+Version: 0.9.8
+Summary: test package for sparkplus
+Home-page: https://github.com/SWM-SparkPlus/spark-plugin
+Author: sparkplus
+Author-email: meadea27@gmail.com
+License: MIT
+Keywords: spark,geo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: geopandas
+Requires-Dist: geospark
+Requires-Dist: h3
+Requires-Dist: geopy
+Requires-Dist: pyarrow
+Requires-Dist: rtree
+Requires-Dist: shapely
+Requires-Dist: python-dotenv
+
+UNKNOWN
+
