@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "colorsplash-common"
+version = "0.1.0"
+description = "A common set of classes for the ColorSplash project python components"
+authors = ["Daniel Thurau <daniel.n.thurau@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "^1.19.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
