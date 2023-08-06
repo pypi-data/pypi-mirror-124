@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+SQL_multisearch/SQL_multisearch.py
+SQL_multisearch/__init__.py
+SQL_multisearch.egg-info/PKG-INFO
+SQL_multisearch.egg-info/SOURCES.txt
+SQL_multisearch.egg-info/dependency_links.txt
+SQL_multisearch.egg-info/requires.txt
+SQL_multisearch.egg-info/top_level.txt
