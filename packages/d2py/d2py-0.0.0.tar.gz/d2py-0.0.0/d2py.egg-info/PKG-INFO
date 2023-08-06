@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: d2py
+Version: 0.0.0
+Summary: Dive into Python.
+Home-page: https://github.com/xinetzone/d2py
+Author: Xinwei Liu
+Author-email: 735613050@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# xinet
+
+[![GitHub issues](https://img.shields.io/github/issues/xinetzone/d2py)](https://github.com/xinetzone/d2py/issues) [![GitHub forks](https://img.shields.io/github/forks/xinetzone/d2py)](https://github.com/xinetzone/d2py/network) [![GitHub stars](https://img.shields.io/github/stars/xinetzone/d2py)](https://github.com/xinetzone/d2py/stargazers) [![GitHub license](https://img.shields.io/github/license/xinetzone/d2py)](https://github.com/xinetzone/d2py/blob/main/LICENSE) [![HitCount](http://hits.dwyl.io/xinetzone/d2py.svg)](http://hits.dwyl.io/xinetzone/d2py) ![repo size](https://img.shields.io/github/repo-size/xinetzone/d2py.svg) [![contributors](https://img.shields.io/github/contributors/xinetzone/d2py.svg)](https://github.com/xinetzone/d2py/graphs/contributors) [![watcher](https://img.shields.io/github/watchers/xinetzone/d2py.svg)](https://github.com/xinetzone/d2py/watchers)
+
+Discover and create anything interesting!
+
+## PyPI
+
+Provide PyPI support.
+
+```sh
+pip install p2py
+```
+
+
+
