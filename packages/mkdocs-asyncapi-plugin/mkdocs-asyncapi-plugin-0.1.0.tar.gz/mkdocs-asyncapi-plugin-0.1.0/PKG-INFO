@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: mkdocs-asyncapi-plugin
+Version: 0.1.0
+Summary: mkdocs plugin to generate pages from asyncapi spec files
+Home-page: https://github.com/yushiomote/mkdocs-asyncapi-plugin
+License: MIT
+Keywords: mkdocs,asyncapi,plugin,python
+Author: YushiOMOTE
+Author-email: yushiomote@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Documentation, https://github.com/yushiomote/mkdocs-asyncapi-plugin
+Project-URL: Repository, https://github.com/yushiomote/mkdocs-asyncapi-plugin
+Description-Content-Type: text/markdown
+
+# Mkdocs Async API Plugin
+
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![PyPi](https://img.shields.io/pypi/v/mkdocs-asyncapi-plugin.svg)](https://pypi.python.org/pypi/mkdocs-asyncapi-plugin)
+[![Supported python versions](https://img.shields.io/pypi/pyversions/mkdocs-asyncapi-plugin.svg)](https://pypi.org/project/mkdocs-asyncapi-plugin/)
+
+## Setup
+
+1. Install [`asyncapi/generator`](https://github.com/asyncapi/generator)
+
+``` sh
+npm install -g @asyncapi/generator
+```
+
+2. Install this plugin.
+
+``` sh
+pip install mkdocs-asyncapi-plugin
+```
+
+3. Add `render_asyncapi` to `mkdocs.yml`:
+
+``` yaml
+plugins:
+  - render_asyncapi
+```
+
+## Usage
+
+Create a new markdown file which contains only this line:
+
+``` markdown
+!!asyncapi <path-to-spec-file>!!
+```
+
+`path-to-spec-file` is the path to the AsyncAPI spec file relative to the root of the repository (where you run `mkdocs`).
+
+Then, the entire content of this file will be the AsyncAPI spec.
+
