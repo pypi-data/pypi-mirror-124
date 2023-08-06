@@ -1,0 +1,8 @@
+
+{% if not packages == "NOT FOUND" %}
+    {% for pkg in packages %}
+        <a href="{{ url_for('simple.get_package', package=pkg.fullname) }}">{{ pkg.fullname }}</a><br />
+    {% endfor %}
+{% else %}
+    <h2 style="color: red">{{packages}}</h2>
+{% endif %}

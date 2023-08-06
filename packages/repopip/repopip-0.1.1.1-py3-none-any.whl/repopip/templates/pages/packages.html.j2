@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="container">
+
+        <div class="message">
+            <div class="stats">
+                <p>Total de paquetes: <span>{{total}}</span></p>
+                <p>Tamaño del repositorio: <span>{{size | filesize}}</span></p>
+            </div>
+            <button class="btn">Actualizar</button>
+        </div>
+
+        <table class="table-centered">
+            <colgroup>
+                <col style="width: 50%;">
+                <col style="width: 30%;">
+                <col style="width: 20%;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Paquete</th>
+                    <th>Versión</th>
+                    <th>Peso</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for name, package in packages.items() %}
+                    <tr>
+                        <td>{{name}}</td>
+                        <td>
+                            {% for v in package.versions %}
+                                <li>{{v.v}}</li>
+                            {% endfor %}
+                        </td>
+                        <td>
+                            {% for v in package.versions %}
+                                <li>{{v.size | filesize}}</li>
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+    </div>
+
+{% endblock content %}
