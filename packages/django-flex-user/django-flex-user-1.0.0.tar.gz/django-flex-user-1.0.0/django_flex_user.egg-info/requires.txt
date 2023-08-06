@@ -1,0 +1,10 @@
+django
+django-dirtyfields
+django-phonenumber-field
+django-rest-multiple-models
+djangorestframework
+djangorestframework-simplejwt
+phonenumbers
+regex
+social-auth-app-django
+tldextract
