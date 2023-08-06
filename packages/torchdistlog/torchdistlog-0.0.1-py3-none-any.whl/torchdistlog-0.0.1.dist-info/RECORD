@@ -1,0 +1,8 @@
+torchdistlog/__init__.py,sha256=I_QF11KVjtgX9y4ruDdP3XONc6cO5kYxWyuZfhFm5PI,63
+torchdistlog/logging.py,sha256=sCnCFaEGqPbUyHWmcYdK1NvQ11T93X0frW5jq4ssmyU,1031
+torchdistlog/tqdm.py,sha256=AKeKXVw9JM-WYrVserzJHlSWZOgX__HvHE-IaIvLWOM,483
+torchdistlog-0.0.1.dist-info/LICENSE,sha256=mPYxGXIMECQd5U-gObGEu8oVv6M61WYHTSLEsKnrJFg,1067
+torchdistlog-0.0.1.dist-info/METADATA,sha256=dxdhO47WNcd4a4xrCYM9G99Y1zoUBdvt4FUybnuZdnE,748
+torchdistlog-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+torchdistlog-0.0.1.dist-info/top_level.txt,sha256=HmQYqbs2b_AlUDQWCCa61s2RluaZtqs74tB0C56OcJ8,13
+torchdistlog-0.0.1.dist-info/RECORD,,
