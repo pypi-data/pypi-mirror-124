@@ -1,0 +1,8 @@
+setup.py
+kekpack/__init__.py
+kekpack/kek.py
+kekpack.egg-info/PKG-INFO
+kekpack.egg-info/SOURCES.txt
+kekpack.egg-info/dependency_links.txt
+kekpack.egg-info/requires.txt
+kekpack.egg-info/top_level.txt
