@@ -1,0 +1,6 @@
+pandas
+phonenumbers
+psycopg2-binary
+pysocks
+requests
+selenium
