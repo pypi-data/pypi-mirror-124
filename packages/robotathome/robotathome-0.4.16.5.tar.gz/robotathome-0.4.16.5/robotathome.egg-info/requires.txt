@@ -1,0 +1,9 @@
+humanize
+click
+urllib3
+loguru
+pandas
+mxnet
+gluoncv
+opencv-python
+numpy
