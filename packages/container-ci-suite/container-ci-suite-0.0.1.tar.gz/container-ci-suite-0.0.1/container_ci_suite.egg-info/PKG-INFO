@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: container-ci-suite
+Version: 0.0.1
+Summary: A python3 container CI tool for testing images.
+Home-page: https://github.com/phracek/container-ci-suite
+Author: Petr Hracek
+Author-email: phracek@redhat.com
+License: MIT
+Description: UNKNOWN
+Keywords: tool,containers,images,tests
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
