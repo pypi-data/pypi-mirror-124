@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: brsus
+Version: 0.0.2a0
+Summary: 
+Author: Ale Farias
+Author-email: 0800alefarias@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cantools (==36.4.0)
+Requires-Dist: dbfread (==2.0.7)
+Requires-Dist: pandas (==1.3.4)
+Requires-Dist: pyarrow (==5.0.0)
