@@ -1,0 +1,10 @@
+roadlib
+flask
+sqlalchemy
+marshmallow
+flask-sqlalchemy
+flask-marshmallow
+flask-cors
+marshmallow-sqlalchemy>=0.22
+aiohttp
+openpyxl
