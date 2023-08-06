@@ -1,0 +1,12 @@
+scab/__init__.py,sha256=tFChikOOV7YbBIDyHkg8AI1numZLSRjazb7srlUji4I,28
+scab/io.py,sha256=PW_WTSBlI95n5wll22m2PV6yRo5Y06bWhGUS175uMTk,10905
+scab/pl.py,sha256=QAVKE3i33qPUho38BPFQqYbAhSRzgjfpU7Y9RUi-YmE,28835
+scab/pp.py,sha256=i6JUWQ0U0j9pHPDM6PiTUx4-x5nRadMMsG_w9RKxQHc,8988
+scab/tl.py,sha256=ss7H7RHi-YqkTmcYPj3itMU3yYiwoihSNnvskoFytx4,8639
+scab/vdj.py,sha256=rAVIqqkqkTaqoX5BIVEupzvuZu7w8PCmdyArOHxbXMM,4494
+scab/version.py,sha256=07NzQXBgNlnw5kSN6ZYxE9By-_RuH3Jyy58Z74sIio0,21
+scab-0.0.1.dist-info/LICENSE,sha256=PWRGdL6CvkzG5l2Zt_N8m9j8LF-nAA199Msi5MbMMek,1074
+scab-0.0.1.dist-info/METADATA,sha256=1CACTYgJ86RMKmtAfI8IEvSOtqgSRiAboj93LT4C9OE,881
+scab-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+scab-0.0.1.dist-info/top_level.txt,sha256=LD0ZPlfXyNuKsxbSPxbfqJ4oC_Bh6Nrml1hcC8yDTwA,5
+scab-0.0.1.dist-info/RECORD,,
