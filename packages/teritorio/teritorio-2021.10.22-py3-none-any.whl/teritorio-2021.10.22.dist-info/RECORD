@@ -1,0 +1,10 @@
+CHANGELOG.md,sha256=CwiZNtgHknXU90Tud5xjPYI7eXBFIbElnfsjVWzYeZY,1012
+teritorio/__init__.py,sha256=m5-tpWQxlAWmzBS0j_mrsnGXTAUNWijh_XfzYiq3_Go,115
+teritorio/_data/country.json,sha256=dy2iLo1_JVolNv8rruJCafytIo0PaZqbMCzdn_vfOU8,48426
+teritorio/_data/currency.json,sha256=PV6ujMystZR0R9yUGiIWv19p-oJCBaXeweUhp3Di3Bs,37312
+teritorio/main.py,sha256=GAQCp7qi5jHTLnCVdD8RtIwn8VVCBzsIsWEFartwtAA,1916
+teritorio/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teritorio-2021.10.22.dist-info/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+teritorio-2021.10.22.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+teritorio-2021.10.22.dist-info/METADATA,sha256=ewEJWs1sib6obk-91pW5vwwPxOQ1NoZUMzaZBw3iCDE,3591
+teritorio-2021.10.22.dist-info/RECORD,,
