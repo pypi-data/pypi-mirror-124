@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mindquantum
+Version: 0.3.1
+Summary: A hybrid quantum-classic framework for quantum machine learning
+Home-page: https://www.mindspore.cn/
+Author: The MindSpore Authors
+Author-email: contact@mindspore.cn
+License: Apache 2.0
+Download-URL: https://gitee.com/mindspore/mindquantum/tags
+Project-URL: Sources, https://gitee.com/mindspore/mindquantum
+Project-URL: Issue Tracker, https://gitee.com/mindspore/mindquantum/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: scipy (>=1.5.3)
+Requires-Dist: projectq (>=0.5.1)
+Requires-Dist: openfermion (>=1.0.0)
+Requires-Dist: sympy (>=1.4)
+Requires-Dist: matplotlib (>=3.1.3)
+
+UNKNOWN
+
+
