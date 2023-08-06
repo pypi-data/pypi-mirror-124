@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tedpy
+Version: 0.1.0
+Summary: Unofficial library for reading from The Energy Detective power meters
+License: Apache-2.0
+Author: rianadon
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.20.0,<0.21.0)
+Requires-Dist: xmltodict (>=0.12.0,<0.13.0)
