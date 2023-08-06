@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: moosbl
+Version: 0.1.2
+Summary: Python Boilerplate contains all the boilerplate you need to create a Python package.
+Home-page: https://github.com/bopo/snowball
+Author: bopo.wang
+Author-email: ibopo@126.com
+License: MIT license
+Keywords: snowball,xueqiu
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: Click (>=7.0)
+Requires-Dist: httpx
+Requires-Dist: loguru
+
+========
+snowball
+========
+
+
+.. image:: https://img.shields.io/pypi/v/snowball.svg
+        :target: https://pypi.python.org/pypi/snowball
+
+.. image:: https://img.shields.io/travis/bopo/snowball.svg
+        :target: https://travis-ci.com/bopo/snowball
+
+.. image:: https://readthedocs.org/projects/snowball/badge/?version=latest
+        :target: https://snowball.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Python Boilerplate contains all the boilerplate you need to create a Python package.
+
+
+* Free software: MIT license
+* Documentation: https://snowball.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+.. _利用python进行财务分析: https://github.com/foodish/learning_notebook
+
+
+
+=======
+History
+=======
+
+0.1.0 (2021-10-21)
+------------------
+
+* First release on PyPI.
+
+
