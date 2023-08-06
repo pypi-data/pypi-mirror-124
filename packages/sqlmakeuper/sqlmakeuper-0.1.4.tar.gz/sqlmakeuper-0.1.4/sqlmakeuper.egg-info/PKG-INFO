@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: sqlmakeuper
+Version: 0.1.4
+Summary: SQL Formatter based on sqlparse
+Home-page: https://github.com/slavadubrov/sqlformatter
+Author: Viacheslav Dubrov
+Author-email: slavadubrov@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sqlmakeuper
+
+Python library with CLI interface for sql formatting based on [sqlparse](https://github.com/andialbrecht/sqlparse)
+
+## Installation
+
+```bash
+pip install sqlmakeuper
+```
+
+## Using
+
+### Format with default parameters
+
+```bash
+sqlmakeup --path /path/with/files/to/format
+```
+
+- Default parameters are `(reindent=True, indent_width=4, keyword_case="lower", identifier_case="lower", comma_first=True,)`
+
+### Format with custom parameters
+
+```bash
+sqlmakeup --path /path/with/files/to/format --parameters '{"comma_first":0}'
+```
+
+### Check with custom parameters
+
+```bash
+sqlmakeup --path /path/with/files/to/format --check
+```
+
+
