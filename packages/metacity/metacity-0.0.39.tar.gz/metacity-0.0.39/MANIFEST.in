@@ -1,0 +1,10 @@
+include setup.py
+include CMakeLists.txt
+recursive-include pybind11 CMakeLists.txt *.cmake
+recursive-include metacity *.cpp
+recursive-include metacity *.c
+recursive-include metacity *.hpp
+recursive-include metacity *.h
+recursive-include metacity *.py
+graft pybind11/include
+graft pybind11/tools
