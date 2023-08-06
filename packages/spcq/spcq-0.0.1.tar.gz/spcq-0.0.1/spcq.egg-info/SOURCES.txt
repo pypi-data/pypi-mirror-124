@@ -1,0 +1,7 @@
+pyproject.toml
+setup.cfg
+spcq.py
+spcq.egg-info/PKG-INFO
+spcq.egg-info/SOURCES.txt
+spcq.egg-info/dependency_links.txt
+spcq.egg-info/top_level.txt
