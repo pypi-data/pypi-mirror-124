@@ -1,0 +1,3 @@
+[console_scripts]
+my_example = weirwood_pyfinance.bin.my_example:main
+
