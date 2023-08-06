@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: flake8-leading-blank-lines
+Version: 1.0.1
+Summary: A flake8 plugin to detect blank lines at the start of a file
+Home-page: https://github.com/bmispelon/flake8-leading-blank-lines
+Author: Baptiste Mispelon
+Author-email: bmispelon@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/bmispelon/flake8-leading-blank-lines/issues
+Platform: UNKNOWN
+Classifier: Framework :: Flake8
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# flake8-leading-blank-lines
+A flake8 plugin to detect blank lines at the start of a file
+
+## Installation
+Install the plugin with pip:
+```
+pip install flake8-leading-blank-lines
+```
+
+Then use the `LBL001` error code in your flake8 configuration:
+```
+select=LBL001
+```
+
+Enjoy, I guess!
+
+
