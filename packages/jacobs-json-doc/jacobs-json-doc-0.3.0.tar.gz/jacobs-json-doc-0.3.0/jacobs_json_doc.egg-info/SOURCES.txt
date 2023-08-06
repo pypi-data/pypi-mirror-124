@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+jacobs_json_doc.egg-info/PKG-INFO
+jacobs_json_doc.egg-info/SOURCES.txt
+jacobs_json_doc.egg-info/dependency_links.txt
+jacobs_json_doc.egg-info/requires.txt
+jacobs_json_doc.egg-info/top_level.txt
+jacobsjsondoc/__init__.py
+jacobsjsondoc/_version.py
+jacobsjsondoc/document.py
+jacobsjsondoc/loader.py
+jacobsjsondoc/parser.py
+jacobsjsondoc/resolver.py
+tests/__init__.py
+tests/test_document.py
+tests/test_quick_parse.py
