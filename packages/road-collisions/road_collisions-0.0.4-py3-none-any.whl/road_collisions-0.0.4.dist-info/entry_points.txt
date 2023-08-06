@@ -1,0 +1,4 @@
+[console_scripts]
+load_road_collisions = road_collisions.bin.load:main
+raw_cleaner = road_collisions.bin.raw_cleaner:main
+
