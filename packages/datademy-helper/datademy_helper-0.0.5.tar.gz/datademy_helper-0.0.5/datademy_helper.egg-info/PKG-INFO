@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: datademy-helper
+Version: 0.0.5
+Summary: A basic helper package for students of AusBi Datademy
+Home-page: UNKNOWN
+Author: HaPhan Tran (AusBi Datademy)
+Author-email: <haphantran@gmail.com>
+License: UNKNOWN
+Description: A package that allows new python user/learner to insteract with the code conveniently, without the hastle of handling error or database connection
+Keywords: python,learner,helper,input,get_int,get_string
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
