@@ -1,0 +1,11 @@
+dask
+google-cloud-bigquery>=2.11.0
+google-cloud-bigquery-storage
+pandas
+pyarrow
+
+[test]
+pytest
+pandas-gbq
+distributed
+google-auth>=1.30.0
