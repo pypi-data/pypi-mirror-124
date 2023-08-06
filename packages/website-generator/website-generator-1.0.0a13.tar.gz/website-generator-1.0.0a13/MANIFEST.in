@@ -1,0 +1,4 @@
+include README.md
+include websitegen/rss_feed.xml
+include websitegen/rss_item.xml
+recursive-include websitegen/themes *

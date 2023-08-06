@@ -1,0 +1,3 @@
+
+Features:
+* Responsive - The menu is placed on top in case of smaller screen area

@@ -1,0 +1,47 @@
+
+body{
+    font-family: Verdana, Geneva, sans-serif;
+}
+.main{
+    margin: auto;
+    max-width: 700px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+p,ul{
+    font-size: 14pt;
+    line-height: 25px;
+}
+
+/* Header (including navigation) */
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.title{
+    font-size:16pt;
+    text-decoration: none;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 12pt;
+    margin-left: 16px;
+}
+
+/* Images and videos */
+img, .video{
+    max-width:480px;
+    max-height:auto;
+    border: 1px solid black;
+}
+@media (max-width: 480px) {
+    img, .video{
+        width:100%;
+        max-height:auto;
+    }
+}
