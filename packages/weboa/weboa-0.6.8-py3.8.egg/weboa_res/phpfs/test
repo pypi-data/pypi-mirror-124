@@ -1,0 +1,21 @@
+<?php
+$http_origin = $_SERVER['HTTP_ORIGIN'];
+$domains = ["https://localhost:8080",];
+if (in_array($http_origin,$domains))
+    header("Access-Control-Allow-Origin: $http_origin");
+
+header("Access-Control-Allow-Headers: *");
+header("X-Frame-Options: SAMEORIGIN");
+header("X-Content-Type-Options: nosniff");
+header("X-XSS-Protection: 1; mode=block");
+header('Content-Type: application/json; charset=utf-8');
+session_start();
+//include_once "../../vendor/autoload.php";
+//use \RedBeanPHP\R as R;
+include_once "../db.php";
+include_once "../controller/controller.php";
+
+$output = ["Hello"=>"World"];
+
+echo json_encode($output,JSON_PRETTY_PRINT);
+?>
