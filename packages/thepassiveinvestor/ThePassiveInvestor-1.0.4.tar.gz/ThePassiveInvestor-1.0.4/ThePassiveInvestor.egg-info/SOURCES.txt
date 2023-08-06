@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+ThePassiveInvestor/__init__.py
+ThePassiveInvestor/collect_data.py
+ThePassiveInvestor/config.py
+ThePassiveInvestor/create_report.py
+ThePassiveInvestor/utils.py
+ThePassiveInvestor.egg-info/PKG-INFO
+ThePassiveInvestor.egg-info/SOURCES.txt
+ThePassiveInvestor.egg-info/dependency_links.txt
+ThePassiveInvestor.egg-info/top_level.txt
