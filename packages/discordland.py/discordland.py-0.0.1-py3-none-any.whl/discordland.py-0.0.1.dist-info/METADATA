@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: discordland.py
+Version: 0.0.1
+Summary: API wrapper for discord land (A bot and server list) API
+Home-page: https://github.com/Hype3808/discordland
+Author: Hype3808
+License: MIT
+Keywords: api-wrapper,discordland,discord-land,discord-land-api-wrapper,dland
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: aiohttp
+
+# Introduction
+
+## DiscordLand.py
+
+- DiscordLand.py supports asynchronous and synchronous
+
+## Installation
+
+```
+pip install -U discordland.py
+```
+
+or
+
+```
+pip install -U git+https://github.com/Hype3808/DiscordLand.py.git
+```
+
+# Links:
+[Documentation](https://github.com/Hype3808/DiscordLand.py/blob/main/DOCUMENTATION.md)
+
+
