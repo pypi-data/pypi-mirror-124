@@ -1,0 +1,15 @@
+anisocado/__init__.py,sha256=4UgpphMTct3zdSO5sqC4F-qrvgzN8Of_LEbXxHFKBoY,108
+anisocado/_anisocado.py,sha256=3_3B4VWsnOqOVzWw2OgcTkwcyp20kWRlvst6MO8b3wg,10400
+anisocado/misc.py,sha256=l2NQkujxMSb-RHbMh0FS04DuujhAt0bn8QnN7VYwl84,6316
+anisocado/psf.py,sha256=RQza0gmBUSGzDZBrag3BOV-F15uMr7L9fFMk15KwfR0,17229
+anisocado/psf_utils.py,sha256=37FZF7a2MffxrT6zeyEC26YKNdKdGm11SLjTu_yDj5E,24112
+anisocado/pupil_utils.py,sha256=3qC--ZFjsEp70LZHUaZdErFzfJlMXbROEBeL9Mz0h_8,37813
+anisocado/version.py,sha256=n3gn7SWeE1iEk9e03dxkU5KB2wDcHTYBLw7DGIBVafU,56
+anisocado/tests/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+anisocado/tests/test_playing_around.py,sha256=lgozkUwt51t0s7yjIO0Nm2a9kAruLVf_N7I4Wzxqes0,1991
+anisocado/tests/test_psf_functions.py,sha256=pXh2zJlwwNVbLTF1FikV1UIz68LHXT5UgMiUVCDbxq4,3562
+anisocado/tests/test_scao_psf.py,sha256=v6n0iCHxurGy6PUr43iJTkRgP8eHD_xa5dFbNEH0i8o,2552
+anisocado-0.2.1.dist-info/METADATA,sha256=uj4xeQE_SzxaURhlcaluTi-yEamPiG2vF2m4ygERdoU,1613
+anisocado-0.2.1.dist-info/RECORD,,
+anisocado-0.2.1.dist-info/WHEEL,sha256=pZyAqgNAylOf0KG_hPHMtuuY08rV3WzWwZu2OTsNnnw,97
+anisocado-0.2.1.dist-info/top_level.txt,sha256=PEq0LVCCihooKMxK5ZCHLIl_7gTMnUgPXZsxNzW417Q,10
