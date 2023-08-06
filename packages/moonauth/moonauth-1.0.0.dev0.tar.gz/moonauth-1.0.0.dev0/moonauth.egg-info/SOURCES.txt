@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+moonauth.egg-info/PKG-INFO
+moonauth.egg-info/SOURCES.txt
+moonauth.egg-info/dependency_links.txt
+moonauth.egg-info/top_level.txt
