@@ -1,0 +1,6 @@
+autohooks/plugins/insert_license/__init__.py,sha256=R2BCLqoU34Zl0obCUgce5IE3Xiuz-mQ2LrjZctlpNuw,722
+autohooks/plugins/insert_license/insert_license.py,sha256=EmDK13-bSPkpDsomWkxM1SBU0DMK-LzJm-wFfIRtcXA,3253
+autohooks_plugin_insert_license-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+autohooks_plugin_insert_license-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+autohooks_plugin_insert_license-0.1.1.dist-info/METADATA,sha256=RDEF7c0VZp9TCBN_bf1DDA-5v9VgTfoAdalOWxPKkX4,673
+autohooks_plugin_insert_license-0.1.1.dist-info/RECORD,,
