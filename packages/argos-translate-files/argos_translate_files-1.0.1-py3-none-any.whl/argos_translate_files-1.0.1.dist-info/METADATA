@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: argos-translate-files
+Version: 1.0.1
+Summary: Translate files with Argos Translate
+Home-page: https://www.argosopentech.com
+Author: S. Thuret
+Author-email: contact@sebastien-thuret.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4 (==4.9.3)
+Requires-Dist: lxml (==4.6.3)
+Requires-Dist: argostranslate (>=1.5.1)
+
+# argos-translate-files
+Translate files using [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/) and [Argos Translate](https://github.com/argosopentech/argos-translate).
+
+## Supported file format
+.docx, .pptx
+
+## Install
+```
+pip install argos-translate-files
+```
+

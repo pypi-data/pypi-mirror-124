@@ -1,0 +1,15 @@
+argostranslatefiles/__init__.py,sha256=T0ahsHLbHg2WfvkEQemFCuWSAGC_EwdiOF9eUKgFNKA,54
+argostranslatefiles/abstract_file.py,sha256=VmTwJguHWnhmNilYoUXfTIESiUhnGiG2rY94ZIkaoU0,747
+argostranslatefiles/argostranslatefiles.py,sha256=mEm8Fw8pmS0-IH2zG4JY-AanxPLrx9p4YzP0PRi1_YE,753
+argostranslatefiles/formats/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+argostranslatefiles/formats/abstract_xml.py,sha256=CsFEzzaYNacHNYD86UZxbNsQTpVaFlaG0YrKVjTRvgw,1340
+argostranslatefiles/formats/openxml/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+argostranslatefiles/formats/openxml/docx.py,sha256=rF5uN0EaDzC6ckqfwUmY4f_k1nP-5dcRP1sW4pDOVWg,1207
+argostranslatefiles/formats/openxml/pptx.py,sha256=J3JU5DDc_BJx0hjwHmpvlNxE4K33J4__RRQjO3IFFnI,1238
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_init.py,sha256=VmOIM9Zw5AAHZAXC3b97STO2MF5VUST-sZQMuP9QPYE,164
+argos_translate_files-1.0.1.dist-info/LICENSE,sha256=fF1KSXtjRXSX1_BlLo-wY7dRtPnzo1rFiwEKrQaY1-s,1072
+argos_translate_files-1.0.1.dist-info/METADATA,sha256=B2XUDSmnyGD_cjcLlxZ4vd0gHgCLs8nfbhkEuRH5wA8,680
+argos_translate_files-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+argos_translate_files-1.0.1.dist-info/top_level.txt,sha256=H2-Nav_Fg6dGaIChlLbDv4Bf8mZ-pLh3iSlKs7MDatQ,26
+argos_translate_files-1.0.1.dist-info/RECORD,,
