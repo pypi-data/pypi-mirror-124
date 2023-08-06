@@ -1,0 +1,10 @@
+wspier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wspier/core.py,sha256=NlwjCc-eEL6kuQqqOgfsl0XOzh36aTemrbO5wJJXOuY,4048
+wspier/io.py,sha256=mdZvZkJefoIDBMeu2dURub1J9iyg43SB0Z9B3TYusr8,1217
+wspier/net.py,sha256=csVpwX9O9I2QZ8v0LQoyAO06SWomG-5jFHlX1YknJzs,456
+wspier/tester.py,sha256=REdQVukAghOFPVTZbwbnOnR-3Ui8gxbsKJMOpvccERo,239
+wspier-0.10.24.post2.dist-info/LICENSE,sha256=YyauYN14yFsfL2_zCO8WFf-TkyMnDYOOjrqyD13hqMU,9719
+wspier-0.10.24.post2.dist-info/METADATA,sha256=CJGG3dFUD70NpiEMZF-s2zOW7aNs8ZM5Su7K-kwGSk4,292
+wspier-0.10.24.post2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wspier-0.10.24.post2.dist-info/top_level.txt,sha256=V4KyE1I9GBG3spbiocMFDsA1LUV0sMteZvkKlIcFwrw,7
+wspier-0.10.24.post2.dist-info/RECORD,,
