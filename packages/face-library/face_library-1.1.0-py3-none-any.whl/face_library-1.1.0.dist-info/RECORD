@@ -1,0 +1,13 @@
+face_lib/BlazeDetector.py,sha256=nfdkjP5fKofqfKpRfKzjyXlksEk6rucSIJawtOtSApc,11897
+face_lib/__init__.py,sha256=XetROL4kRyHmm0kNsYiNH2-WXMPWzM7FsAxR7JaxKMc,30
+face_lib/blazeFaceUtils.py,sha256=cIZMX_LQ5f9exXbWcKuexNi2ap1_pAPkX-qLdEQzw1w,5955
+face_lib/download.py,sha256=201tzL0xvX0jPYXOg-_5ezrq9Kxj6QGFvAV7Qbu4H6g,9465
+face_lib/face_detection_back_256x256.onnx,sha256=LHESmJlpIScDKxfGpBv070xz-BmBfq0HIeg4pkaiRs8,591084
+face_lib/face_detection_front_128x128.onnx,sha256=4g4D9QzZddgg_Ex_tZa3Ca6nnby6M62oIWRCaPnolck,433256
+face_lib/face_lib.py,sha256=ofkJ0AAQjlYnYqujkjMUgZ_rzASs4aLK8Mv-zjHqGM0,8468
+face_lib/parse_url.py,sha256=TmwTG3ZXVKM5r8nhgnwVFCSBqVbhwZMmcksp_gRpMwI,1445
+face_library-1.1.0.dist-info/LICENSE,sha256=YSk0Ge_VWVQ4ukSQOKGa8upQVcMIJketMdy-70Eapp4,1067
+face_library-1.1.0.dist-info/METADATA,sha256=uXCAhj5v936bZFMsPtdAEn6gxNQgtA5LUiAvM4OA8Vw,5832
+face_library-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+face_library-1.1.0.dist-info/top_level.txt,sha256=6ubknaMvssSRO5ochLzBVA4cQy5-3WpCyGIX0JEmCBg,9
+face_library-1.1.0.dist-info/RECORD,,
