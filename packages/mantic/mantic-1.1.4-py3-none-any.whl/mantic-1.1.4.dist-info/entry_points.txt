@@ -1,0 +1,3 @@
+[console_scripts]
+mantic=mantic_cli:main.run
+
