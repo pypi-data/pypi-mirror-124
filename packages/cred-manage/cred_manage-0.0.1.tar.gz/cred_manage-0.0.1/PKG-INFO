@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cred_manage
+Version: 0.0.1
+Summary: Abstractions to read / write / delete secrets from keyrings, vaults, flat files, etc
+Home-page: https://github.com/areese801/cred_manage
+Author: Adam Reese
+Author-email: areese801@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/areese801/cred_manage/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Wrapper classes for getting, setting, and deleting credentials from various sources.
+
+
