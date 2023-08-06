@@ -1,0 +1,4 @@
+[console_scripts]
+ncut = nice_cut.main:main
+nice-cut = nice_cut.main:main
+

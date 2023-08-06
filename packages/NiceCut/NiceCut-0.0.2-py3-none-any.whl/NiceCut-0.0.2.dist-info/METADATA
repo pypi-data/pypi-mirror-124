@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: NiceCut
+Version: 0.0.2
+Summary: A tool cutting a media file into small clips according to the subtitle file
+Home-page: https://github.com/nlpsuge/NiceCut
+Author: nlpsuge
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/nlpsuge/NiceCut/issues
+Project-URL: Source, https://github.com/nlpsuge/NiceCut
+Keywords: python,ffmpeg,media,python3,subtitle,srt-subtitles,cutting,english-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: Utilities
+Classifier: Topic :: Multimedia :: Video :: Conversion
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: alive-progress (>=1.6.1)
+
+# What does this project do?
+A tool that manages to cut a media file into small sections according to a subtitle.
+
+# Supported subtitle format
+Support the srt format in the present.
+
+# Usage
+
+## Common usage
+```
+cd video-location
+ncut file-name.mp4 file-name.srt
+```
+Generated files should be appeared in `~/NiceCut/clips` and `~/NiceCut/texts`, which contains video clips and dialogs respectively.
+
+## Help
+```
+$ ncut -h
+usage: ncut [-h] [-st SAVE_TO] [-gns] [-ns {subtitle,media,all}] [-bc MILLISECONDS_BEFORE_CUTTING]
+          [-ac MILLISECONDS_AFTER_CUTTING] [-f] [-d] [-v]
+          media_file subtitle_file
+
+positional arguments:
+  media_file
+  subtitle_file
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -st SAVE_TO, --save-to SAVE_TO
+                        Setup the workspace path that saved the results.
+  -gns, --generate-new-subtitle
+                        Save the new generated subtitle to the folder where the original subtitle file is.
+  -ns {subtitle,media,all}, --no-splits {subtitle,media,all}
+                        Indicate that don't split the media/subtitle file, but will generate a new subtitle if
+                        '-gns/--generate-new-subtitle' is present.
+  -bc MILLISECONDS_BEFORE_CUTTING, --milliseconds-before-cutting MILLISECONDS_BEFORE_CUTTING
+  -ac MILLISECONDS_AFTER_CUTTING, --milliseconds-after-cutting MILLISECONDS_AFTER_CUTTING
+  -f, --force-update
+  -d, --debug
+  -v, --version         show program's version number and exit
+  ```
+  
+
+
