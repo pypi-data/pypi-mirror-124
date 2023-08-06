@@ -1,0 +1,17 @@
+ipynta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipynta/extractors/__init__.py,sha256=Pfgp3G03Qr0ZWL1sDRkZlVia2Z5nuprftAweMOxOUX8,80
+ipynta/extractors/tar_extractor.py,sha256=Z47Y2GLLTaF7LNLG2Hive1qYs0idnntCWW7EwGcvXek,783
+ipynta/extractors/zip_extractor.py,sha256=4ttzugfFQKehUxpJSnvMyDwr63qCmx-HwII-7lGcK_o,659
+ipynta/loaders/__init__.py,sha256=m9AK-LAePCDMYPgg2-UIhi8Heb_voOz0nVsuKnm8eHA,79
+ipynta/loaders/opencv_loader.py,sha256=FptZ19XabO8SItdTfa9bFXTAARSB9n-LWjI9KM4m8IQ,388
+ipynta/loaders/pillow_loader.py,sha256=CK061-Ps7zfI6t6mxrU_gfR-hzFvMxZQ1KBRIPe1pLY,399
+ipynta/predicates/__init__.py,sha256=c0hvi37dOiI546ODM-4257StKBvHQ-fsf8QwKYEBxVY,102
+ipynta/predicates/base.py,sha256=IzGGxT9RfdDOSsmsUODfxBltviZ9s0wEJ2qiFqVsonI,457
+ipynta/predicates/dimension.py,sha256=jLrzHreaGu3cQGMgT3TD394gKNFcpv1HrV4md0HImIw,1719
+ipynta/predicates/grayscale.py,sha256=gZ4tas-XqNKtOHGDpX1ryFwzC1fl8NJoCptcpG7pp4Y,1570
+ipynta/sourcing/__init__.py,sha256=h3OlGl6wHoFPO98TJgQcVikmGIsZ2LbUQG3UE7x7xLE,47
+ipynta/sourcing/directory_sniffer.py,sha256=-Skk5BvDi3ZZNL5DCFxdNsGPftTZon1Qld78aknBd0U,762
+ipynta-0.0.27.dist-info/METADATA,sha256=4xfAJEp6O2gUWj1U6dOp2MeK5Gz-TOdhhGSdPtblhDo,3098
+ipynta-0.0.27.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ipynta-0.0.27.dist-info/top_level.txt,sha256=8h6AJ98qljUD48vd2Zhv8f3Kz-7OwvO0xDy3CMJhy1Q,7
+ipynta-0.0.27.dist-info/RECORD,,
