@@ -1,0 +1,11 @@
+tmplr/__init__.py,sha256=wabrrh5yrpvgRYpVJ-2SyH90hlqzGseFxOAcrGrPy44,2910
+tmplr/temple.py,sha256=WLXT2qHsXUEu1H5His3lrXKbssVSuZgaLIzQCwyuMhM,5706
+tmplr/cli/__init__.py,sha256=fxz8NRiaHWVEcYXw0MbcJ8ZXZ7YeVeGh1pI2hB5XDug,82
+tmplr/cli/editor.py,sha256=_Sew_cJgKzFxZcVoana1xYQqr_82tNfttiD_GyZtMvk,737
+tmplr/cli/temples.py,sha256=tPwJVk8__GU4HCToXO-AowHzQvrU8T8Oievx1uy0sWs,2108
+tmplr/cli/tmplr.py,sha256=BXvSjyq-unXmov7otm3ehzWYeYV5qMW8dsXryMh4xLI,2832
+tmplr-0.4.0.dist-info/entry_points.txt,sha256=SQM_uz6O95jgn6iMTgfXR3bft7tFv-jmSKIycOJTYTY,77
+tmplr-0.4.0.dist-info/LICENSE,sha256=VYI2san3nysS3ZvfQYXvg0t5PDY0rn4JKj6NRu17zbc,1070
+tmplr-0.4.0.dist-info/WHEEL,sha256=pVNS5wRGlMB8qzi0M1coslDk7i694hS7VxZqRXRntY4,81
+tmplr-0.4.0.dist-info/METADATA,sha256=5qk9A8PFSN1JOHq8kjDMBitnB3LYSMQR5eWqJ1xqzH0,4178
+tmplr-0.4.0.dist-info/RECORD,,

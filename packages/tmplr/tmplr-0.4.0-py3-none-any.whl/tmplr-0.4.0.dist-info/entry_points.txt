@@ -1,0 +1,4 @@
+[console_scripts]
+temples=tmplr.cli.temples:main
+tmplr=tmplr.cli.tmplr:main
+
