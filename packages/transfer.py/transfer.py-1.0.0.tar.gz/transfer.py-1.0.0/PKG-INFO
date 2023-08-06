@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: transfer.py
+Version: 1.0.0
+Summary: transfers a PyObject
+Home-page: https://github.com/jordan69420/transfer.py
+Author: <Jordan Alexander Sweetman>
+Author-email: jordan.a.sweetman@icloud.com
+License: UNKNOWN
+Description: hello, you may use this program
+        
+        it was originally intended for transfer of AIs between computers
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
