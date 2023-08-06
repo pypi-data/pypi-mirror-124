@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: cmne
+Version: 0.0.2
+Summary: Contextual Minimum Norm Estimates (CMNE)
+Home-page: https://github.com/chdinh/cmne
+Maintainer: Christoph Dinh
+Maintainer-email: christoph.dinh@mne-cpp.org
+License: MIT License
+Download-URL: https://github.com/chdinh/cmne
+Project-URL: Source, https://github.com/chdinh/cmne/
+Project-URL: Tracker, https://github.com/chdinh/cmne/issues/
+Keywords: MEG EEG spatiotemporal source estimation spatial filtering grid-based Markov localization LSTM deep learning
+Platform: any
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy (>=1.21.2)
+Requires-Dist: mne (>=0.23.4)
+Requires-Dist: tensorflow (>=2.6.0)
+
+# CMNE
+
+Most magneto- and electroencephalography (M/EEG) based source estimation techniques derive their estimates sample wise, independently across time. However, neuronal assemblies are intricately interconnected, constraining the temporal evolution of neural activity that is detected by MEG and EEG; the observed neural currents must thus be highly context dependent. Here, we use a network of Long Short-Term Memory (LSTM) cells where the input is a sequence of past source estimates and the output is a prediction of the following estimate. This prediction is then used to correct the estimate. In this study, we applied this technique on noise-normalized minimum norm estimates (MNE). Because the correction is found by using past activity (context), we call this implementation Contextual MNE (CMNE), although this technique can be used in conjunction with any source estimation method. We test CMNE on simulated epileptiform activity and recorded auditory steady state response (ASSR) data, showing that the CMNE estimates exhibit a higher degree of spatial fidelity than the unfiltered estimates in the tested cases.
+
+
