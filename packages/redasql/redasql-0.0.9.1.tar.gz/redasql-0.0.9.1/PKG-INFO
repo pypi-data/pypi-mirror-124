@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: redasql
+Version: 0.0.9.1
+Summary: RedaSQL is query cli tool for redash.
+Author: denzow
+Author-email: denzow@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: prettytable (>=2.2.0,<3.0.0)
+Requires-Dist: prompt-toolkit (>=3.0.20,<4.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
