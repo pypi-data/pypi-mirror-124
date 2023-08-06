@@ -1,0 +1,8 @@
+aioredis~=2.0
+coloredlogs~=15.0
+fastapi~=0.68
+hypercorn[trio]~=0.11
+pydantic[dotenv]~=1.8
+sqlalchemy[mysql,mysql_connector]~=1.4.25
+strawberry-graphql[debug-server]~=0.78
+tenacity~=8.0
