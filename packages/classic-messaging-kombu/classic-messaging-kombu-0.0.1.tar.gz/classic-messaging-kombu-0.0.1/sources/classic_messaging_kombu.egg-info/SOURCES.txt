@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sources/classic/messaging_kombu/__init__.py
+sources/classic/messaging_kombu/consumer.py
+sources/classic/messaging_kombu/handlers.py
+sources/classic/messaging_kombu/publisher.py
+sources/classic/messaging_kombu/scheme.py
+sources/classic_messaging_kombu.egg-info/PKG-INFO
+sources/classic_messaging_kombu.egg-info/SOURCES.txt
+sources/classic_messaging_kombu.egg-info/dependency_links.txt
+sources/classic_messaging_kombu.egg-info/requires.txt
+sources/classic_messaging_kombu.egg-info/top_level.txt
