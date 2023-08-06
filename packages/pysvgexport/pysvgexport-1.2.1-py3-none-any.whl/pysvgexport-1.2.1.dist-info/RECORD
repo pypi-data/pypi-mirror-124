@@ -1,0 +1,11 @@
+pysvgexport/__init__.py,sha256=mPK5sDla5-vo1vgp9oPeTLbNdSQosw2Sd025NMe8zO8,34
+pysvgexport/__main__.py,sha256=kcNbBYIQF-1QJRsCRhltwMgOJo4kRssYYErbsW7dwUM,89
+pysvgexport/js_function.py,sha256=rEvGOHwthTIo3ydLYq6t3kKlPgxi_OBOcitReKfoY9Q,3030
+pysvgexport/script.py,sha256=JkPb97h33eegVYNevGP-cWFfDDUVhlLGJ_pQyj5P3XM,2065
+pysvgexport/svg_export.py,sha256=qlArn_ZKokIYzdx2TowLelGfk-8smtHYIKdOjlOp6Us,3222
+pysvgexport-1.2.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pysvgexport-1.2.1.dist-info/METADATA,sha256=MnE8f71nuCOsf1dxVKtoW2dA11MPOoOWdJIWGZtFVa0,2257
+pysvgexport-1.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pysvgexport-1.2.1.dist-info/entry_points.txt,sha256=9YxG06pTxETd-frKgdQKKN-W2R9ut6HKRevmqXcmu3Y,55
+pysvgexport-1.2.1.dist-info/top_level.txt,sha256=lhgfVDuWUTTOaiK_wPEHLXCOo6I4KexPe8CycCt20bc,12
+pysvgexport-1.2.1.dist-info/RECORD,,
