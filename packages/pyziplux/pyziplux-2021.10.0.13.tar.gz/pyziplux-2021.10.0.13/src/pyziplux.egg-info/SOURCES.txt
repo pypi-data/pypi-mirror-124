@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/pyziplux.egg-info/PKG-INFO
+src/pyziplux.egg-info/SOURCES.txt
+src/pyziplux.egg-info/dependency_links.txt
+src/pyziplux.egg-info/requires.txt
+src/pyziplux.egg-info/top_level.txt
