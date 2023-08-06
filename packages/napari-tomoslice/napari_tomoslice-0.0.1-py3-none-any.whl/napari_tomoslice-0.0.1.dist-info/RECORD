@@ -1,0 +1,13 @@
+napari_tomoslice/__init__.py,sha256=83O_g_JijTHYUFwrSRm1nmYGALEROFgg2mm_kW406I0,174
+napari_tomoslice/_dock_widget.py,sha256=46FLiImo1tueBSHU5S0INTlNJkfDaKygK8tiv_Eikwc,3693
+napari_tomoslice/_version.py,sha256=Tjb_poy6EuGRi7TlrksJa9Qpx1MXOCO3p3F6tJ8xa5o,142
+napari_tomoslice/interactivity_utils.py,sha256=3ZUPVxPXnJoHAQq_k0y1lusGbWWSHAgUilrQMugvPpE,6248
+napari_tomoslice/tomoslice.py,sha256=882GqZMkMBsV3W1cCEjeqgKTGNPTUpLWS_QiBlx6ASg,3053
+napari_tomoslice/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_tomoslice/_tests/test_dock_widget.py,sha256=THS_N5DcAIBOCZ27I18wkdNjhQTW8Ph6J2Wy5V0ac8Q,705
+napari_tomoslice-0.0.1.dist-info/LICENSE,sha256=lZ2kxDUb4oFJAvLUDPs_OthyIecEdYZqmAuT1YlbukQ,1487
+napari_tomoslice-0.0.1.dist-info/METADATA,sha256=jxl1oh6l6TZJfYxrD5K8ekVky6PP6F0lPGZmXVf3-qw,4098
+napari_tomoslice-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+napari_tomoslice-0.0.1.dist-info/entry_points.txt,sha256=VGBzSPLWA-93hmoVVxkmzIG8fFQ_ELXRZIKhFsRZGaE,122
+napari_tomoslice-0.0.1.dist-info/top_level.txt,sha256=tQlbSctJOjVHnazEJwxcUcyFAmmgX7T7Swz6wtxMFIE,17
+napari_tomoslice-0.0.1.dist-info/RECORD,,
