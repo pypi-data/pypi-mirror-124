@@ -1,0 +1,15 @@
+pylgmath/__init__.py,sha256=w5HfVf-gYWaVRqBofADk0iLzBVWik0jSb69_C6GBCk8,272
+pylgmath/common/__init__.py,sha256=LjpoRCtRCDgY6ONtru0-qxXWXejtWXfmoDBr_xQWJVI,43
+pylgmath/common/operations.py,sha256=EvteLQZXioDAeqTYptZnha-4wJ1hAhhHnUkzmlvbN54,1091
+pylgmath/se3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylgmath/se3/operations.py,sha256=EtPmxZuF7yWU9hyedaFNM9mqhBvuKM4inI_cEl6cvQA,15627
+pylgmath/se3/transformation.py,sha256=9-qwpUIeNEcK1KKujZ58jtt7cEjosOnLYOyvOEvhows,5295
+pylgmath/se3/transformation_with_covariance.py,sha256=6YrVM_PiFMIudb8cYr84bdgphKTCNoRGQH8mgcaqDBg,2747
+pylgmath/so3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylgmath/so3/operations.py,sha256=xU0SuQYzD5uqNMxOO5TWAPUyl424dKuX3uI5WSMip5E,9294
+pylgmath/so3/rotation.py,sha256=QO1elB91VGEsMMxUpe0aC-x1qypIBXtatovGq71BxbY,2273
+asrl_pylgmath-1.0.2.dist-info/LICENSE,sha256=Nw7_2br6Jk2-8HPgInpxZFPssZFOiPj4U5Ex2eu2eJ4,1544
+asrl_pylgmath-1.0.2.dist-info/METADATA,sha256=IwCnMmBS3TX2GQvoQr_j3XFVvzftDtuWvTyCZx8gRWo,1716
+asrl_pylgmath-1.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+asrl_pylgmath-1.0.2.dist-info/top_level.txt,sha256=k3X8I6stKHvuT9p-CS7azyGCnzUAaqxEIReYS9YytTc,9
+asrl_pylgmath-1.0.2.dist-info/RECORD,,
