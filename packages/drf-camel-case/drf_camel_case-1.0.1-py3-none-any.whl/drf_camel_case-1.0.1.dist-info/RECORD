@@ -1,0 +1,11 @@
+drf_camel_case/__init__.py,sha256=yDq9FyiR6rmom22nLCnIiQ2rLeVgYVopSiWlT5CYLow,91
+drf_camel_case/parser.py,sha256=DD3WrIWkcRiFrpGFzL2sc0co9lp5mZ4TipoMkB9oGU0,2581
+drf_camel_case/render.py,sha256=m4TP9eBWemxWwpQEII79228M2LpHC1mvf_w7v5cvqYg,635
+drf_camel_case/settings.py,sha256=H2k2w31cGrgqWiogpOxeIS1EACDnx68-Z1nTNXC0dOw,1163
+drf_camel_case/util.py,sha256=rggEKzfSUSzxDJi2Namu9BtxS8CFvxneOW1VTtyDxeM,3455
+drf_camel_case-1.0.1.dist-info/AUTHORS.rst,sha256=py45kiBQSDPRZWybt0wIEb9t2ZMzOvFOkpeYaKlAlms,163
+drf_camel_case-1.0.1.dist-info/LICENSE,sha256=QDk1BiIuNh5N22uGzfyYR-eN5iMHKSCvrMgYmu9e8GY,1495
+drf_camel_case-1.0.1.dist-info/METADATA,sha256=HXYECGJfLNuv-vKTAtBjHh8quVa9ubBFriiMGC5LSJE,4680
+drf_camel_case-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+drf_camel_case-1.0.1.dist-info/top_level.txt,sha256=rvWxXfr4ZnUaOKiPagW-nbFjaCs4TGDSlKXVq67PNuk,15
+drf_camel_case-1.0.1.dist-info/RECORD,,
