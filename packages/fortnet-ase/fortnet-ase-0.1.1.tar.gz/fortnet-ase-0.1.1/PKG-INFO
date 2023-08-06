@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: fortnet-ase
+Version: 0.1.1
+Summary: Interfacing Fortnet with the Atomic Simulation Environment
+Home-page: https://github.com/vanderhe/fortnet-ase
+Author: T. W. van der Heide
+Author-email: vanderhe@uni-bremen.de
+License: BSD
+Platform: platform independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires: pytest
+Requires: numpy
+Requires: h5py
+Requires: ase
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+
+Interfacing Fortnet with the Atomic Simulation Environment
+----------------------------------------------------------
+fortnet-ase provides an interface between the neural network
+implementation Fortnet and the Atomic Simulation Environment.
+
+
