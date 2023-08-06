@@ -1,0 +1,95 @@
+### Installation
+```shell
+pip install pesepay
+```
+
+### Getting Started
+Import the library into your project/application
+
+```python  
+from pesepay import Pesepay
+```
+
+Create an instance of the `Pesepay` class using your integration key and encryption key as supplied by Pesepay.
+
+```python 
+pesepay = Pesepay("INTEGRATION KEY", "ENCRYPTION KEY");
+```
+
+Set return and result urls
+
+```python 
+pesepay.result_url = 'https://example.com/result'
+pesepay.return_url = 'https://example.com/return'
+```
+
+### Make seamless payment
+
+Create the payment 
+##### NB: Customer email or number should be provided
+
+```python
+payment = pesepay.create_payment('CURRECNCY_CODE', 'PAYMENT_METHOD_CODE', 'CUSTOMER_EMAIL(OPTIONAL)', 'CUSTOMER_PHONE_NUMBER(OPTIONAL)', 'CUSTOMER_NAME(OPTIONAL)')
+```
+
+Create a `dict` of the required fields (if any)
+```python
+required_fields = {'requiredFieldName': 'requiredFieldValue'}
+```
+
+Send of the payment
+```python
+response = pesepay.make_seamless_payment(payment, 'PAYMENT_REASON', 1.00, required_fields)
+
+if response.success:
+    # Save the reference number and/or poll url (used to check the status of a transaction)
+    poll_url = response.pollUrl
+    reference_number = response.referenceNumber
+
+else:
+    # Get Error Message
+    message = response.message
+```
+
+### Make redirect payment
+Create a transaction
+```python
+transaction = pesepay.create_transaction('APP_ID', 'APP_CODE','APP_NAME', amount, 'CURRENCY_CODE', 'PAYMENT_REASON')
+```
+
+Initiate the transaction
+```python
+response = pesepay.initiate_transaction(transaction)
+
+if response.success:
+    # Save the reference number and/or poll url (used to check the status of a transaction)
+    poll_url = response.pollUrl
+    reference_number = response.referenceNumber
+    # Get the redirect url and redirect user to complete transaction   
+    redirect_url = response.redirectUrl
+
+else:
+    # Get Error Message
+    message = response.message
+```
+### Check Payment Status
+#### Method 1: Check using reference number
+```python
+response = pesepay.check_payment(reference_number)
+if response.success:
+    if response.paid:
+        # Payment was successful
+else:
+    # Get Error Message
+    message = response.message
+```
+#### Method 2: Check using poll url
+```python
+response = pesepay.poll_transaction(poll_url)
+if response.success:
+    if response.paid:
+        # Payment was successful
+else:
+    # Get Error Message
+    message = response.message
+```
