@@ -1,0 +1,12 @@
+aurcore/__init__.py,sha256=1vQ988Zw5BBzj5VSa-VqGWZeesw9ELxpsWMhKtUvhtQ,301
+aurcore/aur.py,sha256=ff-Ol_-hEwC8IrG6_CHk6OyUd_ClrsZ7_AHgUK9fSJA,1231
+aurcore/event/__init__.py,sha256=8jpMwlRqPxTH85UrDR7YgJzrZYwJGAhauZnzQZAvFAU,6758
+aurcore/log/__init__.py,sha256=m7V-_aiOZyewI1CUcZ7abkDb0Qh-IS9z1hG62T4ltlo,480
+aurcore/persist/__init__.py,sha256=64G-xkJjJg-KSqbdOrAFrSZZhibs5vQwm6Sq-Z1mQ_g,2488
+aurcore/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aurcore/util/__init__.py,sha256=ZN9ednNfkPU6qAkB6Fct-XonYCBcSS2qIaR2eLQdvxI,1909
+aurcore/util/flattener.py,sha256=AIwDLyjnITehsChx7UmISjlTEKgdMjYzl7d1tqXYoJo,3379
+aurcore/util/tb.py,sha256=yH7-560MBqzGDqTbJDjwv2viXmOwhpM4Y3j88xDVevs,844
+aurcore-1.2.15.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aurcore-1.2.15.dist-info/METADATA,sha256=nOIVopMwIDVUTKQMu1aL6UihLOWPlqfnXCDR5KGjvhM,240
+aurcore-1.2.15.dist-info/RECORD,,
