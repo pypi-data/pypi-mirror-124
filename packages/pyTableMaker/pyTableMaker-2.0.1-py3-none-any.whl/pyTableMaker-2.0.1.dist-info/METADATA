@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyTableMaker
+Version: 2.0.1
+Summary: The module to create, edit and show tables conveniently.
+Home-page: https://github.com/windowsboy111/pyTableMaker
+Author: windowsboy111
+Author-email: wboy111@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ***pyTableMaker***
+**The module to create, edit and show tables conveniently.**
+Supporting python >=3.8
+
+For usages, check docstrs.
+
+
