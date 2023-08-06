@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: rsa_crypto
+Version: 1.0.4
+Summary: Encrypt and decrypt data using RSA certificates.
+Home-page: https://github.com/Christophe-Gauge/rsa_crypto
+Author: Christophe Gauge
+Author-email: chris@videre.us
+License: GNU Lesser General Public License v3 (LGPLv3)
+Description: # rsa_crypto
+        
+        A Python 3 command-line tool and a library for encrypting and decrypting files and/or key/value pairs in a particular section of a configuration file (.ini file).
+        
+        This library uses public/private RSA keys to perform the encryption.
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Security :: Cryptography
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+Description-Content-Type: text/markdown
