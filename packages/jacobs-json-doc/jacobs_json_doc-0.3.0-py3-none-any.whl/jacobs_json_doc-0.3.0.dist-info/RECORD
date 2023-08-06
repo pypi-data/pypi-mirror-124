@@ -1,0 +1,14 @@
+jacobsjsondoc/__init__.py,sha256=uxn-1CN4uTUpd5ELtrw3X3sJ_3bu1fnZXB3VvhJD9-g,458
+jacobsjsondoc/_version.py,sha256=hXFfdeoKdfElGgO3F2z2hcCVZzihkC3sGNcvfrpGRYg,94
+jacobsjsondoc/document.py,sha256=t6WWNL3nmx4kKLAC6jYAr6VmOrmmfPlvljA2GoSSrQk,7697
+jacobsjsondoc/loader.py,sha256=6114mJeXXOeJ1LzC7k37oaJTg-qq6TbI1nojSLEG8S8,612
+jacobsjsondoc/parser.py,sha256=cM17B7HOHJPxnx-KQ0J_3Hno9kYArXbWtRW84n5alWQ,292
+jacobsjsondoc/resolver.py,sha256=ftWl0Np8BxnNG7aMvzjBleaxxErqOgie2C5ApJzlg3A,616
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_document.py,sha256=1sXPDa2fTEwvP0ROOZ5sN9rOvf3ySCJcm6wnlrA5JnQ,6325
+tests/test_quick_parse.py,sha256=aDy74s7pBQiwbQ-x07kwl5xp8oyEsoeRn7li61vZTzA,321
+jacobs_json_doc-0.3.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+jacobs_json_doc-0.3.0.dist-info/METADATA,sha256=rPPaiiUi4r1zCe-1EmhQa5527FWmyeGNAU8mXwIqB3g,4140
+jacobs_json_doc-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jacobs_json_doc-0.3.0.dist-info/top_level.txt,sha256=OIqlTW-zJIBOTXlevqOgoDZKyoWQGV8JkfsZjaifl9k,20
+jacobs_json_doc-0.3.0.dist-info/RECORD,,
