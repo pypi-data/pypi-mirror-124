@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: nowledgeable
+Version: 0.0.21
+Summary: "Nowledgeable answer checker library including python unit test library"
+Home-page: https://gitlab.com/nowledgeable/nowledgeable/-/tree/main/backend/environments/python_utils/packaged
+Author: Laurent CETINSOY
+Author-email: laurent.cetinsoy+pypi@nowledgeable.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/nowledgeable/nowledgeable/-/incidents
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Nowledgeable exercice check
+
+This module let student check their answers outside nowledgeable, anywhere. 
+
+Allows exercices to be run outside the nowledgeable application. 
+
+Allow also testing complex applications
+
+Contain also the python exercice unit framework
+
+## installation 
+
+```bash
+
+pip3 install nowledgeable
+
+```
+
+## usage 
+
+### Exercice checking 
+
+
+Run the following in an exercice containing an exercice with the exercice.yaml specification
+```bash
+
+nowledgeable run-checks
+
+```
+
+or 
+
+```bash
+
+nowledgeable run-checks /path/to/exercice.yaml
+
+```
+
+
+Watching for file update and reruning files automatically
+
+```bash 
+nowledgeable watch
+``` 
+
+
+### using the unit testing library 
+
+
+```python 
+
+
+from python_utils.utils import AnswerTester
+
+tester = AnswerTester() #singleton pattern
+
+## add assertions
+
+
+tester.print_test_output()
+
+```
+#### Exemples
+
+imagine you have the following wording : 
+
+"Code the function multiply_by_two(x) return 2 * x for each x"
+
+You can use  `compare_function`.
+
+for that you need to : 
+
+1. code the proper function
+2. specify a test_inputs variables which will be fed to the student function and the good one.
+
+```python
+
+def solution(x): return 2 * x
+
+tester = AnswerTester()
+
+test_inputs = [
+    [3], # la fonction sera testée avec l'argument x=3
+    [-2],# la fonction sera testée avec l'argument x=-2
+    [random.randint(-3, 3)] #la fonction sera testée avec un x aléatoire entre -3 et 3
+]
+
+tester.compare_functions("nom test", multiply_by_two, solution, test_inputs, "message")
+
+result_status = tester.get_test_output()
+
+result = tester.get_test_output() #A la fin on demande de générer le json
+
+```
+
+
