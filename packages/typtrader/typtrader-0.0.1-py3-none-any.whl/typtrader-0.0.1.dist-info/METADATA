@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: typtrader
+Version: 0.0.1
+Summary: TYP Trader Tool
+Home-page: UNKNOWN
+Author: Phillip Park
+Author-email: ppark9553@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Django
+Requires-Dist: django-cors-headers
+Requires-Dist: django-redis
+Requires-Dist: djangorestframework
+Requires-Dist: djangorestframework-simplejwt
+Requires-Dist: redis
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: python-dotenv
+Requires-Dist: telepot
+Requires-Dist: cointraderkr
+Requires-Dist: tradernetwork
+Requires-Dist: flatten-dict
+
+UNKNOWN
+
+
