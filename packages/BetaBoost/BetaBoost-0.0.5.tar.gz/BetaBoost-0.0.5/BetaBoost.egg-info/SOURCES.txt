@@ -1,0 +1,9 @@
+README.md
+setup.py
+BetaBoost/BetaBoost.py
+BetaBoost/__init__.py
+BetaBoost.egg-info/PKG-INFO
+BetaBoost.egg-info/SOURCES.txt
+BetaBoost.egg-info/dependency_links.txt
+BetaBoost.egg-info/requires.txt
+BetaBoost.egg-info/top_level.txt
