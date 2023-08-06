@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pandas-render
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/nok/pandas-render
+License: BSD-3-Clause
+Author: Darius Morawiec
+Author-email: nok@users.noreply.github.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Dist: Jinja2 (>=3.0.0,<4.0.0)
+Requires-Dist: jupyterlab (>=1.2.6,<2.0.0)
+Requires-Dist: pandas (>=1.0.0,<2.0.0)
+Project-URL: Repository, https://github.com/nok/pandas-render
+Description-Content-Type: text/markdown
+
+# pandas-render
+
+## Installation
+
+```bash
+pip install pandas-render
+```
+
+## License
+
+This package is Open Source Software released under the [BSD-3-Clause](blob/main/LICENSE) license.
+
