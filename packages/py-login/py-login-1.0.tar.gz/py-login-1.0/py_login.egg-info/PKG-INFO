@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: py-login
+Version: 1.0
+Summary: The universel login system
+Home-page: https://github.com/jazzman07/pylogin
+Author: Bernardo A.
+Author-email: bernardo.contato2020@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# PYLOGIN
+
+
+### The project
+Pylogin is colection of codes that provide a simple login system for your web app - site.
+
+### How to use
+After executing the Pylogin initialization script(pylogin)  you can implement you Reactjs project under the Link tag inside log/src/Dashboard.js
+
+### Bugs
+In case that you find a bug report it on github, or send an e-mail to bernardo.contato2020@gmail.com
+
+
+### Instalation
+To install Pylogin, run in a terminal 
+	`pip install pylogin`
+
+----------------------------
+### More information
+To more information - documentation go to ouer site or github
+
+| name   |      link      |  Description |
+|----------|:-------------:|------:|
+| Site |  www.pylogin.it | Big documentation - General inf. |
+| Github | github.com/jazzman07/pylogin/      |  Code - Small Documentation  |
+
+
