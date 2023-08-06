@@ -1,0 +1,11 @@
+py_machine/__init__.py,sha256=G7_nC-DfDLIkYRDJA33evOuWRw9cFo2_cXvEmmWgRjY,120
+py_machine/base74.py,sha256=sixaZDVwvEBnp4VWBjDkv7TGkoGHdoLkZMVvyT-hOxs,544
+py_machine/cell.py,sha256=tHQg_ZHBi_bs-dNUuNe9qzvuxSlwOpPukvWYEH1Ukk0,1117
+py_machine/code_to_level.py,sha256=Ce-8O4Ig9KKnj-j_ZfNAHl4Q67AKElTYiROzYiFVaDg,769
+py_machine/level.py,sha256=P_jbTw8Z_Q7eRBXRyRLoHv4dvNw91WFnXYoP57hFlnI,1274
+py_machine/placeable.py,sha256=ddPDHPpTNC3BICuG0H6SKQ_c_pJDy-3IuAf_bWOkGQk,87
+py_machine_The_Hexagon-0.0.3.dist-info/LICENCE,sha256=f9qf0Y8h6l62zX_juVFJ-GuEtOFyolXsfBzG2-An5cY,211
+py_machine_The_Hexagon-0.0.3.dist-info/METADATA,sha256=-R0O6hCvCa4TyfIIZMoqC4snIIuG20XbcFWtRsyGr3I,782
+py_machine_The_Hexagon-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+py_machine_The_Hexagon-0.0.3.dist-info/top_level.txt,sha256=Dg6zdwmliLTndEBXziZ4iLY2ugqlfU7Qyh43mEwEYrc,11
+py_machine_The_Hexagon-0.0.3.dist-info/RECORD,,
