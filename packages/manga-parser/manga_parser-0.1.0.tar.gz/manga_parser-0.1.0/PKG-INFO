@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: manga_parser
+Version: 0.1.0
+Summary: Convenient manga parser!
+Home-page: https://github.com/Desiders/manga_parser
+Author: Desiders
+License: Apache2
+Project-URL: Source, https://github.com/Desiders/manga_parser
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
