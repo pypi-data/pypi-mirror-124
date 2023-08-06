@@ -1,0 +1,11 @@
+bix_analysis_libraries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bix_analysis_libraries/bix_standard_functions.py,sha256=BNUWhQXl0uQ85s89ONs5qUVkqeORaJcSobpMN2Gl2W4,2372
+bix_analysis_libraries/dark_bias/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bix_analysis_libraries/dark_bias/bix_dark_bias_data_prep.py,sha256=v5CoN0Of_4V5LPP59wq1qJMkr8I8vuW1FJXlPLIh2oE,10362
+bix_analysis_libraries/temperature_degradation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bix_analysis_libraries/temperature_degradation/temperature_degradation_data_prep.py,sha256=KQFEavBhvqBlLMqHdcdSuwRCzvOPeezU5pxeREKvICQ,2128
+bix_analysis_libraries-0.0.3.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+bix_analysis_libraries-0.0.3.dist-info/METADATA,sha256=pfHaPCFxPCz0sCuQ5c3yigenQQAhZJ_sPcRdBks4m6E,2416
+bix_analysis_libraries-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bix_analysis_libraries-0.0.3.dist-info/top_level.txt,sha256=kEoVlKRB4dpvenc12DayKaM-B1w1e4K38XNUPv5RoJU,23
+bix_analysis_libraries-0.0.3.dist-info/RECORD,,
