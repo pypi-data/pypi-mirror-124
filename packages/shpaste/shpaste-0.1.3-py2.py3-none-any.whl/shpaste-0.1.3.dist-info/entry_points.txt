@@ -1,0 +1,3 @@
+[console_scripts]
+shpaste = shpaste:cli
+
