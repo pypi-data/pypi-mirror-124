@@ -1,0 +1,14 @@
+lit_saint/__init__.py,sha256=9lglmt_AyQ1SuDwNM5FFdQbkGK-Qs-RrftnviXhdA9k,131
+lit_saint/augmentations.py,sha256=Ad3iyuO5nRuE7N6fHzoYlbAlTW6pXeU6SrOrtpE1tz8,1497
+lit_saint/config.py,sha256=S-EXYs5zFVepeI2jRHxQoZfgp8AAIYP1E635glxhfFY,4406
+lit_saint/datamodule.py,sha256=pVJbOm6uaZeJbv-CBHExa2ELAqzEWmscYJNCkz1jxI4,7990
+lit_saint/dataset.py,sha256=lNwp421pdb5nOaoN5m3PyIgSI1XptkU5Opi5VfM2ik4,3224
+lit_saint/model.py,sha256=Pg4w3uq5BQuRwvqstilOupcRM0G89twnZYPXOmz-JLI,21544
+lit_saint/modules.py,sha256=GM_E6-GIly1TK8MsAsfBDuqL7cmylHDdWrXMzhU5r0A,8605
+lit_saint/trainer.py,sha256=mKWCAOBlIkVsekulT1GXSwOmAeF0jGxuTSMiiVIpr10,4472
+lit_saint/version.py,sha256=3wVEs2QD_7OcTlD97cZdCeizd2hUbJJ0GeIO8wQIjrk,22
+lit_saint-0.3.0.dist-info/LICENSE,sha256=5KvvrY8BdE3BZmdYBWoQ4aceQq95M1uZxCGHlfTUJbQ,1069
+lit_saint-0.3.0.dist-info/METADATA,sha256=KsZmKGSDpUfdgU0KbtO5YR8RAueV8E31ZdsBHgeRq3I,977
+lit_saint-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+lit_saint-0.3.0.dist-info/top_level.txt,sha256=kpBqnRcnZyb8LJxVbzW4bPROM81-B7dpR6mDv3ToosY,10
+lit_saint-0.3.0.dist-info/RECORD,,
