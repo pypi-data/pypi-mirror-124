@@ -1,0 +1,10 @@
+multiprocessing_stress_tester/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multiprocessing_stress_tester/app.py,sha256=XSQhM1VQKT3rpxsLoMB4ZXo7Z5TyA61iweEb2rjyUyA,7089
+multiprocessing_stress_tester/debugger.py,sha256=t5ILlGaBJlrM4cA-h4PY11AYcb_b_0KgvTl-ILWvSBo,6031
+multiprocessing_stress_tester/templates/index.html,sha256=oNaaJx8m_lfWvuafXapYNCoBIrKWvc1LLkhLyxxJ5QQ,1701
+multiprocessing_stress_tester/templates/scripts.js,sha256=7yqxKkYHzyvJDzNL3W92hFNdZSQmYp5diK5-UkqhBPw,2767
+multiprocessing_stress_tester/templates/showSub.html,sha256=PMe49SzN_7MYg1nksB3nBO2CUG5iwuQ4ijUSjLilxrs,1149
+multiprocessing_stress_tester-0.3.20.dist-info/METADATA,sha256=HUpV6zPfpx29yiLBQ0gl_doTHZlQMZXfL4opULkfxoo,260
+multiprocessing_stress_tester-0.3.20.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+multiprocessing_stress_tester-0.3.20.dist-info/top_level.txt,sha256=7Fg2oJJpHjpQ9EVcO2077gnyQ-TgzpoV-LbzBPxwTfY,30
+multiprocessing_stress_tester-0.3.20.dist-info/RECORD,,
