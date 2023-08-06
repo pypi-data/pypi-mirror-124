@@ -1,0 +1,3 @@
+[console_scripts]
+checkcert=checkcert.checkcert:main
+
