@@ -1,0 +1,8 @@
+unasync_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unasync_cli/__main__.py,sha256=3GdWthNdtnnOaWuEOYcZoUynXBNp70o8lpJFRmKdCm0,48
+unasync_cli/main.py,sha256=Hm9mk_jl_SnmTgLYRbRPn0CTZr-yPuxHirtw75GeXLA,1668
+unasync_cli-0.0.8.dist-info/entry_points.txt,sha256=tRUKzN8u-yoCOrKoJNh-yO1ovEFMmULK0p7vgrZNrtM,48
+unasync_cli-0.0.8.dist-info/LICENSE,sha256=q6upN7jTQaD28mgEY7c4mm_Zbb7DsjFElNknMaWeeRM,1085
+unasync_cli-0.0.8.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+unasync_cli-0.0.8.dist-info/METADATA,sha256=GiyYZCTYxP7d9fHkjBfpiPH9FdImjQKgg4bp5VYcmGw,3717
+unasync_cli-0.0.8.dist-info/RECORD,,
