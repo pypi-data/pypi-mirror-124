@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/colorcluster.egg-info/PKG-INFO
+src/colorcluster.egg-info/SOURCES.txt
+src/colorcluster.egg-info/dependency_links.txt
+src/colorcluster.egg-info/entry_points.txt
+src/colorcluster.egg-info/requires.txt
+src/colorcluster.egg-info/top_level.txt
