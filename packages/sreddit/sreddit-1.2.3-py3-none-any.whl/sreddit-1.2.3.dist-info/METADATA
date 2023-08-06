@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: sreddit
+Version: 1.2.3
+Summary: Web scraper for subreddits
+Home-page: https://github.com/Mandy-cyber/SubRedditScraper
+Author: MandyCyber
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium
+Requires-Dist: time
+Requires-Dist: get-chrome-driver
+
+# SubRedditScraper
+#### *Python package for scraping user-inputted subreddits*
+
+## **MODULES**
+
+MODULES | WHAT THEY DO
+------------ | -------------
+**srtitles** | <ol><li>Navigates to given subreddit</li><li>Scrapes titles of posts</li><li>Scrolls down, and repeats until it reaches the end of the page</li><li>Returns list of all titles found</li><li>_Will eventually put list in a database you can then export._</li></ol>
+**srcontent** | Coming soon
+
+<br>
+
+## **USAGE**
+### _srtitles_
+
+```python
+from sreddit import srtitles
+subRedditName = "name of a subreddit"
+showProgress = "Yes" #if you don't want to show progress then you can leave string blank
+keyWords = ['word', 'wordTwo','wordThree'] #to only gather titles with one or more of these keywords in it. you can leave the list blank ['']
+listOfTitles = srtitles.scrapeMe(subRedditName, showProgess, keyWords)
+print(listOfTitles)
+```
+
+
+
+
+
+
+
