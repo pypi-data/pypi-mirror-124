@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+pynotify/__init__.py
+pynotify/decorator.py
+pynotify/exec_func.py
+pynotify1.egg-info/PKG-INFO
+pynotify1.egg-info/SOURCES.txt
+pynotify1.egg-info/dependency_links.txt
+pynotify1.egg-info/requires.txt
+pynotify1.egg-info/top_level.txt
