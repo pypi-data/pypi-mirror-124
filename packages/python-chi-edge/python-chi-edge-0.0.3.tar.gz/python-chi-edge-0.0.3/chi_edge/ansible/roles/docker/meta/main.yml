@@ -1,0 +1,4 @@
+---
+dependencies:
+  - { role: 'geerlingguy.docker_arm', when: ansible_architecture == 'arm64' }
+  - { role: 'geerlingguy.docker', when: ansible_architecture == 'x86_64' }
