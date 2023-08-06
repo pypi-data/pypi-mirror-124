@@ -1,0 +1,11 @@
+ticktock/__init__.py,sha256=HB4NwROhGDYAXNN0SmckidgdEWEtJcgfXn455mw9o6M,79
+ticktock/config.py,sha256=hwiN4vQU2oQrrXIdrA2JhoG0e7SzxlDPMdiV-oBcoDY,1010
+ticktock/data.py,sha256=i2ZwLvM5tmgvZv59MCCdwjtbeWsLorh0L0p9HKIk59w,1066
+ticktock/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ticktock/std.py,sha256=AtFs-nhV0nipce_SwenOQGC8m2qaLCkzDyF9dyK4hKU,2005
+ticktock/timer.py,sha256=hjSVmhWy_cLKBT7gVoJ-y7krTIYYKy_GmWHBoE-RqaM,4516
+ticktock/utils.py,sha256=oXfG7g49aJk9LR-Y2FOpPDNry9PimOdMQINr5U2k26Y,537
+py_ticktock-0.0.3.dist-info/METADATA,sha256=LqD4DOUgdUHJeGSVwRv3O3G1NbYhIbML3OlNVtckCnE,2121
+py_ticktock-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+py_ticktock-0.0.3.dist-info/top_level.txt,sha256=GeIf5CThMo10chblj_hS_aj5uIzrGvyoSZ8mHSKHX6A,9
+py_ticktock-0.0.3.dist-info/RECORD,,
