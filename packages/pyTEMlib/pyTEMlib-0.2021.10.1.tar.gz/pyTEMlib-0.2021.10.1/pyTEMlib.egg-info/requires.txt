@@ -1,0 +1,12 @@
+scipy
+numpy
+pillow
+simpleITK
+ase
+tqdm
+ipyfilechooser
+scikit-image
+scikit-learn
+pyNSID
+sidpy
+SciFiReaders
