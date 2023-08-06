@@ -1,0 +1,15 @@
+pyshop/__init__.py,sha256=2prjtYHhyi47exSCLM8AAwfk228-Q6Vwikq8l8KPZhQ,38
+pyshop/shop_runner.py,sha256=6ZznLumODyOa8aUiFgMj5HLxYDclzMIlXhDgeuhbMbM,8839
+pyshop/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyshop/helpers/commands.py,sha256=nqa8duPChBcRfLrVx1dj-EjWbpQstnFpBSCpDXwP-ks,1369
+pyshop/helpers/time.py,sha256=nvPuhfsJT7-Sq4qiWdlr0ClE6LIn3sjTO7krHN8hj44,1117
+pyshop/helpers/timeseries.py,sha256=m0P0TwzCMNhObjvMFx5XFBHt_RVJ64f-PVee4aBe2RY,4086
+pyshop/shopcore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyshop/shopcore/command_builder.py,sha256=bpKEA4YaA_G2tR-g4ZsDXeCozras3DM7unmtOdlqzVw,1983
+pyshop/shopcore/model_builder.py,sha256=tvGrpZnv5A8xh0UqZFPVWA4iYUN8Z7dGvR9ijng5orM,20582
+pyshop/shopcore/shop_api.py,sha256=pLZiSZK1xrJQmN6bJNPlsqjh_T4BX3dJfNST7-ti9Hw,12372
+sintef_pyshop-1.0.0.dev3.dist-info/LICENSE,sha256=TTIcPFmiMhePYFEMJOEYAF5ND59oqExJloOzfRQyUHw,1098
+sintef_pyshop-1.0.0.dev3.dist-info/METADATA,sha256=YuBINqgBw0IH9KRmGR0KA-iaR7y7iYCtNY7BtBBD0GM,4667
+sintef_pyshop-1.0.0.dev3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sintef_pyshop-1.0.0.dev3.dist-info/top_level.txt,sha256=VHb0M63aFboaNznVDjH2Kzc4XuXSSZqhwk5Nv6cGGQk,7
+sintef_pyshop-1.0.0.dev3.dist-info/RECORD,,
