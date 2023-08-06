@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: futures-zero
+Version: 0.0b9
+Summary: Parallelization tool with the futures API using ZeroMQ Paranoid Pirate Pattern.
+Home-page: https://github.com/mozjay0619/futures-zero
+Author: Jay Kim
+Author-email: mozjay0619@gmail.com
+License: DSB 3-clause
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+FuturesZero
+===========
+
+Install
+-------
+
+::
+
+	pip install futures-zero
+
