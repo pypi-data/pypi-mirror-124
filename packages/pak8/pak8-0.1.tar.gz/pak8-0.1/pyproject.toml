@@ -1,0 +1,30 @@
+[tool.poetry.dependencies]
+python = "^3.7"
+black = "*"
+docker = "*"
+google-api-python-client = "*"
+google-auth = "*"
+google-cloud-container = "*"
+google-cloud-storage = "*"
+isort = "*"
+kubernetes = "*"
+mypy = "*"
+protobuf = "*"
+pydantic = "*"
+PyGithub = "*"
+pyyaml = "*"
+requests = "*"
+rich = "*"
+typer = "*"
+types-PyYAML = "*"
+typing-extensions = "*"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[tool.poetry]
+name = "pak8"
+version = "0.1"
+description = "pak8"
+authors = ["Ashpreet Bedi <ashpreetbedi@phidata.com>"]
