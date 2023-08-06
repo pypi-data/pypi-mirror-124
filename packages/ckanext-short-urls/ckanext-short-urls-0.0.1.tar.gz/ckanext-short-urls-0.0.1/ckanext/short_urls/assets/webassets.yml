@@ -1,0 +1,4 @@
+Styles:
+    contents:
+        - styles.css
+    output: short_urls/%(version)s_styles.css

@@ -1,0 +1,7 @@
+
+        [ckan.plugins]
+        short_urls=ckanext.short_urls.plugin:ShortUrlsPlugin
+
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
+    
