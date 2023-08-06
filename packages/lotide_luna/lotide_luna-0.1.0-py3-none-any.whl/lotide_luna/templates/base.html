@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% block head %}
+    <title>{% block title %}Luna{% endblock %}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Luna, a web client for lotide">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- General PWA -->
+    <meta name="theme-color" content="#1F1F1F">
+    <!-- iOS Application -->
+    <meta name="apple-mobile-web-app-title" content="Libreddit">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <!-- Android  -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- iOS Logo -->
+    <link href="/touch-icon-iphone.png" rel="apple-touch-icon">
+    <!-- PWA Manifest -->
+    <link rel="manifest" type="application/json" href="/manifest.json">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"> 
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    {% endblock %}
+    </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <header>
+      <a id="logo" href="/">
+        Luna
+        <span id="version">v{{ LUNA_VERSION }}</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="{% url 'timeline' 'all' %}">All</a></li>
+          <li><a href="{% url 'timeline' 'local' %}">Local</a></li>
+          <li><a href="/communities">Communities</a></li>
+        </ul>
+      </nav>
+      {% block search %}{% endblock %}
+      <div id="links">
+        <a id="settings_link" href="/settings">
+          settings
+        </a>
+        <a id="code" href="https://sr.ht/~huyngo/luna">
+          code
+        </a>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    {% block body %}
+    <main>
+      {% block content %}
+      {% endblock %}
+    </main>
+    {% endblock %}
+  </body>
+</html>
+
