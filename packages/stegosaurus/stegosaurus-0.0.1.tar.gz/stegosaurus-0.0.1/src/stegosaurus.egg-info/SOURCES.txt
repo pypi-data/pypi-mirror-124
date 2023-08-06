@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/stegosaurus/__init__.py
+src/stegosaurus/example.py
+src/stegosaurus.egg-info/PKG-INFO
+src/stegosaurus.egg-info/SOURCES.txt
+src/stegosaurus.egg-info/dependency_links.txt
+src/stegosaurus.egg-info/top_level.txt
