@@ -1,0 +1,24 @@
+{
+  "distro": {
+    "openeuler": {
+      "linux-firmware": "",
+      "linux-firmware-whence": "",
+      "lsb_release": "openeuler-lsb",
+      "redhat-rpm-config": "openEuler-rpm-config"
+    }
+  },
+  "release": {
+      "centos": {
+          "7": {
+              "NetworkManager": "",
+              "dhcp-client": ""
+          }
+      }
+  },
+"family": {
+    "redhat": {
+      "lsb_release": "redhat-lsb-core"
+    }
+  }
+}
+
