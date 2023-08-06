@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+plover_delay/__init__.py
+plover_delay.egg-info/PKG-INFO
+plover_delay.egg-info/SOURCES.txt
+plover_delay.egg-info/dependency_links.txt
+plover_delay.egg-info/entry_points.txt
+plover_delay.egg-info/requires.txt
+plover_delay.egg-info/top_level.txt
+plover_delay.egg-info/zip-safe
