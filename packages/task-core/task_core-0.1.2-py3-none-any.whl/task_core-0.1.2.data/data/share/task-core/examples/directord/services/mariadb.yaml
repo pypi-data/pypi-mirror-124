@@ -1,0 +1,62 @@
+id: mariadb
+type: service
+version: 1.0.0
+tasks:
+  - id: init
+    action: run
+    driver: directord
+    provides:
+      - mariadb.init
+    requires:
+      - config.init
+      - network.init
+      - mysql_client.init
+    jobs:
+      - ARG: mysql_root_password SuperSecrete
+      - DNF: mariadb mariadb-server
+      - RUN: >-
+          crudini --set /etc/my.cnf.d/mariadb-server.cnf server skip-name-resolve 1
+      - ADD: >
+          --blueprint files/mariadb/mariadb_bootstrap.sh.j2 /var/lib/mysql/mariadb_bootstrap.sh
+          --chown root
+          --chmod 0700
+      - RUN: bash /var/lib/mysql/mariadb_bootstrap.sh
+
+
+  - id: galera
+    action: run
+    driver: directord
+    provides:
+      - mariadb.galera
+    requires:
+      - config.init
+      - mariadb.init
+      - keepalived.init
+    jobs:
+      - DNF: mariadb-server-galera rsync crudini xinetd
+      - RUN: >-
+          crudini --set /etc/my.cnf.d/galera.cnf mysqld wsrep_on ON
+      - RUN: >-
+          crudini --set /etc/my.cnf.d/galera.cnf mysqld bind-address "{{ tripleo_network_ips[deployment_host] }}"
+      - RUN: >-
+          crudini --set /etc/my.cnf.d/galera.cnf mysqld wsrep_cluster_address "gcomm://{{ tripleo_cluster_addresses | join(',') }}"
+      - RUN: >-
+          crudini --set /etc/my.cnf.d/galera.cnf mysqld wsrep_node_address "{{ tripleo_network_ips[deployment_host] }}"
+      - RUN: >-
+          crudini --set /etc/my.cnf.d/galera.cnf mysqld wsrep_node_name "{{ deployment_host }}"
+      - ADD: >
+          --blueprint files/mariadb/clustercheck.j2 /etc/xinetd.d/clustercheck
+          --chown root
+          --chmod 0700
+      - SERVICE: --restarted --enable xinetd.service
+      - RUN: --run-once galera_new_cluster
+
+  - id: start
+    action: run
+    driver: directord
+    provides:
+      - mariadb.start
+    requires:
+      - mariadb.galera
+    jobs:
+      - SERVICE: --enable mariadb.service

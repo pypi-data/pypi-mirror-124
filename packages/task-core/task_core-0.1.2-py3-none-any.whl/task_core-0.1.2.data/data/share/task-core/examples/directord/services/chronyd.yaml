@@ -1,0 +1,15 @@
+id: chronyd
+type: service
+version: 1.0.0
+tasks:
+  - id: setup
+    action: run
+    driver: directord
+    provides:
+      - chronyd.init
+    requires:
+      - repos.init
+    jobs:
+      - DNF: chrony crudini
+      - SERVICE: --restarted --enable chronyd
+
