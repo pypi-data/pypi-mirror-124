@@ -1,0 +1,11 @@
+LICENSE
+README
+setup.cfg
+setup.py
+RogetThesaurus.egg-info/PKG-INFO
+RogetThesaurus.egg-info/SOURCES.txt
+RogetThesaurus.egg-info/dependency_links.txt
+RogetThesaurus.egg-info/top_level.txt
+roget/10681-body.py
+roget/__init__.py
+roget/roget_parser.py
