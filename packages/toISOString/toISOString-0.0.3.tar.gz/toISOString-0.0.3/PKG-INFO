@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: toISOString
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://github.com/kaleocheng/toISOString
+Author: Kaleo Cheng
+Author-email: kaleocheng@gmail.com
+License: UNKNOWN
+Description: # toISOString
+        this package convert Python Date to Javascript's `Date.prototype.toISOString`
+        
+        ## install
+        
+        ```
+        pip install toISOString
+        ```
+        
+        ## usage
+        
+        ```
+        from datetime import datetime
+        from toISOString import toISOString
+        
+        now = datetime.now()
+        print(toISOString(now))
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
