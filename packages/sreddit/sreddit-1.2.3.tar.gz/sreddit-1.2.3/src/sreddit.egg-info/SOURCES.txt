@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/sreddit/__init__.py
+src/sreddit/srtitles.py
+src/sreddit.egg-info/PKG-INFO
+src/sreddit.egg-info/SOURCES.txt
+src/sreddit.egg-info/dependency_links.txt
+src/sreddit.egg-info/requires.txt
+src/sreddit.egg-info/top_level.txt
