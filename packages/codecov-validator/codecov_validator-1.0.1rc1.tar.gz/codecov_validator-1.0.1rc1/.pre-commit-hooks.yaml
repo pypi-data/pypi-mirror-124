@@ -1,0 +1,7 @@
+-   id: ccv
+    name: codecov validator
+    description: This hook validates your codecov.yml file
+    entry: ccv
+    language: python
+    types: [yaml]
+    pass_filenames: false
