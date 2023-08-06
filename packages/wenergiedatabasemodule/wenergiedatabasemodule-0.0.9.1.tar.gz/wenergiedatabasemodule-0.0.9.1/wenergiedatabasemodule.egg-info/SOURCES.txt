@@ -1,0 +1,9 @@
+README.md
+setup.py
+wenergiedatabasemodule/DataUpload.py
+wenergiedatabasemodule/__init__.py
+wenergiedatabasemodule.egg-info/PKG-INFO
+wenergiedatabasemodule.egg-info/SOURCES.txt
+wenergiedatabasemodule.egg-info/dependency_links.txt
+wenergiedatabasemodule.egg-info/requires.txt
+wenergiedatabasemodule.egg-info/top_level.txt
