@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "with_partial"
+version = "1.0.0"
+description = "A utility for functional piping in Python that allows you to access any function in any scope as a partial."
+authors = ["Michael Milton <michael.r.milton@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/multimeric/WithPartial"
+repository = "https://github.com/multimeric/WithPartial"
+include = [ "LICENSE" ]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.11"
+pipetools = {version = "^1.0.1", optional = true}
+addict = "^2.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+numpy = "^1.21.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.extras]
+pipetools = ["pipetools"]
