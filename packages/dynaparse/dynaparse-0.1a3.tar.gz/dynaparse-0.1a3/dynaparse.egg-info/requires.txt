@@ -1,0 +1,4 @@
+typeguard<3,>=2.5
+numpy<2,>=1.15.0
+pydantic<2,>=1.0
+pyyaml<7,>=3.13
