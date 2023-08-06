@@ -1,0 +1,14 @@
+pillow_heif.libs/libheif-02fef981.so.1.12.0,sha256=VwQw2qjrkWqz7jBQyhIJzTkuQsx8ej4ArqCH_z_vdCA,13356312
+pillow_heif.libs/libde265-89c1a14f.so.0.1.1,sha256=1N2jZhH6Zt4i2Qv7C_Hqf7kaHIac-l5wdMOEC_sWzU0,14708304
+pillow_heif.libs/libx265-7e7a2119.so.199,sha256=08Q2tmRDJCAF4iUuV3vmMR0ZnnwEqZyX_Am7RIGwjGk,2158680
+pillow_heif/error.py,sha256=PVRxCJRGOwN4cPu8Lyt3AMMARlKqvJ9VP1D_iOKPI2w,377
+pillow_heif/constants.py,sha256=jPv90Uug2vvOb6IErQH6NIxNbZetQsI8dWE2PCFExIQ,1395
+pillow_heif/reader.py,sha256=qcU51tY_CCpvPnGfUZaqyHRM2o3HGGiY51WAAvFsivM,10477
+pillow_heif/__init__.py,sha256=G44mI3tL_y3LmawbdbYzcElikIcMvShWb7u3_WiiJmc,2711
+pillow_heif/writer.py,sha256=IK_IkJpaBOkf5PvR2Ki2z-NUeZ-qb8cHP93ZJCwq0o0,52
+pillow_heif/_libheif.abi3.so,sha256=mVa6YXEF6QGRtpoMUOmhkopGaT_0RQYoUrqRJtucntA,450248
+pillow_heif-0.1.3.dist-info/WHEEL,sha256=CdtYEWrHtc5X47KcSSxmzTgyODOCt-se2tHGP9gLcoc,150
+pillow_heif-0.1.3.dist-info/top_level.txt,sha256=j74V0g6eQvjRQz-JY7wvPS6utKRXbPKF0n--mwYHjVU,12
+pillow_heif-0.1.3.dist-info/METADATA,sha256=MAgb9ddB-KmAB2MtRvWKOZelFL820QRStxP77T6lczc,2826
+pillow_heif-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pillow_heif-0.1.3.dist-info/RECORD,,
