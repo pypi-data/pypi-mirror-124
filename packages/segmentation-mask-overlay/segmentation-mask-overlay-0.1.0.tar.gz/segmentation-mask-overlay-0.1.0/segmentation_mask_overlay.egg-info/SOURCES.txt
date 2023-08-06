@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+segmentation_mask_overlay/__init__.py
+segmentation_mask_overlay/label_color.py
+segmentation_mask_overlay/main.py
+segmentation_mask_overlay/utils.py
+segmentation_mask_overlay.egg-info/PKG-INFO
+segmentation_mask_overlay.egg-info/SOURCES.txt
+segmentation_mask_overlay.egg-info/dependency_links.txt
+segmentation_mask_overlay.egg-info/requires.txt
+segmentation_mask_overlay.egg-info/top_level.txt
+segmentation_mask_overlay/examples/cat.jpg
+segmentation_mask_overlay/examples/cat_masked.jpg
