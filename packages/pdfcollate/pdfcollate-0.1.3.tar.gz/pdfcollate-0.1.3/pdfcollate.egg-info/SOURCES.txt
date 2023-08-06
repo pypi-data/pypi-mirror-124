@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pdfcollate/__init__.py
+pdfcollate/event_watcher.py
+pdfcollate.egg-info/PKG-INFO
+pdfcollate.egg-info/SOURCES.txt
+pdfcollate.egg-info/dependency_links.txt
+pdfcollate.egg-info/requires.txt
+pdfcollate.egg-info/top_level.txt
