@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pcwldocker
+Version: 0.1.0
+Summary: pcwl-docker package
+Home-page: https://picocela.com
+Author: Pan Weiyuan
+Author-email: pan@picocela.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://picocela.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pcwl-docker
+
+
