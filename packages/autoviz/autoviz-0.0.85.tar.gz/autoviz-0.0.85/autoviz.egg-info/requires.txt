@@ -1,0 +1,13 @@
+bokeh
+holoviews
+hvplot
+ipython
+jupyter
+matplotlib
+pandas
+scikit-learn
+seaborn
+statsmodels
+wordcloud
+xgboost
+xlrd
