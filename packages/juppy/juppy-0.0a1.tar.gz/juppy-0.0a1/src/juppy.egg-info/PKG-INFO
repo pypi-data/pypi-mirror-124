@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: juppy
+Version: 0.0a1
+Summary: Simple Databases and Storage for projects
+Home-page: https://github.com/alexbronikitin/juppy
+Author: Hamstory Studio
+Author-email: hamstory.game.studio@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/alexbronikitin/juppy/issues
+Description: There is a no description...
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

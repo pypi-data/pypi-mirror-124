@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/juppy/__init__.py
+src/juppy.egg-info/PKG-INFO
+src/juppy.egg-info/SOURCES.txt
+src/juppy.egg-info/dependency_links.txt
+src/juppy.egg-info/top_level.txt
