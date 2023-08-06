@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: test-sandbox
+Version: 0.1
+Summary: Testing something
+Home-page: UNKNOWN
+Author: Tector Pro
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
