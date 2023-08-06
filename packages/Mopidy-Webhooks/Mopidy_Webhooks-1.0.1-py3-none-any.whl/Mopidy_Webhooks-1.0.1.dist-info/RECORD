@@ -1,0 +1,13 @@
+mopidy_webhooks/__init__.py,sha256=QXhbI6c7Mtbju8a0Bc7aTyqj2NPCXuHksx04HrQF7q4,871
+mopidy_webhooks/ext.conf,sha256=ewtq5Ig1SMrRVe6i2qr6E2HYoe8dHTXBxDsfqNhnG5g,88
+mopidy_webhooks/frontend.py,sha256=hQngQ8IxiCvm3VVF4Ow-eK1HzUvYLejqyf5UJW7a_-w,1016
+mopidy_webhooks/utils.py,sha256=SA1k8ZhcLGP6X7XDKgMgg4a-q_ewPCnjl2MSrdEmYY8,1140
+mopidy_webhooks/reporters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mopidy_webhooks/reporters/events.py,sha256=IQhZ8Pm4pdcSs_TTNlKOk4qIdwM7VZSnCBCqxoDy0Os,628
+mopidy_webhooks/reporters/status.py,sha256=GtMJ0h-0uqEVqaWWoj23TSxJrm1Szxx7UigaipFqKX8,1988
+Mopidy_Webhooks-1.0.1.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+Mopidy_Webhooks-1.0.1.dist-info/METADATA,sha256=unJFY8hFftmHzqQaB9qbTxAuzFAL9q6ZzD-gki_-Fq4,4593
+Mopidy_Webhooks-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Mopidy_Webhooks-1.0.1.dist-info/entry_points.txt,sha256=K9b6MYd8xcpcVgWYiYRCvNRGyK48XLlc10QRiOpPGdo,51
+Mopidy_Webhooks-1.0.1.dist-info/top_level.txt,sha256=7K17i3m6bSkrv_7HmpMU-86ePrN7xXU955SgVgNWCIs,16
+Mopidy_Webhooks-1.0.1.dist-info/RECORD,,
