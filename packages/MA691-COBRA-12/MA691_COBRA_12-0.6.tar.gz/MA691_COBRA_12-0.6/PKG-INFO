@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: MA691_COBRA_12
+Version: 0.6
+Summary: Regressions on Boston dataset
+Home-page: https://github.com/beertocode/MA691_COBRA_12
+Author: Sristy
+Author-email: sristy.sharma98@gmail.com
+License: AFL
+Download-URL: https://github.com/beertocode/MA691_COBRA_12/archive/refs/tags/0.6.tar.gz
+Description: UNKNOWN
+Keywords: Cobra,Ridge,Lasso,KNN,Kernel Cobra,MLR
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Academic Free License (AFL)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
