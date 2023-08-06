@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/math_QBD/__init__.py
+src/math_QBD/poisson.py
+src/math_QBD.egg-info/PKG-INFO
+src/math_QBD.egg-info/SOURCES.txt
+src/math_QBD.egg-info/dependency_links.txt
+src/math_QBD.egg-info/top_level.txt
