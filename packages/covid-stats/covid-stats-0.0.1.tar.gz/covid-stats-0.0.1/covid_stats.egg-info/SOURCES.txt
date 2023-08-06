@@ -1,0 +1,8 @@
+README.md
+setup.py
+covid_stats.egg-info/PKG-INFO
+covid_stats.egg-info/SOURCES.txt
+covid_stats.egg-info/dependency_links.txt
+covid_stats.egg-info/top_level.txt
+covidstats/__init__.py
+covidstats/coronavirus.py
