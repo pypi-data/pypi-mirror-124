@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sonotoria
+Version: 0.1.2
+Summary: Jinja expander
+Home-page: https://gitlab.com/neomyte/sonotoria
+Author: Emmanuel Pluot
+Author-email: emmanuel.pluot@gmail.com
+License: N/A
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: pyyaml
+Requires-Dist: jinja2
+
+UNKNOWN
+
+
