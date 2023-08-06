@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: stackdiff
+Version: 1.0.0a0
+Summary: Visualises the changes described by an Amazon Web Services CloudFormation change set
+Home-page: https://github.com/cariad/stackdiff
+Author: Cariad Eccleston
+Author-email: cariad@cariad.earth
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# stackdiff
+
+Visualises the changes described by an Amazon Web Services CloudFormation stack change set
+
+
