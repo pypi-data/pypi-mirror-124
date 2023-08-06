@@ -1,0 +1,15 @@
+loafer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+loafer/dispatchers.py,sha256=V1X8BJ8OV4AVxp3kn576Mwmzw9lfGL2mCKgM6C1hjXU,2517
+loafer/exceptions.py,sha256=xvZU-b-woTje_zAExvrm3nqoAXQENiVWUHep9K5Sl_M,237
+loafer/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+loafer/ext/sentry.py,sha256=6nUt4BfhuFK3zwUYdYjj9_qHaKFpnzSQq4qaxq4Sg4o,329
+loafer/managers.py,sha256=PSEBoSwEi9irYoq7DJaz_XdQG5seNll5jAO4p-1O2FM,2060
+loafer/message_translators.py,sha256=F9McUmkQTRlbZBlDxT_Wvg9ZxIKN9IX3nbem_lNiK7Y,735
+loafer/providers.py,sha256=yoXRR5PR0CeA6uHrcrgMz-HuENCYqO08PaI47uSNHH0,890
+loafer/routes.py,sha256=qdhIO2SM6sNvE44dzgSNG2hv496Bkj-gbgFeujAWVQM,2938
+loafer/runners.py,sha256=gKS4B-6QfQQLXJItRAClq2oRCyxmcM8gyku1tn8FHsU,2497
+loafer/utils.py,sha256=hq5CeamcZ_0Sr9Qp_DVhccF7fdpRJkEDIaLquPRltss,1548
+pydrinker_loafer-1.0.1.dist-info/LICENSE,sha256=vgijz14oDf2qEgc6xvaNjTKwLtdEKEhvNlmpnZzmTQI,1083
+pydrinker_loafer-1.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pydrinker_loafer-1.0.1.dist-info/METADATA,sha256=1rOR5BAEaPU8NUflME7HrppnY197CdArIJT0g5u-gyQ,1770
+pydrinker_loafer-1.0.1.dist-info/RECORD,,
