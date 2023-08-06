@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: conda-souschef
+Version: 0.1.0
+Summary: Project to handle conda recipes
+Home-page: https://github.com/marcelotrevisani/souschef
+Author: Marcelo Duarte Trevisani
+Author-email: marceloduartetrevisani@gmail.com
+License: Apache-2.0
+Project-URL: Source, https://github.com/marcelotrevisani/souschef
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+License-File: AUTHORS
+
+# Souschef
+
+Library to easily manipulate conda recipes.
+
+
