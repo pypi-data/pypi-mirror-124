@@ -1,0 +1,4 @@
+# pep8 and flake8 requirements
+
+pre-commit  # MIT
+pylint >= 2.8.3, < 2.9.0  # GPLv2
