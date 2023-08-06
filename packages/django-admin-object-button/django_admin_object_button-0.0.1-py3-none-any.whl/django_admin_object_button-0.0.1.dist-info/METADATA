@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-admin-object-button
+Version: 0.0.1
+Summary: Add button to django admin rows.
+Home-page: https://github.com/panhaoyu/django-admin-object-button
+Author: Haoyu Pan
+Author-email: panhaoyu.china@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/panhaoyu/django-admin-object-button/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+UNKNOWN
+

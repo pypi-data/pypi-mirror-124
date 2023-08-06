@@ -1,0 +1,12 @@
+django_admin_object_button/__init__.py,sha256=YPf-dXRBkkkUGs2_9qxtPE0UnnMCzU59k22DlghtnlE,170
+django_admin_object_button/admin.py,sha256=Rwy4N6SdF7Vp45JTenQPpqPRqy9DdOaqCVPGnU8sSuw,2216
+django_admin_object_button/apps.py,sha256=CUwW2sDy5_NckNFjfEOp_xQ8ecbnIIYke7KaQamWV-Y,187
+django_admin_object_button/decorators.py,sha256=sUIqUOaTydVM2lq7ZS3YHpVC44PysiUIiP-ZTSuQXaI,4850
+django_admin_object_button/models.py,sha256=4OVMcDDx9fVgBEJ91B7dfMEG2Ni1LRSLJOKzIkVPsKo,60
+django_admin_object_button/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+django_admin_object_button/views.py,sha256=u0FhL7RT5byf5IlcnZEMrcH2TOnQkdfRQU2SjtA26m0,66
+django_admin_object_button/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_object_button-0.0.1.dist-info/METADATA,sha256=dk-doivEw0DZY2HDKNLlP9jJazKi4WRBlUWXqnGAPgA,579
+django_admin_object_button-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_admin_object_button-0.0.1.dist-info/top_level.txt,sha256=7CingyF2tnepjoB5FMmL9AJelG7aY_Go-FW16ZyR1pw,27
+django_admin_object_button-0.0.1.dist-info/RECORD,,
