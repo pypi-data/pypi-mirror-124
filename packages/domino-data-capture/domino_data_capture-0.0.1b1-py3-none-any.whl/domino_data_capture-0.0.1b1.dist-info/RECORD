@@ -1,0 +1,9 @@
+domino_prediction_logging/__init__.py,sha256=mWw3FBUAQ42TB3Ka97Mu-snQoiHY27lV6gcJeChk-oQ,34
+domino_prediction_logging/data_capture_client.py,sha256=-eg6TN9xQRzaI8DbGxeyZUJ5n8ABqJw4N7r3e8U_5TE,3382
+domino_prediction_logging/exception.py,sha256=LDjIBSWzxZ8QTr-eI53bINSlfxXgrod-_H7MoQ4nepI,144
+domino_prediction_logging/logger.py,sha256=EwaqMomx4SgI8QPkGizn8Mt-oKzau0iWkkMp0_mV19o,2606
+domino_prediction_logging/utils.py,sha256=VFxWpFblt90RuzWRuLMHAsfuDHsEhHWcmsZ7BgN4Kmo,781
+domino_data_capture-0.0.1b1.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+domino_data_capture-0.0.1b1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+domino_data_capture-0.0.1b1.dist-info/METADATA,sha256=5wtbPHb7GXFat-n6etolqYLdogP5h6ty4-l50BeDTEY,2837
+domino_data_capture-0.0.1b1.dist-info/RECORD,,
