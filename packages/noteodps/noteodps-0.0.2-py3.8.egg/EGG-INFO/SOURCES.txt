@@ -1,0 +1,8 @@
+README.md
+setup.py
+noteodps/__init__.py
+noteodps.egg-info/PKG-INFO
+noteodps.egg-info/SOURCES.txt
+noteodps.egg-info/dependency_links.txt
+noteodps.egg-info/requires.txt
+noteodps.egg-info/top_level.txt
