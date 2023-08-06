@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: grobid-tei-xml
+Version: 0.1.0
+Summary: parser and transforms for GROBID-flavor TEI-XML
+Home-page: https://gitlab.com/internetarchive/grobid_tei_xml
+Author: Bryan Newbold
+Author-email: bnewbold@archive.org
+License: UNKNOWN
+Description: 
+        `grobid_tei_xml`: Python parser and transforms for GROBID-flavor TEI-XML
+        ========================================================================
+        
+        This is a simple python library for parsing the TEI-XML structured documents
+        returned by [GROBID](https://github.com/kermitt2/grobid), a machine learning
+        tool for extracting text and bibliographic metadata from research article PDFs.
+        
+        TEI-XML is a standard format, and there exist other libraries to parse entire
+        documents and work with annotated text. This library is focused specifically on
+        extracting "header" metadata from document (eg, title, authors, journal name,
+        volume, issue), content in flattened text form (full abstract and body text as
+        single strings, for things like search indexing), and structured citation
+        metadata.
+        
+        
+        ## Quickstart
+        
+        `grobid_tei_xml` works with Python 3, using only the standard library. It does
+        not talk to the GROBID HTTP API or read files off disk on it's own, but see
+        examples below. The library is packaged on [pypi.org](https://pypi.org).
+        
+        Install using `pip`, usually within a `virtualenv`:
+        
+            pip install grobid_tei_xml
+        
+        The main entry points are the function `process_document_xml(xml_text)` and
+        `process_citations_xml(xml_text)`, which return python dataclass objects. The
+        helper method `.to_dict()` can be useful for, eg, serializing these objects to
+        JSON.
+        
+        
+        ## Usage Examples
+        
+        Read an XML file from disk, parse it, and print to stdout as JSON:
+        
+        ```python
+        import json
+        import grobid_tei_xml
+        
+        xml_path = "./tests/files/small.xml"
+        
+        with open(xml_path, 'r') as xml_file:
+            doc = grobid_tei_xml.parse_document_xml(xml_file.read())
+        
+        print(json.dumps(doc.to_dict(), indent=2))
+        ```
+        
+        Use `requests` to download a PDF from the web, submit to GROBID (via HTTP API),
+        parse the TEI-XML response with `grobid_tei_xml`, and print some metadata
+        fields:
+        
+        ```python
+        import requests
+        import grobid_tei_xml
+        
+        pdf_resp = requests.get("https://arxiv.org/pdf/1802.01168v3")
+        pdf_resp.raise_for_status()
+        
+        grobid_resp = requests.post(
+            "https://cloud.science-miner.com/grobid/api/processFulltextDocument",
+            files={
+                'input': pdf_resp.content,
+                'consolidate_Citations': 0,
+                'includeRawCitations': 1,
+            },
+            timeout=60.0,
+        )
+        grobid_resp.raise_for_status()
+        
+        doc = grobid_tei_xml.parse_document_xml(grobid_resp.text)
+        
+        print("title: " + doc.header.title)
+        print("authors: " + ", ".join([a.name for a in doc.header.authors]))
+        print("doi: " + str(doc.header.doi))
+        print("citation count: " + str(len(doc.citations)))
+        print("abstract: " + doc.abstract)
+        ```
+        
+        Use `requests` to submit a "raw" citation string to GROBID for extraction,
+        parse the response with `grobid_tei_xml`, and print the structured output to
+        stdout:
+        
+        ```python
+        import requests
+        import grobid_tei_xml
+        
+        raw_citation = "Kvenvolden K.A. and Field M.E. 1981. Thermogenic hydrocarbons in unconsolidated sediment of Eel River Basin, offshore northern California. AAPG Bulletin 65:1642-1646"
+        
+        grobid_resp = requests.post(
+            "https://cloud.science-miner.com/grobid/api/processCitation",
+            data={
+                'citations': raw_citation,
+                'consolidateCitations': 0,
+            },
+            timeout=10.0,
+        )
+        grobid_resp.raise_for_status()
+        
+        citation = grobid_tei_xml.parse_citations_xml(grobid_resp.text)[0]
+        print(citation)
+        ```
+        
+        ## See Also
+        
+        [`grobid_client_python`](https://github.com/kermitt2/grobid_client_python):
+        Python client and CLI tool for making requests to GROBID via HTTP API. Returns
+        TEI-XML; could be used with this library (`grobid_tei_xml`) for parsing into
+        python object or, eg, JSON.
+        
+        [GROBID Documentation](https://grobid.readthedocs.io/en/latest/)
+        
+        [s2orc-doc2json](https://github.com/allenai/s2orc-doc2json): Python library
+        from AI2 which includes a similar Python library for extracting both
+        bibliographic metadata and (structured) full text from GROBID TEI-XML. Has nice
+        features like resolving references to bibliography entry.
+        
+        [delb](https://github.com/funkyfuture/delb): more flexible/powerful interface
+        to TEI-XML documents. would be a better tool for working with structured text
+        (body, abstract, etc)
+        
+        ["Parsing TEI XML documents with
+        Python"](https://komax.github.io/blog/text/python/xml/parsing_tei_xml_python/)
+        (2019): blog post about basic parsing of GROBID TEI-XML files into Pandas
+        DataFrames
+        
+        
+        ## License
+        
+        This library is available under the permissive MIT License. See `LICENSE.txt`
+        for a copy.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
