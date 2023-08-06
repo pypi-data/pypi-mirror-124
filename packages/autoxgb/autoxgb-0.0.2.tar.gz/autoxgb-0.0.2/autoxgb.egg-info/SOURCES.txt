@@ -1,0 +1,7 @@
+README.md
+setup.py
+autoxgb.egg-info/PKG-INFO
+autoxgb.egg-info/SOURCES.txt
+autoxgb.egg-info/dependency_links.txt
+autoxgb.egg-info/requires.txt
+autoxgb.egg-info/top_level.txt
