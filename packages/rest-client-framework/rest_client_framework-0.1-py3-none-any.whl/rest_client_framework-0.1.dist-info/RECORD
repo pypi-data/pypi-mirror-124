@@ -1,0 +1,12 @@
+tests/__init__.py,sha256=cqTYs2qDjEmd1ZGxmogcIi2mkGylcKDfbde8yX77rZA,118
+tests/client.py,sha256=et6aUDgj1_4Ifm3_xHu0dz44XqhGJW-ql6mTRNAzsAA,4882
+tests/datastructures.py,sha256=SfjCWJJR0RlfslHAE-OK1pckuUL2G_1R0G9atqJifck,3733
+tests/request.py,sha256=quHXzYypClNO_O0q7_208FPCDYrOo2UrGVBHibqDkkA,5829
+tests/response.py,sha256=QEm4xE4IWHaHRRTYIWQ4DBKxS1xr8lU96Y5jAhhX02U,6611
+tests/rest.py,sha256=WCzwSGSqpeK2Ej6OzY_q6ZPB9eKex1ZXHWyF0Vw9oOc,33301
+tests/utils.py,sha256=swo8rMVHe503W-kNF-UVzMi3dar2urIkucmW0CGeJYg,3384
+rest_client_framework-0.1.dist-info/COPYING,sha256=Ah_JryWnk8CJuBG2AUxN3TNsBs1PKqgEeZXTLXQbEeU,34501
+rest_client_framework-0.1.dist-info/METADATA,sha256=HXjIXzh7D_95wJIxuREaohyQCgdU-_L_EMAzdMEASKo,40402
+rest_client_framework-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+rest_client_framework-0.1.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+rest_client_framework-0.1.dist-info/RECORD,,
