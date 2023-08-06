@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+palehacker/Main.py
+palehacker/__init__.py
+palehacker.egg-info/PKG-INFO
+palehacker.egg-info/SOURCES.txt
+palehacker.egg-info/dependency_links.txt
+palehacker.egg-info/requires.txt
+palehacker.egg-info/top_level.txt
