@@ -1,0 +1,29 @@
+<header>
+        
+    <div class="container">
+        <div class="logo">
+            <a href="{{ url_for('site.index') }}"><img src=" {{ url_for('static', filename='favicon.png') }}" alt="logo"></a>
+            <div class="intro">
+                <h2> Local Repo Python </h2>
+                <p> Todos tus paquetes preferidos hospedados en tu computadora.</p>
+            </div>
+        </div>
+
+        {% include 'blocks/navbar.html' %}
+        
+        {% if terminal %}
+            <div class="terminal">
+                <div class="console">
+                    <p class="path">C:\</p>
+                    <p class="comand">pip install --index-url="http://127.0.0.1:5000/simple/" [nombre_paquete]</p>
+                </div>
+                <div class="explanation">
+                    <h3>La forma más simple de usar</h3>
+                    <p>El comando anterior es la forma mas facil y rápida de usar el repositorio local en la instalacion de paquetes, el unico requisito es descargar el paquete previamente y añadirlo al repositorio. </p>
+                </div>
+            </div>
+        {% endif %}
+
+    </div>       
+
+</header>  
