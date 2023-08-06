@@ -1,0 +1,3 @@
+rudder-sdk-python>=1.0.0b1
+UnleashClient>=4.4.1
+python-dotenv>=0.19.1
