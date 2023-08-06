@@ -1,0 +1,149 @@
+# jarpyvscode
+
+![pipeline badge](https://gitlab.com/jar1/jarpyvscode/badges/main/pipeline.svg)
+![pytest badge](https://gitlab.com/jar1/jarpyvscode/-/jobs/artifacts/main/raw/pytest.svg?job=pytest)
+![coverage badge](https://gitlab.com/jar1/jarpyvscode/-/jobs/artifacts/main/raw/coverage.svg?job=pytest)
+![black badge](https://gitlab.com/jar1/jarpyvscode/-/jobs/artifacts/main/raw/black.svg?job=black)
+![flake8 badge](https://gitlab.com/jar1/jarpyvscode/-/jobs/artifacts/main/raw/flake8.svg?job=flake8)
+![mypy badge](https://gitlab.com/jar1/jarpyvscode/-/jobs/artifacts/main/raw/mypy.svg?job=mypy)
+![isort badge](https://gitlab.com/jar1/jarpyvscode/-/jobs/artifacts/main/raw/isort.svg?job=isort)
+![vulture badge](https://gitlab.com/jar1/jarpyvscode/-/jobs/artifacts/main/raw/vulture.svg?job=vulture)
+![docs badge](https://gitlab.com/jar1/jarpyvscode/-/jobs/artifacts/main/raw/docs.svg?job=docs)
+
+## Documentation
+
+Find the docs at https://jar1.gitlab.io/jarpyvscode
+
+## Steps to create project
+
+### Create blank Visual Studio Code extension
+
+```bash
+cd ~/repos
+yo code
+
+# ? What type of extension do you want to create? (Use arrow keys)
+# ❯ New Extension (TypeScript)
+
+# ? What's the name of your extension? ()
+# ❯ jarpyvscode
+
+# ? What's the identifier of your extension? (jarpyvscode)
+# ❯ jarpyvscode
+
+# ? What's the description of your extension? ()
+# ❯ Jamil Raichouni's personal Visual Studio Code Extension
+
+# ? Initialize a git repository? (Y/n) n
+
+# ? Bundle the source code with webpack? (y/N) y
+
+# ? Which package manager to use? (Use arrow keys)
+# ❯ npm
+#   yarn
+
+cd jarpyvscode
+git init
+touch .gitignore
+
+```
+
+Put the following into the `.gitignore`:
+
+```bash
+.vscode-test/
+dist/
+node_modules/
+out/
+
+*.vsix
+
+```
+
+### Version control
+
+Before we continue, we store the fresh extension in an VCS.
+
+```bash
+git remote add origin git@gitlab.com:jar1/jarpyvscode.git
+git add .
+git commit -m "Initial commit"
+
+```
+
+### Initialise Python poetry project
+
+```bash
+poetry init
+
+# Package name [jarpyvscode]:
+# ❯ jarpyvscode
+
+# Would you like to define your main dependencies interactively? (yes/no) [yes]
+# ❯ no
+
+# Would you like to define your development dependencies interactively? (yes/no) [yes]
+# ❯ no
+```
+
+Add dependencies:
+
+```bash
+poetry add click json5 pandas psutil loguru
+poetry add --dev black doc8 flake8 flake8-builtins flake8-docstrings flake8-isort flake8-quotes flake8-rst-docstrings isort jupyter notebook pydocstyle pytest pytest-cov pytest-xdist Sphinx sphinx-autobuild sphinx-rtd-theme
+```
+
+---
+
+WE RECOMMEND INCLUDING THE FOLLOWING SECTIONS:
+
+## Features
+
+Describe specific features of your extension including screenshots of your extension in
+action. Image paths are relative to this README file.
+
+For example if there is an image subfolder under your extension project workspace:
+
+\!\[feature X\]\(images/feature-x.png\)
+
+> Tip: Many popular extensions utilize animations. This is an excellent way to show off
+> your extension! We recommend short, focused animations that are easy to follow.
+
+## Requirements
+
+If you have any requirements or dependencies, add a section describing those and how to
+install and configure them.
+
+## Extension Settings
+
+Include if your extension adds any VS Code settings through the
+`contributes.configuration` extension point.
+
+For example:
+
+This extension contributes the following settings:
+
+- `myExtension.enable`: enable/disable this extension
+- `myExtension.thing`: set to `blah` to do something
+
+## Known Issues
+
+Calling out known issues can help limit users opening duplicate issues against your
+extension.
+
+## Release Notes
+
+see `CHANGELOG.md`
+
+---
+
+## Following extension guidelines
+
+Ensure that you've read through the extensions guidelines and follow the best practices
+for creating your extension.
+
+- [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+
+```
+
+```
