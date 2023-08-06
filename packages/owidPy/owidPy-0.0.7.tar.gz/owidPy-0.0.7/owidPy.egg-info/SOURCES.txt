@@ -1,0 +1,6 @@
+setup.py
+owidPy/__init__.py
+owidPy.egg-info/PKG-INFO
+owidPy.egg-info/SOURCES.txt
+owidPy.egg-info/dependency_links.txt
+owidPy.egg-info/top_level.txt
