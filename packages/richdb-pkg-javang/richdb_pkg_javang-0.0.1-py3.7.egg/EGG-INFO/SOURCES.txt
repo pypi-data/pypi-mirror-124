@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/richdb/__init__.py
+src/richdb/richdb.py
+src/richdb_pkg_javang.egg-info/PKG-INFO
+src/richdb_pkg_javang.egg-info/SOURCES.txt
+src/richdb_pkg_javang.egg-info/dependency_links.txt
+src/richdb_pkg_javang.egg-info/top_level.txt
