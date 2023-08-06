@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: anisocado
+Version: 0.2.1
+Summary: Generate off-axis SCAO PSFs for the ELT
+Home-page: https://github.com/astronomyk/anisocado
+Author: Eric Gendron, Kieran Leschinski
+Author-email: kieran.leschinski@univie.ac.at
+License: GNU general public license
+Description: # AnisoCADO
+        
+        [![Tests](https://github.com/AstarVienna/AnisoCADO/actions/workflows/tests.yml/badge.svg)](https://github.com/AstarVienna/AnisoCADO/actions/workflows/tests.yml)
+        [![Documentation Status](https://readthedocs.org/projects/anisocado/badge/?version=latest)](https://anisocado.readthedocs.io/en/latest/?badge=latest)
+        
+        [![Build Status](http://github-actions.40ants.com/AstarVienna/AnisoCADO/matrix.svg)](https://github.com/AstarVienna/AnisoCADO)
+        
+        [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+        
+        
+        A python package to generate off-axis PSFs for the SCAO mode for the ELT
+        
+        Please note: this package is not yet finished yet! The code is fine, but the 
+        documentation is lacking.
+        
+        ## Documentation
+        
+        Apropos documentation. It can be found here:
+        [https://anisocado.readthedocs.io/en/latest/index.html](https://anisocado.readthedocs.io/en/latest/index.html)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Description-Content-Type: text/markdown
