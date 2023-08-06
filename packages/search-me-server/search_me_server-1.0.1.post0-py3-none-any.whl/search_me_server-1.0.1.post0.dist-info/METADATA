@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: search-me-server
+Version: 1.0.1.post0
+Summary: Minimal server implementation for package search-me
+Home-page: https://bit.ly/bitbucket-search-me-server
+Author: Michael R. Kisel
+Author-email: deploy-me@yandex.ru
+License: MIT
+Keywords: aiohttp search,aiohttp server,async downloader,async parser,async pdf parse,async pdf report,async scraper,async search,async search-me server,async search-me,async server,async social search,async,downloader,facebook,google,instagram,parser,pdf parse,pdf report,rambler,scraper,search,search-me server,search-me,searx,snapchat,social downloader,social search,socials,telegram,text summary,tumblr,twitter,vk,web downloader,web scraper,web search,web social search,youtube
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Sociology
+Classifier: Topic :: Software Development
+Requires-Python: >=3.7.1
+Description-Content-Type: text/markdown
+Requires-Dist: search-me
+
+<p align="center">
+    <a href="https://bit.ly/search-me-server"><img src="https://bit.ly/search-me-server-logo" width="500px" alt="SEARCH-ME-SERVER"></a>
+</p>
+<p align="center">
+    <a href="https://bit.ly/search-me-server-paypal"><img src="https://bit.ly/search-me-server-logo-paypal" width="200px" alt="PayPal"></a>
+</p>
+<p align="center">
+    <a href="https://pypi.org/project/search-me-server"><img src="https://img.shields.io/pypi/v/search-me-server.svg?style=flat-square&logo=appveyor" alt="Version"></a>
+    <a href="https://pypi.org/project/search-me-server"><img src="https://img.shields.io/pypi/l/search-me-server.svg?style=flat-square&logo=appveyor" alt="License"></a>
+    <a href="https://pypi.org/project/search-me-server"><img src="https://img.shields.io/pypi/pyversions/search-me-server.svg?style=flat-square&logo=appveyor" alt="Python"></a>
+    <a href="https://pypi.org/project/search-me-server"><img src="https://img.shields.io/pypi/status/search-me-server.svg?style=flat-square&logo=appveyor" alt="Status"></a>
+    <a href="https://pypi.org/project/search-me-server"><img src="https://img.shields.io/pypi/format/search-me-server.svg?style=flat-square&logo=appveyor" alt="Format"></a>
+    <a href="https://pepy.tech/project/search-me-server"><img src="https://static.pepy.tech/personalized-badge/search-me-server?period=total&units=international_system&left_color=black&right_color=blue&left_text=Downloads" alt="Downloads"></a>
+    <br><br><br>
+</p>
+
+# ASYNC SEARCH-ME-SERVER
+
+## PRE-INSTALLING
+
+Look the page of [search-me](https://bit.ly/search--me)
+
+## INSTALLING
+
+```bash
+pip install search-me-server
+```
+
+## SERVER
+
+```python
+import logging
+from search_me import Google
+from search_me_server import SearchMeServer
+
+
+logging.basicConfig(level=logging.DEBUG)
+
+
+server = SearchMeServer(
+    log=True,
+    log_options={
+        'file': 'main.log',
+        'size': 100000000,
+        'format': '%(asctime)s	|	%(levelname)s	|	%(message)s',
+        'buffer': 16384
+        },
+    server={
+        'host': '127.0.0.1',
+        'port': 8080,
+        'api': '/',
+        'log_format': '%t	|	%s	|	%a	|	%Tf'
+        },
+    engine=Google(
+        **{
+            "app": {
+                "interactive": False
+                },
+            "web": {},
+            "pdf": {},
+            "social": {}
+        }
+    )
+    )
+# Logs enable on http://127.0.0.1:8080/logs
+# server = SearchMeServer()
+server.run()
+
+```
+
+## CLIENT
+
+```python
+import asyncio
+import aiohttp
+
+
+async def main(server, q):
+    async with aiohttp.ClientSession() as session:
+        async with session.post(f"{server}?q={q}") as resp:
+            async for data, chunk in resp.content.iter_chunks():
+                if chunk:
+                    print(data)
+
+
+SERVER_URL = "http://127.0.0.1:8080/"
+Q = "0X0007EE"
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main(
+    server=SERVER_URL,
+    q=Q
+    ))
+
+```
+
+
