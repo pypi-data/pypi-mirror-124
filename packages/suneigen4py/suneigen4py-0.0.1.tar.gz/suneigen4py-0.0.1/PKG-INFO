@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: suneigen4py
+Version: 0.0.1
+Summary: A C++ wrapper with a python interface to SUNDIALS.
+Home-page: UNKNOWN
+Author: Kristian Meyer
+Author-email: km@meyerct.com
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
+License-File: LICENSE
+
+This package provides a C++ interface to SUNDIALS. It uses EIGEN for vector/matrix operations as well as linear algebra.
+
