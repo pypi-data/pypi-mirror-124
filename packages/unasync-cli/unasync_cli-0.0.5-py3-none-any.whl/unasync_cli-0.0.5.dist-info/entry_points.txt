@@ -1,0 +1,3 @@
+[console_scripts]
+unasync=unasync_cli.main:app
+
