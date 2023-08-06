@@ -1,0 +1,12 @@
+cytolk/SAAPI64.dll,sha256=XnJW3khvqR9f19PTZQ5_bmC3W2pgsJUlrYysDUvOKas,85984
+cytolk/__init__.py,sha256=etrq_U3tUjEqU7J_qX84Dv-XyOjeN5drQ3aHVWUgJwk,18
+cytolk/__main__.py,sha256=25ikkpYJ5HhjDCy4WFUjbIhGR950qeC1EMD6kwuRDlg,985
+cytolk/nvdaControllerClient64.dll,sha256=QcH131mX55j8-_fI8lid6BHnaLBppgcQYAz1fLI6Cwk,153600
+cytolk/tolk.cp38-win_amd64.pyd,sha256=_C12bySqXuNcr9H_P_QYzshsjQNtmiSePUMd-HXOgy4,102400
+cytolk/util.py,sha256=ASvOiIQBRH4kC-rmYWvW7xllfHUJfI8P_C3y8exaDPY,326
+cytolk-0.1.10.dist-info/LICENSE,sha256=9vJ5-vhKSuyPW6AuocM00JD0skxNaQL-ldd7Mv7S0Eg,1082
+cytolk-0.1.10.dist-info/METADATA,sha256=3B8B1r7hbpd_S6Ma78Jq3Ngz6zE9Lj3Hk7rR9Isgqaw,7350
+cytolk-0.1.10.dist-info/WHEEL,sha256=P24hRDQapckAvHvgBBzlH5uw6rQ_oZQtKbG6drGrqOM,100
+cytolk-0.1.10.dist-info/entry_points.txt,sha256=oz4C8up1mtRBwesHHZBQtUXsET3wpp8Vz6C_B-I07GA,44
+cytolk-0.1.10.dist-info/top_level.txt,sha256=TIfkihfEPKmp73nv882BzvTl7PUH0pq3Mt1nORteJ3I,7
+cytolk-0.1.10.dist-info/RECORD,,
