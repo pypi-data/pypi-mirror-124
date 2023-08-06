@@ -1,0 +1,11 @@
+muffin>=0.86
+motor>=2.5.1
+
+[build]
+bump2version
+wheel
+
+[tests]
+pytest
+pytest-aio
+pytest-mypy
