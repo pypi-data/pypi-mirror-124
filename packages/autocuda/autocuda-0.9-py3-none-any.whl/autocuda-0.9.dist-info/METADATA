@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: autocuda
+Version: 0.9
+Summary: This package provides the function to auto-choose the cuda device hase largest free memory in Pytorch
+Home-page: https://github.com/yangheng95/autocuda
+Author: Yang Heng
+Author-email: yangheng@m.scnu.edu.cn
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+UNKNOWN
+
+
