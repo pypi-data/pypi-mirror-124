@@ -1,0 +1,8 @@
+README.md
+main.c
+read.c
+setup.py
+transfer_pyobjects.egg-info/PKG-INFO
+transfer_pyobjects.egg-info/SOURCES.txt
+transfer_pyobjects.egg-info/dependency_links.txt
+transfer_pyobjects.egg-info/top_level.txt
