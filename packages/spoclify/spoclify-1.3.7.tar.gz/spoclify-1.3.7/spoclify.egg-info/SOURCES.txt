@@ -1,0 +1,13 @@
+README.md
+setup.py
+spoclify/__init__.py
+spoclify/commands.py
+spoclify/formatting.py
+spoclify/scopes.py
+spoclify/utils.py
+spoclify.egg-info/PKG-INFO
+spoclify.egg-info/SOURCES.txt
+spoclify.egg-info/dependency_links.txt
+spoclify.egg-info/not-zip-safe
+spoclify.egg-info/requires.txt
+spoclify.egg-info/top_level.txt
