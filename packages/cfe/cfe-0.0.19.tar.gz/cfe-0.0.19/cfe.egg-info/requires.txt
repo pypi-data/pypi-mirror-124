@@ -1,0 +1,6 @@
+pip
+packaging
+fire<0.5.0,>=0.4.0
+linode-api4<6.0.0,>=5.2.0
+
+[dev]
