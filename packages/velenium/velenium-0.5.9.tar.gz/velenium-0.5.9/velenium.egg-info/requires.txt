@@ -1,0 +1,6 @@
+opencv-python
+Pillow
+imutils
+numpy
+Appium-Python-Client
+selenium
