@@ -1,0 +1,3 @@
+[console_scripts]
+specter = specter.__main__:main
+
