@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Index</title>
+    <meta name='api-version' value='2' />
+</head>
+<body>
+    {% for pkg in packages %}
+        <a href="{{ url_for('simple.pakage', pakage=pkg) }}/">{{ pkg }}</a><br />
+    {% endfor %}
+</body>
+</html>

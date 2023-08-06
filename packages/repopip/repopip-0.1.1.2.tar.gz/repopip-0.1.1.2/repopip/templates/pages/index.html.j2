@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+    
+{% block content %}
+
+<div class="container">
+    <div class="characteristics">
+        <div class="characteristic">
+            <h3 class="title">Facil de usar</h3>
+            <p class="desccription">Nunca ha sido mas facil tener un repositorio de paquetes en tu computadora. Esta es la forma mas sencilla y simple de hospedar tus paquetes preferidos y tenerlos disponible para trabajar.</p>
+        </div>
+        <div class="characteristic">
+            <h3 class="title">Multiplataforma</h3>
+            <p class="desccription">Aplicación apta para todos los sistemas operativos. El proceso de instalacion solo requiere python y algunos paquetes para ejecutarse, debido a que todo esto es multiplataforma la aplicacion hereda el mismo comportamiento.</p>
+        </div>
+        <div class="characteristic">
+            <h3 class="title">Configurable</h3>
+            <p class="desccription">La flexibilidad en la configuración deriva de la flexibilidad del gestor de paquetes pip. En futuras versiones del proyecto planeamos implementar funcionalidades que permitan una configuración automatica. Y extender las opcions de configuración a los demas gestores de paquetes de python.</p>
+        </div>
+        <div class="characteristic">
+            <h3 class="title">Trabaja offline</h3>
+            <p class="desccription">Una ves que tengas el repositorio configurado y los paquetes agregados nada te impide poder trabajar de forma offline. Si aun así necesitas de conexión a internet para trabajar usar esta app te permitira ahorar ancho de banda y datos móviles.</p>
+        </div>
+    </div>
+
+    <div class="guide">
+
+        <h2 class="guide-title">Guía de uso</h2>
+        <p>Con esta aplicación puedes tener un repositorio local de paquetes de python. Todo lo que tienes que hacer es descargar el paquete que desees e iniciar el servidor, así ahorraras ancho de banda y datos de internet.</p>
+
+        <h3 class="guide-subtitle">Instalacíon:</h3>
+
+        <div class="console">
+            <p class="path">C:\</p>
+            <p class="comand">$ pip install repopip</p>
+        </div>
+
+        <h3 class="guide-subtitle">Uso:</h3>
+        <ol id="steps">
+            <li>Tienes que descargar el paquete del repositorio oficial <span class="code">pip download [package_name]</span>.</li>
+            <li>Copia el paquete a la carpeta <strong>%HOME%/.static/simple</strong>.</li>
+            <li>
+                Inicia el servidor <span class="code">python -m repopip</span>. Este comando iniciara el servidor en <a href="http://127.0.0.1:5000/">http://127.0.0.1:5000/</a>.
+            </li>
+            <li>Comienza a usar tu servidor. <span class="code">pip install --index-url="http://127.0.0.1:5000/simple/" [package_name]</span>.
+                <ul>
+                    <li>
+                        Puedes configurar pip copiado las lineas siguiente en una de las siguientes ubicaciones y el paso anterior seria tan simlpe como <span class="code">pip install [package_name]</span>:
+                        <ul>
+                            <li><strong>Global:</strong> C:\ProgramData\pip\pip.ini</li>
+                            <li><strong>User:</strong> %APPDATA%\pip\pip.ini o con la opcion antigua %HOME%\pip\pip.ini</li>
+                            <li><strong>Site:</strong> %VIRTUAL_ENV%\pip.ini</li>
+                        </ul>
+                        <div class="config">
+                            <p class="scope">[global]</p>
+                            <p class="conf">index-url=http://127.0.0.1:5000/simple/</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                También se puede usar remmotamente, solo necesitas saber la dirección donde esta alojado el servidor <span class="code">pip install --index-url="http://direccion_de_dominio_o_ip/simple/" [package_name]</span> además de poderse configurar como el paso anterior
+                <ul>
+                    <li>En futuras versiones haremos el proceso de configuración más facil.</li>
+                </ul>
+            </li>
+        </ol>
+
+    </div>
+</div>
+    
+
+{% endblock content %}
