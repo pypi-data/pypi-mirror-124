@@ -1,0 +1,11 @@
+__version__ = "2.1.1"
+__git_commiter_name__ = "Jenkins CI"
+__git_commiter_email__ = "noreply@infinidat.com"
+__git_branch__ = 'develop'
+__git_remote_tracking_branch__ = 'origin/develop'
+__git_remote_url__ = 'git@github.com:Infinidat/infi.clickhouse_orm'
+__git_head_hash__ = '232a8d29ad237c833d3c851e1d61989ff55d7bd8'
+__git_head_subject__ = 'Finished Release v2.1.1'
+__git_head_message__ = '* develop:\n  Releasing v2.1.1\n  fix precedence of ~ operator in Q objects\n  ignore non-numeric parts of version string\n  Fixes to make the tests pass on ClickHouse v21.9\n  Bump urllib3 from 1.25.9 to 1.26.5 in /examples/db_explorer\n  Bump jinja2 from 2.11.2 to 2.11.3 in /examples/db_explorer\n  Simplified\n  Support for adding a column to the beginning of a table\n  1. add stddevPop func 2. add stddevSamp func\n  changes reverted after rebase\n  initializing changes related to string enums for pull request'
+__git_dirty_diff__ = ''
+__git_commit_date__ = '2021-10-21 14:47:55'
