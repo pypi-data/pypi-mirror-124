@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+argparse_to_json/__init__.py
+argparse_to_json/converter.py
+argparse_to_json.egg-info/PKG-INFO
+argparse_to_json.egg-info/SOURCES.txt
+argparse_to_json.egg-info/dependency_links.txt
+argparse_to_json.egg-info/top_level.txt
+tests/__init__.py
+tests/test_converter.py
