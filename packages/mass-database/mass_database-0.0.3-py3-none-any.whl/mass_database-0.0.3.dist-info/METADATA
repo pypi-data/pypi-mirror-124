@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: mass-database
+Version: 0.0.3
+Summary: Source code for the MASS database project managing software.
+Home-page: UNKNOWN
+Author: Zachary B. Haiman
+Author-email: zhaiman@eng.ucsd.edu
+Maintainer: Zachary B. Haiman
+Maintainer-email: zhaiman@eng.ucsd.edu
+License: MIT
+Keywords: python,MASS
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mass-manager
+Requires-Dist: notebook
+Provides-Extra: all
+Requires-Dist: bumpversion ; extra == 'all'
+Requires-Dist: pre-commit ; extra == 'all'
+Requires-Dist: towncrier ; extra == 'all'
+Requires-Dist: tox ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: bumpversion ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: towncrier ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+
+# MASS-Database (MASSdb)
+
+
