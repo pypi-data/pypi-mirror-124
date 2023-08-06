@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dhashpy/__init__.py
+dhashpy/__version__.py
+dhashpy/dHash.py
+dhashpy.egg-info/PKG-INFO
+dhashpy.egg-info/SOURCES.txt
+dhashpy.egg-info/dependency_links.txt
+dhashpy.egg-info/requires.txt
+dhashpy.egg-info/top_level.txt
