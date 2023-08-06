@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        pyhttpfs=pyhttpfs.__main__:main
+    
