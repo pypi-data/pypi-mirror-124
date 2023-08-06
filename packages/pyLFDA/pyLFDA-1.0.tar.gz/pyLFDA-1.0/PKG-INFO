@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: pyLFDA
+Version: 1.0
+Summary: pyLFDA is a tool which allows analysis of pairwise lipid force distribution along with other functions such as curvature and diffusion.
+Home-page: https://github.com/Chokerino
+Author: Bhavay Aggarwal
+Author-email: bhavayaggarwal07@gmail.com
+License: MIT
+Download-URL: https://github.com/RayLabIIITD/pyLFDA/releases/v_1.tar.gz
+Description: UNKNOWN
+Keywords: Python,Lipidomics,Analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
