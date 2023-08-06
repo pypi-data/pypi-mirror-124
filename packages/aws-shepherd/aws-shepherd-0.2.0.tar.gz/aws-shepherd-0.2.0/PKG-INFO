@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aws-shepherd
+Version: 0.2.0
+Summary: Sepherds AWS Lamb(das) to your local machine
+Author: Futurebank
+Author-email: opensource@futurebank.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Flask (>=2.0.2,<3.0.0)
+Requires-Dist: boto3 (>=1.18.61,<2.0.0)
+Requires-Dist: pyngrok (>=5.1.0,<6.0.0)
+Requires-Dist: rich (>=10.3.0,<11.0.0)
