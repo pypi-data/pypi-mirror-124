@@ -1,0 +1,52 @@
+.gitattributes
+.gitignore
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+mkdocs.yml
+publish.ps1
+requirements.txt
+setup.cfg
+setup.py
+.github/dependabot.yml
+.github/ISSUE_TEMPLATE/bug_report.md
+.github/ISSUE_TEMPLATE/feature_request.md
+docs/index.md
+docs/install.md
+docs/notes.md
+docs/smart_features.md
+docs/testimonials.md
+docs/usage.md
+docs/assets/favicon.png
+docs/assets/logo.png
+images/autocomplete example with ambiguity.gif
+images/autocomplete example.gif
+images/error handling.gif
+images/pypi --install-completion.gif
+images/pypi --show-completion.gif
+images/pypi browse alligned.gif
+images/pypi browse but cancel.gif
+images/pypi browse.gif
+images/pypi desc github.gif
+images/pypi desc.gif
+images/pypi info with classifiers.gif
+images/pypi info.gif
+images/pypi largest-files.gif
+images/pypi rsearch.gif
+images/pypi search with page.gif
+images/pypi search.gif
+images/pypi version with package.png
+images/pypi version without package.png
+images/pypi wheels.gif
+images/smart_alias.png
+pypi_cli/__init__.py
+pypi_cli/__main__.py
+pypi_command_line.egg-info/PKG-INFO
+pypi_command_line.egg-info/SOURCES.txt
+pypi_command_line.egg-info/dependency_links.txt
+pypi_command_line.egg-info/entry_points.txt
+pypi_command_line.egg-info/not-zip-safe
+pypi_command_line.egg-info/requires.txt
+pypi_command_line.egg-info/top_level.txt
