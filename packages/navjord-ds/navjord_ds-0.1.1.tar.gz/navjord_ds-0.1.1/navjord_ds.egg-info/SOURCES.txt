@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+navjord_ds/__init__.py
+navjord_ds/navjord_ds.py
+navjord_ds.egg-info/PKG-INFO
+navjord_ds.egg-info/SOURCES.txt
+navjord_ds.egg-info/dependency_links.txt
+navjord_ds.egg-info/not-zip-safe
+navjord_ds.egg-info/top_level.txt

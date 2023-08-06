@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: navjord_ds
+Version: 0.1.1
+Summary: .
+Home-page: https://github.com/navjordj/navjord_ds
+Author: Jørgen Navjord
+Author-email: navjordj@gmail.com
+License: UNKNOWN
+Description: 
+        
+        
+Keywords: navjord_ds
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
