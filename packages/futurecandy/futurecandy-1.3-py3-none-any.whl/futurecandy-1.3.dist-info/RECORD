@@ -1,0 +1,13 @@
+futurecandy/__main__.py,sha256=r02EZWtWm82OE9Qid4MCi804_0M_DbPLf9gWilQNc2c,4890
+futurecandy/candy.cfg,sha256=w5yvQkxyT3FC8u4zUxrIfuNZFQ7Vi5QK7RI3eSTeMAU,365
+futurecandy/hooks/Git.py,sha256=ztXMuILIAZiPaWodd0wZd0gfS0OCItPOlUAlv1tjhtY,647
+futurecandy/hooks/Gitignore.py,sha256=AETxKNM-ucJTvxAxecSqESZYPu8UFzvRpXw44rIEiIQ,1935
+futurecandy/hooks/Gitignore.py.gitignore,sha256=73XuqZ67jzSKsR7DRBXtvagXuEtvUDsednYIGHLATJY,2256
+futurecandy/hooks/License.py,sha256=dwRVA4jM7xwp3XOa7a0CFOCgvDmbrT_DWavBlGz1WSU,2739
+futurecandy/hooks/Safe.py,sha256=ha9ZFupzBMsvmo0Axamabe-pwFbPBBewcqp4JOy8DNs,883
+futurecandy/hooks/Venv.py,sha256=JVqBPh44k2l8WBHevTHKRxPNZ-7u7sViVL4WAd8mFb4,155
+futurecandy/hooks/auto-gitignore-LICENSE,sha256=FugTnWD3CcTAwbkSGSykRsACa1wjohf3VXu2_DumPX4,1066
+futurecandy-1.3.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+futurecandy-1.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+futurecandy-1.3.dist-info/METADATA,sha256=S9Ao_wRFYenbD6FQAgCvmwi3wuFTmTyqfb_tUq8QPk0,2501
+futurecandy-1.3.dist-info/RECORD,,
