@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+extensions/sanderthedragon/codeblockbuttons/__init__.py
+extensions/sanderthedragon/codeblockbuttons/_static/css/codeblock.css
+extensions/sanderthedragon/codeblockbuttons/_static/js/clipboard.min.js
+extensions/sanderthedragon/codeblockbuttons/_static/js/codeblock.js
+extensions/sanderthedragon/extralexers/__init__.py
+extensions/sanderthedragon/mappedlinkrole/__init__.py
+extensions/sanderthedragon_sphinxext.egg-info/PKG-INFO
+extensions/sanderthedragon_sphinxext.egg-info/SOURCES.txt
+extensions/sanderthedragon_sphinxext.egg-info/dependency_links.txt
+extensions/sanderthedragon_sphinxext.egg-info/not-zip-safe
+extensions/sanderthedragon_sphinxext.egg-info/top_level.txt

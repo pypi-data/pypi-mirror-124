@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: sanderthedragon-sphinxext
+Version: 1.0.0b3
+Summary: SanderTheDragon's Sphinx Extensions
+Home-page: https://sanderthedragon.gitlab.io/sphinx-extensions
+Author: SanderTheDragon
+Author-email: sanderthedragon@zoho.com
+License: MIT
+Project-URL: Repository, https://gitlab.com/SanderTheDragon/sphinx-extensions
+Project-URL: Bug Tracker, https://gitlab.com/SanderTheDragon/sphinx-extensions/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Sphinx :: Extension
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+.. SPDX-FileCopyrightText: 2021 SanderTheDragon <sanderthedragon@zoho.com>
+..
+.. SPDX-License-Identifier: CC-BY-SA-4.0
+
+###################################
+SanderTheDragon's Sphinx Extensions
+###################################
+These are some `Sphinx <https://www.sphinx-doc.org>`_ extensions I wrote, feel free to use them.
+
+- `Code Block Buttons <https://sanderthedragon.gitlab.io/sphinx-extensions/codeblockbuttons.html>`_ adds copy and view buttons to code blocks.
+- `Extra Lexers <https://sanderthedragon.gitlab.io/sphinx-extensions/extralexers.html>`_ adds extra lexers to pygments currently only LLVM JSON.
+- `Mapped Link Role <https://sanderthedragon.gitlab.io/sphinx-extensions/mappedlinkrole.html>`_ adds custom roles which can be mapped to links.
+
+************
+Installation
+************
+The extensions can with **pip**.
+
+.. code-block:: sh
+
+   pip3 install sanderthedragon-sphinxext
+
+***********
+Source Code
+***********
+The source code is hosted on `GitLab <https://gitlab.com/SanderTheDragon/sphinx-extensions>`_.
+
+*********
+Changelog
+*********
+Changelog is available `here <https://sanderthedragon.gitlab.io/sphinx-extensions/changelog.html>`_.
+
+*******
+License
+*******
+These documents are licensed under `CC-BY-SA-4.0 <https://spdx.org/licenses/CC-BY-SA-4.0.html>`_.
+Code and examples are licensed under `MIT <https://spdx.org/licenses/MIT.html>`_.
+Other files, like configuration files are licensed under `CC0-1.0 <https://spdx.org/licenses/CC0-1.0.html>`_.
+
+.. hint::
+
+   This project is `REUSE <https://reuse.software>`_ compliant.
+
+
