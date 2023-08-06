@@ -1,0 +1,9 @@
+network_symmetry_core.cpython-36m-i386-linux-gnu.so,sha256=8ItNNlxsA29PXvEjJa0DjhVPpPx04575Fi0lPAwCtk0,969348
+network_symmetry/symmetry.py,sha256=TLJxgmMV1OSWM4UfE8L73FnBPV_b5i28xUSE4BhYPHg,8143
+network_symmetry/__init__.py,sha256=WnuvtvjDzGtVDz7DFimqACLwDB6o7psT9iAzK1jPMWM,23
+network_symmetry.libs/libgomp-2716b9e4.so.1.0.0,sha256=YAjX69EB8kRSeoeBFWS1bkLcR0TmwjQn-4lZte_ult0,97188
+network_symmetry-0.1.5.dist-info/WHEEL,sha256=u6WzkjP-sihYlEzJM_30ExNqLFdAsXBL_LPO02rTRPs,110
+network_symmetry-0.1.5.dist-info/top_level.txt,sha256=dVPfvv4RtGfG7JPNBWKDobBvYo9hCLivczKw2Juk6kg,39
+network_symmetry-0.1.5.dist-info/METADATA,sha256=BNql4KN-gDptJE_hUri7hhQhUYNNiHgj6GzIi2JT4jI,6669
+network_symmetry-0.1.5.dist-info/LICENSE,sha256=KgG-MAJz6rVp5ofju1R5ebIpwhF_-w_LULgANvm1W3A,549
+network_symmetry-0.1.5.dist-info/RECORD,,
