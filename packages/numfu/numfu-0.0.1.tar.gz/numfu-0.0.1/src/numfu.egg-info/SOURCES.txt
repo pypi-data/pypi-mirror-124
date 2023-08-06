@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/numfu/__init__.py
+src/numfu/moves.py
+src/numfu.egg-info/PKG-INFO
+src/numfu.egg-info/SOURCES.txt
+src/numfu.egg-info/dependency_links.txt
+src/numfu.egg-info/requires.txt
+src/numfu.egg-info/top_level.txt
