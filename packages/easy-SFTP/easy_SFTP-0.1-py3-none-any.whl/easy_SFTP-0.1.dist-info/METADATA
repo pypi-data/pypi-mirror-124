@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: easy-SFTP
+Version: 0.1
+Summary: Easy to use SFTP library built on top of pysftp library
+Home-page: https://github.com/VikingPathak/Easy-SFTP
+Author: Amit Pathak
+Author-email: apathak092@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Easy-SFTP
+The `SFTP_Server` is built on top of `pysftp` library. It provides methods to connect and perform
+upload, download, move and other operations on a SFTP server.
+
