@@ -1,0 +1,6 @@
+numpy
+joblib
+pandas
+sklearn
+portion
+statsmodels
