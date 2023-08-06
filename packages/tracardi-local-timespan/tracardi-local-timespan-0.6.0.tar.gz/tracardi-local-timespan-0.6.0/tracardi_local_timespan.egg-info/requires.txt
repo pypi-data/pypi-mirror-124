@@ -1,0 +1,4 @@
+pydantic
+tracardi_dot_notation
+tracardi-plugin-sdk>=0.6.22
+pytz
