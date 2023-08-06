@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: hdl_registers
+Version: 2.0.1
+Summary: The hdl_registers project is a HDL register generator fast enough to be run in real time.
+Home-page: https://hdl_registers.com
+Author: Lukas Vik
+Author-email: 2767848-LukasVik@users.noreply.gitlab.com
+License: BSD 3-Clause License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+
+About ``hdl_registers``
+=======================
+
+|pic_website| |pic_gitlab| |pic_gitter| |pic_license|
+
+.. |pic_website| image:: https://hdl-registers.com/badges/website.svg
+  :alt: Website
+  :target: https://hdl-registers.com
+
+.. |pic_gitlab| image:: https://hdl-registers.com/badges/gitlab.svg
+  :alt: Gitlab
+  :target: https://gitlab.com/tsfpga/hdl_registers
+
+.. |pic_gitter| image:: https://badges.gitter.im/owner/repo.png
+  :alt: Gitter
+  :target: https://gitter.im/tsfpga/tsfpga
+
+.. |pic_license| image:: https://hdl-registers.com/badges/license.svg
+  :alt: License
+  :target: https://hdl-registers.com/license_information.html
+
+The hdl_registers project is a HDL register generator fast enough to be run in real time.
+
+**See documentation on the website**: https://hdl-registers.com
+
+TBC...
+
+
