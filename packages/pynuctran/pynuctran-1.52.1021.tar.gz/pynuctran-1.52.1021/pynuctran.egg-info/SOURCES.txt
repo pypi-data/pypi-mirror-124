@@ -1,0 +1,12 @@
+README.md
+setup.py
+pynuctran/__init__.py
+pynuctran/cram.py
+pynuctran/depletion_scheme.py
+pynuctran/solver.py
+pynuctran/sparse.py
+pynuctran.egg-info/PKG-INFO
+pynuctran.egg-info/SOURCES.txt
+pynuctran.egg-info/dependency_links.txt
+pynuctran.egg-info/requires.txt
+pynuctran.egg-info/top_level.txt
