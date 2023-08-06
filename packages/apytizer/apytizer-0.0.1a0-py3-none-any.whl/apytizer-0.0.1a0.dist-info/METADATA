@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: apytizer
+Version: 0.0.1a0
+Summary: Implement wrappers quickly for REST APIs
+Home-page: https://github.com/seanssullivan/apytizer
+Author: Sean Sullivan
+Author-email: seansullivan@seanmedia.ca
+License: UNKNOWN
+Download-URL: https://github.com/seanssullivan/apytizer/archive/refs/tags/v0.0.1-alpha.tar.gz
+Project-URL: Bug Tracker, https://github.com/seanssullivan/apytizer/issues
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: cachetools
+Requires-Dist: requests
+
+# apytizer
+
+Implement wrappers quickly for REST APIs.
+
+
