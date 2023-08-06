@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+BSplineFit/__init__.py
+BSplineFit/cubic_spline.py
+BSplineFit/optimization.py
+BSplineFit/tree.py
+BSplineFit.egg-info/PKG-INFO
+BSplineFit.egg-info/SOURCES.txt
+BSplineFit.egg-info/dependency_links.txt
+BSplineFit.egg-info/requires.txt
+BSplineFit.egg-info/top_level.txt
