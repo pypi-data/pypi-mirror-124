@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: transbigdata
+Version: 0.0.1
+Summary: A tool for transportation big data
+Home-page: https://github.com/ni1o1/transbigdata
+Author: Qing Yu
+Author-email: qingyu0815@foxmail.com
+License: BSD
+Project-URL: Bug Tracker, https://github.com/ni1o1/transbigdata/issues
+Description: # transbigdata
+        交通时空大数据处理包
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Matplotlib
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
