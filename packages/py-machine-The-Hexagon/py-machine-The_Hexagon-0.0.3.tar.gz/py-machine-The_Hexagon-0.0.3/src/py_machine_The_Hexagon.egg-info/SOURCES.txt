@@ -1,0 +1,14 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/py_machine/__init__.py
+src/py_machine/base74.py
+src/py_machine/cell.py
+src/py_machine/code_to_level.py
+src/py_machine/level.py
+src/py_machine/placeable.py
+src/py_machine_The_Hexagon.egg-info/PKG-INFO
+src/py_machine_The_Hexagon.egg-info/SOURCES.txt
+src/py_machine_The_Hexagon.egg-info/dependency_links.txt
+src/py_machine_The_Hexagon.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+This is a tool for Cell Machine Mystic Mod(https://themysticlynx.itch.io/cell-machine-mystic-mod) and you can create levels with this tool and more. Docs at https://the-decent-hexagon.github.io/
