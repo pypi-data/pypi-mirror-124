@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: prt-phasecurve
+Version: 0.1.3
+Summary: module that creates phasecurves using pRT
+Home-page: https://github.com/AaronDavidSchneider/prt_phasecurve
+Author: Aaron David Schneider
+Author-email: aarondavid.schneider@nbi.ku.dk
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# prt_phasecurve
+
+Bulding phasecurves of exoplanetary atmospheres using petitradtrans
+
+## Install:
+
+```
+pip install prt_phasecurve
+```
+
+## Currently usable functions:
+
+Integrate the global spectra to calculate the phase curve:
+```
+phase_curve()
+```
+
+Calculate the spectra of the (lowres) GCM output:
+```
+calc_spectra()
+```
+
+TODO: Add more information here
+
+
