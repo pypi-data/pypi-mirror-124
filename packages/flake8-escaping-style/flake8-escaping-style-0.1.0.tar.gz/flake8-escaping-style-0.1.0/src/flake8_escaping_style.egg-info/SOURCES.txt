@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/flake8_escaping_style.py
+src/flake8_escaping_style.egg-info/PKG-INFO
+src/flake8_escaping_style.egg-info/SOURCES.txt
+src/flake8_escaping_style.egg-info/dependency_links.txt
+src/flake8_escaping_style.egg-info/entry_points.txt
+src/flake8_escaping_style.egg-info/requires.txt
+src/flake8_escaping_style.egg-info/top_level.txt
