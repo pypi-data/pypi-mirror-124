@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+napari_crop/__init__.py
+napari_crop/_function.py
+napari_crop.egg-info/PKG-INFO
+napari_crop.egg-info/SOURCES.txt
+napari_crop.egg-info/dependency_links.txt
+napari_crop.egg-info/entry_points.txt
+napari_crop.egg-info/requires.txt
+napari_crop.egg-info/top_level.txt
