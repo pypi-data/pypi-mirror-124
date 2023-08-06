@@ -1,0 +1,7 @@
+setup.py
+datademy_helper/__init__.py
+datademy_helper/datademy_helper.py
+datademy_helper.egg-info/PKG-INFO
+datademy_helper.egg-info/SOURCES.txt
+datademy_helper.egg-info/dependency_links.txt
+datademy_helper.egg-info/top_level.txt
