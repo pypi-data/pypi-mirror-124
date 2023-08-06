@@ -1,0 +1,14 @@
+fsspec_reference_maker/__init__.py,sha256=ZB7r21mMe0HqeZDnYCfazTiE4vv_2MTdS7KCxG3RNys,174
+fsspec_reference_maker/combine.py,sha256=w_GNx1istVUU4khmsEI1Z7D5oTWbBDH11jHAUnW7y78,12744
+fsspec_reference_maker/grib2.py,sha256=jUCmdjuEr6Dqy8o9tnydXu13mcLquo4KMtfdwMyNIk8,7852
+fsspec_reference_maker/hdf.py,sha256=pU3plKGABR2cSF0V0_E9B9UHuPvEElOFxUCOgP9WINk,11029
+kerchunk/__init__.py,sha256=Ir9sUfHQnNzvY5AlxqU9JnrFnochczeKjGuj85ae9Kk,121
+kerchunk/_version.py,sha256=RTqEitv6dIzcoLF7cKnKLn1JQroPg29OL2aeLlsCrIc,497
+kerchunk/combine.py,sha256=w_GNx1istVUU4khmsEI1Z7D5oTWbBDH11jHAUnW7y78,12744
+kerchunk/grib2.py,sha256=jUCmdjuEr6Dqy8o9tnydXu13mcLquo4KMtfdwMyNIk8,7852
+kerchunk/hdf.py,sha256=pU3plKGABR2cSF0V0_E9B9UHuPvEElOFxUCOgP9WINk,11029
+kerchunk-0.0.5.dist-info/LICENSE,sha256=H0TJZib9ysDY4_tkqQibmpZBqhbZc8S-l6PjfeyC8iU,1063
+kerchunk-0.0.5.dist-info/METADATA,sha256=7OG9XhaojL5gxDYKLKvWcVaGw0v__21znzF7IMyMaNg,1897
+kerchunk-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kerchunk-0.0.5.dist-info/top_level.txt,sha256=QusgTue6LW6CjPZ3nSkQAQtsNkpGn58Mb9hhLzU6TZs,32
+kerchunk-0.0.5.dist-info/RECORD,,
