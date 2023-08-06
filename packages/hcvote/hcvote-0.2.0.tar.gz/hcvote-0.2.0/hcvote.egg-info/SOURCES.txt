@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+hcvote/__init__.py
+hcvote/from_files.py
+hcvote/position.py
+hcvote.egg-info/PKG-INFO
+hcvote.egg-info/SOURCES.txt
+hcvote.egg-info/dependency_links.txt
+hcvote.egg-info/requires.txt
+hcvote.egg-info/top_level.txt
