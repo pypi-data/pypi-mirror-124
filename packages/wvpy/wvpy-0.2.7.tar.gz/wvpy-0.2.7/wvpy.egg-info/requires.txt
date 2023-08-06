@@ -1,0 +1,6 @@
+numpy
+pandas
+sklearn
+matplotlib
+vtreat>=1.0.0
+data_algebra>=0.9.0
