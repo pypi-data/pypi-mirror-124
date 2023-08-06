@@ -1,0 +1,4 @@
+[console_scripts]
+gt=gitutor.cli:main
+gtb=gitutor.branch.commands:main
+
