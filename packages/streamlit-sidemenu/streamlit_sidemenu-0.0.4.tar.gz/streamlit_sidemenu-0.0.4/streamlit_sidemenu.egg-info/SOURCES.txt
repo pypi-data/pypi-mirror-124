@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+streamlit_sidemenu/__init__.py
+streamlit_sidemenu.egg-info/PKG-INFO
+streamlit_sidemenu.egg-info/SOURCES.txt
+streamlit_sidemenu.egg-info/dependency_links.txt
+streamlit_sidemenu.egg-info/requires.txt
+streamlit_sidemenu.egg-info/top_level.txt
+streamlit_sidemenu/frontend/dist/index.html
+streamlit_sidemenu/frontend/dist/assets/index.39969be4.js
+streamlit_sidemenu/frontend/dist/assets/vendor.90a306ac.js
