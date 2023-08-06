@@ -1,0 +1,10 @@
+autodict/__init__.py,sha256=dAUy1oHnTwqgx_srO7cg7aPiS_vEDZe1yuNeO9ZVxys,243
+autodict/implementation.py,sha256=4KLmsxw4IhuONjHfaxARPmUPxSqTlheXBFdGt1YhJCY,4202
+autodict/version.py,sha256=prJbujUWfTCTUuN5p5PTVxfajcUZ9fggYqRC4x-_jaI,101
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_autodict.py,sha256=poFVoZKUD0QcDfLNVJM3yELZ73aMIyqF8PdYLWIh160,4941
+AutoDict-1.1.0.dist-info/LICENSE,sha256=Jqj0JbefZ0WsqBaU79xg5ecNuMzJphINRzv61YC3_GU,1069
+AutoDict-1.1.0.dist-info/METADATA,sha256=r71NOgSeMmMhHxXSWmvkPwS6QTaRrHxBtSpreZNn-OY,3537
+AutoDict-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+AutoDict-1.1.0.dist-info/top_level.txt,sha256=7AIQs8WBNC-mFi82Q7rVkFodX7ktLevRd_c-0IT_Pss,15
+AutoDict-1.1.0.dist-info/RECORD,,
