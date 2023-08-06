@@ -1,0 +1,3 @@
+bric_analysis_libraries
+pandas
+numpy
