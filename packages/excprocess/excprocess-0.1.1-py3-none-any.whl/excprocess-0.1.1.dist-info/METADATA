@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: excprocess
+Version: 0.1.1
+Summary: Python subprocess with externalized exceptions
+Home-page: https://gitlab.com/deepadmax/excprocess
+Author: Maximillian Strand
+Author-email: maximillian.strand@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://gitlab.com/deepadmax/excprocess
+Description-Content-Type: text/markdown
+
+# Excprocess
+
+Python subprocess that will capture any exceptions raised inside it and re-raise them outside.
