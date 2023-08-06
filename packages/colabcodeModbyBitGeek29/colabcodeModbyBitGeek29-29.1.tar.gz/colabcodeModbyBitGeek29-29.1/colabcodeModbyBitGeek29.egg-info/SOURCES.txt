@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+Makefile
+README.md
+colab_starter.ipynb
+requirements.txt
+setup.cfg
+setup.py
+colabcode/__init__.py
+colabcode/code.py
+colabcodeModbyBitGeek29.egg-info/PKG-INFO
+colabcodeModbyBitGeek29.egg-info/SOURCES.txt
+colabcodeModbyBitGeek29.egg-info/dependency_links.txt
+colabcodeModbyBitGeek29.egg-info/requires.txt
+colabcodeModbyBitGeek29.egg-info/top_level.txt
+scripts/colabcode
