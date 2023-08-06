@@ -1,0 +1,19 @@
+id: openvswitch
+type: service
+version: 1.0.0
+tasks:
+  - id: init
+    action: run
+    driver: directord
+    provides:
+      - openvswitch.init
+    requires:
+      - repos.init
+      - selinux.init
+    jobs:
+      - DNF: openvswitch
+      - SERVICE: --restarted --enable openvswitch
+      # for some reason ovs isn't starting correctly, let's hack in a retry
+      - RUN: >-
+          if ! pgrep ovs-vswitchd >/dev/null ; then systemctl restart openvswitch; fi
+

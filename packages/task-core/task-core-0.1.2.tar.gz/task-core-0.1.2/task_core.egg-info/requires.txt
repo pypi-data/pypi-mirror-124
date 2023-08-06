@@ -1,0 +1,8 @@
+pbr!=2.1.0,>=2.0.0
+networkx
+taskflow
+pyyaml
+stevedore
+jsonschema>=3.2.0
+directord>=0.10.0
+ansible-runner

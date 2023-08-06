@@ -1,0 +1,14 @@
+id: tuned
+type: service
+version: 1.0.0
+tasks:
+  - id: init
+    action: run
+    driver: directord
+    provides:
+      - tuned.init
+    requires:
+      - repos.init
+    jobs:
+      - DNF: tuned
+      - SERVICE: --enable tuned

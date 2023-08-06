@@ -1,0 +1,138 @@
+CHANGES
+=======
+
+0.1.2
+-----
+
+* Fix spec version
+
+0.1.1
+-----
+
+* Fix repo move paths
+
+0.1.0
+-----
+
+* Update spec to 0.1.0 for release
+* Fix typo in boot\_params\_service.yaml
+* Temporarily add zmq to test requirements
+* Allow task level runner config overrides
+* Improve ansible runner execution
+* Fail if ansible execution fails
+* Fix qemu task
+* Fix 2node rabbit conf
+* Add schema path lookup
+* Fix pylint
+* Add 2node basic example
+* Capture jsonschema requirement
+* Create task manager for data loading
+* Added needed-by to tasks
+* Fix task unit job
+* switch testing dns servers
+* add more updated docs for pulling directord RPMs
+* Fix cinder api service
+* move rsyncd configuration
+* Don't try and write os-net-config log to a file
+* Require selinux before doing openvswitch stuff
+* network troubleshooting
+* Disable network maanger
+* Fix service become
+* Fix multiple service handling
+* Fix service enable/disable
+* Fix function name
+* Fix ansible service handling
+* Fix yaml
+* Add ovs restart retry
+* Disable consider-using-f-string for now
+* Address lint issues
+* Reject if None
+* Update dependencies
+* Use service component
+* Fixup config ordering and switch ARG/QUERY
+* Create helper script directord2ansible
+* Fix config path
+* Fix lint and unit test
+* Multinode PoC
+* Switch no hosts to a warning
+* Fix missing result var
+* Add --noop for task-core cli
+* Print file when service fails to load
+* Add server addr for helper script
+* Add script for directord catalog generation
+* Fix groups
+* Fix tests from lint fixes
+* lint fixes
+* Add script to generate ansible inventory
+* Improve informational logging
+* Improve directord job pending logic
+* Fix job status detection
+* Make directord and ansible-runner optional
+
+0.0.2
+-----
+
+* Bump spec for 0.0.2 release
+* Create release rpm workflow
+* Scripts for building rpms
+* Switch spec version to be overridable
+* Add CI Status
+* Add py-tox workflow
+* Fix spec date
+* Initial rpm spec
+
+0.0.1
+-----
+
+* Update gitignore to skip build files
+* Fix up readme for pypi
+* Nit fixes for YAML loaders
+* Add support for directories data
+* move rabbitmq to directord
+* Add inventory support for ansible task
+* Fix unit tests
+* Update directord usage for new library interface
+* Add service setup for rabbitmq
+* Print task execution total
+* Fix bad extend
+* Fix scale generator
+* Add scale data generator
+* Fix setup.cfg to use underscores
+* Add missing tests
+* Add service version to task
+* Add jsonschema validation
+* Update logging around execution
+* use full tools path in venv
+* Rename Director to Directord
+* More path fixes for rename
+* Fix readme
+* Finish director -> directord rename
+* Handle director rename
+* Document director example
+* Director task execution fixes
+* Remove director pin since fix is merged
+* Fix orchestrations format
+* Fix director task execution
+* Remove task type on task-core
+* Fix director return\_raw parameter and linting
+* Add BaseTask and AnsibleRunnerTask
+* Create task result object
+* Task unit tests
+* Add director status polling
+* Start unit tests
+* Fix director requirements
+* Use stevedore for task driver
+* Implement director orchestration support
+* Formatting nits
+* Formatting
+* Readme update
+* Add director based examples
+* Move examples to a framework folder
+* Add doc reference
+* Add options to task-core
+* Remove requires at a service level
+* Some pylint cleanup
+* Add inventory and roles support
+* Switch to logging
+* Add how to run it
+* Initial commit
