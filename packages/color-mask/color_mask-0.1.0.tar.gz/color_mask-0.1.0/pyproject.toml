@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "color_mask"
+version = "0.1.0"
+description = "This library creates a color mask for an image and lets you download the masked image. To create a mask simply use command 'clrmsk createmsk <path of the image>. To save the mask simply use 'clrmsk savemsk <path of the image>."
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+clrmsk = "color_mask.color_mask:main"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
