@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: sv-seg
+Version: 1.1
+Summary: A simplified version library for deep learning in semantic segmentation
+Home-page: UNKNOWN
+Author: jyw
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Logging
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
