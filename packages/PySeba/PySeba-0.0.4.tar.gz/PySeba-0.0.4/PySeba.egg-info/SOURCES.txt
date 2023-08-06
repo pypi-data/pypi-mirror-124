@@ -1,0 +1,6 @@
+README.md
+setup.py
+PySeba.egg-info/PKG-INFO
+PySeba.egg-info/SOURCES.txt
+PySeba.egg-info/dependency_links.txt
+PySeba.egg-info/top_level.txt
