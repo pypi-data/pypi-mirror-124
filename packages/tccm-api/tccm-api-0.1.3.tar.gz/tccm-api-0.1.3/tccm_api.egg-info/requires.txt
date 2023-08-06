@@ -1,0 +1,16 @@
+aiofiles
+biolinkml
+fastapi
+neo4j
+owlready2
+pandas
+prefixcommons
+pydantic
+pyld
+python-docx
+python-dotenv
+python-multipart
+rdflib
+rdflib-pyld-compat
+rfc3986
+uvicorn
