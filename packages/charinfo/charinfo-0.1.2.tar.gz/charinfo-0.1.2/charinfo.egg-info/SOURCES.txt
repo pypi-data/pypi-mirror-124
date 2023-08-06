@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+charinfo/__init__.py
+charinfo/__main__.py
+charinfo/core.py
+charinfo.egg-info/PKG-INFO
+charinfo.egg-info/SOURCES.txt
+charinfo.egg-info/dependency_links.txt
+charinfo.egg-info/entry_points.txt
+charinfo.egg-info/not-zip-safe
+charinfo.egg-info/requires.txt
+charinfo.egg-info/top_level.txt
