@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: PyViO
+Version: 1.2.0
+Summary: Visualize outliers in data
+Home-page: UNKNOWN
+Author: Team_PyViO
+Author-email: team.pyvio@gmail.com
+License: MIT
+Description: # PyViO
+        
+        The PyViO (stands for **P**ython **VI**sualize **O**utliers) is a python package to visualize the outliers using multiple interactive plots. It employs blox-plots, donut-plots & heatmaps to show where the outliers are present in the data and how much of the data is being flagged as outlier. It also tries to estabilish a reason for why a particular data-point is being flagged as outlier.
+        
+        This library has been built SOLELY for **EDUCATIONAL PURPOSES** and is still on its way to perfection. Please let us know if you happen to find some issue and we will be glad to put a fix for it!!
+        
+        Contact us at **team.pyvio@gmail.com**
+        
+        ** **Note 1** - Please use Google Chrome to enable the full functionality of this package.
+        
+        ** **Note 2** - There might be a processing issue in cases of large datasets. For the moment, please consider trying this package on smaller datasets.
+        
+        ## How to install
+        
+        PyViO can be installed from PyPi using the following **Pip** command:
+        
+            pip install PyViO
+            
+        ## How to summon
+        
+        You can summon the PyViO into your code by simply importing the `PyViO` package:
+        
+            from PyViO import interact
+            interact.show_outliers(data, method, parameter(optional parameter))
+        
+        * Please refer to the docstring for more details
+        
+        ## About Command Line
+        
+        The literature articles on various methods which are being used to detect and visualize the outliers can be seen by using command line.
+        
+            python -m PyViO <method number>
+            
+        * How to see the Wiki articles?
+            * **1** to see 'Interquartile range'
+            * **2** to see 'Standard score'
+            * **3** to see 'Median filter'
+            
+        Alternatively, the **help** section for this package can be seen by using the following command.
+        
+            python -m PyViO -help OR -h
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Description-Content-Type: text/markdown
