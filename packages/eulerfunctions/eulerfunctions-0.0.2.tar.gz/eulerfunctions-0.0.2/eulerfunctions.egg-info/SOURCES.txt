@@ -1,0 +1,5 @@
+setup.py
+eulerfunctions.egg-info/PKG-INFO
+eulerfunctions.egg-info/SOURCES.txt
+eulerfunctions.egg-info/dependency_links.txt
+eulerfunctions.egg-info/top_level.txt
