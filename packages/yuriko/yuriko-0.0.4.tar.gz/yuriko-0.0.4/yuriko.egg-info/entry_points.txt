@@ -1,0 +1,3 @@
+[console_scripts]
+yuriko = yuriko.main:main
+

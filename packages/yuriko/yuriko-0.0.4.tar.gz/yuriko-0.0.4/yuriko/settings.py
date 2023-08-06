@@ -1,0 +1,5 @@
+import os
+
+
+YURIKO_DB_PATH = os.getenv('YURIKO_DB_PATH', '')
+YURIKO_PASSWORD_SUFFIX = os.getenv('YURIKO_PASSWORD_SUFFIX', '')

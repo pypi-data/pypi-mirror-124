@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+yuriko/__init__.py
+yuriko/main.py
+yuriko/manager.py
+yuriko/password.py
+yuriko/settings.py
+yuriko/tests.py
+yuriko.egg-info/PKG-INFO
+yuriko.egg-info/SOURCES.txt
+yuriko.egg-info/dependency_links.txt
+yuriko.egg-info/entry_points.txt
+yuriko.egg-info/requires.txt
+yuriko.egg-info/top_level.txt
