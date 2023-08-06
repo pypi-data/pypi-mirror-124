@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: verysimplemoduleaupmanyu
+Version: 0.0.1
+Summary: My first Pyton package
+Home-page: UNKNOWN
+Author: Abhishek Upmanyu
+Author-email: abhishek2175@gmail.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+
+My first Python package with a slightly lnger description
+
+
