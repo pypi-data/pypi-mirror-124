@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: rtxpy
+Version: 0.0.2
+Summary: Ray tracing using CUDA accessible from Python
+Home-page: https://github.com/makepath/rtxpy
+Author: makepath
+Author-email: a.soklev@gmail.com
+License: MIT
+Platform: Linux
+Platform: Windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.16)
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+# RTXpy
+
+Ray tracing using CUDA, accessible from Python.
+
+## Hardware requirements
+
+  * Nvidia Maxwell GPU or newer
+  * Nvidia driver version:
+    * 456.71 or newer for Windows
+    * 455.28 or newer for Linux
+
+## Installation
+
+    pip install rtxpy
+
+## Installation from source
+
+Requires CMake 3.10 or higher to build.
+
+To install RTXpy from source use
+
+    pip install -ve .
+
+`cupy` is an optional runtime dependency. If you know the version of the CUDA
+toolkit you have installed, which can be obtained by running `nvcc --version`,
+you can install the appropriate `cupy` wheel. For example, for CUDA toolkit
+11.2 use
+
+    pip install cupy-cuda112
+
+To run tests
+
+    pip install -ve .[tests]
+    pytest -v rtxpy/tests
+
+
