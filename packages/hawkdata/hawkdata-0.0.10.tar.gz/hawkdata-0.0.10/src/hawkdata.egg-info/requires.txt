@@ -1,0 +1,24 @@
+
+[:python_version == "1.2.2"]
+pandas
+
+[:python_version == "1.20.1"]
+numpy
+
+[:python_version == "1.3.3"]
+retrying
+
+[:python_version == "1.5.3"]
+pandarallel
+
+[:python_version == "2.24.0"]
+requests
+
+[:python_version == "4.10.0"]
+beautifulsoup4
+
+[:python_version == "4.2.2"]
+cachetools
+
+[:python_version == "4.51.0"]
+tqdm
