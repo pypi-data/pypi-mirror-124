@@ -1,0 +1,10 @@
+README.md
+setup.py
+pysvgexport/__init__.py
+pysvgexport/js_function.py
+pysvgexport/svg_export.py
+pysvgexport.egg-info/PKG-INFO
+pysvgexport.egg-info/SOURCES.txt
+pysvgexport.egg-info/dependency_links.txt
+pysvgexport.egg-info/requires.txt
+pysvgexport.egg-info/top_level.txt
