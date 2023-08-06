@@ -1,0 +1,2 @@
+global-include *.txt *.py
+global-include example_csv_and_excel/*
