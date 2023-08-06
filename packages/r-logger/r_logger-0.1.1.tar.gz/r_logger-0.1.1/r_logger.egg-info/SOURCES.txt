@@ -1,0 +1,8 @@
+README.md
+setup.py
+r_logger/__init__.py
+r_logger/r_logger.py
+r_logger.egg-info/PKG-INFO
+r_logger.egg-info/SOURCES.txt
+r_logger.egg-info/dependency_links.txt
+r_logger.egg-info/top_level.txt
