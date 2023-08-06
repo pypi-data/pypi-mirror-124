@@ -1,0 +1,19 @@
+name: pypely
+dependencies:
+  - python=3.7
+  - pip:
+    - twine
+    - seaborn
+    - pytest
+    - pytest-mock
+    - pytest-html
+    - "."
+    - torch
+    - numpy
+    - pandas
+    - scikit-learn
+    - matplotlib
+    - tensorboard
+    - mlflow
+    - tqdm
+    - pillow
