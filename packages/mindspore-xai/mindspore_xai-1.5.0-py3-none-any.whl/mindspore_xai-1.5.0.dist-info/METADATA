@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: mindspore-xai
+Version: 1.5.0
+Summary: mindspore_xai platform: linux, cpu: x86_64, git version: [sha1]:fc228de, [branch]: (HEAD, origin/r1.5, r1.5)
+Home-page: https://www.mindspore.cn/xai
+Author: The MindSpore XAI Authors
+Author-email: contact@mindspore.cn
+License: Apache 2.0
+Download-URL: https://gitee.com/mindspore/xai/tags
+Project-URL: Sources, https://gitee.com/mindspore/xai
+Project-URL: Issue Tracker, https://gitee.com/mindspore/xai/issues
+Keywords: mindspore machine learning xai
+Platform: linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: protobuf (>=3.8.0)
+Requires-Dist: pillow (>=6.2.0)
+Requires-Dist: scipy (>=1.5.2)
+Requires-Dist: pytest (>=4.3.1)
+Requires-Dist: wheel (>=0.32.0)
+Requires-Dist: setuptools (>=40.8.0)
+
+UNKNOWN
+
+
