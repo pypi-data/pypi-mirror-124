@@ -1,0 +1,5 @@
+{
+  "packageManager": "python",
+  "packageName": "cell_executed_alert",
+  "uninstallInstructions": "Use your Python package manager (pip, conda, etc.) to uninstall the package cell_executed_alert"
+}
