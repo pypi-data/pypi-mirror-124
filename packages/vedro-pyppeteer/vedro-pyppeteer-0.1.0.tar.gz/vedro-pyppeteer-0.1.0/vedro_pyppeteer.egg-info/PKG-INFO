@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: vedro-pyppeteer
+Version: 0.1.0
+Summary: Vedro + pyppeteer
+Home-page: https://github.com/nikitanovosibirsk/vedro-pyppeteer
+Author: Nikita Tsvetkov
+Author-email: nikitanovosibirsk@yandex.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Vedro Pyppeteer Plugin
+
+[Vedro](https://github.com/nikitanovosibirsk/vedro) + [pyppeteer](https://github.com/pyppeteer/pyppeteer)
+
+
