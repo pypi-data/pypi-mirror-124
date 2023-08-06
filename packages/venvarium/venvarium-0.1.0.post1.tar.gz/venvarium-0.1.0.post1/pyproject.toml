@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "venvarium"
+version = "0.1.0.post1"
+description = "Object-based interaction with a Python virtual environment."
+readme = "README.md"
+authors = ["Maximillian Strand <maximillian.strand@protonmail.com>"]
+repository = "https://gitlab.com/deepadmax/venvarium"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+entry-points-txt = "^0.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

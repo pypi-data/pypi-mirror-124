@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: venvarium
+Version: 0.1.0.post1
+Summary: Object-based interaction with a Python virtual environment.
+Home-page: https://gitlab.com/deepadmax/venvarium
+Author: Maximillian Strand
+Author-email: maximillian.strand@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: entry-points-txt (>=0.2.0,<0.3.0)
+Project-URL: Repository, https://gitlab.com/deepadmax/venvarium
+Description-Content-Type: text/markdown
+
+# venvarium
+
+## Installation
+
+```sh
+python -m pip install venvarium
+```
+
+### Example
+
+```py
+from venvarium import VEnv
+
+
+# Create the virtual environment
+ENV_PATH = 'myproject/myenv' 
+venv = VEnv(ENV_PATH)
+
+# Run Python, PIP, or any other package or program
+venv.python('-c', 'print("hello, world!")')
+venv.pip('install', '--upgrade', 'pip')
+venv.run_package('flask')
+
+# See all installed packages
+pkgs = venv.installed_packages()
+print(pkgs)
+
+# Get the entry points
+entry_points = venv.entry_points().get('my_entry_point')
+print(entry_points)
+```
