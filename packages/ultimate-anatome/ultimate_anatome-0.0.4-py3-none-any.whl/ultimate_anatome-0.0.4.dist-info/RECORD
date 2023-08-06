@@ -1,0 +1,10 @@
+anatome/__init__.py,sha256=vVCX8eouJUN-mqdFu7S2nKWnhzz8FK2JfNYcS39Qx4s,120
+anatome/fourier.py,sha256=1cyZdV1XG2qsT9Mp6usRLIn-QeiUFHHVcHccwf1LXOg,2871
+anatome/landscape.py,sha256=72Ep_pEWKZmMh9qCq2UfgtiQZfs0OKXu0RIVe8Kt_kU,4723
+anatome/similarity.py,sha256=3TSlaaywIOwywybwn5TO_DtLZtjdCIOP_SwMUtc936o,14102
+anatome/utils.py,sha256=ut_YsPgcwu8zoGhamgN9-FZRIQ0V5LjO3tGKw9poGbI,4194
+ultimate_anatome-0.0.4.dist-info/LICENSE,sha256=IYIB3scbvfITzaMQDQ6mzfrK8yznfBAtVdiW7RRxVNM,1073
+ultimate_anatome-0.0.4.dist-info/METADATA,sha256=hZC6Q06lV-IdkLkrxUDYKwdywowMIJ032g0h0Hlh_lE,4627
+ultimate_anatome-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ultimate_anatome-0.0.4.dist-info/top_level.txt,sha256=jX2DoqUhmA2CZXMuXcEYBVky2U-0W336EOVPkXB-Yvg,8
+ultimate_anatome-0.0.4.dist-info/RECORD,,
