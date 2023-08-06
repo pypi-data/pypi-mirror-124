@@ -1,0 +1,14 @@
+kmerhash/.gitignore,sha256=W7NSrfYW6IuhEj-DmC8GeruPqJo2EHeDvttTFzOdTqE,38
+kmerhash/__init__.pxd,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kmerhash/__init__.py,sha256=t0e2YmnnghsTK7_19uKoqy3Hw97xgb3fivDNLtGHb_M,26
+kmerhash/hasher.c,sha256=20ANotEz9up3nI0w5H273UoFN59CYlO_OtYHt37vAj0,1014413
+kmerhash/hasher.cpython-38-darwin.so,sha256=BFLGcJXbiBsx4ATO5x623OBRByNHgUa0dfXxwgtHIKg,212272
+kmerhash/hasher.pxd,sha256=vzMkH6mo3M6i58kAx5TJAk-HzNJ_lZHUbisGroJ-z0Y,145
+kmerhash/hasher.pyx,sha256=xTIix92HSYgjMDNjdHE7o_nn82VgFGCM_Yk1DCtUKEY,6383
+kmerhash/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kmerhash/tests/test1.py,sha256=z6Xsi56xcdtdFm174iGEU-mRtc78EiODxaBXh-dCsms,2651
+kmerhash-0.4.dist-info/LICENSE.md,sha256=NeAS4fEDLL128Rw4oSWrQL3tW7_N4cFUA2pnavIg-Kw,1069
+kmerhash-0.4.dist-info/METADATA,sha256=2OBLYiI8d2jZuRbM2SCko80zbdStGxt99A7gCrfugZk,339
+kmerhash-0.4.dist-info/WHEEL,sha256=m4Wk6eOy92yJY87gVAkQnn-qnRb0vl_v2zsmx0hgXfo,109
+kmerhash-0.4.dist-info/top_level.txt,sha256=XR21x49Wxt2tTM7QIR5RA--5zUR6Zdfx8tUvoJTnhc8,9
+kmerhash-0.4.dist-info/RECORD,,
