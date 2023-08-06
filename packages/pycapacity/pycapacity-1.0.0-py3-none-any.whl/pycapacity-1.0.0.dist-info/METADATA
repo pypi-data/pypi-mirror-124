@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pycapacity
+Version: 1.0.0
+Summary: A Real-time capable robot capacity calculation module
+Home-page: https://gitlab.inria.fr/askuric/pycapacity
+Author: Antun Skuric
+Author-email: antun.skuric@inria.fr
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A Real-time capable robot capacity calculation module
+
