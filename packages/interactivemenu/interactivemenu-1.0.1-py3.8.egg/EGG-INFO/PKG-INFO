@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: interactivemenu
+Version: 1.0.1
+Summary: An easy-to-use python package to create interactive menus in the terminal. 
+Home-page: https://github.com/Matthias1590/InteractiveMenu
+Author: Matthias Wijnsma
+Author-email: matthiasx95@gmail.com
+License: MIT
+Description: # PyMenu
+        An easy-to-use python package to create interactive menus in the terminal.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
