@@ -1,0 +1,16 @@
+afasi/__init__.py,sha256=hrHqooslGwEKYuKABZLinkHY700gZEyDQlTERBJNQFs,130
+afasi/__main__.py,sha256=rKhyDVx1FpeWwVDLfydB-i8hGpI1oD-Dn80T-0Vb41o,183
+afasi/afasi.py,sha256=JVXpFZveF9Od9tTwmkZf8W4RMZT61wVQ7U7fCvK7Kqo,5798
+afasi/cli.py,sha256=QWjTVZRmHFZADiloPRTu8IY5DShY4zp40f_-xl71UWI,4647
+afasi/tabel.py,sha256=XF-Dh4wYjxCI8I0Kz3cfg6UcsQRJSG7Vj6dgdeY31VU,3101
+tests/__init__.py,sha256=cr5ndc-DX09ICrY-63xcVD11f5aX7I-Q7X40M8aflRc,130
+tests/context.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_afasi.py,sha256=ZSOQ8UyAUavkAjNCxFZ-p-WCvQtVCa0YTb2Dk6MjSuE,5781
+tests/test_cli.py,sha256=L7V7i8Yp3WPVJQUcNXcb9WyFZLOXvyErMDwuXqks8zA,861
+tests/test_tabel.py,sha256=MA50gy-dykAs_52lWX4XKOA5qqpN5gYaKNqXNh6YqAs,5185
+afasi-2021.10.22.dist-info/LICENSE,sha256=NpMdbXDPQfOKFkp3mpaePQrBhcjltWWrjBt9lkJSBQQ,1069
+afasi-2021.10.22.dist-info/METADATA,sha256=YujJmbJEz_IT8iOryDbl_CTZn7fFjnxMR13xl1CYL1U,10288
+afasi-2021.10.22.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+afasi-2021.10.22.dist-info/entry_points.txt,sha256=dvSJUeyyEzAWo8qB9SLOIudOKqpUhDw3PlQvEsqWrm0,41
+afasi-2021.10.22.dist-info/top_level.txt,sha256=7Hhez94JW6o-2PvtDKDeYI0zab32ajRA1w9aqgPdTLE,12
+afasi-2021.10.22.dist-info/RECORD,,
