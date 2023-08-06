@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Candlestick.egg-info/PKG-INFO
+src/Candlestick.egg-info/SOURCES.txt
+src/Candlestick.egg-info/dependency_links.txt
+src/Candlestick.egg-info/requires.txt
+src/Candlestick.egg-info/top_level.txt
+src/Pattern/__init__.py
