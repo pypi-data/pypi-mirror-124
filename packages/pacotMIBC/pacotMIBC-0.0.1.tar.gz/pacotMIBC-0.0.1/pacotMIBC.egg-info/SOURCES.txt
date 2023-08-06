@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pacotMIBC.egg-info/PKG-INFO
+pacotMIBC.egg-info/SOURCES.txt
+pacotMIBC.egg-info/dependency_links.txt
+pacotMIBC.egg-info/requires.txt
+pacotMIBC.egg-info/top_level.txt
+pacoteMIBC/__init__.py
+pacoteMIBC/modulo.py
