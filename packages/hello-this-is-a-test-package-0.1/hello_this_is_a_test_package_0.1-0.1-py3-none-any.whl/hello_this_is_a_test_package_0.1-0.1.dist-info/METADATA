@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hello-this-is-a-test-package-0.1
+Version: 0.1
+Summary: A small example package
+Home-page: UNKNOWN
+Author: Pickle Rick
+Author-email: pickle@rick.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# This is a small python example package
+
+## Usage
+This can be installed with pip install hello
+
