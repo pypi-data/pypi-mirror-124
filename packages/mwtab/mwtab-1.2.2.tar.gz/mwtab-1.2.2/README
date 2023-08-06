@@ -1,0 +1,52 @@
+# The mwtab Python library for RESTful Access and Enhanced Quality Control, Deposition, and Curation of the Metabolomics Workbench Data Repository
+Christian D. Powell 1,2,3 and Hunter N.B. Moseley 2,3,4,5
+1 Department of Computer Science, University of Kentucky
+2 Markey Cancer Center, University of Kentucky, 800 Rose Street, Pavilion CC436, Lexington, USA
+3 Superfund Research Center, University of Kentucky
+4 Department of Molecular and Cellular Biochemistry, University of Kentucky
+5 Institute for Biomedical Informatics, University of Kentucky
+
+
+## Setup the mwtab Python Package
+The zip archive mwtab-dev.zip contains a developmental version of the mwtab Python which was used for this analysis. The archive must first be extracted so that it may be installed.
+### Linux/MacOS
+    $ unzip mwtab-dev.zip
+    -or-
+    $ tar -xf mwtab-dev.zip
+### Windows
+    $ tar -xf mwtab-dev.zip
+
+
+## Installing the mwtab Python Package
+The extracted mwtab Python package and locally installing the package using pip. This will install the local version of the mwtab package and all of it's requirements.
+### Linux/MacOS
+    $ pip3 install -e mwtab/
+### Windows
+    $ python -m pip install -e mwtab/
+
+
+## Setup the Analysis Files/Script
+In order to run the analysis performed, the data_11_20_2020.zip and analysis.zip archives must be extracted (preferably in the same directory/folder). Do this in the same way the mwtab-dev.zip archive was extracted.
+### Linux/MacOS
+    $ unzip data_11_20_2020.zip
+    $ unzip analysis.zip
+    -or-
+    $ tar -xf data_11_20_2020.zip
+    $ tar -xf analysis.zip
+### Windows
+    $ tar -xf data_11_20_2020.zip
+    $ tar -xf analysis.zip
+
+
+## Install Analysis Unique Dependencies
+Inorder to run the analysis.ipynb script, a number of additional dependencies are required. These can all be installed using pip and the given dev_requirements.txt file.
+### Linux/MacOS
+    $ pip3 install -r dev_requirements.txt
+### Windows
+    $ python -m pip install -r dev_requirements.txt
+
+
+## Running the analysis.ipynb Script
+Inorder to run the analysis.ipynb script, one must first start the Jupyter Notebook instance which should open in the users browser. The analysis.ipynb and then be navigated to and the analysis performed can now be ran.
+### Linux/MacOS and Windows
+    $ jupyter notebook
