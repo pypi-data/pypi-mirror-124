@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+FolderStructure/__init__.py
+FolderStructure/create_folder_structure.py
+FolderStructure/folder_structure.py
+FolderStructure/generate_folder_structure.py
+SimpleFolderStructure.egg-info/PKG-INFO
+SimpleFolderStructure.egg-info/SOURCES.txt
+SimpleFolderStructure.egg-info/dependency_links.txt
+SimpleFolderStructure.egg-info/entry_points.txt
+SimpleFolderStructure.egg-info/requires.txt
+SimpleFolderStructure.egg-info/top_level.txt
