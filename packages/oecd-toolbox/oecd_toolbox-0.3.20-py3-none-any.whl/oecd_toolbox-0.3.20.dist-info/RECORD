@@ -1,0 +1,9 @@
+oecd_toolbox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oecd_toolbox/converters.py,sha256=NeSebDsoxWzQL8Sqgk-Sr-MHq8M6ngBFjDVf6bQVAmk,6785
+oecd_toolbox/downloaders.py,sha256=S04_R_c-w-5LyirTXHTndUNJ8A-oKzvBuhD6IxIXF2A,4987
+oecd_toolbox/helpers.py,sha256=Vpstg8mQq8jliTbooFtn8KJVJdJCG7wjjGlz5U_j818,6271
+oecd_toolbox-0.3.20.dist-info/LICENSE,sha256=gSZmedxMmpF2EKqsAlFh7oQuuUCpLS2wjs-YWoarFuY,1131
+oecd_toolbox-0.3.20.dist-info/METADATA,sha256=FfA035RYtUwnNjRJFdpZEmKsjkCaKRrUEPtbCoTPkkU,916
+oecd_toolbox-0.3.20.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+oecd_toolbox-0.3.20.dist-info/top_level.txt,sha256=7NKQ-soQvjtOJIeo7CbkLm834TePOxiGGcprBTLyVMQ,13
+oecd_toolbox-0.3.20.dist-info/RECORD,,
