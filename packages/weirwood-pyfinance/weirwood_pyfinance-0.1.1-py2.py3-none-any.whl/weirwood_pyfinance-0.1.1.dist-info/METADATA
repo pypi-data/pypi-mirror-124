@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: weirwood-pyfinance
+Version: 0.1.1
+Summary: Python API for downloading stock prices and fundamental accounting concepts
+Home-page: https://github.com/weirwoodai/weirwood_pyfinance
+Author: Alex Encalado Masia
+Author-email: encalado.masia@gmail.com
+License: MIT license
+Keywords: weirwood_pyfinance
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: yfinance
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Provides-Extra: all
+Requires-Dist: yfinance ; extra == 'all'
+Requires-Dist: pandas ; extra == 'all'
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: pytest-runner ; extra == 'all'
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: codecov ; extra == 'all'
+Requires-Dist: flake8 ; extra == 'all'
+Requires-Dist: flake8-debugger ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: pytest-raises ; extra == 'all'
+Requires-Dist: python-dotenv ; extra == 'all'
+Requires-Dist: isort ; extra == 'all'
+Requires-Dist: bump2version ; extra == 'all'
+Requires-Dist: coverage ; extra == 'all'
+Requires-Dist: ipython ; extra == 'all'
+Requires-Dist: m2r2 ; extra == 'all'
+Requires-Dist: Sphinx ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme ; extra == 'all'
+Requires-Dist: tox ; extra == 'all'
+Requires-Dist: twine ; extra == 'all'
+Requires-Dist: wheel ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: pytest-runner ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: codecov ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-debugger ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-raises ; extra == 'dev'
+Requires-Dist: python-dotenv ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: m2r2 ; extra == 'dev'
+Requires-Dist: Sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Provides-Extra: setup
+Requires-Dist: pytest-runner ; extra == 'setup'
+Provides-Extra: test
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: codecov ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: flake8-debugger ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-raises ; extra == 'test'
+Requires-Dist: python-dotenv ; extra == 'test'
+Requires-Dist: isort ; extra == 'test'
+
+# Weirwood PyFinance
+
+[![Build Status](https://github.com/weirwoodai/weirwood_pyfinance/workflows/Build%20Main/badge.svg)](https://github.com/weirwoodai/weirwood_pyfinance/actions)
+
+Python API for downloading stock prices and fundamental accounting concepts
+
+---
+
+## Installation
+
+**Stable Release:** `weirwood-pyfinance`<br>
+
+```console
+> pip install weirwood-pyfinance
+```
+
+**Development Head:** `git+https://github.com/weirwoodai/weirwood_pyfinance.git`
+
+```console
+> pip install git+https://github.com/weirwoodai/weirwood_pyfinance.git
+```
+
+## Quick Start
+
+Register your account at https://weirwood.ai for free
+
+```python
+from weirwood_pyfinance import FinTen
+
+finten = FinTen()
+finten.set_login(username="<YOUR USERNAME>",password="<YOUR PASSWORD>")
+filings = finten.get_filings(ticker="AAPL")
+prices = finten.get_prices(ticker="AAPL")
+```
+
+If you don't have an account you can still access using the free tier
+
+```python
+from weirwood_pyfinance import FinTen
+
+finten = FinTen()
+filings = finten.get_filings(ticker="AAPL")
+prices = finten.get_prices(ticker="AAPL")
+```
+
+**MIT license**
+
+
