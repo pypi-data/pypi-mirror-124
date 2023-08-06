@@ -1,0 +1,9 @@
+kustopy/KustoPyClient.py,sha256=ei02KVdkoOQLCA9cn5IX-rr_FWMz2nz9GGQacsbY9TM,8905
+kustopy/__init__.py,sha256=8GWVer1vVvF0n9Xzl6m8p5ClMcKEAilYFoZOSoIfGyw,40
+kustopy/kp_ingest.py,sha256=c71OPa48ku26lP6U0A927siECvlH3bLNlfGa895zCCs,1528
+kustopy/kp_query.py,sha256=TYSfEHdgZtMXpPXlE4fy1PkeUBEa89gXM5m5Mwyi0vw,1990
+kustopy-1.0.15.dist-info/METADATA,sha256=gAD707Pm0CRppYTPTiEiqWLGPTDuzcMebcGgp_WvRj0,1527
+kustopy-1.0.15.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+kustopy-1.0.15.dist-info/entry_points.txt,sha256=h27LLBchD4Dj0l9FuwAQuaKUJfXSsN4DUSq_H9WToyU,54
+kustopy-1.0.15.dist-info/top_level.txt,sha256=TdUbAopjkMPF5bt2iSinKeFD55GVrCaDG8MZstYT_uc,8
+kustopy-1.0.15.dist-info/RECORD,,
