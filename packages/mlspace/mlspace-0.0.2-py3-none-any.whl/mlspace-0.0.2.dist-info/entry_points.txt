@@ -1,0 +1,3 @@
+[console_scripts]
+mlspace = mlspace.cli.mlspace:main
+
