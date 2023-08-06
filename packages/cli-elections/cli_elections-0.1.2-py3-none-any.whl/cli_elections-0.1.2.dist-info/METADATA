@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cli-elections
+Version: 0.1.2
+Summary: Application for displaying election results in the terminal.
+Home-page: UNKNOWN
+Author: Oldřich Taufer
+Author-email: O.Taufer@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: inquirer
+Requires-Dist: requests
+Requires-Dist: diskcache
+Requires-Dist: plotext
+
+UNKNOWN
+
+
