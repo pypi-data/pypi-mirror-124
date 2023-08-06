@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: epics_linter
+Version: 0.0.2
+Summary: EPICS Configuration Linter
+Home-page: https://github.com/cnpem-iot/epics-linter
+Author: Guilherme F. de Freitas
+Author-email: guilherme.freitas@cnpem.br
+License: GNU General Public License v3 or later (GPLv3+)
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+EPICS Configuration Linter
+
