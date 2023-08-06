@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: animaljam
+Version: 0.0.3
+Summary: Create Animal Jam bots with ease!
+Home-page: UNKNOWN
+Author: Afraid
+Author-email: afraidowns@protonmail.com
+License: MIT
+Keywords: animaljam
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+**animaljam**
+===
+
+**animaljam** a python module to easily create bots on Animal Jam Classic.
+
+Example:
+---
+
+```py
+import animaljam
+
+if animaljam.login('username', 'password') == 'Failed to login.':
+    print('Error logging in!')
+else:
+    animaljam.joinDen('randomusername')
+    while True:
+        animaljam.jag('randomusername', 'LOL')
+```
+
+Features:
+---
+
+- Buddy
+- Buddy Remove
+- JAG
+- Join Den
+- Join Room
+- Change colour
+- Move
+- Teleport
+- Manual packet sending
+
+Change Log
+==========
+
+0.0.3 (21/10/2021)
+---
+- Project description change
+
+0.0.2 (21/10/2021)
+---
+- Project description change
+
+0.0.1 (21/10/2021)
+---
+- First Release
+

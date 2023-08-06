@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+animaljam/__init__.py
+animaljam.egg-info/PKG-INFO
+animaljam.egg-info/SOURCES.txt
+animaljam.egg-info/dependency_links.txt
+animaljam.egg-info/requires.txt
+animaljam.egg-info/top_level.txt
