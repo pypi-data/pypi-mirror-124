@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/depth.py
+src/tree.py
+src/triegig.egg-info/PKG-INFO
+src/triegig.egg-info/SOURCES.txt
+src/triegig.egg-info/dependency_links.txt
+src/triegig.egg-info/top_level.txt
