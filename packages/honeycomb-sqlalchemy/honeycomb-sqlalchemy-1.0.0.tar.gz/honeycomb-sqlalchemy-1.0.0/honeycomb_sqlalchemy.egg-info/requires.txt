@@ -1,0 +1,7 @@
+honeycomb-beeline
+sqlalchemy
+
+[dev]
+coverage==5.5
+pytest==6.2.2
+psycopg2-binary==2.8.6
