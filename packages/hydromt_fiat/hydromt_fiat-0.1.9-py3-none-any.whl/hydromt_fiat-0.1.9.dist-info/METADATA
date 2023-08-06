@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: hydromt_fiat
+Version: 0.1.9
+Summary: hydroMT plugin for fiat models.
+Author-email: Laurens Leunge <laurens.leunge@deltares.nl>, Dirk Eilander <dirk.eilander@deltares.nl>
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: hydromt >=0.4.1
+Requires-Dist: dask >=2021.1,<2021.5
+Requires-Dist: geopandas >=0.8
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pygeos
+Requires-Dist: rasterio
+Requires-Dist: xarray
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: sphinx_rtd_theme ; extra == "doc"
+Requires-Dist: black ; extra == "doc"
+Requires-Dist: testpath ; extra == "test"
+Requires-Dist: responses ; extra == "test"
+Requires-Dist: pytest>=2.7.3 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Project-URL: Documentation, https://deltares.github.io/hydromt_fiat/
+Project-URL: Source, https://github.com/Deltares/hydromt_fiat
+Provides-Extra: doc
+Provides-Extra: test
+
+hydroMT-fiat: FIAT plugin for hydroMT
+#########################################
+
+.. image:: https://codecov.io/gh/Deltares/hydromt_fiat/branch/main/graph/badge.svg
+    :target: https://codecov.io/gh/Deltares/hydromt_fiat
+
+.. image:: https://img.shields.io/badge/docs-latest-brightgreen.svg
+    :target: https://deltares.github.io/hydromt_fiat/latest
+    :alt: Latest developers docs
+
+.. image:: https://img.shields.io/badge/docs-stable-brightgreen.svg
+    :target: https://deltares.github.io/hydromt_fiat/stable
+    :alt: Stable docs last release
+
+.. image:: https://badge.fury.io/py/hydromt_fiat.svg
+    :target: https://pypi.org/project/hydromt_fiat/
+    :alt: Latest PyPI version
+
+.. image:: https://mybinder.org/badge_logo.svg
+    :target: https://mybinder.org/v2/gh/Deltares/hydromt_fiat/main?urlpath=lab/tree/examples
+
+
+hydroMT_ is a python package, developed by Deltares, to build and analysis hydro models.
+It provides a generic model api with attributes to access the model schematization,
+(dynamic) forcing data, results and states. This plugin provides an implementation 
+for the FIAT_ model.
+
+
+.. _hydromt: https://deltares.github.io/hydromt
+.. _FIAT: https://storymaps.arcgis.com/stories/687a256881b94bf6ad20677543bb8cf2
+
+
+Installation
+------------
+
+hydroMT-fiat will soon be availble from pypi and conda-forge (in progress).
+
+To install hydromt_fiat using pip do:
+
+.. code-block:: console
+
+  pip install hydromt_fiat
+
+We recommend installing a hydromt-fiat environment including the hydromt_fiat package
+based on the environment.yml file. This environment will install all package dependencies 
+including the core of hydroMT_.
+
+.. code-block:: console
+
+  conda env create -f binder/environment.yml
+  conda activate hydromt-fiat
+  pip install hydromt_fiat
+
+Documentation
+-------------
+
+Learn more about the hydroMT_fiat plugin in its `online documentation <https://deltares.github.io/hydromt_fiat/>`_
+
+Contributing
+------------
+
+You can find information about contributing to hydroMT at our `Contributing page <https://deltares.github.io/hydromt_fiat/latest/contributing.html>`_.
+
+License
+-------
+
+Copyright (c) 2021, Deltares
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General 
+Public License as published by the Free Software Foundation, either version 3 of the License, or (at your 
+option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the 
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
+for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, 
+see <https://www.gnu.org/licenses/>.
+

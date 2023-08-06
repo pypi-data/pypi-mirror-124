@@ -1,0 +1,3 @@
+[hydromt.models]
+fiat=hydromt_fiat.fiat:FiatModel
+
