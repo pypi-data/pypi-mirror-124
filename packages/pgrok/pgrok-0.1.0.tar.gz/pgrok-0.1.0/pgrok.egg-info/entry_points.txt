@@ -1,0 +1,3 @@
+[console_scripts]
+pgrokpy = pgrok.pgrok:main
+
