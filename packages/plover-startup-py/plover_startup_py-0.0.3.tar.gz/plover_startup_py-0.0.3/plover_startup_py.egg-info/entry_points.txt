@@ -1,0 +1,6 @@
+[plover.command]
+plover_startup_py_reload = plover_startup_py:reload
+
+[plover.extension]
+plover_startup_py = plover_startup_py:Main
+
