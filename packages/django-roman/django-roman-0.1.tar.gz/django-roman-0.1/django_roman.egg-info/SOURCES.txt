@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+django_roman.egg-info/PKG-INFO
+django_roman.egg-info/SOURCES.txt
+django_roman.egg-info/dependency_links.txt
+django_roman.egg-info/not-zip-safe
+django_roman.egg-info/top_level.txt
+roman/__init__.py
+roman/templatetags/__init__.py
+roman/templatetags/roman_tags.py
