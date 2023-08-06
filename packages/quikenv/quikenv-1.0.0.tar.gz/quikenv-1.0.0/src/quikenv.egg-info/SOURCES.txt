@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/quikenv/__init__.py
+src/quikenv/custom_exceptions.py
+src/quikenv/main.py
+src/quikenv.egg-info/PKG-INFO
+src/quikenv.egg-info/SOURCES.txt
+src/quikenv.egg-info/dependency_links.txt
+src/quikenv.egg-info/requires.txt
+src/quikenv.egg-info/top_level.txt
