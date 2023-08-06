@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+dymopy/__init__.py
+dymopy/client.py
+dymopy.egg-info/PKG-INFO
+dymopy.egg-info/SOURCES.txt
+dymopy.egg-info/dependency_links.txt
+dymopy.egg-info/requires.txt
+dymopy.egg-info/top_level.txt
+tests/__init__.py
+tests/test_dymopy.py
