@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: odoo14-addons-oca-donation
+Version: 14.0.20211023.4
+Summary: Meta package for oca-donation Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Requires-Dist: odoo14-addon-donation
+Requires-Dist: odoo14-addon-donation-base
+Requires-Dist: odoo14-addon-donation-direct-debit
+Requires-Dist: odoo14-addon-donation-recurring
+Requires-Dist: odoo14-addon-donation-sale
+
+UNKNOWN
+
