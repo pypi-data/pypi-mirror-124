@@ -1,0 +1,13 @@
+voxypy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voxypy/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voxypy/models/models.py,sha256=2yEP-mEDBtfMAlfxHJrw4a_1BygetMccckKFqm2hqUU,5867
+voxypy/numpy_vox_io/__init__.py,sha256=YPPvbX1l_jNgAFR2uJXs_bIB6ta58frIBaK8P9S0o9s,21
+voxypy/numpy_vox_io/defaultpalette.py,sha256=WFPIYTG6sFoF1PPznxm743pkDK2WH7FOGKfy3YosRyI,3177
+voxypy/numpy_vox_io/models.py,sha256=Z2osHIbse32JW7jnx_kMCFvSxoR3Bi7V7EoIKhazqGo,2545
+voxypy/numpy_vox_io/parser.py,sha256=rY8r-IhJYaCEV2AJlFcoMIGrDAhkzKFGQ2o_w1Lpn9w,4396
+voxypy/numpy_vox_io/utils.py,sha256=xK5v4Ix_-8DNxHfUnR-NLKxOZK-fKaBl9YAt7Zb254Y,131
+voxypy/numpy_vox_io/writer.py,sha256=ssQaFTKaeDVr6QNPs3SlirSZQOt-0CLMtZPqyk-PwnQ,1990
+voxypy-0.1.0.dist-info/METADATA,sha256=cfp31sjutiEL7ZDYcPD_ekisFbsJOOAlBXQrmze12R4,5794
+voxypy-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+voxypy-0.1.0.dist-info/top_level.txt,sha256=r10mAGyS-YAPuZFVQ8dbYhnaChsakrId7DD3SxsrhCY,7
+voxypy-0.1.0.dist-info/RECORD,,
