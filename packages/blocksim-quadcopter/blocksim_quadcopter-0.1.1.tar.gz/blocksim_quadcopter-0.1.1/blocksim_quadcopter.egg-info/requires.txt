@@ -1,0 +1,4 @@
+blocksim
+matplotlib
+numpy
+scipy
