@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: compas_occ
+Version: 0.3.0
+Summary: COMPAS wrapper for the Python bindings of OCC
+Home-page: https://github.com/compas-dev/compas_occ
+Author: tom van mele
+Author-email: van.mele@arch.ethz.ch
+License: MIT license
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+
+# COMPAS OCC
+
+COMPAS wrapper for the Python bindings of OCC
+
+For more information, see the docs at <https://compas.dev/compas_occ/latest/index.html>.
+
+
