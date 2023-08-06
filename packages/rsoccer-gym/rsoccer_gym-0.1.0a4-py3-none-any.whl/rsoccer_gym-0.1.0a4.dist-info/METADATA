@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rsoccer-gym
+Version: 0.1.0a4
+Summary: SSL and VSS robot soccer gym environments
+Home-page: https://github.com/robocin/rSoccer
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: gym
+Requires-Dist: rc-robosim (==0.0.8a0)
+Requires-Dist: pyglet
+Requires-Dist: protobuf
+
+UNKNOWN
+
