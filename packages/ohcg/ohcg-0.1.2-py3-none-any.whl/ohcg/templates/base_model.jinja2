@@ -1,0 +1,29 @@
+from typing import (
+    Generic,
+    TypeVar,
+)
+
+import pydantic
+
+
+class _BaseModel(pydantic.BaseModel):
+    class Config:
+        allow_population_by_field_name = True
+
+
+class _Error(_BaseModel, Exception):
+    pass
+
+
+ListItemType = TypeVar('ListItemType', bound=_BaseModel)
+
+
+class _BaseListModel(pydantic.BaseModel, Generic[ListItemType]):
+    __root__: list[ListItemType]
+
+    def __iter__(self):
+        return iter(self.__root__)
+
+    def __getitem__(self, item):
+        return self.__root__[item]
+

@@ -1,0 +1,28 @@
+class {{ model.name }}({% if model.is_list %}_BaseListModel{% elif model.is_error %}_Error{% else %}_BaseModel{% endif %}):
+    {%- if model.description %}
+    """
+    {{ model.description }}
+    """
+    {% endif -%}
+    {%- if model.attributes %}
+    {%- for attribute in model.attributes %}
+    {%- if attribute.constraints %}
+    {{ attribute.name }}{% if attribute.type %}: {{ attribute.type }}{% endif %} = pydantic.Field(
+        {% if attribute.default %}{{ attribute.default|safe }}{% elif attribute.nullable %}None{% else %}...{% endif %},
+        {%- for (constraint_name, constraint_value) in attribute.constraints %}
+        {{ constraint_name }}={{ constraint_value|safe }},
+        {%- endfor %}
+    )
+    {%- else %}
+    {{ attribute.name }}{% if attribute.type %}: {{ attribute.type }}{% endif %}{% if attribute.default %} = {{ attribute.default|safe }}{% endif %}
+    {%- endif %}
+    {%- if attribute.description %}
+    """
+    {{ attribute.description }}
+    """
+    {%- endif %}
+    {%- endfor %}
+    {%- else  %}
+    pass
+    {%- endif %}
+
