@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: MLTSA
+Version: 0.0.1
+Summary: Machine Learning Transition State Analysis
+Home-page: UNKNOWN
+Author: Pedro Buigues
+Author-email: pedrojuanbj@gmail.com
+License: MIT
+Description: This is a Python module to apply the MLTSA approach for relevant CV identification on Molecular Dynamics data using both Sklearn and TensorFlow modules.
+        
+        >examples : Contains files with the easy to call 1D/2D/MD examples to generate data or play around with it as tests for the approach.
+        
+        > MLTSA_sklearn : Contains the Scikit-Learn integrated functions to apply MLTSA on data.
+        
+        > MLTSA_tensorflow: Contains the set of functions and different models built on TensorFlow to apply MLTSA on data.
+        
+        Change Log
+        ============
+        0.0.1 (26/10/2021)
+        - First Release
+Keywords: MLTSA
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10 
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
