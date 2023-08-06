@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: LibBinTViewVariable
+Version: 0.1.0
+Summary: A package to share constants from Binance and TradingView
+Home-page: https://github.com/Vankezzz/BinTViewVariable/
+Author: Yonas Guryavichyus
+Author-email: yagur1998@gmail.com
+License: UNKNOWN
+Description: # BinTViewVariable
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
