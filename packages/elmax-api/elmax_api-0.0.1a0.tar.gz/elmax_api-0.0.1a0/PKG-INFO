@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: elmax_api
+Version: 0.0.1a0
+Summary:  Asynchronous API Library to work with Elmax devices 
+Home-page: https://github.com/albertogeniola/elmax-api
+Author: Alberto Geniola
+Author-email: albertogeniola@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/albertogeniola/elmax-api
+Project-URL: Source, https://github.com/albertogeniola/elmax-api
+Project-URL: Tracker, https://github.com/albertogeniola/elmax-api
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Elmax API client
+
+Asynchronous Python API client for interacting with the Elmax Cloud services, via HTTP apis.
+Part of this work is based on 
+
+## Installation
+
+The package is available in the [Python Package Index](https://pypi.python.org/).
+
+```bash
+$ pip3 install elmax-api --user
+```
+
+
+
+
