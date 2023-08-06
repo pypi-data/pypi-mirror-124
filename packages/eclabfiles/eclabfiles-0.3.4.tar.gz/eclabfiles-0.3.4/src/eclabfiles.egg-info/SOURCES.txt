@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/eclabfiles/__init__.py
+src/eclabfiles/main.py
+src/eclabfiles/mpr.py
+src/eclabfiles/mps.py
+src/eclabfiles/mpt.py
+src/eclabfiles/techniques.py
+src/eclabfiles.egg-info/PKG-INFO
+src/eclabfiles.egg-info/SOURCES.txt
+src/eclabfiles.egg-info/dependency_links.txt
+src/eclabfiles.egg-info/requires.txt
+src/eclabfiles.egg-info/top_level.txt
