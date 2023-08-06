@@ -1,0 +1,20 @@
+start: record+
+record: _RECORD_HEAD RECORD_TYPE "," (WORD | ESCAPED_STRING) ")" "{" "\n" field+"}"
+field:  _FIELD_HEAD WORD "," (WORD | ESCAPED_STRING) ")" "\n"
+
+_STRING_INNER: /.*?/
+_STRING_ESC_INNER: _STRING_INNER /(?<!\\)(\\\\)*?/
+
+ESCAPED_STRING : "\"" _STRING_ESC_INNER "\""
+_RECORD_HEAD: "record("
+_FIELD_HEAD: "field("
+
+RECORD_TYPE: /(aai|aao|ai|ao|aSub|bi|bo|calc|calcout|compress|dfanout|event|fanout|histogram|longin|longout|int64in|int64out|mbbi|mbbiDirect|mbbo|mbboDirect|permissive|printf|sel|seq|state|stringin|stringout|lsi|lso|subArray|sub|waveform)/
+
+%import common.WS
+%import common.WORD
+%import common.SH_COMMENT
+%import common.WS_INLINE
+
+%ignore WS_INLINE
+%ignore SH_COMMENT
