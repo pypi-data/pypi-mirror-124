@@ -1,0 +1,3 @@
+[console_scripts]
+qfmu = qfmu.__main__:main
+
