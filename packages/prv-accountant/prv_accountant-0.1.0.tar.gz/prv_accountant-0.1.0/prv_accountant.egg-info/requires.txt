@@ -1,0 +1,12 @@
+numpy
+scipy
+
+[extra]
+plotly
+tqdm
+jupyter
+sympy
+tensorflow-privacy
+nbconvert
+pandas
+pytest
