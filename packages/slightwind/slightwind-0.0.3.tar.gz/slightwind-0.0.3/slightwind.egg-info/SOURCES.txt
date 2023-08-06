@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+slightwind/__init__.py
+slightwind/slightwind.py
+slightwind.egg-info/PKG-INFO
+slightwind.egg-info/SOURCES.txt
+slightwind.egg-info/dependency_links.txt
+slightwind.egg-info/top_level.txt
+slightwind/Math/__init__.py
