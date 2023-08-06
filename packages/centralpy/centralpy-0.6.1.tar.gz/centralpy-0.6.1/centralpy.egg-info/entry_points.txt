@@ -1,0 +1,4 @@
+[console_scripts]
+centralpy = centralpy.cli:main
+check-audits = centralpy.check_audits:main
+
