@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: smi-analysis
+Version: 0.1.0
+Summary: Scientific python for data analysis at the Soft matter Interface beamline at NSLS-II
+Home-page: https://github.com/NSLS-II-SMI/smi-analysis
+Author: Brokhaven National Laboratory
+Author-email: gfreychet@bnl.gov
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: h5py
+Requires-Dist: numpy
+Requires-Dist: pyFAI
+Requires-Dist: pygix
+Requires-Dist: scipy
+Requires-Dist: xarray
+
+============
+SMI_analysis
+============
+
+.. image:: https://img.shields.io/travis/gfreychet/smi_analysis.svg
+        :target: https://travis-ci.org/gfreychet/smi_analysis
+
+.. image:: https://img.shields.io/pypi/v/smi_analysis.svg
+        :target: https://pypi.python.org/pypi/smi_analysis
+
+
+Scientific python for data analysis at the Soft matter Interface beamline at NSLS-II
+
+* Free software: 3-clause BSD license
+* Documentation: (COMING SOON!) https://gfreychet.github.io/smi_analysis.
+
+Features
+--------
+
+* TODO
+
+
