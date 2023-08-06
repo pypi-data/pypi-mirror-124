@@ -1,0 +1,4 @@
+magic_links
+magic_links/migrations
+magic_links/urls
+magic_links/views
