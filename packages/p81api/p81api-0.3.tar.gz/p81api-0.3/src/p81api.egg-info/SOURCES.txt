@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/p81api/__init__.py
+src/p81api/api.py
+src/p81api/model.py
+src/p81api.egg-info/PKG-INFO
+src/p81api.egg-info/SOURCES.txt
+src/p81api.egg-info/dependency_links.txt
+src/p81api.egg-info/top_level.txt
