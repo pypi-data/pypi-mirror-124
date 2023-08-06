@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: files-from-tmpl
+Version: 0.0.4
+Summary: Generating files from template
+Home-page: https://github.com/inerject/files-from-tmpl
+Author: inerject
+Author-email: kumbalup@gmail.com
+License: GNU GPLv3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Jinja2 (==3.0.2)
+
+todo
+
+
