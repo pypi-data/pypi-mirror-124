@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: fortnet-python
+Version: 0.3
+Summary: Python Tools for the Fortnet Software Package
+Home-page: https://github.com/vanderhe/fortnet-python
+Author: T. W. van der Heide
+Author-email: vanderhe@uni-bremen.de
+License: BSD
+Platform: platform independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires: pytest
+Requires: numpy
+Requires: h5py
+Requires: ase
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+
+Python Tools for the Fortnet Software Package
+---------------------------------------------
+fortnet-python provides tools to generate compatible datasets as well as extract
+results obtained by the neural network implementation Fortnet.
+
+
