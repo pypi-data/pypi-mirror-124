@@ -1,0 +1,9 @@
+nettyflix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nettyflix/models.py,sha256=SgTiWrUTvtKKFr6DMPXqmKswtRDIi4qMT_ghgWXVjAs,31
+nettyflix/views.py,sha256=Zaj3tnZSatV14ozHpUrm2wLH7s1Xie-Seo7qFeUvojA,30
+nettyflix/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nettyflix/db/csv.py,sha256=L8GxqCazh6STWqJ0qtAcHcQyLOOJEThtxB6wwZA-V08,114
+nettyflix-1.0.0.dist-info/METADATA,sha256=TzcA8Xy4ifiVW0WKcXs7rJqo2kl_bnTrWKHI2aS5QaU,160
+nettyflix-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nettyflix-1.0.0.dist-info/top_level.txt,sha256=7oZM6zm7d4RNytDJ1ZJOt9F58bUTNZrKQkvUWn-MxhI,10
+nettyflix-1.0.0.dist-info/RECORD,,
