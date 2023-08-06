@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "worktree-manager"
+version = "0.1.5"
+description = ""
+authors = ["Tal Vintrob <tvaintrob@gmail.com>"]
+
+[tool.poetry.scripts]
+work = "worktree_manager.manager:cli"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+isort = "^5.9.3"
+poethepoet = "^0.10.0"
+
+[tool.poe.tasks]
+publish = [
+  { cmd = "poetry version patch" },
+  { cmd = "poetry build" },
+  { cmd = "poetry publish" }
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
