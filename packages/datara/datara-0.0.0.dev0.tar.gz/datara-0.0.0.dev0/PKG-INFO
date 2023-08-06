@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: datara
+Version: 0.0.0.dev0
+Summary: auto tester for your AI
+Home-page: https://github.com/datarocktech/datara
+Author: Datarock technologies
+Author-email: datara@datarock.tech
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/datarocktech/datara/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
