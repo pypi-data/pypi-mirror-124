@@ -1,0 +1,204 @@
+# MAPLEAF
+# File: /mnt/c/Users/rando/Documents/MAPLEAF/MAPLEAF/Examples/Simulations/CanardsOptimization_continue.mapleaf
+# Autowritten on: 2021-08-08 12:19:21.531378
+
+Optimization{
+
+	IndependentVariables{
+		Dxy	0 < Rocket.ControlSystem.MomentController.Dxy < 200
+		Dz	0 < Rocket.ControlSystem.MomentController.Dz < 300
+
+		InitialParticlePositions{
+			bestCost	41.05478782327065
+			bestPosition	171.76004090112912 119.99352240000121 146.7452338128621 105.88065764305001 36.34594224616839 170.66743142275763
+
+			p0{
+				Dxy	172.5391444053373
+				Dz	121.2849979700585
+				Ixy	36.925020423554315
+				Iz	106.43713300721956
+				Pxy	147.32530804550396
+				Pz	171.13915079233485
+			}
+
+			p1{
+				Dxy	180.39093307825237
+				Dz	92.29674094467177
+				Ixy	39.794448130853795
+				Iz	96.33267985190601
+				Pxy	152.5799437768507
+				Pz	172.8945309630275
+			}
+
+			p2{
+				Dxy	93.09948411418137
+				Dz	129.1682321209367
+				Ixy	34.941281266924975
+				Iz	105.95518661494083
+				Pxy	137.93798836436827
+				Pz	301.63379982538765
+			}
+
+			p3{
+				Dxy	171.84325699722936
+				Dz	112.89786421966467
+				Ixy	36.03521086784641
+				Iz	106.91858016794616
+				Pxy	143.44449971192603
+				Pz	172.71121041625284
+			}
+		}
+
+		Ixy	0 < Rocket.ControlSystem.MomentController.Ixy < 50
+		Iz	0 < Rocket.ControlSystem.MomentController.Iz < 200
+		Pxy	0 < Rocket.ControlSystem.MomentController.Pxy < 200
+		Pz	0 < Rocket.ControlSystem.MomentController.Pz < 500
+	}
+
+	ParticleSwarm{
+		nIterations	2
+		nParticles	4
+	}
+
+	batchDefinition	/mnt/c/Users/rando/Documents/MAPLEAF/MAPLEAF/Examples/BatchSims/CanardOptimizationTest.mapleaf
+	costFunction	MAPLEAF.OptimizationFunctions.MomentPIDCostOptimizationFunction:OptimizationFunction
+}
+
+Rocket{
+
+	ControlSystem{
+
+		MomentController{
+			Dxy	50
+			Dz	200
+			Ixy	10
+			Iz	20
+			Pxy	100
+			Pz	400
+			Type	ConstantGainPIDRocket
+		}
+
+		controlledSystem	Rocket.Sustainer.Canards
+		desiredFlightDirection	(0 0 1)
+		updateRate	100
+	}
+
+	Sustainer{
+
+		Canards{
+
+			Actuators{
+				class	Actuator
+				controller	TableInterpolating
+				deflectionKeyColumns	Mach Altitude DesiredMx DesiredMy DesiredMz
+				deflectionTablePath	/mnt/c/Users/rando/Documents/MAPLEAF/MAPLEAF/Examples/TabulatedData/linearCanardDefls.txt
+				maxDeflection	45
+				minDeflection	-45
+				responseModel	FirstOrder
+				responseTime	0.1
+			}
+
+			cg	(0 0 -0.8636)
+			class	FinSet
+			mass	2
+			numFins	4
+			position	(0 0 -0.8636)
+			rootChord	0.1524
+			span	0.0635
+			surfaceRoughness	0.000050
+			sweepAngle	30
+			thickness	0.0047625
+			tipChord	0.0762
+		}
+
+		GeneralMass{
+			cg	(0 0 -2.762)
+			class	Mass
+			mass	5
+			position	(0 0 -2.762)
+		}
+
+		Motor{
+			class	Motor
+			path	/mnt/c/Users/rando/Documents/MAPLEAF/MAPLEAF/Examples/Motors/test2.txt
+		}
+
+		Nosecone{
+			aspectRatio	5
+			baseDiameter	0.1524
+			cg	(0 0 -0.2)
+			class	Nosecone
+			mass	20.0
+			position	(0 0 0)
+			shape	tangentOgive
+			surfaceRoughness	0.000050
+		}
+
+		RecoverySystem{
+			cg	(0 0 -1)
+			class	RecoverySystem
+			mass	0
+			numStages	2
+			position	(0 0 -1)
+			stage1Cd	1.5
+			stage1ChuteArea	2
+			stage1DelayTime	2
+			stage1Trigger	Apogee
+			stage1TriggerValue	30
+			stage2Cd	1.5
+			stage2ChuteArea	9
+			stage2DelayTime	0
+			stage2Trigger	Altitude
+			stage2TriggerValue	300
+		}
+
+		TailFins{
+			cg	(0 0 -4.2762)
+			class	FinSet
+			mass	2
+			numFins	4
+			position	(0 0 -4.2672)
+			rootChord	0.3048
+			span	0.1397
+			surfaceRoughness	0.000050
+			sweepAngle	28.61
+			thickness	0.0047625
+			tipChord	0.1524
+		}
+
+		UpperBodyTube{
+			cg	(0 0 -1)
+			class	Bodytube
+			length	3.81
+			mass	5
+			outerDiameter	0.1524
+			position	(0 0 -0.762)
+			surfaceRoughness	0.000050
+		}
+
+		class	Stage
+		constCG	(0 0 -2.65)
+		constMOI	(85 85 0.5)
+		constMass	50
+		stageNumber	0
+	}
+
+	initialDirection	(0.4 0.4 1)
+	position	(0 0 10)
+	velocity	(5 5 10)
+}
+
+SimControl{
+	EndCondition	Apogee
+	EndConditionValue	0
+	RocketPlot	Off
+
+	TimeStepAdaptation{
+		controller	PID
+	}
+
+	loggingLevel	4
+	plot	None
+	timeDiscretization	RK45Adaptive
+	timeStep	0.02
+}
