@@ -1,0 +1,10 @@
+gamdam/__init__.py,sha256=MvQyG0w_sRTiFobZit26-KS40qE5bWlYwkoMsirHrTo,969
+gamdam/__main__.py,sha256=G8rmpzaxXKzR8Qe_Q9FhdPafoNlbJSvTDWkeygl81eQ,5615
+gamdam/core.py,sha256=rvEPH37L_f_BXJS8yJ2CVra1IiyNOByNHaXjWnMs1l0,11060
+gamdam/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gamdam-0.1.0.dist-info/LICENSE,sha256=kTSiU_qjJU-ybHXGLvcUbpL-AniB8y56QiBbpMmYU8c,1090
+gamdam-0.1.0.dist-info/METADATA,sha256=zzhrQM7tipk2rOOFES-XQhSr3thDN6C2DYDVN9Emhi0,9598
+gamdam-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gamdam-0.1.0.dist-info/entry_points.txt,sha256=wrn-Q9XKfCblI32gc9tKji_lYTVIhYIu1RyK3wVJxzk,49
+gamdam-0.1.0.dist-info/top_level.txt,sha256=3lwTk2rbfO5RF6Wg3TLw6UYUiTarEj6nVtsouocoitA,7
+gamdam-0.1.0.dist-info/RECORD,,
