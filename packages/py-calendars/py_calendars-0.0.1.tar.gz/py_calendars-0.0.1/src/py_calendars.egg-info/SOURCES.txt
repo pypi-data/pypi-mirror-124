@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/py_calendars/__init__.py
+src/py_calendars/year_month.py
+src/py_calendars.egg-info/PKG-INFO
+src/py_calendars.egg-info/SOURCES.txt
+src/py_calendars.egg-info/dependency_links.txt
+src/py_calendars.egg-info/top_level.txt
