@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.cfg
+setup.py
+_bbfreeze_loader/__init__.py
+_bbfreeze_loader/console.c
+_bbfreeze_loader/consolew.c
+_bbfreeze_loader/getpath.c
+_bbfreeze_loader/loader_impl.h
+refrigerant_loader.egg-info/PKG-INFO
+refrigerant_loader.egg-info/SOURCES.txt
+refrigerant_loader.egg-info/dependency_links.txt
+refrigerant_loader.egg-info/not-zip-safe
+refrigerant_loader.egg-info/top_level.txt

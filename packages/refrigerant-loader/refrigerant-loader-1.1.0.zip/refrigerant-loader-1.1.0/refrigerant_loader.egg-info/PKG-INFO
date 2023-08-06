@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: refrigerant-loader
+Version: 1.1.0
+Summary: provide binary loaders for bbfreeze
+Home-page: http://pypi.python.org/pypi/bbfreeze/
+Maintainer: Ross J. Duff
+Maintainer-email: rjdbcm@mail.umkc.edu
+License: zlib/libpng license
+Platform: Linux Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: zlib/libpng License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: System :: Software Distribution
+
+bbfreeze-loader provides binary dependencies for
+bbfreeze. please do not install this module, install bbfreeze
+instead.
+
