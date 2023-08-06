@@ -1,0 +1,7 @@
+setup.py
+funniestjoke/__init__.py
+funniestjoke.egg-info/PKG-INFO
+funniestjoke.egg-info/SOURCES.txt
+funniestjoke.egg-info/dependency_links.txt
+funniestjoke.egg-info/not-zip-safe
+funniestjoke.egg-info/top_level.txt
