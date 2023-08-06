@@ -1,0 +1,5 @@
+pandas
+python-taiga==1.0.0
+pyzabbix==1.0.0
+requests>=2.22.0
+xlsxwriter>=3.0.1
