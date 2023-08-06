@@ -1,0 +1,1 @@
+recursive-include tracardi_pushover_webhook/model *

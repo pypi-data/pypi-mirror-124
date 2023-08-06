@@ -1,0 +1,17 @@
+.gitignore
+LICENSE.md
+MANIFEST.in
+README.md
+build.sh
+build_setup.sh
+requirements.txt
+setup.py
+tracardi_pushover_webhook/plugin.py
+tracardi_pushover_webhook.egg-info/PKG-INFO
+tracardi_pushover_webhook.egg-info/SOURCES.txt
+tracardi_pushover_webhook.egg-info/dependency_links.txt
+tracardi_pushover_webhook.egg-info/requires.txt
+tracardi_pushover_webhook.egg-info/top_level.txt
+tracardi_pushover_webhook/model/pushover_config.py
+tracardi_pushover_webhook/model/__pycache__/pushover_config.cpython-38.pyc
+tracardi_pushover_webhook/tests/test_plugin.py
