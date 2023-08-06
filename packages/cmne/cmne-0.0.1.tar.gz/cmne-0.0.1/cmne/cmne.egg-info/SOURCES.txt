@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+cmne/cmne.egg-info/PKG-INFO
+cmne/cmne.egg-info/SOURCES.txt
+cmne/cmne.egg-info/dependency_links.txt
+cmne/cmne.egg-info/top_level.txt
