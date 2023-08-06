@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pyinterconvert/ConvClient.py
+pyinterconvert/__init__.py
+pyinterconvert.egg-info/PKG-INFO
+pyinterconvert.egg-info/SOURCES.txt
+pyinterconvert.egg-info/dependency_links.txt
+pyinterconvert.egg-info/top_level.txt
