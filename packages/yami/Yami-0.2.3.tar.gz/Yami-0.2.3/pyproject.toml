@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "Yami"
+version = "0.2.3"
+description = "A command handler that complements Hikari, a Discord API wrapper written in Python."
+license = "GPL-3.0-only"
+homepage = "https://github.com/Jonxslays/Yami"
+repository = "https://github.com/Jonxslays/Yami"
+authors = ["Jonxslays <jon@jonxslays.com>"]
+readme = "README.md"
+packages = [
+    { include = "yami" },
+    { include = "yami/py.typed" },
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+hikari = ">=2.0.0.dev103"
+aiohttp = ">=3.7.4.post0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+black = "^21.6b0"
+mock = "^4.0.3"
+types-mock = "^4.0.2"
+len8 = "^0.2.1"
+flake8 = "^4.0.1"
+isort = "^5.9.3"
+nox = "^2021.10.1"
+pyright = "^0.0.10"
+
+[tool.pyright]
+include = ["yami"]
+ignore = ["tests"]
+typeCheckingMode = "strict"
+reportImportCycles = false
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
