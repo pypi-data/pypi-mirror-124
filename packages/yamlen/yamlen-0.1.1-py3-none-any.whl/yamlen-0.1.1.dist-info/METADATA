@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: yamlen
+Version: 0.1.1
+Summary: A PyYAML thin wrapper.
+Home-page: https://github.com/ymoch/yamlen
+License: MIT
+Author: Yu Mochizuki
+Author-email: ymoch.dev@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup
+Requires-Dist: pyyaml (>=5.4.1,<6.0.0)
+Project-URL: Repository, https://github.com/ymoch/yamlen
+Description-Content-Type: text/markdown
+
+# Yamlen - a Thin PyYAML Wrapper
+
+[![CircleCI](https://circleci.com/gh/ymoch/yamlen.svg?style=svg)][Circle CI]
+[![Codecov](https://codecov.io/gh/ymoch/yamlen/branch/main/graph/badge.svg)][Codecov]
+
+## Features
+- Contextual tag construction.
+
+## Examples
+
+### Create a Loader
+```
+>>> from yamlen import Loader
+>>> loader = Loader()
+
+```
+
+
+### Load YAML documents in Streams
+
+```
+>>> from io import StringIO
+
+>>> stream = StringIO("foo")
+>>> loader.load(stream)
+'foo'
+
+>>> stream = StringIO("foo\n---\nbar")
+>>> list(loader.load_all(stream))
+['foo', 'bar']
+
+```
+
+### Load YAML Documents in Files.
+
+```
+>>> import os
+>>> from tempfile import TemporaryDirectory
+
+>>> with TemporaryDirectory() as dir_path:
+...     path = os.path.join(dir_path, "example.yml")
+...     with open(path, "w") as f:
+...         _ = f.write("foo")
+...     loader.load_from_path(path)
+'foo'
+
+>>> with TemporaryDirectory() as dir_path:
+...     path = os.path.join(dir_path, "example.yml")
+...     with open(path, "w") as f:
+...         _ = f.write("foo\n---\nbar")
+...     list(loader.load_all_from_path(path))
+['foo', 'bar']
+
+```
+
+### Contextual tag construction: include another YAML file.
+
+```
+>>> from yamlen.tag.impl.inclusion import InclusionTag
+>>> loader.add_tag("!include", InclusionTag())
+
+```
+
+```
+>>> with TemporaryDirectory() as dir_path:
+...     foo_path = os.path.join(dir_path, "foo.yml")
+...     bar_path = os.path.join(dir_path, "bar.yml")
+...     with open(foo_path, "w") as f:
+...         _ = f.write(f"!include ./bar.yml")
+...     with open(bar_path, "w") as f:
+...         _ = f.write("bar")
+...     loader.load_from_path(foo_path)
+'bar'
+
+```
+
+## License
+
+[![MIT License](https://img.shields.io/badge/License-MIT-brightgreen.svg)][MIT License]
+
+Copyright (c) 2021 Yu Mochizuki
+
+[Circle CI]: https://circleci.com/gh/ymoch/yamlen
+[Codecov]: https://codecov.io/gh/ymoch/yamlen
+[MIT License]: https://opensource.org/licenses/MIT
+
