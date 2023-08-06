@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+nz_stream_depletion/__init__.py
+nz_stream_depletion/main.py
+nz_stream_depletion/methods.py
+nz_stream_depletion.egg-info/PKG-INFO
+nz_stream_depletion.egg-info/SOURCES.txt
+nz_stream_depletion.egg-info/dependency_links.txt
+nz_stream_depletion.egg-info/requires.txt
+nz_stream_depletion.egg-info/top_level.txt
+nz_stream_depletion/tests/__init__.py
+nz_stream_depletion/tests/test_sd.py
+nz_stream_depletion/tests/utest_sd.py
