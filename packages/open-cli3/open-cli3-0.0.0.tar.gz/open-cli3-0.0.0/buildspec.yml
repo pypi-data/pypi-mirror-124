@@ -1,0 +1,26 @@
+version: 0.2
+env:
+  shell: bash
+phases:
+  pre_build:
+    commands:
+      - mkdir -p $HOME/.docker/cli-plugins
+      - wget https://github.com/christian-korneck/docker-pushrm/releases/download/v1.8.0/docker-pushrm_linux_amd64 -O $HOME/.docker/cli-plugins/docker-pushrm
+      - chmod +x $HOME/.docker/cli-plugins/docker-pushrm
+      - echo "Logging in to  dockerhub ..."
+      - docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_ACCESS_TOKEN
+  build:
+    commands:
+      - echo "Image build started at `date`"
+      - echo "Building image ${PRODUCT_NAME}:${IMAGE_TAG}..."
+      - docker build -t $PRODUCT_NAME:$IMAGE_TAG -f Dockerfile .
+      - echo "Image build completed at `date`"
+      - python3 -m pip install --upgrade build
+      - python3 -m pip install --upgrade twine
+      - python3 -m build
+  post_build:
+    commands:
+      - docker push $PRODUCT_NAME:$IMAGE_TAG
+      - docker pushrm $PRODUCT_NAME:$IMAGE_TAG
+      - python3 -m twine upload --repository pypi dist/*
+
