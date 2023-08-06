@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: injectorfount
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: Injector,Injector ProviderDependency Injection,DI,Dependency Injection framework,Inversion of Control,IoC,Inversion of Control container
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Provides-Extra: test

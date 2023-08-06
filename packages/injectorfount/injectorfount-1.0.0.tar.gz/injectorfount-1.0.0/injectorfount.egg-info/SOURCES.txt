@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+injectorfount/__init__.py
+injectorfount/providers.py
+injectorfount.egg-info/PKG-INFO
+injectorfount.egg-info/SOURCES.txt
+injectorfount.egg-info/dependency_links.txt
+injectorfount.egg-info/requires.txt
+injectorfount.egg-info/top_level.txt
