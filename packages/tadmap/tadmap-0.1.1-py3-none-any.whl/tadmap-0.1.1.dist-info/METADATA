@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tadmap
+Version: 0.1.1
+Summary: Consensus layout of topologically associating domains (TADs) and utilities for RNA-seq analysis
+Home-page: http://github.com/rs239/tadmap
+Author: Rohit Singh
+Author-email: rsingh@alum.mit.edu
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: sklearn
+Requires-Dist: tqdm
+Requires-Dist: scanpy
+
+Topologically associating domains (TADs) are contiguous segments of the genome where the genomic elements are in frequent contact with each other. The TAD Map provides a consensus estimate, aggregated from multiple experimental datasets, of this layout in human and mouse. It also provides tools to map any single-cell RNA-seq dataset to TAD signatures, with gene expression mapped to TAD activation probabilities in each cell
+
