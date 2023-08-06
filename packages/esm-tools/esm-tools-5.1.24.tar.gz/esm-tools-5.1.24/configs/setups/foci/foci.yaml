@@ -1,0 +1,407 @@
+#########################################################################################
+######################### FOCI 1 YAML CONFIGURATION FILE ###############################
+#########################################################################################
+general:
+        model: foci
+        pool_dir: "${computer.pool_directories.focipool}"
+        #setup_dir: ${general.model_dir}
+        #base_dir: ${general.model_dir}/experiments
+        #model_dir: ${esm_master_dir}/foci-${version}
+
+        lresume: False
+        #nday: 5
+        coupled_setup: True
+
+        include_models:
+                - echam
+                - nemo
+                - xios
+                - oasis3mct
+
+        version: "default"
+        scenario: "PI-CTRL"
+        resolution: ${echam.resolution}_${nemo.resolution}
+        postprocessing: false
+        post_time: "00:05:00"
+        compute_time: "01:30:00"
+        
+        available_versions:
+        - default
+        choose_version:
+          default:
+            couplings:
+            - nemo-ORCA05_LIM2_KCM_AOW+echam-6.3.05p2-foci
+        
+        environment_changes:
+            choose_computer.name:
+                mistral:
+                        add_export_vars:
+                                # (additional) settings used in FOCI up to v1.21
+                                 - 'ECHAM6_THREADS=1'
+                                 - 'NEMO_THREADS=1'
+                                 - 'I_MPI_SLURM_EXT=0'
+
+#########################################################################################
+########### necessary changes to submodels compared to standalone setups ################
+#########################################################################################
+
+echam:
+        version: "6.3.05p2-foci"
+
+        pool_dir: "${computer.pool_directories.focipool}/ECHAM6"
+        model_dir: ${general.model_dir}/echam-${echam.version}
+        setup_dir: ${general.model_dir}
+        restart_firstlast: "last"
+        nproca: 24
+        nprocb: 24
+
+        # TODO: document this crazy ECHAM6 restart math
+        pseudo_start_date: $((${start_date} - ${time_step}seconds))
+        pseudo_start_date2: $((${start_date} - 1years - ${time_step}seconds))
+        pseudo_final_date: $((${final_date} - ${time_step}seconds))
+        pseudo_end_date: $((${next_date} - ${time_step}seconds - ${time_step}seconds))
+        choose_lresume:
+                True:
+                        add_namelist_changes:
+                                namelist.echam:
+                                        runctl:
+                                               dt_start:
+                                                      - ${pseudo_start_date2!year}
+                                                      - ${pseudo_start_date2!month}
+                                                      - ${pseudo_start_date2!day}
+                                                      - ${pseudo_start_date2!hour}
+                                                      - ${pseudo_start_date2!minute}
+                                                      - ${pseudo_start_date2!second}
+                False:
+                        add_namelist_changes:
+                                namelist.echam:
+                                        runctl:
+                                               dt_start:
+                                                      - ${pseudo_start_date!year}
+                                                      - ${pseudo_start_date!month}
+                                                      - ${pseudo_start_date!day}
+                                                      - ${pseudo_start_date!hour}
+                                                      - ${pseudo_start_date!minute}
+                                                      - ${pseudo_start_date!second}
+        namelist_changes:
+                namelist.echam:
+                        runctl:
+                                lcouple: .true.
+                                # if lresume = true, dt_start is removed from namelist
+                                # see echam.yaml because if dt_start = dt_resume a
+                                # initial run is forced (see mo_time_control.f90)
+                                #dt_start:
+                                #       - ${pseudo_start_date!year}
+                                #       - ${pseudo_start_date!month}
+                                #       - ${pseudo_start_date!day}
+                                #       - ${pseudo_start_date!hour}
+                                #       - ${pseudo_start_date!minute}
+                                #       - ${pseudo_start_date!second}
+                                dt_stop:
+                                       - ${pseudo_final_date!year}
+                                       - ${pseudo_final_date!month}
+                                       - ${pseudo_final_date!day}
+                                       - ${pseudo_final_date!hour}
+                                       - ${pseudo_final_date!minute}
+                                       - ${pseudo_final_date!second}
+                                dt_resume: "remove_from_namelist"
+                                #       - ${pseudo_start_date!year}
+                                #       - ${pseudo_start_date!month}
+                                #       - ${pseudo_start_date!day}
+                                #       - ${pseudo_start_date!hour}
+                                #       - ${pseudo_start_date!minute}
+                                #       - ${pseudo_start_date!second}        
+
+        remove_forcing_files:
+                - sst
+                - sic
+
+        ocean_resolution: "${nemo.resolution}"
+        choose_resolution:
+                T63:
+                     levels: "L95"
+                     time_step: 450
+                     _nx: 192
+                     _ny: 96
+                     nproca: ${nproca}
+                     nprocb: ${nprocb}
+
+        forcing_additional_information:
+                aerocoarse:
+                     - need_year_before
+                     - need_year_after
+                aerofin:
+                     - need_year_before
+                     - need_year_after
+                aerofarir:
+                     - need_year_before
+                     - need_year_after
+                ozone:
+                     - need_year_before
+                     - need_year_after
+
+        restart_in_sources:
+              "[[streams-->STREAM]]": restart_${parent_expid}_${pseudo_start_date!syear!smonth!sday}_STREAM.nc
+
+        restart_out_sources:
+              "[[streams-->STREAM]]": restart_${general.expid}_${pseudo_end_date!syear!smonth!sday}_STREAM.nc
+
+        restart_out_in_work:
+              "[[streams-->STREAM]]": restart_${general.expid}_${pseudo_end_date!syear!smonth!sday!shour!sminute!ssecond}_STREAM.nc
+
+        streams:
+              - echam
+              - accw
+              - co2
+              - surf
+              - tdiag
+
+        check_error:
+              "wind speed":
+                     method: "warn"
+                     message: "high wind speed was found during your run..."
+                     file: "${general.work_dir}/atmout"
+                     frequency: 90
+
+hdmodel:
+        pool_dir: "${computer.pool_directories.focipool}/JSBACH/input/${jsbach.dataset}/HD"
+
+jsbach:
+        version: "3.20p1"
+        # directories
+        pool_dir: "${computer.pool_directories.focipool}/JSBACH"
+        choose_computer.name:
+               ollie:
+                      dynveg_file_ending: ""
+                      no_dynveg_file_ending: ""
+
+        dynamic_vegetations: True
+
+        # Use initialized carbon and nitrogen pools
+        choose_echam.lresume:
+               True:
+                      add_input_files:
+                             lctlib: lctlib_foci
+                      add_namelist_changes:
+                                namelist.jsbach:
+                                        dynveg_ctl:
+                                               read_fpc: False
+                                        cbalance_ctl:
+                                               init_npools: False
+                                               read_cpools: False
+               False:
+                      add_input_files:
+                             lctlib: lctlib_foci
+                             cpools_foci: cpools_foci
+                             npools_foci: npools_foci
+                             fpc_foci: fpc_foci
+
+        pseudo_start_date: $((${start_date} - ${time_step}seconds))
+        pseudo_end_date: $((${next_date} - ${time_step}seconds - ${time_step}seconds))
+        restart_in_sources:
+              "[[streams-->STREAM]]": restart_${parent_expid}_${pseudo_start_date!syear!smonth!sday}_STREAM.nc
+
+        restart_out_sources:
+              "[[streams-->STREAM]]": restart_${general.expid}_${pseudo_end_date!syear!smonth!sday}_STREAM.nc
+
+        restart_out_in_work:
+              "[[streams-->STREAM]]": restart_${general.expid}_${pseudo_end_date!syear!smonth!sday!shour!sminute!ssecond}_STREAM.nc
+
+        streams:
+              - jsbach
+              - nitro
+              - veg
+              - yasso
+
+nemo:
+        #choose_general.version:
+        #        default:
+        #                version: "3.6foci"
+
+        model_dir: ${general.model_dir}/nemo-${nemo.version}
+        setup_dir: ${general.model_dir}
+
+        coupling_freq_in_steps: $((${oasis3mct.coupling_time_step} / ${nemo.time_step}))
+
+xios:
+        nproc: ${computer.cores_per_node}
+
+#########################################################################################
+
+oasis3mct:
+        model_dir: ${general.model_dir}/oasis
+        pool_dir: ${computer.pool_directories.focipool}/OASIS3_ECHAM6${echam.resolution}_${nemo.resolution}/input/${echam.resolution}_${nemo.resolution}/
+        process_ordering:
+                - nemo
+                - echam
+                - xios
+        # lresume needs to be true to allow usage of flxatmos and sstocean
+        # "restart" files in initial coupling time step
+        # but only if the general model setup is a cold start (i.e. general.lresume = false)
+        lresume: true
+        ini_parent_date: "22941231" # not used, but needs to be present
+        ini_parent_exp_id: "khw0030" # not used, but needs to be present
+        ini_restart_dir: "${pool_dir}"
+
+        a2o_lag: "${echam.time_step}"
+        o2a_lag: "${nemo.time_step}"
+        a2o_seq: 3
+
+        coupling_time_step: 10800
+        coupling_target_fields:
+                sstocean:
+                        - 'AIceFrac <--conserv-- OIceFrac'
+                        - 'A_SSTSST <--conserv-- O_SSTSST'
+                        - 'A_TepIce <--conserv-- O_TepIce'
+                        - 'A_IceTck <--conserv-- O_IceTck'
+                        - 'A_SnwTck <--conserv-- O_SnwTck'
+                        - 'A_OCurx1 <--conserv-- O_OCurx1'
+                        - 'A_OCury1 <--conserv-- O_OCury1'
+
+                flxatmos:
+                        - 'O_OTaux1 <--bicubic-- A_OTaux1'
+                        - 'O_OTauy1 <--bicubic-- A_OTauy1'
+                        - 'O_ITaux1 <--bicubic-- A_ITaux1'
+                        - 'O_ITauy1 <--bicubic-- A_ITauy1'
+                        - 'O_QsrIce <--conserv2-- A_QsrIce'
+                        - 'O_QsrMix <--conserv3-- A_QsrMix'
+                        - 'O_QnsIce <--conserv2-- A_QnsIce'
+                        - 'O_QnsMix <--conserv3-- A_QnsMix'
+                        - 'OTotRain <--conserv4-- ATotRain'
+                        - 'OTotSnow <--conserv2-- ATotSnow'
+                        - 'OIceEvap <--conserv2-- AIceEvap'
+                        - 'O_dQnsdT <--conserv2-- A_dQnsdT'
+
+
+        coupling_directions:
+                'opat->atmo':
+                        lag: ${o2a_lag}
+                        seq: ${a2o_seq}
+                'atmo->opat':
+                        lag: ${a2o_lag}
+                        seq: ${a2o_seq}
+                'atmo->opac':
+                        lag: ${a2o_lag}
+                        seq: ${a2o_seq}
+
+        coupling_methods:
+                conserv:
+                        time_transformation: average
+                        remapping:
+                                - conserv:
+                                        search_bin: latitude
+                                        nb_of_search_bins: 40
+                                        normalization: fracnnei
+                                        order: first
+                                - mapping:
+                                        mapname: rmp_opat_to_atmo_CONSERV_FRACNNEI_T63_ORCA05.nc
+                                        map_regrid_on: dst
+                conserv2:
+                        time_transformation: instant
+                        remapping:
+                                - conserv:
+                                        search_bin: latitude
+                                        nb_of_search_bins: 40
+                                        normalization: fracnnei
+                                        order: first
+                                - mapping:
+                                        mapname: rmp_atmo_to_opac_CONSERV_FRACNNEI_D_T63_ORCA05.nc
+                                        map_regrid_on: src
+                conserv3:
+                        time_transformation: instant
+                        remapping:
+                                - conserv:
+                                        search_bin: latitude
+                                        nb_of_search_bins: 40
+                                        normalization: fracnnei
+                                        order: first
+                                - mapping:
+                                        mapname: rmp_atmo_to_opac_CONSERV_FRACNNEI_D_T63_ORCA05.nc
+                                        map_regrid_on: src
+                        postprocessing:
+                                conserv:
+                                        method: glbpos
+                conserv4:
+                        time_transformation: instant
+                        remapping:
+                                - conserv:
+                                        search_bin: latitude
+                                        nb_of_search_bins: 40
+                                        normalization: fracnnei
+                                        order: first
+                                - mapping:
+                                        mapname: rmp_atmo_to_opac_CONSERV_FRACNNEI_D_T63_ORCA05.nc
+                                        map_regrid_on: src
+                        postprocessing:
+                                conserv:
+                                        method: global
+                bicubic:
+                        time_transformation: instant
+                        remapping:
+                                - bicubic:
+                                        search_bin: latitude
+                                        nb_of_search_bins: 40
+                                - mapping:
+                                        mapname: rmp_atmo_to_opat_BICUBIC_D_T63_ORCA05.nc
+                                        map_regrid_on: src
+
+        add_restart_out_files:
+                rmp_a2n_B: rmp_a2n_B
+                rmp_a2n_C: rmp_a2n_C
+                rmp_n2a_C: rmp_n2a_C
+                areas: areas
+                masks: masks
+                grids: grids
+                sstocean: sstocean
+                flxatmos: flxatmos
+
+        add_restart_out_in_work:
+                rmp_a2n_B: rmp_atmo_to_opat_BICUBIC_D_${echam.resolution}_${nemo.resolution}.nc
+                rmp_a2n_C: rmp_atmo_to_opac_CONSERV_FRACNNEI_D_${echam.resolution}_${nemo.resolution}.nc
+                rmp_n2a_C: rmp_opat_to_atmo_CONSERV_FRACNNEI_${echam.resolution}_${nemo.resolution}.nc
+                areas: areas.nc
+                masks: masks.nc
+                grids: grids.nc
+                sstocean: sstocean
+                flxatmos: flxatmos
+
+        add_restart_out_sources:
+                rmp_a2n_B: rmp_atmo_to_opat_BICUBIC_D_${echam.resolution}_${nemo.resolution}.nc
+                rmp_a2n_C: rmp_atmo_to_opac_CONSERV_FRACNNEI_D_${echam.resolution}_${nemo.resolution}.nc
+                rmp_n2a_C: rmp_opat_to_atmo_CONSERV_FRACNNEI_${echam.resolution}_${nemo.resolution}.nc
+                areas: areas_${echam.resolution}_${nemo.resolution}_frac.nc
+                masks: masks_${echam.resolution}_${nemo.resolution}_frac.nc
+                grids: grids_${echam.resolution}_${nemo.resolution}_frac.nc
+                sstocean: sstocean
+                flxatmos: flxatmos
+
+        add_restart_in_files:
+                rmp_a2n_B: rmp_a2n_B
+                rmp_a2n_C: rmp_a2n_C
+                rmp_n2a_C: rmp_n2a_C
+                areas: areas
+                masks: masks
+                grids: grids
+                sstocean: sstocean
+                flxatmos: flxatmos
+
+        add_restart_in_in_work:
+                rmp_a2n_B: rmp_atmo_to_opat_BICUBIC_D_${echam.resolution}_${nemo.resolution}.nc
+                rmp_a2n_C: rmp_atmo_to_opac_CONSERV_FRACNNEI_D_${echam.resolution}_${nemo.resolution}.nc
+                rmp_n2a_C: rmp_opat_to_atmo_CONSERV_FRACNNEI_${echam.resolution}_${nemo.resolution}.nc
+                areas: areas.nc
+                masks: masks.nc
+                grids: grids.nc
+                sstocean: sstocean
+                flxatmos: flxatmos
+
+        add_restart_in_sources:
+                rmp_a2n_B: rmp_atmo_to_opat_BICUBIC_D_${echam.resolution}_${nemo.resolution}.nc
+                rmp_a2n_C: rmp_atmo_to_opac_CONSERV_FRACNNEI_D_${echam.resolution}_${nemo.resolution}.nc
+                rmp_n2a_C: rmp_opat_to_atmo_CONSERV_FRACNNEI_${echam.resolution}_${nemo.resolution}.nc
+                areas: areas_${echam.resolution}_${nemo.resolution}_frac.nc
+                masks: masks_${echam.resolution}_${nemo.resolution}_frac.nc
+                grids: grids_${echam.resolution}_${nemo.resolution}_frac.nc
+                sstocean: sstocean
+                flxatmos: flxatmos
+
