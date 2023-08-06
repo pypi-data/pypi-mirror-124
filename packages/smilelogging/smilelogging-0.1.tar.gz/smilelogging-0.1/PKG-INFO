@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: smilelogging
+Version: 0.1
+Summary: Python logging package for easy reproducible experimenting in research
+Home-page: https://github.com/user/reponame
+Author: Huan Wang
+Author-email: huan.wang.cool@gmail.com
+License: MIT
+Download-URL: https://github.com/MingSun-Tse/ezlogging/archive/refs/tags/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: logging,reproducible experimenting
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
