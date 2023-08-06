@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bf-tools
+Version: 0.2.0
+Summary: These are the tools for BrainFrame developers to debug the system issues.
+Author: Stephen Li
+Author-email: stephen@aotu.ai
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: brainframe-cli (>=0.2.0,<0.3.0)
+Requires-Dist: docker (>=5.0.3,<6.0.0)
+Requires-Dist: mjson (>=0.3.1,<0.4.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)

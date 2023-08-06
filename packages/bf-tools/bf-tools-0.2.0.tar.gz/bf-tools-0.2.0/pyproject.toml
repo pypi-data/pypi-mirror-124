@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bf-tools"
+version = "0.2.0"
+description = "These are the tools for BrainFrame developers to debug the system issues."
+authors = ["Stephen Li <stephen@aotu.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mjson = "^0.3.1"
+docker = "^5.0.3"
+brainframe-cli = "^0.2.0"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+bf-info = 'bf_tools.bf_info:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
