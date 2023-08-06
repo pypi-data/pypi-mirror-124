@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: savagediscord
+Version: 0.0.1
+Summary: For more info, go to: https://github.com/SavageMusicYT/savagediscord
+Home-page: https://github.com/SavageMusicYT/savagediscord
+Author: Savage Music
+Author-email: support@savagesmusic.com
+License: MIT
+Description: This is a new easy to use python library.
+        NOTE -- It uses the main 'discord.py' module to create advanced discord bots but in an easy way.
+        Savage Discord cuts down half of the complex lines of code you would have to write for 'discord.py'.
+        
+        Change Log
+        ===========
+        
+        0.0.1 (23/10/21)
+        -----------------
+        - First Release,
+        - Basic discord bot setup,
+        - Activity changes,
+        - Advanced logging.
+        
+        
+Keywords: discord
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

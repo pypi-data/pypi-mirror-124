@@ -1,0 +1,10 @@
+Change Log
+===========
+
+0.0.1 (23/10/21)
+-----------------
+- First Release,
+- Basic discord bot setup,
+- Activity changes,
+- Advanced logging.
+
