@@ -1,0 +1,15 @@
+botshop/__init__.py,sha256=sYEgIYlcTfE0rWGtfJN_0o5YZB2A0rGstWEihsvMRt8,302
+botshop/conversation_engine.py,sha256=Wn6eXPxWKFFqB4uF2SNmACJm5MBDlslMA1BO3LMOkNk,4209
+botshop/io_processor.py,sha256=SMarypNu7vEEHqag3D2nc7tBrISdaa6yDOm4yfN_tso,4308
+botshop/model_evaluator.py,sha256=QIbp2xFkNvrU3HWhfSue-yYfJ_6BBeKgPfZqzmr9p98,1211
+botshop/sample_and_rank.py,sha256=RFHc0z3MmWL0R-FcDd0-W4X-S9hdAmJnn9q44Dxa_Y4,1840
+botshop/simple_bot.py,sha256=sjn0pwGbBA7DK5oqhkCDCVAbAVPFDqb-ASizEtEXTsc,8381
+botshop/pytorch/__init__.py,sha256=ZEE1PfnqM10fjFq8OJAMj2T-VxF3X_cyRMgsKTZrxvQ,173
+botshop/pytorch/conversation_engine.py,sha256=I5Y8Ga4NlqSpaMP06WwQfHOX2-E3tB0D2foUMNo0G6s,312
+botshop/pytorch/sample_and_rank.py,sha256=-OBUZJcC2KuMTkWy4-7omxjfmgT0AgEG8a-9loca2TE,212
+botshop/pytorch/utils.py,sha256=M6EToJr35id9Wz5kjdA06gVjgDmk1d5sQ92Wl93MgjA,1564
+botshop-0.0.26.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+botshop-0.0.26.dist-info/METADATA,sha256=w_acQLLPinOsQ0HnBhzp95LLjHALvchPEaaE2sjCi1U,658
+botshop-0.0.26.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+botshop-0.0.26.dist-info/top_level.txt,sha256=z4vvEAsYP5vZiShVnu5NegStQo942v_Ow5G_ffdhgMg,8
+botshop-0.0.26.dist-info/RECORD,,
