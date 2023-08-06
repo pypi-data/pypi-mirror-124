@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.py
+arcor2_kinect_azure/VERSION
+arcor2_kinect_azure/__init__.py
+arcor2_kinect_azure/kinect_azure.py
+arcor2_kinect_azure/py.typed
+arcor2_kinect_azure.egg-info/PKG-INFO
+arcor2_kinect_azure.egg-info/SOURCES.txt
+arcor2_kinect_azure.egg-info/dependency_links.txt
+arcor2_kinect_azure.egg-info/entry_points.txt
+arcor2_kinect_azure.egg-info/namespace_packages.txt
+arcor2_kinect_azure.egg-info/requires.txt
+arcor2_kinect_azure.egg-info/top_level.txt
+arcor2_kinect_azure/data/depth.png
+arcor2_kinect_azure/data/rgb.jpg
+arcor2_kinect_azure/scripts/__init__.py
+arcor2_kinect_azure/scripts/kinect_azure.py

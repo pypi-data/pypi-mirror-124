@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: arcor2_kinect_azure
+Version: 0.4.0
+Summary: REST API for Kinect Azure.
+Home-page: UNKNOWN
+Author: Robo@FIT
+Author-email: imaterna@fit.vut.cz
+License: LGPL
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: ==3.8.*
+Description-Content-Type: text/markdown
+
+# Kinect Azure Service
+
+## Usage Instructions
+
+- By default, the service runs on port 5016.
+  - This can be changed by setting `ARCOR2_KINECT_AZURE_URL`.
+- Kinect SDK has to be installed beforehand (`./build-support/install_kinect_prerequisites.sh`).
+
+## Environment variables
+
+- `ARCOR2_KINECT_AZURE_URL=http://localhost:5016` - by default, the service listens on port 5016.
+- `ARCOR2_KINECT_AZURE_MOCK=1` - the service will start in a mock (simulator) mode.
+- `ARCOR2_REST_API_DEBUG=1` - turns on Flask debugging (logs each endpoint call).
+# Changelog
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+
+## [0.4.0] - 2021-10-25
+
+### Changed
+
+- New environment variable `ARCOR2_KINECT_AZURE_MOCK`.
+
+### Fixed 
+
+- Depth file was not packaged (used in mock mode).
+
+## [0.3.0] - 2021-05-21
+
+### Changed
+
+- Lazy import of `pyk4a` - mock can run without it.
+
+## [0.2.0] - 2021-02-08
+
+### Changed
+- Mock now sends real images.
+- Part of the code refactored into `arcor2/flask.py`.
+
+## [0.1.0] - 2020-12-14
+
+### Changed
+- Initial release of the package.
+
