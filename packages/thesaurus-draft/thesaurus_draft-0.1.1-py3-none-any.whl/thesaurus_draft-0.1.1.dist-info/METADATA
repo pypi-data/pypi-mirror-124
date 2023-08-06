@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: thesaurus-draft
+Version: 0.1.1
+Summary: Demo library
+Home-page: https://thesaurus_draft.readthedocs.io/
+Author: Dinar Zayahov
+Author-email: dinar.zayaxov@mail.ru
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: spacy
+Requires-Dist: time
+Requires-Dist: gensim
+Requires-Dist: sklearn
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
