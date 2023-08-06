@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: wcget
+Version: 0.0.1
+Summary: Combined CLI for ESA WorldCover Data
+Home-page: UNKNOWN
+Author: Samapriya Roy
+Author-email: samapriya.roy@gmail.com
+License: Apache 2.0
+Description: # wcget
+        Quick repo to get to the ESA 10m Worldcover dataset
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: GIS
+Description-Content-Type: text/markdown

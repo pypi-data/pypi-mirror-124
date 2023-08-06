@@ -1,0 +1,3 @@
+[console_scripts]
+wcget = wcget.wcget:main
+

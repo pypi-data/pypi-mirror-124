@@ -1,0 +1,10 @@
+README.md
+setup.py
+wcget/__init__.py
+wcget/wcget.py
+wcget.egg-info/PKG-INFO
+wcget.egg-info/SOURCES.txt
+wcget.egg-info/dependency_links.txt
+wcget.egg-info/entry_points.txt
+wcget.egg-info/requires.txt
+wcget.egg-info/top_level.txt
