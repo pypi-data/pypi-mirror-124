@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: docassemble.ALMassachusetts
+Version: 0.1.0
+Summary: A docassemble extension of the AssemblyLine project that provides a foundation of Massachusetts-specific data, functionality, and questions.
+Home-page: https://docassemble.org
+Author: AssemblyLine Team
+Author-email: ALTeam@example.com
+License: The MIT License (MIT)
+Description: # docassemble.ALMassachusetts
+        
+        A docassemble extension of the AssemblyLine project that provides a foundation of Massachusetts-specific data, functionality, and questions.
+        
+        ## Author
+        
+        Suffolk Law School Legal Innovation and Technology Lab
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
