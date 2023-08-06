@@ -1,0 +1,3 @@
+[console_scripts]
+crop_tirf = tirf_ob.select_from_ROI:main
+
