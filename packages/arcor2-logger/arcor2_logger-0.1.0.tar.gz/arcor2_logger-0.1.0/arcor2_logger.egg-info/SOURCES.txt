@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.py
+arcor2_logger/VERSION
+arcor2_logger/__init__.py
+arcor2_logger/py.typed
+arcor2_logger.egg-info/PKG-INFO
+arcor2_logger.egg-info/SOURCES.txt
+arcor2_logger.egg-info/dependency_links.txt
+arcor2_logger.egg-info/entry_points.txt
+arcor2_logger.egg-info/namespace_packages.txt
+arcor2_logger.egg-info/requires.txt
+arcor2_logger.egg-info/top_level.txt
+arcor2_logger/object_types/__init__.py
+arcor2_logger/object_types/logging_mixin.py
+arcor2_logger/scripts/__init__.py
+arcor2_logger/scripts/logger.py

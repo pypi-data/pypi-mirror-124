@@ -1,0 +1,6 @@
+aiologger==0.6.1
+aiorun==2021.8.1
+arcor2~=0.22.0
+dataclasses-jsonschema[apispec,fast-validation]==2.15.0
+websocket-client==1.2.1
+websockets==10.0
