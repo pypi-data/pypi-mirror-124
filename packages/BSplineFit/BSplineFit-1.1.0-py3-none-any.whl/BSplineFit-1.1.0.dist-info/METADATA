@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: BSplineFit
+Version: 1.1.0
+Summary: A uniform cubic B-spline regression library
+Home-page: https://github.com/MarceloJacinto/BSplineFit
+Author: MarceloJacinto
+Author-email: marcelo.jacinto@tecnico.ulisboa.pt
+License: MIT
+Platform: Windows
+Platform: Linux
+Platform: Solaris
+Platform: Mac OS-X
+Platform: Unix
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: sklearn
+
+# BSplineFit
+A simple library to fit a non-ordered set of points with a uniform cubic B-spline
+
+# Install 
+```
+pip install BSplineFit
+```
+

@@ -1,0 +1,9 @@
+BSplineFit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BSplineFit/cubic_spline.py,sha256=pMPBatAx4cYWToGB0LPi76230ye71BCIr-RAbV2Ecng,11580
+BSplineFit/optimization.py,sha256=mi91H1LypJoH1u69QVOg7buX_Xbb1nO89MdxO12l-e8,17672
+BSplineFit/tree.py,sha256=VdPBIE362-m7mdTUfxLI-0JEj0Tcgnw2DevBOgZB4Z4,3408
+BSplineFit-1.1.0.dist-info/LICENSE,sha256=kDQvtzUCDD2E09e03101K3oUXP2_h0BaJVACkVvTwiA,1072
+BSplineFit-1.1.0.dist-info/METADATA,sha256=cwROwoKvRz0KkjyU_U4IG5fWpOyJiWApg1tIIn9gHlc,624
+BSplineFit-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+BSplineFit-1.1.0.dist-info/top_level.txt,sha256=i4edmeInPbFgEdjkZT-rTHW1o4MmV2vdafsLOFlDdZo,11
+BSplineFit-1.1.0.dist-info/RECORD,,
