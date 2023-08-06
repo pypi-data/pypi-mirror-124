@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: parametric-si
+Version: 1.0.0
+Summary: tools for parametric selective inference
+Home-page: UNKNOWN
+Author: Daiki Miwa,Kazuya Sugiyama,Vo Nguyen Le Duy,Takeuchi Ichiro
+Author-email: miwa.daiki.mllab.nit@gmail.com
+License: Copyright (c) 2021, Daiki Miwa        
+        All rights reserved.        
+        Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:        
+        Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+        Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.        
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: portion
+Requires-Dist: sklearn
+
+parametric_si
+===================================================
+
+This package implements a more powerful and general confitional selective inference(SI) with linear regression.
+
+Key references are the following papers:
+
+    *  `Parametric Programming Approach for More Powerful and General Lasso Selective Inference <https://arxiv.org/abs/2004.09749>`_
+    *  `More Powerful and General Selective Inference for Stepwise Feature Selection using the Homotopy Continuation Approach <https://arxiv.org/abs/2012.13545>`_
+
+============
+Requirements
+============
+This package requires the following packages:
+
+* numpy
+* scipy
+* sklearn
+* portion
+
+==============================
+Installing parametric_si
+==============================
+Use pip to install parametric_si package. Required packages will be also installed automatically.
+
+.. code-block:: console
+    
+    $ pip install parametric_si
+
+=============
+API Reference
+=============
+`Detailed API reference is available here <https://>`_
+
+
