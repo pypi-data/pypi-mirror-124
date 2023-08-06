@@ -1,0 +1,15 @@
+complexnetwork/__init__.py,sha256=pNTex2NI22FaxIQP-KN0LU1GGf2aULr0EpqgdnD7fZ4,127
+complexnetwork/avalanche.py,sha256=hnbqsovKFKNk11KS6dDAfzIPS7PBkzG5SyOLZ9ymTc4,7526
+complexnetwork/branching_factor.py,sha256=Ah8fc0AVtqxfczkZ4krtUL92o7cCO9COkQNRnekeChs,679
+complexnetwork/exponent_relationships.py,sha256=gG_qam_oddLcDjehscKsB2JqJlBvlAVpyrklVdb59DU,271
+complexnetwork/information_transfer.py,sha256=zDfUpulDwStR5uTmMeUhIjMI_nKLftdqBxAqV023UGU,1974
+complexnetwork/ising.py,sha256=6nh65-UfHNz6NTN886zb8Md_5gvSYzTNxZ2unV_FEwI,6318
+complexnetwork/power_law.py,sha256=SI0HbGK4xROEaUCKzrXY_KIyGKd-o8gER938WYWoxhg,3239
+complexnetwork/scaling_functions.py,sha256=ok9c8Go6k24JaCdQA7ZzHetBvV25JvU5uIhvnWdullw,224
+complexnetwork/utils.py,sha256=tzuPS0yCOMAXugJAnRce5NrWCQMxh29-4olNTk5_6Io,255
+complexnetwork-0.1.2.data/data/LICENSE,sha256=fo8aCwEG5NCLXjn8XtHx6pVDzwdYUi-IfM94WEQDeDc,1104
+complexnetwork-0.1.2.dist-info/LICENSE,sha256=fo8aCwEG5NCLXjn8XtHx6pVDzwdYUi-IfM94WEQDeDc,1104
+complexnetwork-0.1.2.dist-info/METADATA,sha256=AYY0nJF09-UPdSES__PbDtkUEo3UUmS8kVwblU89kSQ,2714
+complexnetwork-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+complexnetwork-0.1.2.dist-info/top_level.txt,sha256=0unOB6U2O52FKKbEcZ1mL56Cp0kdbl2bXzuGkNqnFEw,15
+complexnetwork-0.1.2.dist-info/RECORD,,
