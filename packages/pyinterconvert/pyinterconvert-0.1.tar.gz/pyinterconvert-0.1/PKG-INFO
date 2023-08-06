@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pyinterconvert
+Version: 0.1
+Summary: A simple tool for interconversion between binary, decimal, octal and hexadecimal
+Home-page: https://github.com/namanko/pyconvert
+Author: ShadowRanger5
+Author-email: namankrocks@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Converter
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
