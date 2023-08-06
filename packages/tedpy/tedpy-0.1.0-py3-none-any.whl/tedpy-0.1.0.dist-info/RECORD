@@ -1,0 +1,9 @@
+tedpy/__init__.py,sha256=ir97nPrHLOX4iuEFKEnIhlKJJ4dH5IAon873EMIlKPo,429
+tedpy/__main__.py,sha256=pd7sYpIqHN9sHMm2rY7MAsFX2me-xV8EjXrGnUpW2B0,438
+tedpy/formatting.py,sha256=BoU9hHP7GNTK0wPgpUPKVexRutee_NC16sNRE6Nch6c,809
+tedpy/ted.py,sha256=8lVgZkpc-xW36bhXGK_FMmS6j85Y63w7D4Y14_CnlFc,3771
+tedpy/ted5000.py,sha256=hB32XrVxnJeF2DRTMBNKadb10Xpe17WntBVITQhJxpA,1697
+tedpy/ted6000.py,sha256=OKME79KnntLHw9vjH-OTtMk0uEZRLbhfGxQK32ycUZU,5769
+tedpy-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tedpy-0.1.0.dist-info/METADATA,sha256=wGYhkxf78-APoyTvASqWXE56nmlXxXKGNDW5nMtweGg,489
+tedpy-0.1.0.dist-info/RECORD,,
