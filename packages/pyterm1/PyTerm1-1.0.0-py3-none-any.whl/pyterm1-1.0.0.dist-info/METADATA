@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyterm1
+Version: 1.0.0
+Summary: terminal on python3
+Author: LayfikRus
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
