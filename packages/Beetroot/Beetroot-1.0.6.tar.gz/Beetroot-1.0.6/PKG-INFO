@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Beetroot
+Version: 1.0.6
+Summary: A General Purpose Utility package for Python 3
+Home-page: https://github.com/CuboidRaptor/Python-beetroot
+Author: Cuboid_Raptor
+Author-email: fanjas112358@gmail.com
+License: GNU GPLv3
+Platform: UNKNOWN
+Provides-Extra: tts
+Provides-Extra: chatbot
+Provides-Extra: all
+License-File: LICENSE
+
+UNKNOWN
+
