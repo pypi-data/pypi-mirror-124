@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: prefix_tree
+Version: 0.0.6
+Summary: A Python Prefix Tree - in memory data base with access by prefix
+Home-page: https://ice1x.github.io/prefix_tree/
+Author: ice1x
+Author-email: ice2600x@gmale.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python-Prefix-Tree
+Search by prefix for list of words which is stored like in-memory data base with key-value access
+
+# Usage example
+https://github.com/ice1x/autocomplete-full-name
+
