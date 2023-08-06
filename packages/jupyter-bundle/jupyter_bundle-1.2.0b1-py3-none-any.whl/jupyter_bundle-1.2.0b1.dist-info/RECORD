@@ -1,0 +1,14 @@
+jupyterbundle/JupyterBundle.py,sha256=GM_EMBLOdWZyQ8VaH42c0R5ocUt7o7eGYSRcdEds5tM,250
+jupyterbundle/JupyterBundleTest.py,sha256=fxGpqfL3N4B_m_3yyjISUl0dzo5NJPPFlfU0XVWaUZA,340
+jupyterbundle/_config/config.yaml,sha256=Oux2lBVaQespWliGkj9WxDp3kQDOpN4nranXIG3NLqc,216
+jupyterbundle/_config/config_test.yaml,sha256=sF8nEcMm6Nbdgx7Jn1dSQInRwPhEaKMM6cuks8lHMBs,338
+jupyterbundle/dataframe/DisplayMethod.py,sha256=Pa9JPg-5dRU6F94XnHHL-MqAPn3dPvcSZL6sBwt7rRw,812
+jupyterbundle/server_detector.py,sha256=_KWEpOu-ZxfLF8REO3LiuWAgP6x9dmiItrH2O94oC2g,84
+jupyterbundle/test/DummySparkFactory.py,sha256=s73KyO9MtJXuP_nrJs_qYCr2gAbX4GTxIfPvBdj-ZpE,229
+jupyterbundle/widgets/JupyterWidgets.py,sha256=PR5m1s6UIbaYaPkmkxIv0cmcc3FgS2OPHXDiQ_lOrZw,2688
+jupyterbundle/widgets/JupyterWidgetsTest.py,sha256=L7YBtkdkRPJKYkPpboy878ZyHvBvJK7-7aGT5nlIMYk,6054
+jupyter_bundle-1.2.0b1.dist-info/entry_points.txt,sha256=8Di0tkjqY269V7b2fMfCDl4pkKM3P8OztQi6l_eIHi8,66
+jupyter_bundle-1.2.0b1.dist-info/LICENSE,sha256=p9qOsNzKt71jf-HqXcPq37l1LUkod01gTPiBMc2UVOI,1060
+jupyter_bundle-1.2.0b1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+jupyter_bundle-1.2.0b1.dist-info/METADATA,sha256=LH6sxGR8BzDm8jEuljYycG5ORgfCX0S5pyYwG3A96cs,993
+jupyter_bundle-1.2.0b1.dist-info/RECORD,,
