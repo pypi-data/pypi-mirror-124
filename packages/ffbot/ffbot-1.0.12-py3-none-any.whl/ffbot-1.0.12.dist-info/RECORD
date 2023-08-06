@@ -1,0 +1,10 @@
+ffbot/__init__.py,sha256=J_C-ykVhoBVQl3WxW5VNU5eQF3xG3XbIssHtldYwyX0,215
+ffbot/constants.py,sha256=4p27vdeGjB-g2CvPWRcjCnTX7IHcrxKE-51npsObC28,19
+ffbot/optimizer.py,sha256=Q6kyGBKddnpRfyxKrD7hS2ocjIJHAI7lVZ0qzTPM2DU,10576
+ffbot/scraper.py,sha256=cePOhf_7K5rA4LtUgGRlkmUXyk9ShCJE5th1HyUficw,5582
+ffbot/utils.py,sha256=Nc6_NenS4LNP6QGvGBG0AzJDMQgHVRFutmGTvtaplmg,970
+ffbot-1.0.12.dist-info/LICENSE,sha256=hsi797qTSjSLd3wWfuMe4ApGAEEWzsdQ_hGdW5uo_Wo,1068
+ffbot-1.0.12.dist-info/METADATA,sha256=pj-1GTDjxwgKc3tvmAQLLYMPp805nW1kYTyofjooaTA,3158
+ffbot-1.0.12.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ffbot-1.0.12.dist-info/top_level.txt,sha256=E-2q7cu24LqzefsPUmsDAbz4lndXMF8C-H3nmpXKSuk,6
+ffbot-1.0.12.dist-info/RECORD,,
