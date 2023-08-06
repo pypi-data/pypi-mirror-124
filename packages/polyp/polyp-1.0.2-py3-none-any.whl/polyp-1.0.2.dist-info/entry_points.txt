@@ -1,0 +1,6 @@
+[console_scripts]
+polyp = polyp.__main__:main
+
+[gui_scripts]
+
+
