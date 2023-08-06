@@ -1,0 +1,2 @@
+tqdm~=4.60.0
+mysmallutils~=0.2.6
