@@ -1,0 +1,9 @@
+numpy
+pandas
+quantiphy
+scipy>=1.0.0
+hvplot
+networkx
+datashader
+tqdm
+numba
