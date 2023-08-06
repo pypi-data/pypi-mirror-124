@@ -1,0 +1,9 @@
+aliyun_python_sdk_core>=2.13.30
+aliyun_python_sdk_kms>=2.14.0
+cryptography>=3.2.1
+apscheduler>=3.5.2
+bytebuffer>=0.1.0
+pyopenssl>=16.2.0
+
+[:python_version == "2.7"]
+futures
