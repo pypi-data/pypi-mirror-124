@@ -1,0 +1,10 @@
+"""Chemistry modules that can be used to compute the volume mixing ratios based on atmospheric data (pressure, temperature, ...). These modules include for now :class:`fastchem <pytmosph3r.chemistry.fastchem.FastChemistry>`, :class:`parmentier2018 <pytmosph3r.chemistry.dissociation.Parmentier2018Dissociation>` and :class:`interpolation <pytmosph3r.chemistry.interpolation.InterpolationChemistry>`.
+You can create you own module by inheriting from :class:`~pytmosph3r.Chemistry`.
+If you don't want to inherit from :class:`~pytmosph3r.chemistry.chemistry.Chemistry`, the module should at least have a function build() that follows the same arguments.
+See :attr:`~pytmosph3r.atmosphere.inputatmosphere.InputAtmosphere.chemistry` or :any:`config_file` for more information.
+"""
+
+from .fastchemistry import FastChemistry
+from .chemistry import Chemistry
+from .dissociation import Parmentier2018Dissociation
+from .interpolation import InterpolationChemistry
