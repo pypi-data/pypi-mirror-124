@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: roughrider.predicate
+Version: 0.3.1
+Summary: Pure python predicate/guard/validation system.
+Home-page: http://gitweb.dolmen-project.org
+Author: Souheil CHELFOUH
+Author-email: trollfot@gmail.com
+License: ZPL
+Download-URL: http://pypi.python.org/pypi/roughrider.predicate
+Description: roughrider.predicate
+        ********************
+        
+        This package helps defining and creating small and reusable components
+        that can serve as guard or validation methods.
+        
+        
+        Example
+        =======
+        
+        Below is an example of a validation on a content item.
+        
+        
+        .. code-block:: python
+        
+          from dataclasses import dataclass
+          from roughrider.predicate.errors import ConstraintError
+          from roughrider.predicate.validators import Validator, Or
+        
+        
+          @dataclass
+          class Document:
+              id: str
+              body: str = ''
+              content_type: str = 'text/plain'
+        
+        
+          def non_empty_document(item):
+              """Implementation of a validator/predicate
+              """
+              if not item.body:
+                  raise ConstraintError('Body is empty.')
+        
+        
+          class ContentType(Validator):
+        
+              def __init__(self, content_type):
+                  self.ct = content_type
+        
+              def __call__(self, item):
+                  if item.content_type != self.ct:
+                      raise ConstraintError(
+                          f'Expected {self.ct}, got {item.content_type}.')
+        
+        
+            validator = Or((
+                ContentType('text/plain'),
+                Or((ContentType('text/html'), non_empty_document))
+            ))
+            document = Document(id='test', content_type='application/json')
+            validator(document)  # raises ConstraintsErrors
+        
+        CHANGES
+        =======
+        
+        0.3.1 (2021-10-21)
+        ------------------
+        
+          * Changing packaging of extensions.
+        
+        0.3 (2021-10-21)
+        ----------------
+        
+          * Code reorganization and Cython optimizations.
+        
+        0.2 (2021-10-20)
+        ----------------
+        
+          * Correction of the `resolve_validator` errors list extension.
+        
+        0.1 (2021-10-09)
+        ----------------
+        
+          * Initial release.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Zope Public License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: test
