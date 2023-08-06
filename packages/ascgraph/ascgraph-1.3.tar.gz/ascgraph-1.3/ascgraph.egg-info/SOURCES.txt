@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+ascgraph/__init__.py
+ascgraph/ascgraph.py
+ascgraph.egg-info/PKG-INFO
+ascgraph.egg-info/SOURCES.txt
+ascgraph.egg-info/dependency_links.txt
+ascgraph.egg-info/not-zip-safe
+ascgraph.egg-info/top_level.txt
