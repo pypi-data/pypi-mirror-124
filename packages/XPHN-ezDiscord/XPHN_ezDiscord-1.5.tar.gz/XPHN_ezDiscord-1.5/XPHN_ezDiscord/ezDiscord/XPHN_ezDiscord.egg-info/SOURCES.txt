@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+XPHN_ezDiscord/ezDiscord/XPHN_ezDiscord.egg-info/PKG-INFO
+XPHN_ezDiscord/ezDiscord/XPHN_ezDiscord.egg-info/SOURCES.txt
+XPHN_ezDiscord/ezDiscord/XPHN_ezDiscord.egg-info/dependency_links.txt
+XPHN_ezDiscord/ezDiscord/XPHN_ezDiscord.egg-info/requires.txt
+XPHN_ezDiscord/ezDiscord/XPHN_ezDiscord.egg-info/top_level.txt
+XPHN_ezDiscord/ezDiscord/ezDiscord.py
+XPHN_ezDiscord/ezDiscord/XPHN_ezDiscord.egg-info/PKG-INFO
+XPHN_ezDiscord/ezDiscord/XPHN_ezDiscord.egg-info/SOURCES.txt
+XPHN_ezDiscord/ezDiscord/XPHN_ezDiscord.egg-info/dependency_links.txt
+XPHN_ezDiscord/ezDiscord/XPHN_ezDiscord.egg-info/requires.txt
+XPHN_ezDiscord/ezDiscord/XPHN_ezDiscord.egg-info/top_level.txt
