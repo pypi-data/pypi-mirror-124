@@ -1,0 +1,13 @@
+eventsourcing_django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eventsourcing_django/admin.py,sha256=BXtClnzAy9tWOCmoL1iltzIARiMPvLXlTzbA0zGR7yY,264
+eventsourcing_django/apps.py,sha256=gFC-z-nnE-j-0S3wnnieTxMGrB1MFvFh82cQ8CkOX5E,189
+eventsourcing_django/factory.py,sha256=eV0fWBam5hw0p99IydAOBDxR_a-PW1l-qFJshrbJKZE,1495
+eventsourcing_django/migrations/0001_initial.py,sha256=gzh5aced7nsrzQI_ct4N0FrWq-hFt-QDhHlJlTPixro,2456
+eventsourcing_django/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eventsourcing_django/models.py,sha256=t4kop7p4JXSvE7DVMbBww_-GNiKf2RKusJhB3sNX3FQ,2074
+eventsourcing_django/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eventsourcing_django/recorders.py,sha256=7morribz1X4rVixhehH38WHgbo1WtzQXglVpYqiWwaM,8260
+eventsourcing_django-0.1.7.dist-info/LICENSE,sha256=5o83aa3u73WFYAZoJOaiIdEv1F3KMxerlve51gfDC7s,1523
+eventsourcing_django-0.1.7.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+eventsourcing_django-0.1.7.dist-info/METADATA,sha256=cRI_5511IqB3GCCu4uW8RY7vQAKwnsRPj2fJHM7fb8k,6149
+eventsourcing_django-0.1.7.dist-info/RECORD,,
