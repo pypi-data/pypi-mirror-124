@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: itkpix-efuse-codec
+Version: 0.1.0
+Summary: Utilities for encoding and decoding the data stored in the ITkPix ASIC e-fuses
+Home-page: https://gitlab.cern.ch/berkeleylab/itkpix-efuse-codec
+Author: Daniel Joseph Antrim
+Author-email: dantrim1023@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+
+# Itkpix Efuse Codec
+
+Utilities for encoding and decoding the data stored in the ITkPix ASIC e-fuses
+
