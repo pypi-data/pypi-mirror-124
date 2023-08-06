@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: log-color
+Version: 1.0.8
+Summary: Simple log formatters for colored output
+Home-page: UNKNOWN
+Author: Brant Watson
+Author-email: oldspiceap@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/induane/logcolor/issues
+Project-URL: Home Page, https://github.com/induane/logcolor
+Project-URL: Changelog, https://github.com/induane/logcolor/blob/master/docs/source/changelog.rst
+Keywords: logging,color,formatter
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst; charset=UTF-8
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: setuptools-scm ; extra == 'dev'
+
+Description
+===========
+
+``log_color`` provides Logging formatters for colorized outputs. A very simple domain specific language (DSL) is used
+to colorize all or part of  a particular log message. For example::
+
+    LOG.debug('Found file at #g<%s>', path)
+
+The above would colorize the contents of the 'path' variable green when output to a command line terminal.\n
+
+A formatter which strips color sequences from the output is also included for situations like logging to files where
+having ANSI color sequences embedded in the output would not make sense.
+
+
