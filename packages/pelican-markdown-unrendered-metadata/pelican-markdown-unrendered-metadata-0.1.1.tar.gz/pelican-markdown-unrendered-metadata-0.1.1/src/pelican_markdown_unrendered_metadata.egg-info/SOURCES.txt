@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pelican/plugins/markdown_unrendered_metadata/__init__.py
+src/pelican_markdown_unrendered_metadata/__init__.py
+src/pelican_markdown_unrendered_metadata/markdown_metadata.py
+src/pelican_markdown_unrendered_metadata/markdown_metadata_in_heading.py
+src/pelican_markdown_unrendered_metadata/markdown_metadata_in_reference.py
+src/pelican_markdown_unrendered_metadata.egg-info/PKG-INFO
+src/pelican_markdown_unrendered_metadata.egg-info/SOURCES.txt
+src/pelican_markdown_unrendered_metadata.egg-info/dependency_links.txt
+src/pelican_markdown_unrendered_metadata.egg-info/requires.txt
+src/pelican_markdown_unrendered_metadata.egg-info/top_level.txt
