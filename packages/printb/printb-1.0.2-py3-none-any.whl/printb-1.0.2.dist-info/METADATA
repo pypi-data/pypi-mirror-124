@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: printb
+Version: 1.0.2
+Summary: printb is a wrapper for print/input built-ins, that swaps string directions for BIDI languages.
+Home-page: https://github.com/MoserMichael/printb
+Author: Michael Moser
+Author-email: moser.michael@gmail.com
+License: MIT
+Keywords: text processing,bidi languages
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: python-bidi (==0.4.2)
+Requires-Dist: six (==1.16.0)
+
+# the printb python module
+
+This is a small wrapper around the [python-bidi](https://pypi.org/project/python-bidi/)
+
+It has the following api:
+
+```printb.printb(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)```
+
+Adds a wrapper for python built-in [print](https://docs.python.org/3/library/functions.html#print) If any one of the arguments passed via ```*objects``` is a string, then swap it with 
+[bidi.algorithm.get_display](https://pypi.org/project/python-bidi/)
+
+```printb.input([prompt])```
+
+Adds a wrapper for python built-in [input](https://docs.python.org/3/library/functions.html#input), when a prompt string argument is passed then it is swapped before printing
+
+## Example usage
+
+See the [test_bidi test file](https://raw.githubusercontent.com/MoserMichael/printb/master/test-bidi.py) 
+
+## Installation
+
+```pip3 install python-bidi```
+
+Then install this package:
+
+```pip3 install printb```. See package on [pypi](https://pypi.org/project/printb/)
+
+
