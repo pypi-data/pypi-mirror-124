@@ -1,0 +1,49 @@
+#!/bin/bash
+
+#echo "Not done yet!"
+
+#!/bin/bash
+
+OPTIONS=''
+
+while [[ $# -gt 0 ]]; do
+  key="$1"
+  case $key in
+    --key-path)
+      SUBMIT_KEY_PATH="$2"
+      OPTIONS="${OPTIONS} --key-path ${SUBMIT_KEY_PATH}"
+      shift
+      ;;
+    --key)
+      SUBMIT_KEY="$2"
+      OPTIONS="${OPTIONS} --key ${SUBMIT_KEY}"
+      shift
+      ;;
+    -f|--file)
+      FILES=''
+      while (( "$#" >= 2 )) && ! [[ $2 = -* ]]; do
+        FILES=${FILES}" $2"
+        shift
+      done
+      OPTIONS="${OPTIONS} --file ${FILES}"
+      ;;
+    -d|--debug)
+      DEBUG="$2"
+      OPTIONS="${OPTIONS} --debug ${DEBUG}"
+      shift
+      ;;
+    --submit-url)
+      SUBMIT_URL="$2"
+      OPTIONS="${OPTIONS} --submit-url ${SUBMIT_URL}"
+      shift
+      ;;
+    --log-dir)
+      LOG_DIR="$2"
+      OPTIONS="${OPTIONS} --log-dir ${LOG_DIR}"
+      shift
+      ;;
+  esac
+  shift
+done
+
+python3 -m aifactory_alpha.Executables.submit ${OPTIONS}
