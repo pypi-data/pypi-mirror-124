@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "python-ci-template"
+version = "0.1.1"
+description = "template to create python package including generic CI tools"
+authors = ["dolfno <dnoordman@schubergphilis.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "~3.9"
+click = "^8.0.3"
+awswrangler = "^2.12.1"
+desert = "^2020.11.18"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+pytest-mock = "^3.6.1"
+nox = "^2021.10.1"
+black = "^21.9b0"
+flake8 = "^4.0.1"
+flake8-black = "^0.2.3"
+flake8-import-order = "^0.18.1"
+flake8-bugbear = "^21.9.2"
+flake8-bandit = "^2.1.2"
+flake8-annotations = "^2.7.0"
+flake8-docstrings = "^1.6.0"
+typeguard = "^2.13.0"
+Sphinx = "^4.2.0"
+sphinx-autodoc-typehints = "^1.12.0"
+codecov = "^2.1.12"
+
+[tool.poetry.scripts]
+my-script = "python_ci_template.console:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["python_ci_template"]
+
+[tool.coverage.report]
+show_missing = true
+
+[[tool.mypy.overrides]]
+module = ["pytest"]
+ignore_missing_imports = true
