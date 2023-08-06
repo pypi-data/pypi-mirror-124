@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "wagtailperson"
+version = "0.13.3"
+description = "Add a person and a persons index pages to Wagtail as well as a person block for StreamFields"
+authors = ["Sébastien Gendre <seb@k-7.ch>"]
+license = "LGPLv3"
+readme = "README.md"
+repository = "https://framagit.org/SebGen/wagtailperson"
+keywords = [
+    "wagtailperson",
+    "wagtail",
+    "person",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Framework :: Django",
+    "Framework :: Wagtail",
+    "Framework :: Wagtail :: 2",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    ]
+packages = [
+    { include = "wagtailperson" },
+]
+include = [
+    "LICENSE",
+    "README.org",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+wagtail = "^2.14.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
