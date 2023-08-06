@@ -1,0 +1,10 @@
+avro_to_bigquery/__init__.py,sha256=8HxSD-pZDGiep3yMTNPowU2l2Gv4Aa6o_ybzkjahD3g,85
+avro_to_bigquery/converter.py,sha256=BqUE1Dvjz94VHIvgpdDeOUYJ6NsNB0v_J-33qv1AJHQ,3810
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/test_converter.py,sha256=yUqPuekVFZTbzdqwBue_JABMBRceF6A9Jpvt7tnwIWg,5888
+avro_to_bigquery-0.2.0.dist-info/LICENSE,sha256=KIsLLYnhaQgEfrTYs3wD2liVgIkg3t3Dga4Csxn3nRk,1057
+avro_to_bigquery-0.2.0.dist-info/METADATA,sha256=th_M9Qc1LMiZoa7JQpebsQCEotInCHXxEz_RofcEbGI,2230
+avro_to_bigquery-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+avro_to_bigquery-0.2.0.dist-info/top_level.txt,sha256=2WA-DI9eAOLSFy_sKsgBlrmYoyoYJvQJwWwMUJpz7No,23
+avro_to_bigquery-0.2.0.dist-info/RECORD,,
