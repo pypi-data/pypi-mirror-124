@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: discord.pyc
+Version: 2.0.1
+Summary: Unofficial copy of a Python wrapper for the Discord API(Original by Rapptz)
+Home-page: https://github.com/discord-pyc/discord.pyc
+Author: discord-pyc
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (<3.8.0,>=3.6.0)
+Provides-Extra: docs
+Requires-Dist: sphinx (==4.0.2) ; extra == 'docs'
+Requires-Dist: sphinxcontrib-trio (==1.1.2) ; extra == 'docs'
+Requires-Dist: sphinxcontrib-websupport ; extra == 'docs'
+Provides-Extra: speed
+Requires-Dist: orjson (>=3.5.4) ; extra == 'speed'
+Provides-Extra: voice
+Requires-Dist: PyNaCl (<1.5,>=1.3.0) ; extra == 'voice'
+
+# discord.pyc(opy)
+## Unofficial copy of an API wrapper for Discord written in Python.
+
+
+## Why this?
+[Original](https://github.com/Rapptz/discord.py) by [Rapptz](https://github.com/Rapptz) was archived by owner.  
+But I want to use original discord.py and I decided to create fork.
+
+## Install
+```sh
+pip install --upgrade discord.pyc
+```
+
+## Usage
+Same as [discord.py](https://github.com/Rapptz/discord.py)
+
