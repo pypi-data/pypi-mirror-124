@@ -1,0 +1,16 @@
+django_http_proxy_3-0.4.4.dist-info/top_level.txt,sha256=2ziUjZBcLRyVcE9rLsiXGoQMJpBNTZn6oOQN0Jkb0nk,10
+django_http_proxy_3-0.4.4.dist-info/metadata.json,sha256=BDNpxckCwKCFGwSE-MxZQUdarORvWL6Ye1b_oUaCC90,1014
+django_http_proxy_3-0.4.4.dist-info/RECORD,,
+django_http_proxy_3-0.4.4.dist-info/DESCRIPTION.rst,sha256=zS54wBVgy3CfSq8q7qh-JWLsjwhGW64lUZGRcMV_tdQ,9
+django_http_proxy_3-0.4.4.dist-info/WHEEL,sha256=-aSo8rHuuPDEFzkcqqQ55pDyCjy25bYMLxSiHWKAOTc,92
+django_http_proxy_3-0.4.4.dist-info/METADATA,sha256=1bUmQA_s4G5p7hmNmvMQUdzL600UqTW_Qy-CvyOa0QU,930
+httpproxy/views.py,sha256=4ean-MB_56mZNWhCm_gJYCgN5R39Dxs77IswXEbdqas,6235
+httpproxy/recorder.py,sha256=VRKHUw2oYEoDC4RlOgINd2Lk2tFocy9w1cyArCsBJno,6271
+httpproxy/__init__.py,sha256=LPsck5LuhOcSxE6TUzNa1YcMMH6q3f0OFxk5SD3OQ64,166
+httpproxy/admin.py,sha256=FSrl8Eh9adFSBsZeSB3rX-w7hESmtFWyphr58tW4Ov4,769
+httpproxy/_version.py,sha256=8zmqnXBXDzgsWDSg8Z6cvJYjR7VcHSRwvDRXf2Zw618,7502
+httpproxy/exceptions.py,sha256=_pMU8QQr7FgysbByJZKAnWPhX5WLBWedl2vulsDcfxY,510
+httpproxy/models.py,sha256=dF3GnNM2IqTfOtaKHOu9bUldUmeEvrfmQonXFLaXK10,3745
+httpproxy/migrations/0001_initial.py,sha256=lwCVKro7pEpBQOtfNX4EjFC4Va5wtLGkBZUVvROMDNk,3022
+httpproxy/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+httpproxy/migrations/0002_auto_20160121_1940.py,sha256=I7hTFenU-1oS0IfoYFpV5T55E81pPEWdxvW3bDQLel4,779
