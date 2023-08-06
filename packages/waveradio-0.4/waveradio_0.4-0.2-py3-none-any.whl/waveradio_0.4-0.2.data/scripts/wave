@@ -1,0 +1,10 @@
+#!python
+import sys
+try:
+	import waveradio
+except Exception as e:
+	raise e
+	
+from waveradio import main
+if __name__=='__main__':
+	sys.exit(main.main())
