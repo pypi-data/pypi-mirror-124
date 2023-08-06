@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/consoleoptions.py
+src/consoleoptions.egg-info/PKG-INFO
+src/consoleoptions.egg-info/SOURCES.txt
+src/consoleoptions.egg-info/dependency_links.txt
+src/consoleoptions.egg-info/entry_points.txt
+src/consoleoptions.egg-info/top_level.txt
