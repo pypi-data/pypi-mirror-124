@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: ellipsize
+Version: 0.1.3
+Summary: Pretty reducing huge Python objects to visualise them nicely.
+Home-page: https://andgineer.github.io/ellipsize/
+Author: Andrey Sorokin
+Author-email: andrey@sorokin.engineer
+License: UNKNOWN
+Keywords: ellipsis log print
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: lazydocs
+Requires-Dist: pylint
+Requires-Dist: mypy
+Requires-Dist: pytest
+Requires-Dist: pydocstyle
+Requires-Dist: mkdocs
+Requires-Dist: mkdocs-awesome-pages-plugin
+Requires-Dist: twine
+Requires-Dist: pre-commit
+
+[![Build Status](https://github.com/andgineer/ellipsize/workflows/ci/badge.svg)](https://github.com/andgineer/ellipsize/actions)
+# Ellipsize with style
+
+Pretty reducing huge Python objects to visualise them nicely.
+
+Handy for AWS outputs etc.
+
+# Documentation
+
+[ellipsize](https://andgineer.github.io/ellipsize/)
+
+# Developers
+
+Do not forget to run `. ./activate.sh`.
+
+
