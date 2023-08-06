@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: morecopy
+Version: 0.1.0
+Summary: Copy even immutable objects as much as possible
+License: MIT
+Author: Akio Taniguchi
+Author-email: taniguchi@a.phys.nagoya-u.ac.jp
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
