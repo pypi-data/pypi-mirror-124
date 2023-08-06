@@ -1,0 +1,3 @@
+[console_scripts]
+soumojit = soumojit.command:main
+
