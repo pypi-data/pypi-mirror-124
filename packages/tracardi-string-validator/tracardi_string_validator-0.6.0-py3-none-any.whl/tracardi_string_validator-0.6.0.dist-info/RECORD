@@ -1,0 +1,16 @@
+tracardi_string_validator/plugin.py,sha256=cXTXaGSu6X1uCF23jAOgzX5zhqXvECRNgxKYp51hQi4,3468
+tracardi_string_validator/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracardi_string_validator/model/configuration.py,sha256=uyiETASBG-zLesTTVgPLMgbcTMa_9Nnqld5j2rGrg_A,108
+tracardi_string_validator/model/__pycache__/__init__.cpython-38.pyc,sha256=1UsnRV-k3aBn0m4yftf0I1WeGcKPy2tNC-HxNsLi4Qs,188
+tracardi_string_validator/model/__pycache__/configuration.cpython-38.pyc,sha256=YEqF5uSKLSRKy0KCFROw0V3hYuI_dOvvpedDQY-KyiQ,462
+tracardi_string_validator/service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracardi_string_validator/service/validator.py,sha256=ZPJP5_m1DLfJsmvFXdHl5cILoJ0kudv2DiiMlMLd3mc,2086
+tracardi_string_validator/service/__pycache__/__init__.cpython-38.pyc,sha256=8BbIPBoOgDPTUS8ovzD4RS2p8w5ANgMRjvD5o9fgHVo,190
+tracardi_string_validator/service/__pycache__/validator.cpython-38.pyc,sha256=AxNKxdVW4WF6ZtWYV4wMVm5VXw4Nd5XcZeqI0A3USkU,2107
+tracardi_string_validator/test/test_manual.py,sha256=opQkTjtU6GSGHJtWsVbKiJ1IQJ_TlM5r64D2OTgBW2Q,1288
+tracardi_string_validator/test/test_plugin_validator.py,sha256=1OVaSVsaGI4ZsuNKInmhINyegtGJmPi_vXgl2Y_nsb0,3798
+tracardi_string_validator-0.6.0.dist-info/LICENSE.md,sha256=ni5OEoEYBNUIhh--XN1Wh30jtxT0xB40i6YOticlnbQ,1067
+tracardi_string_validator-0.6.0.dist-info/METADATA,sha256=J92u36H1VGbyOncLh4At5fBQARCMY7c6rFdH0PKBEEk,1879
+tracardi_string_validator-0.6.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_string_validator-0.6.0.dist-info/top_level.txt,sha256=XTrMAN_J5KwtBMPhX_X2rQWNlrtF0W_DNEKxO8T2MVI,26
+tracardi_string_validator-0.6.0.dist-info/RECORD,,
