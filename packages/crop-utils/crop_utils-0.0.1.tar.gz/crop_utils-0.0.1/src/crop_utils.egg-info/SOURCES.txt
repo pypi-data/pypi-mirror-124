@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/crop_utils.egg-info/PKG-INFO
+src/crop_utils.egg-info/SOURCES.txt
+src/crop_utils.egg-info/dependency_links.txt
+src/crop_utils.egg-info/top_level.txt
+src/ecpro/__init__.py
+src/ecpro/html_slot_config.py
+src/ecpro/image.py
+src/ecpro/img_crop.py
