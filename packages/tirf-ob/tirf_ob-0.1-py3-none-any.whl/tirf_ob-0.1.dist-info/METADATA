@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tirf-ob
+Version: 0.1
+Summary: Croping tool for TIRF images
+Home-page: UNKNOWN
+Author: Robert Kiewisz
+Author-email: robert.kiewisz@gmail.com
+License: GNU General Public License v3
+Keywords: tirf_ob
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Requires-Dist: click (==8.0.1)
+Requires-Dist: numpy (==1.21.0)
+Requires-Dist: tifffile (==2021.7.2)
+
+UNKNOWN
+
