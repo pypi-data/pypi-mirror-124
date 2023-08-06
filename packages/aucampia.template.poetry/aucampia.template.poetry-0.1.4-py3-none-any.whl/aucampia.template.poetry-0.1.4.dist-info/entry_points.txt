@@ -1,0 +1,6 @@
+[console_scripts]
+aucampia.template.poetry=aucampia.template.poetry.cli:main
+aucampia.template.poetry.click=aucampia.template.poetry.cli_click:main
+aucampia.template.poetry.service=aucampia.template.poetry.service:main
+aucampia.template.poetry.typer=aucampia.template.poetry.cli_typer:main
+
