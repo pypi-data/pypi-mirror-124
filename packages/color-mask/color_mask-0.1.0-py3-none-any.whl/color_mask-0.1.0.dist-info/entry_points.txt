@@ -1,0 +1,3 @@
+[console_scripts]
+clrmsk=color_mask.color_mask:main
+
