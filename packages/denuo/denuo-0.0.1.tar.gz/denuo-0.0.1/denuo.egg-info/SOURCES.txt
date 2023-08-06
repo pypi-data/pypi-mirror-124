@@ -1,0 +1,5 @@
+setup.py
+denuo.egg-info/PKG-INFO
+denuo.egg-info/SOURCES.txt
+denuo.egg-info/dependency_links.txt
+denuo.egg-info/top_level.txt
