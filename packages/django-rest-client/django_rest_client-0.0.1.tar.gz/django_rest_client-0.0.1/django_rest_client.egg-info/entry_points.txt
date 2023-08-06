@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        django_rest_client_example=example_project.cli:cli
+    

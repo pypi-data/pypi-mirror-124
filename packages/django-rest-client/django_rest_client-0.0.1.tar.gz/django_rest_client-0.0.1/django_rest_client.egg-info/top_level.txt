@@ -1,0 +1,3 @@
+django_rest_client
+example_project
+tests
