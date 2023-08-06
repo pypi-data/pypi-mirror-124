@@ -1,0 +1,4 @@
+tensorflow
+tf_slim
+keras
+numpy
