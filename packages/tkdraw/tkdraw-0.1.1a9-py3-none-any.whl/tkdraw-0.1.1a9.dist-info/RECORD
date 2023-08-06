@@ -1,0 +1,12 @@
+tkdraw/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tkdraw/basic.py,sha256=2ZTGQJTJfzopvWUKOkM-l5dqKbYFJTz1vHwgqjUMbmg,4500
+tkdraw/screen.py,sha256=B4ZBZmPRBuayoakqQArqR2jpBDlDuunbOVPdk_polig,25529
+tkdraw/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tkdraw/test/__main__.py,sha256=rUBChX63SITMs-l3cgGv9Hph2Fk1cXPOSdmQiIIV90g,136
+tkdraw/test/test_basic.py,sha256=WLCa5jRPgl0AQfrBz6CV0gzGwbA-Q2IHA8J41U1gipc,336
+tkdraw/test/test_screen.py,sha256=pBAki7ZXFpXogysOHDGTsUN8EflSiTui1eUZYwgdNl8,2353
+tkdraw-0.1.1a9.dist-info/LICENSE,sha256=fZ0DPqzwhoYF1XPd2FAgflgkzIdaodZrhge6ShZUz4g,1064
+tkdraw-0.1.1a9.dist-info/METADATA,sha256=ypFX-qtdMf3TSKvsoq_ZqJvvYfIkCnJ9P6Znl-xN1_o,4379
+tkdraw-0.1.1a9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tkdraw-0.1.1a9.dist-info/top_level.txt,sha256=QY11vqhuHbbm8OJq6yoWq2wi2TbWdcKy5EuvtbQxNIU,7
+tkdraw-0.1.1a9.dist-info/RECORD,,
