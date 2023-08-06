@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+scikit_info.egg-info/PKG-INFO
+scikit_info.egg-info/SOURCES.txt
+scikit_info.egg-info/dependency_links.txt
+scikit_info.egg-info/not-zip-safe
+scikit_info.egg-info/requires.txt
+scikit_info.egg-info/top_level.txt
+skinfo/__init__.py
+skinfo/metrics.py
+skinfo/tests/__init__.py
+skinfo/tests/metrics.py
