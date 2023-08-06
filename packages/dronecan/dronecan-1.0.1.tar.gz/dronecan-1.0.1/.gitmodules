@@ -1,0 +1,3 @@
+[submodule "dronecan/dsdl_files"]
+	path = dronecan/dsdl_files
+	url = https://github.com/DroneCAN/dsdl.git
