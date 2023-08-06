@@ -1,0 +1,7 @@
+README.md
+pylogin
+setup.py
+pylogin_sys.egg-info/PKG-INFO
+pylogin_sys.egg-info/SOURCES.txt
+pylogin_sys.egg-info/dependency_links.txt
+pylogin_sys.egg-info/top_level.txt
