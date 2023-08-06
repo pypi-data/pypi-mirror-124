@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/JATOOLBOX.egg-info/PKG-INFO
+src/JATOOLBOX.egg-info/SOURCES.txt
+src/JATOOLBOX.egg-info/dependency_links.txt
+src/JATOOLBOX.egg-info/top_level.txt
+src/jatoolbox/__init__.py
+src/jatoolbox/jatoolbox.py
