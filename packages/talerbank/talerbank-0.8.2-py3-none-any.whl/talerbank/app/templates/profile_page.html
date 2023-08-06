@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{#
+  This file is part of GNU TALER.
+  Copyright (C) 2014, 2015, 2016 Taler Systems SA
+
+  TALER is free software; you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free Software
+  Foundation; either version 2.1, or (at your option) any later version.
+
+  TALER is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+  A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public License along with
+  TALER; see the file COPYING.  If not, see <http://www.gnu.org/licenses/>
+
+  @author Marcello Stanisci
+  @author Florian Dold <dold@taler.net>
+#}
+
+{% block main %}
+  <div>
+    <h1 class="nav">
+      {% autoescape off %}
+      {{ _("Welcome <em>{name}</em>!").format(name=name) }}
+      {% endautoescape %}
+    </h1>
+    <a href="{{ url('logout') }}" class="pure-button logout-button">[{{ _("Logout") }}]</a><br>
+  </div>
+
+  <section id="menu">
+    <p>{{ _("Bank account balance") }}: <br/> <b>{{ amount_stringify(balance) }}</b></p>
+  </section>
+  <section id="main">
+    {% if hint != "" %}
+    <article>
+      <div class="notification">
+      {% if not is_success %}
+        <p class="informational informational-fail">
+      {% else %}
+        <p class="informational informational-ok">
+      {% endif %}
+        {{ hint }}
+        </p>
+      </div>
+    </article>
+    {% endif %}
+    <article>
+      <div>
+        <h2>{{ _("Withdraw Money into a Taler wallet") }}</h2>
+        <form id="reserve-form"
+              class="pure-form"
+              action="{{ url('start-withdrawal') }}"
+              method="post"
+              name="tform">
+          <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}" />
+          {{ _("Amount to withdraw") }}:
+          {% if settings_value("SHOW_FREEFORM_WITHDRAWAL") %}
+          <input type="number" name="withdraw-amount" class="amount" />
+          {%- else -%}
+          <select id="reserve-amount" name="withdraw-amount" class="amount" autofocus>
+              <option value="5.00">5.00</option>
+              <option value="10.00">10.00</option>
+              <option value="15.00">15.00</option>
+              <option value="20.00">20.00</option>
+          </select>
+          {%- endif -%}
+          <input type="text" readonly class="currency-indicator" size="{{ currency|length }}" tabindex="-1" value="{{ currency }}">
+          <input id="select-exchange"
+                 class="pure-button pure-button-primary"
+                 type="submit"
+                 value="{{ _('Start withdrawal') }}" />
+        </form>
+      </div>
+    </article>
+    <article>
+      <h2>{{ _("Transactions for") }} {{ name }}</h2>
+      <p><a href={{ url('wiretransfer-form') }}>{{_("Transfer money manually") }}</a></p>
+      <div id="transactions-history">
+        {% if history %}
+        <table class="pure-table">
+          <thead>
+          <tr>
+            <th style="text-align:center">{{ _("Date") }}</th>
+            <th style="text-align:center">{{ _("Amount") }}</th>
+            <th style="text-align:center">{{ _("Counterpart") }}</th>
+            <th style="text-align:center">{{ _("Subject") }}</th>
+          </tr>
+          </thead>
+          <tbody>
+          {% for item in history %}
+          <tr>
+            <td style="text-align:right">{{ item.date }}</td>
+	    <td style="text-align:right">
+              {{ item.sign }} {{ item.amount }}
+            </td>
+  	    <td class="text-align:left">
+              {% if item.counterpart_username %}
+                {{ item.counterpart_username }}
+              {% endif %} (account #{{ item.counterpart }})
+            </td>
+	    <td class="text-align:left
+              {% if item.cancelled %}
+                {{ _("cancelled") }}
+              {% endif %}">{{ item.subject }}
+            </td>
+	  </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+        {% else %}
+        <p class="informational informational-fail">
+          {{ _("No transactions made to/from this account") }}
+        </p>
+        {% endif %}
+      </div>
+
+    </article>
+  </section>
+{% endblock %}

@@ -1,0 +1,80 @@
+.abort-button {
+  margin-left: 2px;
+  border: 2px solid rgb(0, 120, 231);
+  color: rgb(0, 120, 231);
+  font-size: 87%;
+  margin-top: 1px;
+  background: white;
+}
+
+div.pages-list {
+  margin-top: 15px;
+}
+
+a.page-number {
+  color: blue;
+}
+
+a.current-page-number {
+  color: inherit;
+}
+
+.cancelled {
+  text-decoration: line-through;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#transfer-fields {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#id_amount {
+  width: 6em;
+  display: inline-block;
+  border-radius: 4px 0px 0px 4px;
+}
+
+/**
+ * Amount without the currency,
+ * placed left to a .currency-indicator.
+ */
+#main .amount {
+  width: 6em;
+  display: inline-block;
+  border-radius: 4px 0px 0px 4px;
+}
+
+/*
+ * Currency indicator to the right of input fields,
+ * with non-rounded corners to the left.
+ */
+#main .currency-indicator {
+  color: black;
+  display: inline-block;
+  border-radius: 0px 4px 4px 0px;
+}
+
+#main .fieldlabel {
+  display: block;
+  padding-bottom: 0.5em;
+}
+
+#main .fieldbox {
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+}
+
+#logout-button {
+  display: block;
+  width: fit-content;
+}

@@ -1,0 +1,4 @@
+a[disabled="true"] {
+  pointer-events: none;
+  color: grey;
+}

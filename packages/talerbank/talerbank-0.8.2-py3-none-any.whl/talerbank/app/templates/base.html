@@ -1,0 +1,16 @@
+{% extends "common_base.html" %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{{ static('bank.css') }}" />
+<link rel="stylesheet" type="text/css" href="{{ static('disabled-button.css') }}" />
+{% endblock %}
+
+{% block header_content %}
+
+<h1><span class="it"><a href="{{ env('TALER_ENV_URL_BANK') }}">{{ gettext("Demo Bank") }}</a></span></h1>
+
+<p>
+  {{ _("This part of the demo shows how a bank that supports Taler directly would work. In addition to using your own bank account, you can also see the transaction history of some <a href=\"{public_accounts}\">Public Accounts</a>.").format(public_accounts=url('public-accounts')) }}
+</p>
+
+{% endblock %}

@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{#
+  This file is part of GNU TALER.
+  Copyright (C) 2014, 2015, 2016 Taler Systems SA
+
+  TALER is free software; you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free Software
+  Foundation; either version 2.1, or (at your option) any later version.
+
+  TALER is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+  A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public License along with
+  TALER; see the file COPYING.  If not, see <http://www.gnu.org/licenses/>
+
+  @author Marcello Stanisci
+  @author Florian Dold
+#}
+
+{% block main %}
+
+<h1 class="nav"> {{ _("Welcome to the {currency} Bank!").format(currency=settings_value("TALER_CURRENCY")) }}</h1>
+
+  <section id="main">
+    <article>
+      <div class="login-form">
+        <h2>{{ _("Please login!") }}</h2>
+
+        {% if form.errors %}
+        <p class="informational informational-fail">
+          {{ _("Your username and password didn't match. Please try again.") }}
+        </p>
+        {% endif %}
+
+        {% if next and next != url('profile') %}
+            {% if request.user and request.user.is_authenticated %}
+            <p class="informational informational-fail">
+              {{ _("Your account doesn't have access to this page. To proceed, please login with an account that has access.") }}</p>
+            {% else %}
+            <p class="informational informational-fail">
+              {{ _("Please login to see this page.") }}
+            </p>
+            {% endif %}
+        {% endif %}
+
+        <form method="post" class="pure-form" action="{{ url('login') }}">
+          <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}" />
+          {{ form.username }}
+          <input type="password" name="password" placeholder="password" />
+          <input type="submit" value="login" class="pure-button pure-button-primary" />
+          <input type="hidden" name="next" value="{{ next }}" />
+        </form>
+      </div>
+      {% if settings_value("ALLOW_REGISTRATIONS") %}
+      <p>
+        {% autoescape off %}
+        {{ _("If you are a new customer please <a href=\"{register_link}\">register</a>.  Registration is fast and free, and it gives you a registration bonus of 100 {currency}").format(register_link=url('register'), currency=settings_value("TALER_CURRENCY")) }}
+        {% endautoescape %}
+        </p>
+      {% else %}
+      <p>{{ _("Registrations are not open to the public.") }}</p>
+      {% endif %}
+      <p>
+      {% autoescape off %}
+      {{ _("To view transactions of public accounts, please <a href=\"{public_accounts}\">click here</a>.").format(public_accounts=url('public-accounts')) }}
+      {% endautoescape %}
+      </p>
+    </article>
+  </section>
+{% endblock main %}

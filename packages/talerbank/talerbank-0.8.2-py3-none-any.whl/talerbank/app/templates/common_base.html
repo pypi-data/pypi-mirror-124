@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+  This file is part of GNU TALER.
+  Copyright (C) 2014, 2015, 2016, 2020, 2021 Taler Systems SA
+
+  TALER is free software; you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free Software
+  Foundation; either version 2.1, or (at your option) any later version.
+
+  TALER is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+  A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public License along with
+  TALER; see the file COPYING.  If not, see <http://www.gnu.org/licenses/>
+-->
+
+<html>
+<head>
+  <title>{{ page_title | default(gettext("GNU Taler Demo")) }}</title>
+  <link rel="stylesheet" type="text/css" href="{{ static('pure.css') }}" />
+  <link rel="stylesheet" type="text/css" href="{{ static('demo.css') }}" />
+  {% block head %}
+  {% endblock %}
+</head>
+
+<body>
+  <header class="demobar" style="display: flex; flex-direction: row; justify-content: space-between;">
+    <div style="max-width: 50em; margin-left: 2em;">
+      {% block header_content %}
+        <p>This is the header content.</p>
+      {% endblock %}
+    </div>
+    <a href="https://taler.net/">
+    <img src="{{ static('logo-white.svg') }}" height="100" width="224" style="margin: 2em 2em"><br/>
+    </a>
+  </header>
+
+
+  <div style="display:flex; flex-direction: column;" class="navcontainer">
+  <nav class="demolist">
+    <a href="{{ env('TALER_ENV_URL_INTRO', '#') + getlang() + '/' }}"
+             {% if getactive() == 'landing' %} class="active" {% endif %}
+            >{{gettext("Introduction")}}</a>
+    <a href="{{ env('TALER_ENV_URL_BANK', '#') + getlang() + '/' }}"
+             {% if getactive() == 'bank' %} class="active" {% endif %}
+            >{{gettext("Bank")}}</a>
+    <a href="{{ env('TALER_ENV_URL_MERCHANT_BLOG', '#') + getlang() + '/' }}"
+             {% if getactive() == 'blog' %} class="active" {% endif %}
+            >{{gettext("Essay Shop")}}</a>
+    <a href="{{ env('TALER_ENV_URL_MERCHANT_DONATIONS', '#') + getlang() + '/' }}"
+             {% if getactive() == 'donations' %} class="active" {% endif %}
+            >{{gettext("Donations")}}</a>
+    <a href="{{ env('TALER_ENV_URL_MERCHANT_SURVEY', '#') + getlang() + '/' }}"
+             {% if getactive() == 'survey' %} class="active" {% endif %}
+            >{{gettext("Tipping/Survey")}}</a>
+
+    {# Language Selector #}
+    <div class="right">
+      <span>{{ all_languages[getlang()] | default("en") | safe }}</span>
+      <div style="position: relative; overflow: visible;">
+      <div class="nav" style="position: absolute; background: #0042b2; max-height: 60vh; overflow-y: scroll">
+        <br>
+        {% for lang_code, lang_display in all_languages.items() %}
+          {% if lang_code != getlang() %}
+          <a href="/{{ lang_code }}/" class="navbtn">{{ lang_display | safe }}</a>
+          <br>
+          {% endif %}
+        {% endfor %}   
+      </div>
+      </div>
+    </div>
+
+  </nav>
+  </div>
+
+  <section id="main" class="content">
+    {% block main %}
+      This is the main content of the page.
+    {% endblock %}
+    <hr />
+    <div>
+      <p>
+        {{
+          gettext('You can learn more about GNU Taler on our main <a href="{site}">website</a>.').format(site="https://taler.net/" + getlang() + "/")
+        }}
+      </p>
+      <div style="flex-grow:1"></div>
+      <p>Copyright &copy; 2014&mdash;2021 Taler Systems SA</p>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{#
+  This file is part of GNU TALER.
+  Copyright (C) 2014, 2015, 2016 Taler Systems SA
+
+  TALER is free software; you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free Software
+  Foundation; either version 2.1, or (at your option) any later version.
+
+  TALER is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+  A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public License along with
+  TALER; see the file COPYING.  If not, see <http://www.gnu.org/licenses/>
+
+  @author Marcello Stanisci
+  @author Florian Dold <dold@taler.net>
+#}
+
+{% block main %}
+
+<div>
+  <a href="{{ url('logout') }}" class="pure-button">[{{ _("Logout") }}]</a><br>
+</div>
+
+  <section id="main">
+
+    {% if hint != "" %}
+    <article>
+      <div class="notification">
+      {% if not is_success %}
+        <p class="informational informational-fail">
+      {% else %}
+        <p class="informational informational-ok">
+      {% endif %}
+        {{ hint }}
+        </p>
+      </div>
+    </article>
+    {% endif %}
+
+    <article>
+    <div>
+      <h2>{{ _("Wire transfer") }}</h2>
+      <p>{{ _("Transfer money to another account of this bank:") }}
+      <br>
+      <br>
+      </p>
+      <form action="{{ url('wiretransfer-form') }}"
+            method="POST"
+            name="wire-transfer-form">
+        <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}" />
+        <input name="receiver" placeholder={{ _("receiver") }} required />
+        <br>
+        <br>
+        <input name="subject" placeholder={{ _("subject") }} required />
+        <br>
+        <br>
+        <input name="amount" placeholder="XY.XY" pattern="[0-9]+(\.[0-9]+)?" required>
+          <label>{{ currency }}</label>
+        </input>
+        <input type="hidden" name="currency" value={{ currency }} />
+        <br>
+        <br>
+        <input class="pure-button pure-button-primary" type="submit" value={{ _("Confirm") }} />
+      </form>
+      <p><a href="{{ url('payto-form') }}">Want to try the raw payto://-format?</a></p>
+    </div>
+    </article>
+  </section>
+{% endblock %}
