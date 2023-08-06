@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: kustopy
+Version: 1.0.3
+Summary: Use Azure Kusto Data and Azure Kusto Ingest in Python
+Home-page: UNKNOWN
+Author: Till Furger
+Author-email: till@furger.net
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: azure-kusto-data
+Requires-Dist: azure-kusto-ingest
+Requires-Dist: pandas
+Requires-Dist: koalas
+Requires-Dist: pyspark
+
+under construction...
+
