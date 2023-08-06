@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: brainlypy
+Version: 1.0.1
+Summary: Python scraper code to brainly website.
+Home-page: https://github.com/thiagopyy/brainlypy
+Author: thi.py
+Author-email: thidotpy@gmail.com
+License: MIT
+Project-URL: Source code, https://github.com/thiagopyy/brainlypy
+Description: Python module to get questions and answers of "brainly.com", "brainly.com.br", "brainly.co.id" or "brainly.lat"
+        Examples on github in English and Portuguese.
+Keywords: python,brainly,scraper
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows

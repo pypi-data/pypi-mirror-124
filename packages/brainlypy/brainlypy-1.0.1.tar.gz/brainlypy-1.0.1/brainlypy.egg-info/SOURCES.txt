@@ -1,0 +1,10 @@
+LICENSE.TXT
+setup.py
+brainlypy/__init__.py
+brainlypy/brainly.py
+brainlypy/exceptions.py
+brainlypy.egg-info/PKG-INFO
+brainlypy.egg-info/SOURCES.txt
+brainlypy.egg-info/dependency_links.txt
+brainlypy.egg-info/requires.txt
+brainlypy.egg-info/top_level.txt
