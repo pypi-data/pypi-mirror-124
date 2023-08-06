@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tl2/modelarts/__init__.py
+tl2/modelarts/modelarts_utils.py
+tl2/tl2.egg-info/PKG-INFO
+tl2/tl2.egg-info/SOURCES.txt
+tl2/tl2.egg-info/dependency_links.txt
+tl2/tl2.egg-info/requires.txt
+tl2/tl2.egg-info/top_level.txt
