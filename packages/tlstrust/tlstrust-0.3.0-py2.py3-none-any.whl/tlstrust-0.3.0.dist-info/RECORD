@@ -1,0 +1,15 @@
+tlstrust/__init__.py,sha256=8vVuLELOKcvLGIRxB8wFx8wnTREGx5pXbgyMDwDP9E0,4386
+tlstrust/certificates.py,sha256=HQPpUqjTihckzpDTA0nIObY7Bc0npQoW1Rn_X8TKjEQ,219144
+tlstrust/context.py,sha256=cQTvuFFg4wG5og30brE7Rq_W6jej0gD-BCy2nDHAfTI,906
+tlstrust/stores/__init__.py,sha256=5y6IV02vmL-FZCMWftcC2Wky_Z2dq_AgsPw7hd0NlQo,31
+tlstrust/stores/android.py,sha256=FSet8ld3EWgVFsbL8ts-hbVGedkPEVg6R7j8-zx4HFs,6125
+tlstrust/stores/apple.py,sha256=boEboY3UgZDiNwOkZSTxG3Sh38aYnxozqRMoBkqniZo,17942
+tlstrust/stores/ccadb.py,sha256=PZNWgJN7VEzxfNa1tBwLezBGPe-fK9l5lBlYA5R-Ohw,6314
+tlstrust/stores/certifi.py,sha256=pVFK_WgIWCxirTGLlJlc_frJSoSYbha07iXDa5sjsfw,6318
+tlstrust/stores/java.py,sha256=PH9QL7CchNjKPZveYBw9ig4tss128CUgSMlAE_8IIUg,6168
+tlstrust/stores/linux.py,sha256=AnkAQGLiRqzTtpOa6o5svawOFgCqtWC0YA-wr2BnC1g,6170
+tlstrust-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tlstrust-0.3.0.dist-info/METADATA,sha256=NFMyr5CyEDPCbiosezJbDRxBCA_G3vzwhL_cSy0W9bY,4145
+tlstrust-0.3.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+tlstrust-0.3.0.dist-info/top_level.txt,sha256=ooPg3dmWLQEAlXT0E6QRK0fH9OVt0nVFZ0irOd7qfzQ,9
+tlstrust-0.3.0.dist-info/RECORD,,
