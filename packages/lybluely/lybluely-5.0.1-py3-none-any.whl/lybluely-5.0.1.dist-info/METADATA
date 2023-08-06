@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lybluely
+Version: 5.0.1
+Summary: This is a test
+Home-page: https://upload.pypi.org/legacy
+Author: lybule52
+Author-email: ly352hz@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+这个模块是一个测试模块。
+
+
