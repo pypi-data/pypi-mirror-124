@@ -1,0 +1,9 @@
+.alertButton.jp-Button.minimal .jp-Icon {
+    color: gray;
+}
+.alertButton-active.jp-Button.minimal .jp-Icon {
+    color: #39a9d6;
+}
+.alertButton-all-active.jp-Button.minimal .jp-Icon {
+    color: #f37726;
+}
