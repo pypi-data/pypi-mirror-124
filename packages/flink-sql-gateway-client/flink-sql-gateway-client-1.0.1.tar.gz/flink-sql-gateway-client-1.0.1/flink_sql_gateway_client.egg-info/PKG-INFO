@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: flink-sql-gateway-client
+Version: 1.0.1
+Summary: Fink SQL Rest API
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,Fink SQL Rest API
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+    Flink SQL Rest API  # noqa: E501
+    
+
