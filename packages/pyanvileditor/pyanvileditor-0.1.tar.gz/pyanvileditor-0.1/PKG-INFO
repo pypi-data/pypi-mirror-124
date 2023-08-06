@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: pyanvileditor
+Version: 0.1
+Summary: Python3 library to load and edit minecraft savegames
+Home-page: https://github.com/maurosbicego/PyAnvilEditor
+Author: Donovan Allen, Mauro Sbicego
+Author-email: mauro@sbicego.ch
+License: MIT
+Download-URL: https://github.com/maurosbicego/PyAnvilEditor/archive/refs/tags/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: minecraft,anvil,editor
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
