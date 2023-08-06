@@ -1,0 +1,11 @@
+setup.py
+vertysimplemoduleaupmanyu/__init__.py
+vertysimplemoduleaupmanyu/add.py
+vertysimplemoduleaupmanyu/subtract.py
+vertysimplemoduleaupmanyu/extras/__init__.py
+vertysimplemoduleaupmanyu/extras/divide.py
+vertysimplemoduleaupmanyu/extras/multiply.py
+verysimplemoduleaupmanyu.egg-info/PKG-INFO
+verysimplemoduleaupmanyu.egg-info/SOURCES.txt
+verysimplemoduleaupmanyu.egg-info/dependency_links.txt
+verysimplemoduleaupmanyu.egg-info/top_level.txt
