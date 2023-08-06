@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: SIDRA
+Version: 0.0.1
+Summary: Iran Account Cracke
+Home-page: https://github.com/SidraELEzz
+Author: SidraELEzz
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+
+import SIDRA
+
+
