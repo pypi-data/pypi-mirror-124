@@ -1,0 +1,7 @@
+setup.py
+dave11arBruhPackage/my.py
+dave11arBruhPackage.egg-info/PKG-INFO
+dave11arBruhPackage.egg-info/SOURCES.txt
+dave11arBruhPackage.egg-info/dependency_links.txt
+dave11arBruhPackage.egg-info/requires.txt
+dave11arBruhPackage.egg-info/top_level.txt
