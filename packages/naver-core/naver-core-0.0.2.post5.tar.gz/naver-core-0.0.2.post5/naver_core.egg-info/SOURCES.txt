@@ -1,0 +1,9 @@
+README.md
+setup.py
+naver_core/__init__.py
+naver_core/middleware.py
+naver_core.egg-info/PKG-INFO
+naver_core.egg-info/SOURCES.txt
+naver_core.egg-info/dependency_links.txt
+naver_core.egg-info/requires.txt
+naver_core.egg-info/top_level.txt
