@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: afasi
+Version: 2021.10.20
+Summary: Fuzz a language by mixing up only few words.
+Home-page: https://github.com/sthagen/afasi
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sthagen/afasi/issues
+Project-URL: Documentation, https://sthagen.github.io/afasi/
+Project-URL: Source Code, https://github.com/sthagen/afasi
+Description: # afasi
+        
+        Fuzz a language by mixing up only few words.
+        
+        ## Status
+        
+        Experimental.
+        
+        **Note**: The default branch is `default`.
+        
+Keywords: http,developer-tools
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
