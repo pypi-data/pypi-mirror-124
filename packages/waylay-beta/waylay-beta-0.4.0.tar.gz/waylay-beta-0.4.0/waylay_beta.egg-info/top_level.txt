@@ -1,0 +1,7 @@
+bin
+cov_report
+doc
+stat
+test
+tmp
+waylay
