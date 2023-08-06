@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dl1dh-test
+Version: 0.9.0
+Summary: dl1 HDF5 data writer + reader + processor
+Home-page: http://github.com/cta-observatory/dl1-data-handler
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: astropy
+Requires-Dist: numpy (>=1.15.0)
+Requires-Dist: scipy
+Requires-Dist: jupyter
+Requires-Dist: tables (>=3.4.4)
+Requires-Dist: uproot (==3.12.0)
+
+UNKNOWN
+
+
