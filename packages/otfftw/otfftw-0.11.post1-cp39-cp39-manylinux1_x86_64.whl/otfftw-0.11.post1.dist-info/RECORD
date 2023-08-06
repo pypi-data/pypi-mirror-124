@@ -1,0 +1,6 @@
+otfftw/__init__.py,sha256=8JnyEUo2DnoVdbqy-E8b4kiRs0heaOPvNSIAFeQf0k4=,328
+otfftw/_otfftw.so,sha256=yjQ5DZ3PK4r8Te7SYIXy1Dec-0L-7ThbtHLm8dGe2FI=,729841
+otfftw/otfftw.py,sha256=XrqMm1QQMlA1NdoW_3gpxztXTKzBDbY5IjsT88n4ntI=,6282
+otfftw-0.11.post1.dist-info/WHEEL,sha256=AZhNL47hR_4Dc3F35inmFwmd8WvMxgxS_8qQcNYgCEE=,66
+otfftw-0.11.post1.dist-info/METADATA,sha256=MtycKpwXPz-clzTFk-W1ez_oePJT32KPvYdOhLwcHPI=,1651
+otfftw-0.11.post1.dist-info/RECORD,,
