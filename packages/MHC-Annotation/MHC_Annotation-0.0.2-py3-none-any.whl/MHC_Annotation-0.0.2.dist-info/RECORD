@@ -1,0 +1,16 @@
+mhca/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mhca/__main__.py,sha256=Dzm-3Iz0XtnA1Qkx3wjgZS3sSRcD5QDiBHz-BPI8FrQ,1716
+mhca/annotate_haplotype.py,sha256=ix6lDrmV-PVLu8BBxBokjmhOWvsFG8VS2rYedwtw9hI,18447
+mhca/check_CDS.py,sha256=iNAOEfjQ9LNlTSRcXmo-_8q9mRRBwVjrlzzUUIy1IzA,2588
+mhca/genbank2fullfasta.py,sha256=PIoywg7QLnwkl4lnPfHSduxdB0d7jg7jmazaolYQslM,3594
+mhca/data/LRG_RefSeqGene.tsv,sha256=72tVBs7zcY8CZ7Ie2QUcj8mHJII3YF2oOmO-gBnDr-c,2426231
+mhca/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mhca/data/genes_pseudogenes.tsv,sha256=p3SHl_N5AVtF3o3uROtfv1B6PqvjCwfSrCsNFn1slo0,806
+mhca/data/imgt_alleles.tar.gz,sha256=VnMfs8l780KOiPJlN6h2Cu7tldAk5GwzapIJ0LnFvO4,3901612
+mhca/data/rsg_transcripts.tar.gz,sha256=9fZKu7H9YMhbl7padVY5oqqsO20MPjhsrbYyUipI09Q,474877
+MHC_Annotation-0.0.2.dist-info/LICENSE,sha256=vtlFBklB6n_qjBmm2r3oO2xuuPV1LRIzu_rMkp_8q38,1067
+MHC_Annotation-0.0.2.dist-info/METADATA,sha256=gc7YB1aXiMBbzlNp6WrrskC61l7YqNdpYTRj6FWq_KI,1271
+MHC_Annotation-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+MHC_Annotation-0.0.2.dist-info/entry_points.txt,sha256=diOuBTnjLv2IERqlVeNffXlwshseYj4_e4Uu0Akz1nY,45
+MHC_Annotation-0.0.2.dist-info/top_level.txt,sha256=VwbLfJ7oJX3BHkEyUBRpsYNp-TVbmY2fdKZa1wBQ4Dw,5
+MHC_Annotation-0.0.2.dist-info/RECORD,,
