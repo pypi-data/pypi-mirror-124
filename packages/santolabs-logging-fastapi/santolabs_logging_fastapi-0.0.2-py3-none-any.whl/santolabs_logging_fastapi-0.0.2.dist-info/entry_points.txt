@@ -1,0 +1,3 @@
+[santolabs_logging]
+fastapi = santolabs.logging.fastapi:LogMidddleware
+
