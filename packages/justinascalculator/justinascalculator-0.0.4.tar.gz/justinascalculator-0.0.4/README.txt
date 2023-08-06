@@ -1,0 +1,1 @@
+This is a simple calculator, that can do addition, subtraction, multiplication, division and taking the (n) root of a number.
