@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: juju-api
+Version: 1.0.0
+Summary: juju学习
+Home-page: https://gitee.com/guoyasoft/juju-api.git
+Author: juju
+Author-email: jialeiju30@gmail.com
+License: MIT license
+Description: Juju学脚手架依赖包
+Keywords: test,learn
+Platform: python
