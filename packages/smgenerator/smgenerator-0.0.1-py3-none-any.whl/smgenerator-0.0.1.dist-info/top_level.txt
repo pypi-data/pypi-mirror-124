@@ -1,0 +1,7 @@
+smgenerator
+smgenerator/smgenerator/SMGen_multi
+smgenerator/smgenerator/SMGen_one
+smgenerator/smgenerator/__init__
+smgenerator/smgenerator/_version
+smgenerator/smgenerator/cli/__init__
+smgenerator/smgenerator/cli/smgenerator
