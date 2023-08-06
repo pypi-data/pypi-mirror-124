@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/termflow/__init__.py
+src/termflow/__main__.py
+src/termflow.egg-info/PKG-INFO
+src/termflow.egg-info/SOURCES.txt
+src/termflow.egg-info/dependency_links.txt
+src/termflow.egg-info/entry_points.txt
+src/termflow.egg-info/requires.txt
+src/termflow.egg-info/top_level.txt
