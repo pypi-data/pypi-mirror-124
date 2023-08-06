@@ -1,0 +1,1 @@
+import{H as o,I as i,s}from"./index-24b4ccd1.js";const a=o=>i("./wizard",{method:"post",body:JSON.stringify(o)}),n=i=>o(`./info?configuration=${i}`),t=o=>i(`./delete?configuration=${o}`,{method:"post"}),c=o=>s("compile",{configuration:o}),e=i=>o(`./manifest.json?configuration=${i}`);export{c as a,e as b,a as c,t as d,n as g};
