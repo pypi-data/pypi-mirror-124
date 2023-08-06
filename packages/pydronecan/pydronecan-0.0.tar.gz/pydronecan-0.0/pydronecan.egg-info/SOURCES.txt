@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+pydronecan.egg-info/PKG-INFO
+pydronecan.egg-info/SOURCES.txt
+pydronecan.egg-info/dependency_links.txt
+pydronecan.egg-info/not-zip-safe
+pydronecan.egg-info/requires.txt
+pydronecan.egg-info/top_level.txt
