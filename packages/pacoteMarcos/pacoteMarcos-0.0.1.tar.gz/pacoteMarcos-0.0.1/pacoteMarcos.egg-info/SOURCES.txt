@@ -1,0 +1,9 @@
+README.md
+setup.py
+pacoteMarcos/__init__.py
+pacoteMarcos/modulo.py
+pacoteMarcos.egg-info/PKG-INFO
+pacoteMarcos.egg-info/SOURCES.txt
+pacoteMarcos.egg-info/dependency_links.txt
+pacoteMarcos.egg-info/requires.txt
+pacoteMarcos.egg-info/top_level.txt
