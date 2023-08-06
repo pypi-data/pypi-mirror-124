@@ -1,0 +1,3 @@
+[console_scripts]
+faddr-db=faddr.cli:faddr_db
+
