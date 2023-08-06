@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: remove-apt-repository
+Version: 1.1
+Summary: a smal tool for remove apt repositories
+Home-page: https://github.com/IliyaRezaee/remove-apt-repository
+Author: Iliya Rezaee
+Author-email: iliyarezaee2017@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Description-Content-Type: text/markdown
+Requires-Dist: inquirerpy (==0.3.0)
+Requires-Dist: pfzy (==0.3.3)
+Requires-Dist: prompt-toolkit (==3.0.21)
+Requires-Dist: wcwidth (==0.2.5)
+
+# remove-apt-repository
+a smal tool for remove apt repositories
+
+Installation
+===
+run this command as root:
+```bash
+sudo pip install remove-apt-repository
+```
+**NOTE: you won't be able to use the program if you don't install it as root.**
+
+Usage
+===
+just run it as root in the terminal:
+```bash
+sudo remove-apt-repository
+```
+
+

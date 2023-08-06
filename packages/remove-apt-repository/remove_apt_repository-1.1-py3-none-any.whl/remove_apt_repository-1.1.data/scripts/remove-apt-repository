@@ -1,0 +1,31 @@
+#!python
+
+from InquirerPy import prompt
+import os, sys
+
+if sys.platform != "linux":
+    print("you can use this program only on linux")
+    sys.exit(0)
+
+sources = "/etc/apt/sources.list.d"
+
+if not os.path.exists(sources):
+    print("you can only use this program on debian base operating systems")
+    sys.exit(0)
+
+repo = prompt(
+    {
+        "name": "repo",
+        "type": "fuzzy",
+        "message": "Select a source",
+        "choices": os.listdir(sources),
+    }
+)["repo"]
+
+if not repo:
+    print("Your choice is not valid")
+    sys.exit(0)
+
+file = os.path.join(sources, repo)
+os.remove(file)
+os.system("apt update")
