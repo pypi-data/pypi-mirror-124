@@ -1,0 +1,38 @@
+from distutils.core import setup
+
+setup(
+    name='pyqtlet2',
+    packages=[
+        'web',
+        'web.modules.leaflet_171',
+        'web.modules.leaflet_171.images',
+        'web.modules.leaflet_draw_414',
+        'web.modules.leaflet_draw_414.dist',
+        'web.modules.leaflet_draw_414.dist.images',
+        'pyqtlet2',
+        'pyqtlet2.leaflet',
+        'pyqtlet2.leaflet.control',
+        'pyqtlet2.leaflet.core',
+        'pyqtlet2.leaflet.layer',
+        'pyqtlet2.leaflet.layer.marker',
+        'pyqtlet2.leaflet.layer.tile',
+        'pyqtlet2.leaflet.layer.vector',
+        'pyqtlet2.leaflet.map',
+    ],
+    package_data={
+        'web': ['*'],
+        'web.modules': ['*'],
+        'web.modules.leaflet_171': ['*'],
+        'web.modules.leaflet_171.images': ['*'],
+        'web.modules.leaflet_draw_414': ['*'],
+        'web.modules.leaflet_draw_414.dist': ['*'],
+        'web.modules.leaflet_draw_414.dist.images': ['*'],
+    },
+    version='0.4.3',
+    description='Bringing leaflet maps to PyQt',
+    author='Leon Friedmann',
+    author_email='leon.friedmann@tum.de',
+    url='https://github.com/JaWeilBaum/pyqtlet2',
+    keywords=['leaflet', 'pyqt', 'maps', 'python', 'python3'],
+    classifiers=[],
+)
