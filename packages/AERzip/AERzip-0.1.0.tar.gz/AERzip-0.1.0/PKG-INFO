@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: AERzip
+Version: 0.1.0
+Summary: Useful tools to compress and decompress AEDAT files in Python
+Home-page: https://github.com/alvaroy96/AERzip
+Author: Alvaro Ayuso Martinez
+Author-email: alv.correo@gmail.com
+License: GPL-3.0
+Download-URL: https://pypi.org/project/AERzip/
+Keywords: AER,Events,Spikes,AEDAT,Compression,Decompression,Utils,Neuroscience,Neuromorphic,Cochlea,Retina,jAER
+Platform: UNKNOWN
+
+UNKNOWN
+
