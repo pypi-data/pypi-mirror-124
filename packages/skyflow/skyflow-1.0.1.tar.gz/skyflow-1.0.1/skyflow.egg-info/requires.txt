@@ -1,0 +1,4 @@
+PyJWT
+datetime
+requests
+cryptography>=3.3.1
