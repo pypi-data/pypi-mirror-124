@@ -1,0 +1,8 @@
+README.md
+setup.py
+starlette_validation_uploadfile.py
+starlette_validation_uploadfile.egg-info/PKG-INFO
+starlette_validation_uploadfile.egg-info/SOURCES.txt
+starlette_validation_uploadfile.egg-info/dependency_links.txt
+starlette_validation_uploadfile.egg-info/requires.txt
+starlette_validation_uploadfile.egg-info/top_level.txt
