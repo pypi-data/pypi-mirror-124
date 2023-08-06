@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/Markosrc/__init__.py
+src/Markosrc.egg-info/PKG-INFO
+src/Markosrc.egg-info/SOURCES.txt
+src/Markosrc.egg-info/dependency_links.txt
+src/Markosrc.egg-info/top_level.txt
