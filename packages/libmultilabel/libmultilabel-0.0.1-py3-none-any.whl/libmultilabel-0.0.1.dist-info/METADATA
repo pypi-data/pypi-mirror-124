@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: libmultilabel
+Version: 0.0.1
+Summary: A library for multi-label text classification
+Home-page: https://github.com/ASUS-AICS/LibMultiLabel
+Author: LibMultiLabel Team
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/ASUS-AICS/LibMultiLabel/issues
+Project-URL: Documentation, https://www.csie.ntu.edu.tw/~cjlin/libmultilabel
+Project-URL: Source Code, https://github.com/ASUS-AICS/LibMultiLabel/
+Platform: UNKNOWN
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 10.2
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: nltk
+Requires-Dist: pandas
+Requires-Dist: PyYAML
+Requires-Dist: scikit-learn
+Requires-Dist: torch (==1.8.0)
+Requires-Dist: torchmetrics (==0.3.2)
+Requires-Dist: torchtext (==0.9.0)
+Requires-Dist: pytorch-lightning (==1.3.5)
+Requires-Dist: tqdm
+Requires-Dist: liblinear-official
+Requires-Dist: scipy
+Provides-Extra: parameter-search
+Requires-Dist: bayesian-optimization ; extra == 'parameter-search'
+Requires-Dist: optuna ; extra == 'parameter-search'
+Requires-Dist: ray (>=1.4.0) ; extra == 'parameter-search'
+Requires-Dist: ray[tune] ; extra == 'parameter-search'
+
+See API documentation here: https://www.csie.ntu.edu.tw/~cjlin/libmultilabel
+
