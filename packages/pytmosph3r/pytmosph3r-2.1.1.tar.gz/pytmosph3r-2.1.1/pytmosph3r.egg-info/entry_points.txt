@@ -1,0 +1,7 @@
+[console_scripts]
+pytmosph3r = pytmosph3r.pytmosph3r:main
+pytmosph3r-h5-to-nc = pytmosph3r.interface.h5_to_nc:h5_to_nc
+pytmosph3r-nc-to-h5 = pytmosph3r.interface.nc_to_h5:nc_to_h5
+pytmosph3r-nc-to-nc = pytmosph3r.interface.nc_to_nc:nc_to_nc
+pytmosph3r-plot = pytmosph3r.plot.plot:main [plot]
+
