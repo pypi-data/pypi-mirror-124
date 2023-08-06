@@ -1,0 +1,9 @@
+README.md
+minian_docker.py
+setup.py
+minian-docker/__init__.py
+minian_docker.egg-info/PKG-INFO
+minian_docker.egg-info/SOURCES.txt
+minian_docker.egg-info/dependency_links.txt
+minian_docker.egg-info/entry_points.txt
+minian_docker.egg-info/top_level.txt
