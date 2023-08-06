@@ -1,0 +1,6 @@
+[console_scripts]
+charinfo = charinfo.__main__:run
+
+[pipx.run]
+charinfo = charinfo.__main__:run
+
