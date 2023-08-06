@@ -1,0 +1,3 @@
+[console_scripts]
+edgesoftware = edgesoftware.edgesoftware:main
+
