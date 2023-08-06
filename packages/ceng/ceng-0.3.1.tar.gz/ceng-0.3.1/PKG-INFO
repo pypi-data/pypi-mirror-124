@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: ceng
+Version: 0.3.1
+Summary: Tool for Coding Tasks Specific to Civil Engineering
+Author-email: Ricky L Teachey Jr <ricky@teachey.org>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Dist: numpy >=1.20
+Requires-Dist: scipy >=1.7
+Requires-Dist: wrapt >= 1.13
+Requires-Dist: numba
+Requires-Dist: pytest >=6.2 ; extra == "test"
+Project-URL: Home, https://github.com/ricyteach/ceng
+Provides-Extra: test
+
+# Tool for Coding Tasks Specific to Civil Engineering 
+
+Tools to make - may or may not get around to doing all (many?) of these.
+
+General CE
+- Factor of Safety Checks
+- LRFD Checks
+- Load Combinations (COMPLETED)
+- Material Properties (steel, aluminum, concrete, plastic...)
+- Simple 1d curve and multi 1d curve interpolation from charts, tables
+
+Mechanics
+- Statics
+- Mechanics
+- Structural Analysis
+
+Geotech eng
+- Soil classifications
+- Soil Mechanics 
+- Bearing Capacity
+- Shear Strength
+- Pressure Increase
+- Lateral Pressure
+- Walls Design
+
+ASCE 7 Equations (multiple versions)
+- Seismic analysis
+- Wind loading
+- Snow loading
+
+AASHTO equations (multiple versions)
+- Chapter 12
+- Reinforced concrete
+- Live loading
+- Seismic loading
+
+Other Codes
+- PV1
+- PV2
+- NCSPA
+- NDS
+- ADM
+- ACI
+- AISC
+- AISI
+
+Structural Design
+- Piles
+- Footings
+- Mat Foundations
+- Walls
+- Endwalls
+- Abutments
+- Relief Slabs
+- Collars
+- Riser Slabs
