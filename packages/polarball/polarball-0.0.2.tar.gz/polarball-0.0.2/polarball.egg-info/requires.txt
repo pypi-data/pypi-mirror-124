@@ -1,0 +1,7 @@
+numpy
+numba
+astromodels
+threeml
+ipyvolume==0.6.0a
+matplotlib
+rball
