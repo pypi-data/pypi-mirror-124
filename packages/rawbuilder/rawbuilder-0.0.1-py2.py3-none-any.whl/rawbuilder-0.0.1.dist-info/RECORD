@@ -1,0 +1,10 @@
+rawbuilder/__init__.py,sha256=ChglyW_mMoi5I7TStkTP-8BRW2_GRoJplyzzSUJ9JDo,172
+rawbuilder/rawbuilder.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+rawbuilder/dataset/DataSet.py,sha256=KStgQGYu4r3TNKKztn52E9tli3Ty7fDy29vLWNyMMCs,76
+rawbuilder/dataset/__init__.py,sha256=nQpqVQH8GPSbhR1rSR8TidXssowlUUZgL4JgphQBThs,29
+rawbuilder-0.0.1.dist-info/AUTHORS.rst,sha256=ydaRWWOFEhp6mER8uQO3SGbW5QLOTimETFLfwzMGgOM,162
+rawbuilder-0.0.1.dist-info/LICENSE,sha256=rLytIu1vMJ9Iuuko9h9d7lVQLUNRxOmsWX1kZBD_gp8,1074
+rawbuilder-0.0.1.dist-info/METADATA,sha256=WYem8o-kbaZP9Wy2fVeREdsE-fF0xYflzWEVV5U1caI,1631
+rawbuilder-0.0.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+rawbuilder-0.0.1.dist-info/top_level.txt,sha256=4uknprlLSQraOuV-a34oWMPqqYyfQ2MvRwiLYNkB9Yo,11
+rawbuilder-0.0.1.dist-info/RECORD,,
