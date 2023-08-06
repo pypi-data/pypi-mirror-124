@@ -1,0 +1,9 @@
+README.md
+setup.py
+teedoc_plugin_ad_hint/__init__.py
+teedoc_plugin_ad_hint.egg-info/PKG-INFO
+teedoc_plugin_ad_hint.egg-info/SOURCES.txt
+teedoc_plugin_ad_hint.egg-info/dependency_links.txt
+teedoc_plugin_ad_hint.egg-info/top_level.txt
+teedoc_plugin_ad_hint/assets/main.js
+teedoc_plugin_ad_hint/assets/style.css
