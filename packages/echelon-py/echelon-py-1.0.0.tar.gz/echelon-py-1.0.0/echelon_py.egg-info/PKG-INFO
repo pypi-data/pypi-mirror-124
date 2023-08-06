@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: echelon-py
+Version: 1.0.0
+Summary: Echelon analysis in Python
+Home-page: https://github.com/takeshi-teshima/echelon-py
+Author: Takeshi Teshima
+Author-email: takeshi.diadochos@gmail.com
+Maintainer: Takeshi Teshima
+Maintainer-email: takeshi.diadochos@gmail.com
+License: UNKNOWN
+Keywords: echelon,cluster,spatio-temporal data
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+
+UNKNOWN
+
