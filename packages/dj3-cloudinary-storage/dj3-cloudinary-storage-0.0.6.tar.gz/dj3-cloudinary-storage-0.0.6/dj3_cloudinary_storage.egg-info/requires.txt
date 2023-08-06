@@ -1,0 +1,5 @@
+requests>=2.26.0
+cloudinary>=1.26.0
+
+[video]
+python-magic>=0.4.24
