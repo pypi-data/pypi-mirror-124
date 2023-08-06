@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+wgtool/wgtool.egg-info/PKG-INFO
+wgtool/wgtool.egg-info/SOURCES.txt
+wgtool/wgtool.egg-info/dependency_links.txt
+wgtool/wgtool.egg-info/entry_points.txt
+wgtool/wgtool.egg-info/top_level.txt
