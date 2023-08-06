@@ -1,0 +1,4 @@
+[console_scripts]
+gogogate2 = ismartgate.cli:gogogate2_cli
+ismartgate = ismartgate.cli:ismartgate_cli
+
