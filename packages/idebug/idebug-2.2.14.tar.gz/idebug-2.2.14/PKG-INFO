@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: idebug
+Version: 2.2.14
+Summary: innovata-debug
+Home-page: https://github.com/innovata/idebug
+Author: innovata sambong
+Author-email: iinnovata@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# idebug (innovata debug)
+
+
+### ============================================================
+### Overview
+### ============================================================
+
+
+### ============================================================
+### 주의사항 !!
+### ============================================================
+
+python Lib 이외에 그 어떠한 패키지도 임포트하지 않는다.
+즉, 모든 개발 프로젝트들을 위한 베이스 패키지 라는 뜻이다.
+
+
