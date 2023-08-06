@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load datetime_filter %}
+{% load humanize %}
+
+{% block title %}
+{{ timeline_type | title }} timeline
+{% endblock %}
+
+{% block body %}
+
+  {% block heading %}
+  <h1>
+    {{ timeline_type | title }} timeline
+  </h1>
+  {% endblock %}
+
+  {% block list %}
+  <ul class="timeline">
+  {% for post in posts %}
+  <li>
+    <h2>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <p>
+      Submitted
+      <time datetime="{{ post.created }}">
+        {{ post.created | to_datetime | naturaltime }}
+      </time>
+      by
+      <a href="{{ post.author_url }}">{{ post.author }}</a>
+      {% if timeline_type != 'community' %}
+      to
+      <a href="{{ post.community_url }}">{{ post.community }}</a>
+      {% endif %}
+    </p>
+  </li>
+  {% endfor %}
+  </ul>
+  {% endblock %}
+
+  {% block pagination %}
+  {% if next_page %}
+  <a href="{% url 'timeline_old' timeline_type next_page %}">Next page</a>
+  {% endif %}
+  {% endblock %}
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<form action="{% url 'login' %}" method="post">
+  {% csrf_token %}
+  <fieldset>
+    <legend><h1>Log in</h1></legend>
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username" required />
+    <label for="instance">Instance</label>
+    <input type="text" name="instance" id="instance" required />
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required />
+    <input type="submit" value="Log in">
+  </fieldset>
+</form>
+{% endblock %}
