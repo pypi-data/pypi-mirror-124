@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/ecpro/__init__.py
+src/ecpro/__version__.py
+src/ecpro/html_slot_config.py
+src/ecpro/image.py
+src/ecpro/img_crop.py
+src/ecpro.egg-info/PKG-INFO
+src/ecpro.egg-info/SOURCES.txt
+src/ecpro.egg-info/dependency_links.txt
+src/ecpro.egg-info/top_level.txt
