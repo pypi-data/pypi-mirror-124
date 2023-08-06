@@ -1,0 +1,12 @@
+darbiadev_onsite/__init__.py,sha256=PqkyuHQRAPK5cXm-5poPG_h9qBJXyPZEe6GJTPW-MGg,45
+darbiadev_onsite/lib.py,sha256=yxq-kFDgJNKsIzBZIveEMEoyGvOzhdcgOq_SJ3kfThY,2062
+darbiadev_onsite/sql/address.sql,sha256=qwmwCObr5SDDKkHsmDDXT0RIvrobPQQUDnMKuyCjvDc,1116
+darbiadev_onsite/sql/events.sql,sha256=4jcA3A8_e_Z-Q-yEg3EjwQ5KSPnVWYPDyuTeEn0rXeE,552
+darbiadev_onsite/sql/linesoe.sql,sha256=K3jdImk4qjArwo7MNwPUmuQ6LqIghjJ2ByUMq3-v1_A,17176
+darbiadev_onsite/sql/order.sql,sha256=YeoNzvRrwcHxLP8BmBATZ-WY_llDdww4Laxqw0KKTZE,4971
+darbiadev_onsite/sql/packimport.sql,sha256=zCQ6KxX313dQQj3-gPzsO1fQFQSR4-u5SZ7aopBMGbw,555
+darbiadev_onsite/vendor/fmjdbc.jar,sha256=wLvIgSw5YPKE5vGKK4xUHHpIvOlpc8ptt_BajqMvT_Q,159407
+darbiadev_onsite-0.9.0.dist-info/LICENSE,sha256=mO-phH9h6vDZ0n8eWcIuFM_-n9xQVNAxClcxihUX-NU,1079
+darbiadev_onsite-0.9.0.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+darbiadev_onsite-0.9.0.dist-info/METADATA,sha256=SR2HFKtLhHhH6Ex2dzy2bl3O5jRecILqhOdkE80HT8Y,1318
+darbiadev_onsite-0.9.0.dist-info/RECORD,,
