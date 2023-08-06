@@ -1,0 +1,4 @@
+requests~=2.25.1
+xlrd~=1.2.0
+PyYAML~=5.4.1
+requests-toolbelt~=0.9.1

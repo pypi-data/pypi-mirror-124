@@ -1,0 +1,4 @@
+include setup.py
+recursive-include src *.py
+include docs/template.xlsx
+prune build,dist
