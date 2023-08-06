@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: niaaml-gui
+Version: 0.1.11
+Summary: GUI for NiaAML Python package
+Home-page: https://github.com/lukapecnik/NiaAML-GUI
+License: MIT
+Keywords: classification,NiaPy,NiaAML,scikit-learn,nature-inspired algorithms,feature selection,preprocessing
+Author: Luka Pečnik
+Author-email: lukapecnik96@gmail.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: NiaPy (>=2.0.0rc18,<3.0.0)
+Requires-Dist: PyQt5 (>=5.15.0,<6.0.0)
+Requires-Dist: QtAwesome (>=1.0.2,<2.0.0)
+Requires-Dist: niaaml (>=1.1.1rc2,<2.0.0)
+Project-URL: Repository, https://github.com/lukapecnik/NiaAML-GUI
+Description-Content-Type: text/x-rst
+
+
