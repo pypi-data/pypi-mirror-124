@@ -1,0 +1,10 @@
+CPT_GFFParser/CPT_GFFParser.py,sha256=oJSL_GMDTYcziE1PEBndaYEid6p7IlHMJXsF95o7_XE,25518
+CPT_GFFParser/CPT_ParserHelpers.py,sha256=ix64COW56iLr5YRR7EbKOejGd8paZ4Bz9qHRm3-HKXw,6197
+CPT_GFFParser/__init__.py,sha256=etfDWkq4V62YD4qaxiGOZb_o6dTVuYnESWGfpNP6vkg,196
+CPT_GFFParser/gffSeqFeature.py,sha256=Ifco6kdxxBEiFoVv5oCqqo57QKkwRnQ4CSr_dWaCaHg,10374
+CPT_GFFParser/setup.py,sha256=jObI4wxTuqE0M09J8rVoRvR43DRHnqbmCejAMyGooTA,463
+CPT_GFFParser-1.1.4.dist-info/LICENSE,sha256=EDDBFqBWHD7a9n_170pZyur5Tb-K6pVof51lH-uUet4,1535
+CPT_GFFParser-1.1.4.dist-info/METADATA,sha256=-2-4qohQ38TZ-4cPGbVbBJqANVmQ3uWjUeU3Qg4idq4,17479
+CPT_GFFParser-1.1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+CPT_GFFParser-1.1.4.dist-info/top_level.txt,sha256=Ywb-Qt15HJev5QLo5tkpkJBsObGKBK5tGoAtyzJMznU,14
+CPT_GFFParser-1.1.4.dist-info/RECORD,,
