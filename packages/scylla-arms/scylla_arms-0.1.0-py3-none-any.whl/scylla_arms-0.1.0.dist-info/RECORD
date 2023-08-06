@@ -1,0 +1,10 @@
+scylla_arms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scylla_arms/config.py,sha256=YT4QszLpDdVE8ksnWgtm-WctFttEeZiDEX8Xd2plPoM,1386
+scylla_arms/configparser.py,sha256=SWdXQc32S73BueL26DoEYzq7CqkcXVvRmLGx7jgffPE,1863
+scylla_arms/main.py,sha256=srjKggozvpbJ8WfnSlMzBKh-JsJxy0atOPnc7Uuof0U,62
+scylla_arms/persisted_dicts.py,sha256=QKZ6JPxEpDtNl9Y6SH4VoWukuYrFukM8jxjqAAzT_rs,1759
+scylla_arms-0.1.0.dist-info/entry_points.txt,sha256=jgvtnTTHS_2ZWs94EWxBZTvyVoPranncsyaCbJ3gBrY,53
+scylla_arms-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scylla_arms-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+scylla_arms-0.1.0.dist-info/METADATA,sha256=XZQF4D2lOS_yQuW65ebdvUjSRHOIjrpyarohLtWOJmU,415
+scylla_arms-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+arms=scylla_arms.main:program.run
+
