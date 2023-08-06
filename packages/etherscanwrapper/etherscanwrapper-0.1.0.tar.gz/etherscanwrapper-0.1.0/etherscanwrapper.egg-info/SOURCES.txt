@@ -1,0 +1,8 @@
+setup.py
+etherscanwrapper/__init__.py
+etherscanwrapper/etherscanwrapper.py
+etherscanwrapper.egg-info/PKG-INFO
+etherscanwrapper.egg-info/SOURCES.txt
+etherscanwrapper.egg-info/dependency_links.txt
+etherscanwrapper.egg-info/not-zip-safe
+etherscanwrapper.egg-info/top_level.txt
