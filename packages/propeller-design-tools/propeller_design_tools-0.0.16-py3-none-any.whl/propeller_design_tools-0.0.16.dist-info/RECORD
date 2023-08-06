@@ -1,0 +1,12 @@
+propeller_design_tools/__init__.py,sha256=ix-i2WRTH0geuias91rV8GzNgt3QXl-MEWShT84jpgo,255
+propeller_design_tools/airfoil.py,sha256=hVCrW2_o3tuAZlDOVolcSzSpQvzDzRHXdPP2FkfyrDY,27076
+propeller_design_tools/funcs.py,sha256=rYwMiu5hYGgS-OLpu6djLOhGo1TPm5OAM0KcyOuiYkc,35985
+propeller_design_tools/propeller.py,sha256=sWxZuIZIyP1GfbX9_UDGVjILKYdv5EyyP5zgCVi69bg,22830
+propeller_design_tools/radialstation.py,sha256=6CwYismStz46hmmYIq0r0QEZ9LPxSSNnx5ZeH8T0zyA,16063
+propeller_design_tools/user_io.py,sha256=i4I3t8dRUZAHeMRKfQdeQAqJBPjULgPhomgvp00-1WQ,2696
+propeller_design_tools/user_settings.py,sha256=AYcM33ujMN3PBqXLLSIi_af-MZ-dfmEXVJjV31wdGGI,1887
+propeller_design_tools-0.0.16.dist-info/LICENSE,sha256=LoV48WtuomVBIWbotLHaBF_MEfKNsD1mSQhBASSi8B4,35801
+propeller_design_tools-0.0.16.dist-info/METADATA,sha256=IDdBYAG_Hp107YblcB-GYq-mhMhLh4zlyzG_JX3VBmI,2757
+propeller_design_tools-0.0.16.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+propeller_design_tools-0.0.16.dist-info/top_level.txt,sha256=V5sZVdPzH2gAvsu6K1Zu_WgpCfvnDNlg0d8uzmESbJo,23
+propeller_design_tools-0.0.16.dist-info/RECORD,,
