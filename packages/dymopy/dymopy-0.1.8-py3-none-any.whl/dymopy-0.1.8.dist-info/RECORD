@@ -1,0 +1,9 @@
+dymopy/__init__.py,sha256=siPEKNXSHjojGzLC-9YIEDaMcyii0CQ-o6JnjxebDfQ,185
+dymopy/client.py,sha256=pDI_MEkQ_lO8-le1TgNT8xUbrVv-iBbIGMMuVGELMic,7696
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_dymopy.py,sha256=axxDHVUZjbT_PyaTaCX47zuTAfzJRiV6eq2Uh0bjD0Y,890
+dymopy-0.1.8.dist-info/LICENSE.md,sha256=qgysfxW5IeWNuNAWdesZ3_1mNuCgR_CtSieYZ0YKtuE,1075
+dymopy-0.1.8.dist-info/METADATA,sha256=7Hyr4VCL-dyeKrTyzXQsEp_VopneLeI0uGF5f2l_oAE,1345
+dymopy-0.1.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dymopy-0.1.8.dist-info/top_level.txt,sha256=JBmvhh-gv-HQMeZ73fIjJVs760dyKlB3YZROfzb5a6s,13
+dymopy-0.1.8.dist-info/RECORD,,
