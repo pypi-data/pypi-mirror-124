@@ -1,0 +1,4 @@
+stardist>=0.7.0
+tensorflow
+napari>=0.4.9
+magicgui>=0.3.0
