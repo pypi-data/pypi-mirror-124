@@ -1,0 +1,4 @@
+[console_scripts]
+pyscreener = bin.main:main
+pyscreener-check = bin.check:main
+
