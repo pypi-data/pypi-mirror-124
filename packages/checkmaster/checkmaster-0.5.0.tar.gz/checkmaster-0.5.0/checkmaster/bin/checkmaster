@@ -1,0 +1,112 @@
+#!/usr/bin/env python3
+import argparse
+import coloredlogs
+import json
+import yaml
+import logging
+import sys
+
+from checkmaster import __version__
+from checkmaster.checkmaster import CheckMaster
+
+logger = logging.getLogger(__name__)
+
+
+parser = argparse.ArgumentParser(
+    description=f"{__file__} checks your system capabilities.",
+    epilog=f"{__file__} arguments",
+    formatter_class=argparse.RawTextHelpFormatter
+)
+parser.add_argument(
+    '--configuration', '-c',
+    required=False,
+    help="the configuration file in json or yaml format"
+)
+parser.add_argument(
+    '--json-to-yaml', '-j2y',
+    required=False,
+    action="store_true",
+    help="convert a configuration from json to yaml format"
+)
+parser.add_argument(
+    '--yaml-to-json', '-y2j',
+    required=False,
+    action="store_true",
+    help="convert a configuration from yaml to json format"
+)
+parser.add_argument(
+    '--report-format',
+    required=False,
+    default='json',
+    help="the report format"
+)
+parser.add_argument(
+    '--report-file',
+    required=False,
+    help="report to a file"
+)
+parser.add_argument(
+    '-d', '--debug', required=False,
+    choices=('CRITICAL', 'ERROR',
+             'WARNING', 'INFO', 'DEBUG'),
+    default='INFO',
+    help="Debug level, see python logging; defaults to INFO if omitted"
+)
+parser.add_argument(
+    '--tags',
+    nargs='*',
+    required=False,
+    help="only executes the rules with these tags"
+)
+parser.add_argument(
+    '--log-style',
+    required=False,
+    default='label',
+    choices=('label', 'raw'),
+    help="Fancy output or raw one"
+)
+parser.add_argument(
+    '-v', '--version', required=False,
+    action="store_true",
+    help="Print version and exit"
+)
+
+_args = parser.parse_args()
+coloredlogs.install(
+    fmt='%(asctime)s %(levelname)s %(message)s',
+    level=_args.debug
+)
+
+if _args.version:
+    sys.exit(f'{__version__}')
+
+elif _args.configuration:
+    with open(_args.configuration) as f:
+        f = f.read()
+        for i in (r'\s', r'\t', r'\r', r'\n'):
+            f = f.strip(i)
+        if f[0] == '{':
+            conf = json.loads(f)
+        else:
+            conf = yaml.load(f, Loader=yaml.FullLoader)
+
+    if _args.json_to_yaml:
+        print(yaml.dump(conf))
+        sys.exit()
+    elif _args.yaml_to_json:
+        print(json.dumps(conf))
+        sys.exit()
+
+    checkmaster = CheckMaster(
+        conf, tags=_args.tags, log_style=_args.log_style
+    )
+    checkmaster.start()
+
+    if _args.report_format == 'json':
+        report = json.dumps(checkmaster.result, indent=2)
+    elif _args.report_format == 'yaml':
+        report = yaml.dump(checkmaster.result)
+
+    if _args.report_file:
+        with open(_args.report_file, 'w') as f:
+            f.write(report)
