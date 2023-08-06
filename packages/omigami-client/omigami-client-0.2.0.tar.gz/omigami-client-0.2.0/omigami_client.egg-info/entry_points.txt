@@ -1,0 +1,3 @@
+[console_scripts]
+omigami = omigami.cli:omigami
+
