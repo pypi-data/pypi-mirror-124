@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: conserve
+Version: 0.1.1
+Summary: Library for Conserve AI
+Home-page: https://github.com/conserveai/conserve
+Author: Conserve AI
+Author-email: samsonqian@gmail.com
+License: Apache 2.0
+Keywords: reinforcement-learning
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# conserve
+
