@@ -1,0 +1,6 @@
+*__pycache__*
+src/armadillin/trained_model/model.h5
+src/pruning_logs/*
+src/wandb/*
+src/checkpoints*
+src/non_sparse*
