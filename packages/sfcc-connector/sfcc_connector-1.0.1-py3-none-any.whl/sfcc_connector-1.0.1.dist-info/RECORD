@@ -1,0 +1,13 @@
+connector/__init__.py,sha256=gLaN3cppktiJM7nowaUNvCskKTwc60BgFt2rWLVC_ok,55
+connector/__main__.py,sha256=iukADTGG3fgumz5iV3e0vHMMP8sS54GEWjA5-b192Bw,476
+connector/client.py,sha256=-7BKQ7iY1lD36jj5y72BA7NBvLbuZR3YuAc05WE0lAs,5573
+connector/core.py,sha256=cPIIbViPeSICDdG6iv4I4Efg7uHm5EKHYFAc3VlStB8,5046
+connector/extensions.py,sha256=Hk7CgtnK-_pvgmJHG5Le-jxp0hUYr6fa5koN2oDkPCY,1375
+connector/queries.py,sha256=Sa78bK1gUxNxTY23iPSdLOXCmH3CUv6d8MhGWupQeQI,316
+connector/api/__init__.py,sha256=gdhjCe83i1_xTI_DVGwigDjYAWY-l3LuWBzBauDANN4,224
+connector/api/api.py,sha256=EA92J5BJE_GFFuYd5Db3SaNaSXI6uq3MHeWbz6oVt7Q,986
+sfcc_connector-1.0.1.dist-info/LICENSE,sha256=1YQi0k0_oO_8GGNP8NhgXdHjBSHM3UxBDIUF-TCHmDY,1068
+sfcc_connector-1.0.1.dist-info/METADATA,sha256=vWVH9kxtnJDG8iU5MK0gP0VQlm-cvxdtnVozIvt-v3s,9321
+sfcc_connector-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sfcc_connector-1.0.1.dist-info/top_level.txt,sha256=HEljM61yJAAWyh7-0xWg29ObfG1bd407h2_wBfp0G-g,10
+sfcc_connector-1.0.1.dist-info/RECORD,,
