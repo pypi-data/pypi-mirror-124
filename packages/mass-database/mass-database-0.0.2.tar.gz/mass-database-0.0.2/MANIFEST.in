@@ -1,0 +1,18 @@
+include \
+    *.yml \
+    *.yaml \
+    *.cfg
+
+graft data
+graft models
+graft notebooks
+graft references
+graft src
+graft tests
+
+recursive-exclude **/README.md
+
+global-exclude \
+    *.py[cod] \
+    __pycache__ \
+    .DS_Store
