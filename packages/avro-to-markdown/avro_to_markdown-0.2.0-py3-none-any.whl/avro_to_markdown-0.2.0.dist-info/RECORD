@@ -1,0 +1,10 @@
+avro_to_markdown/__init__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+avro_to_markdown/converter.py,sha256=BmHxo5sfF0e2rQQto4ryJPaNCXZxX-VXIyiNT3xd1gY,3520
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/test_avro_to_markdown.py,sha256=A7Nc1y8f7PumVnheCr7oyLBaTALjMxxo6EFBwqJAVL0,3571
+avro_to_markdown-0.2.0.dist-info/LICENSE,sha256=KIsLLYnhaQgEfrTYs3wD2liVgIkg3t3Dga4Csxn3nRk,1057
+avro_to_markdown-0.2.0.dist-info/METADATA,sha256=K1PnsNm9UIqAEABCtAOswayPfzBSQ6X9np2ZbL4QWhs,2349
+avro_to_markdown-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+avro_to_markdown-0.2.0.dist-info/top_level.txt,sha256=RlyZzjSaMdjy73SnBgCJXEtCj7ZMHSSickJMomnd2qs,23
+avro_to_markdown-0.2.0.dist-info/RECORD,,
