@@ -1,0 +1,4 @@
+netifaces
+psutil
+spyder>=5.0.1
+zeroconf<=0.27
