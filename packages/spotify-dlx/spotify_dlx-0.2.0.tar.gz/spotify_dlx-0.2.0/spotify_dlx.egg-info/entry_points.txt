@@ -1,0 +1,3 @@
+[console_scripts]
+project_name = project_name.__main__:main
+
