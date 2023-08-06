@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: pydmdll
+Version: 0.0.1
+Summary: 大漠插件dm.dll的Python接口
+Home-page: https://github.com/gaoyongxian666/pydmdll
+Author: Gaoyongxian666
+Author-email: g1695698547@163.com
+License: UNKNOWN
+Description: ### 前言
+        Python模拟鼠标键盘的包有很多，它们的文档也很全，功能也很人性化，最后实在没有办法了再使用本包，推荐结合使用。
+        
+        PyAutoGUI侧重于鼠标，键盘，截图，消息框的功能  
+        Pywinauto侧重对CS的操作，对进程，窗体进行操作  
+        KeyBoard侧重于键盘，监听键盘，设置热键，键盘记录等功能  
+        
+        小技巧：推荐搭配使用，比如：本包没有监听键盘的功能，你完全可以再开一个线程，使用Keyboard进行监听。  
+        
+        
+        ### 简介
+        pydmdll只是实现了大漠插件v3.1233版本免费功能部分，仅支持32位Python3。
+        
+        精华就在于通过调用dm.dll实现驱动级(硬件级)模拟,主要是解决游戏内部无法拖拽的问题。
+        
+        大型游戏一般为了效率通常直接读写硬件接口，而主流的模拟鼠标键盘都是调用win32 api，这种方法在游戏内部你有时是使用不了拖拽的，所以你可以试试本包。
+        通常键盘按键，鼠标点击，它都是可以完成的，就是唯独拖拽不起效果. 
+        
+        版本v3.1233的dm.dll已经是老版本了，但是基本功能够用，而且经过测试无毒无害。 大漠作者已经将版本分开了，在后续版本都是需要付费的，作者现在的最新版本已经到7.3了
+        
+        大漠插件是用vb语言写的一个闭源且收费的的dll，从这个版本之后都是收费的，而且网上到处都是注入病毒包装的dm.dll，不懂电脑的要慎重使用这个插件。
+        
+        ### 功能  
+        
+        模拟键盘输入输出：按键，点击
+        窗口的控制功能：最小化，激活，移动
+        
+        
+        ### 安装
+        
+        pip install pydmdll 
+        
+        
+        ### 其他
+        
+        本包直接使用不用手动注册dll，首次运行会自动调用UCA管理员注册。 如果你是想使用你自己本地的dm.dll或者打包应用，那你就需要传路径参数了。  
+        
+        推荐使用MoveR相对移动方法  
+        
+        关于句柄就是一个int类型的数字  
+        
+        因为有一些共功能python其他实现的更好，图形识别，我相信python有的是办法，会更好处理
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
