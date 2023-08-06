@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+namu/__init__.py
+namu/main.py
+namu/namufile.py
+namu/strings_with_arrows.py
+namu.egg-info/PKG-INFO
+namu.egg-info/SOURCES.txt
+namu.egg-info/dependency_links.txt
+namu.egg-info/top_level.txt
