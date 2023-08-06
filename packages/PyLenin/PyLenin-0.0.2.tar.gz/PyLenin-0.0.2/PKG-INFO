@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: PyLenin
+Version: 0.0.2
+Summary: The unofficial Python API for LenPaste
+Home-page: https://github.com/rjdbcm/pylenin
+Author: Ross J. Duff
+Author-email: rjdbcm@mail.umkc.edu
+License: GPL
+Keywords: api
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyLenin
+
+The unofficial Python API for [Lenpaste](https://paste.lcomrade.su/).
+
