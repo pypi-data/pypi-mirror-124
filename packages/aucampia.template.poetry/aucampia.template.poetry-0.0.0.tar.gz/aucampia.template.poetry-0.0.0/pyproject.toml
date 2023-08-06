@@ -1,0 +1,81 @@
+# https://python-poetry.org/docs/pyproject/
+# https://www.python.org/dev/peps/pep-0621/
+[tool.poetry]
+name = "aucampia.template.poetry"
+version = "0.0.0"
+description = ""
+authors = []
+# license = "Proprietary"
+license = "CC0-1.0"
+readme = "README.md"
+packages = [
+    {include = "*", from = "src"},
+]
+
+[tool.poetry.scripts]
+"aucampia.template.poetry" = "aucampia.template.poetry.cli:main"
+"aucampia.template.poetry.click" = "aucampia.template.poetry.cli_click:main"
+"aucampia.template.poetry.typer" = "aucampia.template.poetry.cli_typer:main"
+"aucampia.template.poetry.service" = "aucampia.template.poetry.service:main"
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+click = "^7.1.0"
+dataclasses = { version = "^0.8", python = ">=3.6,<3.7" }
+pydantic = "^1.8.2"
+typer = "^0.3.2"
+
+[tool.poetry.dev-dependencies]
+black = "^21.7b0"
+coverage = "^5.5"
+flake8 = "^3.9.2"
+flake8-black = "^0.2.3"
+flake8-bugbear = "^21.4.3"
+flake8-isort = "^4.0.0"
+invoke = "^1.6.0"
+isort = "^5.9.3"
+mypy = "^0.910"
+pre-commit = "^2.14.0"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+pytest-subtests = "^0.5.0"
+tox = "^3.24.1"
+typing-extensions = "^3.10.0"
+types-dataclasses = "^0.1.7"
+types-click = "^7.1.5"
+codespell = "^2.1.0"
+safety = "^1.10.3"
+flake8-requirements = "^1.5.1"
+
+[tool.coverage.report]
+# https://coverage.readthedocs.io/en/coverage-5.0/config.html
+show_missing = true
+
+[tool.isort]
+# https://pycqa.github.io/isort/docs/configuration/config_files.html
+profile = "black"
+
+[tool.pytest.ini_options]
+# https://docs.pytest.org/en/stable/customize.html
+# https://docs.pytest.org/en/stable/reference.html#configuration-options
+log_cli = true
+log_cli_level = "DEBUG"
+log_cli_format = "%(asctime)s %(process)d %(thread)d %(levelno)03d:%(levelname)-8s %(name)-12s %(module)s:%(lineno)s:%(funcName)s %(message)s"
+log_cli_date_format = "%Y-%m-%dT%H:%M:%S"
+
+[tool.poetry-dynamic-versioning]
+enable = true
+vcs = "git"
+style = "pep440"
+
+[tool.poetry-dynamic-versioning.substitution]
+files=["src/**/_version.py"]
+
+[build-system]
+requires = ["setuptools","poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+#[[tool.poetry.source]]
+#name = "example"
+#url = "https://example.com"
+#default = false
