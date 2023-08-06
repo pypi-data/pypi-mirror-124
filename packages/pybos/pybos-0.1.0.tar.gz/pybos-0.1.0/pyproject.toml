@@ -1,0 +1,108 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "pybos/version.py"
+fallback_version = "0.0.0"
+
+[tool.pytest.ini_options]
+timeout = 120
+addopts = "--html=artifacts/pytest.html --self-contained-html --cov=pybos/ --cov-report=html:artifacts/coverage"
+norecursedirs = [
+    "tmp/*",
+    "venv/*",
+    "build/*",
+    "dist/*",
+    "artifacts/*",
+    ]
+testpaths = [
+    "tests",
+]
+
+
+[tool.black]
+line-length = 100
+extend-exclude = "venv|tmp|build|dist"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 100
+extend_skip = [
+    "tmp",
+    "venv",
+    "build",
+    "dist",
+    ]
+skip_gitignore = true
+
+[tool.flake8]
+max-line-length = 100
+inline-quotes = '"'
+copyright-check = "true"
+copyright-author = "CORIA"
+min-coverage-percents=100
+extend-exclude="tmp, venv, build, dist, pybos/version.py"
+extend-ignore = "E203,E741"
+select = "Q0,E,F,W,C,C4,B,B901,TAE,ANN,TC,TC1"
+show_source = "true"
+per-file-ignores = "pybos/physical_laws.py:ANN,TAE"
+
+[tool.mypy]
+python_version = 3.7
+warn_unused_configs = true
+exclude = "venv|tmp|build|dist"
+
+[[tool.mypy.overrides]]
+module = [
+    "fipy.*",
+    "matplotlib.*",
+    "pint.*",
+    "scipy.*",
+    "skimage.*",
+    "abel",
+    "setuptools"
+]
+ignore_missing_imports = true
+
+[tool.pylint.master]
+ignore-paths = "pybos/version.py"
+jobs = 0
+py-version = 3.7
+load-plugins = [
+    "pylint.extensions.broad_try_clause",
+    "pylint.extensions.code_style",
+    "pylint.extensions.emptystring",
+    "pylint.extensions.comparetozero",
+    "pylint.extensions.confusing_elif",
+    "pylint.extensions.consider_ternary_expression",
+    "pylint.extensions.bad_builtin",
+    "pylint.extensions.mccabe",
+    "pylint.extensions.docstyle",
+    "pylint.extensions.check_elif",
+    "pylint.extensions.redefined_variable_type",
+    "pylint.extensions.overlapping_exceptions",
+    "pylint.extensions.docparams",
+    "pylint.extensions.empty_comment",
+    "pylint.extensions.set_membership",
+    "pylint.extensions.typing",
+    "pylint.extensions.while_used"
+]
+
+[tool.pylint.'MESSAGES CONTROL']
+max-line-length = 120
+disable = [
+    "too-many-arguments",
+    "invalid-name",
+    "too-many-locals",
+    "unnecessary-pass",
+    "too-complex"
+]
+
+[tool.pylint.'TYPECHECK']
+ignored-classes = "TextFileReader"
+
+[tool.pydocstyle]
+match_dir = '^(?!(venv|.eggs|tmp|build|dist)).*'
+match = '^(?!(version)).*.py'

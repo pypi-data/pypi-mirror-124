@@ -1,0 +1,14 @@
+include *.ipynb
+include *.md
+include *.py
+include *.txt
+exclude *.yml
+exclude pybos/version.py
+recursive-include data *
+recursive-include tests *.py
+recursive-include utilities *.sh
+recursive-exclude artifacts *
+prune .vscode
+prune .gitlab
+prune pybos.egg-info
+prune build
