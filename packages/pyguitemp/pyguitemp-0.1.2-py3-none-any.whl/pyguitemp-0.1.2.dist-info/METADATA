@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyguitemp
+Version: 0.1.2
+Summary: UNKNOWN
+Home-page: https://github.com/ImperialCollegeLondon/python-gui-template
+Author: Research Computing Service, Imperial College London
+Author-email: rcs-support@imperial.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: wxPython
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+Requires-Dist: pytest-mypy ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: myst-parser ; extra == 'doc'
+Requires-Dist: sphinx-autoapi ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+
+UNKNOWN
+
