@@ -1,0 +1,9 @@
+unittest_mocker/__init__.py,sha256=6qONJ1ijZ1vOJs4XG5EasUBE5uyuA1gi2Y74PFBskLs,111
+unittest_mocker/class_patcher.py,sha256=v2WfxnyMWYGO5WXClspoPo1EZGqx6Vkg5bxYz3kS0tI,1245
+unittest_mocker/mocker.py,sha256=wGlIl-BImjQ7F3O2hJxvRgDbVgYn4exKJ7zU9NFkhbo,2143
+unittest_mocker/standart_patcher.py,sha256=y4pA_c6ej0A5q3ZReL2GGdgAazhm9NK0-jCvAc2psno,160
+unittest_mocker-0.9.0.dist-info/LICENSE,sha256=vTykqFAucmr8NfOUXOy2ptBcMnbZ0bDVKOGcqO8yz3A,1066
+unittest_mocker-0.9.0.dist-info/METADATA,sha256=cNXfaaNNLFY7AyTeQa0qHP1ZiTgjF26lvNtU6adEHzw,4197
+unittest_mocker-0.9.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+unittest_mocker-0.9.0.dist-info/top_level.txt,sha256=rxxEE_fSDRlKw7q6eFEtDC7WqsPrsztDywcj6R2an3E,16
+unittest_mocker-0.9.0.dist-info/RECORD,,
