@@ -1,0 +1,12 @@
+craft_store/__init__.py,sha256=t_n_n9cq96GnhUKoLqSqSUw1-zCGMZ66ss2lYqbB6Io,938
+craft_store/attenuations.py,sha256=O3qaLOaZ8z9MLdKt58-C1k6uVHuZFvOHXDGl4tj3Ktg,2551
+craft_store/auth.py,sha256=0i71zTKKd7E96bgqqXGyxnK-SfNJuYontfiXzbvC3Ug,3531
+craft_store/endpoints.py,sha256=MqPKxhg7D3ScdVVBbwLs6NLrLz4IRf-ezSm0HVE6n6g,2515
+craft_store/errors.py,sha256=uN6XpuYY6EX05t54DDCKCKVMiR7bh9bztJreVXRF7EY,5246
+craft_store/http_client.py,sha256=k76B6ni2LbtVNCfqyShFS8fixVjPPDINsMh0A1RvkF0,5652
+craft_store/store_client.py,sha256=Fu2aXcVWdCNH40c7Ts6Erk6FxxRQ2dmDW3cmDidbgPA,7650
+craft_store-1.0.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+craft_store-1.0.0.dist-info/METADATA,sha256=OHRvC9VApFTpCkJLYoevn51qt9OyTyfdBLWhIC3W6GY,3467
+craft_store-1.0.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+craft_store-1.0.0.dist-info/top_level.txt,sha256=ejyvuvJYhrLNA7W-Xo_yPHfIgJQX7yvGVIjx7DGmbXY,12
+craft_store-1.0.0.dist-info/RECORD,,
