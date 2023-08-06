@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: polynom
+Version: 0.0.1
+Summary: python package for valuation and differentiation of polynomials in various basis representations
+Home-page: https://gitlab.com/berlinade/polynom
+Author: Tom Streubel
+Author-email: polynom@streubel.science
+License: GPLv3
+Description: UNKNOWN
+Platform: unix
+Platform: linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
