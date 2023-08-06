@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: transbase
+Version: 0.0.2
+Summary: Python Transbase Client
+Home-page: https://www.transaction.de
+Author: Daniel Loibl
+Author-email: daniel.loibl@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+License-File: LICENSE
+
+UNKNOWN
+
