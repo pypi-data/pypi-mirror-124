@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: r-logger
+Version: 0.1.0
+Summary: a customized way to use log
+Home-page: https://github.com/RaminZarebidoky/r_config
+Author: Ramin Zarebidoky
+Author-email: ramin.zarebidoky@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# r_logger
+
+a customized way to use log
+
+## usage:
+
+#### from str:
+
+```python
+from r_logger import RLogger
+
+r_main_logger = RLogger('logs')
+
+r_main_logger.info('info')
+r_main_logger.debug('debug')
+r_main_logger.error('error')
+r_main_logger.critical('critical')
+r_main_logger.warning('warning')
+
+try:
+    raise Exception('exception details')
+except Exception:
+    r_main_logger.exception('exception')
+
+```
+
