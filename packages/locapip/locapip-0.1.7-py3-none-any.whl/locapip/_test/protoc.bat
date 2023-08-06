@@ -1,0 +1,1 @@
+%~dp0../../../cmake-build-release/vcpkg_installed/x64-windows/tools/python3/python.exe -m grpc_tools.protoc -I%~dp0 --python_out=%~dp0 --grpc_python_out=%~dp0 locapip_test.proto

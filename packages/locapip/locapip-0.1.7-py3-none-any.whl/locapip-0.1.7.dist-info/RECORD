@@ -1,0 +1,13 @@
+locapip/__init__.py,sha256=LZFOINk0EuXwVSgdkf3ui3Pw4bjY9fENHzhPyiOh9Rw,4323
+locapip/__main__.py,sha256=fW8CVHaGCE8t7F0aZvFvoDME72JYKh-6DnaR3NiRb38,636
+locapip/_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+locapip/_test/locapip_test.proto,sha256=tQZHbYcExa7H9YfSwlVH_Vl74_LrzTqUCCKyNBnKqCw,381
+locapip/_test/locapip_test.py,sha256=BdEr3BlIqTVi1vB071tvoJxViSWv_7XdlXxWjpTPoxo,4280
+locapip/_test/locapip_test_pb2.py,sha256=iKnHAz5h0TNymUM0CjRlzdtQ2-lOVFRLKMYSGF338T4,3810
+locapip/_test/locapip_test_pb2_grpc.py,sha256=i3EgIH4qe_AAMOsTuXDItLzmPzHsbPhVkBFbIVMo67k,6910
+locapip/_test/protoc.bat,sha256=8ozXGvjCb5J_u3Aulx7YgkkpEGfPQnLRKt3ljrHpYRk,177
+locapip-0.1.7.dist-info/LICENSE,sha256=vtmJOYKDG2a7EKolCeFWl18-5ZLIkWPBEg5xLvqUNQ8,35741
+locapip-0.1.7.dist-info/METADATA,sha256=yQ-odkcmDcmi3gv4ZzGYCbW-ipQ84yuJLQwAdt_GJ-I,1874
+locapip-0.1.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+locapip-0.1.7.dist-info/top_level.txt,sha256=lMcuPRAcXGix8BUsn4-8gTRywrDyczfThSWik4A7DrU,8
+locapip-0.1.7.dist-info/RECORD,,
