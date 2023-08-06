@@ -1,0 +1,2 @@
+more_itertools
+easyterm>=0.3.0
