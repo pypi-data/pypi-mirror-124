@@ -1,0 +1,49 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="rer.customersatisfaction">
+
+  <i18n:registerTranslations directory="locales" />
+
+  <include file="permissions.zcml" />
+  <include package=".browser" />
+  <include package=".storage" />
+  <include package=".restapi" />
+
+
+  <genericsetup:registerProfile
+      name="default"
+      title="RER: Customer satisfaction"
+      directory="profiles/default"
+      description="Installs the rer.customersatisfaction add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.post_install"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="RER: Customer satisfaction (uninstall)"
+      directory="profiles/uninstall"
+      description="Uninstalls the rer.customersatisfaction add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.uninstall"
+      />
+  
+  <genericsetup:registerProfile
+      name="collective_recaptcha"
+      title="RER: Customer satisfaction (with recaptcha)"
+      directory="profiles/collective_recaptcha"
+      description="Install the rer.customersatisfaction dependency."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="rer.customersatisfaction-hiddenprofiles"
+      />
+
+  <!-- -*- extra stuff goes here -*- -->
+
+</configure>
