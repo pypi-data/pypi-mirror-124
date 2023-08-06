@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% load i18n static wagtailcore_tags wagtailimages_tags %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'wagtailagenda/css/activity.css' %}" type="text/css"/>
+    <link rel="stylesheet" href="{% static 'wagtailagenda/css/common.css' %}" type="text/css"/>
+{% endblock %}
+
+{% block body_class %}template-activitypage{% endblock %}
+
+{% block content %}
+    <article class="activity">
+        <div class="activity_header">
+            <h1>{{ page.title }}</h1>
+            <div class="meta">
+                <div class="organizers_list">
+                    <div>{% blocktrans %}By{% endblocktrans %}</div>
+                    <ul>
+                        {% for organizer in page.organizers.all %}
+                            <li>{{ organizer.name }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        {% if page.description %}
+            <section class="description">
+                <p>
+                    {{ page.description }}
+                </p>
+            </section>
+        {% endif %}
+
+        {% if page.program %}
+            <section class="program">
+                <h2>{% blocktrans %}Program{% endblocktrans %}</h2>
+                <p>
+                    {{ page.program|richtext }}
+                </p>
+            </section>
+        {% endif %}
+
+        <section class="when">
+            <h2>{% blocktrans %}When{% endblocktrans %}</h2>
+            <ul class="when">
+                <li>
+                    <span class="label">Begin</span>: 
+                    <span>{{ page.begin }}</span>
+                </li>
+                <li>
+                    <span class="label">End</span>: 
+                    <span>{{ page.end }}</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="location">
+            <h2>{% blocktrans %}Where{% endblocktrans %}</h2>
+            <div class="location">
+                <h3>{{ page.location.name }}</h3>
+                {% if page.location.description %}
+                    <p class="location_description">
+                        {{ page.location.description }}
+                    </p>
+                {% endif %}
+                {% if page.location.has_address %}
+                    <address class="location">
+                        <div class="street">{{ page.location.street_name }}, {{ page.location.street_number }}</div>
+                        <div class="city">{{ page.location.zip_code }} {{ page.location.city }}</div>
+                        <div class="floor">
+                            <span class="label">{% blocktrans %}Floor{% endblocktrans %}</span>
+                            <span>{{ page.location.floor }}</span>
+                        </div>
+                    </address>
+                {% endif %}
+                {% if page.location.OSM_url %}
+                    <div class="map">
+                        <a class="map" href="{{ page.location.OSM_url }}">{% blocktrans %}Map (OSM){% endblocktrans %}</a>
+                    </div>
+                {% endif %}
+                {% if page.location.public_transport_stops %}
+                    <div class="public_transport_stops">
+                        <h4>{% blocktrans %}Pulic transport stops{% endblocktrans %}</h4>
+                        <ul>
+                            {% for stop in page.public_transport_stops %}
+                                <li class="public_transport_stop">
+                                    <span class="line_number">stop.line_number</span>
+                                    <span class="name">stop.name</span>
+                                    <span class="type">stop.type</span>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endif %}
+            </div>
+        </section>
+    </article>
+{% endblock %}
