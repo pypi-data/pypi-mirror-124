@@ -1,0 +1,22 @@
+jaraco.apt
+jaraco.itertools
+pyyaml
+
+[docs]
+sphinx
+jaraco.packaging>=8.2
+rst.linker>=1.9
+
+[testing]
+pytest>=6
+pytest-checkdocs>=2.4
+pytest-flake8
+pytest-cov
+pytest-enabler>=1.0.1
+Fabric3
+types-setuptools
+types-pyyaml
+
+[testing:platform_python_implementation != "PyPy"]
+pytest-black>=0.3.7
+pytest-mypy
