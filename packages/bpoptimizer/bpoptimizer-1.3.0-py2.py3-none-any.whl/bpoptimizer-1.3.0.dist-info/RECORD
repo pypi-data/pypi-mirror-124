@@ -1,0 +1,10 @@
+bpoptimizer/__init__.py,sha256=nnQ3k2J_MQd1RMgswl-_bJRfH4sEJy1rNE8Rd2O48SE,183
+bpoptimizer/cli.py,sha256=q8NgD38jOhskxJ_ZUyC-5PjM2rWICPvweQwe9gNK-uo,411
+bpoptimizer/floor.py,sha256=0gHxe67KBNJ7JAtrEb7ytUCsjpJ_2gd1kNRtNJObioY,12379
+bpoptimizer-1.3.0.dist-info/AUTHORS.rst,sha256=ZRb8chBXtqZM8CLRhXzVkn0wh_ezH54VuVoKANMp608,168
+bpoptimizer-1.3.0.dist-info/LICENSE,sha256=VNQe73SNaoftu2Xq38919I0ra19ozatLGN8gwCydFsU,1075
+bpoptimizer-1.3.0.dist-info/METADATA,sha256=zdrdrlztlBpjSeOyaxGZIWXb7cmI-XcwNtrtD0Cai1Q,2078
+bpoptimizer-1.3.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+bpoptimizer-1.3.0.dist-info/entry_points.txt,sha256=MjRFxrVzBQZhj5L5-7NZku_fHqd0KQl7FRub8tZkCGQ,54
+bpoptimizer-1.3.0.dist-info/top_level.txt,sha256=z9L1BxHC6zLUDG37ZOKZmnYIe_ZcLwXxm8VM0x3SXBo,12
+bpoptimizer-1.3.0.dist-info/RECORD,,
