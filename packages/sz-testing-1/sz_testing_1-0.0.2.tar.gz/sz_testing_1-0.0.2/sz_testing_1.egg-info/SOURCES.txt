@@ -1,0 +1,7 @@
+setup.py
+sz_testing_1/__init__.py
+sz_testing_1/test_me.py
+sz_testing_1.egg-info/PKG-INFO
+sz_testing_1.egg-info/SOURCES.txt
+sz_testing_1.egg-info/dependency_links.txt
+sz_testing_1.egg-info/top_level.txt
