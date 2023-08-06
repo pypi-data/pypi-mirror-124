@@ -1,0 +1,46 @@
+import logging
+
+from isc_common.common import undefined
+from isc_common.models.base_ref import BaseRef, BaseRefManager, BaseRefQuerySet
+
+logger = logging.getLogger(__name__)
+
+
+class News_icon_typeQuerySet(BaseRefQuerySet):
+    pass
+
+
+class News_icon_typeManager(BaseRefManager):
+
+    @classmethod
+    def getRecord(cls, record ) :
+        res = {
+            'id': record.id,
+            'code': record.code,
+            'name': record.name,
+            'description': record.description,
+            'editing': record.editing,
+            'deliting': record.deliting,
+        }
+        return res
+
+    def get_queryset(self):
+        return News_icon_typeQuerySet(self.model, using=self._db)
+
+
+class News_icon_type(BaseRef):
+    objects = News_icon_typeManager()
+
+    @classmethod
+    def unknown(cls):
+        res, _ = cls.objects.get_or_create(code=undefined)
+        return res
+
+    def __str__(self):
+        return f'ID:{self.id}'
+
+    def __repr__(self):
+        return self.__str__()
+
+    class Meta:
+        verbose_name = 'Типы иконок'
