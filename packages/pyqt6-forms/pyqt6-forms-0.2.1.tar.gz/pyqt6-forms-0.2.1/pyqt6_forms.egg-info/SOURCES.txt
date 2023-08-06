@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+example/__init__.py
+example/ex1.py
+pyqt6_forms/__init__.py
+pyqt6_forms/datatypes.py
+pyqt6_forms/form.py
+pyqt6_forms/forms.py
+pyqt6_forms.egg-info/PKG-INFO
+pyqt6_forms.egg-info/SOURCES.txt
+pyqt6_forms.egg-info/dependency_links.txt
+pyqt6_forms.egg-info/top_level.txt
