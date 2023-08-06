@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>796</width>
+    <height>583</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>About Qtawk</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
+WXMAAA3XAAAN1wFCKJt4AAAAB3RJTUUH5AsBDBsOyfm6uQAABQNJREFUeNrtnT1vHEUYgB9blkwQ
+IEEQLVWQEFUIgjOBBAcFMEQogUShQShWyEdBQYHCTzAYGRIhJBoQEj8BAhFfBRYmTdK5wCBICSIp
+CNiAgk1xd8pps+ezb3d2Z+6eR5pi1x83t++zs+/M7M6O0B9rxMkIsilGPQQKIAogw8pYidfeLRXX
+fSXiXCQZ+k2a1iJJvmKph5cAUQBRAFEAUQBRAFEAUQBRAFEAUQBRAFEAUQBRAFEAUQBRAFEAqZuy
+bgptALdWXPerhq96JmneiBlz2WWYwvBWAsFvl7cNV7kcSij47fKcYevNRu+jXxvw7yfr8HjO2fVy
+hPWczqnnpOErzrGcAzsS6dmerecxw1d8HGDVwzTcAvyQs+9IhN8lr05LhtgkUAq2AADPJvjdnje8
+5fJGQmMA7xiuMDRwKHgoc4BeOcEE9UwGLXjNj0MAVwhJlLEh/u67gW2tRPgn4Ct12NyZ11lSqsfT
+6+QPhw3tYAvwJk4lD7QA+9f53YlN9CScREpEgIuZelwDDmywzr2KJCDAyQLjBUdavYYR4GjgsYn/
+gGXgMnAJ+BDYoQDlcJ7mjGXRM7yOQatlYL6VmCpAn4y3JEhRgM7yK/C6AvTPCeDCJlqD2ARol3+A
+FxSgXBp9CNAo8fNvB3YCrwFfAD9vQIQF4E4FKIe9fQiwN3CdRmnOWl5JsUuqAOWyg+vL3+eVWQUY
+bAFodUefXEeCs6GaIYnnpDoH3AYs5vx8KoQEChAfV4H7gJkuEszGYquXgPAcizUxVIDqON5Fgq11
+XgJWc/q5Eob3u1wOPqmzUssZG3faAgRnkQA3sPTbAqxkth/2RA3OQzn7PqpLgD8z208Yn0p6B1OZ
+feMUnEDqV4CvM9vbjE8lnKM5WdTJq3UI8G5m+27HFCrrfT2a2XdXTstQSyJ42iSwMrITSPNVtwDQ
+nHvv5EVP0Mr4OLO9vY5K5N1f/4AtQCWM5tR3e9UtwFngt8y+eXw8qwpWad5c2skrVQsANz5EMW6X
+sDKyq5/sqUOAGeDfzL7Pqf5J4WHky8z2LXUIAPBSzr7vjU9wvsts31xnZRZykpIZk8Cg3MGNT0XV
+xlbypyxPKkBQCk/LlzV6d7lLEvJeRBJIBcx2aQlmbAHibAFC8GkXCRZr7B0oQOBLQCfPtCTIci/w
+B/AUDhZFQ6gZvH10v3v1M+Bv4EEP/+DT6xUzV4AzhJ9K9hJQc391gd4PQ16i+eDkKeARSrrrtUXd
+D4cOtQBtDrea/lgew+51MLuVixF1bZNc1uYUzcUQUhWgXc4DNylA/0wB3wJ/JSrAaksCBSiB+4EP
+gF+A32nebnYtsADTXF8karrA/zmhAGlQxjJx+3PEvKAAabCbcpacP0DaS+UONac3EPy5hA68AvTB
+QYq/bXRgBBjmMflJ4J7WgVsCvtnkgY/hOBauh5MyNR34WOoxZixLoUE9r8yRinmM+F+a1TBMYThD
+Oq/NmzFc5XIooeC3yz6TwHDJVioY3xLYQ/7LJmIjbz7Dl2iWQN4ybSORnu3Zeh7t9Ueu6jHYjCpA
+cZZy9sV4Ccg72380STAJtAUogYPWWeYSGgOYM1xh2JVA8De1krg5QDk5wQT1TAYtFI2nApQjQLLT
+wSaBDhSIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCyMDgCiHlsaXiz1tRgHhIdok2
+LwHmAKIAMrT8D8PBVD8nTl7hAAAAAElFTkSuQmCC&quot; /&gt; &lt;/p&gt;
+&lt;p style=&quot; margin-top:18px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:xx-large; font-weight:600; vertical-align:top;&quot;&gt;Qtawk&lt;/span&gt; &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>close</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
