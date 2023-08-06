@@ -1,0 +1,17 @@
+`Here are some (not at all optimal) functional interfaces for atomic arithmetic ops`
+`This file mainly serves as the standard library bootstrapper for the python files in`
+`Aspidites/woma`
+(add(x = 0 -> number; y = 0 -> number)) number
+	<*> x + y
+
+(sub(x = 0 -> number; y = 0 -> number)) number
+	<*> x - y
+
+(div(x = 0 -> number; y = 0 -> number)) number
+	<*> x / y
+
+(exp(x = 0 -> number; y = 0 -> number)) number
+	<*> x ** y
+
+(mod(x = 0 -> number; y = 0 -> number)) number
+    <*> x % y
