@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: build2vec
+Version: 0.0.2
+Summary: Python package for building data embeddings
+Home-page: UNKNOWN
+Author: Mahmoud Abdelrahman
+Author-email: <arch.mahmoud.ouf111@gmail.com>
+License: UNKNOWN
+Description: 
+        # build2Vec
+        
+        Graph Neural Networks based building representation in the vector space
+        
+        ## Installation:
+        
+        `pip install build2vec`
+        
+        ## Licence
+        
+        MIT
+        
+        ## Author
+        
+        Mahmoud Abdelrahman
+        
+        ## Published contents
+        
+        1. pub1
+        2. pub2
+        
+Keywords: python,video,stream,video stream,camera stream,sockets
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
