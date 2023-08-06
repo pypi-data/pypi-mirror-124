@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: django-roman
+Version: 0.2
+Summary: A Django template filter to convert Arabic numerals to Roman numerals
+Home-page: https://github.com/richardcornish/django-roman
+Author: Richard Cornish
+Author-email: rich@richardcornish.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Django Roman
+************
+
+|PyPI version|_ |Build status|_
+
+.. |PyPI version| image::
+   https://badge.fury.io/py/django-roman.svg
+.. _PyPI version: https://pypi.org/project/django-roman/
+
+.. |Build status| image::
+   https://api.travis-ci.com/richardcornish/django-roman.svg?branch=main
+.. _Build status: https://app.travis-ci.com/github/richardcornish/django-roman
+
+**Django Roman** is a `Django <https://www.djangoproject.com/>`_ `template tag <https://docs.djangoproject.com/en/dev/howto/custom-template-tags/>`_ application to convert `Arabic numerals <https://en.wikipedia.org/wiki/Arabic_numerals>`_ into `Roman numerals <https://en.wikipedia.org/wiki/Roman_numerals>`_.
+
+* `Package <https://pypi.org/project/django-roman/>`_
+* `Source <https://github.com/richardcornish/django-roman>`_
+* `Documentation <https://django-roman.readthedocs.io/>`_
+* `Tests <https://app.travis-ci.com/github/richardcornish/django-roman>`_
+
+Install
+=======
+
+.. code-block:: bash
+
+   $ pip install django-roman
+
+Add to ``settings.py``.
+
+.. code-block:: python
+
+   INSTALLED_APPS = [
+       # ...
+       'roman',
+   ]
+
+Usage
+=====
+
+Use as a template tag.
+
+.. code-block:: django
+
+   {% load roman_tags %}
+
+   {% to_roman %}Party like it's 1999.{% endto_roman %}
+
+Or as a template filter.
+
+.. code-block:: django
+
+   {{ post.body|roman }}
+
+Result:
+
+.. code-block:: html
+
+   Party like it's MCMXCIX.
+
+
