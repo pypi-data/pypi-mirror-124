@@ -1,0 +1,40 @@
+from setuptools import setup, find_packages
+from os import path
+
+here = path.abspath(path.dirname(__file__))
+
+with open(path.join(here, "README.md"), encoding="utf-8") as f:
+    long_description = f.read()
+
+setup(
+    name="milena",
+    version="0.1.1",
+    description="Milena is a VoIP stack",
+    include_package_data=True,
+    license="MIT",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/Otoru/Milena",
+    author="Vitor Hugo de Oliveira Vargas",
+    author_email="contato@vitoru.dev",
+    classifiers=[
+        "Development Status :: 1 - Planning",
+        "License :: OSI Approved :: MIT License",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Information Technology",
+        "Intended Audience :: Telecommunications Industry",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Topic :: Communications :: Telephony",
+        "Topic :: Software Development",
+    ],
+    keywords="ESL, FreeSwitch",
+    packages=find_packages(exclude=["tests"]),
+    extras_require={"dev": ["tox", "black", "pytest"]},
+    zip_safe=False,
+    project_urls={
+        "Bug Reports": "https://github.com/Otoru/Milena/issues",
+        "Source Code": "https://github.com/Otoru/Milena",
+    },
+)
