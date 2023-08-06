@@ -1,0 +1,10 @@
+README.md
+setup.py
+notetask/__init__.py
+notetask.egg-info/PKG-INFO
+notetask.egg-info/SOURCES.txt
+notetask.egg-info/dependency_links.txt
+notetask.egg-info/requires.txt
+notetask.egg-info/top_level.txt
+notetask/task/__init__.py
+notetask/task/task1.py
