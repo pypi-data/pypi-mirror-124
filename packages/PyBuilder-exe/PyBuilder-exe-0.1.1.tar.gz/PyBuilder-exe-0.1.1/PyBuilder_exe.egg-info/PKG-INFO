@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: PyBuilder-exe
+Version: 0.1.1
+Summary: Build a python program as exe.
+Home-page: https://github.com/leocll/PyBuilder
+Author: leocll
+Author-email: leocll@qq.com
+License: MIT
+Description: UNKNOWN
+Keywords: PyBuilder pybuilder py2exe exe
+Platform: UNKNOWN
+Requires-Python: >=3.6

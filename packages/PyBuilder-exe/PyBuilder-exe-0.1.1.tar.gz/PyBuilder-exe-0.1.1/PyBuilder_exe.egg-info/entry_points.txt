@@ -1,0 +1,3 @@
+[console_scripts]
+PyBuilder = PyBuilder.main:run
+
