@@ -1,0 +1,13 @@
+pybengengphonetic/__init__.py,sha256=p_Dde5rwLIUiL9lJ3ksoE3rZ2wO7lKRxwYmp76fkRzA,1346
+pybengengphonetic/config.py,sha256=8vWGeADLxYMlJkmXKIrx-t4XMYPibgJhh_R_8GKqRRw,1830
+pybengengphonetic/conparse.py,sha256=kpX3qcYqePGylh69Un-49DFk-hf7B2lyLlfSJ9rwZEE,4575
+pybengengphonetic/hinavro.py,sha256=kdSWIJwd-pSN-QazPmuC_2C8BkYZ0q8FlK8l-FJz3VY,9857
+pybengengphonetic/resources/avrodict.json,sha256=VN2ldzUmCizB1DOetJ55174MGLqbu1DOqV-IKDJ708Y,18519
+pybengengphonetic/utils/__init__.py,sha256=3TRRRjiajhFTOYo_PT_-ssHinZeT8pb5fPAQrrdL4Yk,1480
+pybengengphonetic/utils/count.py,sha256=4WdI0eFLcCUwvYKWUSiupFlki5dJy49kbkRnVYg6m6U,1593
+pybengengphonetic/utils/validate.py,sha256=QjdT5Ba_Atc-kmZktpTjQUYKsa5yztszsCJ69cgHbCU,2609
+pybengengphonetic-1.2.0.dist-info/LICENSE,sha256=V9jvQLclae9MJ4Kzzc4wViFeBVYtV8PTlq4Ii5nM89Q,33091
+pybengengphonetic-1.2.0.dist-info/METADATA,sha256=WfgFPdts0stpJ6_M9POe2jH8aYYxeoOfoKlxCMh1cFE,6555
+pybengengphonetic-1.2.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pybengengphonetic-1.2.0.dist-info/top_level.txt,sha256=v7X7djYiZcLxDV9XE2GMsgKAYmElMg4b1JeBexomI0U,18
+pybengengphonetic-1.2.0.dist-info/RECORD,,
